@@ -413,11 +413,6 @@ void sub_528940()
 {
 }
 
-// STUB: 0x528B10 sub_528B10 (5 bytes)
-void sub_528B10()
-{
-}
-
 // STUB: 0x528B20 sub_528B20 (130 bytes)
 void sub_528B20()
 {

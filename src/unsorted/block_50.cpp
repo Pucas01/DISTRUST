@@ -33,11 +33,6 @@ void sub_5009F0()
 {
 }
 
-// STUB: 0x500AF0 sub_500AF0 (5 bytes)
-void sub_500AF0()
-{
-}
-
 // STUB: 0x500B00 sub_500B00 (106 bytes)
 void sub_500B00()
 {

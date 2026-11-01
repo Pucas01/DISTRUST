@@ -124,6 +124,4 @@ jobs:
         with:
           name: progress
           path: |
-            docs/index.html
-            docs/progress.svg
-            assets/badge.svg
+            build/progress/

@@ -133,11 +133,6 @@ void sub_5B2B40()
 {
 }
 
-// STUB: 0x5B2B60 sub_5B2B60 (5 bytes)
-void sub_5B2B60()
-{
-}
-
 // STUB: 0x5B2B70 sub_5B2B70 (237 bytes)
 void sub_5B2B70()
 {

@@ -85,6 +85,29 @@ def scan_sources():
     return done, taken, deletable
 
 
+STUB_BLOCK = re.compile(r"// STUB: (0x[0-9A-Fa-f]+) [^\n]*\n[^\n]*\n\{\n\}\n\n?")
+
+
+def drop_finished_stubs(done):
+    removed = 0
+    for path in (ROOT / "src").rglob("*.cpp"):
+        text = path.read_text()
+        defined = {int(m.group(1), 16) for m in map(MARKER.match, text.splitlines()) if m}
+
+        def keep(match):
+            nonlocal removed
+            address = int(match.group(1), 16)
+            if address in done and address not in defined:
+                removed += 1
+                return ""
+            return match.group(0)
+
+        updated = STUB_BLOCK.sub(keep, text)
+        if updated != text:
+            path.write_text(updated)
+    return removed
+
+
 def identifier(name):
     name = safe(name)
     return name if name and not name[0].isdigit() else "f_" + name
@@ -142,6 +165,9 @@ def main():
     symbols = load_symbols()
     print("read %d functions, %d classes, %d names" % (len(functions), len(classes), len(symbols)), flush=True)
     done, taken, deletable = scan_sources()
+    removed = drop_finished_stubs(done)
+    if removed:
+        print("removed %d stubs for functions that are rewritten elsewhere" % removed, flush=True)
     print("found %d rewritten functions, %d regenerable files" % (len(done), len(deletable)), flush=True)
     owners = assign_owners(classes)
 
