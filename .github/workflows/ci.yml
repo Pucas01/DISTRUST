@@ -1,0 +1,112 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  decomp:
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
+    runs-on: [self-hosted, linux, distrust]
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          clean: false
+
+      - name: Link the game executable
+        run: |
+          test -n "$DR1_EXE" || { echo "DR1_EXE is not set in the runner's .env file"; exit 1; }
+          mkdir -p orig
+          [ -e orig/DR1_us.exe ] || ln -s "$DR1_EXE" orig/DR1_us.exe
+          echo "e7881c959012c2d565070218b7f6c0d4795f21af  orig/DR1_us.exe" | sha1sum -c -
+
+      - name: Configure
+        run: python3 configure.py
+
+      - name: Check every rewritten function
+        env:
+          VERBOSE: "1"
+        run: ninja report
+
+      - name: Compile the stub files
+        run: ninja all
+
+      - name: Progress
+        run: ninja progress
+
+      - name: Snapshot this commit
+        if: always() && github.event_name == 'pull_request'
+        run: python3 tools/pr_report.py snapshot "$RUNNER_TEMP/head.json"
+
+      - name: Build the base commit
+        if: always() && github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: |
+          base="$RUNNER_TEMP/base"
+          git worktree prune
+          git worktree add --detach "$base" "$BASE_SHA"
+          for name in toolchain external orig; do
+            rm -rf "${base:?}/${name:?}"
+            ln -s "$PWD/$name" "${base:?}/${name:?}"
+          done
+          (cd "$base" && python3 configure.py && { ninja report || true; })
+          python3 tools/pr_report.py snapshot "$RUNNER_TEMP/base.json" --root "$base"
+
+      - name: Write the pull request report
+        if: always() && github.event_name == 'pull_request'
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          python3 tools/pr_report.py diff "$RUNNER_TEMP/base.json" "$RUNNER_TEMP/head.json" \
+            --base-sha "$BASE_SHA" --head-sha "$HEAD_SHA" > "$RUNNER_TEMP/comment.md"
+          cat "$RUNNER_TEMP/comment.md"
+
+      - name: Comment on the pull request
+        if: always() && github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require("fs");
+            const body = fs.readFileSync(process.env.RUNNER_TEMP + "/comment.md", "utf8");
+            const marker = "<!-- distrust-ci -->";
+            const { owner, repo } = context.repo;
+            const issue_number = context.issue.number;
+            const comments = await github.paginate(github.rest.issues.listComments, { owner, repo, issue_number });
+            const mine = comments.find((c) => c.body && c.body.includes(marker));
+            if (mine) {
+              await github.rest.issues.updateComment({ owner, repo, comment_id: mine.id, body });
+            } else {
+              await github.rest.issues.createComment({ owner, repo, issue_number, body });
+            }
+
+      - name: Remove the base worktree
+        if: always() && github.event_name == 'pull_request'
+        run: |
+          base="$RUNNER_TEMP/base"
+          for name in toolchain external orig; do
+            [ -L "${base:?}/${name:?}" ] && rm "${base:?}/${name:?}"
+          done
+          git worktree remove --force "$base" || true
+          git worktree prune
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: progress
+          path: |
+            docs/index.html
+            docs/progress.svg
+            assets/badge.svg
