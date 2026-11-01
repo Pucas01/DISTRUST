@@ -379,6 +379,18 @@
       margin: 0 14px 64px 0;
     }
 
+    .chart {
+      overflow-x: auto;
+      margin-bottom: 56px;
+    }
+
+    .chart svg {
+      display: block;
+      width: 100%;
+      min-width: 640px;
+      height: auto;
+    }
+
     canvas {
       display: block;
       width: 100%;
@@ -583,6 +595,14 @@
         </div>
       </dl>
     </section>
+    <section aria-label="Progress over time">
+      <div class="maphead">
+        <h2>Over time</h2>
+      </div>
+      <div class="frame chart" tabindex="0">
+        {{history}}
+      </div>
+    </section>
     <section aria-label="Function map">
       <div class="maphead">
         <h2>Function map</h2>
@@ -659,6 +679,8 @@
     const canvas = document.getElementById("map"), ctx = canvas.getContext("2d");
     const base = document.createElement("canvas"), bctx = base.getContext("2d");
     const tip = document.getElementById("tip");
+    const chart = document.querySelector(".chart");
+    chart.scrollLeft = chart.scrollWidth;
     document.getElementById("static").hidden = true;
     document.getElementById("nojs").hidden = true;
     canvas.hidden = false;

@@ -3,6 +3,8 @@ import collections
 import datetime
 import html
 import json
+import re
+import subprocess
 import sys
 
 from dr1lib import ROOT
@@ -101,7 +103,144 @@ def badge(label, values):
     return "\n".join(parts) + "\n"
 
 
-def write_page(groups, stats):
+HISTORY = ROOT / "config" / "history.tsv"
+HISTORY_COLUMNS = ("time", "matched", "partial", "total", "bytesMatched", "bytesTotal")
+
+
+def read_history():
+    rows = []
+    if HISTORY.exists():
+        for line in HISTORY.read_text().splitlines():
+            if line and not line.startswith("#"):
+                cols = line.split("\t")
+                rows.append((cols[0],) + tuple(int(c) for c in cols[1:]))
+    return rows
+
+
+def history_from_git(stats):
+    sizes = {}
+    for line in (ROOT / "config" / "functions.tsv").read_text().splitlines()[1:]:
+        cols = line.split("\t")
+        sizes[int(cols[0], 16)] = int(cols[2])
+    log = subprocess.run(["git", "log", "--format=%H %aI", "--reverse"], cwd=ROOT, capture_output=True, text=True)
+    rows = []
+    for entry in filter(None, log.stdout.split("\n")):
+        commit, when = entry.split()
+        grep = subprocess.run(["git", "grep", "-h", "-E", "^// FUNCTION: 0x", commit, "--", "src"],
+                              cwd=ROOT, capture_output=True, text=True)
+        found = {int(a, 16) for a in re.findall(r"FUNCTION: (0x[0-9A-Fa-f]+)", grep.stdout)}
+        row = (when, len(found), 0, stats["total"], sum(sizes.get(a, 0) for a in found), stats["bytesTotal"])
+        if not rows or rows[-1][1:] != row[1:]:
+            rows.append(row)
+    return rows
+
+
+def current_row(stats):
+    return (datetime.datetime.now().astimezone().isoformat(timespec="seconds"),
+            stats["matched"], stats["partial"], stats["total"], stats["bytesMatched"], stats["bytesTotal"])
+
+
+def record_history(stats):
+    rows = read_history() if HISTORY.exists() else history_from_git(stats)
+    row = current_row(stats)
+    if not rows or rows[-1][1:] != row[1:]:
+        rows.append(row)
+    HISTORY.write_text("# " + "\t".join(HISTORY_COLUMNS) + "\n" + "".join(
+        "\t".join(str(c) for c in r) + "\n" for r in rows))
+    return rows
+
+
+def nice_step(top, ticks=4):
+    raw = max(top, 1) / ticks
+    scale = 10 ** (len(str(int(raw))) - 1) if raw >= 1 else 1
+    for factor in (1, 2, 5, 10):
+        if raw <= factor * scale:
+            return factor * scale
+    return 10 * scale
+
+
+def history_svg(rows):
+    width, height = 1200, 360
+    left, right, top, bottom = 70, 40, 30, 52
+    font = "font-family:Segoe UI,system-ui,sans-serif"
+    started = [datetime.datetime.fromisoformat(r[0]) for r in rows]
+    peak = max(r[1] + r[2] for r in rows)
+    step = nice_step(peak)
+    ceiling = step * (int(peak / step) + 1)
+    plot_w, plot_h = width - left - right, height - top - bottom
+    span = (started[-1] - started[0]).total_seconds()
+
+    def x_of(i):
+        return left + plot_w / 2 if span <= 0 else left + plot_w * (started[i] - started[0]).total_seconds() / span
+
+    def y_of(value):
+        return top + plot_h * (1 - value / ceiling)
+
+    parts = [
+        '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 %d %d" role="img" '
+        'aria-label="Functions matched over time, now %d">' % (width, height, rows[-1][1]),
+        "<style>text{%s}.h-t,.h-g{opacity:0;pointer-events:none}.h-p:hover .h-t,.h-p:hover .h-g,"
+        ".h-p:focus .h-t,.h-p:focus .h-g{opacity:1}.h-p:hover .h-d,.h-p:focus .h-d{r:8}.h-p{outline:none}</style>" % font,
+        '<rect width="%d" height="%d" fill="#000"/>' % (width, height),
+    ]
+    value = 0
+    while value <= ceiling:
+        y = y_of(value)
+        parts.append('<line x1="%d" x2="%d" y1="%.1f" y2="%.1f" stroke="#2a2a2a" stroke-width="1"/>'
+                     % (left, width - right, y, y))
+        parts.append('<text x="%d" y="%.1f" fill="#a6a6a6" font-size="17" text-anchor="end">%s</text>'
+                     % (left - 12, y + 6, "{:,}".format(value)))
+        value += step
+    ticks = 5 if span > 0 else 0
+    for k in range(ticks):
+        moment = started[0] + (started[-1] - started[0]) * k / (ticks - 1)
+        label = moment.strftime("%d %b") if span > 2 * 86400 else moment.strftime("%H:%M")
+        x = left + plot_w * k / (ticks - 1)
+        parts.append('<text x="%.1f" y="%d" fill="#a6a6a6" font-size="17" text-anchor="middle">%s</text>'
+                     % (x, height - bottom + 28, label))
+    if 0 < span <= 2 * 86400:
+        parts.append('<text x="%d" y="%d" fill="#6c6c6c" font-size="15" text-anchor="end">%s</text>'
+                     % (width - right, height - 8, started[-1].strftime("%d %b %Y")))
+    if any(r[2] for r in rows):
+        points = " ".join("%.1f,%.1f" % (x_of(i), y_of(r[1] + r[2])) for i, r in enumerate(rows))
+        parts.append('<polyline points="%s" fill="none" stroke="#ff8a00" stroke-width="3" stroke-linejoin="round"/>' % points)
+    if len(rows) > 1:
+        line = ["%.1f,%.1f" % (x_of(i), y_of(r[1])) for i, r in enumerate(rows)]
+        area = line + ["%.1f,%.1f" % (x_of(len(rows) - 1), y_of(0)), "%.1f,%.1f" % (x_of(0), y_of(0))]
+        parts.append('<polygon points="%s" fill="#22e05a" fill-opacity=".14"/>' % " ".join(area))
+        parts.append('<polyline points="%s" fill="none" stroke="#22e05a" stroke-width="4" stroke-linejoin="round"/>' % " ".join(line))
+    for i, r in enumerate(rows):
+        x, y = x_of(i), y_of(r[1])
+        lo = left if i == 0 else (x_of(i - 1) + x) / 2
+        hi = width - right if i == len(rows) - 1 else (x + x_of(i + 1)) / 2
+        pct = 100.0 * r[4] / r[5] if r[5] else 0.0
+        box_w, box_h = 250, 92
+        bx = x - box_w - 16 if x > width * 0.6 else x + 16
+        by = min(max(y - box_h / 2, top), height - bottom - box_h)
+        parts.append('<g class="h-p" tabindex="0">')
+        parts.append('<rect x="%.1f" y="%d" width="%.1f" height="%d" fill="transparent"/>' % (lo, top, hi - lo, plot_h))
+        parts.append('<line class="h-g" x1="%.1f" x2="%.1f" y1="%d" y2="%d" stroke="#fff" stroke-opacity=".35" stroke-width="2"/>'
+                     % (x, x, top, top + plot_h))
+        parts.append('<circle class="h-d" cx="%.1f" cy="%.1f" r="6" fill="#22e05a" stroke="#000" stroke-width="3"/>' % (x, y))
+        parts.append('<g class="h-t"><rect x="%.1f" y="%.1f" width="%d" height="%d" fill="#ff1f00"/>'
+                     '<rect x="%.1f" y="%.1f" width="%d" height="%d" fill="#fff"/>' % (bx + 6, by + 6, box_w, box_h, bx, by, box_w, box_h))
+        parts.append('<text x="%.1f" y="%.1f" fill="#000" font-size="16" font-weight="700">%s</text>'
+                     % (bx + 14, by + 26, started[i].strftime("%d %b %Y, %H:%M")))
+        parts.append('<text x="%.1f" y="%.1f" fill="#000" font-size="20" font-weight="900">%s matched</text>'
+                     % (bx + 14, by + 52, "{:,}".format(r[1])))
+        parts.append('<text x="%.1f" y="%.1f" fill="#333" font-size="16">%.2f%% of code%s</text></g>'
+                     % (bx + 14, by + 76, pct, "" if not r[2] else ", %d non matching" % r[2]))
+        parts.append("</g>")
+    parts.append('<text x="%d" y="%d" fill="#22e05a" font-size="20" font-weight="900" text-anchor="end">%s now</text>'
+                 % (width - right, top - 8, "{:,}".format(rows[-1][1])))
+    if len(rows) < 2:
+        parts.append('<text x="%d" y="%d" fill="#a6a6a6" font-size="18" text-anchor="middle">'
+                     'More points appear as progress is recorded.</text>' % (width // 2, height // 2 - 40))
+    parts.append("</svg>")
+    return "\n".join(parts) + "\n"
+
+
+def write_page(groups, stats, rows):
     index = {"stub": 0, "partial": 1, "match": 2}
     data = {
         "groups": [{"f": "%s/%s" % key, "n": [[address, size, index[state], name] for size, state, name, address in items]}
@@ -113,7 +252,8 @@ def write_page(groups, stats):
     share = 100.0 * stats["matched"] / stats["total"] if stats["total"] else 0.0
     tokens = {"matched": "{:,}".format(stats["matched"]), "total": "{:,}".format(stats["total"]), "code": "%.2f" % code,
               "partial": "{:,}".format(stats["partial"]), "files": "{:,}".format(len(groups)), "updated": stats["updated"],
-              "fnbar": "%.2f" % (max(share, 1.5) if share > 0 else 0)}
+              "fnbar": "%.2f" % (max(share, 1.5) if share > 0 else 0),
+              "history": history_svg(rows)}
     for key, value in tokens.items():
         template = template.replace("{{%s}}" % key, value)
     page = template.replace("/*DATA*/null", json.dumps(data, separators=(",", ":")).replace("</", "<\\/"))
@@ -170,7 +310,9 @@ def main():
         "bytesTotal": total_bytes,
         "updated": datetime.date.today().isoformat(),
     }
-    page = write_page(groups, stats)
+    rows = record_history(stats) if "--record" in sys.argv else (read_history() or [current_row(stats)])
+    (ROOT / "docs" / "history.svg").write_text(history_svg(rows))
+    page = write_page(groups, stats, rows)
     function_percent = 100.0 * len(matched) / total_functions if total_functions else 0.0
     (ROOT / "assets" / "badge.svg").write_text(
         badge("DR1_us", ["code %.2f%%" % percent, "functions %.2f%%" % function_percent]))
