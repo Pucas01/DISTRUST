@@ -1,0 +1,17 @@
+# Where functions live. First matching class rule wins; class names come from config/classes.tsv.
+# regex<TAB>folder
+@crt_start	0x5C6000
+^(Concurrency|_Malloca|Cancellation|ThreadProxy)	lib/concrt
+^utf8	lib/utf8
+^(std::|type_info|_Node|_Ref)	lib/std
+^(NewAllocator|VAgResource|Ag(Render|Resource|PlatformRender|PlatformResource|Shader|Texture|VertexBuffer|IndexBuffer|Constants|FakeResource|Display)|RenderJob|AgReference<Ag(Resource|IndexBuffer|ShaderProgram|VertexBuffer)>)	engine/render
+^(AgAudio|AudioStream|AgReference<AgAudioSource>)	engine/audio
+^AgMoviePlayer	engine/movie
+^(AgArchive|AgFile|AgDirectory|AgStream|AgMount|AgVirtual|AgPCFile|AgPCStorage|AgMemoryStream|AgAsyncStream|AgDelayedSave|AgReference<AgArchive>|AgReference<AgMount>|DRFileIOHost)	engine/io
+^(AgInput|AgController|AgSDL|AgStandard|AgPCInput)	engine/input
+^(AgThread|AgSimpleThread|AgPriority|AgWorker|AgIThread|ThreadHost|AgUpdateSystemThread)	engine/thread
+^AgJson	engine/json
+^(AgHttp|AgNetwork|AgSteamworks|AgSession|AgDefaultSession|AgLeaderboard|AgDefaultLeaderboard|AgUser|AgDefaultUser|AgProfile|AgDefaultProfile|AgServiceEvent|AgDefaultServiceEvent|AgPlayer|AgMicroTransaction|AgDialog|AgDefaultDialog)	engine/online
+^(AgSystem|AgPCSystem|AgExceptionHandler|AgPCExceptionHandler|AgAllocators|AgPCAllocators|AgLocalization|AgBusyScreen|AgProgram)	engine/system
+^(DR|CCallback|Z::|\$)	game
+^Ag	engine/core

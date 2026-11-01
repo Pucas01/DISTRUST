@@ -1,0 +1,4 @@
+# address	name	kind
+0x73ED64	g_table	data
+0x7405EC	g_entryTable	data
+0x7483E8	g_bitMask	data

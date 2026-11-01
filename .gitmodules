@@ -1,0 +1,3 @@
+[submodule "external/wibo"]
+	path = external/wibo
+	url = https://github.com/Pucas01/wibo.git
