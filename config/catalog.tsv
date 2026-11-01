@@ -18,7 +18,7 @@
 0x401C00	77	sub_401C00		unsorted	block_40	unknown	stub
 0x401C50	77	sub_401C50		unsorted	block_40	unknown	stub
 0x401CA0	57	sub_401CA0		unsorted	block_40	unknown	stub
-0x401CE0	6	sub_401CE0		unsorted	block_40	unknown	stub
+0x401CE0	6	sub_401CE0		unsorted	constants	unknown	done
 0x401CF0	70	sub_401CF0		unsorted	block_40	unknown	stub
 0x401D40	117	sub_401D40		unsorted	block_40	unknown	stub
 0x401DC0	58	sub_401DC0		unsorted	block_40	unknown	stub
@@ -346,7 +346,7 @@
 0x41A940	13	sub_41A940		unsorted	block_41	unknown	stub
 0x41A950	326	sub_41A950		unsorted	block_41	unknown	stub
 0x41AAA0	63	sub_41AAA0		unsorted	block_41	unknown	stub
-0x41AAE0	6	sub_41AAE0		unsorted	block_41	unknown	stub
+0x41AAE0	6	sub_41AAE0		unsorted	global_getters	unknown	done
 0x41AAF0	55	sub_41AAF0		unsorted	block_41	unknown	stub
 0x41AB30	215	sub_41AB30		unsorted	block_41	unknown	stub
 0x41AC10	477	sub_41AC10		unsorted	block_41	unknown	stub
@@ -381,7 +381,7 @@
 0x41D8F0	187	sub_41D8F0		unsorted	block_41	unknown	stub
 0x41D9B0	200	sub_41D9B0		unsorted	block_41	unknown	stub
 0x41DAE0	2982	sub_41DAE0		unsorted	block_41	unknown	stub
-0x41E690	12	sub_41E690		unsorted	block_41	unknown	stub
+0x41E690	12	sub_41E690		unsorted	global_tests	unknown	done
 0x41E6A0	159	sub_41E6A0		unsorted	block_41	unknown	stub
 0x41E740	103	sub_41E740		unsorted	block_41	unknown	stub
 0x41E7B0	174	sub_41E7B0		unsorted	block_41	unknown	stub
@@ -436,10 +436,10 @@
 0x4230F0	271	sub_4230F0		unsorted	block_42	unknown	stub
 0x423200	54	sub_423200		unsorted	block_42	unknown	stub
 0x423240	13	sub_423240		unsorted	block_42	unknown	stub
-0x423250	11	sub_423250		unsorted	block_42	unknown	stub
+0x423250	11	sub_423250		unsorted	global_setters	unknown	done
 0x423260	28	sub_423260		unsorted	block_42	unknown	stub
 0x423280	13	sub_423280		unsorted	block_42	unknown	stub
-0x423290	11	sub_423290		unsorted	block_42	unknown	stub
+0x423290	11	sub_423290		unsorted	global_setters	unknown	done
 0x4232A0	13	sub_4232A0		unsorted	block_42	unknown	stub
 0x4232B0	38	sub_4232B0		unsorted	block_42	unknown	stub
 0x4232E0	615	sub_4232E0		unsorted	block_42	unknown	stub
@@ -459,7 +459,7 @@
 0x42B980	1967	sub_42B980		unsorted	block_42	unknown	stub
 0x42C130	517	sub_42C130		unsorted	block_42	unknown	stub
 0x42C340	78	sub_42C340		unsorted	block_42	unknown	stub
-0x42C390	12	sub_42C390		unsorted	block_42	unknown	stub
+0x42C390	12	sub_42C390		unsorted	global_tests	unknown	done
 0x42C3A0	46	sub_42C3A0		unsorted	block_42	unknown	stub
 0x42C3D0	501	sub_42C3D0		unsorted	block_42	unknown	stub
 0x42C5D0	136	sub_42C5D0		unsorted	block_42	unknown	stub
@@ -479,10 +479,10 @@
 0x42EBB0	1677	sub_42EBB0		unsorted	block_42	unknown	stub
 0x42F240	24	sub_42F240		unsorted	block_42	unknown	stub
 0x42F260	4971	sub_42F260		unsorted	block_42	unknown	stub
-0x4305D0	12	sub_4305D0		unsorted	block_43	unknown	stub
+0x4305D0	12	sub_4305D0		unsorted	global_tests	unknown	done
 0x4305E0	25	sub_4305E0		unsorted	block_43	unknown	stub
 0x430600	21	sub_430600		unsorted	block_43	unknown	stub
-0x430620	8	sub_430620		unsorted	block_43	unknown	stub
+0x430620	8	sub_430620		unsorted	global_setters	unknown	done
 0x430630	1067	sub_430630		unsorted	block_43	unknown	stub
 0x430A60	125	sub_430A60		unsorted	block_43	unknown	stub
 0x430AE0	384	sub_430AE0		unsorted	block_43	unknown	stub
@@ -509,7 +509,7 @@
 0x4329D0	884	sub_4329D0		unsorted	block_43	unknown	stub
 0x432D50	15	sub_432D50		unsorted	block_43	unknown	stub
 0x432D60	288	sub_432D60		unsorted	block_43	unknown	stub
-0x432E80	11	sub_432E80		unsorted	block_43	unknown	stub
+0x432E80	11	sub_432E80		unsorted	global_tests	unknown	done
 0x432E90	71	sub_432E90		unsorted	block_43	unknown	stub
 0x432EE0	14	sub_432EE0		unsorted	block_43	unknown	stub
 0x432EF0	323	sub_432EF0		unsorted	block_43	unknown	stub
@@ -541,7 +541,7 @@
 0x434F60	77	sub_434F60		unsorted	block_43	unknown	stub
 0x434FB0	142	sub_434FB0		unsorted	block_43	unknown	stub
 0x435040	43	sub_435040		unsorted	block_43	unknown	stub
-0x435070	11	sub_435070		unsorted	block_43	unknown	stub
+0x435070	11	sub_435070		unsorted	global_setters	unknown	done
 0x435080	25	sub_435080		unsorted	block_43	unknown	stub
 0x4350A0	13	sub_4350A0		unsorted	block_43	unknown	stub
 0x4350B0	85	sub_4350B0		unsorted	block_43	unknown	stub
@@ -549,7 +549,7 @@
 0x435170	91	sub_435170		unsorted	block_43	unknown	stub
 0x4351D0	72	sub_4351D0		unsorted	block_43	unknown	stub
 0x435220	82	sub_435220		unsorted	block_43	unknown	stub
-0x435280	8	sub_435280		unsorted	block_43	unknown	stub
+0x435280	8	sub_435280		unsorted	global_getters	unknown	done
 0x435290	153	sub_435290		unsorted	block_43	unknown	stub
 0x435330	69	sub_435330		unsorted	block_43	unknown	stub
 0x435380	90	sub_435380		unsorted	block_43	unknown	stub
@@ -573,7 +573,7 @@
 0x435BA0	107	sub_435BA0		unsorted	block_43	unknown	stub
 0x435C10	122	sub_435C10		unsorted	block_43	unknown	stub
 0x435C90	102	sub_435C90		unsorted	block_43	unknown	stub
-0x435D00	8	sub_435D00		unsorted	block_43	unknown	stub
+0x435D00	8	sub_435D00		unsorted	global_getters	unknown	done
 0x435D10	39	sub_435D10		unsorted	block_43	unknown	stub
 0x435D40	54	sub_435D40		unsorted	block_43	unknown	stub
 0x435D80	388	sub_435D80		unsorted	block_43	unknown	stub
@@ -587,7 +587,7 @@
 0x4360B0	115	sub_4360B0		unsorted	block_43	unknown	stub
 0x436130	47	sub_436130		unsorted	block_43	unknown	stub
 0x436160	71	sub_436160		unsorted	block_43	unknown	stub
-0x4361B0	6	sub_4361B0		unsorted	block_43	unknown	stub
+0x4361B0	6	sub_4361B0		unsorted	constants	unknown	done
 0x4361C0	66	sub_4361C0		unsorted	block_43	unknown	stub
 0x436210	4314	sub_436210		unsorted	block_43	unknown	stub
 0x4372F0	2056	sub_4372F0		unsorted	block_43	unknown	stub
@@ -647,11 +647,11 @@
 0x4411E0	45	sub_4411E0		unsorted	block_44	unknown	stub
 0x441210	516	sub_441210		unsorted	block_44	unknown	stub
 0x441420	84	sub_441420		unsorted	block_44	unknown	stub
-0x441480	11	sub_441480		unsorted	block_44	unknown	stub
+0x441480	11	sub_441480		unsorted	global_setters	unknown	done
 0x441490	22	sub_441490		unsorted	block_44	unknown	stub
 0x4414B0	101	sub_4414B0		unsorted	block_44	unknown	stub
 0x441520	29	sub_441520		unsorted	block_44	unknown	stub
-0x441540	12	sub_441540		unsorted	block_44	unknown	stub
+0x441540	12	sub_441540		unsorted	global_tests	unknown	done
 0x441550	64	sub_441550		unsorted	block_44	unknown	stub
 0x441590	50	sub_441590		unsorted	block_44	unknown	stub
 0x4415D0	280	sub_4415D0		unsorted	block_44	unknown	stub
@@ -664,7 +664,7 @@
 0x441A80	63	sub_441A80		unsorted	block_44	unknown	stub
 0x441AC0	182	sub_441AC0		unsorted	block_44	unknown	stub
 0x441B80	110	sub_441B80		unsorted	block_44	unknown	stub
-0x441BF0	12	sub_441BF0		unsorted	block_44	unknown	stub
+0x441BF0	12	sub_441BF0		unsorted	global_tests	unknown	done
 0x441C00	71	sub_441C00		unsorted	block_44	unknown	stub
 0x441C50	51	sub_441C50		unsorted	block_44	unknown	stub
 0x441C90	13	sub_441C90		unsorted	block_44	unknown	stub
@@ -830,16 +830,16 @@
 0x4628E0	195	sub_4628E0		unsorted	block_46	unknown	stub
 0x4629B0	86	sub_4629B0		unsorted	block_46	unknown	stub
 0x462A10	325	sub_462A10		unsorted	block_46	unknown	stub
-0x462B60	6	sub_462B60		unsorted	block_46	unknown	stub
+0x462B60	6	sub_462B60		unsorted	global_getters	unknown	done
 0x462B70	462	sub_462B70		unsorted	block_46	unknown	stub
-0x462D40	6	sub_462D40		unsorted	block_46	unknown	stub
+0x462D40	6	sub_462D40		unsorted	global_getters	unknown	done
 0x462D50	13	sub_462D50		unsorted	block_46	unknown	stub
 0x462D60	24	sub_462D60		unsorted	block_46	unknown	stub
 0x462D80	27	sub_462D80		unsorted	block_46	unknown	stub
 0x462DA0	52	sub_462DA0		unsorted	block_46	unknown	stub
 0x462DE0	23	sub_462DE0		unsorted	block_46	unknown	stub
 0x462E00	28	sub_462E00		unsorted	block_46	unknown	stub
-0x462E20	6	sub_462E20		unsorted	block_46	unknown	stub
+0x462E20	6	sub_462E20		unsorted	global_getters	unknown	done
 0x462E30	13	sub_462E30		unsorted	block_46	unknown	stub
 0x462E40	48	sub_462E40		unsorted	block_46	unknown	stub
 0x462E70	103	sub_462E70		unsorted	block_46	unknown	stub
@@ -982,7 +982,7 @@
 0x46DAD0	56	sub_46DAD0		unsorted	block_46	unknown	stub
 0x46DB10	53	sub_46DB10		unsorted	block_46	unknown	stub
 0x46DB50	63	sub_46DB50		unsorted	block_46	unknown	stub
-0x46DB90	74	sub_46DB90		unsorted	block_46	unknown	stub
+0x46DB90	74	resetVertexColors		unsorted	block_46	unknown	stub
 0x46DBE0	46	sub_46DBE0		unsorted	block_46	unknown	stub
 0x46DC10	46	sub_46DC10		unsorted	block_46	unknown	stub
 0x46DC40	56	sub_46DC40		unsorted	block_46	unknown	stub
@@ -1014,7 +1014,7 @@
 0x46ECB0	7546	sub_46ECB0		unsorted	block_46	unknown	stub
 0x470C30	16	sub_470C30		unsorted	block_47	unknown	stub
 0x470C40	16	sub_470C40		unsorted	block_47	unknown	stub
-0x470C50	6	sub_470C50		unsorted	block_47	unknown	stub
+0x470C50	6	sub_470C50		unsorted	constants	unknown	done
 0x470C60	18	sub_470C60		unsorted	block_47	unknown	stub
 0x470C80	16	sub_470C80		unsorted	block_47	unknown	stub
 0x470C90	18	sub_470C90		unsorted	block_47	unknown	stub
@@ -1068,8 +1068,8 @@
 0x473BA0	130	sub_473BA0		unsorted	block_47	unknown	stub
 0x473C40	27	sub_473C40		unsorted	block_47	unknown	stub
 0x473C60	82	sub_473C60		unsorted	block_47	unknown	stub
-0x473D00	6	sub_473D00		unsorted	block_47	unknown	stub
-0x473D10	6	sub_473D10		unsorted	block_47	unknown	stub
+0x473D00	6	getColorTableA		unsorted	block_47	unknown	stub
+0x473D10	6	getColorTableB		unsorted	block_47	unknown	stub
 0x473D20	135	sub_473D20		unsorted	block_47	unknown	stub
 0x473DB0	132	sub_473DB0		unsorted	block_47	unknown	stub
 0x473E40	40	sub_473E40		unsorted	block_47	unknown	stub
@@ -1079,7 +1079,7 @@
 0x474180	225	sub_474180		unsorted	block_47	unknown	stub
 0x474270	15	sub_474270		unsorted	block_47	unknown	stub
 0x474280	123	sub_474280		unsorted	block_47	unknown	stub
-0x474300	12	sub_474300		unsorted	block_47	unknown	stub
+0x474300	12	sub_474300		unsorted	global_tests	unknown	done
 0x474310	9	sub_474310		unsorted	block_47	unknown	stub
 0x474320	158	sub_474320		unsorted	block_47	unknown	stub
 0x4743C0	20	sub_4743C0		unsorted	block_47	unknown	stub
@@ -1092,12 +1092,12 @@
 0x474B60	122	sub_474B60		unsorted	block_47	unknown	stub
 0x474BE0	147	sub_474BE0		unsorted	block_47	unknown	stub
 0x474C90	92	sub_474C90		unsorted	block_47	unknown	stub
-0x474CF0	6	sub_474CF0		unsorted	block_47	unknown	stub
+0x474CF0	6	sub_474CF0		unsorted	constants	unknown	done
 0x474D00	82	sub_474D00		unsorted	block_47	unknown	stub
 0x474DA0	166	sub_474DA0		unsorted	block_47	unknown	stub
 0x474E50	147	sub_474E50		unsorted	block_47	unknown	stub
 0x474F10	57	sub_474F10		unsorted	block_47	unknown	stub
-0x474F70	311	sub_474F70		unsorted	block_47	unknown	stub
+0x474F70	311	clearMapState		unsorted	block_47	unknown	stub
 0x4750B0	352	sub_4750B0		unsorted	block_47	unknown	stub
 0x475210	278	sub_475210		unsorted	block_47	unknown	stub
 0x475330	668	sub_475330		unsorted	block_47	unknown	stub
@@ -1212,9 +1212,9 @@
 0x47C590	678	sub_47C590		unsorted	block_47	unknown	stub
 0x47C840	416	sub_47C840		unsorted	block_47	unknown	stub
 0x47CAA0	333	sub_47CAA0		unsorted	block_47	unknown	stub
-0x47CBF0	576	sub_47CBF0		unsorted	block_47	unknown	stub
+0x47CBF0	576	loadMapTextures		unsorted	block_47	unknown	stub
 0x47CE30	44	sub_47CE30		unsorted	block_47	unknown	stub
-0x47CED0	91	sub_47CED0		unsorted	block_47	unknown	stub
+0x47CED0	91	openMap		game	map_state	unknown	done
 0x47CFD0	182	sub_47CFD0		unsorted	block_47	unknown	stub
 0x47D0E0	89	sub_47D0E0		unsorted	block_47	unknown	stub
 0x47D140	3199	sub_47D140		unsorted	block_47	unknown	stub
@@ -1231,7 +1231,7 @@
 0x47E7E0	546	sub_47E7E0		unsorted	block_47	unknown	stub
 0x47EA10	462	sub_47EA10		unsorted	block_47	unknown	stub
 0x47EBE0	346	sub_47EBE0		unsorted	block_47	unknown	stub
-0x47ED40	6	sub_47ED40		unsorted	block_47	unknown	stub
+0x47ED40	6	sub_47ED40		unsorted	global_getters	unknown	done
 0x47ED50	18	sub_47ED50		unsorted	block_47	unknown	stub
 0x47ED70	124	sub_47ED70		unsorted	block_47	unknown	stub
 0x47EDF0	345	sub_47EDF0		unsorted	block_47	unknown	stub
@@ -1251,7 +1251,7 @@
 0x4801E0	32	sub_4801E0		unsorted	block_48	unknown	stub
 0x480200	207	sub_480200		unsorted	block_48	unknown	stub
 0x4802D0	663	sub_4802D0		unsorted	block_48	unknown	stub
-0x480570	6	sub_480570		unsorted	block_48	unknown	stub
+0x480570	6	sub_480570		unsorted	global_getters	unknown	done
 0x480580	240	sub_480580		unsorted	block_48	unknown	stub
 0x480670	224	sub_480670		unsorted	block_48	unknown	stub
 0x4807A0	78	sub_4807A0		unsorted	block_48	unknown	stub
@@ -1264,9 +1264,9 @@
 0x480BE0	151	sub_480BE0		unsorted	block_48	unknown	stub
 0x480D00	294	sub_480D00		unsorted	block_48	unknown	stub
 0x480E30	201	sub_480E30		unsorted	block_48	unknown	stub
-0x480F00	72	sub_480F00		unsorted	block_48	unknown	stub
+0x480F00	72	resetMapState		game	map_state	unknown	done
 0x480FD0	264	sub_480FD0		unsorted	block_48	unknown	stub
-0x4810E0	15	sub_4810E0		unsorted	block_48	unknown	stub
+0x4810E0	15	restartFade		game	map_state	unknown	done
 0x4811E0	241	sub_4811E0		unsorted	block_48	unknown	stub
 0x4812E0	111	sub_4812E0		unsorted	block_48	unknown	stub
 0x481350	941	sub_481350		unsorted	block_48	unknown	stub
@@ -1292,29 +1292,29 @@
 0x4834E0	69	sub_4834E0		unsorted	block_48	unknown	stub
 0x483530	292	sub_483530		unsorted	block_48	unknown	stub
 0x483660	84	sub_483660		unsorted	block_48	unknown	stub
-0x4836F0	90	sub_4836F0		unsorted	block_48	unknown	stub
+0x4836F0	90	resetMapStateA		game	map_state	unknown	done
 0x483750	683	sub_483750		unsorted	block_48	unknown	stub
 0x483A20	102	sub_483A20		unsorted	block_48	unknown	stub
-0x483B40	41	sub_483B40		unsorted	block_48	unknown	stub
+0x483B40	41	setCursor		game	map_state	unknown	done
 0x483CC0	105	sub_483CC0		unsorted	block_48	unknown	stub
 0x483D30	236	sub_483D30		unsorted	block_48	unknown	stub
 0x483E20	32	sub_483E20		unsorted	block_48	unknown	stub
 0x483E40	27	sub_483E40		unsorted	block_48	unknown	stub
-0x483F90	8	sub_483F90		unsorted	block_48	unknown	stub
+0x483F90	8	sub_483F90		unsorted	global_getters	unknown	done
 0x483FA0	428	sub_483FA0		unsorted	block_48	unknown	stub
 0x484150	77	sub_484150		unsorted	block_48	unknown	stub
-0x4841A0	121	sub_4841A0		unsorted	block_48	unknown	stub
+0x4841A0	121	resetMapStateB		game	map_state	unknown	done
 0x484220	5	sub_484220		unsorted	block_48	unknown	stub
 0x484290	677	sub_484290		unsorted	block_48	unknown	stub
 0x484540	164	sub_484540		unsorted	block_48	unknown	stub
 0x4845F0	45	sub_4845F0		unsorted	block_48	unknown	stub
-0x484620	8	sub_484620		unsorted	block_48	unknown	stub
+0x484620	8	sub_484620		unsorted	global_getters	unknown	done
 0x484630	337	sub_484630		unsorted	block_48	unknown	stub
 0x484790	19	sub_484790		unsorted	block_48	unknown	stub
 0x4847B0	131	sub_4847B0		unsorted	block_48	unknown	stub
 0x484840	97	sub_484840		unsorted	block_48	unknown	stub
 0x4848B0	9	sub_4848B0		unsorted	block_48	unknown	stub
-0x4848C0	8	sub_4848C0		unsorted	block_48	unknown	stub
+0x4848C0	8	sub_4848C0		unsorted	global_setters	unknown	done
 0x4848D0	335	sub_4848D0		unsorted	block_48	unknown	stub
 0x484A20	102	sub_484A20		unsorted	block_48	unknown	stub
 0x484A90	337	sub_484A90		unsorted	block_48	unknown	stub
@@ -1343,11 +1343,11 @@
 0x486760	92	sub_486760		unsorted	block_48	unknown	stub
 0x4867C0	10	sub_4867C0		unsorted	block_48	unknown	stub
 0x4867D0	168	sub_4867D0		unsorted	block_48	unknown	stub
-0x486880	8	sub_486880		unsorted	block_48	unknown	stub
+0x486880	8	sub_486880		unsorted	global_setters	unknown	done
 0x486890	52	sub_486890		unsorted	block_48	unknown	stub
 0x4868D0	135	sub_4868D0		unsorted	block_48	unknown	stub
 0x486960	215	sub_486960		unsorted	block_48	unknown	stub
-0x486A40	8	sub_486A40		unsorted	block_48	unknown	stub
+0x486A40	8	sub_486A40		unsorted	global_getters	unknown	done
 0x486A50	59	sub_486A50		unsorted	block_48	unknown	stub
 0x486A90	81	sub_486A90		unsorted	block_48	unknown	stub
 0x486AF0	99	sub_486AF0		unsorted	block_48	unknown	stub
@@ -1432,14 +1432,14 @@
 0x48D4E0	17	sub_48D4E0		unsorted	block_48	unknown	stub
 0x48D500	60	sub_48D500		unsorted	block_48	unknown	stub
 0x48D540	15	sub_48D540		unsorted	block_48	unknown	stub
-0x48D550	8	sub_48D550		unsorted	block_48	unknown	stub
+0x48D550	8	sub_48D550		unsorted	global_getters	unknown	done
 0x48D560	198	sub_48D560		unsorted	block_48	unknown	stub
 0x48D630	20	sub_48D630		unsorted	block_48	unknown	stub
 0x48D650	20	sub_48D650		unsorted	block_48	unknown	stub
 0x48D670	33	sub_48D670		unsorted	block_48	unknown	stub
 0x48D6A0	113	sub_48D6A0		unsorted	block_48	unknown	stub
 0x48D720	314	sub_48D720		unsorted	block_48	unknown	stub
-0x48D860	8	sub_48D860		unsorted	block_48	unknown	stub
+0x48D860	8	sub_48D860		unsorted	global_getters	unknown	done
 0x48D870	46	sub_48D870		unsorted	block_48	unknown	stub
 0x48D8A0	154	sub_48D8A0		unsorted	block_48	unknown	stub
 0x48D940	80	sub_48D940		unsorted	block_48	unknown	stub
@@ -1456,10 +1456,10 @@
 0x48DB70	30	sub_48DB70		unsorted	block_48	unknown	stub
 0x48DB90	37	sub_48DB90		unsorted	block_48	unknown	stub
 0x48DBC0	263	sub_48DBC0		unsorted	block_48	unknown	stub
-0x48DCD0	12	sub_48DCD0		unsorted	block_48	unknown	stub
+0x48DCD0	12	sub_48DCD0		unsorted	global_tests	unknown	done
 0x48DCE0	26	sub_48DCE0		unsorted	block_48	unknown	stub
 0x48DD00	64	sub_48DD00		unsorted	block_48	unknown	stub
-0x48DD40	8	sub_48DD40		unsorted	block_48	unknown	stub
+0x48DD40	8	sub_48DD40		unsorted	global_getters	unknown	done
 0x48DD50	133	sub_48DD50		unsorted	block_48	unknown	stub
 0x48DDE0	32	sub_48DDE0		unsorted	block_48	unknown	stub
 0x48DE00	25	sub_48DE00		unsorted	block_48	unknown	stub
@@ -1491,7 +1491,7 @@
 0x494200	290	sub_494200		unsorted	block_49	unknown	stub
 0x494330	554	sub_494330		unsorted	block_49	unknown	stub
 0x494560	81	sub_494560		unsorted	block_49	unknown	stub
-0x4945C0	12	sub_4945C0		unsorted	block_49	unknown	stub
+0x4945C0	12	sub_4945C0		unsorted	global_tests	unknown	done
 0x4945D0	158	sub_4945D0		unsorted	block_49	unknown	stub
 0x494670	72	sub_494670		unsorted	block_49	unknown	stub
 0x4946C0	40	sub_4946C0		unsorted	block_49	unknown	stub
@@ -1543,7 +1543,7 @@
 0x4974E0	91	sub_4974E0		unsorted	block_49	unknown	stub
 0x497540	91	sub_497540		unsorted	block_49	unknown	stub
 0x4975A0	452	sub_4975A0		unsorted	block_49	unknown	stub
-0x497770	12	sub_497770		unsorted	block_49	unknown	stub
+0x497770	12	sub_497770		unsorted	global_tests	unknown	done
 0x497780	68	sub_497780		unsorted	block_49	unknown	stub
 0x4977D0	366	sub_4977D0		unsorted	block_49	unknown	stub
 0x497940	483	sub_497940		unsorted	block_49	unknown	stub
@@ -1614,7 +1614,7 @@
 0x49B5A0	27	sub_49B5A0		unsorted	block_49	unknown	stub
 0x49B5C0	27	sub_49B5C0		unsorted	block_49	unknown	stub
 0x49B5E0	29	sub_49B5E0		unsorted	block_49	unknown	stub
-0x49B620	12	sub_49B620		unsorted	block_49	unknown	stub
+0x49B620	12	sub_49B620		unsorted	global_tests	unknown	done
 0x49B630	110	sub_49B630		unsorted	block_49	unknown	stub
 0x49B760	171	sub_49B760		unsorted	block_49	unknown	stub
 0x49B810	81	sub_49B810		unsorted	block_49	unknown	stub
@@ -1673,8 +1673,8 @@
 0x49F640	37	sub_49F640		unsorted	block_49	unknown	stub
 0x49F670	10	sub_49F670		unsorted	block_49	unknown	stub
 0x49F680	22	sub_49F680		unsorted	block_49	unknown	stub
-0x49F6A0	8	sub_49F6A0		unsorted	block_49	unknown	stub
-0x49F6B0	8	sub_49F6B0		unsorted	block_49	unknown	stub
+0x49F6A0	8	sub_49F6A0		unsorted	global_setters	unknown	done
+0x49F6B0	8	sub_49F6B0		unsorted	global_setters	unknown	done
 0x49F6C0	108	sub_49F6C0		unsorted	block_49	unknown	stub
 0x49F730	15	sub_49F730		unsorted	block_49	unknown	stub
 0x49F740	28	sub_49F740		unsorted	block_49	unknown	stub
@@ -1730,7 +1730,7 @@
 0x4A3940	15	sub_4A3940		unsorted	block_4A	unknown	stub
 0x4A3950	506	sub_4A3950		unsorted	block_4A	unknown	stub
 0x4A3B50	403	sub_4A3B50		unsorted	block_4A	unknown	stub
-0x4A3CF0	8	sub_4A3CF0		unsorted	block_4A	unknown	stub
+0x4A3CF0	8	sub_4A3CF0		unsorted	global_getters	unknown	done
 0x4A3D00	54	sub_4A3D00		unsorted	block_4A	unknown	stub
 0x4A3D40	53	sub_4A3D40		unsorted	block_4A	unknown	stub
 0x4A3D80	53	sub_4A3D80		unsorted	block_4A	unknown	stub
@@ -1787,7 +1787,7 @@
 0x4A67B0	2481	sub_4A67B0		unsorted	block_4A	unknown	stub
 0x4A7190	446	sub_4A7190		unsorted	block_4A	unknown	stub
 0x4A7350	30	sub_4A7350		unsorted	block_4A	unknown	stub
-0x4A7370	8	sub_4A7370		unsorted	block_4A	unknown	stub
+0x4A7370	8	sub_4A7370		unsorted	global_getters	unknown	done
 0x4A7380	392	sub_4A7380		unsorted	block_4A	unknown	stub
 0x4A7510	373	sub_4A7510		unsorted	block_4A	unknown	stub
 0x4A7690	89	sub_4A7690		unsorted	block_4A	unknown	stub
@@ -1795,7 +1795,7 @@
 0x4A7B40	134	sub_4A7B40		unsorted	block_4A	unknown	stub
 0x4A7BE0	622	sub_4A7BE0		unsorted	block_4A	unknown	stub
 0x4A7E80	621	sub_4A7E80		unsorted	block_4A	unknown	stub
-0x4A80F0	8	sub_4A80F0		unsorted	block_4A	unknown	stub
+0x4A80F0	8	sub_4A80F0		unsorted	global_setters	unknown	done
 0x4A8100	510	sub_4A8100		unsorted	block_4A	unknown	stub
 0x4A8300	729	sub_4A8300		unsorted	block_4A	unknown	stub
 0x4A85E0	486	sub_4A85E0		unsorted	block_4A	unknown	stub
@@ -1820,7 +1820,7 @@
 0x4AB440	269	sub_4AB440		unsorted	block_4A	unknown	stub
 0x4AB550	3771	sub_4AB550		unsorted	block_4A	unknown	stub
 0x4AC430	431	sub_4AC430		unsorted	block_4A	unknown	stub
-0x4AC610	8	sub_4AC610		unsorted	block_4A	unknown	stub
+0x4AC610	8	sub_4AC610		unsorted	global_setters	unknown	done
 0x4AC620	832	sub_4AC620		unsorted	block_4A	unknown	stub
 0x4AC960	449	sub_4AC960		unsorted	block_4A	unknown	stub
 0x4ACB30	327	sub_4ACB30		unsorted	block_4A	unknown	stub
@@ -1854,8 +1854,8 @@
 0x4AFE20	39	sub_4AFE20		unsorted	block_4A	unknown	stub
 0x4AFE50	15	sub_4AFE50		unsorted	block_4A	unknown	stub
 0x4AFE60	15	sub_4AFE60		unsorted	block_4A	unknown	stub
-0x4AFE70	6	sub_4AFE70		unsorted	block_4A	unknown	stub
-0x4AFE80	6	sub_4AFE80		unsorted	block_4A	unknown	stub
+0x4AFE70	6	sub_4AFE70		unsorted	global_getters	unknown	done
+0x4AFE80	6	sub_4AFE80		unsorted	global_getters	unknown	done
 0x4AFE90	240	sub_4AFE90		unsorted	block_4A	unknown	stub
 0x4AFF90	234	sub_4AFF90		unsorted	block_4A	unknown	stub
 0x4B0080	87	sub_4B0080		unsorted	block_4B	unknown	stub
@@ -1998,10 +1998,10 @@
 0x4B9370	76	sub_4B9370		unsorted	block_4B	unknown	stub
 0x4B93C0	82	sub_4B93C0		unsorted	block_4B	unknown	stub
 0x4B9420	9	sub_4B9420		unsorted	block_4B	unknown	stub
-0x4B9430	6	sub_4B9430		unsorted	block_4B	unknown	stub
+0x4B9430	6	sub_4B9430		unsorted	global_getters	unknown	done
 0x4B9440	81	sub_4B9440		unsorted	block_4B	unknown	stub
 0x4B94A0	4	sub_4B94A0		unsorted	block_4B	unknown	stub
-0x4B94B0	12	sub_4B94B0		unsorted	block_4B	unknown	stub
+0x4B94B0	12	sub_4B94B0		unsorted	global_tests	unknown	done
 0x4B94C0	2033	sub_4B94C0		unsorted	block_4B	unknown	stub
 0x4B9CC0	21	sub_4B9CC0		unsorted	block_4B	unknown	stub
 0x4B9CE0	656	sub_4B9CE0		unsorted	block_4B	unknown	stub
@@ -2093,9 +2093,9 @@
 0x4C1FB0	116	sub_4C1FB0		unsorted	block_4C	unknown	stub
 0x4C2030	57	sub_4C2030		unsorted	block_4C	unknown	stub
 0x4C2070	134	sub_4C2070		unsorted	block_4C	unknown	stub
-0x4C2100	6	sub_4C2100		unsorted	block_4C	unknown	stub
-0x4C2110	6	sub_4C2110		unsorted	block_4C	unknown	stub
-0x4C2120	6	sub_4C2120		unsorted	block_4C	unknown	stub
+0x4C2100	6	sub_4C2100		unsorted	global_getters	unknown	done
+0x4C2110	6	sub_4C2110		unsorted	global_getters	unknown	done
+0x4C2120	6	sub_4C2120		unsorted	global_getters	unknown	done
 0x4C2130	222	sub_4C2130		unsorted	block_4C	unknown	stub
 0x4C2210	3074	sub_4C2210		unsorted	block_4C	unknown	stub
 0x4C2E20	989	sub_4C2E20		unsorted	block_4C	unknown	stub
@@ -2128,7 +2128,7 @@
 0x4C4690	934	sub_4C4690		unsorted	block_4C	unknown	stub
 0x4C4A40	80	sub_4C4A40		unsorted	block_4C	unknown	stub
 0x4C4A90	13	sub_4C4A90		unsorted	block_4C	unknown	stub
-0x4C4AA0	8	sub_4C4AA0		unsorted	block_4C	unknown	stub
+0x4C4AA0	8	sub_4C4AA0		unsorted	global_setters	unknown	done
 0x4C4AB0	6	sub_4C4AB0		unsorted	block_4C	unknown	stub
 0x4C4AC0	47	sub_4C4AC0		unsorted	block_4C	unknown	stub
 0x4C4AF0	32	sub_4C4AF0		unsorted	block_4C	unknown	stub
@@ -2139,8 +2139,8 @@
 0x4C4E00	186	sub_4C4E00		unsorted	block_4C	unknown	stub
 0x4C4F70	13	sub_4C4F70		unsorted	block_4C	unknown	stub
 0x4C4F80	900	sub_4C4F80		unsorted	block_4C	unknown	stub
-0x4C5310	11	sub_4C5310		unsorted	block_4C	unknown	stub
-0x4C5320	11	sub_4C5320		unsorted	block_4C	unknown	stub
+0x4C5310	11	sub_4C5310		unsorted	global_setters	unknown	done
+0x4C5320	11	sub_4C5320		unsorted	global_setters	unknown	done
 0x4C5330	21	sub_4C5330		unsorted	block_4C	unknown	stub
 0x4C5350	131	sub_4C5350		unsorted	block_4C	unknown	stub
 0x4C53E0	224	sub_4C53E0		unsorted	block_4C	unknown	stub
@@ -2291,7 +2291,7 @@
 0x4D03D0	612	sub_4D03D0		unsorted	block_4D	unknown	stub
 0x4D0640	35	sub_4D0640		unsorted	block_4D	unknown	stub
 0x4D0670	51	sub_4D0670		unsorted	block_4D	unknown	stub
-0x4D06B0	6	sub_4D06B0		unsorted	block_4D	unknown	stub
+0x4D06B0	6	sub_4D06B0		unsorted	global_getters	unknown	done
 0x4D06C0	13	sub_4D06C0		unsorted	block_4D	unknown	stub
 0x4D06D0	756	sub_4D06D0		unsorted	block_4D	unknown	stub
 0x4D09D0	60	sub_4D09D0		unsorted	block_4D	unknown	stub
@@ -2377,8 +2377,8 @@
 0x4D6520	51	sub_4D6520		unsorted	block_4D	unknown	stub
 0x4D6560	47	sub_4D6560		unsorted	block_4D	unknown	stub
 0x4D6590	13	sub_4D6590		unsorted	block_4D	unknown	stub
-0x4D65A0	6	sub_4D65A0		unsorted	block_4D	unknown	stub
-0x4D65B0	11	sub_4D65B0		unsorted	block_4D	unknown	stub
+0x4D65A0	6	sub_4D65A0		unsorted	global_getters	unknown	done
+0x4D65B0	11	sub_4D65B0		unsorted	global_tests	unknown	done
 0x4D65C0	1017	sub_4D65C0		unsorted	block_4D	unknown	stub
 0x4D69C0	184	sub_4D69C0		unsorted	block_4D	unknown	stub
 0x4D6A80	13	sub_4D6A80		unsorted	block_4D	unknown	stub
@@ -2398,16 +2398,16 @@
 0x4D6F40	82	sub_4D6F40		unsorted	block_4D	unknown	stub
 0x4D6FA0	15	sub_4D6FA0		unsorted	block_4D	unknown	stub
 0x4D6FB0	15	sub_4D6FB0		unsorted	block_4D	unknown	stub
-0x4D6FC0	6	sub_4D6FC0		unsorted	block_4D	unknown	stub
-0x4D6FD0	6	sub_4D6FD0		unsorted	block_4D	unknown	stub
+0x4D6FC0	6	sub_4D6FC0		unsorted	global_getters	unknown	done
+0x4D6FD0	6	sub_4D6FD0		unsorted	global_getters	unknown	done
 0x4D6FE0	21	sub_4D6FE0		unsorted	block_4D	unknown	stub
 0x4D7000	36	sub_4D7000		unsorted	block_4D	unknown	stub
 0x4D7030	2023	sub_4D7030		unsorted	block_4D	unknown	stub
 0x4D7820	21	sub_4D7820		unsorted	block_4D	unknown	stub
-0x4D7840	6	sub_4D7840		unsorted	block_4D	unknown	stub
-0x4D7850	6	sub_4D7850		unsorted	block_4D	unknown	stub
-0x4D7860	6	sub_4D7860		unsorted	block_4D	unknown	stub
-0x4D7870	6	sub_4D7870		unsorted	block_4D	unknown	stub
+0x4D7840	6	sub_4D7840		unsorted	global_getters	unknown	done
+0x4D7850	6	sub_4D7850		unsorted	global_getters	unknown	done
+0x4D7860	6	sub_4D7860		unsorted	global_getters	unknown	done
+0x4D7870	6	sub_4D7870		unsorted	global_getters	unknown	done
 0x4D7880	15	sub_4D7880		unsorted	block_4D	unknown	stub
 0x4D7890	36	sub_4D7890		unsorted	block_4D	unknown	stub
 0x4D78C0	15	sub_4D78C0		unsorted	block_4D	unknown	stub
@@ -2447,7 +2447,7 @@
 0x4DA390	84	sub_4DA390		unsorted	block_4D	unknown	stub
 0x4DA3F0	85	sub_4DA3F0		unsorted	block_4D	unknown	stub
 0x4DA450	73	sub_4DA450		unsorted	block_4D	unknown	stub
-0x4DA4A0	7	sub_4DA4A0		unsorted	block_4D	unknown	stub
+0x4DA4A0	7	sub_4DA4A0		unsorted	global_getters	unknown	done
 0x4DA4B0	50	sub_4DA4B0		unsorted	block_4D	unknown	stub
 0x4DA4F0	55	sub_4DA4F0		unsorted	block_4D	unknown	stub
 0x4DA530	12	sub_4DA530		unsorted	block_4D	unknown	stub
@@ -2491,7 +2491,7 @@
 0x4DC790	46	sub_4DC790		unsorted	block_4D	unknown	stub
 0x4DC7C0	345	sub_4DC7C0		unsorted	block_4D	unknown	stub
 0x4DC920	69	sub_4DC920		unsorted	block_4D	unknown	stub
-0x4DC970	11	sub_4DC970		unsorted	block_4D	unknown	stub
+0x4DC970	11	sub_4DC970		unsorted	global_setters	unknown	done
 0x4DC980	123	sub_4DC980		unsorted	block_4D	unknown	stub
 0x4DCA00	400	sub_4DCA00		unsorted	block_4D	unknown	stub
 0x4DCB90	601	sub_4DCB90		unsorted	block_4D	unknown	stub
@@ -2569,8 +2569,8 @@
 0x4E2FB0	270	sub_4E2FB0		unsorted	block_4E	unknown	stub
 0x4E30C0	260	sub_4E30C0		unsorted	block_4E	unknown	stub
 0x4E31D0	6	sub_4E31D0		unsorted	block_4E	unknown	stub
-0x4E31E0	6	sub_4E31E0		unsorted	block_4E	unknown	stub
-0x4E31F0	6	sub_4E31F0		unsorted	block_4E	unknown	stub
+0x4E31E0	6	sub_4E31E0		unsorted	global_getters	unknown	done
+0x4E31F0	6	sub_4E31F0		unsorted	global_getters	unknown	done
 0x4E3200	170	sub_4E3200		unsorted	block_4E	unknown	stub
 0x4E32B0	202	sub_4E32B0		unsorted	block_4E	unknown	stub
 0x4E3380	141	sub_4E3380		unsorted	block_4E	unknown	stub
@@ -2587,8 +2587,8 @@
 0x4E3D00	12	sub_4E3D00		unsorted	block_4E	unknown	stub
 0x4E3D10	82	sub_4E3D10		unsorted	block_4E	unknown	stub
 0x4E3D70	87	sub_4E3D70		unsorted	block_4E	unknown	stub
-0x4E3DD0	6	sub_4E3DD0		unsorted	block_4E	unknown	stub
-0x4E3DE0	6	sub_4E3DE0		unsorted	block_4E	unknown	stub
+0x4E3DD0	6	sub_4E3DD0		unsorted	global_getters	unknown	done
+0x4E3DE0	6	sub_4E3DE0		unsorted	global_getters	unknown	done
 0x4E3DF0	213	sub_4E3DF0		unsorted	block_4E	unknown	stub
 0x4E3ED0	1185	sub_4E3ED0		unsorted	block_4E	unknown	stub
 0x4E4380	128	sub_4E4380		unsorted	block_4E	unknown	stub
@@ -2664,7 +2664,7 @@
 0x4E8040	6	utf8::not_enough_room::vfn_1	utf8::not_enough_room	lib/utf8	utf8_not_enough_room	virtual	stub
 0x4E8050	73	sub_4E8050		unsorted	block_4E	unknown	stub
 0x4E80A0	314	sub_4E80A0		unsorted	block_4E	unknown	stub
-0x4E81E0	6	sub_4E81E0		unsorted	block_4E	unknown	stub
+0x4E81E0	6	sub_4E81E0		unsorted	global_getters	unknown	done
 0x4E81F0	263	sub_4E81F0		unsorted	block_4E	unknown	stub
 0x4E8300	21	sub_4E8300		unsorted	block_4E	unknown	stub
 0x4E8320	21	sub_4E8320		unsorted	block_4E	unknown	stub
@@ -2675,7 +2675,7 @@
 0x4E83C0	52	sub_4E83C0		unsorted	block_4E	unknown	stub
 0x4E8400	321	sub_4E8400		unsorted	block_4E	unknown	stub
 0x4E8550	921	sub_4E8550		unsorted	block_4E	unknown	stub
-0x4E88F0	8	sub_4E88F0		unsorted	block_4E	unknown	stub
+0x4E88F0	8	sub_4E88F0		unsorted	global_setters	unknown	done
 0x4E8900	37	sub_4E8900		unsorted	block_4E	unknown	stub
 0x4E8930	61	sub_4E8930		unsorted	block_4E	unknown	stub
 0x4E8970	72	sub_4E8970		unsorted	block_4E	unknown	stub
@@ -2830,10 +2830,10 @@
 0x4F2240	142	sub_4F2240		unsorted	block_4F	unknown	stub
 0x4F22D0	685	sub_4F22D0		unsorted	block_4F	unknown	stub
 0x4F2580	6	sub_4F2580		unsorted	block_4F	unknown	stub
-0x4F2590	6	sub_4F2590		unsorted	block_4F	unknown	stub
-0x4F25A0	7	sub_4F25A0		unsorted	block_4F	unknown	stub
-0x4F25B0	6	sub_4F25B0		unsorted	block_4F	unknown	stub
-0x4F25C0	6	sub_4F25C0		unsorted	block_4F	unknown	stub
+0x4F2590	6	sub_4F2590		unsorted	global_getters	unknown	done
+0x4F25A0	7	sub_4F25A0		unsorted	global_getters	unknown	done
+0x4F25B0	6	sub_4F25B0		unsorted	global_getters	unknown	done
+0x4F25C0	6	sub_4F25C0		unsorted	global_getters	unknown	done
 0x4F25D0	51	sub_4F25D0		unsorted	block_4F	unknown	stub
 0x4F2610	18	sub_4F2610		unsorted	block_4F	unknown	stub
 0x4F2630	13	sub_4F2630		unsorted	block_4F	unknown	stub
@@ -2841,7 +2841,7 @@
 0x4F2660	13	sub_4F2660		unsorted	block_4F	unknown	stub
 0x4F2670	53	sub_4F2670		unsorted	block_4F	unknown	stub
 0x4F26B0	147	sub_4F26B0		unsorted	block_4F	unknown	stub
-0x4F2750	6	sub_4F2750		unsorted	block_4F	unknown	stub
+0x4F2750	6	sub_4F2750		unsorted	global_getters	unknown	done
 0x4F2760	16	sub_4F2760		unsorted	block_4F	unknown	stub
 0x4F2770	61	sub_4F2770		unsorted	block_4F	unknown	stub
 0x4F27B0	24	sub_4F27B0		unsorted	block_4F	unknown	stub
@@ -2873,7 +2873,7 @@
 0x4F45C0	167	sub_4F45C0		unsorted	block_4F	unknown	stub
 0x4F4670	221	sub_4F4670		unsorted	block_4F	unknown	stub
 0x4F4750	33	AgProgram::vfn_0	AgProgram	engine/system	AgProgram	virtual	stub
-0x4F4780	6	sub_4F4780		unsorted	block_4F	unknown	stub
+0x4F4780	6	sub_4F4780		unsorted	global_getters	unknown	done
 0x4F4790	4	AgUser::vfn_5	AgUser	engine/online	AgUser	virtual	stub
 0x4F47A0	9	AgProgram::vfn_4	AgProgram	engine/system	AgProgram	virtual	stub
 0x4F47B0	5	AgProgram::vfn_1	AgProgram	engine/system	AgProgram	virtual	stub
@@ -3154,7 +3154,7 @@
 0x501D10	22	AgFile::vfn_1	AgFile	engine/io	AgFile	virtual	stub
 0x501D30	23	AgStream::vfn_1	AgStream	engine/io	AgStream	virtual	stub
 0x501D50	13	AgFile::vfn_7	AgFile	engine/io	AgFile	virtual	stub
-0x501D60	6	shared_501D60		unsorted	shared_stubs	shared	stub
+0x501D60	6	shared_501D60		unsorted	constants	shared	done
 0x501D70	176	sub_501D70		unsorted	block_50	unknown	stub
 0x501E20	222	sub_501E20		unsorted	block_50	unknown	stub
 0x501F00	224	sub_501F00		unsorted	block_50	unknown	stub
@@ -3356,7 +3356,7 @@
 0x50C690	296	sub_50C690		unsorted	block_50	unknown	stub
 0x50C7E0	391	sub_50C7E0		unsorted	block_50	unknown	stub
 0x50C970	85	sub_50C970		unsorted	block_50	unknown	stub
-0x50C9D0	6	sub_50C9D0		unsorted	block_50	unknown	stub
+0x50C9D0	6	sub_50C9D0		unsorted	global_getters	unknown	done
 0x50C9E0	196	sub_50C9E0		unsorted	block_50	unknown	stub
 0x50CAB0	321	sub_50CAB0		unsorted	block_50	unknown	stub
 0x50CC00	937	sub_50CC00		unsorted	block_50	unknown	stub
@@ -3378,11 +3378,11 @@
 0x50DAB0	189	AgAudioManager::fn_50DAB0	AgAudioManager	engine/audio	AgAudioManager	inferred	stub
 0x50DB70	768	AgAudioManager::fn_50DB70	AgAudioManager	engine/audio	AgAudioManager	inferred	stub
 0x50DE70	76	AgAudioManager::fn_50DE70	AgAudioManager	engine/audio	AgAudioManager	inferred	stub
-0x50DEC0	4	AgAudioManager::fn_50DEC0	AgAudioManager	engine/audio	AgAudioManager	inferred	stub
-0x50DED0	7	AgAudioManager::vfn_3	AgAudioManager	engine/audio	AgAudioManager	virtual	stub
-0x50DEE0	4	AgAudioManager::fn_50DEE0	AgAudioManager	engine/audio	AgAudioManager	inferred	stub
-0x50DEF0	4	AgAudioManager::fn_50DEF0	AgAudioManager	engine/audio	AgAudioManager	inferred	stub
-0x50DF00	4	AgAudioManager::fn_50DF00	AgAudioManager	engine/audio	AgAudioManager	inferred	stub
+0x50DEC0	4	AgAudioManager::getSub28	AgAudioManager	engine/audio	AgAudioManager	inferred	done
+0x50DED0	7	AgAudioManager::getSampleRate	AgAudioManager	engine/audio	AgAudioManager	virtual	done
+0x50DEE0	4	AgAudioManager::getVolume0	AgAudioManager	engine/audio	AgAudioManager	inferred	done
+0x50DEF0	4	AgAudioManager::getVolume1	AgAudioManager	engine/audio	AgAudioManager	inferred	done
+0x50DF00	4	AgAudioManager::getListenerPosition	AgAudioManager	engine/audio	AgAudioManager	inferred	done
 0x50DF10	193	AgAudioManager::vfn_2	AgAudioManager	engine/audio	AgAudioManager	virtual	stub
 0x50DFE0	11	AgAudioManager::vfn_1	AgAudioManager	engine/audio	AgAudioManager	virtual	stub
 0x50DFF0	430	sub_50DFF0		unsorted	block_50	unknown	stub
@@ -3614,7 +3614,7 @@
 0x517930	1764	sub_517930		unsorted	block_51	unknown	stub
 0x518020	91	sub_518020		unsorted	block_51	unknown	stub
 0x518080	91	sub_518080		unsorted	block_51	unknown	stub
-0x5180E0	6	sub_5180E0		unsorted	block_51	unknown	stub
+0x5180E0	6	sub_5180E0		unsorted	global_getters	unknown	done
 0x5180F0	27	sub_5180F0		unsorted	block_51	unknown	stub
 0x518110	195	sub_518110		unsorted	block_51	unknown	stub
 0x5181E0	13	sub_5181E0		unsorted	block_51	unknown	stub
@@ -4205,7 +4205,7 @@
 0x533670	171	sub_533670		unsorted	block_53	unknown	stub
 0x533720	106	sub_533720		unsorted	block_53	unknown	stub
 0x533790	6	NewAllocator<AgRenderList,AgResource>::vfn_3	NewAllocator<AgRenderList,AgResource>	engine/render	NewAllocator_AgRenderList_AgResource	virtual	stub
-0x5337A0	6	shared_5337A0		unsorted	shared_stubs	shared	stub
+0x5337A0	6	shared_5337A0		unsorted	constants	shared	done
 0x5337B0	6	NewAllocator<AgShaderProgram,AgResource>::vfn_3	NewAllocator<AgShaderProgram,AgResource>	engine/render	NewAllocator_AgShaderProgram_AgResource	virtual	stub
 0x5337C0	81	AgResourceManager::vfn_2	AgResourceManager	engine/render	AgResourceManager	virtual	stub
 0x533820	529	AgResourceManager::vfn_1	AgResourceManager	engine/render	AgResourceManager	virtual	stub
@@ -4216,7 +4216,7 @@
 0x534170	398	AgResourceLoadJob::vfn_1	AgResourceLoadJob	engine/render	AgResourceLoadJob	virtual	stub
 0x534300	115	sub_534300		unsorted	block_53	unknown	stub
 0x534380	128	sub_534380		unsorted	block_53	unknown	stub
-0x534400	6	sub_534400		unsorted	block_53	unknown	stub
+0x534400	6	sub_534400		unsorted	global_getters	unknown	done
 0x534410	12	AgSteamworks::vfn_2	AgSteamworks	engine/online	AgSteamworks	virtual	stub
 0x534420	99	AgSteamworks::vfn_1	AgSteamworks	engine/online	AgSteamworks	virtual	stub
 0x534490	36	sub_534490		unsorted	block_53	unknown	stub
@@ -6236,7 +6236,7 @@
 0x5AC410	33	AgResourceShaderD3D::vfn_6	AgResourceShaderD3D	engine/render	AgResourceShaderD3D	virtual	stub
 0x5AC440	47	sub_5AC440		unsorted	block_5A	unknown	stub
 0x5AC470	115	sub_5AC470		unsorted	block_5A	unknown	stub
-0x5AC4F0	6	sub_5AC4F0		unsorted	block_5A	unknown	stub
+0x5AC4F0	6	sub_5AC4F0		unsorted	global_getters	unknown	done
 0x5AC500	172	sub_5AC500		unsorted	block_5A	unknown	stub
 0x5AC5B0	20	sub_5AC5B0		unsorted	block_5A	unknown	stub
 0x5AC5D0	184	sub_5AC5D0		unsorted	block_5A	unknown	stub

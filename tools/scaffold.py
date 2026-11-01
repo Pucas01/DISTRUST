@@ -184,6 +184,8 @@ def main():
         elif kind in ("unknown", "library", "import"):
             name = ida_name
         status = "done" if address in done else "stub"
+        if address in done:
+            module, base = done[address].parent.as_posix(), done[address].stem
         catalog.append((address, size, name, owner or "", module, base, kind, status))
 
     src = ROOT / "src"

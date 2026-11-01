@@ -183,11 +183,6 @@ void sub_423240()
 {
 }
 
-// STUB: 0x423250 sub_423250 (11 bytes)
-void sub_423250()
-{
-}
-
 // STUB: 0x423260 sub_423260 (28 bytes)
 void sub_423260()
 {
@@ -195,11 +190,6 @@ void sub_423260()
 
 // STUB: 0x423280 sub_423280 (13 bytes)
 void sub_423280()
-{
-}
-
-// STUB: 0x423290 sub_423290 (11 bytes)
-void sub_423290()
 {
 }
 
@@ -295,11 +285,6 @@ void sub_42C130()
 
 // STUB: 0x42C340 sub_42C340 (78 bytes)
 void sub_42C340()
-{
-}
-
-// STUB: 0x42C390 sub_42C390 (12 bytes)
-void sub_42C390()
 {
 }
 

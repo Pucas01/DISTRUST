@@ -1,4 +1,4 @@
-#include "engine/audio/AgAudioManager.gen.h"
+#include "engine/audio/AgAudioManager.h"
 
 // STUB: 0x50D460 AgAudioManager::vfn_0 (33 bytes)
 void AgAudioManager::vfn_0()
@@ -55,31 +55,6 @@ void AgAudioManager::fn_50DE70()
 {
 }
 
-// STUB: 0x50DEC0 AgAudioManager::fn_50DEC0 (4 bytes)
-void AgAudioManager::fn_50DEC0()
-{
-}
-
-// STUB: 0x50DED0 AgAudioManager::vfn_3 (7 bytes)
-void AgAudioManager::vfn_3()
-{
-}
-
-// STUB: 0x50DEE0 AgAudioManager::fn_50DEE0 (4 bytes)
-void AgAudioManager::fn_50DEE0()
-{
-}
-
-// STUB: 0x50DEF0 AgAudioManager::fn_50DEF0 (4 bytes)
-void AgAudioManager::fn_50DEF0()
-{
-}
-
-// STUB: 0x50DF00 AgAudioManager::fn_50DF00 (4 bytes)
-void AgAudioManager::fn_50DF00()
-{
-}
-
 // STUB: 0x50DF10 AgAudioManager::vfn_2 (193 bytes)
 void AgAudioManager::vfn_2()
 {
@@ -88,4 +63,34 @@ void AgAudioManager::vfn_2()
 // STUB: 0x50DFE0 AgAudioManager::vfn_1 (11 bytes)
 void AgAudioManager::vfn_1()
 {
+}
+
+// FUNCTION: 0x50DEC0 AgAudioManager::getSub28
+AgAudioManagerSub28* AgAudioManager::getSub28()
+{
+    return &sub28;
+}
+
+// FUNCTION: 0x50DED0 AgAudioManager::getSampleRate
+float AgAudioManager::getSampleRate()
+{
+    return 44100.0f;
+}
+
+// FUNCTION: 0x50DEE0 AgAudioManager::getVolume0
+float AgAudioManager::getVolume0()
+{
+    return volume0;
+}
+
+// FUNCTION: 0x50DEF0 AgAudioManager::getVolume1
+float AgAudioManager::getVolume1()
+{
+    return volume1;
+}
+
+// FUNCTION: 0x50DF00 AgAudioManager::getListenerPosition
+float* AgAudioManager::getListenerPosition()
+{
+    return listenerPosition;
 }

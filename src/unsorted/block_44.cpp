@@ -83,11 +83,6 @@ void sub_441420()
 {
 }
 
-// STUB: 0x441480 sub_441480 (11 bytes)
-void sub_441480()
-{
-}
-
 // STUB: 0x441490 sub_441490 (22 bytes)
 void sub_441490()
 {
@@ -100,11 +95,6 @@ void sub_4414B0()
 
 // STUB: 0x441520 sub_441520 (29 bytes)
 void sub_441520()
-{
-}
-
-// STUB: 0x441540 sub_441540 (12 bytes)
-void sub_441540()
 {
 }
 
@@ -165,11 +155,6 @@ void sub_441AC0()
 
 // STUB: 0x441B80 sub_441B80 (110 bytes)
 void sub_441B80()
-{
-}
-
-// STUB: 0x441BF0 sub_441BF0 (12 bytes)
-void sub_441BF0()
 {
 }
 

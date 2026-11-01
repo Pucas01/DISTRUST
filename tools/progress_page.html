@@ -647,11 +647,14 @@
     const groups = DATA.groups
                      .map(g => {
                        const fns = g.n.slice().sort((a, b) => b[1] - a[1]);
+                       const cnt = [0, 0, 0], by = [0, 0, 0];
                        fns.forEach(f => {
                          f.shade = stubShades[(f[0] * 2654435761 >>> 0) % 8];
-                         f.low = (f[3] + " " + f[0].toString(16)).toLowerCase()
+                         f.low = (f[3] + " " + f[0].toString(16)).toLowerCase();
+                         cnt[f[2]]++;
+                         by[f[2]] += f[1]
                        });
-                       return {file: g.f, fns, total: fns.reduce((a, f) => a + f[1], 0)};
+                       return {file: g.f, fns, cnt, by, total: by[0] + by[1] + by[2]};
                      })
                      .sort((a, b) => b.total - a.total);
 
@@ -749,7 +752,8 @@
           w -= 2 * inset;
           h -= 2 * inset;
           grects[gi] = [x, y, w, h];
-          fillGroup(gi, x, y, w, h)
+          if (w > 0 && h > 0)
+            boxes.push({x, y, w, h, g: gi, i: -1})
         });
       } else {
         grects[state.zoom] = [0, 0, W, H];
@@ -757,7 +761,8 @@
       }
       marked = [];
       boxes.forEach((b, k) => {
-        if (groups[b.g].fns[b.i][2] !== 0)
+        const g = groups[b.g];
+        if (b.i < 0 ? g.by[1] + g.by[2] > 0 : g.fns[b.i][2] !== 0)
           marked.push(k)
       });
       refreshVisible();
@@ -766,12 +771,15 @@
     function refreshVisible() {
       const q = state.query;
       let n = 0;
+      const passes = f => state.show[f[2]] && (!q || f.low.includes(q));
+      if (q)
+        groups.forEach(g => g.fns.forEach(f => {
+          if (passes(f))
+            n++
+        }));
       visible = boxes.map(b => {
-        const f = groups[b.g].fns[b.i];
-        const ok = state.show[f[2]] && (!q || f.low.includes(q));
-        if (ok && q)
-          n++;
-        return ok
+        const g = groups[b.g];
+        return b.i < 0 ? g.fns.some(passes) : passes(g.fns[b.i])
       });
       document.getElementById("hits").textContent =
         q ? n.toLocaleString() + (n === 1 ? " match" : " matches") : "";
@@ -808,11 +816,49 @@
       c.fillRect(b.x + g, b.y + g, b.w - 2 * g, b.h - 2 * g);
     }
 
+    function drawFile(c, b, g, alpha) {
+      const gap = b.w > 3 && b.h > 3 ? 0.5 : 0;
+      const x = b.x + gap, y = b.y + gap, w = b.w - 2 * gap, h = b.h - 2 * gap;
+      c.globalAlpha = alpha;
+      c.fillStyle = stubShades[3];
+      c.fillRect(x, y, w, h);
+      let bottom = y + h;
+      for (const s of [2, 1]) {
+        if (!state.show[s] || !g.by[s])
+          continue;
+        const part = h * g.by[s] / g.total;
+        c.fillStyle = COLOR[s];
+        c.fillRect(x, bottom - part, w, part);
+        bottom -= part
+      }
+      if (w > 96 && h > 30) {
+        const name = g.file.split("/").pop();
+        c.save();
+        c.beginPath();
+        c.rect(x, y, w, h);
+        c.clip();
+        c.font = "600 11px system-ui, sans-serif";
+        c.textBaseline = "top";
+        c.lineWidth = 3;
+        c.strokeStyle = "rgba(0,0,0,.85)";
+        c.fillStyle = "#fff";
+        c.strokeText(name, x + 6, y + 5);
+        c.fillText(name, x + 6, y + 5);
+        c.restore()
+      }
+    }
+
     function drawBase() {
       bctx.clearRect(0, 0, W, H);
       bctx.fillStyle = "#000";
       bctx.fillRect(0, 0, W, H);
-      boxes.forEach((b, k) => drawBox(bctx, b, groups[b.g].fns[b.i], visible[k] ? 1 : 0.12));
+      boxes.forEach((b, k) => {
+        const g = groups[b.g], alpha = visible[k] ? 1 : 0.12;
+        if (b.i < 0)
+          drawFile(bctx, b, g, alpha);
+        else
+          drawBox(bctx, b, g.fns[b.i], alpha)
+      });
       bctx.globalAlpha = 1;
     }
 
@@ -833,17 +879,20 @@
       for (const k of marked) {
         if (!visible[k])
           continue;
-        const b = boxes[k], f = groups[b.g].fns[b.i], m = marker(b);
+        const b = boxes[k], g = groups[b.g], m = marker(b);
+        if (b.i < 0 && b.w >= MARK && b.h >= MARK)
+          continue;
         ctx.fillStyle = "#000";
         ctx.fillRect(m.x - 1, m.y - 1, m.w + 2, m.h + 2);
-        ctx.fillStyle = COLOR[f[2]];
+        ctx.fillStyle = COLOR[b.i < 0 ? (g.by[2] ? 2 : 1) : g.fns[b.i][2]];
         ctx.fillRect(m.x, m.y, m.w, m.h);
       }
       const h = state.hover;
       if (h >= 0 && boxes[h]) {
-        const b = boxes[h], gr = grects[b.g], f = groups[b.g].fns[b.i], m = f[2] !== 0 ? marker(b) : b;
+        const b = boxes[h], gr = grects[b.g];
+        const m = marked.includes(h) ? marker(b) : b;
         ctx.save();
-        if (gr) {
+        if (gr && b.i >= 0) {
           ctx.strokeStyle = "rgba(255,255,255,.4)";
           ctx.lineWidth = 1.5;
           ctx.strokeRect(gr[0] + .5, gr[1] + .5, gr[2] - 1, gr[3] - 1)
@@ -865,7 +914,7 @@
       }
       for (let k = boxes.length - 1; k >= 0; k--) {
         const b = boxes[k];
-        if (mx >= b.x && mx < b.x + b.w && my >= b.y && my < b.y + b.h)
+        if (visible[k] && mx >= b.x && mx < b.x + b.w && my >= b.y && my < b.y + b.h)
           return k
       }
       return -1;
@@ -877,14 +926,28 @@
         return
       }
       const b = boxes[k], g = groups[b.g], f = g.fns[b.i];
-      tip.innerHTML =
-        '<div class="in"><b></b><div class="row"><span>Status</span><span><i class="dot" style="background:' +
-        COLOR[f[2]] + '"></i>' + LABEL[f[2]] + '</span></div>' +
-        '<div class="row"><span>Size</span><span>' + f[1].toLocaleString() + ' bytes</span></div>' +
-        '<div class="row"><span>Address</span><span>0x' + f[0].toString(16).toUpperCase() +
-        '</span></div>' +
-        '<div class="row"><span>File</span><span>src/' + g.file + '.cpp</span></div></div>';
-      tip.querySelector("b").textContent = f[3];
+      if (b.i < 0) {
+        const pct = g.total ? (100 * g.by[2] / g.total).toFixed(1) : "0.0";
+        tip.innerHTML = '<div class="in"><b></b>' +
+          '<div class="row"><span>Functions</span><span>' + g.fns.length.toLocaleString() +
+          '</span></div>' +
+          [2, 1, 0]
+            .map(
+              s => '<div class="row"><span><i class="dot" style="background:' + COLOR[s] +
+                '"></i>' + LABEL[s] + '</span><span>' + g.cnt[s].toLocaleString() + '</span></div>')
+            .join("") +
+          '<div class="row"><span>Code matched</span><span>' + pct + '%</span></div></div>';
+        tip.querySelector("b").textContent = "src/" + g.file + ".cpp";
+      } else {
+        tip.innerHTML =
+          '<div class="in"><b></b><div class="row"><span>Status</span><span><i class="dot" style="background:' +
+          COLOR[f[2]] + '"></i>' + LABEL[f[2]] + '</span></div>' +
+          '<div class="row"><span>Size</span><span>' + f[1].toLocaleString() + ' bytes</span></div>' +
+          '<div class="row"><span>Address</span><span>0x' + f[0].toString(16).toUpperCase() +
+          '</span></div>' +
+          '<div class="row"><span>File</span><span>src/' + g.file + '.cpp</span></div></div>';
+        tip.querySelector("b").textContent = f[3];
+      }
       const r = tip.getBoundingClientRect();
       let x = ev.clientX + 18, y = ev.clientY + 18;
       if (x + r.width > innerWidth - 14)

@@ -983,11 +983,6 @@ void sub_5AC470()
 {
 }
 
-// STUB: 0x5AC4F0 sub_5AC4F0 (6 bytes)
-void sub_5AC4F0()
-{
-}
-
 // STUB: 0x5AC500 sub_5AC500 (172 bytes)
 void sub_5AC500()
 {

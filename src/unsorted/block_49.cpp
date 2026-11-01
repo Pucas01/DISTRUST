@@ -13,11 +13,6 @@ void sub_494560()
 {
 }
 
-// STUB: 0x4945C0 sub_4945C0 (12 bytes)
-void sub_4945C0()
-{
-}
-
 // STUB: 0x4945D0 sub_4945D0 (158 bytes)
 void sub_4945D0()
 {
@@ -270,11 +265,6 @@ void sub_497540()
 
 // STUB: 0x4975A0 sub_4975A0 (452 bytes)
 void sub_4975A0()
-{
-}
-
-// STUB: 0x497770 sub_497770 (12 bytes)
-void sub_497770()
 {
 }
 
@@ -628,11 +618,6 @@ void sub_49B5E0()
 {
 }
 
-// STUB: 0x49B620 sub_49B620 (12 bytes)
-void sub_49B620()
-{
-}
-
 // STUB: 0x49B630 sub_49B630 (110 bytes)
 void sub_49B630()
 {
@@ -920,16 +905,6 @@ void sub_49F670()
 
 // STUB: 0x49F680 sub_49F680 (22 bytes)
 void sub_49F680()
-{
-}
-
-// STUB: 0x49F6A0 sub_49F6A0 (8 bytes)
-void sub_49F6A0()
-{
-}
-
-// STUB: 0x49F6B0 sub_49F6B0 (8 bytes)
-void sub_49F6B0()
 {
 }
 

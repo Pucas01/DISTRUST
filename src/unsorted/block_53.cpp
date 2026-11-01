@@ -318,11 +318,6 @@ void sub_534380()
 {
 }
 
-// STUB: 0x534400 sub_534400 (6 bytes)
-void sub_534400()
-{
-}
-
 // STUB: 0x534490 sub_534490 (36 bytes)
 void sub_534490()
 {

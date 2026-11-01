@@ -93,11 +93,6 @@ void sub_401CA0()
 {
 }
 
-// STUB: 0x401CE0 sub_401CE0 (6 bytes)
-void sub_401CE0()
-{
-}
-
 // STUB: 0x401CF0 sub_401CF0 (70 bytes)
 void sub_401CF0()
 {

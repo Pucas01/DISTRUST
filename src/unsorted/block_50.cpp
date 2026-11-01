@@ -808,11 +808,6 @@ void sub_50C970()
 {
 }
 
-// STUB: 0x50C9D0 sub_50C9D0 (6 bytes)
-void sub_50C9D0()
-{
-}
-
 // STUB: 0x50C9E0 sub_50C9E0 (196 bytes)
 void sub_50C9E0()
 {

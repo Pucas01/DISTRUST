@@ -3,11 +3,6 @@ void shared_4135B0()
 {
 }
 
-// STUB: 0x501D60 shared_501D60 (6 bytes)
-void shared_501D60()
-{
-}
-
 // STUB: 0x5110F0 shared_5110F0 (89 bytes)
 void shared_5110F0()
 {
@@ -35,11 +30,6 @@ void shared_532890()
 
 // STUB: 0x533590 shared_533590 (26 bytes)
 void shared_533590()
-{
-}
-
-// STUB: 0x5337A0 shared_5337A0 (6 bytes)
-void shared_5337A0()
 {
 }
 

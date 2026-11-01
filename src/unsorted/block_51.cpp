@@ -723,11 +723,6 @@ void sub_518080()
 {
 }
 
-// STUB: 0x5180E0 sub_5180E0 (6 bytes)
-void sub_5180E0()
-{
-}
-
 // STUB: 0x5180F0 sub_5180F0 (27 bytes)
 void sub_5180F0()
 {

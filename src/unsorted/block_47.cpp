@@ -8,11 +8,6 @@ void sub_470C40()
 {
 }
 
-// STUB: 0x470C50 sub_470C50 (6 bytes)
-void sub_470C50()
-{
-}
-
 // STUB: 0x470C60 sub_470C60 (18 bytes)
 void sub_470C60()
 {
@@ -278,13 +273,13 @@ void sub_473C60()
 {
 }
 
-// STUB: 0x473D00 sub_473D00 (6 bytes)
-void sub_473D00()
+// STUB: 0x473D00 getColorTableA (6 bytes)
+void getColorTableA()
 {
 }
 
-// STUB: 0x473D10 sub_473D10 (6 bytes)
-void sub_473D10()
+// STUB: 0x473D10 getColorTableB (6 bytes)
+void getColorTableB()
 {
 }
 
@@ -330,11 +325,6 @@ void sub_474270()
 
 // STUB: 0x474280 sub_474280 (123 bytes)
 void sub_474280()
-{
-}
-
-// STUB: 0x474300 sub_474300 (12 bytes)
-void sub_474300()
 {
 }
 
@@ -398,11 +388,6 @@ void sub_474C90()
 {
 }
 
-// STUB: 0x474CF0 sub_474CF0 (6 bytes)
-void sub_474CF0()
-{
-}
-
 // STUB: 0x474D00 sub_474D00 (82 bytes)
 void sub_474D00()
 {
@@ -423,8 +408,8 @@ void sub_474F10()
 {
 }
 
-// STUB: 0x474F70 sub_474F70 (311 bytes)
-void sub_474F70()
+// STUB: 0x474F70 clearMapState (311 bytes)
+void clearMapState()
 {
 }
 
@@ -998,18 +983,13 @@ void sub_47CAA0()
 {
 }
 
-// STUB: 0x47CBF0 sub_47CBF0 (576 bytes)
-void sub_47CBF0()
+// STUB: 0x47CBF0 loadMapTextures (576 bytes)
+void loadMapTextures()
 {
 }
 
 // STUB: 0x47CE30 sub_47CE30 (44 bytes)
 void sub_47CE30()
-{
-}
-
-// STUB: 0x47CED0 sub_47CED0 (91 bytes)
-void sub_47CED0()
 {
 }
 
@@ -1090,11 +1070,6 @@ void sub_47EA10()
 
 // STUB: 0x47EBE0 sub_47EBE0 (346 bytes)
 void sub_47EBE0()
-{
-}
-
-// STUB: 0x47ED40 sub_47ED40 (6 bytes)
-void sub_47ED40()
 {
 }
 

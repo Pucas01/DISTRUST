@@ -638,11 +638,6 @@ void sub_4B9420()
 {
 }
 
-// STUB: 0x4B9430 sub_4B9430 (6 bytes)
-void sub_4B9430()
-{
-}
-
 // STUB: 0x4B9440 sub_4B9440 (81 bytes)
 void sub_4B9440()
 {
@@ -650,11 +645,6 @@ void sub_4B9440()
 
 // STUB: 0x4B94A0 sub_4B94A0 (4 bytes)
 void sub_4B94A0()
-{
-}
-
-// STUB: 0x4B94B0 sub_4B94B0 (12 bytes)
-void sub_4B94B0()
 {
 }
 

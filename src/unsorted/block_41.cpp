@@ -748,11 +748,6 @@ void sub_41AAA0()
 {
 }
 
-// STUB: 0x41AAE0 sub_41AAE0 (6 bytes)
-void sub_41AAE0()
-{
-}
-
 // STUB: 0x41AAF0 sub_41AAF0 (55 bytes)
 void sub_41AAF0()
 {
@@ -920,11 +915,6 @@ void sub_41D9B0()
 
 // STUB: 0x41DAE0 sub_41DAE0 (2982 bytes)
 void sub_41DAE0()
-{
-}
-
-// STUB: 0x41E690 sub_41E690 (12 bytes)
-void sub_41E690()
 {
 }
 

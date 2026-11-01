@@ -153,18 +153,8 @@ void sub_462A10()
 {
 }
 
-// STUB: 0x462B60 sub_462B60 (6 bytes)
-void sub_462B60()
-{
-}
-
 // STUB: 0x462B70 sub_462B70 (462 bytes)
 void sub_462B70()
-{
-}
-
-// STUB: 0x462D40 sub_462D40 (6 bytes)
-void sub_462D40()
 {
 }
 
@@ -195,11 +185,6 @@ void sub_462DE0()
 
 // STUB: 0x462E00 sub_462E00 (28 bytes)
 void sub_462E00()
-{
-}
-
-// STUB: 0x462E20 sub_462E20 (6 bytes)
-void sub_462E20()
 {
 }
 
@@ -913,8 +898,8 @@ void sub_46DB50()
 {
 }
 
-// STUB: 0x46DB90 sub_46DB90 (74 bytes)
-void sub_46DB90()
+// STUB: 0x46DB90 resetVertexColors (74 bytes)
+void resetVertexColors()
 {
 }
 
