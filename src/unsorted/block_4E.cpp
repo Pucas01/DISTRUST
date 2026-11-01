@@ -598,11 +598,6 @@ void sub_4E7C00()
 {
 }
 
-// STUB: 0x4E7C20 sub_4E7C20 (5 bytes)
-void sub_4E7C20()
-{
-}
-
 // STUB: 0x4E7C60 sub_4E7C60 (352 bytes)
 void sub_4E7C60()
 {
@@ -625,11 +620,6 @@ void sub_4E7E80()
 
 // STUB: 0x4E7EF0 sub_4E7EF0 (264 bytes)
 void sub_4E7EF0()
-{
-}
-
-// STUB: 0x4E8000 sub_4E8000 (5 bytes)
-void sub_4E8000()
 {
 }
 

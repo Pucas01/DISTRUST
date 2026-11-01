@@ -33,11 +33,6 @@ void sub_430E10()
 {
 }
 
-// STUB: 0x430EF0 sub_430EF0 (5 bytes)
-void sub_430EF0()
-{
-}
-
 // STUB: 0x430F00 sub_430F00 (59 bytes)
 void sub_430F00()
 {

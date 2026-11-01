@@ -53,11 +53,6 @@ void sub_421EE0()
 {
 }
 
-// STUB: 0x421FE0 sub_421FE0 (5 bytes)
-void sub_421FE0()
-{
-}
-
 // STUB: 0x421FF0 sub_421FF0 (103 bytes)
 void sub_421FF0()
 {

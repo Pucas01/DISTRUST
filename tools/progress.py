@@ -4,6 +4,7 @@ import datetime
 import html
 import json
 import re
+import shutil
 import subprocess
 import sys
 
@@ -103,6 +104,9 @@ def badge(label, values):
     return "\n".join(parts) + "\n"
 
 
+PUBLISH = "--record" in sys.argv or "--publish" in sys.argv
+OUT = ROOT / "docs" if PUBLISH else ROOT / "build" / "progress"
+BADGE = ROOT / "assets" / "badge.svg" if PUBLISH else OUT / "badge.svg"
 HISTORY = ROOT / "config" / "history.tsv"
 HISTORY_COLUMNS = ("time", "matched", "partial", "total", "bytesMatched", "bytesTotal")
 
@@ -257,10 +261,12 @@ def write_page(groups, stats, rows):
     for key, value in tokens.items():
         template = template.replace("{{%s}}" % key, value)
     page = template.replace("/*DATA*/null", json.dumps(data, separators=(",", ":")).replace("</", "<\\/"))
-    out = ROOT / "docs" / "index.html"
-    out.parent.mkdir(exist_ok=True)
+    out = OUT / "index.html"
+    out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(page)
     (out.parent / ".nojekyll").touch()
+    if not PUBLISH:
+        shutil.copyfile(ROOT / "docs" / "btn-series.png", OUT / "btn-series.png")
     return out
 
 
@@ -299,8 +305,8 @@ def main():
         % (COLORS["match"], COLORS["partial"], COLORS["stub"]),
         '<rect width="%d" height="%d" rx="16" fill="#000"/>' % (WIDTH, HEIGHT),
     ] + shapes + ["</svg>"]
-    out = ROOT / "docs" / "progress.svg"
-    out.parent.mkdir(exist_ok=True)
+    out = OUT / "progress.svg"
+    out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text("\n".join(svg) + "\n")
     stats = {
         "matched": len(matched),
@@ -311,10 +317,10 @@ def main():
         "updated": datetime.date.today().isoformat(),
     }
     rows = record_history(stats) if "--record" in sys.argv else (read_history() or [current_row(stats)])
-    (ROOT / "docs" / "history.svg").write_text(history_svg(rows))
+    (OUT / "history.svg").write_text(history_svg(rows))
     page = write_page(groups, stats, rows)
     function_percent = 100.0 * len(matched) / total_functions if total_functions else 0.0
-    (ROOT / "assets" / "badge.svg").write_text(
+    BADGE.write_text(
         badge("DR1_us", ["code %.2f%%" % percent, "functions %.2f%%" % function_percent]))
     print("%d of %d functions matched, %.2f%% of code" % (len(matched), total_functions, percent))
     print("wrote %s" % page.relative_to(ROOT))
