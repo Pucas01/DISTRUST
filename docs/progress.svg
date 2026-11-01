@@ -17845,59 +17845,59 @@ src/engine/render/AgResourceVertexBufferOpenGL.cpp</title></rect>
 <rect x="1094.06" y="498.16" width="8.37" height="4.98" class="s"><title>AgResourceVertexBufferOpenGL::vfn_0
 155 bytes, not rewritten
 src/engine/render/AgResourceVertexBufferOpenGL.cpp</title></rect>
-<rect x="1082.85" y="505.74" width="6.34" height="7.25" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_31
-169 bytes, not rewritten
+<rect x="1082.85" y="505.74" width="6.34" height="7.25" class="m"><title>AgPlatformRenderListProcessor_CacheStates::initialize
+169 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1082.85" y="513.59" width="6.34" height="6.14" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_28
+<rect x="1082.85" y="513.59" width="6.34" height="6.14" class="s"><title>AgPlatformRenderListProcessor_CacheStates::setTargetMask
 145 bytes, not rewritten
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1082.85" y="520.33" width="6.34" height="4.93" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_26
-119 bytes, not rewritten
+<rect x="1082.85" y="520.33" width="6.34" height="4.93" class="m"><title>AgPlatformRenderListProcessor_CacheStates::setScissorRect
+119 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1089.79" y="505.74" width="4.03" height="5.81" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_14
-92 bytes, not rewritten
+<rect x="1089.79" y="505.74" width="4.03" height="5.81" class="m"><title>AgPlatformRenderListProcessor_CacheStates::setGroupBRect
+92 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
 <rect x="1094.42" y="505.74" width="3.83" height="5.81" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_0
 88 bytes, not rewritten
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1098.85" y="505.74" width="3.58" height="5.81" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_24
-83 bytes, not rewritten
+<rect x="1098.85" y="505.74" width="3.58" height="5.81" class="m"><title>AgPlatformRenderListProcessor_CacheStates::setViewport
+83 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1089.79" y="512.14" width="4.23" height="4.27" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_20
-73 bytes, not rewritten
+<rect x="1089.79" y="512.14" width="4.23" height="4.27" class="m"><title>AgPlatformRenderListProcessor_CacheStates::setBlendColorFactors
+73 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1094.62" y="512.14" width="4.23" height="4.27" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_21
-73 bytes, not rewritten
+<rect x="1094.62" y="512.14" width="4.23" height="4.27" class="m"><title>AgPlatformRenderListProcessor_CacheStates::setBlendAlphaFactors
+73 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1099.45" y="512.14" width="2.97" height="4.27" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_15
-54 bytes, not rewritten
+<rect x="1099.45" y="512.14" width="2.97" height="4.27" class="m"><title>AgPlatformRenderListProcessor_CacheStates::setGroupBPair
+54 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1089.79" y="517.02" width="2.46" height="3.82" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_12
-42 bytes, not rewritten
+<rect x="1089.79" y="517.02" width="2.46" height="3.82" class="m"><title>AgPlatformRenderListProcessor_CacheStates::setGroupBFlag
+42 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1089.79" y="521.44" width="2.46" height="3.82" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_16
-42 bytes, not rewritten
+<rect x="1089.79" y="521.44" width="2.46" height="3.82" class="m"><title>AgPlatformRenderListProcessor_CacheStates::setGroupCFlagA
+42 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1092.85" y="517.02" width="2.46" height="3.82" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_17
-42 bytes, not rewritten
+<rect x="1092.85" y="517.02" width="2.46" height="3.82" class="m"><title>AgPlatformRenderListProcessor_CacheStates::setGroupCFlagB
+42 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1092.85" y="521.44" width="2.46" height="3.82" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_25
-42 bytes, not rewritten
+<rect x="1092.85" y="521.44" width="2.46" height="3.82" class="m"><title>AgPlatformRenderListProcessor_CacheStates::setScissorEnable
+42 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1095.92" y="517.02" width="2.96" height="3.21" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_19
-42 bytes, not rewritten
+<rect x="1095.92" y="517.02" width="2.96" height="3.21" class="m"><title>AgPlatformRenderListProcessor_CacheStates::setBlendEnable
+42 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1099.47" y="517.02" width="2.96" height="3.21" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_22
-42 bytes, not rewritten
+<rect x="1099.47" y="517.02" width="2.96" height="3.21" class="m"><title>AgPlatformRenderListProcessor_CacheStates::setBlendSeparateAlpha
+42 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1095.92" y="520.83" width="4.14" height="1.92" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_13
-37 bytes, not rewritten
+<rect x="1095.92" y="520.83" width="4.14" height="1.92" class="m"><title>AgPlatformRenderListProcessor_CacheStates::setGroupBValue
+37 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1095.92" y="523.34" width="4.14" height="1.92" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_27
-37 bytes, not rewritten
+<rect x="1095.92" y="523.34" width="4.14" height="1.92" class="m"><title>AgPlatformRenderListProcessor_CacheStates::setGroupAValue
+37 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
-<rect x="1100.66" y="520.83" width="1.77" height="4.43" class="s"><title>AgPlatformRenderListProcessor_CacheStates::vfn_18
-37 bytes, not rewritten
+<rect x="1100.66" y="520.83" width="1.77" height="4.43" class="m"><title>AgPlatformRenderListProcessor_CacheStates::setGroupCValue
+37 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor_CacheStates.cpp</title></rect>
 <rect x="1082.85" y="527.86" width="7.53" height="9.44" class="s"><title>AgArchiveDirectory::fn_534AC0
 254 bytes, not rewritten
