@@ -1,0 +1,1025 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DISTRUST progress</title>
+  <style>
+    :root {
+      --red: #ff1f00;
+      --red-deep: #b81500;
+      --yellow: #ffea00;
+      --green: #22e05a;
+      --orange: #ff8a00;
+      --grey: #a6a6a6;
+      --line: #333;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      color-scheme: dark;
+      background: #000;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #000;
+      color: #fff;
+      overflow-x: hidden;
+      font: 600 16px/1.6 "Noto Sans JP", "Noto Sans", "Hiragino Sans", "Segoe UI", system-ui, sans-serif;
+    }
+
+    a,
+    button,
+    input,
+    select {
+      font: inherit;
+    }
+
+    :focus-visible {
+      outline: 3px solid var(--yellow);
+      outline-offset: 3px;
+    }
+
+    .wrap {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+
+
+    .hero {
+      position: relative;
+      padding: 68px 0 76px;
+      text-align: center;
+      background:
+        radial-gradient(60% 100% at 50% 0, #303030 0, #000 74%),
+        repeating-linear-gradient(0deg, rgba(255, 255, 255, .07) 0 2px, transparent 2px 7px),
+        #000;
+    }
+
+    .banner {
+      display: inline-block;
+      background: #fff;
+      color: #000;
+      transform: skewX(-14deg);
+      padding: 4px 44px 10px;
+      box-shadow: 12px 12px 0 var(--red);
+      animation: slam .55s cubic-bezier(.2, .9, .25, 1) both;
+    }
+
+    .banner h1 {
+      margin: 0;
+      font-size: clamp(46px, 12vw, 128px);
+      line-height: 1.02;
+      font-weight: 900;
+      letter-spacing: -.025em;
+    }
+
+    @keyframes slam {
+      from {
+        opacity: 0;
+        transform: translateX(-60px) skewX(-14deg);
+      }
+
+      to {
+        opacity: 1;
+        transform: skewX(-14deg);
+      }
+    }
+
+    @keyframes fade {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+
+      to {
+        opacity: 1;
+        transform: none;
+      }
+    }
+
+
+    .slashwrap {
+      filter: drop-shadow(0 0 14px rgba(255, 30, 0, .75));
+      margin-top: -1px;
+      line-height: 0;
+    }
+
+    .slash {
+      height: clamp(34px, 6vw, 70px);
+      background: var(--red);
+      clip-path: polygon(0 100%, 100% 0, 100% 42%, 0 100%);
+    }
+
+    .slashwrap.flip .slash {
+      clip-path: polygon(0 0, 100% 100%, 100% 58%, 0 0);
+    }
+
+
+    .numbers {
+      display: grid;
+      grid-template-columns: 1.35fr 1fr;
+      gap: 44px 56px;
+      align-items: end;
+      padding: 34px 0 64px;
+    }
+
+    .big .k {
+      font-size: 15px;
+      color: var(--grey);
+      font-weight: 700;
+    }
+
+    .big .num {
+      font-size: clamp(76px, 17vw, 176px);
+      line-height: .95;
+      font-weight: 900;
+      font-style: italic;
+      color: var(--green);
+      text-shadow: 5px 5px 0 #000, 9px 9px 0 #0b6a2a;
+      font-variant-numeric: tabular-nums;
+      animation: fade .7s .5s both;
+    }
+
+    .big .num small {
+      font-size: .26em;
+      font-style: normal;
+      color: #fff;
+      text-shadow: none;
+      margin-left: .2em;
+      font-weight: 800;
+    }
+
+    .meter {
+      height: 20px;
+      margin: 22px 10px 0 0;
+      border: 2px solid #fff;
+      background: #0a0a0a;
+      transform: skewX(-24deg);
+      overflow: hidden;
+    }
+
+    .meter i {
+      display: block;
+      height: 100%;
+      width: 0;
+      background: var(--green);
+      box-shadow: 0 0 16px rgba(34, 224, 90, .5);
+      transition: width 1.5s .6s cubic-bezier(.2, .8, .2, 1);
+    }
+
+    .facts {
+      margin: 0;
+      padding: 0;
+      animation: fade .7s .7s both;
+    }
+
+    .facts div {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      padding: 12px 0;
+      border-bottom: 2px dashed var(--line);
+      font-size: 18px;
+    }
+
+    .facts dt {
+      color: var(--grey);
+      font-weight: 700;
+    }
+
+    .facts dd {
+      margin: 0;
+      font-weight: 900;
+      font-variant-numeric: tabular-nums;
+      text-align: right;
+    }
+
+    .facts .orange {
+      color: var(--orange);
+    }
+
+
+    .maphead {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      justify-content: space-between;
+      gap: 14px 24px;
+      margin-bottom: 18px;
+    }
+
+    .maphead h2 {
+      display: inline-block;
+      margin: 0;
+      background: #fff;
+      color: #000;
+      transform: skewX(-14deg);
+      padding: 2px 26px 6px;
+      font-size: clamp(26px, 4vw, 40px);
+      font-weight: 900;
+      line-height: 1.1;
+    }
+
+    .maphead p {
+      margin: 0;
+      color: var(--grey);
+      max-width: 520px;
+      font-size: 15px;
+    }
+
+    .tools {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .tools input,
+    .tools select {
+      min-height: 46px;
+      background: #000;
+      color: #fff;
+      border: 2px solid #fff;
+      border-radius: 0;
+      padding: 8px 14px;
+      min-width: 0;
+    }
+
+    .tools input {
+      flex: 1 1 260px;
+    }
+
+    .tools select {
+      flex: 0 1 380px;
+      max-width: 100%;
+    }
+
+    .tools input::placeholder {
+      color: var(--grey);
+      opacity: 1;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .chip {
+      min-height: 46px;
+      padding: 6px 20px;
+      background: #000;
+      color: #fff;
+      border: 2px solid var(--c);
+      cursor: pointer;
+      transform: skewX(-12deg);
+      font-weight: 800;
+    }
+
+    .chip span {
+      display: inline-flex;
+      align-items: center;
+      gap: 9px;
+      transform: skewX(12deg);
+    }
+
+    .chip i {
+      width: 12px;
+      height: 12px;
+      background: var(--c);
+      display: inline-block;
+    }
+
+    .chip[aria-pressed=false] {
+      border-style: dashed;
+      color: var(--grey);
+    }
+
+    .chip[aria-pressed=false] i {
+      opacity: .35;
+    }
+
+    .chip:hover {
+      background: #161616;
+    }
+
+    .hits {
+      align-self: center;
+      color: var(--yellow);
+      font-weight: 800;
+      min-width: 90px;
+    }
+
+    .crumbs {
+      min-height: 32px;
+      margin: 6px 0 10px;
+      color: var(--grey);
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .crumbs button {
+      background: none;
+      border: 0;
+      padding: 6px 0;
+      color: var(--yellow);
+      cursor: pointer;
+      text-decoration: underline;
+      text-underline-offset: 4px;
+      min-height: 44px;
+      font-weight: 800;
+    }
+
+    .crumbs code {
+      color: #fff;
+      font-weight: 800;
+    }
+
+
+    .frame {
+      position: relative;
+      background: #000;
+      border: 2px solid #4a4a4a;
+      box-shadow: 14px 14px 0 var(--red-deep);
+      margin: 0 14px 64px 0;
+    }
+
+    canvas {
+      display: block;
+      width: 100%;
+      cursor: crosshair;
+    }
+
+    .notice {
+      padding: 48px 22px;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    [hidden] {
+      display: none!important;
+    }
+
+    #static img {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+
+    .nojs {
+      margin: 0 0 14px;
+      padding: 12px 16px;
+      border: 2px solid var(--yellow);
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .notice b {
+      color: var(--red);
+    }
+
+
+    #tip {
+      position: fixed;
+      z-index: 9;
+      pointer-events: none;
+      max-width: 350px;
+      opacity: 0;
+      transition: opacity .1s;
+      filter: drop-shadow(6px 6px 0 var(--red));
+    }
+
+    #tip.on {
+      opacity: 1;
+    }
+
+    #tip .in {
+      background: #fff;
+      color: #000;
+      padding: 12px 26px 14px;
+      clip-path: polygon(12px 0, 100% 0, calc(100% - 12px) 100%, 0 100%);
+      font-size: 14px;
+    }
+
+    #tip b {
+      display: block;
+      font: 800 15px ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      word-break: break-all;
+      margin-bottom: 4px;
+    }
+
+    #tip .row {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      color: #2c2c2c;
+    }
+
+    #tip .row span:last-child {
+      color: #000;
+      font-weight: 800;
+      text-align: right;
+    }
+
+    .dot {
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin-right: 6px;
+      border: 1px solid #000;
+    }
+
+
+    footer {
+      padding: 38px 0 60px;
+      color: var(--grey);
+      font-size: 14px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px 28px;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .notes {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      max-width: 640px;
+    }
+
+    .series {
+      display: block;
+      line-height: 0;
+    }
+
+    .series img {
+      display: block;
+      width: 158px;
+      height: 40px;
+    }
+
+    .sr {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0 0 0 0);
+      white-space: nowrap;
+    }
+
+
+    @media (max-width: 820px) {
+      .numbers {
+        grid-template-columns: 1fr;
+        gap: 30px;
+      }
+
+      .banner {
+        padding: 2px 26px 8px;
+        box-shadow: 8px 8px 0 var(--red);
+      }
+
+      .frame {
+        box-shadow: 8px 8px 0 var(--red-deep);
+        margin: 0 8px 44px 0;
+      }
+
+      .tools select {
+        flex: 1 1 100%;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .banner,
+      .big .num,
+      .facts {
+        animation: none;
+      }
+
+      .meter i {
+        transition: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <div class="wrap">
+      <div class="banner">
+        <h1>DISTRUST</h1>
+      </div>
+    </div>
+  </header>
+  <div class="slashwrap" aria-hidden="true">
+    <div class="slash"></div>
+  </div>
+  <main class="wrap">
+    <section class="numbers" aria-label="Totals">
+      <div class="big">
+        <div class="k">Functions matched</div>
+        <div class="num">
+          <span id="s-fn">{{matched}}</span><small>of <span id="s-total">{{total}}</span></small>
+        </div>
+        <div class="meter" aria-hidden="true"><i id="b-fn" style="width:{{fnbar}}%"></i></div>
+      </div>
+      <dl class="facts">
+        <div>
+          <dt>Code matched</dt>
+          <dd><span id="s-code">{{code}}</span>%</dd>
+        </div>
+        <div>
+          <dt>Non matching</dt>
+          <dd class="orange" id="s-partial">{{partial}}</dd>
+        </div>
+        <div>
+          <dt>Source files</dt>
+          <dd id="s-files">{{files}}</dd>
+        </div>
+        <div>
+          <dt>Updated</dt>
+          <dd id="updated">{{updated}}</dd>
+        </div>
+      </dl>
+    </section>
+    <section aria-label="Function map">
+      <div class="maphead">
+        <h2>Function map</h2>
+      </div>
+      <div class="tools">
+        <input
+          id="q"
+          type="search"
+          placeholder="Search a name or address"
+          aria-label="Search functions"
+          autocomplete="off"
+          spellcheck="false">
+        <select id="jump" aria-label="Zoom to a source file"></select>
+      </div>
+      <div class="tools chips" role="group" aria-label="Show">
+        <button class="chip" data-s="2" aria-pressed="true" style="--c:#22e05a">
+          <span><i></i>Matching</span>
+        </button>
+        <button class="chip" data-s="1" aria-pressed="true" style="--c:#ff8a00">
+          <span><i></i>Non matching</span>
+        </button>
+        <button class="chip" data-s="0" aria-pressed="true" style="--c:#8a8a8a">
+          <span><i></i>Not rewritten</span>
+        </button>
+        <span id="hits" class="hits" aria-live="polite"></span>
+      </div>
+      <p id="nojs" class="nojs">
+        Scripts are blocked or turned off here, so this is the static picture. Open this file in a
+        normal browser tab for the interactive map.
+      </p>
+      <div class="crumbs" id="crumbs"></div>
+      <div class="frame">
+        <canvas id="map" role="img" aria-label="Treemap of functions" hidden></canvas>
+        <div id="static">
+          <img src="progress.svg" alt="Treemap of every function, grouped by source file" width="1200" height="600">
+        </div>
+        <div id="empty" class="notice" hidden>
+          No functions to show. If you opened <b>tools/progress_page.html</b>, open
+          <b>docs/index.html</b> instead. Otherwise run <b>ninja progress</b> to generate the data.
+        </div>
+        <div id="fail" class="notice" hidden></div>
+      </div>
+    </section>
+  </main>
+  <div class="slashwrap flip" aria-hidden="true">
+    <div class="slash"></div>
+  </div>
+  <div class="wrap">
+    <footer>
+      <div class="notes">
+        <span>A fan decompilation project. Not affiliated with Spike Chunsoft.</span>
+      </div>
+      <a class="series" href="https://www.danganronpa.com/" target="_blank" rel="noopener">
+        <img src="btn-series.png" alt="Danganronpa series, official site" width="158" height="40">
+      </a>
+    </footer>
+  </div>
+  <div id="tip" role="presentation"></div>
+  <script>
+    const DATA = /*DATA*/null || {
+      groups: [],
+      stats: {total: 0, matched: 0, partial: 0, bytesMatched: 0, bytesTotal: 0, updated: ""}
+    };
+    const LABEL = ["Not rewritten", "Non matching", "Matching"];
+    const COLOR = ["#8a8a8a", "#ff8a00", "#22e05a"];
+    const MARK = 6;
+    const ease = t => 1 - Math.pow(1 - t, 3);
+    const canvas = document.getElementById("map"), ctx = canvas.getContext("2d");
+    const base = document.createElement("canvas"), bctx = base.getContext("2d");
+    const tip = document.getElementById("tip");
+    document.getElementById("static").hidden = true;
+    document.getElementById("nojs").hidden = true;
+    canvas.hidden = false;
+    const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    const stubShades = [];
+    for (let i = 0; i < 8; i++)
+      stubShades.push("hsl(0 0% " + (15 + i * 1.3) + "%)");
+
+    function fail(msg) {
+      const el = document.getElementById("fail");
+      el.hidden = false;
+      el.textContent = msg;
+      canvas.style.display = "none"
+    }
+
+    addEventListener("error", ev => {
+      if (/ResizeObserver loop/.test(ev.message || ""))
+        return;
+      fail("The map could not be drawn: " + ev.message)
+    });
+
+    const groups = DATA.groups
+                     .map(g => {
+                       const fns = g.n.slice().sort((a, b) => b[1] - a[1]);
+                       fns.forEach(f => {
+                         f.shade = stubShades[(f[0] * 2654435761 >>> 0) % 8];
+                         f.low = (f[3] + " " + f[0].toString(16)).toLowerCase()
+                       });
+                       return {file: g.f, fns, total: fns.reduce((a, f) => a + f[1], 0)};
+                     })
+                     .sort((a, b) => b.total - a.total);
+
+    if (!groups.length) {
+      document.getElementById("empty").hidden = false;
+      canvas.style.display = "none";
+      for (const id of ["s-fn", "s-total", "s-code", "s-partial", "s-files", "updated"]) {
+        const el = document.getElementById(id);
+        if (el.textContent.includes("{{"))
+          el.textContent = id === "updated" ? "never" : id === "s-code" ? "0.00" : "0"
+      }
+    }
+
+    const state = {
+      zoom: -1,
+      hover: -1,
+      query: "",
+      show: [true, true, true]
+    };
+    let W = 0, H = 0, dpr = 1, boxes = [], grects = [], visible = [], marked = [], dirty = true;
+
+    function worst(row, side) {
+      let s = 0, mx = 0, mn = Infinity;
+      for (const v of row) {
+        s += v;
+        if (v > mx)
+          mx = v;
+        if (v < mn)
+          mn = v
+      }
+      return Math.max(side * side * mx / (s * s), s * s / (side * side * mn))
+    }
+
+    function squarify(vals, x, y, w, h) {
+      const out = [];
+      let row = [], i = 0;
+      const flush = () => {
+        let s = 0;
+        for (const v of row)
+          s += v;
+        if (w >= h) {
+          const cw = s / h;
+          let cy = y;
+          for (const v of row) {
+            out.push([x, cy, cw, v / cw]);
+            cy += v / cw
+          }
+          x += cw;
+          w -= cw
+        } else {
+          const rh = s / w;
+          let cx = x;
+          for (const v of row) {
+            out.push([cx, y, v / rh, rh]);
+            cx += v / rh
+          }
+          y += rh;
+          h -= rh
+        }
+        row = []
+      };
+      while (i < vals.length) {
+        const side = Math.min(w, h);
+        const v = vals[i];
+        if (!row.length || worst(row.concat(v), side) <= worst(row, side)) {
+          row.push(v);
+          i++
+        } else
+          flush()
+      }
+      if (row.length)
+        flush();
+      return out;
+    }
+
+    function fillGroup(gi, x, y, w, h) {
+      if (w <= 0 || h <= 0)
+        return;
+      const g = groups[gi];
+      squarify(g.fns.map(f => f[1] / g.total * w * h), x, y, w, h)
+        .forEach((b, i) => boxes.push({x: b[0], y: b[1], w: b[2], h: b[3], g: gi, i}));
+    }
+
+    function layout() {
+      boxes = [];
+      grects = [];
+      if (state.zoom < 0) {
+        const total = groups.reduce((a, g) => a + g.total, 0);
+        const gr = squarify(groups.map(g => g.total / total * W * H), 0, 0, W, H);
+        groups.forEach((g, gi) => {
+          let [x, y, w, h] = gr[gi];
+          const inset = Math.min(w, h) > 8 ? 1 : 0;
+          x += inset;
+          y += inset;
+          w -= 2 * inset;
+          h -= 2 * inset;
+          grects[gi] = [x, y, w, h];
+          fillGroup(gi, x, y, w, h)
+        });
+      } else {
+        grects[state.zoom] = [0, 0, W, H];
+        fillGroup(state.zoom, 0, 0, W, H)
+      }
+      marked = [];
+      boxes.forEach((b, k) => {
+        if (groups[b.g].fns[b.i][2] !== 0)
+          marked.push(k)
+      });
+      refreshVisible();
+    }
+
+    function refreshVisible() {
+      const q = state.query;
+      let n = 0;
+      visible = boxes.map(b => {
+        const f = groups[b.g].fns[b.i];
+        const ok = state.show[f[2]] && (!q || f.low.includes(q));
+        if (ok && q)
+          n++;
+        return ok
+      });
+      document.getElementById("hits").textContent =
+        q ? n.toLocaleString() + (n === 1 ? " match" : " matches") : "";
+      dirty = true;
+      if (W)
+        render();
+    }
+
+    function size() {
+      const stage = canvas.parentElement.clientWidth - 4;
+      if (stage === W && canvas.width)
+        return;
+      dpr = Math.min(window.devicePixelRatio || 1, 2);
+      W = stage;
+      H = Math.max(340, Math.round(W * (W < 640 ? 1.15 : 0.5)));
+      for (const c of [canvas, base]) {
+        c.width = Math.round(W * dpr);
+        c.height = Math.round(H * dpr)
+      }
+      canvas.style.height = H + "px";
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      bctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      layout();
+    }
+
+    function fillOf(f) {
+      return f[2] === 0 ? f.shade : COLOR[f[2]]
+    }
+
+    function drawBox(c, b, f, alpha) {
+      const g = b.w > 3 && b.h > 3 ? 0.5 : 0;
+      c.globalAlpha = alpha;
+      c.fillStyle = fillOf(f);
+      c.fillRect(b.x + g, b.y + g, b.w - 2 * g, b.h - 2 * g);
+    }
+
+    function drawBase() {
+      bctx.clearRect(0, 0, W, H);
+      bctx.fillStyle = "#000";
+      bctx.fillRect(0, 0, W, H);
+      boxes.forEach((b, k) => drawBox(bctx, b, groups[b.g].fns[b.i], visible[k] ? 1 : 0.12));
+      bctx.globalAlpha = 1;
+    }
+
+    function marker(b) {
+      const w = Math.max(b.w, MARK), h = Math.max(b.h, MARK);
+      return {
+        x: b.x + b.w / 2 - w / 2, y: b.y + b.h / 2 - h / 2, w, h
+      }
+    }
+
+    function render() {
+      if (dirty) {
+        drawBase();
+        dirty = false
+      }
+      ctx.globalAlpha = 1;
+      ctx.drawImage(base, 0, 0, W, H);
+      for (const k of marked) {
+        if (!visible[k])
+          continue;
+        const b = boxes[k], f = groups[b.g].fns[b.i], m = marker(b);
+        ctx.fillStyle = "#000";
+        ctx.fillRect(m.x - 1, m.y - 1, m.w + 2, m.h + 2);
+        ctx.fillStyle = COLOR[f[2]];
+        ctx.fillRect(m.x, m.y, m.w, m.h);
+      }
+      const h = state.hover;
+      if (h >= 0 && boxes[h]) {
+        const b = boxes[h], gr = grects[b.g], f = groups[b.g].fns[b.i], m = f[2] !== 0 ? marker(b) : b;
+        ctx.save();
+        if (gr) {
+          ctx.strokeStyle = "rgba(255,255,255,.4)";
+          ctx.lineWidth = 1.5;
+          ctx.strokeRect(gr[0] + .5, gr[1] + .5, gr[2] - 1, gr[3] - 1)
+        }
+        ctx.strokeStyle = "#fff";
+        ctx.lineWidth = 2;
+        ctx.strokeRect(m.x - .5, m.y - .5, Math.max(m.w, 1) + 1, Math.max(m.h, 1) + 1);
+        ctx.restore();
+      }
+    }
+
+    function pick(mx, my) {
+      for (const k of marked) {
+        if (!visible[k])
+          continue;
+        const m = marker(boxes[k]);
+        if (mx >= m.x && mx < m.x + m.w && my >= m.y && my < m.y + m.h)
+          return k;
+      }
+      for (let k = boxes.length - 1; k >= 0; k--) {
+        const b = boxes[k];
+        if (mx >= b.x && mx < b.x + b.w && my >= b.y && my < b.y + b.h)
+          return k
+      }
+      return -1;
+    }
+
+    function showTip(k, ev) {
+      if (k < 0) {
+        tip.classList.remove("on");
+        return
+      }
+      const b = boxes[k], g = groups[b.g], f = g.fns[b.i];
+      tip.innerHTML =
+        '<div class="in"><b></b><div class="row"><span>Status</span><span><i class="dot" style="background:' +
+        COLOR[f[2]] + '"></i>' + LABEL[f[2]] + '</span></div>' +
+        '<div class="row"><span>Size</span><span>' + f[1].toLocaleString() + ' bytes</span></div>' +
+        '<div class="row"><span>Address</span><span>0x' + f[0].toString(16).toUpperCase() +
+        '</span></div>' +
+        '<div class="row"><span>File</span><span>src/' + g.file + '.cpp</span></div></div>';
+      tip.querySelector("b").textContent = f[3];
+      const r = tip.getBoundingClientRect();
+      let x = ev.clientX + 18, y = ev.clientY + 18;
+      if (x + r.width > innerWidth - 14)
+        x = ev.clientX - r.width - 18;
+      if (y + r.height > innerHeight - 14)
+        y = ev.clientY - r.height - 18;
+      tip.style.left = Math.max(8, x) + "px";
+      tip.style.top = Math.max(8, y) + "px";
+      tip.classList.add("on");
+    }
+    canvas.addEventListener("mousemove", ev => {
+      const r = canvas.getBoundingClientRect();
+      const k = pick(ev.clientX - r.left, ev.clientY - r.top);
+      if (k !== state.hover) {
+        state.hover = k;
+        render()
+      }
+      showTip(k, ev);
+      canvas.style.cursor = state.zoom < 0 && k >= 0 ? "zoom-in" : "crosshair";
+    });
+    canvas.addEventListener("mouseleave", () => {
+      state.hover = -1;
+      showTip(-1);
+      render()
+    });
+    canvas.addEventListener("click", () => {
+      if (state.zoom < 0 && state.hover >= 0)
+        zoomTo(boxes[state.hover].g)
+    });
+
+    const jump = document.getElementById("jump");
+
+    function buildJump() {
+      jump.innerHTML = "";
+      const all = document.createElement("option");
+      all.value = "-1";
+      all.textContent = "All source files";
+      jump.appendChild(all);
+      groups.forEach((g, i) => {
+        const o = document.createElement("option");
+        o.value = i;
+        o.textContent = "src/" + g.file + ".cpp (" + g.fns.length + ")";
+        jump.appendChild(o)
+      });
+    }
+
+    function setZoom(gi) {
+      state.zoom = gi;
+      state.hover = -1;
+      showTip(-1);
+      layout();
+      jump.value = String(gi);
+      crumbs();
+    }
+
+    function zoomTo(gi) {
+      setZoom(gi)
+    }
+
+    function crumbs() {
+      const el = document.getElementById("crumbs");
+      if (state.zoom < 0) {
+        el.textContent = "Click a source file, or pick one from the list, to zoom in.";
+        return
+      }
+      const g = groups[state.zoom];
+      el.innerHTML = '<button id="back" type="button">All files</button> / <code></code> <span>(' +
+        g.fns.length + ' functions)</span>';
+      el.querySelector("code").textContent = "src/" + g.file + ".cpp";
+      document.getElementById("back").onclick = () => setZoom(-1);
+      canvas.setAttribute(
+        "aria-label", "Treemap of " + g.fns.length + " functions in src/" + g.file + ".cpp");
+    }
+    jump.addEventListener("change", () => setZoom(+jump.value));
+
+    addEventListener("keydown", ev => {
+      if (ev.key === "Escape" && state.zoom >= 0)
+        setZoom(-1)
+    });
+
+    document.getElementById("q").addEventListener("input", ev => {
+      state.query = ev.target.value.trim().toLowerCase().replace(/^0x/, "");
+      refreshVisible()
+    });
+
+    document.querySelectorAll(".chip").forEach(btn => btn.addEventListener("click", () => {
+      const s = +btn.dataset.s;
+      state.show[s] = !state.show[s];
+      btn.setAttribute("aria-pressed", state.show[s]);
+      refreshVisible();
+    }));
+
+    function countUp(el, to, ms, fmt) {
+      if (reduce) {
+        el.textContent = fmt(to);
+        return
+      }
+      const t0 = performance.now();
+      (function step(now) {
+        const p = Math.min((now - t0) / ms, 1);
+        el.textContent = fmt(to * ease(p));
+        if (p < 1)
+          requestAnimationFrame(step)
+      })(t0);
+    }
+    const S = DATA.stats;
+    const codePct = S.bytesTotal ? 100 * S.bytesMatched / S.bytesTotal : 0;
+    const fnPct = S.total ? 100 * S.matched / S.total : 0;
+    countUp(document.getElementById("s-fn"), S.matched, 1400, v => Math.round(v).toLocaleString());
+    countUp(document.getElementById("s-code"), codePct, 1400, v => v.toFixed(2));
+    const bar = document.getElementById("b-fn"), barTo = Math.max(fnPct, fnPct > 0 ? 1.5 : 0) + "%";
+    bar.style.transition = "none";
+    bar.style.width = "0";
+    bar.offsetWidth;
+    bar.style.transition = "";
+    requestAnimationFrame(() => {bar.style.width = barTo});
+
+    if (groups.length) {
+      buildJump();
+      let resizeQueued = false;
+      new ResizeObserver(() => {
+        if (resizeQueued)
+          return;
+        resizeQueued = true;
+        requestAnimationFrame(() => {
+          resizeQueued = false;
+          size()
+        })
+      }).observe(canvas.parentElement);
+      crumbs();
+      size();
+      canvas.setAttribute("aria-label",
+        "Treemap of " + S.total.toLocaleString() + " functions in " + groups.length +
+          " source files. " + S.matched + " match the original.");
+    }
+  </script>
+</body>
+</html>

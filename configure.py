@@ -19,7 +19,7 @@ def main():
         flags = next((FLAGS_MARKER.match(l).group(1) for l in text if FLAGS_MARKER.match(l)), default_flags)
         (checked if any(MARKER.match(l) for l in text) else stubs).append((unit, path.relative_to(ROOT).as_posix(), flags))
 
-    tools = " ".join("tools/%s" % n for n in ("cl.py", "check_obj.py", "report.py", "dr1lib.py", "coffobj.py", "objdiff_gen.py"))
+    tools = " ".join("tools/%s" % n for n in ("cl.py", "check_obj.py", "report.py", "progress.py", "dr1lib.py", "coffobj.py", "objdiff_gen.py"))
     sources = " ".join(src for _, src, _ in checked + stubs)
     out = [
         "ninja_required_version = 1.7",
@@ -44,6 +44,11 @@ def main():
         "  description = REPORT",
         "  pool = console",
         "",
+        "rule progress",
+        "  command = %s tools/progress.py" % PY,
+        "  description = PROGRESS",
+        "  pool = console",
+        "",
         "build build.ninja: configure | configure.py %s" % sources,
         "",
     ]
@@ -61,7 +66,8 @@ def main():
         stub_objs.append(obj)
     out += ["build checks: phony " + " ".join(check_outputs),
             "build all: phony checks " + " ".join(stub_objs),
-            "build report: report checks", "",
+            "build report: report checks",
+            "build progress: progress checks", "",
             "default checks", ""]
     (ROOT / "build.ninja").write_text("\n".join(out))
 

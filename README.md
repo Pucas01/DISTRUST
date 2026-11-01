@@ -1,17 +1,16 @@
-# DISTRUST
+<h1 align="left"><img src="assets/logo.svg" alt="DISTRUST" height="72"></h1>
 
-<p align="left">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/monokuma_dark.png">
-    <img src="assets/monokuma.png" width="256" alt="Monokuma">
-  </picture>
-</p>
+![DR1_us progress](assets/badge.svg)
 
 A work-in-progress decompilation of Danganronpa: Trigger Happy Havoc.
 
 This repository does **not** contain any game assets or machine code. An existing copy of the game is required.
 
 The long-term goal is not to FULLY finish this decomp, its mostly here to understand how danganronpa ticks
+
+<p align="left">
+  <a href="https://pucas01.github.io/DISTRUST/"><img src="docs/progress.svg" alt="Decompilation progress" width="720"></a>
+</p>
 
 Supported versions:
 
@@ -89,4 +88,4 @@ Credits
 
 Thanks to [decompals](https://github.com/decompals/wibo) for wibo and [encounter](https://github.com/encounter/objdiff) for objdiff.
 
-Monokuma and Danganronpa belong to Spike Chunsoft.
+Danganronpa belongs to Spike Chunsoft.
