@@ -28,19 +28,21 @@ jobs:
       - name: Link the game executable
         run: |
           test -n "$DR1_EXE" || { echo "DR1_EXE is not set in the runner's .env file"; exit 1; }
+          test -f "$DR1_EXE" || { echo "DR1_EXE points at $DR1_EXE, which does not exist"; exit 1; }
           mkdir -p orig
+          [ -L orig/DR1_us.exe ] && rm orig/DR1_us.exe
           [ -e orig/DR1_us.exe ] || ln -s "$DR1_EXE" orig/DR1_us.exe
           echo "e7881c959012c2d565070218b7f6c0d4795f21af  orig/DR1_us.exe" | sha1sum -c -
 
       - name: Configure
         run: python3 configure.py
 
-      - name: Check every rewritten function
+      - name: Check every func
         env:
           VERBOSE: "1"
         run: ninja report
 
-      - name: Compile the stub files
+      - name: Compile files
         run: ninja all
 
       - name: Progress

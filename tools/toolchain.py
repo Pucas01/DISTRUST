@@ -24,8 +24,8 @@ ISOS = {
     "update4": {
         "name": "VS2012.4.iso",
         "url": "https://download.microsoft.com/download/D/4/8/D48D1AC2-A297-4C9E-A9D0-A218E6609F06/VSU4/VS2012.4.iso",
-        "size": 2518392832,
-        "sha256": "8b25ade6282d847e8f8b2ffde7c7fc59239784c0e0376c5fd06d7a1f7a6ebf66",
+        "size": 2509815808,
+        "sha256": "c462118eabcc242a50f1215587cb1c79505159af79fc50c24d8be1d25203cd87",
     },
 }
 
@@ -133,8 +133,12 @@ def download(iso, directory):
                 say("download error: %s" % err)
         except (urllib.error.URLError, OSError) as err:
             say("download interrupted: %s, retrying" % err)
-    if not part.exists() or part.stat().st_size != iso["size"]:
-        sys.exit("could not download %s completely. Run this again to resume." % iso["name"])
+    got = part.stat().st_size if part.exists() else 0
+    if got > iso["size"]:
+        part.unlink()
+        sys.exit("%s is %d bytes, but %d were expected. Run this again to download it fresh." % (iso["name"], got, iso["size"]))
+    if got != iso["size"]:
+        sys.exit("could not download %s completely (%d of %d bytes). Run this again to resume." % (iso["name"], got, iso["size"]))
     say("verifying %s" % dest.name)
     if sha256_of(part) != iso["sha256"]:
         part.unlink()
