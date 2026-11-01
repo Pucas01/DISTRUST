@@ -80,6 +80,31 @@
       letter-spacing: -.025em;
     }
 
+    .repo {
+      display: inline-flex;
+      align-items: center;
+      min-height: 48px;
+      margin-top: 40px;
+      padding: 0 30px;
+      background: #000;
+      color: #fff;
+      border: 2px solid #fff;
+      font-size: 18px;
+      font-weight: 900;
+      text-decoration: none;
+      transform: skewX(-14deg);
+      transition: background .15s, color .15s;
+    }
+
+    .repo:hover {
+      background: #fff;
+      color: #000;
+    }
+
+    .notes a {
+      color: #fff;
+    }
+
     @keyframes slam {
       from {
         opacity: 0;
@@ -520,6 +545,11 @@
       <div class="banner">
         <h1>DISTRUST</h1>
       </div>
+      <div>
+        <a class="repo" href="https://github.com/Pucas01/DISTRUST" target="_blank" rel="noopener">
+          View on GitHub
+        </a>
+      </div>
     </div>
   </header>
   <div class="slashwrap" aria-hidden="true">
@@ -604,6 +634,12 @@
     <footer>
       <div class="notes">
         <span>A fan decompilation project. Not affiliated with Spike Chunsoft.</span>
+        <span>
+          Source and build instructions:
+          <a href="https://github.com/Pucas01/DISTRUST" target="_blank" rel="noopener">
+            github.com/Pucas01/DISTRUST
+          </a>
+        </span>
       </div>
       <a class="series" href="https://www.danganronpa.com/" target="_blank" rel="noopener">
         <img src="btn-series.png" alt="Danganronpa series, official site" width="158" height="40">

@@ -6,7 +6,11 @@ A work-in-progress decompilation of Danganronpa: Trigger Happy Havoc.
 
 This repository does **not** contain any game assets or machine code. An existing copy of the game is required.
 
-The long-term goal is not to FULLY finish this decomp, its mostly here to understand how danganronpa ticks
+The short-term goal is not to FULLY finish this decomp, its mostly here to understand how danganronpa ticks
+
+Long-term i would like to finish this.
+
+Progress website: **https://pucas01.github.io/DISTRUST/**
 
 <p align="left">
   <a href="https://pucas01.github.io/DISTRUST/"><img src="docs/progress.svg" alt="Decompilation progress" width="720"></a>
