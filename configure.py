@@ -8,9 +8,11 @@ ROOT = Path(__file__).resolve().parent
 PY = '"%s"' % sys.executable
 sys.path.insert(0, str(ROOT / "tools"))
 from dr1lib import FLAGS_MARKER, MARKER
+from toolchain import ensure
 
 
 def main():
+    ensure()
     default_flags = (ROOT / "config" / "flags.txt").read_text().strip()
     checked, stubs = [], []
     for path in sorted((ROOT / "src").rglob("*.cpp")):

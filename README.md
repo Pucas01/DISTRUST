@@ -25,13 +25,13 @@ Windows
 - Install [Python](https://www.python.org/downloads/) and add it to `%PATH%`.
 - Download [ninja](https://github.com/ninja-build/ninja/releases) and add it to `%PATH%`.
   - Quick install via pip: `pip install ninja`
-- Set up the Visual Studio 2012 compiler files. See [Toolchain](docs/toolchain.md).
+- Install [7-Zip](https://www.7-zip.org/) and add it to `%PATH%`.
+  - Quick install: `winget install 7zip.7zip`
 
 Linux
 ------
 
-- Install [ninja](https://github.com/ninja-build/ninja/wiki/Pre-built-Ninja-packages), [CMake](https://cmake.org/download/), Python 3 and a C++ compiler (GCC or Clang).
-- Set up the Visual Studio 2012 compiler files. See [Toolchain](docs/toolchain.md).
+- Install [ninja](https://github.com/ninja-build/ninja/wiki/Pre-built-Ninja-packages), [CMake](https://cmake.org/download/), [7-Zip](https://www.7-zip.org/) (`p7zip-full` on Debian and Ubuntu, `7zip` on Arch), Python 3 and a C++ compiler (GCC or Clang).
 
 macOS
 ------
@@ -53,6 +53,8 @@ Building
   ```sh
   python3 configure.py
   ```
+
+  The first run downloads the Visual Studio 2012 compiler files (about 3 GB) and builds wibo on Linux. See [Toolchain](docs/toolchain.md).
 
 - Build:
 

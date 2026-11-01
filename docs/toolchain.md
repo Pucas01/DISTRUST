@@ -20,32 +20,28 @@ Default flags are in `config/flags.txt`: `/nologo /c /O2 /Oy- /Gy /GS- /Zc:wchar
 
 ## Getting the compiler files
 
-1. Download the ISO from Microsoft:
+`python3 configure.py` does this for you the first time. To do it by hand:
 
-   `https://download.microsoft.com/download/1/F/5/1F519CC5-0B90-4EA3-8159-33BFB97EF4D9/VS2012_WDX_ENU.iso`
+```sh
+python3 tools/toolchain.py
+```
 
-2. Download the Update 4 ISO:
+It needs [7-Zip](https://www.7-zip.org/) on your `PATH`. It will:
 
-   `https://download.microsoft.com/download/D/4/8/D48D1AC2-A297-4C9E-A9D0-A218E6609F06/VSU4/VS2012.4.iso`
+1. Download two ISOs from Microsoft into `toolchain/downloads/`. and each file is checked against a SHA-256:
+   - `VS2012_WDX_ENU.iso` (Express for Windows Desktop, 608 MB)
+   - `VS2012.4.iso` (Update 4, 2.4 GB)
+2. Unpack the compiler into `toolchain/bin/`. `cl.exe`, `c2.dll`, `c1.dll`, `c1xx.dll`, `c1xxast.dll`, `c1ast.dll` and `link.exe` come from the Update 4 compiler cab. `mspdb110.dll`, `mspdbcore.dll`, `mspdbsrv.exe`, `mspft80.dll`, `clui.dll` (also in `bin/1033/`), `msvcr110.dll` and `msvcp110.dll` come from the Express ISO.
+3. Read `vc_librarycore86.msi` itself and unpack only its `VC/include` headers into `toolchain/vclib/`.
+4. Delete the ISOs. Pass `--keep-downloads` to keep them.
 
-
-3. Extract the compiler cab from the Update 4 ISO (`packages/vc_compilercore86/vc_CompilerCore86.cab`) and copy these into `toolchain/bin/`, dropping the `WinC_..._` prefix and the `_F` suffix:
-
-   `cl.exe`, `c2.dll`, `c1.dll`, `c1xx.dll`, `c1xxast.dll`, `c1ast.dll`, `link.exe`, `mspdb110.dll`, `mspdbcore.dll`, `mspdbsrv.exe`
-
-4. From the Express ISO, take `clui.dll` (cab `vc_compilerCore86res`) and `msvcr110.dll` and `msvcp110.dll` (cab `vcRuntimeMinimum_x86`). Put them in `toolchain/bin/`. `clui.dll` also goes in `toolchain/bin/1033/`.
-
-5. Unpack the headers and libraries from two MSI packages without installing them:
-   - `packages/vc_librarycore86/vc_librarycore86.msi` into `toolchain/vclib`
-   - `packages/Windows_SDK/Windows Software Development Kit-x86_en-us.msi` into `toolchain/sdk`
-
-   On Windows: `msiexec /a <package>.msi /qn TARGETDIR=<folder>`
-
-   On Linux: `msiextract -C <folder> <package>.msi` (from `msitools`).
+If everything is already in `toolchain/`, it does nothing. `--force` unpacks again.
 
 ## wibo
 
-As of RIGHT NOW upstream wibo cannot run VS2012's `cl.exe`. `external/wibo` is a submodule of [Pucas01/wibo](https://github.com/Pucas01/wibo), which adds the missing functions.
+On Linux the compiler runs under [decompals/wibo](https://github.com/decompals/wibo), a submodule in `external/wibo`.
+
+`configure.py` fetches the submodule and builds it if `external/wibo/build/release64/wibo` is missing. To do it by hand:
 
 ```sh
 git submodule update --init
