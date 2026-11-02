@@ -74,8 +74,12 @@ def sizes():
             table[int(cols[0], 16)] = int(cols[2])
     return table
 
+ALTERNATES = {}
+
+
 def load_symbols():
     by_name, by_address = {}, {}
+    ALTERNATES.clear()
     with open(ROOT / "config" / "functions.tsv") as f:
         next(f)
         for line in f:
@@ -83,14 +87,20 @@ def load_symbols():
             address = int(cols[0], 16)
             by_name.setdefault(plain(cols[3]), address)
             by_address.setdefault(address, plain(cols[3]))
+            ALTERNATES.setdefault(plain(cols[3]), set()).add(address)
     with open(ROOT / "config" / "symbols.tsv") as f:
         for line in f:
             if line.startswith("#") or not line.strip():
                 continue
             cols = line.rstrip("\n").split("\t")
             address = int(cols[0], 16)
+            if len(cols) > 2 and cols[2] == "alias":
+                ALTERNATES.setdefault(cols[1], set()).add(address)
+                by_name.setdefault(cols[1], address)
+                continue
             by_name[cols[1]] = address
             by_address[address] = cols[1]
+            ALTERNATES.setdefault(cols[1], set()).add(address)
     return by_name, by_address
 
 def original_target(original, address, pos, rtype):
@@ -113,7 +123,9 @@ def check_relocations(address, original, ours, symbols):
         if name not in by_name:
             problems.append("+0x%X uses %s, which has no address in config/symbols.tsv (original: 0x%X %s)"
                             % (pos, name, want, by_address.get(want, "unnamed")))
-        elif (by_name[name] + addend) & 0xFFFFFFFF != want:
+        elif name.startswith("$"):
+            continue
+        elif not any((a + addend) & 0xFFFFFFFF == want for a in ALTERNATES.get(name, {by_name[name]})):
             problems.append("+0x%X uses %s (0x%X), original uses 0x%X %s"
                             % (pos, name, by_name[name], want, by_address.get(want, "unnamed")))
     return problems
@@ -125,7 +137,7 @@ def make_retarget(address, original, ours, symbols):
         want = original_target(original, address, pos, rtype)
         name = plain(raw_name)
         ours_addend = struct.unpack_from("<i", ours["code"], pos)[0]
-        if name in by_name and (by_name[name] + ours_addend) & 0xFFFFFFFF == want:
+        if name in by_name and any((a + ours_addend) & 0xFFFFFFFF == want for a in ALTERNATES.get(name, {by_name[name]})):
             return None, ours_addend
         wanted_name = by_address.get(want)
         if wanted_name is not None and wanted_name in by_name:
