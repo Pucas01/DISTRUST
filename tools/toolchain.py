@@ -306,7 +306,9 @@ def ensure_wibo():
     if not (ROOT / "external/wibo/CMakeLists.txt").is_file():
         say("fetching the wibo submodule")
         subprocess.run(["git", "submodule", "update", "--init", "external/wibo"], cwd=ROOT, check=True)
-    if os.access(binary, os.X_OK):
+    head = subprocess.run(["git", "rev-parse", "HEAD"], cwd=ROOT / "external/wibo", capture_output=True, text=True, check=True).stdout.strip()
+    stamp = ROOT / "external/wibo/build/release64/.built-from"
+    if os.access(binary, os.X_OK) and stamp.is_file() and stamp.read_text().strip() == head:
         return
     for tool in ("cmake", "ninja"):
         if not shutil.which(tool):
@@ -314,6 +316,7 @@ def ensure_wibo():
     say("building wibo")
     subprocess.run(["cmake", "--preset", "release64"], cwd=ROOT / "external/wibo", check=True)
     subprocess.run(["cmake", "--build", "--preset", "release64"], cwd=ROOT / "external/wibo", check=True)
+    stamp.write_text(head + "\n")
 
 
 def ensure():
