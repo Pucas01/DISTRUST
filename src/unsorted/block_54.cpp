@@ -168,8 +168,8 @@ void sub_541260()
 {
 }
 
-// STUB: 0x5412C0 sub_5412C0 (36 bytes)
-void sub_5412C0()
+// STUB: 0x5412C0 FT_Activate_Size (36 bytes)
+void FT_Activate_Size()
 {
 }
 
@@ -178,33 +178,18 @@ void FT_CMap_New()
 {
 }
 
-// STUB: 0x5413D0 sub_5413D0 (89 bytes)
-void sub_5413D0()
+// STUB: 0x541430 FT_Done_Face (129 bytes)
+void FT_Done_Face()
 {
 }
 
-// STUB: 0x541430 sub_541430 (129 bytes)
-void sub_541430()
+// STUB: 0x5414C0 FT_Done_GlyphSlot (97 bytes)
+void FT_Done_GlyphSlot()
 {
 }
 
-// STUB: 0x5414C0 sub_5414C0 (97 bytes)
-void sub_5414C0()
-{
-}
-
-// STUB: 0x541530 sub_541530 (171 bytes)
-void sub_541530()
-{
-}
-
-// STUB: 0x5415E0 sub_5415E0 (135 bytes)
-void sub_5415E0()
-{
-}
-
-// STUB: 0x541670 sub_541670 (251 bytes)
-void sub_541670()
+// STUB: 0x541530 FT_Done_Size (171 bytes)
+void FT_Done_Size()
 {
 }
 
@@ -213,8 +198,8 @@ void sub_541770()
 {
 }
 
-// STUB: 0x5417D0 sub_5417D0 (33 bytes)
-void sub_5417D0()
+// STUB: 0x5417D0 FT_Get_Char_Index (33 bytes)
+void FT_Get_Char_Index()
 {
 }
 
@@ -223,18 +208,18 @@ void sub_541800()
 {
 }
 
-// STUB: 0x5418A0 sub_5418A0 (115 bytes)
-void sub_5418A0()
+// STUB: 0x5418A0 FT_Get_Module (115 bytes)
+void FT_Get_Module()
 {
 }
 
-// STUB: 0x541920 sub_541920 (32 bytes)
-void sub_541920()
+// STUB: 0x541920 FT_Get_Module_Interface (32 bytes)
+void FT_Get_Module_Interface()
 {
 }
 
-// STUB: 0x541940 sub_541940 (80 bytes)
-void sub_541940()
+// STUB: 0x541940 FT_Get_Next_Char (80 bytes)
+void FT_Get_Next_Char()
 {
 }
 
@@ -248,13 +233,13 @@ void sub_541A40()
 {
 }
 
-// STUB: 0x541A90 sub_541A90 (376 bytes)
-void sub_541A90()
+// STUB: 0x541A90 FT_GlyphLoader_CheckPoints (376 bytes)
+void FT_GlyphLoader_CheckPoints()
 {
 }
 
-// STUB: 0x541C10 sub_541C10 (138 bytes)
-void sub_541C10()
+// STUB: 0x541C10 FT_GlyphLoader_CheckSubGlyphs (138 bytes)
+void FT_GlyphLoader_CheckSubGlyphs()
 {
 }
 
@@ -263,8 +248,8 @@ void sub_541CA0()
 {
 }
 
-// STUB: 0x541D90 sub_541D90 (220 bytes)
-void sub_541D90()
+// STUB: 0x541D90 FT_GlyphLoader_CreateExtra (220 bytes)
+void FT_GlyphLoader_CreateExtra()
 {
 }
 
@@ -278,8 +263,8 @@ void sub_541EA0()
 {
 }
 
-// STUB: 0x541EE0 sub_541EE0 (96 bytes)
-void sub_541EE0()
+// STUB: 0x541EE0 FT_GlyphLoader_Prepare (96 bytes)
+void FT_GlyphLoader_Prepare()
 {
 }
 
@@ -288,43 +273,13 @@ void sub_541F40()
 {
 }
 
-// STUB: 0x542020 sub_542020 (62 bytes)
-void sub_542020()
+// STUB: 0x542020 FT_GlyphLoader_Rewind (62 bytes)
+void FT_GlyphLoader_Rewind()
 {
 }
 
-// STUB: 0x542060 sub_542060 (34 bytes)
-void sub_542060()
-{
-}
-
-// STUB: 0x542090 sub_542090 (40 bytes)
-void sub_542090()
-{
-}
-
-// STUB: 0x5420C0 sub_5420C0 (83 bytes)
-void sub_5420C0()
-{
-}
-
-// STUB: 0x542120 sub_542120 (32 bytes)
-void sub_542120()
-{
-}
-
-// STUB: 0x542140 sub_542140 (38 bytes)
-void sub_542140()
-{
-}
-
-// STUB: 0x542170 sub_542170 (71 bytes)
-void sub_542170()
-{
-}
-
-// STUB: 0x5421C0 sub_5421C0 (802 bytes)
-void sub_5421C0()
+// STUB: 0x5421C0 FT_Load_Glyph (802 bytes)
+void FT_Load_Glyph()
 {
 }
 
@@ -333,103 +288,28 @@ void sub_5424F0()
 {
 }
 
-// STUB: 0x542550 sub_542550 (68 bytes)
-void sub_542550()
+// STUB: 0x5425A0 FT_Match_Size (232 bytes)
+void FT_Match_Size()
 {
 }
 
-// STUB: 0x5425A0 sub_5425A0 (232 bytes)
-void sub_5425A0()
+// STUB: 0x542920 FT_New_GlyphSlot (168 bytes)
+void FT_New_GlyphSlot()
 {
 }
 
-// STUB: 0x542690 sub_542690 (197 bytes)
-void sub_542690()
+// STUB: 0x5429D0 FT_New_Size (266 bytes)
+void FT_New_Size()
 {
 }
 
-// STUB: 0x542760 sub_542760 (215 bytes)
-void sub_542760()
+// STUB: 0x542AE0 FT_Open_Face (1111 bytes)
+void FT_Open_Face()
 {
 }
 
-// STUB: 0x542840 sub_542840 (109 bytes)
-void sub_542840()
-{
-}
-
-// STUB: 0x5428B0 sub_5428B0 (100 bytes)
-void sub_5428B0()
-{
-}
-
-// STUB: 0x542920 sub_542920 (168 bytes)
-void sub_542920()
-{
-}
-
-// STUB: 0x5429D0 sub_5429D0 (266 bytes)
-void sub_5429D0()
-{
-}
-
-// STUB: 0x542AE0 sub_542AE0 (1111 bytes)
-void sub_542AE0()
-{
-}
-
-// STUB: 0x542F40 sub_542F40 (100 bytes)
-void sub_542F40()
-{
-}
-
-// STUB: 0x542FB0 sub_542FB0 (127 bytes)
-void sub_542FB0()
-{
-}
-
-// STUB: 0x543030 sub_543030 (853 bytes)
-void sub_543030()
-{
-}
-
-// STUB: 0x543390 sub_543390 (32 bytes)
-void sub_543390()
-{
-}
-
-// STUB: 0x5433B0 sub_5433B0 (145 bytes)
-void sub_5433B0()
-{
-}
-
-// STUB: 0x543450 sub_543450 (133 bytes)
-void sub_543450()
-{
-}
-
-// STUB: 0x5434E0 sub_5434E0 (417 bytes)
-void sub_5434E0()
-{
-}
-
-// STUB: 0x543690 sub_543690 (38 bytes)
-void sub_543690()
-{
-}
-
-// STUB: 0x5436C0 sub_5436C0 (252 bytes)
-void sub_5436C0()
-{
-}
-
-// STUB: 0x5437C0 sub_5437C0 (293 bytes)
-void sub_5437C0()
-{
-}
-
-// STUB: 0x5438F0 sub_5438F0 (60 bytes)
-void sub_5438F0()
+// STUB: 0x5433B0 FT_Outline_Done_Internal (145 bytes)
+void FT_Outline_Done_Internal()
 {
 }
 
@@ -458,38 +338,33 @@ void sub_543F00()
 {
 }
 
-// STUB: 0x544000 sub_544000 (623 bytes)
-void sub_544000()
+// STUB: 0x544000 FT_Request_Metrics (623 bytes)
+void FT_Request_Metrics()
 {
 }
 
-// STUB: 0x544290 sub_544290 (135 bytes)
-void sub_544290()
+// STUB: 0x544290 FT_Select_Size (135 bytes)
+void FT_Select_Size()
 {
 }
 
-// STUB: 0x544320 sub_544320 (39 bytes)
-void sub_544320()
+// STUB: 0x544350 FT_Select_Charmap (112 bytes)
+void FT_Select_Charmap()
 {
 }
 
-// STUB: 0x544350 sub_544350 (112 bytes)
-void sub_544350()
+// STUB: 0x5443C0 FT_Select_Metrics (149 bytes)
+void FT_Select_Metrics()
 {
 }
 
-// STUB: 0x5443C0 sub_5443C0 (149 bytes)
-void sub_5443C0()
+// STUB: 0x544460 FT_Request_Size (79 bytes)
+void FT_Request_Size()
 {
 }
 
-// STUB: 0x544460 sub_544460 (79 bytes)
-void sub_544460()
-{
-}
-
-// STUB: 0x5444B0 sub_5444B0 (97 bytes)
-void sub_5444B0()
+// STUB: 0x5444B0 FT_Set_Charmap (97 bytes)
+void FT_Set_Charmap()
 {
 }
 
@@ -498,53 +373,18 @@ void sub_544520()
 {
 }
 
-// STUB: 0x5445C0 sub_5445C0 (25 bytes)
-void sub_5445C0()
+// STUB: 0x5445E0 FT_Stream_EnterFrame (225 bytes)
+void FT_Stream_EnterFrame()
 {
 }
 
-// STUB: 0x5445E0 sub_5445E0 (225 bytes)
-void sub_5445E0()
+// STUB: 0x5446D0 FT_Stream_ExitFrame (55 bytes)
+void FT_Stream_ExitFrame()
 {
 }
 
-// STUB: 0x5446D0 sub_5446D0 (55 bytes)
-void sub_5446D0()
-{
-}
-
-// STUB: 0x544710 sub_544710 (40 bytes)
-void sub_544710()
-{
-}
-
-// STUB: 0x544740 sub_544740 (48 bytes)
-void sub_544740()
-{
-}
-
-// STUB: 0x544770 sub_544770 (26 bytes)
-void sub_544770()
-{
-}
-
-// STUB: 0x544790 sub_544790 (65 bytes)
-void sub_544790()
-{
-}
-
-// STUB: 0x5447E0 sub_5447E0 (66 bytes)
-void sub_5447E0()
-{
-}
-
-// STUB: 0x544830 sub_544830 (55 bytes)
-void sub_544830()
-{
-}
-
-// STUB: 0x544870 sub_544870 (55 bytes)
-void sub_544870()
+// STUB: 0x544740 FT_Stream_Free (48 bytes)
+void FT_Stream_Free()
 {
 }
 
@@ -553,93 +393,18 @@ void sub_5448B0()
 {
 }
 
-// STUB: 0x5449B0 sub_5449B0 (47 bytes)
-void sub_5449B0()
+// STUB: 0x544AF0 FT_Stream_ReadFields (480 bytes)
+void FT_Stream_ReadFields()
 {
 }
 
-// STUB: 0x5449E0 sub_5449E0 (11 bytes)
-void sub_5449E0()
+// STUB: 0x544F60 FT_Stream_ReleaseFrame (65 bytes)
+void FT_Stream_ReleaseFrame()
 {
 }
 
-// STUB: 0x5449F0 sub_5449F0 (26 bytes)
-void sub_5449F0()
-{
-}
-
-// STUB: 0x544A10 sub_544A10 (106 bytes)
-void sub_544A10()
-{
-}
-
-// STUB: 0x544A80 sub_544A80 (97 bytes)
-void sub_544A80()
-{
-}
-
-// STUB: 0x544AF0 sub_544AF0 (480 bytes)
-void sub_544AF0()
-{
-}
-
-// STUB: 0x544D10 sub_544D10 (114 bytes)
-void sub_544D10()
-{
-}
-
-// STUB: 0x544D90 sub_544D90 (114 bytes)
-void sub_544D90()
-{
-}
-
-// STUB: 0x544E10 sub_544E10 (105 bytes)
-void sub_544E10()
-{
-}
-
-// STUB: 0x544E80 sub_544E80 (102 bytes)
-void sub_544E80()
-{
-}
-
-// STUB: 0x544EF0 sub_544EF0 (102 bytes)
-void sub_544EF0()
-{
-}
-
-// STUB: 0x544F60 sub_544F60 (65 bytes)
-void sub_544F60()
-{
-}
-
-// STUB: 0x544FB0 sub_544FB0 (56 bytes)
-void sub_544FB0()
-{
-}
-
-// STUB: 0x544FF0 sub_544FF0 (77 bytes)
-void sub_544FF0()
-{
-}
-
-// STUB: 0x545040 sub_545040 (88 bytes)
-void sub_545040()
-{
-}
-
-// STUB: 0x5450A0 sub_5450A0 (143 bytes)
-void sub_5450A0()
-{
-}
-
-// STUB: 0x545130 sub_545130 (247 bytes)
-void sub_545130()
-{
-}
-
-// STUB: 0x545230 sub_545230 (112 bytes)
-void sub_545230()
+// STUB: 0x5450A0 FT_Vector_Length (143 bytes)
+void FT_Vector_Length()
 {
 }
 
@@ -663,8 +428,8 @@ void sub_5458D0()
 {
 }
 
-// STUB: 0x545A20 sub_545A20 (131 bytes)
-void sub_545A20()
+// STUB: 0x545A20 _ft_face_scale_advances (131 bytes)
+void ft_face_scale_advances()
 {
 }
 
@@ -693,18 +458,8 @@ void sub_545D60()
 {
 }
 
-// STUB: 0x545D90 sub_545D90 (94 bytes)
-void sub_545D90()
-{
-}
-
-// STUB: 0x545DF0 sub_545DF0 (156 bytes)
-void sub_545DF0()
-{
-}
-
-// STUB: 0x545E90 sub_545E90 (143 bytes)
-void sub_545E90()
+// STUB: 0x545E90 ft_glyphslot_alloc_bitmap (143 bytes)
+void ft_glyphslot_alloc_bitmap()
 {
 }
 
@@ -718,8 +473,8 @@ void sub_546020()
 {
 }
 
-// STUB: 0x5460F0 sub_5460F0 (76 bytes)
-void sub_5460F0()
+// STUB: 0x5460F0 ft_glyphslot_free_bitmap (76 bytes)
+void ft_glyphslot_free_bitmap()
 {
 }
 
@@ -733,13 +488,8 @@ void sub_5461E0()
 {
 }
 
-// STUB: 0x5462B0 sub_5462B0 (88 bytes)
-void sub_5462B0()
-{
-}
-
-// STUB: 0x546310 sub_546310 (33 bytes)
-void sub_546310()
+// STUB: 0x5462B0 ft_glyphslot_set_bitmap (88 bytes)
+void ft_glyphslot_set_bitmap()
 {
 }
 
@@ -753,23 +503,8 @@ void sub_546530()
 {
 }
 
-// STUB: 0x546580 sub_546580 (94 bytes)
-void sub_546580()
-{
-}
-
 // STUB: 0x5465E0 ft_mem_free (27 bytes)
 void ft_mem_free()
-{
-}
-
-// STUB: 0x546600 sub_546600 (73 bytes)
-void sub_546600()
-{
-}
-
-// STUB: 0x546650 sub_546650 (261 bytes)
-void sub_546650()
 {
 }
 
@@ -778,18 +513,8 @@ void ft_mem_realloc()
 {
 }
 
-// STUB: 0x5467D0 sub_5467D0 (47 bytes)
-void sub_5467D0()
-{
-}
-
-// STUB: 0x546800 sub_546800 (122 bytes)
-void sub_546800()
-{
-}
-
-// STUB: 0x546880 sub_546880 (104 bytes)
-void sub_546880()
+// STUB: 0x546880 ft_module_get_service (104 bytes)
+void ft_module_get_service()
 {
 }
 
@@ -803,13 +528,13 @@ void sub_546910()
 {
 }
 
-// STUB: 0x546A10 sub_546A10 (103 bytes)
-void sub_546A10()
+// STUB: 0x546A10 ft_service_list_lookup (103 bytes)
+void ft_service_list_lookup()
 {
 }
 
-// STUB: 0x546A80 sub_546A80 (97 bytes)
-void sub_546A80()
+// STUB: 0x546A80 ft_synthesize_vertical_metrics (97 bytes)
+void ft_synthesize_vertical_metrics()
 {
 }
 
@@ -875,81 +600,6 @@ void sub_5473E0()
 
 // STUB: 0x547460 sub_547460 (246 bytes)
 void sub_547460()
-{
-}
-
-// STUB: 0x547560 sub_547560 (976 bytes)
-void sub_547560()
-{
-}
-
-// STUB: 0x547950 sub_547950 (207 bytes)
-void sub_547950()
-{
-}
-
-// STUB: 0x547A20 sub_547A20 (94 bytes)
-void sub_547A20()
-{
-}
-
-// STUB: 0x547A80 sub_547A80 (46 bytes)
-void sub_547A80()
-{
-}
-
-// STUB: 0x547AB0 sub_547AB0 (393 bytes)
-void sub_547AB0()
-{
-}
-
-// STUB: 0x547C40 sub_547C40 (132 bytes)
-void sub_547C40()
-{
-}
-
-// STUB: 0x547CD0 sub_547CD0 (44 bytes)
-void sub_547CD0()
-{
-}
-
-// STUB: 0x547D00 sub_547D00 (22 bytes)
-void sub_547D00()
-{
-}
-
-// STUB: 0x547D20 sub_547D20 (52 bytes)
-void sub_547D20()
-{
-}
-
-// STUB: 0x547D60 sub_547D60 (78 bytes)
-void sub_547D60()
-{
-}
-
-// STUB: 0x547DB0 sub_547DB0 (22 bytes)
-void sub_547DB0()
-{
-}
-
-// STUB: 0x547DD0 sub_547DD0 (62 bytes)
-void sub_547DD0()
-{
-}
-
-// STUB: 0x547E10 sub_547E10 (54 bytes)
-void sub_547E10()
-{
-}
-
-// STUB: 0x547E50 sub_547E50 (13 bytes)
-void sub_547E50()
-{
-}
-
-// STUB: 0x547E60 sub_547E60 (50 bytes)
-void sub_547E60()
 {
 }
 

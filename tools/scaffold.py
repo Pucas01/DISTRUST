@@ -66,6 +66,8 @@ def load_symbols():
         if line.startswith("#") or not line.strip():
             continue
         cols = line.split("\t")
+        if len(cols) > 2 and cols[2] == "alias":
+            continue
         names[int(cols[0], 16)] = cols[1]
     return names
 

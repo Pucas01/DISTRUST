@@ -62,4 +62,4 @@
 // FUNCTION: 0x59B8D0 tt_cmap4_next
 // FUNCTION: 0x59B990 tt_cmap4_set_range
 // FUNCTION: 0x59BAF0 tt_face_build_cmaps
-#include "../../../external/freetype/src/sfnt/ttcmap.c"
+#include "../../../../external/freetype/src/sfnt/ttcmap.c"
