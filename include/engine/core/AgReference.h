@@ -2,6 +2,9 @@
 
 struct AgControlBlock
 {
+    int uses;
+    int weak;
+    void* object;
     void addRef();
 };
 
@@ -35,6 +38,20 @@ public:
         }
     }
     ~AgReference();
+    void assign(const AgReference& other);
+
+    AgReference& operator=(const AgReference& other)
+    {
+        AgReference copy;
+        copy.assign(other);
+        AgControlBlock* oldControl = control;
+        T* oldObject = object;
+        control = copy.control;
+        object = copy.object;
+        copy.control = oldControl;
+        copy.object = oldObject;
+        return *this;
+    }
 
     AgControlBlock* control;
     T* object;

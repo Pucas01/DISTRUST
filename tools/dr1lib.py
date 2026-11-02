@@ -104,6 +104,8 @@ def check_relocations(address, original, ours, symbols):
     for pos, raw_name, rtype in ours["relocs"]:
         if rtype not in (REL_DIR32, REL_REL32):
             continue
+        if pos + 4 > len(original):
+            continue
         name = plain(raw_name)
         want = original_target(original, address, pos, rtype)
         addend = struct.unpack_from("<i", ours["code"], pos)[0]

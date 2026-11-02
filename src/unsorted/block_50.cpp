@@ -58,8 +58,8 @@ void sub_500DA0()
 {
 }
 
-// STUB: 0x500E20 sub_500E20 (19 bytes)
-void sub_500E20()
+// STUB: 0x500E20 freeControlBlock (19 bytes)
+void freeControlBlock()
 {
 }
 
@@ -88,8 +88,8 @@ void sub_501150()
 {
 }
 
-// STUB: 0x501170 sub_501170 (16 bytes)
-void sub_501170()
+// STUB: 0x501170 atomicDecrement (16 bytes)
+void atomicDecrement()
 {
 }
 

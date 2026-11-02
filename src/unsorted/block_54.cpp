@@ -1163,8 +1163,8 @@ void sub_54C5B0()
 {
 }
 
-// STUB: 0x54C6E0 ??0?$AgReference@VAgBuffer@@@@QAE@ABV0@@Z (98 bytes)
-void f_0_AgReference_VAgBuffer_QAE_ABV0_Z()
+// STUB: 0x54C6E0 VTextureObject::?$AgReference::assign (98 bytes)
+void VTextureObject_AgReference_assign()
 {
 }
 
