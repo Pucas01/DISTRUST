@@ -378,8 +378,8 @@ void sub_5361B0()
 {
 }
 
-// STUB: 0x536250 sub_536250 (477 bytes)
-void sub_536250()
+// STUB: 0x536250 ??0AgRenderListProcessor@@QAE@XZ (477 bytes)
+void f_0AgRenderListProcessor_QAE_XZ()
 {
 }
 
@@ -398,8 +398,8 @@ void sub_536530()
 {
 }
 
-// STUB: 0x5365A0 sub_5365A0 (397 bytes)
-void sub_5365A0()
+// STUB: 0x5365A0 ??1AgRenderListProcessor@@UAE@XZ (397 bytes)
+void f_1AgRenderListProcessor_UAE_XZ()
 {
 }
 

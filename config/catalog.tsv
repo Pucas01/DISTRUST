@@ -4258,11 +4258,11 @@
 0x536080	277	AgAsyncStreamReader::vfn_5	AgAsyncStreamReader	engine/io	AgAsyncStreamReader	virtual	stub
 0x5361A0	5	shared_5361A0		unsorted	shared_stubs	shared	stub
 0x5361B0	152	sub_5361B0		unsorted	block_53	unknown	stub
-0x536250	477	sub_536250		unsorted	block_53	unknown	stub
+0x536250	477	??0AgRenderListProcessor@@QAE@XZ		unsorted	block_53	unknown	stub
 0x536450	92	sub_536450		unsorted	block_53	unknown	stub
 0x5364B0	122	sub_5364B0		unsorted	block_53	unknown	stub
 0x536530	102	sub_536530		unsorted	block_53	unknown	stub
-0x5365A0	397	sub_5365A0		unsorted	block_53	unknown	stub
+0x5365A0	397	??1AgRenderListProcessor@@UAE@XZ		unsorted	block_53	unknown	stub
 0x536730	171	sub_536730		unsorted	block_53	unknown	stub
 0x5367E0	33	AgRenderListProcessor::vfn_0	AgRenderListProcessor	engine/render	AgRenderListProcessor	virtual	stub
 0x536810	376	AgRenderListProcessor::fn_536810	AgRenderListProcessor	engine/render	AgRenderListProcessor	inferred	stub
@@ -6038,23 +6038,23 @@
 0x5A2800	72	sub_5A2800		unsorted	block_5A	unknown	stub
 0x5A2850	133	sub_5A2850		unsorted	block_5A	unknown	stub
 0x5A28E0	309	sub_5A28E0		unsorted	block_5A	unknown	stub
-0x5A2A20	92	sub_5A2A20		unsorted	block_5A	unknown	stub
+0x5A2A20	92	toGlBlendFactor		unsorted	block_5A	unknown	stub
 0x5A2AB0	95	sub_5A2AB0		unsorted	block_5A	unknown	stub
-0x5A2B40	40	sub_5A2B40		unsorted	block_5A	unknown	stub
+0x5A2B40	40	toGlBlendEquation		unsorted	block_5A	unknown	stub
 0x5A2B70	53	sub_5A2B70		unsorted	block_5A	unknown	stub
-0x5A2BC0	35	sub_5A2BC0		unsorted	block_5A	unknown	stub
+0x5A2BC0	35	toGlCullMode		unsorted	block_5A	unknown	stub
 0x5A2BF0	38	sub_5A2BF0		unsorted	block_5A	unknown	stub
-0x5A2C20	74	sub_5A2C20		unsorted	block_5A	unknown	stub
+0x5A2C20	74	toGlDepthFunc		unsorted	block_5A	unknown	stub
 0x5A2C90	74	sub_5A2C90		unsorted	block_5A	unknown	stub
 0x5A2D00	38	sub_5A2D00		unsorted	block_5A	unknown	stub
 0x5A2D30	50	sub_5A2D30		unsorted	block_5A	unknown	stub
 0x5A2D80	53	sub_5A2D80		unsorted	block_5A	unknown	stub
-0x5A2DD0	74	sub_5A2DD0		unsorted	block_5A	unknown	stub
-0x5A2E40	71	sub_5A2E40		unsorted	block_5A	unknown	stub
+0x5A2DD0	74	toGlStencilFunc		unsorted	block_5A	unknown	stub
+0x5A2E40	71	toGlStencilOp		unsorted	block_5A	unknown	stub
 0x5A2EB0	74	sub_5A2EB0		unsorted	block_5A	unknown	stub
-0x5A2F20	26	sub_5A2F20		unsorted	block_5A	unknown	stub
+0x5A2F20	26	toGlWrapMode		unsorted	block_5A	unknown	stub
 0x5A2F40	26	sub_5A2F40		unsorted	block_5A	unknown	stub
-0x5A2F60	38	sub_5A2F60		unsorted	block_5A	unknown	stub
+0x5A2F60	38	toGlFilter		unsorted	block_5A	unknown	stub
 0x5A2F90	38	sub_5A2F90		unsorted	block_5A	unknown	stub
 0x5A2FC0	7	sub_5A2FC0		unsorted	block_5A	unknown	stub
 0x5A2FE0	66	sub_5A2FE0		unsorted	block_5A	unknown	stub
@@ -6268,26 +6268,26 @@
 0x5ADC5C	6	SDL_WasInit		lib/imports	sdl	import	stub
 0x5ADC70	89	sub_5ADC70		unsorted	block_5A	unknown	stub
 0x5ADCD0	94	AgDefaultSession::vfn_0	AgDefaultSession	engine/online	AgDefaultSession	virtual	stub
-0x5ADD30	959	sub_5ADD30		unsorted	block_5A	unknown	stub
+0x5ADD30	959	??0AgPlatformRenderListProcessor_CacheStates@@QAE@XZ		engine/render	AgPlatformRenderListProcessor_CacheStates	unknown	done
 0x5AE0F0	88	AgPlatformRenderListProcessor::vfn_0	AgPlatformRenderListProcessor	engine/render	AgPlatformRenderListProcessor	virtual	stub
-0x5AE150	88	AgPlatformRenderListProcessor_CacheStates::vfn_0	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	stub
-0x5AE1B0	54	AgPlatformRenderListProcessor_CacheStates::setGroupBPair	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
-0x5AE1F0	42	AgPlatformRenderListProcessor_CacheStates::setGroupBFlag	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
-0x5AE220	92	AgPlatformRenderListProcessor_CacheStates::setGroupBRect	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
-0x5AE280	37	AgPlatformRenderListProcessor_CacheStates::setGroupBValue	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
-0x5AE2B0	37	AgPlatformRenderListProcessor_CacheStates::setGroupAValue	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
-0x5AE2E0	37	AgPlatformRenderListProcessor_CacheStates::setGroupCValue	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
-0x5AE310	42	AgPlatformRenderListProcessor_CacheStates::setGroupCFlagA	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
-0x5AE340	42	AgPlatformRenderListProcessor_CacheStates::setGroupCFlagB	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
-0x5AE370	169	AgPlatformRenderListProcessor_CacheStates::initialize	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
-0x5AE420	145	AgPlatformRenderListProcessor_CacheStates::setTargetMask	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	stub
+0x5AE150	88	??_GAgPlatformRenderListProcessor_CacheStates@@UAEPAXI@Z	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
+0x5AE1B0	54	AgPlatformRenderListProcessor_CacheStates::setBlendFuncRgb	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
+0x5AE1F0	42	AgPlatformRenderListProcessor_CacheStates::setBlendEnable	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
+0x5AE220	92	AgPlatformRenderListProcessor_CacheStates::setBlendFuncSeparate	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
+0x5AE280	37	AgPlatformRenderListProcessor_CacheStates::setBlendEquation	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
+0x5AE2B0	37	AgPlatformRenderListProcessor_CacheStates::setCullMode	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
+0x5AE2E0	37	AgPlatformRenderListProcessor_CacheStates::setDepthFunc	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
+0x5AE310	42	AgPlatformRenderListProcessor_CacheStates::setDepthTestEnable	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
+0x5AE340	42	AgPlatformRenderListProcessor_CacheStates::setDepthWriteEnable	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
+0x5AE370	169	AgPlatformRenderListProcessor_CacheStates::invalidate	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
+0x5AE420	145	AgPlatformRenderListProcessor_CacheStates::setSamplerState	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
 0x5AE4C0	42	AgPlatformRenderListProcessor_CacheStates::setScissorEnable	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
 0x5AE4F0	119	AgPlatformRenderListProcessor_CacheStates::setScissorRect	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
 0x5AE570	83	AgPlatformRenderListProcessor_CacheStates::setViewport	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
-0x5AE5D0	42	AgPlatformRenderListProcessor_CacheStates::setBlendEnable	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
-0x5AE600	73	AgPlatformRenderListProcessor_CacheStates::setBlendColorFactors	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
-0x5AE650	73	AgPlatformRenderListProcessor_CacheStates::setBlendAlphaFactors	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
-0x5AE6A0	42	AgPlatformRenderListProcessor_CacheStates::setBlendSeparateAlpha	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
+0x5AE5D0	42	AgPlatformRenderListProcessor_CacheStates::setStencilEnable	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
+0x5AE600	73	AgPlatformRenderListProcessor_CacheStates::setStencilFunc	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
+0x5AE650	73	AgPlatformRenderListProcessor_CacheStates::setStencilOp	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
+0x5AE6A0	42	AgPlatformRenderListProcessor_CacheStates::setStencilWriteMask	AgPlatformRenderListProcessor_CacheStates	engine/render	AgPlatformRenderListProcessor_CacheStates	virtual	done
 0x5AE6D0	387	sub_5AE6D0		unsorted	block_5A	unknown	stub
 0x5AE860	108	AgPCStorageStream::vfn_0	AgPCStorageStream	engine/io	AgPCStorageStream	virtual	stub
 0x5AE8D0	216	AgPCStorageStream::vfn_12	AgPCStorageStream	engine/io	AgPCStorageStream	virtual	stub
@@ -6530,7 +6530,7 @@
 0x5C6732	11	sub_5C6732		lib/crt	block_5C	library	stub
 0x5C673D	79	sub_5C673D		lib/crt	block_5C	library	stub
 0x5C678C	37	std::bad_alloc::vfn_0	std::bad_alloc	lib/std	std_bad_alloc	virtual	stub
-0x5C67B1	5	sub_5C67B1		lib/crt	block_5C	library	stub
+0x5C67B1	5	??3@YAXPAX@Z		lib/crt	block_5C	library	stub
 0x5C67B6	47	sub_5C67B6		lib/crt	block_5C	library	stub
 0x5C67E5	64	sub_5C67E5		lib/crt	block_5C	library	stub
 0x5C6825	182	sub_5C6825		lib/crt	block_5C	library	stub

@@ -9,9 +9,9 @@ struct RenderCommand
         float real[4];
         struct
         {
-            unsigned char r, g, b, a;
-            int index;
-        } mask;
+            unsigned char magFilter, minFilter, wrapU, wrapV;
+            int unit;
+        } sampler;
     };
 };
 
@@ -23,19 +23,47 @@ struct IntRect
     int d;
 };
 
-struct RenderTargetMask
+struct SamplerState
 {
-    int r;
-    int g;
-    int b;
-    int a;
+    int magFilter;
+    int minFilter;
+    int wrapU;
+    int wrapV;
     int dirty;
 };
 
-class AgPlatformRenderListProcessor_CacheStates
+struct RenderStateBlock
+{
+    int cullMode;
+    int cullDirty;
+    int blendEnable;
+    int blendEquation;
+    int blendFunc[4];
+    int blendDirty;
+    int depthTestEnable;
+    int depthWriteEnable;
+    int depthFunc;
+    int depthDirty;
+    int stencilEnable;
+    int stencilFunc;
+    int stencilFail;
+    int stencilDepthFail;
+    int stencilDepthPass;
+    int stencilRef;
+    int stencilReadMask;
+    int stencilWriteMask;
+    int stencilDirty;
+    int scissorEnable;
+    IntRect scissorRect;
+    int scissorDirty;
+    SamplerState sampler[16];
+};
+
+class AgRenderListProcessor
 {
 public:
-    virtual void vfn_0();
+    AgRenderListProcessor();
+    virtual ~AgRenderListProcessor();
     virtual void vfn_1();
     virtual void vfn_2();
     virtual void vfn_3();
@@ -43,68 +71,49 @@ public:
     virtual void vfn_5();
     virtual void vfn_6();
     virtual void vfn_7();
-    virtual void vfn_8();
+    virtual void vfn_8() = 0;
+
+protected:
+    unsigned char base_04[0x124];
+};
+
+class AgPlatformRenderListProcessor : public AgRenderListProcessor
+{
+public:
+    AgPlatformRenderListProcessor() {}
+};
+
+class AgPlatformRenderListProcessor_CacheStates : public AgPlatformRenderListProcessor
+{
+public:
+    AgPlatformRenderListProcessor_CacheStates();
     virtual void vfn_9();
     virtual void vfn_10();
     virtual void vfn_11();
-    virtual void setGroupBFlag(int, const RenderCommand* cmd);
-    virtual void setGroupBValue(int, const RenderCommand* cmd);
-    virtual void setGroupBRect(int, const RenderCommand* cmd);
-    virtual void setGroupBPair(int, const RenderCommand* cmd);
-    virtual void setGroupCFlagA(int, const RenderCommand* cmd);
-    virtual void setGroupCFlagB(int, const RenderCommand* cmd);
-    virtual void setGroupCValue(int, const RenderCommand* cmd);
     virtual void setBlendEnable(int, const RenderCommand* cmd);
-    virtual void setBlendColorFactors(int, const RenderCommand* cmd);
-    virtual void setBlendAlphaFactors(int, const RenderCommand* cmd);
-    virtual void setBlendSeparateAlpha(int, const RenderCommand* cmd);
+    virtual void setBlendEquation(int, const RenderCommand* cmd);
+    virtual void setBlendFuncSeparate(int, const RenderCommand* cmd);
+    virtual void setBlendFuncRgb(int, const RenderCommand* cmd);
+    virtual void setDepthTestEnable(int, const RenderCommand* cmd);
+    virtual void setDepthWriteEnable(int, const RenderCommand* cmd);
+    virtual void setDepthFunc(int, const RenderCommand* cmd);
+    virtual void setStencilEnable(int, const RenderCommand* cmd);
+    virtual void setStencilFunc(int, const RenderCommand* cmd);
+    virtual void setStencilOp(int, const RenderCommand* cmd);
+    virtual void setStencilWriteMask(int, const RenderCommand* cmd);
     virtual void vfn_23();
     virtual void setViewport(int, const RenderCommand* cmd);
     virtual void setScissorEnable(int, const RenderCommand* cmd);
     virtual void setScissorRect(int, const RenderCommand* cmd);
-    virtual void setGroupAValue(int, const RenderCommand* cmd);
-    virtual void setTargetMask(int, const RenderCommand* cmd);
+    virtual void setCullMode(int, const RenderCommand* cmd);
+    virtual void setSamplerState(int, const RenderCommand* cmd);
     virtual void vfn_29();
     virtual void vfn_30();
-    virtual void initialize(int maskA, int maskB, int maskC, int maskD, int maskE, int maskTargets);
+    virtual void invalidate(int cullBits, int blendBits, int depthBits, int stencilBits, int scissorBits, int samplerBits);
 
 protected:
-    unsigned char base_04[0x124];
     IntRect viewport;
     int viewportDirty;
-    int groupAValue;
-    int groupADirty;
-    int groupBFlag;
-    int groupBValue;
-    int groupBRect[4];
-    int groupBDirty;
-    int groupCFlagA;
-    int groupCFlagB;
-    int groupCValue;
-    int groupCDirty;
-    int blendEnable;
-    int blendColorA;
-    int blendAlphaC;
-    int blendAlphaB;
-    int blendAlphaA;
-    int blendColorB;
-    int blendColorC;
-    int blendSeparateAlpha;
-    int blendDirty;
-    int scissorEnable;
-    IntRect scissorRect;
-    int scissorDirty;
-    RenderTargetMask targetMask[16];
-    unsigned char unk_2EC[4];
-    int initMaskA;
-    unsigned char unk_2F4[0x18];
-    int initMaskB;
-    unsigned char unk_310[0xC];
-    int initMaskC;
-    unsigned char unk_320[0x20];
-    int initMaskD;
-    unsigned char unk_344[0x14];
-    int initMaskE;
-    unsigned char unk_35C[0x10];
-    int targetValue[16][5];
+    RenderStateBlock pending;
+    RenderStateBlock committed;
 };

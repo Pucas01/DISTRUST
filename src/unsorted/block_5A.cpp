@@ -113,8 +113,8 @@ void sub_5A28E0()
 {
 }
 
-// STUB: 0x5A2A20 sub_5A2A20 (92 bytes)
-void sub_5A2A20()
+// STUB: 0x5A2A20 toGlBlendFactor (92 bytes)
+void toGlBlendFactor()
 {
 }
 
@@ -123,8 +123,8 @@ void sub_5A2AB0()
 {
 }
 
-// STUB: 0x5A2B40 sub_5A2B40 (40 bytes)
-void sub_5A2B40()
+// STUB: 0x5A2B40 toGlBlendEquation (40 bytes)
+void toGlBlendEquation()
 {
 }
 
@@ -133,8 +133,8 @@ void sub_5A2B70()
 {
 }
 
-// STUB: 0x5A2BC0 sub_5A2BC0 (35 bytes)
-void sub_5A2BC0()
+// STUB: 0x5A2BC0 toGlCullMode (35 bytes)
+void toGlCullMode()
 {
 }
 
@@ -143,8 +143,8 @@ void sub_5A2BF0()
 {
 }
 
-// STUB: 0x5A2C20 sub_5A2C20 (74 bytes)
-void sub_5A2C20()
+// STUB: 0x5A2C20 toGlDepthFunc (74 bytes)
+void toGlDepthFunc()
 {
 }
 
@@ -168,13 +168,13 @@ void sub_5A2D80()
 {
 }
 
-// STUB: 0x5A2DD0 sub_5A2DD0 (74 bytes)
-void sub_5A2DD0()
+// STUB: 0x5A2DD0 toGlStencilFunc (74 bytes)
+void toGlStencilFunc()
 {
 }
 
-// STUB: 0x5A2E40 sub_5A2E40 (71 bytes)
-void sub_5A2E40()
+// STUB: 0x5A2E40 toGlStencilOp (71 bytes)
+void toGlStencilOp()
 {
 }
 
@@ -183,8 +183,8 @@ void sub_5A2EB0()
 {
 }
 
-// STUB: 0x5A2F20 sub_5A2F20 (26 bytes)
-void sub_5A2F20()
+// STUB: 0x5A2F20 toGlWrapMode (26 bytes)
+void toGlWrapMode()
 {
 }
 
@@ -193,8 +193,8 @@ void sub_5A2F40()
 {
 }
 
-// STUB: 0x5A2F60 sub_5A2F60 (38 bytes)
-void sub_5A2F60()
+// STUB: 0x5A2F60 toGlFilter (38 bytes)
+void toGlFilter()
 {
 }
 
@@ -1050,11 +1050,6 @@ void sub_5AD4D0()
 
 // STUB: 0x5ADC70 sub_5ADC70 (89 bytes)
 void sub_5ADC70()
-{
-}
-
-// STUB: 0x5ADD30 sub_5ADD30 (959 bytes)
-void sub_5ADD30()
 {
 }
 
