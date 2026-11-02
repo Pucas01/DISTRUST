@@ -40,11 +40,6 @@ void AgDelayedSaveDataMount::vfn_12()
 {
 }
 
-// STUB: 0x562910 AgDelayedSaveDataMount::fn_562910 (96 bytes)
-void AgDelayedSaveDataMount::fn_562910()
-{
-}
-
 // STUB: 0x562970 AgDelayedSaveDataMount::vfn_5 (157 bytes)
 void AgDelayedSaveDataMount::vfn_5()
 {

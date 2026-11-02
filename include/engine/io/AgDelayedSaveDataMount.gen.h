@@ -28,5 +28,5 @@ public:
     virtual void vfn_256_3(); // 0x4135B0
     virtual void vfn_256_4(); // 0x562280
     void fn_562290(); // 0x562290
-    void fn_562910(); // 0x562910
+    void resize(); // 0x562910
 };

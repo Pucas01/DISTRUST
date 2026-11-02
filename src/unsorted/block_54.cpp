@@ -1163,8 +1163,8 @@ void sub_54C5B0()
 {
 }
 
-// STUB: 0x54C6E0 sub_54C6E0 (98 bytes)
-void sub_54C6E0()
+// STUB: 0x54C6E0 ??0?$AgReference@VAgBuffer@@@@QAE@ABV0@@Z (98 bytes)
+void f_0_AgReference_VAgBuffer_QAE_ABV0_Z()
 {
 }
 

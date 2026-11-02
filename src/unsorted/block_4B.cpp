@@ -138,8 +138,8 @@ void sub_4B1E90()
 {
 }
 
-// STUB: 0x4B1F00 sub_4B1F00 (84 bytes)
-void sub_4B1F00()
+// STUB: 0x4B1F00 AgReferencedObject::acquire (84 bytes)
+void AgReferencedObject_acquire()
 {
 }
 
@@ -188,8 +188,8 @@ void sub_4B24A0()
 {
 }
 
-// STUB: 0x4B2500 sub_4B2500 (51 bytes)
-void sub_4B2500()
+// STUB: 0x4B2500 AgControlBlock::addRef (51 bytes)
+void AgControlBlock_addRef()
 {
 }
 

@@ -643,8 +643,8 @@ void sub_516A90()
 {
 }
 
-// STUB: 0x516B40 sub_516B40 (106 bytes)
-void sub_516B40()
+// STUB: 0x516B40 ??1?$AgReference@VAgBuffer@@@@QAE@XZ (106 bytes)
+void f_1_AgReference_VAgBuffer_QAE_XZ()
 {
 }
 
@@ -848,18 +848,18 @@ void sub_519AB0()
 {
 }
 
-// STUB: 0x51A030 sub_51A030 (18 bytes)
-void sub_51A030()
+// STUB: 0x51A030 AgHeapAllocator::alloc (18 bytes)
+void AgHeapAllocator_alloc()
 {
 }
 
-// STUB: 0x51A050 sub_51A050 (21 bytes)
-void sub_51A050()
+// STUB: 0x51A050 AgHeapAllocator::allocAligned (21 bytes)
+void AgHeapAllocator_allocAligned()
 {
 }
 
-// STUB: 0x51A070 sub_51A070 (18 bytes)
-void sub_51A070()
+// STUB: 0x51A070 AgHeapAllocator::free (18 bytes)
+void AgHeapAllocator_free()
 {
 }
 

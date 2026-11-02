@@ -1890,7 +1890,7 @@
 0x4B1E90	38	sub_4B1E90		unsorted	block_4B	unknown	stub
 0x4B1EC0	17	CCallback<DRApplication,GameOverlayActivated_t>::vfn_1	CCallback<DRApplication,GameOverlayActivated_t>	game	CCallback_DRApplication_GameOverlayActivated_t	virtual	stub
 0x4B1EE0	23	CCallback<DRApplication,GameOverlayActivated_t>::vfn_0	CCallback<DRApplication,GameOverlayActivated_t>	game	CCallback_DRApplication_GameOverlayActivated_t	virtual	stub
-0x4B1F00	84	sub_4B1F00		unsorted	block_4B	unknown	stub
+0x4B1F00	84	AgReferencedObject::acquire		unsorted	block_4B	unknown	stub
 0x4B1F60	133	sub_4B1F60		unsorted	block_4B	unknown	stub
 0x4B1FF0	220	sub_4B1FF0		unsorted	block_4B	unknown	stub
 0x4B20D0	424	sub_4B20D0		unsorted	block_4B	unknown	stub
@@ -1902,7 +1902,7 @@
 0x4B2400	133	sub_4B2400		unsorted	block_4B	unknown	stub
 0x4B2490	5	sub_4B2490		unsorted	thunks	unknown	done
 0x4B24A0	82	sub_4B24A0		unsorted	block_4B	unknown	stub
-0x4B2500	51	sub_4B2500		unsorted	block_4B	unknown	stub
+0x4B2500	51	AgControlBlock::addRef		unsorted	block_4B	unknown	stub
 0x4B2540	205	sub_4B2540		unsorted	block_4B	unknown	stub
 0x4B2610	112	DRApplication::vfn_5	DRApplication	game	DRApplication	virtual	stub
 0x4B2680	121	DRApplication::vfn_2	DRApplication	game	DRApplication	virtual	stub
@@ -2115,9 +2115,9 @@
 0x4C3D60	90	sub_4C3D60		unsorted	block_4C	unknown	stub
 0x4C3DC0	73	sub_4C3DC0		unsorted	block_4C	unknown	stub
 0x4C3E10	18	sub_4C3E10		unsorted	block_4C	unknown	stub
-0x4C3E30	338	sub_4C3E30		unsorted	block_4C	unknown	stub
+0x4C3E30	338	AgObjectPool::alloc		unsorted	block_4C	unknown	stub
 0x4C3F90	82	sub_4C3F90		unsorted	block_4C	unknown	stub
-0x4C3FF0	122	sub_4C3FF0		unsorted	block_4C	unknown	stub
+0x4C3FF0	122	AgObjectPool::free		unsorted	block_4C	unknown	stub
 0x4C4070	44	sub_4C4070		unsorted	block_4C	unknown	stub
 0x4C40A0	386	sub_4C40A0		unsorted	block_4C	unknown	stub
 0x4C4230	123	sub_4C4230		unsorted	block_4C	unknown	stub
@@ -3015,7 +3015,7 @@
 0x4FD210	17	sub_4FD210		unsorted	block_4F	unknown	stub
 0x4FD230	190	sub_4FD230		unsorted	block_4F	unknown	stub
 0x4FD2F0	34	sub_4FD2F0		unsorted	block_4F	unknown	stub
-0x4FD320	50	sub_4FD320		unsorted	block_4F	unknown	done
+0x4FD320	50	??0StringRef@@QAE@PBD@Z		unsorted	block_4F	unknown	done
 0x4FD360	20	sub_4FD360		unsorted	block_4F	unknown	stub
 0x4FD380	16	sub_4FD380		unsorted	block_4F	unknown	stub
 0x4FD390	37	sub_4FD390		unsorted	block_4F	unknown	stub
@@ -3146,13 +3146,13 @@
 0x501AE0	103	sub_501AE0		unsorted	block_50	unknown	stub
 0x501B50	148	AgFile::vfn_0	AgFile	engine/io	AgFile	virtual	stub
 0x501BF0	31	sub_501BF0		unsorted	block_50	unknown	stub
-0x501C10	34	AgStream::vfn_0	AgStream	engine/io	AgStream	virtual	stub
-0x501C40	89	AgStream::vfn_11	AgStream	engine/io	AgStream	virtual	stub
+0x501C10	34	??_GAgStream@@UAEPAXI@Z	AgStream	engine/io	AgStream	virtual	done
+0x501C40	89	AgStream::clone	AgStream	engine/io	AgStream	virtual	done
 0x501CA0	27	AgFile::vfn_13	AgFile	engine/io	AgFile	virtual	stub
 0x501CC0	20	AgFile::fn_501CC0	AgFile	engine/io	AgFile	inferred	stub
 0x501CE0	36	AgFile::fn_501CE0	AgFile	engine/io	AgFile	inferred	stub
 0x501D10	22	AgFile::vfn_1	AgFile	engine/io	AgFile	virtual	stub
-0x501D30	23	AgStream::vfn_1	AgStream	engine/io	AgStream	virtual	stub
+0x501D30	23	AgStream::getName	AgStream	engine/io	AgStream	virtual	done
 0x501D50	13	AgFile::vfn_7	AgFile	engine/io	AgFile	virtual	stub
 0x501D60	6	shared_501D60		unsorted	constants	shared	done
 0x501D70	176	sub_501D70		unsorted	block_50	unknown	stub
@@ -3593,7 +3593,7 @@
 0x5168A0	289	sub_5168A0		unsorted	block_51	unknown	stub
 0x5169D0	181	sub_5169D0		unsorted	block_51	unknown	stub
 0x516A90	175	sub_516A90		unsorted	block_51	unknown	stub
-0x516B40	106	sub_516B40		unsorted	block_51	unknown	stub
+0x516B40	106	??1?$AgReference@VAgBuffer@@@@QAE@XZ		unsorted	block_51	unknown	stub
 0x516BB0	7	sub_516BB0		unsorted	block_51	unknown	stub
 0x516BC0	7	sub_516BC0		unsorted	block_51	unknown	stub
 0x516BD0	157	sub_516BD0		unsorted	block_51	unknown	stub
@@ -3665,9 +3665,9 @@
 0x519E60	73	AgMemoryStream::fn_519E60	AgMemoryStream	engine/io	AgMemoryStream	inferred	stub
 0x519EB0	199	AgMemoryStream::fn_519EB0	AgMemoryStream	engine/io	AgMemoryStream	inferred	stub
 0x519F80	163	AgMemoryStream::vfn_3	AgMemoryStream	engine/io	AgMemoryStream	virtual	stub
-0x51A030	18	sub_51A030		unsorted	block_51	unknown	stub
-0x51A050	21	sub_51A050		unsorted	block_51	unknown	stub
-0x51A070	18	sub_51A070		unsorted	block_51	unknown	stub
+0x51A030	18	AgHeapAllocator::alloc		unsorted	block_51	unknown	stub
+0x51A050	21	AgHeapAllocator::allocAligned		unsorted	block_51	unknown	stub
+0x51A070	18	AgHeapAllocator::free		unsorted	block_51	unknown	stub
 0x51A090	237	sub_51A090		unsorted	block_51	unknown	stub
 0x51A180	202	sub_51A180		unsorted	block_51	unknown	stub
 0x51A250	290	sub_51A250		unsorted	block_51	unknown	stub
@@ -4092,7 +4092,7 @@
 0x52D910	290	sub_52D910		unsorted	block_52	unknown	stub
 0x52DA40	29	sub_52DA40		unsorted	block_52	unknown	stub
 0x52DA60	483	sub_52DA60		unsorted	block_52	unknown	stub
-0x52DC50	64	AgBuffer::vfn_0	AgBuffer	engine/core	AgBuffer	virtual	stub
+0x52DC50	64	AgBuffer::vfn_0	AgBuffer	engine/core	AgBuffer	virtual	done
 0x52DC90	34	AgSingleton<AgLeaderboardManager>::vfn_0	AgSingleton<AgLeaderboardManager>	engine/core	AgSingleton_AgLeaderboardManager	virtual	stub
 0x52DCC0	94	AgDefaultLeaderboard::vfn_0	AgDefaultLeaderboard	engine/online	AgDefaultLeaderboard	virtual	stub
 0x52DD20	88	AgDefaultLeaderboardManager::vfn_0	AgDefaultLeaderboardManager	engine/online	AgDefaultLeaderboardManager	virtual	stub
@@ -4794,7 +4794,7 @@
 0x54C360	277	sub_54C360		unsorted	block_54	unknown	stub
 0x54C480	298	sub_54C480		unsorted	block_54	unknown	stub
 0x54C5B0	293	sub_54C5B0		unsorted	block_54	unknown	stub
-0x54C6E0	98	sub_54C6E0		unsorted	block_54	unknown	stub
+0x54C6E0	98	??0?$AgReference@VAgBuffer@@@@QAE@ABV0@@Z		unsorted	block_54	unknown	stub
 0x54C750	130	sub_54C750		unsorted	block_54	unknown	stub
 0x54C7E0	130	sub_54C7E0		unsorted	block_54	unknown	stub
 0x54C870	114	sub_54C870		unsorted	block_54	unknown	stub
@@ -5118,31 +5118,31 @@
 0x561D80	172	sub_561D80		unsorted	block_56	unknown	stub
 0x561E30	18	sub_561E30		unsorted	block_56	unknown	stub
 0x561E42	11	AgDelayedSaveDataMount::vfn_256_0	AgDelayedSaveDataMount	engine/io	AgDelayedSaveDataMount	virtual	stub
-0x561E50	106	AgBufferStream::vfn_0	AgBufferStream	engine/core	AgBufferStream	virtual	stub
+0x561E50	106	??_GAgBufferStream@@UAEPAXI@Z	AgBufferStream	engine/core	AgBufferStream	virtual	done
 0x561EC0	33	AgDelayedSaveDataMount::vfn_0	AgDelayedSaveDataMount	engine/io	AgDelayedSaveDataMount	virtual	stub
 0x561EF0	245	sub_561EF0		unsorted	block_56	unknown	stub
 0x561FF0	161	sub_561FF0		unsorted	block_56	unknown	stub
-0x5620A0	228	AgBufferStream::vfn_11	AgBufferStream	engine/core	AgBufferStream	virtual	stub
-0x562190	88	AgBufferStream::fn_562190	AgBufferStream	engine/core	AgBufferStream	inferred	stub
-0x5621F0	23	AgBufferStream::vfn_1	AgBufferStream	engine/core	AgBufferStream	virtual	stub
-0x562210	6	AgBufferStream::vfn_6	AgBufferStream	engine/core	AgBufferStream	virtual	stub
-0x562220	17	AgBufferStream::vfn_9	AgBufferStream	engine/core	AgBufferStream	virtual	stub
-0x562240	9	AgBufferStream::vfn_10	AgBufferStream	engine/core	AgBufferStream	virtual	stub
-0x562250	43	AgBufferStream::vfn_4	AgBufferStream	engine/core	AgBufferStream	virtual	stub
+0x5620A0	228	AgBufferStream::clone	AgBufferStream	engine/core	AgBufferStream	virtual	done
+0x562190	88	AgBufferStream::getBuffer	AgBufferStream	engine/core	AgBufferStream	inferred	done
+0x5621F0	23	AgBufferStream::getName	AgBufferStream	engine/core	AgBufferStream	virtual	done
+0x562210	6	AgBufferStream::getPosition	AgBufferStream	engine/core	AgBufferStream	virtual	done
+0x562220	17	AgBufferStream::getData	AgBufferStream	engine/core	AgBufferStream	virtual	done
+0x562240	9	AgBufferStream::hasBuffer	AgBufferStream	engine/core	AgBufferStream	virtual	done
+0x562250	43	AgBufferStream::getSize	AgBufferStream	engine/core	AgBufferStream	virtual	done
 0x562280	4	AgDelayedSaveDataMount::vfn_256_4	AgDelayedSaveDataMount	engine/io	AgDelayedSaveDataMount	virtual	stub
 0x562290	202	AgDelayedSaveDataMount::fn_562290	AgDelayedSaveDataMount	engine/io	AgDelayedSaveDataMount	inferred	stub
 0x562360	21	AgDelayedSaveDataMount::vfn_2	AgDelayedSaveDataMount	engine/io	AgDelayedSaveDataMount	virtual	stub
 0x562380	351	AgDelayedSaveDataMount::vfn_256_1	AgDelayedSaveDataMount	engine/io	AgDelayedSaveDataMount	virtual	stub
 0x5624E0	15	AgDelayedSaveDataMount::vfn_256_2	AgDelayedSaveDataMount	engine/io	AgDelayedSaveDataMount	virtual	stub
 0x5624F0	189	sub_5624F0		unsorted	block_56	unknown	stub
-0x5625B0	98	AgBufferStream::vfn_2	AgBufferStream	engine/core	AgBufferStream	virtual	stub
+0x5625B0	98	AgBufferStream::read	AgBufferStream	engine/core	AgBufferStream	virtual	done
 0x562620	519	sub_562620		unsorted	block_56	unknown	stub
 0x562830	211	AgDelayedSaveDataMount::vfn_12	AgDelayedSaveDataMount	engine/io	AgDelayedSaveDataMount	virtual	stub
-0x562910	96	AgDelayedSaveDataMount::fn_562910	AgDelayedSaveDataMount	engine/io	AgDelayedSaveDataMount	inferred	stub
+0x562910	96	AgBuffer::resize	AgDelayedSaveDataMount	engine/core	AgBuffer	inferred	done
 0x562970	157	AgDelayedSaveDataMount::vfn_5	AgDelayedSaveDataMount	engine/io	AgDelayedSaveDataMount	virtual	stub
-0x562A10	45	AgBufferStream::vfn_5	AgBufferStream	engine/core	AgBufferStream	virtual	stub
+0x562A10	45	AgBufferStream::setPosition	AgBufferStream	engine/core	AgBufferStream	virtual	done
 0x562A40	583	AgDelayedSaveDataMount::vfn_1	AgDelayedSaveDataMount	engine/io	AgDelayedSaveDataMount	virtual	stub
-0x562C90	138	AgBufferStream::vfn_3	AgBufferStream	engine/core	AgBufferStream	virtual	stub
+0x562C90	138	AgBufferStream::write	AgBufferStream	engine/core	AgBufferStream	virtual	done
 0x562D20	949	sub_562D20		unsorted	block_56	unknown	stub
 0x5630E0	71	sub_5630E0		unsorted	block_56	unknown	stub
 0x563130	537	AgPlatformResourceTexture2dBase::vfn_1	AgPlatformResourceTexture2dBase	engine/render	AgPlatformResourceTexture2dBase	virtual	stub
@@ -6553,7 +6553,7 @@
 0x5C7392	80	__FindAndUnlinkFrame		lib/crt	block_5C	library	stub
 0x5C73E2	41	sub_5C73E2		lib/crt	block_5C	library	stub
 0x5C740B	54	___CxxFrameHandler3		lib/crt	block_5C	library	stub
-0x5C7450	1604	sub_5C7450		lib/crt	block_5C	library	stub
+0x5C7450	1604	memcpy		lib/crt	block_5C	library	stub
 0x5C7A94	14	sub_5C7A94		lib/crt	block_5C	library	stub
 0x5C7AA2	30	sub_5C7AA2		lib/crt	block_5C	library	stub
 0x5C7AC0	31	type_info::vfn_0	type_info	lib/std	type_info	virtual	stub
