@@ -1,40 +1,40 @@
-// STUB: 0x5B3890 sub_5B3890 (584 bytes)
-void sub_5B3890()
+// STUB: 0x5B3890 vp8_loop_filter_horizontal_edge_sse2 (584 bytes)
+void vp8_loop_filter_horizontal_edge_sse2()
 {
 }
 
-// STUB: 0x5B3AD8 sub_5B3AD8 (674 bytes)
-void sub_5B3AD8()
+// STUB: 0x5B3AD8 vp8_loop_filter_horizontal_edge_uv_sse2 (674 bytes)
+void vp8_loop_filter_horizontal_edge_uv_sse2()
 {
 }
 
-// STUB: 0x5B3D7A sub_5B3D7A (748 bytes)
-void sub_5B3D7A()
+// STUB: 0x5B3D7A vp8_mbloop_filter_vertical_edge_sse2 (748 bytes)
+void vp8_mbloop_filter_vertical_edge_sse2()
 {
 }
 
-// STUB: 0x5B4066 sub_5B4066 (852 bytes)
-void sub_5B4066()
+// STUB: 0x5B4066 vp8_mbloop_filter_vertical_edge_uv_sse2 (852 bytes)
+void vp8_mbloop_filter_vertical_edge_uv_sse2()
 {
 }
 
-// STUB: 0x5B43BA sub_5B43BA (1037 bytes)
-void sub_5B43BA()
+// STUB: 0x5B43BA vp8_loop_filter_vertical_edge_sse2 (1037 bytes)
+void vp8_loop_filter_vertical_edge_sse2()
 {
 }
 
-// STUB: 0x5B47C7 sub_5B47C7 (1043 bytes)
-void sub_5B47C7()
+// STUB: 0x5B47C7 vp8_loop_filter_vertical_edge_uv_sse2 (1043 bytes)
+void vp8_loop_filter_vertical_edge_uv_sse2()
 {
 }
 
-// STUB: 0x5B4BDA sub_5B4BDA (1304 bytes)
-void sub_5B4BDA()
+// STUB: 0x5B4BDA vp8_mbloop_filter_horizontal_edge_sse2 (1304 bytes)
+void vp8_mbloop_filter_horizontal_edge_sse2()
 {
 }
 
-// STUB: 0x5B50F2 sub_5B50F2 (1310 bytes)
-void sub_5B50F2()
+// STUB: 0x5B50F2 vp8_mbloop_filter_horizontal_edge_uv_sse2 (1310 bytes)
+void vp8_mbloop_filter_horizontal_edge_uv_sse2()
 {
 }
 
@@ -78,13 +78,13 @@ void sub_5B5BA7()
 {
 }
 
-// STUB: 0x5B5C50 sub_5B5C50 (155 bytes)
-void sub_5B5C50()
+// STUB: 0x5B5C50 vp8_filter_block1d_h6_mmx (155 bytes)
+void vp8_filter_block1d_h6_mmx()
 {
 }
 
-// STUB: 0x5B5CEB sub_5B5CEB (137 bytes)
-void sub_5B5CEB()
+// STUB: 0x5B5CEB vp8_filter_block1dc_v6_mmx (137 bytes)
+void vp8_filter_block1dc_v6_mmx()
 {
 }
 
@@ -193,43 +193,43 @@ void sub_5B7EB3()
 {
 }
 
-// STUB: 0x5B7F30 sub_5B7F30 (204 bytes)
-void sub_5B7F30()
+// STUB: 0x5B7F30 vp8_filter_block1d8_h6_sse2 (204 bytes)
+void vp8_filter_block1d8_h6_sse2()
 {
 }
 
-// STUB: 0x5B7FFC sub_5B7FFC (362 bytes)
-void sub_5B7FFC()
+// STUB: 0x5B7FFC vp8_filter_block1d16_h6_sse2 (362 bytes)
+void vp8_filter_block1d16_h6_sse2()
 {
 }
 
-// STUB: 0x5B8166 sub_5B8166 (143 bytes)
-void sub_5B8166()
+// STUB: 0x5B8166 vp8_filter_block1d8_v6_sse2 (143 bytes)
+void vp8_filter_block1d8_v6_sse2()
 {
 }
 
-// STUB: 0x5B81F5 sub_5B81F5 (240 bytes)
-void sub_5B81F5()
+// STUB: 0x5B81F5 vp8_filter_block1d16_v6_sse2 (240 bytes)
+void vp8_filter_block1d16_v6_sse2()
 {
 }
 
-// STUB: 0x5B82E5 sub_5B82E5 (200 bytes)
-void sub_5B82E5()
+// STUB: 0x5B82E5 vp8_filter_block1d8_h6_only_sse2 (200 bytes)
+void vp8_filter_block1d8_h6_only_sse2()
 {
 }
 
-// STUB: 0x5B83AD sub_5B83AD (354 bytes)
-void sub_5B83AD()
+// STUB: 0x5B83AD vp8_filter_block1d16_h6_only_sse2 (354 bytes)
+void vp8_filter_block1d16_h6_only_sse2()
 {
 }
 
-// STUB: 0x5B850F sub_5B850F (163 bytes)
-void sub_5B850F()
+// STUB: 0x5B850F vp8_filter_block1d8_v6_only_sse2 (163 bytes)
+void vp8_filter_block1d8_v6_only_sse2()
 {
 }
 
-// STUB: 0x5B85B2 sub_5B85B2 (60 bytes)
-void sub_5B85B2()
+// STUB: 0x5B85B2 vp8_unpack_block1d16_h6_sse2 (60 bytes)
+void vp8_unpack_block1d16_h6_sse2()
 {
 }
 
@@ -243,33 +243,33 @@ void sub_5B8859()
 {
 }
 
-// STUB: 0x5B89B0 sub_5B89B0 (281 bytes)
-void sub_5B89B0()
+// STUB: 0x5B89B0 vp8_filter_block1d8_h6_ssse3 (281 bytes)
+void vp8_filter_block1d8_h6_ssse3()
 {
 }
 
-// STUB: 0x5B8AC9 sub_5B8AC9 (241 bytes)
-void sub_5B8AC9()
+// STUB: 0x5B8AC9 vp8_filter_block1d16_h6_ssse3 (241 bytes)
+void vp8_filter_block1d16_h6_ssse3()
 {
 }
 
-// STUB: 0x5B8BBA sub_5B8BBA (277 bytes)
-void sub_5B8BBA()
+// STUB: 0x5B8BBA vp8_filter_block1d4_h6_ssse3 (277 bytes)
+void vp8_filter_block1d4_h6_ssse3()
 {
 }
 
-// STUB: 0x5B8CCF sub_5B8CCF (444 bytes)
-void sub_5B8CCF()
+// STUB: 0x5B8CCF vp8_filter_block1d16_v6_ssse3 (444 bytes)
+void vp8_filter_block1d16_v6_ssse3()
 {
 }
 
-// STUB: 0x5B8E8B sub_5B8E8B (272 bytes)
-void sub_5B8E8B()
+// STUB: 0x5B8E8B vp8_filter_block1d8_v6_ssse3 (272 bytes)
+void vp8_filter_block1d8_v6_ssse3()
 {
 }
 
-// STUB: 0x5B8F9B sub_5B8F9B (230 bytes)
-void sub_5B8F9B()
+// STUB: 0x5B8F9B vp8_filter_block1d4_v6_ssse3 (230 bytes)
+void vp8_filter_block1d4_v6_ssse3()
 {
 }
 
@@ -288,48 +288,48 @@ void sub_5B9690()
 {
 }
 
-// STUB: 0x5B9702 sub_5B9702 (299 bytes)
-void sub_5B9702()
+// STUB: 0x5B9702 vp8_get8x8var_sse2 (299 bytes)
+void vp8_get8x8var_sse2()
 {
 }
 
-// STUB: 0x5B982D sub_5B982D (412 bytes)
-void sub_5B982D()
+// STUB: 0x5B982D vp8_get4x4var_mmx (412 bytes)
+void vp8_get4x4var_mmx()
 {
 }
 
-// STUB: 0x5B99C9 sub_5B99C9 (606 bytes)
-void sub_5B99C9()
+// STUB: 0x5B99C9 vp8_filter_block2d_bil_var_sse2 (606 bytes)
+void vp8_filter_block2d_bil_var_sse2()
 {
 }
 
-// STUB: 0x5B9C27 sub_5B9C27 (192 bytes)
-void sub_5B9C27()
+// STUB: 0x5B9C27 vp8_half_horiz_vert_variance8x_h_sse2 (192 bytes)
+void vp8_half_horiz_vert_variance8x_h_sse2()
 {
 }
 
-// STUB: 0x5B9CE7 sub_5B9CE7 (247 bytes)
-void sub_5B9CE7()
+// STUB: 0x5B9CE7 vp8_half_horiz_vert_variance16x_h_sse2 (247 bytes)
+void vp8_half_horiz_vert_variance16x_h_sse2()
 {
 }
 
-// STUB: 0x5B9DDE sub_5B9DDE (168 bytes)
-void sub_5B9DDE()
+// STUB: 0x5B9DDE vp8_half_vert_variance8x_h_sse2 (168 bytes)
+void vp8_half_vert_variance8x_h_sse2()
 {
 }
 
-// STUB: 0x5B9E86 sub_5B9E86 (229 bytes)
-void sub_5B9E86()
+// STUB: 0x5B9E86 vp8_half_vert_variance16x_h_sse2 (229 bytes)
+void vp8_half_vert_variance16x_h_sse2()
 {
 }
 
-// STUB: 0x5B9F6B sub_5B9F6B (165 bytes)
-void sub_5B9F6B()
+// STUB: 0x5B9F6B vp8_half_horiz_variance8x_h_sse2 (165 bytes)
+void vp8_half_horiz_variance8x_h_sse2()
 {
 }
 
-// STUB: 0x5BA010 sub_5BA010 (223 bytes)
-void sub_5BA010()
+// STUB: 0x5BA010 vp8_half_horiz_variance16x_h_sse2 (223 bytes)
+void vp8_half_horiz_variance16x_h_sse2()
 {
 }
 

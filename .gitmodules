@@ -1,9 +1,12 @@
 [submodule "external/wibo"]
 	path = external/wibo
-	url = https://github.com/decompals/wibo.git
+	url = https://github.com/Pucas01/wibo.git
 [submodule "external/freetype"]
 	path = external/freetype
 	url = https://github.com/freetype/freetype.git
 [submodule "external/lodepng"]
 	path = external/lodepng
 	url = https://github.com/lvandeve/lodepng.git
+[submodule "external/libvpx"]
+	path = external/libvpx
+	url = https://github.com/webmproject/libvpx.git

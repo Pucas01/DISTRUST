@@ -12,6 +12,8 @@ TOOLCHAIN = ROOT / "toolchain"
 MARKER = re.compile(r"^//\s*FUNCTION:\s*(0x[0-9A-Fa-f]+)\s+(\S+)")
 BLOCK_MARKER = re.compile(r"^//\s*BLOCK:\s*(0x[0-9A-Fa-f]+)\s+(\S+)\s+(\d+)")
 FLAGS_MARKER = re.compile(r"^//\s*FLAGS:\s*(.*)$")
+LTCG_MARKER = re.compile(r"^//\s*LTCG:\s*(\S+)")
+LTCG_ROOT_MARKER = re.compile(r"^//\s*LTCG-ROOT:\s*(\S+)")
 STUB_MARKER = re.compile(r"^//\s*STUB:\s*(0x[0-9A-Fa-f]+)\s+(\S+)")
 DEFINITION = re.compile(r"^void\s+([^\s(]+)\(\)")
 

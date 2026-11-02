@@ -3,23 +3,23 @@ void sub_5C004C()
 {
 }
 
-// STUB: 0x5C21D0 sub_5C21D0 (529 bytes)
-void sub_5C21D0()
+// STUB: 0x5C21D0 vp8_loop_filter_horizontal_edge_mmx (529 bytes)
+void vp8_loop_filter_horizontal_edge_mmx()
 {
 }
 
-// STUB: 0x5C23E1 sub_5C23E1 (752 bytes)
-void sub_5C23E1()
+// STUB: 0x5C23E1 vp8_loop_filter_vertical_edge_mmx (752 bytes)
+void vp8_loop_filter_vertical_edge_mmx()
 {
 }
 
-// STUB: 0x5C26D1 sub_5C26D1 (727 bytes)
-void sub_5C26D1()
+// STUB: 0x5C26D1 vp8_mbloop_filter_vertical_edge_mmx (727 bytes)
+void vp8_mbloop_filter_vertical_edge_mmx()
 {
 }
 
-// STUB: 0x5C29A8 sub_5C29A8 (1044 bytes)
-void sub_5C29A8()
+// STUB: 0x5C29A8 vp8_mbloop_filter_horizontal_edge_mmx (1044 bytes)
+void vp8_mbloop_filter_horizontal_edge_mmx()
 {
 }
 
@@ -28,8 +28,8 @@ void sub_5C2DBC()
 {
 }
 
-// STUB: 0x5C2EC2 sub_5C2EC2 (443 bytes)
-void sub_5C2EC2()
+// STUB: 0x5C2EC2 vp8_loop_filter_simple_vertical_edge_sse2 (443 bytes)
+void vp8_loop_filter_simple_vertical_edge_sse2()
 {
 }
 
@@ -63,93 +63,93 @@ void sub_5C3460()
 {
 }
 
-// STUB: 0x5C3539 sub_5C3539 (140 bytes)
-void sub_5C3539()
+// STUB: 0x5C3539 vp8_intra_pred_uv_dc_mmx2 (140 bytes)
+void vp8_intra_pred_uv_dc_mmx2()
 {
 }
 
-// STUB: 0x5C35C5 sub_5C35C5 (81 bytes)
-void sub_5C35C5()
+// STUB: 0x5C35C5 vp8_intra_pred_uv_dctop_mmx2 (81 bytes)
+void vp8_intra_pred_uv_dctop_mmx2()
 {
 }
 
-// STUB: 0x5C3616 sub_5C3616 (122 bytes)
-void sub_5C3616()
+// STUB: 0x5C3616 vp8_intra_pred_uv_dcleft_mmx2 (122 bytes)
+void vp8_intra_pred_uv_dcleft_mmx2()
 {
 }
 
-// STUB: 0x5C3690 sub_5C3690 (54 bytes)
-void sub_5C3690()
+// STUB: 0x5C3690 vp8_intra_pred_uv_dc128_mmx (54 bytes)
+void vp8_intra_pred_uv_dc128_mmx()
 {
 }
 
-// STUB: 0x5C36C6 sub_5C36C6 (133 bytes)
-void sub_5C36C6()
+// STUB: 0x5C36C6 vp8_intra_pred_uv_tm_ssse3 (133 bytes)
+void vp8_intra_pred_uv_tm_ssse3()
 {
 }
 
-// STUB: 0x5C374B sub_5C374B (117 bytes)
-void sub_5C374B()
+// STUB: 0x5C374B vp8_intra_pred_uv_tm_sse2 (117 bytes)
+void vp8_intra_pred_uv_tm_sse2()
 {
 }
 
-// STUB: 0x5C37C0 sub_5C37C0 (53 bytes)
-void sub_5C37C0()
+// STUB: 0x5C37C0 vp8_intra_pred_uv_ve_mmx (53 bytes)
+void vp8_intra_pred_uv_ve_mmx()
 {
 }
 
-// STUB: 0x5C37F5 sub_5C37F5 (69 bytes)
-void sub_5C37F5()
+// STUB: 0x5C37F5 vp8_intra_pred_uv_ho_ssse3 (69 bytes)
+void vp8_intra_pred_uv_ho_ssse3()
 {
 }
 
-// STUB: 0x5C383A sub_5C383A (170 bytes)
-void sub_5C383A()
+// STUB: 0x5C383A vp8_intra_pred_uv_ho_mmx2 (170 bytes)
+void vp8_intra_pred_uv_ho_mmx2()
 {
 }
 
-// STUB: 0x5C38E4 sub_5C38E4 (234 bytes)
-void sub_5C38E4()
+// STUB: 0x5C38E4 vp8_intra_pred_y_dc_sse2 (234 bytes)
+void vp8_intra_pred_y_dc_sse2()
 {
 }
 
-// STUB: 0x5C39CE sub_5C39CE (121 bytes)
-void sub_5C39CE()
+// STUB: 0x5C39CE vp8_intra_pred_y_dctop_sse2 (121 bytes)
+void vp8_intra_pred_y_dctop_sse2()
 {
 }
 
-// STUB: 0x5C3A47 sub_5C3A47 (200 bytes)
-void sub_5C3A47()
+// STUB: 0x5C3A47 vp8_intra_pred_y_dcleft_sse2 (200 bytes)
+void vp8_intra_pred_y_dcleft_sse2()
 {
 }
 
-// STUB: 0x5C3B0F sub_5C3B0F (76 bytes)
-void sub_5C3B0F()
+// STUB: 0x5C3B0F vp8_intra_pred_y_dc128_sse2 (76 bytes)
+void vp8_intra_pred_y_dc128_sse2()
 {
 }
 
-// STUB: 0x5C3B5B sub_5C3B5B (166 bytes)
-void sub_5C3B5B()
+// STUB: 0x5C3B5B vp8_intra_pred_y_tm_ssse3 (166 bytes)
+void vp8_intra_pred_y_tm_ssse3()
 {
 }
 
-// STUB: 0x5C3C01 sub_5C3C01 (150 bytes)
-void sub_5C3C01()
+// STUB: 0x5C3C01 vp8_intra_pred_y_tm_sse2 (150 bytes)
+void vp8_intra_pred_y_tm_sse2()
 {
 }
 
-// STUB: 0x5C3C97 sub_5C3C97 (75 bytes)
-void sub_5C3C97()
+// STUB: 0x5C3C97 vp8_intra_pred_y_ve_sse2 (75 bytes)
+void vp8_intra_pred_y_ve_sse2()
 {
 }
 
-// STUB: 0x5C3CE2 sub_5C3CE2 (85 bytes)
-void sub_5C3CE2()
+// STUB: 0x5C3CE2 vp8_intra_pred_y_ho_sse2 (85 bytes)
+void vp8_intra_pred_y_ho_sse2()
 {
 }
 
-// STUB: 0x5C3D40 sub_5C3D40 (63 bytes)
-void sub_5C3D40()
+// STUB: 0x5C3D40 vp8_dequantize_b_impl_mmx (63 bytes)
+void vp8_dequantize_b_impl_mmx()
 {
 }
 
@@ -173,8 +173,8 @@ void sub_5C4134()
 {
 }
 
-// STUB: 0x5C4332 sub_5C4332 (202 bytes)
-void sub_5C4332()
+// STUB: 0x5C4332 vp8_get8x8var_mmx (202 bytes)
+void vp8_get8x8var_mmx()
 {
 }
 
@@ -183,13 +183,13 @@ void sub_5C43FC()
 {
 }
 
-// STUB: 0x5C4486 sub_5C4486 (222 bytes)
-void sub_5C4486()
+// STUB: 0x5C4486 vp8_filter_block2d_bil4x4_var_mmx (222 bytes)
+void vp8_filter_block2d_bil4x4_var_mmx()
 {
 }
 
-// STUB: 0x5C4564 sub_5C4564 (344 bytes)
-void sub_5C4564()
+// STUB: 0x5C4564 vp8_filter_block2d_bil_var_mmx (344 bytes)
+void vp8_filter_block2d_bil_var_mmx()
 {
 }
 
@@ -238,7 +238,7 @@ void sub_5C5A70()
 {
 }
 
-// STUB: 0x5C5B50 sub_5C5B50 (838 bytes)
-void sub_5C5B50()
+// STUB: 0x5C5B50 vp8_filter_block2d_bil_var_ssse3 (838 bytes)
+void vp8_filter_block2d_bil_var_ssse3()
 {
 }

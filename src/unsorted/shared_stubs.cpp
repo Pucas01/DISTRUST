@@ -1,8 +1,3 @@
-// STUB: 0x4135B0 logError (1 bytes)
-void logError()
-{
-}
-
 // STUB: 0x5110F0 shared_5110F0 (89 bytes)
 void shared_5110F0()
 {

@@ -9,6 +9,8 @@ def plain(name):
     if name.startswith("?") and not name.startswith("??"):
         head = name[1:].split("@@")[0]
         return "::".join(reversed(head.split("@")))
+    if name.startswith(("__real@", "__xmm@")):
+        return name[1:]
     if name.startswith("_"):
         return re.sub(r"@\d+$", "", name[1:])
     return name

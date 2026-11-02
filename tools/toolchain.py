@@ -44,6 +44,7 @@ BIN_FILES = [
         ("WinC_compiler_project_x86_mspdbcore.dll_F", "mspdbcore.dll"),
         ("WinC_compiler_project_x86_mspdbsrv.exe_F", "mspdbsrv.exe"),
         ("WinC_compiler_x86_mspft80.dll_F", "mspft80.dll"),
+        ("WinC_compiler_x86_msobj110.dll_F", "msobj110.dll"),
     ]),
     ("express", "packages/vc_compilerCore86res/vc_CompilerCore86Res.cab", [
         ("WinC_compiler_core_x86_clui.dll_F_enu", "clui.dll"),
@@ -281,15 +282,32 @@ def install(keep_downloads=False):
     say("compiler files are in %s" % TOOLCHAIN)
 
 
+def ensure_msobj():
+    target = TOOLCHAIN / "bin/msobj110.dll"
+    if target.is_file():
+        return
+    say("fetching msobj110.dll, which the linker needs for link-time code generation")
+    work = TOOLCHAIN / "work"
+    shutil.rmtree(work, ignore_errors=True)
+    work.mkdir(parents=True)
+    iso = download(ISOS["express"], TOOLCHAIN / "downloads")
+    member = "packages/vc_compilerCore86/vc_CompilerCore86.cab"
+    run_7z("x", "-y", "-o" + str(work), str(iso), member)
+    run_7z("x", "-y", "-o" + str(work / "cab"), str(work / member), "WinC_compiler_x86_msobj110.dll_F")
+    shutil.copyfile(work / "cab/WinC_compiler_x86_msobj110.dll_F", target)
+    shutil.rmtree(work, ignore_errors=True)
+    shutil.rmtree(TOOLCHAIN / "downloads", ignore_errors=True)
+
+
 def ensure_wibo():
     if sys.platform == "win32":
         return
     binary = ROOT / "external/wibo/build/release64/wibo"
-    if os.access(binary, os.X_OK):
-        return
     if not (ROOT / "external/wibo/CMakeLists.txt").is_file():
         say("fetching the wibo submodule")
         subprocess.run(["git", "submodule", "update", "--init", "external/wibo"], cwd=ROOT, check=True)
+    if os.access(binary, os.X_OK):
+        return
     for tool in ("cmake", "ninja"):
         if not shutil.which(tool):
             sys.exit("%s is needed to build wibo. Install cmake, ninja and a C++ compiler." % tool)
@@ -301,6 +319,7 @@ def ensure_wibo():
 def ensure():
     if not installed():
         install()
+    ensure_msobj()
     ensure_wibo()
 
 
@@ -313,6 +332,7 @@ def main():
         install(args.keep_downloads)
     else:
         say("compiler files are already in %s" % TOOLCHAIN)
+    ensure_msobj()
     ensure_wibo()
     return 0
 
