@@ -173,8 +173,8 @@ void sub_5412C0()
 {
 }
 
-// STUB: 0x5412F0 sub_5412F0 (216 bytes)
-void sub_5412F0()
+// STUB: 0x5412F0 FT_CMap_New (216 bytes)
+void FT_CMap_New()
 {
 }
 
@@ -758,8 +758,8 @@ void sub_546580()
 {
 }
 
-// STUB: 0x5465E0 sub_5465E0 (27 bytes)
-void sub_5465E0()
+// STUB: 0x5465E0 ft_mem_free (27 bytes)
+void ft_mem_free()
 {
 }
 
@@ -773,8 +773,8 @@ void sub_546650()
 {
 }
 
-// STUB: 0x546760 sub_546760 (97 bytes)
-void sub_546760()
+// STUB: 0x546760 ft_mem_realloc (97 bytes)
+void ft_mem_realloc()
 {
 }
 
@@ -823,13 +823,13 @@ void sub_546B80()
 {
 }
 
-// STUB: 0x546C60 sub_546C60 (23 bytes)
-void sub_546C60()
+// STUB: 0x546C60 ft_validator_error (23 bytes)
+void ft_validator_error()
 {
 }
 
-// STUB: 0x546C80 sub_546C80 (32 bytes)
-void sub_546C80()
+// STUB: 0x546C80 ft_validator_init (32 bytes)
+void ft_validator_init()
 {
 }
 

@@ -383,121 +383,6 @@ void sub_595400()
 {
 }
 
-// STUB: 0x595420 sub_595420 (44 bytes)
-void sub_595420()
-{
-}
-
-// STUB: 0x595450 sub_595450 (157 bytes)
-void sub_595450()
-{
-}
-
-// STUB: 0x5954F0 sub_5954F0 (22 bytes)
-void sub_5954F0()
-{
-}
-
-// STUB: 0x595510 sub_595510 (95 bytes)
-void sub_595510()
-{
-}
-
-// STUB: 0x595570 sub_595570 (80 bytes)
-void sub_595570()
-{
-}
-
-// STUB: 0x5955C0 sub_5955C0 (58 bytes)
-void sub_5955C0()
-{
-}
-
-// STUB: 0x595600 sub_595600 (140 bytes)
-void sub_595600()
-{
-}
-
-// STUB: 0x595690 sub_595690 (48 bytes)
-void sub_595690()
-{
-}
-
-// STUB: 0x5956C0 sub_5956C0 (44 bytes)
-void sub_5956C0()
-{
-}
-
-// STUB: 0x5956F0 sub_5956F0 (66 bytes)
-void sub_5956F0()
-{
-}
-
-// STUB: 0x595740 sub_595740 (18 bytes)
-void sub_595740()
-{
-}
-
-// STUB: 0x595760 sub_595760 (791 bytes)
-void sub_595760()
-{
-}
-
-// STUB: 0x595A80 sub_595A80 (16 bytes)
-void sub_595A80()
-{
-}
-
-// STUB: 0x595A90 sub_595A90 (665 bytes)
-void sub_595A90()
-{
-}
-
-// STUB: 0x595D30 sub_595D30 (102 bytes)
-void sub_595D30()
-{
-}
-
-// STUB: 0x595DA0 sub_595DA0 (31 bytes)
-void sub_595DA0()
-{
-}
-
-// STUB: 0x595DC0 sub_595DC0 (61 bytes)
-void sub_595DC0()
-{
-}
-
-// STUB: 0x595E00 sub_595E00 (44 bytes)
-void sub_595E00()
-{
-}
-
-// STUB: 0x595E30 sub_595E30 (421 bytes)
-void sub_595E30()
-{
-}
-
-// STUB: 0x595FE0 sub_595FE0 (266 bytes)
-void sub_595FE0()
-{
-}
-
-// STUB: 0x5960F0 sub_5960F0 (16 bytes)
-void sub_5960F0()
-{
-}
-
-// STUB: 0x596100 sub_596100 (23 bytes)
-void sub_596100()
-{
-}
-
-// STUB: 0x596120 sub_596120 (331 bytes)
-void sub_596120()
-{
-}
-
 // STUB: 0x596270 sub_596270 (188 bytes)
 void sub_596270()
 {
@@ -513,63 +398,8 @@ void sub_596B60()
 {
 }
 
-// STUB: 0x596D70 sub_596D70 (171 bytes)
-void sub_596D70()
-{
-}
-
-// STUB: 0x596E20 sub_596E20 (58 bytes)
-void sub_596E20()
-{
-}
-
-// STUB: 0x596E60 sub_596E60 (366 bytes)
-void sub_596E60()
-{
-}
-
-// STUB: 0x596FD0 sub_596FD0 (191 bytes)
-void sub_596FD0()
-{
-}
-
-// STUB: 0x597090 sub_597090 (171 bytes)
-void sub_597090()
-{
-}
-
-// STUB: 0x597140 sub_597140 (108 bytes)
-void sub_597140()
-{
-}
-
-// STUB: 0x5971B0 sub_5971B0 (44 bytes)
-void sub_5971B0()
-{
-}
-
-// STUB: 0x5971E0 sub_5971E0 (167 bytes)
-void sub_5971E0()
-{
-}
-
 // STUB: 0x597290 sub_597290 (537 bytes)
 void sub_597290()
-{
-}
-
-// STUB: 0x5974C0 sub_5974C0 (150 bytes)
-void sub_5974C0()
-{
-}
-
-// STUB: 0x597560 sub_597560 (179 bytes)
-void sub_597560()
-{
-}
-
-// STUB: 0x597620 sub_597620 (54 bytes)
-void sub_597620()
 {
 }
 
@@ -583,11 +413,6 @@ void sub_597920()
 {
 }
 
-// STUB: 0x597960 sub_597960 (387 bytes)
-void sub_597960()
-{
-}
-
 // STUB: 0x597AF0 sub_597AF0 (24 bytes)
 void sub_597AF0()
 {
@@ -595,11 +420,6 @@ void sub_597AF0()
 
 // STUB: 0x597B10 sub_597B10 (451 bytes)
 void sub_597B10()
-{
-}
-
-// STUB: 0x597CE0 sub_597CE0 (58 bytes)
-void sub_597CE0()
 {
 }
 
@@ -618,16 +438,6 @@ void sub_597F50()
 {
 }
 
-// STUB: 0x598050 sub_598050 (452 bytes)
-void sub_598050()
-{
-}
-
-// STUB: 0x598220 sub_598220 (929 bytes)
-void sub_598220()
-{
-}
-
 // STUB: 0x5985D0 sub_5985D0 (143 bytes)
 void sub_5985D0()
 {
@@ -635,11 +445,6 @@ void sub_5985D0()
 
 // STUB: 0x598680 sub_598680 (125 bytes)
 void sub_598680()
-{
-}
-
-// STUB: 0x598700 sub_598700 (810 bytes)
-void sub_598700()
 {
 }
 
@@ -723,38 +528,13 @@ void sub_599620()
 {
 }
 
-// STUB: 0x599660 sub_599660 (22 bytes)
-void sub_599660()
-{
-}
-
-// STUB: 0x599680 sub_599680 (95 bytes)
-void sub_599680()
-{
-}
-
 // STUB: 0x5996E0 sub_5996E0 (99 bytes)
 void sub_5996E0()
 {
 }
 
-// STUB: 0x599750 sub_599750 (58 bytes)
-void sub_599750()
-{
-}
-
 // STUB: 0x599790 sub_599790 (16 bytes)
 void sub_599790()
-{
-}
-
-// STUB: 0x5997A0 sub_5997A0 (56 bytes)
-void sub_5997A0()
-{
-}
-
-// STUB: 0x5997E0 sub_5997E0 (457 bytes)
-void sub_5997E0()
 {
 }
 
@@ -780,16 +560,6 @@ void sub_599BE0()
 
 // STUB: 0x599E00 sub_599E00 (499 bytes)
 void sub_599E00()
-{
-}
-
-// STUB: 0x59A000 sub_59A000 (52 bytes)
-void sub_59A000()
-{
-}
-
-// STUB: 0x59A040 sub_59A040 (101 bytes)
-void sub_59A040()
 {
 }
 
@@ -825,91 +595,6 @@ void sub_59A6A0()
 
 // STUB: 0x59A8A0 sub_59A8A0 (43 bytes)
 void sub_59A8A0()
-{
-}
-
-// STUB: 0x59A8D0 sub_59A8D0 (354 bytes)
-void sub_59A8D0()
-{
-}
-
-// STUB: 0x59AA40 sub_59AA40 (234 bytes)
-void sub_59AA40()
-{
-}
-
-// STUB: 0x59AB30 sub_59AB30 (351 bytes)
-void sub_59AB30()
-{
-}
-
-// STUB: 0x59AC90 sub_59AC90 (217 bytes)
-void sub_59AC90()
-{
-}
-
-// STUB: 0x59AD70 sub_59AD70 (123 bytes)
-void sub_59AD70()
-{
-}
-
-// STUB: 0x59ADF0 sub_59ADF0 (134 bytes)
-void sub_59ADF0()
-{
-}
-
-// STUB: 0x59AE80 sub_59AE80 (63 bytes)
-void sub_59AE80()
-{
-}
-
-// STUB: 0x59AEC0 sub_59AEC0 (70 bytes)
-void sub_59AEC0()
-{
-}
-
-// STUB: 0x59AF10 sub_59AF10 (121 bytes)
-void sub_59AF10()
-{
-}
-
-// STUB: 0x59AF90 sub_59AF90 (245 bytes)
-void sub_59AF90()
-{
-}
-
-// STUB: 0x59B090 sub_59B090 (211 bytes)
-void sub_59B090()
-{
-}
-
-// STUB: 0x59B170 sub_59B170 (103 bytes)
-void sub_59B170()
-{
-}
-
-// STUB: 0x59B1E0 sub_59B1E0 (1300 bytes)
-void sub_59B1E0()
-{
-}
-
-// STUB: 0x59B700 sub_59B700 (451 bytes)
-void sub_59B700()
-{
-}
-
-// STUB: 0x59B8D0 sub_59B8D0 (188 bytes)
-void sub_59B8D0()
-{
-}
-
-// STUB: 0x59B990 sub_59B990 (349 bytes)
-void sub_59B990()
-{
-}
-
-// STUB: 0x59BAF0 sub_59BAF0 (592 bytes)
-void sub_59BAF0()
 {
 }
 
