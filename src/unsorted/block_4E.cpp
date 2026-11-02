@@ -548,16 +548,6 @@ void sub_4E7510()
 {
 }
 
-// STUB: 0x4E7570 sub_4E7570 (10 bytes)
-void sub_4E7570()
-{
-}
-
-// STUB: 0x4E7580 sub_4E7580 (244 bytes)
-void sub_4E7580()
-{
-}
-
 // STUB: 0x4E7680 sub_4E7680 (81 bytes)
 void sub_4E7680()
 {

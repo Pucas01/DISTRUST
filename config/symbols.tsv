@@ -165,3 +165,13 @@
 0x51A050	AgHeapAllocator::allocAligned	func
 0x51A070	AgHeapAllocator::free	func
 0x632AE8	??_7AgBuffer@@6B@	data
+0x69F4D8	g_achievementNames	data
+0x7558F0	g_achievementsReady	data
+0x7558EC	g_achievementPending	data
+0x500B00	logTrace	func
+0x4E7540	consumeAchievementPending	func
+0x4E7570	enableAchievements	func
+0x4E7580	unlockAchievement	func
+0x6115D8	_imp__SteamUserStats	data
+0x631814	??_C@_0CP@INJIAAID@?$FLGB?$FN?$FLWarning?$FN?5Unable?5to?5unlock?5a@	data
+0x631844	??_C@_0M@OOHHPGII@LAST_REWARD?$AA@	data

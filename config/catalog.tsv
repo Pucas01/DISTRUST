@@ -2640,8 +2640,9 @@
 0x4E70E0	527	sub_4E70E0		unsorted	block_4E	unknown	stub
 0x4E72F0	542	sub_4E72F0		unsorted	block_4E	unknown	stub
 0x4E7510	39	sub_4E7510		unsorted	block_4E	unknown	stub
-0x4E7570	10	sub_4E7570		unsorted	block_4E	unknown	stub
-0x4E7580	244	sub_4E7580		unsorted	block_4E	unknown	stub
+0x4E7540	35	consumeAchievementPending		game	achievements	unknown	done
+0x4E7570	10	enableAchievements		game	achievements	unknown	done
+0x4E7580	244	unlockAchievement		game	achievements	unknown	done
 0x4E7680	81	sub_4E7680		unsorted	block_4E	unknown	stub
 0x4E76E0	129	sub_4E76E0		unsorted	block_4E	unknown	stub
 0x4E7770	160	sub_4E7770		unsorted	block_4E	unknown	stub
@@ -3111,7 +3112,7 @@
 0x5008A0	330	sub_5008A0		unsorted	block_50	unknown	stub
 0x5009F0	248	sub_5009F0		unsorted	block_50	unknown	stub
 0x500AF0	5	sub_500AF0		unsorted	thunks	unknown	done
-0x500B00	106	sub_500B00		unsorted	block_50	unknown	stub
+0x500B00	106	logTrace		unsorted	block_50	unknown	stub
 0x500B70	103	sub_500B70		unsorted	block_50	unknown	stub
 0x500BE0	251	sub_500BE0		unsorted	block_50	unknown	stub
 0x500D20	117	sub_500D20		unsorted	block_50	unknown	stub
