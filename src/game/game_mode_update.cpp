@@ -1,5 +1,6 @@
-// FLAGS: /nologo /c /O2 /Oy- /Gy /GS- /Zc:wchar_t /arch:SSE2 /fp:fast
+// FLAGS: /nologo /c /O2 /Oy- /Gy /GS /Zc:wchar_t /arch:SSE2 /fp:fast
 #include <math.h>
+#pragma strict_gs_check(on)
 #include <xmmintrin.h>
 #include "game/game_mode.h"
 extern unsigned char g_73E383;
@@ -1635,3 +1636,554 @@ extern short g_73E416;
 
 #include <math.h>
 #include <xmmintrin.h>
+
+extern unsigned char g_73E35A;
+extern unsigned char g_73E47C;
+extern float g_73E46C;
+extern float g_73E470;
+extern float g_73E474;
+extern float g_73E478;
+extern float g_623414;
+extern float g_62DA98;
+extern float g_62DA9C;
+extern float g_6235B4;
+extern float g_7403E0;
+int __cdecl sub_4D6E20(int value);
+int __cdecl sub_4D6EE0(int value);
+void __cdecl sub_4967A0(int a, int b);
+
+static __forceinline void wrapCursor()
+{
+    if (g_73E414 == 0)
+    {
+        if (g_73E416 < 1)
+            g_73E416 = 15;
+        else if (g_73E416 > 15)
+            g_73E416 = 1;
+    }
+    else if (g_73E416 < 0)
+        g_73E416 = 15;
+    else if (g_73E416 > 15)
+        g_73E416 = 0;
+}
+
+// BLOCK: 0x48F870 updateMode1D 727
+void updateMode1D()
+{
+    sub_457880(1);
+    if (g_73E35A == 1)
+        return;
+    int ready = sub_4966A0();
+    if (ready == 1)
+    {
+        unsigned char free = ready;
+        unsigned char hit = 0;
+        if (g_73E47C == free)
+        {
+            float py = g_73E474;
+            float dy = py - g_73E46C;
+            float dx = g_73E478 - g_73E470;
+            if (sqrtf(dx * dx + dy * dy) < g_623414 && py >= g_62DA98 && g_62DA9C >= py)
+            {
+                free = 0;
+                hit = 1;
+            }
+        }
+        g_73E47C = 0;
+        bool moved = false;
+        if (free)
+        {
+            if (sub_4D6E20(0x14))
+            {
+                moved = true;
+                sub_463190(0x12, 100);
+                g_73E416++;
+                wrapCursor();
+                sub_4967A0(g_73E416, 0);
+            }
+            else if (sub_4D6E20(0x15))
+            {
+                moved = true;
+                sub_463190(0x12, 100);
+                g_73E416--;
+                wrapCursor();
+                sub_4967A0(g_73E416, 1);
+            }
+        }
+        if (!moved && (hit || sub_4D6EE0(0x16)))
+        {
+            sub_463190(0x71, 100);
+            g_gameMode = 0x1F;
+            g_modeTimer.frame = 0;
+            return;
+        }
+    }
+    float scale = g_623408;
+    g_73E398 = g_73E398 - g_7403E0 * g_69813C;
+    if (g_73E398 < 0)
+        g_73E398 = 0;
+    unsigned seconds = (unsigned)g_73E398;
+    unsigned ticks = (unsigned)(g_73E398 * scale);
+    sub_486B90(seconds / 3600 % 60, seconds / 60 % 60, ticks % 600 * 1000 / 600);
+    if (g_73E398 == g_6235B4)
+    {
+        g_gameMode = 0x1E;
+        g_modeTimer.frame = 0;
+    }
+}
+
+struct Vec2
+{
+    float x;
+    float y;
+};
+struct PointerState
+{
+    unsigned char pad[0x60];
+    Vec2 pos;
+};
+extern short g_73E412;
+extern int g_73E3CC;
+extern int g_6FDBA4;
+extern float g_623160;
+extern float g_611888;
+extern float g_6239D0;
+void __cdecl sub_486890(int value);
+void __cdecl sub_496E90(float *a, float *b);
+int __cdecl sub_484CA0(int a, int b);
+void __cdecl sub_496DF0(int value);
+PointerState *__cdecl sub_4B9430();
+int __cdecl sub_484D50(int value);
+void __cdecl sub_484E00(int id, int *a, int *b);
+int __cdecl sub_4845F0(int value);
+unsigned char __cdecl sub_462DA0(int value);
+unsigned short __cdecl sub_462E00(int value);
+void __cdecl sub_486A50(int a, int b, int c, int d);
+int __cdecl sub_484DD0(int value);
+void __cdecl sub_4980E0(int a, int b, int c);
+void __cdecl sub_486880();
+int __cdecl sub_486A40();
+void __cdecl sub_48D3A0();
+void __cdecl sub_48D450();
+int __cdecl sub_4D6DA0(int value);
+void __cdecl sub_48E270(int value);
+void __cdecl sub_46D230(int a, int b);
+void __cdecl sub_4866F0(int value);
+void __cdecl sub_484BF0(int value);
+
+// BLOCK: 0x48E8A0 updateAnagram 1532
+void updateAnagram()
+{
+    float a;
+    float b;
+    sub_457880(1);
+    sub_486890(1);
+    sub_496E90(&a, &b);
+    int slot = sub_484CA0((int)a, (int)b);
+    if (slot == -1)
+        sub_496DF0(0);
+    else
+        sub_496DF0(1);
+    Vec2 pos = sub_4B9430()->pos;
+    a -= pos.x;
+    b -= pos.y;
+    if (sub_4D6EE0(0x2E) != 0 || sub_4D6EE0(0x2F) != 0)
+    {
+        if (g_73E3F2 < g_73E3F4)
+            g_6FDB9C.a++;
+        if (slot != -1)
+        {
+            int letter = sub_484D50(slot);
+            if (g_73E3F2 < g_73E3F4 && letter >= 0)
+            {
+                g_6FDB9C.b++;
+                int outX = 0;
+                int outY = 0;
+                sub_484E00(slot, &outX, &outY);
+                int hit = sub_4845F0(letter);
+                int bonus = g_73E412;
+                if (sub_462DA0(0x10))
+                    bonus = sub_462E00(0x10) * bonus / 100;
+                sub_486A50(hit, outX, outY, bonus);
+                if (hit == 1)
+                {
+                    g_73E3F2++;
+                    if (g_73E3F2 < g_73E3F4)
+                    {
+                        do
+                        {
+                            if (g_73E401[g_73E3F2] == 0)
+                                break;
+                        } while (++g_73E3F2 < g_73E3F4);
+                        if (g_73E3F2 < g_73E3F4)
+                        {
+                            sub_4866F0(g_73E3F2);
+                            sub_484BF0(g_73E3F2);
+                        }
+                    }
+                }
+            }
+            else if (letter == -10 && g_73E3F2 < g_73E3F4)
+                g_6FDB9C.b++;
+            if (sub_484DD0(slot) == 0)
+            {
+                sub_4980E0(4, (int)a, (int)b);
+                sub_463190(0x76, 100);
+            }
+            else
+            {
+                sub_4980E0(0, (int)a, (int)b);
+                sub_463190(0x75, 100);
+            }
+        }
+        else
+        {
+            sub_4980E0(2, (int)a, (int)b);
+            sub_463190(0x6F, 100);
+        }
+    }
+    if (g_73E3F2 >= g_73E3F4 && sub_486A40() == 0)
+    {
+        sub_486880();
+        g_69813C = 1.0f;
+        sub_48D3A0();
+        g_gameMode = ModeAnagramCleared;
+        g_modeTimer.frame = 0;
+        return;
+    }
+    if (g_73E3CC == 0)
+    {
+        sub_486880();
+        g_73E3EE = 0;
+        g_69813C = 1.0f;
+        sub_48D3A0();
+        g_gameMode = ModeAnagramFailed;
+        g_modeTimer.frame = 0;
+        return;
+    }
+    float scale = g_623408;
+    g_73E398 = g_73E398 - g_7403E0 * g_69813C;
+    if (g_73E398 < 0)
+        g_73E398 = 0;
+    unsigned seconds = (unsigned)g_73E398;
+    g_6FDBA4 = seconds;
+    unsigned ticks = (unsigned)(g_73E398 * scale);
+    sub_486B90(seconds / 3600 % 60, seconds / 60 % 60, ticks % 600 * 1000 / 600);
+    if (g_73E398 == g_6235B4)
+    {
+        sub_486880();
+        g_73E3EE = 0;
+        g_69813C = 1.0f;
+        sub_48D3A0();
+        g_gameMode = ModeAnagramTimeUp;
+        g_modeTimer.frame = 0;
+        return;
+    }
+    float prev = g_69813C;
+    if (g_73C6B0 == 0 || *(int *)(g_73C6B0 + 0x89D4) == 0)
+    {
+        if (sub_4D6DA0(0x31))
+        {
+            if (g_69813C != g_623160)
+            {
+                if (g_73E3D4 > 0xFA0)
+                {
+                    g_73E3D4 -= 0xFA0;
+                    g_69813C = 0.1f;
+                    sub_46D230(0xB, 1);
+                }
+            }
+            else
+            {
+                int cost = 0x32;
+                if (sub_462DA0(0x11))
+                    cost = sub_462E00(0x11) * 0x32 / 100;
+                if (sub_462DA0(0x12))
+                    sub_48E270((int)(g_7403E0 * g_623408));
+                g_73E3D4 = (int)((float)g_73E3D4 - (float)cost * g_7403E0);
+                if (g_73E3D4 < 0)
+                    g_73E3D4 = 0;
+                if (g_73E3D4 == 0)
+                    g_69813C = g_611888;
+            }
+        }
+        else if (sub_4D6DA0(0x30))
+            g_69813C = g_6239D0;
+        else
+            g_69813C = g_611888;
+                if (prev == g_623160)
+        {
+            if (g_69813C == g_623160)
+                return;
+            sub_48D3A0();
+        }
+        else if (g_69813C == g_623160)
+            sub_48D450();
+        if (g_69813C == g_623160)
+            return;
+        int gain = 0x14;
+        if (sub_462DA0(0x13))
+            gain = sub_462E00(0x13) * 20 / 100;
+        int refilled = (int)((float)gain * g_7403E0 * g_69813C + (float)g_73E3D4);
+        g_73E3D4 = refilled > g_73E3D8 ? g_73E3D8 : refilled;
+    }
+}
+
+extern unsigned char g_73E3EC;
+extern unsigned char g_73E3ED;
+void __cdecl sub_4C4B10(int value);
+int __cdecl sub_4C2100();
+short __cdecl sub_484790(int value);
+void __cdecl sub_486BA0(int value);
+void __cdecl sub_4866F0(int value);
+void __cdecl sub_484BF0(int value);
+void __cdecl sub_484C00(int a, int b);
+
+#pragma pack(push, 1)
+struct AnagramState
+{
+    unsigned char active;
+    unsigned char pad0;
+    short remaining;
+    short cursor;
+    short total;
+    short pad1;
+    int str0;
+    int str1;
+    unsigned char pad2;
+    unsigned char flags[32];
+};
+#pragma pack(pop)
+extern AnagramState g_anagram;
+
+// BLOCK: 0x48EEA0 updateAnagramReveal 1262
+void updateAnagramReveal()
+{
+    if (g_modeTimer.frame == 0)
+    {
+        sub_457880(0);
+        g_69813C = 1.0f;
+        sub_4CE7C0();
+        if ((signed char)g_73E391 == -1)
+            sub_41AF90(-1, 0, 0, 0, 0, 0, 0, 0, 0);
+        else
+        {
+            const SceneLoad &s = g_697C88[(signed char)g_73E391];
+            sub_41AF90(s.id, s.arg[0], s.arg[1], s.arg[2], s.arg[3], s.arg[4], s.arg[5], s.arg[6], s.arg[7]);
+        }
+        sub_4C5350(0, 1, 60);
+        g_73E383 = 0;
+        g_73E386 = 0x10A;
+        sub_48CF50(0, g_73E386, 1.0f, 0);
+        g_modeTimer.frame++;
+        return;
+    }
+    if (g_modeTimer.frame == 1)
+    {
+        if (sub_4C4F70() == 1)
+        {
+            sub_4A61E0(2);
+            g_modeTimer.frame++;
+        }
+        return;
+    }
+    if (g_modeTimer.frame == 2)
+    {
+        sub_497B80(2, 0);
+        g_modeTimer.frame++;
+        return;
+    }
+    if (g_modeTimer.frame == 3)
+    {
+        if (sub_4A61C0() == 1 && sub_497770() == 1)
+        {
+            sub_4867C0();
+            sub_484840();
+            sub_496D00(5);
+            sub_497D20(1);
+            sub_495C50(13);
+            sub_497780();
+            sub_484630(g_73E3F8);
+            sub_484A90(g_73E3FC);
+            g_anagram.total = sub_484620();
+            g_anagram.cursor = 0;
+            g_anagram.remaining = g_anagram.total;
+            int filled = 0;
+            int i = 0;
+            int n = g_anagram.total;
+            for (; i < n; i++)
+                if (g_anagram.flags[i] == 1)
+                    filled++;
+            g_anagram.remaining = g_anagram.total - filled;
+            sub_486B80(n);
+
+            g_modeTimer.frame = 10;
+        }
+        return;
+    }
+    if (g_modeTimer.frame == 10)
+    {
+        sub_4C4B10(0x220);
+        sub_4C5350(0, 4, 60);
+        g_6879ED = 0;
+        g_73E398 = (float)(g_73E394 * 60);
+        unsigned seconds = (unsigned)g_73E398;
+        unsigned ticks = (unsigned)((float)(g_73E394 * 60) * g_623408);
+        sub_486B90(seconds / 3600 % 60, seconds / 60 % 60, ticks % 600 * 1000 / 600);
+        g_6E47BE = g_73E394;
+        sub_486B60();
+        g_modeTimer.frame++;
+        return;
+    }
+    if (g_modeTimer.frame == 11)
+    {
+        if (sub_486A90() == 1)
+            *(int *)&g_modeTimer = 20;
+        return;
+    }
+    if (g_modeTimer.frame == 20)
+    {
+        if (g_anagram.cursor < g_anagram.total)
+        {
+            for (int i = g_anagram.cursor; i < g_anagram.total; i++)
+            {
+                if (sub_4C2100() == 0 && sub_484790(i) == 0x20)
+                    continue;
+                if (g_anagram.flags[i] == 1)
+                {
+                    g_modeTimer.frame++;
+                    g_anagram.cursor = i;
+                    return;
+                }
+            }
+        }
+        g_modeTimer.frame = 30;
+        return;
+    }
+    if (g_modeTimer.frame == 21)
+    {
+        sub_486BA0(g_anagram.cursor);
+        g_anagram.cursor++;
+        g_modeTimer.frame++;
+        g_73E354 = 0;
+        return;
+    }
+    if (g_modeTimer.frame == 22)
+    {
+        g_73E354 = g_73E354 + 1.0f;
+        if (g_73E354 >= 30)
+            g_modeTimer.frame = 20;
+        return;
+    }
+    if (g_modeTimer.frame == 30)
+    {
+        short total = g_anagram.total;
+        g_anagram.cursor = total;
+        for (int i = 0; i < total; i++)
+        {
+            if (g_anagram.flags[i] == 0)
+            {
+                g_anagram.cursor = i;
+                if ((short)i < total)
+                {
+                    sub_4866F0((short)i);
+                    sub_484BF0(g_anagram.cursor);
+                }
+                break;
+            }
+        }
+        g_modeTimer.frame++;
+        g_73E354 = 0;
+        return;
+    }
+    if (g_modeTimer.frame == 31)
+    {
+        g_73E354 = g_73E354 + 1.0f;
+        if (g_73E354 >= 30)
+        {
+            if (g_anagram.cursor < g_anagram.total)
+            {
+                sub_484C00(g_73E3EC, g_73E3ED);
+                sub_496F40();
+            }
+            g_anagram.active = 1;
+            g_gameMode = ModeAnagram;
+            g_modeTimer.frame = 0;
+        }
+    }
+}
+
+// BLOCK: 0x48F390 updateAnagramInit 621
+void updateAnagramInit()
+{
+    if (g_modeTimer.frame == 0)
+    {
+        sub_457880(0);
+        g_69813C = 1.0f;
+        sub_4CE7C0();
+        for (int i = 0; i < 17; i++)
+            sub_48CDD0(g_623650[i], i);
+        sub_4C5350(1, 1, 1);
+        sub_433040(1);
+        g_modeTimer.frame++;
+        return;
+    }
+    if (g_modeTimer.frame == 1)
+    {
+        sub_497B80(2, 0);
+        g_modeTimer.frame++;
+        return;
+    }
+    if (g_modeTimer.frame == 2)
+    {
+        if (sub_497770() == 1)
+        {
+            sub_4867C0();
+            sub_484840();
+            sub_496D00(5);
+            sub_497D20(1);
+            sub_495C50(13);
+            sub_497780();
+            sub_484630(g_73E3F8);
+            sub_484A90(g_73E3FC);
+            g_anagram.total = sub_484620();
+            g_anagram.cursor = 0;
+            g_anagram.remaining = g_anagram.total;
+            int filled = 0;
+            int i = 0;
+            int n = g_anagram.total;
+            for (; i < n; i++)
+                if (g_anagram.flags[i] == 1)
+                    filled++;
+            g_anagram.remaining = g_anagram.total - filled;
+            sub_486B80(n);
+            g_modeTimer.frame = 10;
+        }
+        return;
+    }
+    if (g_modeTimer.frame == 10)
+    {
+        sub_432E90();
+        sub_4A61E0(2);
+        sub_4C5350(0, 1, 60);
+        g_6879ED = 0;
+        g_73E398 = (float)(g_73E394 * 60);
+        unsigned seconds = (unsigned)g_73E398;
+        unsigned ticks = (unsigned)((float)(g_73E394 * 60) * g_623408);
+        sub_486B90(seconds / 3600 % 60, seconds / 60 % 60, ticks % 600 * 1000 / 600);
+        sub_486B60();
+        g_6E47BE = g_73E394;
+        g_modeTimer.frame++;
+        return;
+    }
+    if (g_modeTimer.frame == 11)
+    {
+        int ready = sub_4A61C0();
+        if (ready == 1 && sub_486A90() == 1)
+        {
+            g_73E3EE = 1;
+            g_gameMode = ModeAnagramReveal;
+            *(int *)&g_modeTimer = 20;
+        }
+    }
+}

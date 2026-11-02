@@ -4200,3 +4200,4 @@
 0x5F9519	_d_inttype	func
 0x5F957F	_powhlp	func
 0x60F230	__clean_type_info_names	func
+0x73E3EE	g_anagram	data
