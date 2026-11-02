@@ -35,11 +35,6 @@ void AgResourceTexture2dOpenGL::vfn_8()
 {
 }
 
-// STUB: 0x549AD0 AgResourceTexture2dOpenGL::fn_549AD0 (210 bytes)
-void AgResourceTexture2dOpenGL::fn_549AD0()
-{
-}
-
 // STUB: 0x549BB0 AgResourceTexture2dOpenGL::vfn_6 (246 bytes)
 void AgResourceTexture2dOpenGL::vfn_6()
 {

@@ -163,8 +163,8 @@ void sub_5A3870()
 {
 }
 
-// STUB: 0x5A38A0 sub_5A38A0 (363 bytes)
-void sub_5A38A0()
+// STUB: 0x5A38A0 ??$_Insert@PAE@?$vector@EV?$allocator@E@std@@@std@@QAEXV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@E@std@@@std@@@1@PAE1Uforward_iterator_tag@1@@Z (363 bytes)
+void Insert_PAE_vector_EV_allocator_E_std_std_QAEXV__Vector_const_iterator_V__Vector_val_U__Simple_types_E_std_std_1_PAE1Uforward_iterator_tag_1_Z()
 {
 }
 
@@ -738,8 +738,8 @@ void sub_5A9B80()
 {
 }
 
-// STUB: 0x5A9C60 sub_5A9C60 (106 bytes)
-void sub_5A9C60()
+// STUB: 0x5A9C60 std::E::EV?$allocator::?$vector::_Reserve (106 bytes)
+void std_E_EV_allocator_vector__Reserve()
 {
 }
 
