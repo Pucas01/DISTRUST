@@ -1,8 +1,3 @@
-// STUB: 0x5A21A0 sub_5A21A0 (643 bytes)
-void sub_5A21A0()
-{
-}
-
 // STUB: 0x5A2A20 toGlBlendFactor (92 bytes)
 void toGlBlendFactor()
 {
