@@ -638,8 +638,8 @@ void sub_52B320()
 {
 }
 
-// STUB: 0x52B330 sub_52B330 (40 bytes)
-void sub_52B330()
+// STUB: 0x52B330 std::E::EV?$allocator::?$vector::_Tidy (40 bytes)
+void std_E_EV_allocator_vector__Tidy()
 {
 }
 

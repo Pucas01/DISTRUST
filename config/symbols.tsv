@@ -1917,3 +1917,8 @@
 0x609C18	_ehhandler$??1failure@ios_base@std@@UAE@XZ	alias
 0x54E0B0	??1exception@std@@UAE@XZ	alias
 0x611888	_real@3f800000	alias
+0x549AD0	?resize@?$vector@EV?$allocator@E@std@@@std@@QAEXI@Z	alias
+0x608E50	_ehhandler$?resize@?$vector@EV?$allocator@E@std@@@std@@QAEXI@Z	data
+0x5A9C60	std::E::EV?$allocator::?$vector::_Reserve	func
+0x52B330	std::E::EV?$allocator::?$vector::_Tidy	func
+0x5C7003	_CxxThrowException	func

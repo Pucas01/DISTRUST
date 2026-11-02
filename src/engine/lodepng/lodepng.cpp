@@ -95,4 +95,5 @@
 // FUNCTION: 0x54BDC0 ??1runtime_error@std@@UAE@XZ
 // FUNCTION: 0x54E060 ??1failure@ios_base@std@@UAE@XZ
 // FUNCTION: 0x556560 filter
+// FUNCTION: 0x549AD0 ?resize@?$vector@EV?$allocator@E@std@@@std@@QAEXI@Z
 #include "../../../external/lodepng/lodepng.cpp"

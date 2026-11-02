@@ -4033,7 +4033,7 @@
 0x52AFD0	768	sub_52AFD0		unsorted	block_52	unknown	stub
 0x52B2D0	65	sub_52B2D0		unsorted	block_52	unknown	stub
 0x52B320	7	sub_52B320		unsorted	block_52	unknown	stub
-0x52B330	40	sub_52B330		unsorted	block_52	unknown	stub
+0x52B330	40	std::E::EV?$allocator::?$vector::_Tidy		unsorted	block_52	unknown	stub
 0x52B360	34	AgSingleton<AgNetworkManager>::vfn_0	AgSingleton<AgNetworkManager>	engine/core	AgSingleton_AgNetworkManager	virtual	stub
 0x52B390	132	AgNetworkManager::vfn_0	AgNetworkManager	engine/online	AgNetworkManager	virtual	stub
 0x52B420	171	sub_52B420		unsorted	block_52	unknown	stub
@@ -4709,7 +4709,7 @@
 0x5497F0	162	AgResourceTexture2dOpenGL::vfn_5	AgResourceTexture2dOpenGL	engine/render	AgResourceTexture2dOpenGL	virtual	stub
 0x5498A0	68	AgResourceTexture2dD3D::vfn_7	AgResourceTexture2dD3D	engine/render	AgResourceTexture2dD3D	virtual	stub
 0x5498F0	467	AgResourceTexture2dOpenGL::vfn_8	AgResourceTexture2dOpenGL	engine/render	AgResourceTexture2dOpenGL	virtual	stub
-0x549AD0	210	AgResourceTexture2dOpenGL::fn_549AD0	AgResourceTexture2dOpenGL	engine/render	AgResourceTexture2dOpenGL	inferred	stub
+0x549AD0	210	AgResourceTexture2dOpenGL::fn_549AD0	AgResourceTexture2dOpenGL	engine/lodepng	lodepng	inferred	done
 0x549BB0	246	AgResourceTexture2dOpenGL::vfn_6	AgResourceTexture2dOpenGL	engine/render	AgResourceTexture2dOpenGL	virtual	stub
 0x549CB0	53	AgResourceTexture2dOpenGL::vfn_10	AgResourceTexture2dOpenGL	engine/render	AgResourceTexture2dOpenGL	virtual	stub
 0x549CF0	41	AgResourceTexture2dOpenGL::vfn_11	AgResourceTexture2dOpenGL	engine/render	AgResourceTexture2dOpenGL	virtual	stub
@@ -6198,7 +6198,7 @@
 0x5A99E0	192	sub_5A99E0		unsorted	block_5A	unknown	stub
 0x5A9AB0	205	sub_5A9AB0		unsorted	block_5A	unknown	stub
 0x5A9B80	224	sub_5A9B80		unsorted	block_5A	unknown	stub
-0x5A9C60	106	sub_5A9C60		unsorted	block_5A	unknown	stub
+0x5A9C60	106	std::E::EV?$allocator::?$vector::_Reserve		unsorted	block_5A	unknown	stub
 0x5A9CD0	114	sub_5A9CD0		unsorted	block_5A	unknown	stub
 0x5A9D50	158	sub_5A9D50		unsorted	block_5A	unknown	stub
 0x5A9DF0	676	sub_5A9DF0		unsorted	block_5A	unknown	stub
@@ -6541,7 +6541,7 @@
 0x5C6991	28	sub_5C6991		lib/crt	block_5C	library	stub
 0x5C69B0	1604	memmove		lib/crt	block_5C	library	stub
 0x5C6FF4	15	@__security_check_cookie@4		lib/crt	block_5C	library	stub
-0x5C7003	91	sub_5C7003		lib/crt	block_5C	library	stub
+0x5C7003	91	_CxxThrowException		lib/crt	block_5C	library	stub
 0x5C705E	49	sub_5C705E		lib/crt	block_5C	library	stub
 0x5C708F	157	?TranslatorGuardHandler@@YA?AW4_EXCEPTION_DISPOSITION@@PAUEHExceptionRecord@@PAUTranslatorGuardRN@@PAX2@Z		lib/crt	block_5C	library	stub
 0x5C712C	94	?_CallCatchBlock2@@YAPAXPAUEHRegistrationNode@@PBU_s_FuncInfo@@PAXHK@Z		lib/crt	block_5C	library	stub

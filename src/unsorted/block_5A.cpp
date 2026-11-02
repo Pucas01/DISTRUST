@@ -738,8 +738,8 @@ void sub_5A9B80()
 {
 }
 
-// STUB: 0x5A9C60 sub_5A9C60 (106 bytes)
-void sub_5A9C60()
+// STUB: 0x5A9C60 std::E::EV?$allocator::?$vector::_Reserve (106 bytes)
+void std_E_EV_allocator_vector__Reserve()
 {
 }
 
