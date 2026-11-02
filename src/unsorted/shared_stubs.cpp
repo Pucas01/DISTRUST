@@ -1,5 +1,5 @@
-// STUB: 0x4135B0 shared_4135B0 (1 bytes)
-void shared_4135B0()
+// STUB: 0x4135B0 logError (1 bytes)
+void logError()
 {
 }
 

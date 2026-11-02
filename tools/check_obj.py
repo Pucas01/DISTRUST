@@ -4,21 +4,25 @@ import struct
 import sys
 
 from coffobj import Coff
-from dr1lib import DEFINITION, MARKER, STUB_MARKER, Pe, check_relocations, load_exe, load_symbols, make_retarget, sizes
+from dr1lib import BLOCK_MARKER, DEFINITION, MARKER, STUB_MARKER, Pe, check_relocations, load_exe, load_symbols, make_retarget, sizes
 from objdiff_gen import write_target
 
 
 def main():
     src, obj, target_out, check_out = sys.argv[1:5]
-    markers = [(int(m.group(1), 16), m.group(2))
-               for m in map(MARKER.match, open(src).read().splitlines()) if m]
+    lines = open(src).read().splitlines()
+    markers = [(int(m.group(1), 16), m.group(2)) for m in map(MARKER.match, lines) if m]
+    blocks = [(int(m.group(1), 16), m.group(2), int(m.group(3))) for m in map(BLOCK_MARKER.match, lines) if m]
     exe, known, symbols = Pe(load_exe()), sizes(), load_symbols()
     coff = Coff(open(obj, "rb").read())
     replacements, results = {}, []
-    for address, name in markers:
+    for address, name in markers + [(a, n) for a, n, _ in blocks]:
+        block_size = next((z for a, n, z in blocks if a == address and n == name), None)
         result = dict(address=address, name=name, status="match", detail="")
+        if block_size is not None:
+            result["block"] = True
         results.append(result)
-        size = known.get(address)
+        size = block_size if block_size is not None else known.get(address)
         if size is None:
             result.update(status="skip", detail="address not in config/functions.tsv")
             continue

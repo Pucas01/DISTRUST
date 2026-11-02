@@ -18,8 +18,8 @@ void sub_4E04E0()
 {
 }
 
-// STUB: 0x4E0AC0 sub_4E0AC0 (202 bytes)
-void sub_4E0AC0()
+// STUB: 0x4E0AC0 setSpriteRect (202 bytes)
+void setSpriteRect()
 {
 }
 
@@ -33,28 +33,18 @@ void sub_4E0CB0()
 {
 }
 
-// STUB: 0x4E0DA0 sub_4E0DA0 (512 bytes)
-void sub_4E0DA0()
+// STUB: 0x4E0DA0 uploadTexturePixels (512 bytes)
+void uploadTexturePixels()
 {
 }
 
-// STUB: 0x4E0FA0 sub_4E0FA0 (232 bytes)
-void sub_4E0FA0()
+// STUB: 0x4E0FA0 createTextureFromSource (232 bytes)
+void createTextureFromSource()
 {
 }
 
-// STUB: 0x4E1090 sub_4E1090 (451 bytes)
-void sub_4E1090()
-{
-}
-
-// STUB: 0x4E1260 sub_4E1260 (52 bytes)
-void sub_4E1260()
-{
-}
-
-// STUB: 0x4E12A0 sub_4E12A0 (232 bytes)
-void sub_4E12A0()
+// STUB: 0x4E1090 uploadTexturePalette (451 bytes)
+void uploadTexturePalette()
 {
 }
 
@@ -65,16 +55,6 @@ void sub_4E1390()
 
 // STUB: 0x4E1920 sub_4E1920 (309 bytes)
 void sub_4E1920()
-{
-}
-
-// STUB: 0x4E1A60 sub_4E1A60 (91 bytes)
-void sub_4E1A60()
-{
-}
-
-// STUB: 0x4E1AC0 sub_4E1AC0 (116 bytes)
-void sub_4E1AC0()
 {
 }
 
@@ -90,11 +70,6 @@ void sub_4E1CB0()
 
 // STUB: 0x4E1D00 sub_4E1D00 (6 bytes)
 void sub_4E1D00()
-{
-}
-
-// STUB: 0x4E1D10 sub_4E1D10 (45 bytes)
-void sub_4E1D10()
 {
 }
 
@@ -115,36 +90,6 @@ void sub_4E2420()
 
 // STUB: 0x4E26C0 sub_4E26C0 (504 bytes)
 void sub_4E26C0()
-{
-}
-
-// STUB: 0x4E28C0 sub_4E28C0 (180 bytes)
-void sub_4E28C0()
-{
-}
-
-// STUB: 0x4E2980 sub_4E2980 (173 bytes)
-void sub_4E2980()
-{
-}
-
-// STUB: 0x4E2A30 sub_4E2A30 (41 bytes)
-void sub_4E2A30()
-{
-}
-
-// STUB: 0x4E2A60 sub_4E2A60 (46 bytes)
-void sub_4E2A60()
-{
-}
-
-// STUB: 0x4E2A90 sub_4E2A90 (46 bytes)
-void sub_4E2A90()
-{
-}
-
-// STUB: 0x4E2AC0 sub_4E2AC0 (46 bytes)
-void sub_4E2AC0()
 {
 }
 
@@ -173,8 +118,8 @@ void sub_4E2CA0()
 {
 }
 
-// STUB: 0x4E2D20 sub_4E2D20 (73 bytes)
-void sub_4E2D20()
+// STUB: 0x4E2D20 TextureSlot::reset (73 bytes)
+void TextureSlot_reset()
 {
 }
 
@@ -448,8 +393,8 @@ void sub_4E5D80()
 {
 }
 
-// STUB: 0x4E5DA0 sub_4E5DA0 (212 bytes)
-void sub_4E5DA0()
+// STUB: 0x4E5DA0 allocGraphicsMemory (212 bytes)
+void allocGraphicsMemory()
 {
 }
 
@@ -463,8 +408,8 @@ void sub_4E5F60()
 {
 }
 
-// STUB: 0x4E5F70 sub_4E5F70 (209 bytes)
-void sub_4E5F70()
+// STUB: 0x4E5F70 freeGraphicsMemory (209 bytes)
+void freeGraphicsMemory()
 {
 }
 
@@ -545,16 +490,6 @@ void sub_4E72F0()
 
 // STUB: 0x4E7510 sub_4E7510 (39 bytes)
 void sub_4E7510()
-{
-}
-
-// STUB: 0x4E7570 sub_4E7570 (10 bytes)
-void sub_4E7570()
-{
-}
-
-// STUB: 0x4E7580 sub_4E7580 (244 bytes)
-void sub_4E7580()
 {
 }
 

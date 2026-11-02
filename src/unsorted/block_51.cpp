@@ -133,13 +133,13 @@ void sub_510B00()
 {
 }
 
-// STUB: 0x510BE0 sub_510BE0 (303 bytes)
-void sub_510BE0()
+// STUB: 0x510BE0 RenderList::setTexture (303 bytes)
+void RenderList_setTexture()
 {
 }
 
-// STUB: 0x510D10 sub_510D10 (289 bytes)
-void sub_510D10()
+// STUB: 0x510D10 RenderList::setTextureSampler (289 bytes)
+void RenderList_setTextureSampler()
 {
 }
 
@@ -643,8 +643,8 @@ void sub_516A90()
 {
 }
 
-// STUB: 0x516B40 ??1?$AgReference@VAgBuffer@@@@QAE@XZ (106 bytes)
-void f_1_AgReference_VAgBuffer_QAE_XZ()
+// STUB: 0x516B40 ??1?$AgReference@VTextureObject@@@@QAE@XZ (106 bytes)
+void f_1_AgReference_VTextureObject_QAE_XZ()
 {
 }
 
@@ -818,8 +818,8 @@ void sub_5195E0()
 {
 }
 
-// STUB: 0x5196C0 sub_5196C0 (258 bytes)
-void sub_5196C0()
+// STUB: 0x5196C0 TextureObject::prepare (258 bytes)
+void TextureObject_prepare()
 {
 }
 

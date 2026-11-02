@@ -911,16 +911,6 @@ void sub_4DBA60()
 {
 }
 
-// STUB: 0x4DBA80 sub_4DBA80 (252 bytes)
-void sub_4DBA80()
-{
-}
-
-// STUB: 0x4DBB80 sub_4DBB80 (294 bytes)
-void sub_4DBB80()
-{
-}
-
 // STUB: 0x4DBCB0 sub_4DBCB0 (1333 bytes)
 void sub_4DBCB0()
 {
@@ -956,26 +946,6 @@ void sub_4DC6E0()
 {
 }
 
-// STUB: 0x4DC760 sub_4DC760 (48 bytes)
-void sub_4DC760()
-{
-}
-
-// STUB: 0x4DC790 sub_4DC790 (46 bytes)
-void sub_4DC790()
-{
-}
-
-// STUB: 0x4DC7C0 sub_4DC7C0 (345 bytes)
-void sub_4DC7C0()
-{
-}
-
-// STUB: 0x4DC920 sub_4DC920 (69 bytes)
-void sub_4DC920()
-{
-}
-
 // STUB: 0x4DC980 sub_4DC980 (123 bytes)
 void sub_4DC980()
 {
@@ -1008,11 +978,6 @@ void sub_4DD570()
 
 // STUB: 0x4DD9E0 sub_4DD9E0 (36 bytes)
 void sub_4DD9E0()
-{
-}
-
-// STUB: 0x4DDA10 sub_4DDA10 (256 bytes)
-void sub_4DDA10()
 {
 }
 
@@ -1131,11 +1096,6 @@ void sub_4DF340()
 {
 }
 
-// STUB: 0x4DF430 sub_4DF430 (202 bytes)
-void sub_4DF430()
-{
-}
-
 // STUB: 0x4DF500 sub_4DF500 (1583 bytes)
 void sub_4DF500()
 {
@@ -1143,5 +1103,15 @@ void sub_4DF500()
 
 // STUB: 0x4DFB30 sub_4DFB30 (1602 bytes)
 void sub_4DFB30()
+{
+}
+
+// STUB: 0x4DBA80 allocTextureSlot (252 bytes)
+void allocTextureSlot()
+{
+}
+
+// STUB: 0x4DBB80 releaseTextureSlot (294 bytes)
+void releaseTextureSlot()
 {
 }

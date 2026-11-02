@@ -13,6 +13,8 @@ def snapshot(root):
     functions = {}
     for path in sorted((root / "build" / "check").rglob("*.json")):
         for entry in json.loads(path.read_text()):
+            if entry.get("block"):
+                continue
             functions[str(entry["address"])] = {
                 "name": entry["name"], "size": entry["size"], "match": entry["status"] == "match"}
     total = bytes_total = 0
