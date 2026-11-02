@@ -42,7 +42,7 @@ class Coff:
 
     def find(self, wanted):
         for index, (name, value, secnum) in self.by_index.items():
-            if secnum > 0 and plain(name) == wanted:
+            if secnum > 0 and (name == wanted or plain(name) == wanted):
                 return index, name, value, secnum
         return None
 

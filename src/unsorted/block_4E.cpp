@@ -538,8 +538,8 @@ void sub_4E7C60()
 {
 }
 
-// STUB: 0x4E7DC0 sub_4E7DC0 (62 bytes)
-void sub_4E7DC0()
+// STUB: 0x4E7DC0 std::D::DU?$char_traits::?$basic_string::_Chassign (62 bytes)
+void std_D_DU_char_traits_basic_string__Chassign()
 {
 }
 

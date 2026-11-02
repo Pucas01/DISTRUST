@@ -568,8 +568,8 @@ void sub_417720()
 {
 }
 
-// STUB: 0x417750 sub_417750 (333 bytes)
-void sub_417750()
+// STUB: 0x417750 std::D::DU?$char_traits::?$basic_string::_Copy (333 bytes)
+void std_D_DU_char_traits_basic_string__Copy()
 {
 }
 
