@@ -57,6 +57,7 @@ BIN_FILES = [
 ]
 
 VC_INCLUDE = "Program Files/Microsoft Visual Studio 11.0/VC/include/"
+VC_LIB = "Program Files/Microsoft Visual Studio 11.0/VC/lib/"
 
 REQUIRED = [
     "bin/cl.exe", "bin/c1.dll", "bin/c1xx.dll", "bin/c2.dll", "bin/clui.dll", "bin/1033/clui.dll",
@@ -224,7 +225,8 @@ def msi_layout(tables):
 def extract_msi(msi, target, keep_prefix, work):
     say("reading %s" % msi.name)
     tables = read_msi(msi, work)
-    wanted = [(key, path, cab) for key, path, cab in msi_layout(tables) if path.startswith(keep_prefix)]
+    wanted = [(key, path, cab) for key, path, cab in msi_layout(tables)
+              if path.startswith(keep_prefix) and not path.startswith((VC_LIB + "amd64/", VC_LIB + "arm/"))]
     if not wanted:
         sys.exit("found nothing under %s in %s" % (keep_prefix, msi.name))
     by_cabinet = {}
@@ -273,7 +275,7 @@ def install(keep_downloads=False):
     say("unpacking the C++ headers")
     out = work / "express"
     run_7z("x", "-y", "-o" + str(out), str(isos["express"]), "packages/vc_librarycore86/*")
-    extract_msi(out / "packages/vc_librarycore86/vc_librarycore86.msi", TOOLCHAIN / "vclib", VC_INCLUDE, work)
+    extract_msi(out / "packages/vc_librarycore86/vc_librarycore86.msi", TOOLCHAIN / "vclib", (VC_INCLUDE, VC_LIB), work)
     shutil.rmtree(work, ignore_errors=True)
     if not keep_downloads:
         shutil.rmtree(downloads, ignore_errors=True)
@@ -295,6 +297,20 @@ def ensure_msobj():
     run_7z("x", "-y", "-o" + str(work), str(iso), member)
     run_7z("x", "-y", "-o" + str(work / "cab"), str(work / member), "WinC_compiler_x86_msobj110.dll_F")
     shutil.copyfile(work / "cab/WinC_compiler_x86_msobj110.dll_F", target)
+    shutil.rmtree(work, ignore_errors=True)
+    shutil.rmtree(TOOLCHAIN / "downloads", ignore_errors=True)
+
+
+def ensure_vclib():
+    if (TOOLCHAIN / "vclib" / VC_LIB / "libcmt.lib").is_file():
+        return
+    say("fetching the VC libraries, which the linker needs for link-time code generation")
+    work = TOOLCHAIN / "work"
+    shutil.rmtree(work, ignore_errors=True)
+    work.mkdir(parents=True)
+    iso = download(ISOS["express"], TOOLCHAIN / "downloads")
+    run_7z("x", "-y", "-o" + str(work), str(iso), "packages/vc_librarycore86/*")
+    extract_msi(work / "packages/vc_librarycore86/vc_librarycore86.msi", TOOLCHAIN / "vclib", VC_LIB, work)
     shutil.rmtree(work, ignore_errors=True)
     shutil.rmtree(TOOLCHAIN / "downloads", ignore_errors=True)
 
@@ -323,6 +339,7 @@ def ensure():
     if not installed():
         install()
     ensure_msobj()
+    ensure_vclib()
     ensure_wibo()
 
 
@@ -336,6 +353,7 @@ def main():
     else:
         say("compiler files are already in %s" % TOOLCHAIN)
     ensure_msobj()
+    ensure_vclib()
     ensure_wibo()
     return 0
 
