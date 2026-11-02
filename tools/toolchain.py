@@ -58,6 +58,7 @@ BIN_FILES = [
 
 VC_INCLUDE = "Program Files/Microsoft Visual Studio 11.0/VC/include/"
 VC_LIB = "Program Files/Microsoft Visual Studio 11.0/VC/lib/"
+VC_CRT = "Program Files/Microsoft Visual Studio 11.0/VC/crt/src/"
 
 REQUIRED = [
     "bin/cl.exe", "bin/c1.dll", "bin/c1xx.dll", "bin/c2.dll", "bin/clui.dll", "bin/1033/clui.dll",
@@ -284,33 +285,51 @@ def install(keep_downloads=False):
     say("compiler files are in %s" % TOOLCHAIN)
 
 
-def ensure_msobj():
-    target = TOOLCHAIN / "bin/msobj110.dll"
-    if target.is_file():
+WINSDK_MSI = "packages/Windows_SDK/Windows Software Development Kit for Metro style Apps-x86_en-us.msi"
+WINSDK_ROOT = "Windows Kits/8.0/"
+WINSDK_PARTS = {"Include/um/": "um", "Include/shared/": "shared", "Include/winrt/": "winrt", "Lib/win8/um/x86/": "lib"}
+WINSDK_APPMODEL_MSI = "packages/Windows_SDK/Windows Software Development Kit-x86_en-us.msi"
+
+
+def ensure_extras():
+    msobj = TOOLCHAIN / "bin/msobj110.dll"
+    wanted = {
+        "msobj": not msobj.is_file(),
+        "vclib": not (TOOLCHAIN / "vclib" / VC_LIB / "libcmt.lib").is_file(),
+        "crt": not (TOOLCHAIN / "crt/abort.c").is_file(),
+        "winsdk": not (TOOLCHAIN / "winsdk/winrt/appmodel.h").is_file(),
+    }
+    if not any(wanted.values()):
         return
-    say("fetching msobj110.dll, which the linker needs for link-time code generation")
+    say("fetching " + ", ".join(k for k, v in wanted.items() if v))
     work = TOOLCHAIN / "work"
     shutil.rmtree(work, ignore_errors=True)
     work.mkdir(parents=True)
     iso = download(ISOS["express"], TOOLCHAIN / "downloads")
-    member = "packages/vc_compilerCore86/vc_CompilerCore86.cab"
-    run_7z("x", "-y", "-o" + str(work), str(iso), member)
-    run_7z("x", "-y", "-o" + str(work / "cab"), str(work / member), "WinC_compiler_x86_msobj110.dll_F")
-    shutil.copyfile(work / "cab/WinC_compiler_x86_msobj110.dll_F", target)
-    shutil.rmtree(work, ignore_errors=True)
-    shutil.rmtree(TOOLCHAIN / "downloads", ignore_errors=True)
-
-
-def ensure_vclib():
-    if (TOOLCHAIN / "vclib" / VC_LIB / "libcmt.lib").is_file():
-        return
-    say("fetching the VC libraries, which the linker needs for link-time code generation")
-    work = TOOLCHAIN / "work"
-    shutil.rmtree(work, ignore_errors=True)
-    work.mkdir(parents=True)
-    iso = download(ISOS["express"], TOOLCHAIN / "downloads")
-    run_7z("x", "-y", "-o" + str(work), str(iso), "packages/vc_librarycore86/*")
-    extract_msi(work / "packages/vc_librarycore86/vc_librarycore86.msi", TOOLCHAIN / "vclib", VC_LIB, work)
+    if wanted["msobj"]:
+        member = "packages/vc_compilerCore86/vc_CompilerCore86.cab"
+        run_7z("x", "-y", "-o" + str(work), str(iso), member)
+        run_7z("x", "-y", "-o" + str(work / "cab"), str(work / member), "WinC_compiler_x86_msobj110.dll_F")
+        shutil.copyfile(work / "cab/WinC_compiler_x86_msobj110.dll_F", msobj)
+    if wanted["vclib"] or wanted["crt"]:
+        run_7z("x", "-y", "-o" + str(work), str(iso), "packages/vc_librarycore86/*")
+        msi = work / "packages/vc_librarycore86/vc_librarycore86.msi"
+        if wanted["vclib"]:
+            extract_msi(msi, TOOLCHAIN / "vclib", VC_LIB, work)
+        if wanted["crt"]:
+            extract_msi(msi, work / "crtsrc", VC_CRT, work)
+            shutil.rmtree(TOOLCHAIN / "crt", ignore_errors=True)
+            shutil.move(str(work / "crtsrc" / VC_CRT), str(TOOLCHAIN / "crt"))
+    if wanted["winsdk"]:
+        run_7z("x", "-y", "-o" + str(work), str(iso), "packages/Windows_SDK/*")
+        extract_msi(work / WINSDK_MSI, work / "sdk", tuple(WINSDK_ROOT + part for part in WINSDK_PARTS), work)
+        target = TOOLCHAIN / "winsdk"
+        target.mkdir(parents=True, exist_ok=True)
+        for part, name in WINSDK_PARTS.items():
+            shutil.rmtree(target / name, ignore_errors=True)
+            shutil.move(str(work / "sdk" / WINSDK_ROOT / part), str(target / name))
+        extract_msi(work / WINSDK_APPMODEL_MSI, work / "sdk2", WINSDK_ROOT + "Include/winrt/appmodel.h", work)
+        shutil.move(str(work / "sdk2" / WINSDK_ROOT / "Include/winrt/appmodel.h"), str(target / "winrt/appmodel.h"))
     shutil.rmtree(work, ignore_errors=True)
     shutil.rmtree(TOOLCHAIN / "downloads", ignore_errors=True)
 
@@ -338,8 +357,7 @@ def ensure_wibo():
 def ensure():
     if not installed():
         install()
-    ensure_msobj()
-    ensure_vclib()
+    ensure_extras()
     ensure_wibo()
 
 
@@ -352,8 +370,7 @@ def main():
         install(args.keep_downloads)
     else:
         say("compiler files are already in %s" % TOOLCHAIN)
-    ensure_msobj()
-    ensure_vclib()
+    ensure_extras()
     ensure_wibo()
     return 0
 
