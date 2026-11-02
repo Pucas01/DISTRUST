@@ -10,6 +10,7 @@ from coffobj import REL_DIR32, REL_REL32, plain
 ROOT = Path(__file__).resolve().parent.parent
 TOOLCHAIN = ROOT / "toolchain"
 MARKER = re.compile(r"^//\s*FUNCTION:\s*(0x[0-9A-Fa-f]+)\s+(\S+)")
+BLOCK_MARKER = re.compile(r"^//\s*BLOCK:\s*(0x[0-9A-Fa-f]+)\s+(\S+)\s+(\d+)")
 FLAGS_MARKER = re.compile(r"^//\s*FLAGS:\s*(.*)$")
 STUB_MARKER = re.compile(r"^//\s*STUB:\s*(0x[0-9A-Fa-f]+)\s+(\S+)")
 DEFINITION = re.compile(r"^void\s+([^\s(]+)\(\)")

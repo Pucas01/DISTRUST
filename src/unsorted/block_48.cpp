@@ -893,21 +893,6 @@ void sub_48D720()
 {
 }
 
-// STUB: 0x48D870 sub_48D870 (46 bytes)
-void sub_48D870()
-{
-}
-
-// STUB: 0x48D8A0 sub_48D8A0 (154 bytes)
-void sub_48D8A0()
-{
-}
-
-// STUB: 0x48D940 sub_48D940 (80 bytes)
-void sub_48D940()
-{
-}
-
 // STUB: 0x48D990 sub_48D990 (43 bytes)
 void sub_48D990()
 {
@@ -918,23 +903,8 @@ void sub_48D9C0()
 {
 }
 
-// STUB: 0x48DA00 sub_48DA00 (37 bytes)
-void sub_48DA00()
-{
-}
-
 // STUB: 0x48DA30 sub_48DA30 (30 bytes)
 void sub_48DA30()
-{
-}
-
-// STUB: 0x48DA50 sub_48DA50 (48 bytes)
-void sub_48DA50()
-{
-}
-
-// STUB: 0x48DA80 sub_48DA80 (64 bytes)
-void sub_48DA80()
 {
 }
 
@@ -943,28 +913,8 @@ void sub_48DAC0()
 {
 }
 
-// STUB: 0x48DAF0 sub_48DAF0 (32 bytes)
-void sub_48DAF0()
-{
-}
-
-// STUB: 0x48DB10 sub_48DB10 (70 bytes)
-void sub_48DB10()
-{
-}
-
-// STUB: 0x48DB60 sub_48DB60 (15 bytes)
-void sub_48DB60()
-{
-}
-
 // STUB: 0x48DB70 sub_48DB70 (30 bytes)
 void sub_48DB70()
-{
-}
-
-// STUB: 0x48DB90 sub_48DB90 (37 bytes)
-void sub_48DB90()
 {
 }
 
@@ -978,21 +928,6 @@ void sub_48DCE0()
 {
 }
 
-// STUB: 0x48DD00 sub_48DD00 (64 bytes)
-void sub_48DD00()
-{
-}
-
-// STUB: 0x48DD50 sub_48DD50 (133 bytes)
-void sub_48DD50()
-{
-}
-
-// STUB: 0x48DDE0 sub_48DDE0 (32 bytes)
-void sub_48DDE0()
-{
-}
-
 // STUB: 0x48DE00 sub_48DE00 (25 bytes)
 void sub_48DE00()
 {
@@ -1003,33 +938,8 @@ void sub_48DE20()
 {
 }
 
-// STUB: 0x48DE80 sub_48DE80 (15 bytes)
-void sub_48DE80()
-{
-}
-
-// STUB: 0x48DE90 sub_48DE90 (20 bytes)
-void sub_48DE90()
-{
-}
-
-// STUB: 0x48DEB0 sub_48DEB0 (36 bytes)
-void sub_48DEB0()
-{
-}
-
 // STUB: 0x48DEE0 sub_48DEE0 (21 bytes)
 void sub_48DEE0()
-{
-}
-
-// STUB: 0x48DF00 sub_48DF00 (55 bytes)
-void sub_48DF00()
-{
-}
-
-// STUB: 0x48DF40 sub_48DF40 (74 bytes)
-void sub_48DF40()
 {
 }
 
@@ -1055,16 +965,6 @@ void sub_48DFE0()
 
 // STUB: 0x48DFF0 sub_48DFF0 (134 bytes)
 void sub_48DFF0()
-{
-}
-
-// STUB: 0x48E080 sub_48E080 (75 bytes)
-void sub_48E080()
-{
-}
-
-// STUB: 0x48E0D0 sub_48E0D0 (25 bytes)
-void sub_48E0D0()
 {
 }
 

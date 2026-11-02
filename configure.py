@@ -7,7 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 PY = '"%s"' % sys.executable
 sys.path.insert(0, str(ROOT / "tools"))
-from dr1lib import FLAGS_MARKER, MARKER
+from dr1lib import BLOCK_MARKER, FLAGS_MARKER, MARKER
 from toolchain import ensure
 
 
@@ -19,7 +19,7 @@ def main():
         text = path.read_text().splitlines()
         unit = path.relative_to(ROOT / "src").with_suffix("").as_posix()
         flags = next((FLAGS_MARKER.match(l).group(1) for l in text if FLAGS_MARKER.match(l)), default_flags)
-        (checked if any(MARKER.match(l) for l in text) else stubs).append((unit, path.relative_to(ROOT).as_posix(), flags))
+        (checked if any(MARKER.match(l) or BLOCK_MARKER.match(l) for l in text) else stubs).append((unit, path.relative_to(ROOT).as_posix(), flags))
 
     tools = " ".join("tools/%s" % n for n in ("cl.py", "check_obj.py", "report.py", "progress.py", "dr1lib.py", "coffobj.py", "objdiff_gen.py"))
     sources = " ".join(src for _, src, _ in checked + stubs)

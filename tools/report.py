@@ -11,7 +11,9 @@ def main():
     results = []
     for path in sorted((ROOT / "build" / "check").rglob("*.json")):
         results += json.loads(path.read_text())
-    bad = [r for r in results if r["status"] != "match"]
+    blocks = [r for r in results if r.get("block")]
+    results = [r for r in results if not r.get("block")]
+    bad = [r for r in results if r["status"] != "match"] + [r for r in blocks if r["status"] != "match"]
     for r in bad:
         print("%-8s 0x%X %s: %s" % (r["status"].upper(), r["address"], r["name"], r["detail"]))
         for problem in r.get("problems", []):
@@ -19,7 +21,10 @@ def main():
         if verbose and "ours" in r:
             print("  ours     " + r["ours"])
             print("  original " + r["original"])
-    print("%d/%d rewritten functions match" % (len(results) - len(bad), len(results)))
+    bad_functions = [r for r in bad if not r.get("block")]
+    print("%d/%d rewritten functions match" % (len(results) - len(bad_functions), len(results)))
+    if blocks:
+        print("%d/%d blocks of larger functions match" % (sum(r["status"] == "match" for r in blocks), len(blocks)))
     catalog = ROOT / "config" / "catalog.tsv"
     if catalog.exists():
         rows = [l.split("\t") for l in catalog.read_text().splitlines()[1:]]
