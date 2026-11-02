@@ -1,4 +1,4 @@
-// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /EHsc /GR /TP
+// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /GS /EHsc /GR /arch:IA32 /Oi /TP
 // FUNCTION: 0x5F78A3 ??0WorkItem@details@Concurrency@@QAE@PAVInternalContextBase@12@@Z
 // FUNCTION: 0x5F791A ?Bind@WorkItem@details@Concurrency@@QAEPAVInternalContextBase@23@XZ
 // FUNCTION: 0x5F7963 ?BindTo@WorkItem@details@Concurrency@@QAEXPAVInternalContextBase@23@@Z
@@ -19,6 +19,8 @@
 // FUNCTION: 0x5F7DF6 ?QuickSearch@WorkSearchContext@details@Concurrency@@AAE_NPAVScheduleGroupSegmentBase@23@PAVWorkItem@23@_NK@Z
 // FUNCTION: 0x5F7E63 ?QuickSearchYield@WorkSearchContext@details@Concurrency@@AAE_NPAVScheduleGroupSegmentBase@23@PAVWorkItem@23@_NK@Z
 // FUNCTION: 0x5F7ED1 ?Reset@WorkSearchContext@details@Concurrency@@QAEXPAVVirtualProcessor@23@W4Algorithm@123@@Z
+// FUNCTION: 0x5F7F25 ?ResolveToken@WorkItem@details@Concurrency@@QAE_NXZ
+// FUNCTION: 0x5F7FA3 ?SearchCacheLocal@WorkSearchContext@details@Concurrency@@AAE_NPAVWorkItem@23@PAVScheduleGroupSegmentBase@23@_NK@Z
 // FUNCTION: 0x5F8261 ?SearchCacheLocalYield@WorkSearchContext@details@Concurrency@@AAE_NPAVWorkItem@23@PAVScheduleGroupSegmentBase@23@_NK@Z
 // FUNCTION: 0x5F84E0 ?SearchCacheLocal_Realized@WorkSearchContext@details@Concurrency@@AAE_NPAVWorkItem@23@PAVSchedulingRing@23@PAVScheduleGroupSegmentBase@23@_NW4SearchAffinity@123@K3@Z
 // FUNCTION: 0x5F85D9 ?SearchCacheLocal_Runnables@WorkSearchContext@details@Concurrency@@AAE_NPAVWorkItem@23@PAVSchedulingRing@23@PAVScheduleGroupSegmentBase@23@_NW4SearchAffinity@123@K3@Z

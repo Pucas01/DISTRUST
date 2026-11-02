@@ -1,4 +1,4 @@
-// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /EHsc /GR /TP
+// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /GS /EHsc /GR /arch:IA32 /Oi /TP
 // FUNCTION: 0x5F59B6 ??0?$WorkStealingQueue@V_UnrealizedChore@details@Concurrency@@V_CriticalNonReentrantLock@23@@details@Concurrency@@QAE@PAV_CriticalNonReentrantLock@12@@Z
 // FUNCTION: 0x5F5A15 ??0WorkQueue@details@Concurrency@@QAE@XZ
 // FUNCTION: 0x5F5A61 ?RedetachFromScheduleGroupAtSafePoint@WorkQueue@details@Concurrency@@QAEXPAVScheduleGroupSegmentBase@23@@Z

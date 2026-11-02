@@ -1,4 +1,4 @@
-// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /EHsc /GR /TP
+// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /GS /EHsc /GR /arch:IA32 /Oi /TP
 // FUNCTION: 0x5F1341 ??0?$StructuredWorkStealingQueue@VInternalContextBase@details@Concurrency@@V_HyperNonReentrantLock@23@@details@Concurrency@@QAE@PAV_HyperNonReentrantLock@12@@Z
 // FUNCTION: 0x5F13A8 ??0VirtualProcessor@details@Concurrency@@QAE@XZ
 // FUNCTION: 0x5F13F9 ??1VirtualProcessor@details@Concurrency@@UAE@XZ

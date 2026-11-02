@@ -1,6 +1,7 @@
-// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /EHsc /GR /TP
+// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /GS /EHsc /GR /arch:IA32 /Oi /TP
 // FUNCTION: 0x5EE255 ??0_Interruption_exception@details@Concurrency@@QAE@ABV012@@Z
 // FUNCTION: 0x5EE270 ??0_TaskCollection@details@Concurrency@@AAE@PAV012@_N@Z
+// FUNCTION: 0x5EE36E ??0bad_alloc@std@@QAE@ABV01@@Z
 // FUNCTION: 0x5EE399 ??1TaskStack@details@Concurrency@@QAE@XZ
 // FUNCTION: 0x5EE3A9 ??1_TaskCollection@details@Concurrency@@QAE@XZ
 // FUNCTION: 0x5EE494 ?AddArbitraryAlias@ContextBase@details@Concurrency@@QAEXPAV_TaskCollection@23@0@Z
@@ -32,4 +33,5 @@
 // FUNCTION: 0x5EEC24 ?_Reset@_TaskCollection@details@Concurrency@@AAEXPAV123@@Z
 // FUNCTION: 0x5EED1F ?_SetCancelState@_TaskCollection@details@Concurrency@@AAE_NJ@Z
 // FUNCTION: 0x5EED59 ?_SweepAbortedChore@_TaskCollection@details@Concurrency@@CA_NPAV_UnrealizedChore@23@PAX@Z
+// FUNCTION: 0x5EED72 ?_TaskCleanup@_TaskCollection@details@Concurrency@@AAE_N_N@Z
 #include "../../../toolchain/crt/TaskCollection.cpp"

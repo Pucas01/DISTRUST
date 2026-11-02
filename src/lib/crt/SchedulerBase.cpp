@@ -1,10 +1,12 @@
-// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /EHsc /GR /TP
+// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /GS /EHsc /GR /arch:IA32 /Oi /TP
 // FUNCTION: 0x5E94F0 ??0?$SafeRWList@UBoostedObject@details@Concurrency@@VNoCount@CollectionTypes@23@V_ReaderWriterLock@23@@details@Concurrency@@QAE@XZ
 // FUNCTION: 0x5E9507 ??0CacheLocalScheduleGroupSegment@details@Concurrency@@QAE@PAVScheduleGroupBase@12@PAVSchedulingRing@12@PAVlocation@2@@Z
 // FUNCTION: 0x5E9575 ??0NumaInformation@SchedulerBase@details@Concurrency@@QAE@XZ
 // FUNCTION: 0x5E9585 ??0QuickBitSet@details@Concurrency@@QAE@I@Z
+// FUNCTION: 0x5E95CB ??0SchedulerBase@details@Concurrency@@QAE@ABVSchedulerPolicy@2@@Z
 // FUNCTION: 0x5E98D6 ??0SubAllocator@details@Concurrency@@QAE@XZ
 // FUNCTION: 0x5E98FB ??0default_scheduler_exists@Concurrency@@QAE@ABV01@@Z
+// FUNCTION: 0x5E9916 ??0logic_error@std@@QAE@ABV01@@Z
 // FUNCTION: 0x5E9931 ??1?$ListArray@VExternalStatistics@details@Concurrency@@@details@Concurrency@@QAE@XZ
 // FUNCTION: 0x5E99A3 ??1?$ListArray@VScheduleGroupBase@details@Concurrency@@@details@Concurrency@@QAE@XZ
 // FUNCTION: 0x5E9A1A ??1NumaInformation@SchedulerBase@details@Concurrency@@QAE@XZ
@@ -33,8 +35,10 @@
 // FUNCTION: 0x5EB003 ?HashValue@?$Hash@II@details@Concurrency@@CAIABIH@Z
 // FUNCTION: 0x5EB6DB ?MarkSafePoint@SchedulerBase@details@Concurrency@@QAE_NPAVSafePointMarker@23@@Z
 // FUNCTION: 0x5EB6FD ?NotifyThrottledContext@SchedulerBase@details@Concurrency@@AAE_NPAVInternalContextBase@23@@Z
+// FUNCTION: 0x5EB78C ?OneShotStaticConstruction@SchedulerBase@details@Concurrency@@CAXXZ
 // FUNCTION: 0x5EB7DA ?OneShotStaticDestruction@SchedulerBase@details@Concurrency@@CAXXZ
 // FUNCTION: 0x5EB7F3 ?PerformServiceScan@SchedulerBase@details@Concurrency@@AAEXK@Z
+// FUNCTION: 0x5EB990 ?PhaseOneShutdown@SchedulerBase@details@Concurrency@@AAEXXZ
 // FUNCTION: 0x5EBA06 ?PhaseTwoShutdown@SchedulerBase@details@Concurrency@@AAEXXZ
 // FUNCTION: 0x5EBA8E ?PublishNewDataVersion@SchedulerBase@details@Concurrency@@AAEKXZ
 // FUNCTION: 0x5EBAA6 ?Push@?$LockFreePushStack@VContextNode@SchedulerBase@details@Concurrency@@@details@Concurrency@@QAEXPAVContextNode@SchedulerBase@23@@Z

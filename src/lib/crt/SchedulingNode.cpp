@@ -1,4 +1,4 @@
-// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /EHsc /GR /TP
+// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /GS /EHsc /GR /arch:IA32 /Oi /TP
 // FUNCTION: 0x5F1EB8 ??0?$ListArray@VVirtualProcessor@details@Concurrency@@@details@Concurrency@@QAE@PAVSchedulerBase@12@HH@Z
 // FUNCTION: 0x5F1FA9 ??0SchedulingNode@details@Concurrency@@QAE@ABVQuickBitSet@12@KPAVSchedulingRing@12@@Z
 // FUNCTION: 0x5F2026 ??1?$ListArray@VVirtualProcessor@details@Concurrency@@@details@Concurrency@@QAE@XZ

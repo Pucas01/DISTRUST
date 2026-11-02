@@ -1,4 +1,4 @@
-// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /EHsc /GR /TP
+// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /GS /EHsc /GR /arch:IA32 /Oi /TP
 // FUNCTION: 0x5E2178 ??0bad_alloc@std@@QAE@ABV01@@Z
 // FUNCTION: 0x5E2238 ??_Gimproper_lock@Concurrency@@UAEPAXI@Z
 // FUNCTION: 0x5E29D2 ??1improper_lock@Concurrency@@UAE@XZ

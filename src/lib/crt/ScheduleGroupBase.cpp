@@ -1,4 +1,4 @@
-// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /EHsc /GR /TP
+// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /GS /EHsc /GR /arch:IA32 /Oi /TP
 // FUNCTION: 0x5F3CB9 ??0?$Mailbox@V_UnrealizedChore@details@Concurrency@@@details@Concurrency@@QAE@PAVSchedulerBase@12@ABVQuickBitSet@12@_NI@Z
 // FUNCTION: 0x5F3D33 ??0ScheduleGroupBase@details@Concurrency@@QAE@PAVSchedulerBase@12@PAVlocation@2@@Z
 // FUNCTION: 0x5F3D8C ??0ScheduleGroupSegmentBase@details@Concurrency@@IAE@PAVScheduleGroupBase@12@PAVSchedulingRing@12@PAVlocation@2@@Z
@@ -12,6 +12,7 @@
 // FUNCTION: 0x5F42B4 ?AddRunnableContext@ScheduleGroupSegmentBase@details@Concurrency@@IAEXPAVInternalContextBase@23@Vlocation@3@@Z
 // FUNCTION: 0x5F4397 ?CheckForDeletionBridge@?$ListArray@U?$ListArrayInlineLink@VWorkQueue@details@Concurrency@@@details@Concurrency@@@details@Concurrency@@CAXPAV123@@Z
 // FUNCTION: 0x5F43A3 ?ClearQuickCacheSlotIf@SchedulerBase@details@Concurrency@@QAEXIPAVScheduleGroupSegmentBase@23@@Z
+// FUNCTION: 0x5F43C8 ?CreateSegment@ScheduleGroupBase@details@Concurrency@@IAEPAVScheduleGroupSegmentBase@23@PAVlocation@3@PAVSchedulingRing@23@@Z
 // FUNCTION: 0x5F4460 ?DeleteElements@?$ListArray@U?$ListArrayInlineLink@VWorkQueue@details@Concurrency@@@details@Concurrency@@@details@Concurrency@@AAEXPAU_SINGLE_LIST_ENTRY@@@Z
 // FUNCTION: 0x5F447E ?DemandInitialize@?$Mailbox@V_UnrealizedChore@details@Concurrency@@@details@Concurrency@@AAEXXZ
 // FUNCTION: 0x5F44F4 ?Dequeue@?$Mailbox@V_UnrealizedChore@details@Concurrency@@@details@Concurrency@@QAE_NPAPAV_UnrealizedChore@23@@Z

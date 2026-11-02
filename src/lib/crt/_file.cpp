@@ -1,4 +1,5 @@
-// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /GS- /TC
+// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /GS /arch:IA32 /TC
+// FUNCTION: 0x5CC533 __initstdio
 // FUNCTION: 0x5CC5A6 __endstdio
 // FUNCTION: 0x5CC5CD __iob_func
 // FUNCTION: 0x5CC5D3 _lock_file

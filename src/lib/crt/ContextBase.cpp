@@ -1,4 +1,4 @@
-// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /EHsc /GR /TP
+// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /GS /EHsc /GR /arch:IA32 /Oi /TP
 // FUNCTION: 0x5ED146 ??0?$Hash@PAV_TaskCollection@details@Concurrency@@PAV123@@details@Concurrency@@QAE@H@Z
 // FUNCTION: 0x5ED184 ??0CancellationBeaconStack@ContextBase@details@Concurrency@@QAE@XZ
 // FUNCTION: 0x5ED19D ??0ContextBase@details@Concurrency@@QAE@PAVSchedulerBase@12@_N@Z
@@ -17,6 +17,7 @@
 // FUNCTION: 0x5EDC2D ?Pop@?$WorkStealingQueue@V_UnrealizedChore@details@Concurrency@@V_CriticalNonReentrantLock@23@@details@Concurrency@@QAEPAV_UnrealizedChore@23@XZ
 // FUNCTION: 0x5EDC87 ?PopContextFromTls@ContextBase@details@Concurrency@@AAEPAV123@XZ
 // FUNCTION: 0x5EDCA4 ?PushContextToTls@ContextBase@details@Concurrency@@AAEXPAV123@@Z
+// FUNCTION: 0x5EDCBE ?RecomputeMaximumCancellationDepth@ContextBase@details@Concurrency@@AAEXXZ
 // FUNCTION: 0x5EDD45 ?ReferenceForCancellation@ContextBase@details@Concurrency@@QAEXXZ
 // FUNCTION: 0x5EDD50 ?ReleaseWorkQueue@ContextBase@details@Concurrency@@IAEXXZ
 // FUNCTION: 0x5EDDA7 ?Remove@?$Hash@PAV_TaskCollection@details@Concurrency@@PAV123@@details@Concurrency@@AAEPAUListNode@123@ABQAV_TaskCollection@23@H@Z

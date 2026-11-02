@@ -1,4 +1,4 @@
-// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /EHsc /GR /TP
+// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /GS /EHsc /GR /arch:IA32 /Oi /TP
 // FUNCTION: 0x5F24E2 ??0AllocatorBucket@details@Concurrency@@QAE@XZ
 // FUNCTION: 0x5F24F7 ??1AllocatorBucket@details@Concurrency@@QAE@XZ
 // FUNCTION: 0x5F251A ?Alloc@AllocatorBucket@details@Concurrency@@QAEPATAllocationEntry@23@XZ

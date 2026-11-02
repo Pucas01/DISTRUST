@@ -1,4 +1,4 @@
-// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /EHsc /GR /TP
+// FLAGS: /nologo /c /O1 /Oy- /Gy /Zl /D_MT /D_CRTBLD /DWIN32 /Itoolchain/crt /Itoolchain/winsdk/um /Itoolchain/winsdk/shared /Itoolchain/winsdk/winrt /GS /EHsc /GR /arch:IA32 /Oi /TP
 // FUNCTION: 0x5E3D7D ??0MultiWaitBlock@details@Concurrency@@QAE@I_N0@Z
 // FUNCTION: 0x5E3DC6 ??0MultiWaitBlockHolder@details@Concurrency@@QAE@_NI00@Z
 // FUNCTION: 0x5E3E6F ??0SingleWaitBlock@details@Concurrency@@QAE@XZ
@@ -20,4 +20,5 @@
 // FUNCTION: 0x5E4707 ?wait@_Condition_variable@details@Concurrency@@QAEXAAVcritical_section@3@@Z
 // FUNCTION: 0x5E476B ?wait@event@Concurrency@@QAEII@Z
 // FUNCTION: 0x5E4840 ?wait_for@_Condition_variable@details@Concurrency@@QAE_NAAVcritical_section@3@I@Z
+// FUNCTION: 0x5E4931 ?wait_for_multiple@event@Concurrency@@SAIPAPAV12@I_NI@Z
 #include "../../../toolchain/crt/event.cpp"
