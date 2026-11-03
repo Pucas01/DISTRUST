@@ -79,8 +79,8 @@ src/unsorted/block_48.cpp</title></rect>
 <rect x="60.47" y="155.27" width="13.16" height="14.49" class="p"><title>sub_48F390
 621 bytes, non matching
 src/unsorted/block_48.cpp</title></rect>
-<rect x="74.23" y="73.92" width="12.38" height="14.81" class="s"><title>sub_486370
-598 bytes, not rewritten
+<rect x="74.23" y="73.92" width="12.38" height="14.81" class="m"><title>sub_486370
+598 bytes, matching
 src/unsorted/block_48.cpp</title></rect>
 <rect x="74.23" y="89.33" width="12.38" height="14.60" class="s"><title>sub_489850
 590 bytes, not rewritten
@@ -244,8 +244,8 @@ src/unsorted/block_48.cpp</title></rect>
 <rect x="107.21" y="138.49" width="7.65" height="7.43" class="s"><title>sub_488290
 198 bytes, not rewritten
 src/unsorted/block_48.cpp</title></rect>
-<rect x="107.21" y="146.52" width="7.65" height="7.43" class="s"><title>sub_48D560
-198 bytes, not rewritten
+<rect x="107.21" y="146.52" width="7.65" height="7.43" class="p"><title>sub_48D560
+198 bytes, non matching
 src/unsorted/block_48.cpp</title></rect>
 <rect x="107.21" y="154.55" width="7.65" height="7.35" class="s"><title>sub_4833E0
 196 bytes, not rewritten
@@ -1453,8 +1453,8 @@ src/unsorted/block_4A.cpp</title></rect>
 <rect x="234.24" y="82.26" width="13.02" height="12.18" class="s"><title>sub_4AF690
 522 bytes, not rewritten
 src/unsorted/block_4A.cpp</title></rect>
-<rect x="234.24" y="95.04" width="13.02" height="11.89" class="s"><title>sub_4A8100
-510 bytes, not rewritten
+<rect x="234.24" y="95.04" width="13.02" height="11.89" class="m"><title>sub_4A8100
+510 bytes, matching
 src/unsorted/block_4A.cpp</title></rect>
 <rect x="234.24" y="107.53" width="13.02" height="11.79" class="s"><title>sub_4A3950
 506 bytes, not rewritten
@@ -1465,17 +1465,17 @@ src/unsorted/block_4A.cpp</title></rect>
 <rect x="234.24" y="132.07" width="13.02" height="11.50" class="s"><title>sub_4A4E00
 494 bytes, not rewritten
 src/unsorted/block_4A.cpp</title></rect>
-<rect x="234.24" y="144.16" width="13.02" height="11.30" class="s"><title>sub_4A85E0
-486 bytes, not rewritten
+<rect x="234.24" y="144.16" width="13.02" height="11.30" class="p"><title>sub_4A85E0
+486 bytes, non matching
 src/unsorted/block_4A.cpp</title></rect>
-<rect x="247.87" y="68.67" width="12.66" height="11.55" class="s"><title>sub_4AD330
-483 bytes, not rewritten
+<rect x="247.87" y="68.67" width="12.66" height="11.55" class="p"><title>sub_4AD330
+483 bytes, non matching
 src/unsorted/block_4A.cpp</title></rect>
 <rect x="261.13" y="68.67" width="11.73" height="11.55" class="s"><title>sub_4AC960
 449 bytes, not rewritten
 src/unsorted/block_4A.cpp</title></rect>
-<rect x="273.46" y="68.67" width="11.70" height="11.55" class="s"><title>sub_4A88D0
-448 bytes, not rewritten
+<rect x="273.46" y="68.67" width="11.70" height="11.55" class="m"><title>sub_4A88D0
+448 bytes, matching
 src/unsorted/block_4A.cpp</title></rect>
 <rect x="285.76" y="68.67" width="11.65" height="11.55" class="s"><title>sub_4A7190
 446 bytes, not rewritten
@@ -1501,14 +1501,14 @@ src/unsorted/block_4A.cpp</title></rect>
 <rect x="297.76" y="80.82" width="11.39" height="10.39" class="s"><title>sub_4AAB20
 395 bytes, not rewritten
 src/unsorted/block_4A.cpp</title></rect>
-<rect x="309.75" y="80.82" width="11.30" height="10.39" class="s"><title>sub_4A7380
-392 bytes, not rewritten
+<rect x="309.75" y="80.82" width="11.30" height="10.39" class="m"><title>sub_4A7380
+392 bytes, matching
 src/unsorted/block_4A.cpp</title></rect>
 <rect x="247.87" y="91.81" width="10.32" height="11.01" class="s"><title>sub_4A01B0
 380 bytes, not rewritten
 src/unsorted/block_4A.cpp</title></rect>
-<rect x="247.87" y="103.42" width="10.32" height="10.80" class="s"><title>sub_4A7510
-373 bytes, not rewritten
+<rect x="247.87" y="103.42" width="10.32" height="10.80" class="m"><title>sub_4A7510
+373 bytes, matching
 src/unsorted/block_4A.cpp</title></rect>
 <rect x="247.87" y="114.82" width="10.32" height="9.97" class="s"><title>sub_4A37E0
 346 bytes, not rewritten
@@ -1552,8 +1552,8 @@ src/unsorted/block_4A.cpp</title></rect>
 <rect x="258.79" y="129.37" width="9.01" height="8.56" class="s"><title>sub_4A5150
 264 bytes, not rewritten
 src/unsorted/block_4A.cpp</title></rect>
-<rect x="258.79" y="138.54" width="9.01" height="8.22" class="s"><title>sub_4A3E50
-254 bytes, not rewritten
+<rect x="258.79" y="138.54" width="9.01" height="8.22" class="p"><title>sub_4A3E50
+254 bytes, non matching
 src/unsorted/block_4A.cpp</title></rect>
 <rect x="258.79" y="147.35" width="9.01" height="8.11" class="s"><title>sub_4A87D0
 251 bytes, not rewritten
@@ -1567,8 +1567,8 @@ src/unsorted/block_4A.cpp</title></rect>
 <rect x="286.54" y="101.25" width="8.41" height="8.21" class="s"><title>sub_4A5600
 238 bytes, not rewritten
 src/unsorted/block_4A.cpp</title></rect>
-<rect x="295.55" y="101.25" width="8.26" height="8.21" class="s"><title>sub_4AFF90
-234 bytes, not rewritten
+<rect x="295.55" y="101.25" width="8.26" height="8.21" class="p"><title>sub_4AFF90
+234 bytes, non matching
 src/unsorted/block_4A.cpp</title></rect>
 <rect x="304.41" y="101.25" width="8.07" height="8.21" class="s"><title>sub_4A1700
 229 bytes, not rewritten
@@ -3364,8 +3364,8 @@ src/unsorted/block_4D.cpp</title></rect>
 <rect x="270.76" y="562.84" width="6.29" height="5.55" class="s"><title>sub_4DB560
 127 bytes, not rewritten
 src/unsorted/block_4D.cpp</title></rect>
-<rect x="270.76" y="568.99" width="6.29" height="5.50" class="s"><title>sub_4D6250
-126 bytes, not rewritten
+<rect x="270.76" y="568.99" width="6.29" height="5.50" class="p"><title>sub_4D6250
+126 bytes, non matching
 src/unsorted/block_4D.cpp</title></rect>
 <rect x="270.76" y="575.09" width="6.29" height="5.50" class="s"><title>sub_4DA310
 126 bytes, not rewritten
@@ -3754,8 +3754,8 @@ src/unsorted/block_43.cpp</title></rect>
 <rect x="422.66" y="56.42" width="20.37" height="15.52" class="s"><title>sub_43EF10
 1014 bytes, not rewritten
 src/unsorted/block_43.cpp</title></rect>
-<rect x="443.63" y="56.42" width="17.68" height="15.52" class="s"><title>sub_4329D0
-884 bytes, not rewritten
+<rect x="443.63" y="56.42" width="17.68" height="15.52" class="m"><title>sub_4329D0
+884 bytes, matching
 src/unsorted/block_43.cpp</title></rect>
 <rect x="378.34" y="72.54" width="17.95" height="13.96" class="s"><title>sub_43FA50
 810 bytes, not rewritten
@@ -3883,8 +3883,8 @@ src/unsorted/block_43.cpp</title></rect>
 <rect x="412.06" y="122.50" width="6.41" height="6.77" class="s"><title>sub_434850
 155 bytes, not rewritten
 src/unsorted/block_43.cpp</title></rect>
-<rect x="412.06" y="129.88" width="6.41" height="6.73" class="s"><title>sub_43E480
-154 bytes, not rewritten
+<rect x="412.06" y="129.88" width="6.41" height="6.73" class="p"><title>sub_43E480
+154 bytes, non matching
 src/unsorted/block_43.cpp</title></rect>
 <rect x="412.06" y="137.20" width="6.41" height="6.68" class="s"><title>sub_435290
 153 bytes, not rewritten
@@ -7645,8 +7645,8 @@ src/unsorted/block_51.cpp</title></rect>
 <rect x="569.09" y="304.93" width="2.05" height="1.66" class="m"><title>AgHeapAllocator::free
 18 bytes, matching
 src/unsorted/block_51.cpp</title></rect>
-<rect x="571.44" y="297.59" width="1.96" height="2.38" class="s"><title>sub_519390
-14 bytes, not rewritten
+<rect x="571.44" y="297.59" width="1.96" height="2.38" class="m"><title>sub_519390
+14 bytes, matching
 src/unsorted/block_51.cpp</title></rect>
 <rect x="573.39" y="297.59" width="1.96" height="2.38" class="s"><title>sub_51AF80
 14 bytes, not rewritten
@@ -21646,29 +21646,29 @@ src/engine/io/AgMemoryStream.cpp</title></rect>
 <rect x="1142.83" y="409.75" width="7.30" height="7.04" class="s"><title>AgMemoryStream::fn_519D10
 218 bytes, not rewritten
 src/engine/io/AgMemoryStream.cpp</title></rect>
-<rect x="1133.81" y="417.40" width="8.50" height="5.46" class="s"><title>AgMemoryStream::fn_519EB0
-199 bytes, not rewritten
+<rect x="1133.81" y="417.40" width="8.50" height="5.46" class="m"><title>AgMemoryStream::fn_519EB0
+199 bytes, matching
 src/engine/io/AgMemoryStream.cpp</title></rect>
-<rect x="1133.81" y="423.45" width="8.50" height="4.36" class="s"><title>AgMemoryStream::vfn_3
-163 bytes, not rewritten
+<rect x="1133.81" y="423.45" width="8.50" height="4.36" class="m"><title>AgMemoryStream::vfn_3
+163 bytes, matching
 src/engine/io/AgMemoryStream.cpp</title></rect>
-<rect x="1142.91" y="417.40" width="7.22" height="4.11" class="s"><title>AgMemoryStream::vfn_0
-133 bytes, not rewritten
+<rect x="1142.91" y="417.40" width="7.22" height="4.11" class="m"><title>AgMemoryStream::vfn_0
+133 bytes, matching
 src/engine/io/AgMemoryStream.cpp</title></rect>
-<rect x="1142.91" y="422.11" width="2.61" height="5.71" class="s"><title>AgMemoryStream::fn_519E60
-73 bytes, not rewritten
+<rect x="1142.91" y="422.11" width="2.61" height="5.71" class="m"><title>AgMemoryStream::fn_519E60
+73 bytes, matching
 src/engine/io/AgMemoryStream.cpp</title></rect>
-<rect x="1146.12" y="422.11" width="4.01" height="3.72" class="s"><title>AgMemoryStream::vfn_2
-72 bytes, not rewritten
+<rect x="1146.12" y="422.11" width="4.01" height="3.72" class="m"><title>AgMemoryStream::vfn_2
+72 bytes, matching
 src/engine/io/AgMemoryStream.cpp</title></rect>
-<rect x="1145.82" y="426.13" width="2.66" height="1.98" class="s"><title>AgMemoryStream::vfn_5
-19 bytes, not rewritten
+<rect x="1145.82" y="426.13" width="2.66" height="1.98" class="m"><title>AgMemoryStream::vfn_5
+19 bytes, matching
 src/engine/io/AgMemoryStream.cpp</title></rect>
-<rect x="1148.47" y="426.13" width="1.96" height="0.99" class="s"><title>AgMemoryStream::vfn_6
-7 bytes, not rewritten
+<rect x="1148.47" y="426.13" width="1.96" height="0.99" class="m"><title>AgMemoryStream::vfn_6
+7 bytes, matching
 src/engine/io/AgMemoryStream.cpp</title></rect>
-<rect x="1148.47" y="427.12" width="1.96" height="0.99" class="s"><title>AgMemoryStream::vfn_4
-7 bytes, not rewritten
+<rect x="1148.47" y="427.12" width="1.96" height="0.99" class="m"><title>AgMemoryStream::vfn_4
+7 bytes, matching
 src/engine/io/AgMemoryStream.cpp</title></rect>
 <rect x="1152.73" y="409.75" width="6.30" height="5.56" class="m"><title>resetGame
 154 bytes, matching
@@ -22519,8 +22519,8 @@ src/unsorted/shared_stubs.cpp</title></rect>
 <rect x="1184.64" y="455.65" width="1.35" height="0.73" class="m"><title>shared_515910
 4 bytes, matching
 src/unsorted/shared_stubs.cpp</title></rect>
-<rect x="1184.64" y="456.38" width="1.35" height="0.73" class="s"><title>shared_519CF0
-4 bytes, not rewritten
+<rect x="1184.64" y="456.38" width="1.35" height="0.73" class="m"><title>shared_519CF0
+4 bytes, matching
 src/unsorted/shared_stubs.cpp</title></rect>
 <rect x="1185.99" y="455.65" width="1.01" height="0.73" class="s"><title>shared_55C270
 3 bytes, not rewritten
@@ -23524,14 +23524,14 @@ src/lib/crt/getenv.cpp</title></rect>
 <rect x="1155.28" y="493.43" width="3.11" height="6.48" class="m"><title>getenv
 124 bytes, matching
 src/lib/crt/getenv.cpp</title></rect>
-<rect x="1160.99" y="493.43" width="6.11" height="2.96" class="s"><title>AgPCExceptionHandler::vfn_0
-113 bytes, not rewritten
+<rect x="1160.99" y="493.43" width="6.11" height="2.96" class="m"><title>AgPCExceptionHandler::vfn_0
+113 bytes, matching
 src/engine/system/AgPCExceptionHandler.cpp</title></rect>
-<rect x="1160.99" y="496.99" width="6.11" height="2.93" class="s"><title>AgPCExceptionHandler::vfn_1
-112 bytes, not rewritten
+<rect x="1160.99" y="496.99" width="6.11" height="2.93" class="m"><title>AgPCExceptionHandler::vfn_1
+112 bytes, matching
 src/engine/system/AgPCExceptionHandler.cpp</title></rect>
-<rect x="1167.41" y="493.13" width="0.84" height="7.08" class="s"><title>AgPCExceptionHandler::vfn_2
-28 bytes, not rewritten
+<rect x="1167.41" y="493.13" width="0.84" height="7.08" class="m"><title>AgPCExceptionHandler::vfn_2
+28 bytes, matching
 src/engine/system/AgPCExceptionHandler.cpp</title></rect>
 <rect x="1170.54" y="493.43" width="4.60" height="3.53" class="s"><title>Concurrency::details::FairScheduleGroup::vfn_5
 102 bytes, not rewritten
@@ -23902,14 +23902,14 @@ src/lib/crt/align.cpp</title></rect>
 <rect x="1152.04" y="505.45" width="1.47" height="2.83" class="m"><title>_mbstrnlen
 21 bytes, matching
 src/lib/crt/align.cpp</title></rect>
-<rect x="1155.81" y="502.52" width="2.62" height="5.46" class="s"><title>AgSteamworks::vfn_1
-99 bytes, not rewritten
+<rect x="1155.81" y="502.52" width="2.62" height="5.46" class="m"><title>AgSteamworks::vfn_1
+99 bytes, matching
 src/engine/online/AgSteamworks.cpp</title></rect>
-<rect x="1159.03" y="502.52" width="2.69" height="4.74" class="s"><title>AgSteamworks::vfn_0
-89 bytes, not rewritten
+<rect x="1159.03" y="502.52" width="2.69" height="4.74" class="m"><title>AgSteamworks::vfn_0
+89 bytes, matching
 src/engine/online/AgSteamworks.cpp</title></rect>
-<rect x="1158.73" y="507.55" width="3.29" height="0.72" class="s"><title>AgSteamworks::vfn_2
-12 bytes, not rewritten
+<rect x="1158.73" y="507.55" width="3.29" height="0.72" class="m"><title>AgSteamworks::vfn_2
+12 bytes, matching
 src/engine/online/AgSteamworks.cpp</title></rect>
 <rect x="1164.32" y="502.52" width="4.91" height="5.46" class="m"><title>_vswprintf_l
 170 bytes, matching
@@ -24391,8 +24391,8 @@ src/engine/render/NewAllocator_AgShaderProgram_AgResource.cpp</title></rect>
 <rect x="1165.26" y="525.45" width="3.46" height="3.85" class="m"><title>_lseek_nolock
 114 bytes, matching
 src/lib/crt/lseek.cpp</title></rect>
-<rect x="1171.32" y="525.45" width="3.41" height="3.85" class="s"><title>AgExceptionHandler::vfn_0
-113 bytes, not rewritten
+<rect x="1171.32" y="525.45" width="3.41" height="3.85" class="m"><title>AgExceptionHandler::vfn_0
+113 bytes, matching
 src/engine/system/AgExceptionHandler.cpp</title></rect>
 <rect x="1177.33" y="525.45" width="3.41" height="3.85" class="m"><title>_lseeki64_nolock
 113 bytes, matching
@@ -24415,17 +24415,17 @@ src/engine/render/NewAllocator_AgTexture2d_AgResource.cpp</title></rect>
 <rect x="1124.90" y="556.77" width="5.34" height="5.87" class="s"><title>NewAllocator&lt;AgVertexBuffer,AgResource&gt;::vfn_1
 112 bytes, not rewritten
 src/engine/render/NewAllocator_AgVertexBuffer_AgResource.cpp</title></rect>
-<rect x="1124.90" y="563.24" width="5.34" height="4.54" class="s"><title>AgThreadPool::ThreadHost::vfn_0
-89 bytes, not rewritten
+<rect x="1124.90" y="563.24" width="5.34" height="4.54" class="m"><title>AgThreadPool::ThreadHost::vfn_0
+89 bytes, matching
 src/engine/thread/AgThreadPool_ThreadHost.cpp</title></rect>
-<rect x="1124.60" y="568.08" width="5.94" height="1.21" class="s"><title>AgThreadPool::ThreadHost::vfn_1
-21 bytes, not rewritten
+<rect x="1124.60" y="568.08" width="5.94" height="1.21" class="m"><title>AgThreadPool::ThreadHost::vfn_1
+21 bytes, matching
 src/engine/thread/AgThreadPool_ThreadHost.cpp</title></rect>
-<rect x="1124.90" y="569.59" width="5.34" height="4.89" class="s"><title>AgHttp::vfn_0
-95 bytes, not rewritten
+<rect x="1124.90" y="569.59" width="5.34" height="4.89" class="m"><title>AgHttp::vfn_0
+95 bytes, matching
 src/engine/online/AgHttp.cpp</title></rect>
-<rect x="1124.60" y="574.77" width="5.94" height="0.75" class="s"><title>AgHttp::vfn_1
-13 bytes, not rewritten
+<rect x="1124.60" y="574.77" width="5.94" height="0.75" class="m"><title>AgHttp::vfn_1
+13 bytes, matching
 src/engine/online/AgHttp.cpp</title></rect>
 <rect x="1124.90" y="575.83" width="5.34" height="5.64" class="m"><title>wcscat_s
 108 bytes, matching
@@ -24622,11 +24622,11 @@ src/lib/crt/strcpy_s.cpp</title></rect>
 <rect x="1142.24" y="578.42" width="5.13" height="4.37" class="m"><title>_wcsdup
 83 bytes, matching
 src/lib/crt/wcsdup.cpp</title></rect>
-<rect x="1142.24" y="583.39" width="3.59" height="4.31" class="s"><title>ThreadHost::vfn_1
-60 bytes, not rewritten
+<rect x="1142.24" y="583.39" width="3.59" height="4.31" class="m"><title>ThreadHost::vfn_1
+60 bytes, matching
 src/engine/thread/ThreadHost.cpp</title></rect>
-<rect x="1146.13" y="583.09" width="1.54" height="4.91" class="s"><title>ThreadHost::vfn_2
-22 bytes, not rewritten
+<rect x="1146.13" y="583.09" width="1.54" height="4.91" class="m"><title>ThreadHost::vfn_2
+22 bytes, matching
 src/engine/thread/ThreadHost.cpp</title></rect>
 <rect x="1147.97" y="547.36" width="4.59" height="4.82" class="m"><title>iswctype
 82 bytes, matching
@@ -24676,11 +24676,11 @@ src/lib/crt/putwch.cpp</title></rect>
 <rect x="1147.97" y="571.08" width="4.50" height="3.77" class="m"><title>__crtCompareStringA
 65 bytes, matching
 src/lib/crt/a_cmp.cpp</title></rect>
-<rect x="1147.97" y="575.45" width="3.86" height="3.71" class="s"><title>AgUpdateSystemThread::vfn_1
-56 bytes, not rewritten
+<rect x="1147.97" y="575.45" width="3.86" height="3.71" class="m"><title>AgUpdateSystemThread::vfn_1
+56 bytes, matching
 src/engine/thread/AgUpdateSystemThread.cpp</title></rect>
-<rect x="1152.13" y="575.15" width="0.64" height="4.31" class="s"><title>AgUpdateSystemThread::vfn_2
-8 bytes, not rewritten
+<rect x="1152.13" y="575.15" width="0.64" height="4.31" class="m"><title>AgUpdateSystemThread::vfn_2
+8 bytes, matching
 src/engine/thread/AgUpdateSystemThread.cpp</title></rect>
 <rect x="1147.97" y="579.76" width="4.18" height="3.71" class="s"><title>Concurrency::details::ThreadInternalContext::vfn_4_5
 60 bytes, not rewritten
@@ -24925,8 +24925,8 @@ src/engine/render/VAgResource_AgFactory_IAllocator.cpp</title></rect>
 <rect x="1167.99" y="574.81" width="2.86" height="2.77" class="s"><title>std::_Facet_base::vfn_0
 34 bytes, not rewritten
 src/lib/std/std__Facet_base.cpp</title></rect>
-<rect x="1167.99" y="578.18" width="2.86" height="2.77" class="s"><title>AgSingleton&lt;AgHttp&gt;::vfn_0
-34 bytes, not rewritten
+<rect x="1167.99" y="578.18" width="2.86" height="2.77" class="m"><title>AgSingleton&lt;AgHttp&gt;::vfn_0
+34 bytes, matching
 src/engine/core/AgSingleton_AgHttp.cpp</title></rect>
 <rect x="1167.99" y="581.55" width="2.86" height="2.77" class="s"><title>AgSingleton&lt;AgMicroTransaction&gt;::vfn_0
 34 bytes, not rewritten
@@ -25057,8 +25057,8 @@ src/lib/crt/intel_secchk.cpp</title></rect>
 <rect x="1183.52" y="583.64" width="1.73" height="2.78" class="m"><title>_seterrormode
 14 bytes, matching
 src/lib/crt/seterrm.cpp</title></rect>
-<rect x="1183.52" y="586.41" width="1.73" height="1.59" class="s"><title>AgSimpleThreadHost::vfn_2
-8 bytes, not rewritten
+<rect x="1183.52" y="586.41" width="1.73" height="1.59" class="m"><title>AgSimpleThreadHost::vfn_2
+8 bytes, matching
 src/engine/thread/AgSimpleThreadHost.cpp</title></rect>
 <rect x="1185.25" y="583.64" width="1.38" height="1.99" class="s"><title>CancellationTokenRegistration_TaskProc::vfn_2
 8 bytes, not rewritten
