@@ -931,11 +931,6 @@ void sub_4DC400()
 {
 }
 
-// STUB: 0x4DC440 sub_4DC440 (82 bytes)
-void sub_4DC440()
-{
-}
-
 // STUB: 0x4DC4A0 sub_4DC4A0 (571 bytes)
 void sub_4DC4A0()
 {
@@ -1031,23 +1026,8 @@ void sub_4DDF90()
 {
 }
 
-// STUB: 0x4DE330 sub_4DE330 (106 bytes)
-void sub_4DE330()
-{
-}
-
 // STUB: 0x4DE3A0 sub_4DE3A0 (1192 bytes)
 void sub_4DE3A0()
-{
-}
-
-// STUB: 0x4DE890 sub_4DE890 (29 bytes)
-void sub_4DE890()
-{
-}
-
-// STUB: 0x4DE8B0 sub_4DE8B0 (61 bytes)
-void sub_4DE8B0()
 {
 }
 

@@ -28,9 +28,24 @@ public:
 
 struct Sprite
 {
-    unsigned char unk00[0x0C];
-    short texture;
-    unsigned char unk0E[10];
+    unsigned char used;
+    unsigned char unk01;
+    unsigned char active;
+    unsigned char visible;
+    unsigned char unk04;
+    unsigned char unk05;
+    unsigned char unk06;
+    unsigned char unk07;
+    unsigned char unk08;
+    unsigned char hasRect;
+    unsigned char unk0A;
+    unsigned char unk0B;
+    unsigned short texture;
+    short rectX;
+    short rectY;
+    short rectW;
+    short rectH;
+    short depth;
     short x0a;
     short x0b;
     short x1a;
@@ -39,6 +54,14 @@ struct Sprite
     short y1a;
     short y0b;
     short y1b;
+    unsigned char unk28[0x30];
+};
+
+struct SpriteBatch
+{
+    unsigned char used;
+    unsigned char unk01;
+    unsigned char unk02[0x20E];
 };
 
 struct TextureSlot
@@ -104,6 +127,20 @@ void __cdecl setSpriteRect(Sprite* sprite, int x, int y, int width, int height);
 void __cdecl copyTexturePalette(int dstIndex, int srcIndex);
 
 extern short g_spriteCount;
+extern Sprite* g_sprites;
+extern SpriteBatch* g_spriteBatches;
+extern int g_batchCount;
+extern short g_74C1C0;
+extern short g_74C1B4;
+extern short g_spriteOrder[0x400];
+extern short g_spriteDepth[0x400];
+Sprite* __cdecl allocSprite(int* outIndex);
+void __cdecl resetSprites();
+void __cdecl sortSprites();
+void __cdecl enableSprite(unsigned int index);
+void __cdecl disableSprite(unsigned int index);
+void __cdecl markSprite(unsigned int index);
+void __cdecl setSpriteBounds(unsigned int index, short x, short h, short w, short y);
 int __cdecl drawSprite(int id, float x, float y, float width, float height, int unk0, int unk1,
                        float scaleX, float scaleY, float rotation, int unk2,
                        int red, int green, int blue, int alpha, int a, int b, int c, int d);
