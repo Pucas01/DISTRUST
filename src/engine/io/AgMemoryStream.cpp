@@ -1,51 +1,98 @@
-#include "engine/io/AgMemoryStream.gen.h"
+// FLAGS: /nologo /c /O2 /Oy- /Gy /GS /Zc:wchar_t /EHa
+#include <string.h>
+#include "engine/io/AgMemoryStream.h"
 
-// STUB: 0x519B50 AgMemoryStream::vfn_0 (133 bytes)
-void AgMemoryStream::vfn_0()
+void* __cdecl operator new[](unsigned size);
+void __cdecl operator delete[](void* block);
+
+// FUNCTION: 0x519B50 ??_GAgMemoryStream@@UAEPAXI@Z
+AgMemoryStream::~AgMemoryStream()
 {
+    if (data && ownsData) {
+        operator delete[](data);
+        data = 0;
+    }
 }
 
-// STUB: 0x519BE0 AgMemoryStream::fn_519BE0 (249 bytes)
-void AgMemoryStream::fn_519BE0()
+// FUNCTION: 0x519DF0 AgMemoryStream::read
+unsigned AgMemoryStream::read(void* dst, unsigned count)
 {
+    if ((unsigned __int64)count + position > size)
+        count = (unsigned)size - (unsigned)position;
+    memcpy(dst, data + (unsigned)position, count);
+    position += count;
+    return count;
 }
 
-// STUB: 0x519CE0 AgMemoryStream::vfn_6 (7 bytes)
-void AgMemoryStream::vfn_6()
+// FUNCTION: 0x519F80 AgMemoryStream::write
+unsigned AgMemoryStream::write(const void* src, unsigned count)
 {
+    if ((unsigned __int64)count + position > capacity) {
+        unsigned end = (unsigned)position + count;
+        if (end > capacity) {
+            char* old = data;
+            data = (char*)operator new[](end);
+            memcpy(data, old, (unsigned)size);
+            operator delete[](old);
+            capacity = end;
+        }
+    }
+    memcpy(data + (unsigned)position, src, count);
+    position += count;
+    if (position > size)
+        size = position;
+    return count;
 }
 
-// STUB: 0x519D00 AgMemoryStream::vfn_4 (7 bytes)
-void AgMemoryStream::vfn_4()
+// FUNCTION: 0x519D00 AgMemoryStream::getSize
+__int64 AgMemoryStream::getSize()
 {
+    return size;
 }
 
-// STUB: 0x519D10 AgMemoryStream::fn_519D10 (218 bytes)
-void AgMemoryStream::fn_519D10()
+// FUNCTION: 0x519E40 AgMemoryStream::setPosition
+void AgMemoryStream::setPosition(unsigned __int64 value)
 {
+    position = value;
 }
 
-// STUB: 0x519DF0 AgMemoryStream::vfn_2 (72 bytes)
-void AgMemoryStream::vfn_2()
+// FUNCTION: 0x519CE0 AgMemoryStream::getPosition
+__int64 AgMemoryStream::getPosition()
 {
+    return position;
 }
 
-// STUB: 0x519E40 AgMemoryStream::vfn_5 (19 bytes)
-void AgMemoryStream::vfn_5()
+// FUNCTION: 0x519CF0 AgMemoryStream::getData
+void* AgMemoryStream::getData()
 {
+    return data;
 }
 
-// STUB: 0x519E60 AgMemoryStream::fn_519E60 (73 bytes)
-void AgMemoryStream::fn_519E60()
+// FUNCTION: 0x519E60 AgMemoryStream::setSize
+void AgMemoryStream::setSize(unsigned __int64 value)
 {
+    if (capacity < value) {
+        if (data)
+            operator delete[](data);
+        data = (char*)operator new[]((unsigned)value);
+        capacity = value;
+    }
+    size = value;
 }
 
-// STUB: 0x519EB0 AgMemoryStream::fn_519EB0 (199 bytes)
-void AgMemoryStream::fn_519EB0()
+// FUNCTION: 0x519EB0 AgMemoryStream::load
+unsigned AgMemoryStream::load(AgReference<AgStream> source)
 {
-}
-
-// STUB: 0x519F80 AgMemoryStream::vfn_3 (163 bytes)
-void AgMemoryStream::vfn_3()
-{
+    unsigned __int64 count = source.object->getSize();
+    unsigned __int64 end = position + count;
+    if (end > capacity) {
+        char* old = data;
+        data = (char*)operator new[]((unsigned)end);
+        memcpy(data, old, (unsigned)size);
+        operator delete[](old);
+        capacity = end;
+    }
+    source.object->read(data + (unsigned)position, (unsigned)count);
+    size = count;
+    return (unsigned)count;
 }

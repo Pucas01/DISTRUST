@@ -403,11 +403,6 @@ void sub_4D6220()
 {
 }
 
-// STUB: 0x4D6250 sub_4D6250 (126 bytes)
-void sub_4D6250()
-{
-}
-
 // STUB: 0x4D62D0 sub_4D62D0 (453 bytes)
 void sub_4D62D0()
 {

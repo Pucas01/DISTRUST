@@ -1,14 +1,8 @@
 #pragma once
 
 #include "engine/core/AgBuffer.h"
+#include "engine/core/AgObjectPool.h"
 #include "engine/io/AgStream.h"
-
-class AgObjectPool
-{
-public:
-    void* alloc();
-    void free(void* block);
-};
 
 extern AgObjectPool g_bufferStreamPool;
 

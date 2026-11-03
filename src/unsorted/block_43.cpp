@@ -118,11 +118,6 @@ void sub_432840()
 {
 }
 
-// STUB: 0x4329D0 sub_4329D0 (884 bytes)
-void sub_4329D0()
-{
-}
-
 // STUB: 0x432D50 sub_432D50 (15 bytes)
 void sub_432D50()
 {
@@ -575,11 +570,6 @@ void sub_43E360()
 
 // STUB: 0x43E440 sub_43E440 (56 bytes)
 void sub_43E440()
-{
-}
-
-// STUB: 0x43E480 sub_43E480 (154 bytes)
-void sub_43E480()
 {
 }
 

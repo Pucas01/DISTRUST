@@ -403,11 +403,6 @@ void sub_486340()
 {
 }
 
-// STUB: 0x486370 sub_486370 (598 bytes)
-void sub_486370()
-{
-}
-
 // STUB: 0x4866F0 sub_4866F0 (92 bytes)
 void sub_4866F0()
 {
@@ -850,11 +845,6 @@ void sub_48D500()
 
 // STUB: 0x48D540 sub_48D540 (15 bytes)
 void sub_48D540()
-{
-}
-
-// STUB: 0x48D560 sub_48D560 (198 bytes)
-void sub_48D560()
 {
 }
 
