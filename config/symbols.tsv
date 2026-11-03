@@ -8,7 +8,7 @@
 0x695DA0	g_695DA0	data
 0x69922D	g_69922D	data
 0x699234	g_699234	data
-0x69982C	g_69982C	data
+0x69982C	g_pendingTexture	data
 0x69FB1C	g_69FB1C	data
 0x6A5BC0	g_6A5BC0	data
 0x6A5DD9	g_6A5DD9	data
@@ -4778,3 +4778,13 @@
 0x623D2C	??_C@_0BI@FBFIFMNP@ins_time_sub_page_num_2?$AA@	data
 0x623C3C	??_C@_0BI@HACPLFJ@ins_time_sub_page_num_4?$AA@	data
 0x623D14	??_C@_0BI@HKHFAPBM@ins_time_sub_page_num_1?$AA@	data
+0x74817C	g_snapshotSource	data
+0x748188	g_snapshot	data
+0x74818C	g_74818C	data
+0x748190	g_748190	data
+0x748194	g_748194	data
+0x748198	g_748198	data
+0x7481B7	g_pendingArmed	data
+0x4D6520	resetSnapshot	func
+0x4D6560	releasePendingTexture	func
+0x4D6590	armPendingTexture	func

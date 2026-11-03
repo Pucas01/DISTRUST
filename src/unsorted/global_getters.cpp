@@ -1,7 +1,7 @@
 extern int g_695DA0;
 extern unsigned char g_69922D;
 extern int g_699234;
-extern int g_69982C;
+extern int g_pendingTexture;
 extern int g_69FB1C;
 extern int g_6A5BC0;
 extern unsigned short g_6E4660;
@@ -186,7 +186,7 @@ int __cdecl sub_4D06B0()
 // FUNCTION: 0x4D65A0 sub_4D65A0
 int __cdecl sub_4D65A0()
 {
-    return g_69982C;
+    return g_pendingTexture;
 }
 
 // FUNCTION: 0x4D6FC0 sub_4D6FC0
