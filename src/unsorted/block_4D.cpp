@@ -1036,11 +1036,6 @@ void sub_4DE8F0()
 {
 }
 
-// STUB: 0x4DEB10 sub_4DEB10 (833 bytes)
-void sub_4DEB10()
-{
-}
-
 // STUB: 0x4DEE60 sub_4DEE60 (312 bytes)
 void sub_4DEE60()
 {

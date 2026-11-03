@@ -18,11 +18,6 @@ void sub_4E04E0()
 {
 }
 
-// STUB: 0x4E0AC0 setSpriteRect (202 bytes)
-void setSpriteRect()
-{
-}
-
 // STUB: 0x4E0CB0 sub_4E0CB0 (233 bytes)
 void sub_4E0CB0()
 {

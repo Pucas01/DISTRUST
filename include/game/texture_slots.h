@@ -33,9 +33,9 @@ struct Sprite
     unsigned char active;
     unsigned char visible;
     unsigned char unk04;
-    unsigned char unk05;
-    unsigned char unk06;
-    unsigned char unk07;
+    unsigned char kind;
+    unsigned char mode;
+    unsigned char alpha;
     unsigned char unk08;
     unsigned char hasRect;
     unsigned char unk0A;
@@ -54,7 +54,9 @@ struct Sprite
     short y1a;
     short y0b;
     short y1b;
-    unsigned char unk28[0x30];
+    float cornerX[4];
+    float cornerY[4];
+    unsigned color[4];
 };
 
 struct SpriteBatch
@@ -123,7 +125,10 @@ bool __cdecl releaseTextureSlot(int index);
 void __cdecl clearTexture(unsigned index);
 int __cdecl duplicateTexture(int index, unsigned char mode);
 int __cdecl createTextureFromSource(const AgReference<TextureObject>& source);
-void __cdecl setSpriteRect(Sprite* sprite, int x, int y, int width, int height);
+int __cdecl drawSprite(short texture, float x, float y, float w, float h, int u, int v,
+                       float scaleX, float scaleY, float rotation, unsigned flags,
+                       int r, int g, int b, int a, short depth, unsigned char kind,
+                       unsigned char mode, int alpha);
 void __cdecl copyTexturePalette(int dstIndex, int srcIndex);
 
 extern short g_spriteCount;

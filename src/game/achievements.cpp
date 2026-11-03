@@ -1,4 +1,3 @@
-// FLAGS: /nologo /c /O2 /Oy- /Gy /GS /Zc:wchar_t
 #include "game/achievements.h"
 #include "steam/ISteamUserStats.h"
 

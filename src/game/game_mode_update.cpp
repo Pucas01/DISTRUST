@@ -1,4 +1,3 @@
-// FLAGS: /nologo /c /O2 /Oy- /Gy /GS /Zc:wchar_t /arch:SSE2 /fp:fast
 #include <math.h>
 #pragma strict_gs_check(on)
 #include <xmmintrin.h>

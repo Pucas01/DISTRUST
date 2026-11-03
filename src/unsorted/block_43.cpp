@@ -518,11 +518,6 @@ void sub_4372F0()
 {
 }
 
-// STUB: 0x437B00 sub_437B00 (428 bytes)
-void sub_437B00()
-{
-}
-
 // STUB: 0x437EC0 sub_437EC0 (13 bytes)
 void sub_437EC0()
 {
@@ -540,11 +535,6 @@ void sub_437F30()
 
 // STUB: 0x438110 sub_438110 (261 bytes)
 void sub_438110()
-{
-}
-
-// STUB: 0x438220 sub_438220 (135 bytes)
-void sub_438220()
 {
 }
 

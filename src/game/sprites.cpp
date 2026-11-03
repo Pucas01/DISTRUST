@@ -1,4 +1,3 @@
-// FLAGS: /nologo /c /O2 /Oy- /Gy /GS /Zc:wchar_t
 #include "game/texture_slots.h"
 
 // FUNCTION: 0x4DC440 allocSprite

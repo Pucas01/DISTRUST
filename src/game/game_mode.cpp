@@ -1,4 +1,3 @@
-// FLAGS: /nologo /c /O2 /Oy- /Gy /GS- /Zc:wchar_t
 #include "game/game_mode.h"
 
 // FUNCTION: 0x48D870 enterMode1C

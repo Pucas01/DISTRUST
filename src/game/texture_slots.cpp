@@ -1,4 +1,3 @@
-// FLAGS: /nologo /c /O2 /Oy- /Gy /GS- /Zc:wchar_t /arch:SSE2
 #include <string.h>
 #include "game/texture_slots.h"
 
