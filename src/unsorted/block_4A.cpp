@@ -686,11 +686,6 @@ void sub_4ACB30()
 {
 }
 
-// STUB: 0x4ACC80 sub_4ACC80 (13 bytes)
-void sub_4ACC80()
-{
-}
-
 // STUB: 0x4ACC90 sub_4ACC90 (689 bytes)
 void sub_4ACC90()
 {

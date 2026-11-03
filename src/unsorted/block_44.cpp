@@ -168,11 +168,6 @@ void sub_441C50()
 {
 }
 
-// STUB: 0x441C90 sub_441C90 (13 bytes)
-void sub_441C90()
-{
-}
-
 // STUB: 0x441CA0 sub_441CA0 (80 bytes)
 void sub_441CA0()
 {
@@ -190,11 +185,6 @@ void sub_441D40()
 
 // STUB: 0x441D60 sub_441D60 (25 bytes)
 void sub_441D60()
-{
-}
-
-// STUB: 0x441D80 sub_441D80 (13 bytes)
-void sub_441D80()
 {
 }
 

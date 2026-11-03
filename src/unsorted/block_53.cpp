@@ -168,11 +168,6 @@ void sub_532380()
 {
 }
 
-// STUB: 0x532420 sub_532420 (7 bytes)
-void sub_532420()
-{
-}
-
 // STUB: 0x532430 sub_532430 (179 bytes)
 void sub_532430()
 {

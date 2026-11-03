@@ -103,5 +103,6 @@ __declspec(noinline) AgSystemManager::~AgSystemManager()
 
 // FUNCTION: 0x51FC80 ??_GAgSystemManager@@UAEPAXI@Z
 
+// FUNCTION: 0x516BC0 ??1?$AgSingleton@VAgSystemManager@@@@UAE@XZ
 // FUNCTION: 0x516D40 ??_G?$AgSingleton@VAgSystemManager@@@@UAEPAXI@Z
 template class AgSingleton<AgSystemManager>;

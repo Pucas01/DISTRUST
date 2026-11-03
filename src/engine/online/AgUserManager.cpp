@@ -78,5 +78,6 @@ __declspec(noinline) AgUserManager::~AgUserManager()
 
 // FUNCTION: 0x527770 ??_GAgUserManager@@UAEPAXI@Z
 
+// FUNCTION: 0x527400 ??1?$AgSingleton@VAgUserManager@@@@UAE@XZ
 // FUNCTION: 0x527740 ??_G?$AgSingleton@VAgUserManager@@@@UAEPAXI@Z
 template class AgSingleton<AgUserManager>;

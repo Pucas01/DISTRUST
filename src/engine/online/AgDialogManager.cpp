@@ -28,5 +28,6 @@ __declspec(noinline) AgDialogManager::~AgDialogManager()
 
 // FUNCTION: 0x52A4D0 ??_GAgDialogManager@@UAEPAXI@Z
 
+// FUNCTION: 0x52A390 ??1?$AgSingleton@VAgDialogManager@@@@UAE@XZ
 // FUNCTION: 0x52A4A0 ??_G?$AgSingleton@VAgDialogManager@@@@UAEPAXI@Z
 template class AgSingleton<AgDialogManager>;

@@ -423,11 +423,6 @@ void sub_41A260()
 {
 }
 
-// STUB: 0x41A940 sub_41A940 (13 bytes)
-void sub_41A940()
-{
-}
-
 // STUB: 0x41A950 sub_41A950 (326 bytes)
 void sub_41A950()
 {
@@ -480,11 +475,6 @@ void sub_41AF30()
 
 // STUB: 0x41AF50 sub_41AF50 (47 bytes)
 void sub_41AF50()
-{
-}
-
-// STUB: 0x41AF80 sub_41AF80 (13 bytes)
-void sub_41AF80()
 {
 }
 
@@ -660,11 +650,6 @@ void sub_41EBB0()
 
 // STUB: 0x41EBD0 sub_41EBD0 (18 bytes)
 void sub_41EBD0()
-{
-}
-
-// STUB: 0x41EBF0 sub_41EBF0 (13 bytes)
-void sub_41EBF0()
 {
 }
 

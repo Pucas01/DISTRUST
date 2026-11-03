@@ -68,5 +68,6 @@ __declspec(noinline) AgLeaderboardManager::~AgLeaderboardManager()
 
 // FUNCTION: 0x52DDB0 ??_GAgLeaderboardManager@@UAEPAXI@Z
 
+// FUNCTION: 0x52CFC0 ??1?$AgSingleton@VAgLeaderboardManager@@@@UAE@XZ
 // FUNCTION: 0x52DC90 ??_G?$AgSingleton@VAgLeaderboardManager@@@@UAEPAXI@Z
 template class AgSingleton<AgLeaderboardManager>;

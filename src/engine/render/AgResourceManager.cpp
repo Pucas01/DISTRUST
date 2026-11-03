@@ -18,5 +18,6 @@ __declspec(noinline) AgResourceManager::~AgResourceManager()
 
 // FUNCTION: 0x532990 ??_GAgResourceManager@@UAEPAXI@Z
 
+// FUNCTION: 0x532420 ??1?$AgSingleton@VAgResourceManager@@@@UAE@XZ
 // FUNCTION: 0x532860 ??_G?$AgSingleton@VAgResourceManager@@@@UAEPAXI@Z
 template class AgSingleton<AgResourceManager>;

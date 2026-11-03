@@ -198,5 +198,6 @@ __declspec(noinline) AgFileSystem::~AgFileSystem()
 
 // FUNCTION: 0x509710 ??_GAgFileSystem@@UAEPAXI@Z
 
+// FUNCTION: 0x509110 ??1?$AgSingleton@VAgFileSystem@@@@UAE@XZ
 // FUNCTION: 0x5096E0 ??_G?$AgSingleton@VAgFileSystem@@@@UAEPAXI@Z
 template class AgSingleton<AgFileSystem>;

@@ -41,5 +41,6 @@ void AgDisplayManager::vfn_1()
 {
 }
 
+// FUNCTION: 0x512A30 ??1?$AgSingleton@VAgDisplayManager@@@@UAE@XZ
 // FUNCTION: 0x512C50 ??_G?$AgSingleton@VAgDisplayManager@@@@UAEPAXI@Z
 template class AgSingleton<AgDisplayManager>;

@@ -83,11 +83,6 @@ void sub_495C50()
 {
 }
 
-// STUB: 0x495D10 sub_495D10 (13 bytes)
-void sub_495D10()
-{
-}
-
 // STUB: 0x495D20 sub_495D20 (34 bytes)
 void sub_495D20()
 {
@@ -200,11 +195,6 @@ void sub_496C30()
 
 // STUB: 0x496D00 sub_496D00 (238 bytes)
 void sub_496D00()
-{
-}
-
-// STUB: 0x496DF0 sub_496DF0 (13 bytes)
-void sub_496DF0()
 {
 }
 

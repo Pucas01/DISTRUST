@@ -33,5 +33,6 @@ __declspec(noinline) AgBusyScreen::~AgBusyScreen()
 
 // FUNCTION: 0x5110C0 ??_GAgBusyScreen@@UAEPAXI@Z
 
+// FUNCTION: 0x510FC0 ??1?$AgSingleton@VAgBusyScreen@@@@UAE@XZ
 // FUNCTION: 0x511090 ??_G?$AgSingleton@VAgBusyScreen@@@@UAEPAXI@Z
 template class AgSingleton<AgBusyScreen>;

@@ -438,11 +438,6 @@ void sub_4D69C0()
 {
 }
 
-// STUB: 0x4D6A80 sub_4D6A80 (13 bytes)
-void sub_4D6A80()
-{
-}
-
 // STUB: 0x4D6A90 sub_4D6A90 (62 bytes)
 void sub_4D6A90()
 {
@@ -450,11 +445,6 @@ void sub_4D6A90()
 
 // STUB: 0x4D6AD0 sub_4D6AD0 (147 bytes)
 void sub_4D6AD0()
-{
-}
-
-// STUB: 0x4D6B70 sub_4D6B70 (13 bytes)
-void sub_4D6B70()
 {
 }
 

@@ -8,5 +8,6 @@ __declspec(noinline) AgLocalizationManager::~AgLocalizationManager()
 
 // FUNCTION: 0x4FEA60 ??_GAgLocalizationManager@@UAEPAXI@Z
 
+// FUNCTION: 0x4FE870 ??1?$AgSingleton@VAgLocalizationManager@@@@UAE@XZ
 // FUNCTION: 0x4FEA30 ??_G?$AgSingleton@VAgLocalizationManager@@@@UAEPAXI@Z
 template class AgSingleton<AgLocalizationManager>;

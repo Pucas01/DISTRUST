@@ -173,11 +173,6 @@ void sub_4E3440()
 {
 }
 
-// STUB: 0x4E3450 sub_4E3450 (13 bytes)
-void sub_4E3450()
-{
-}
-
 // STUB: 0x4E3460 sub_4E3460 (13 bytes)
 void sub_4E3460()
 {

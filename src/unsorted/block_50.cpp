@@ -648,11 +648,6 @@ void sub_509040()
 {
 }
 
-// STUB: 0x509110 sub_509110 (7 bytes)
-void sub_509110()
-{
-}
-
 // STUB: 0x509120 sub_509120 (97 bytes)
 void sub_509120()
 {
@@ -780,11 +775,6 @@ void sub_50CFD0()
 
 // STUB: 0x50D150 sub_50D150 (214 bytes)
 void sub_50D150()
-{
-}
-
-// STUB: 0x50D230 sub_50D230 (7 bytes)
-void sub_50D230()
 {
 }
 

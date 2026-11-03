@@ -173,23 +173,8 @@ void sub_423200()
 {
 }
 
-// STUB: 0x423240 sub_423240 (13 bytes)
-void sub_423240()
-{
-}
-
 // STUB: 0x423260 sub_423260 (28 bytes)
 void sub_423260()
-{
-}
-
-// STUB: 0x423280 sub_423280 (13 bytes)
-void sub_423280()
-{
-}
-
-// STUB: 0x4232A0 sub_4232A0 (13 bytes)
-void sub_4232A0()
 {
 }
 

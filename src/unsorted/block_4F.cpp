@@ -151,18 +151,8 @@ void sub_4F2610()
 {
 }
 
-// STUB: 0x4F2630 sub_4F2630 (13 bytes)
-void sub_4F2630()
-{
-}
-
 // STUB: 0x4F2640 sub_4F2640 (18 bytes)
 void sub_4F2640()
-{
-}
-
-// STUB: 0x4F2660 sub_4F2660 (13 bytes)
-void sub_4F2660()
 {
 }
 
@@ -458,11 +448,6 @@ void sub_4F6330()
 
 // STUB: 0x4F6400 sub_4F6400 (114 bytes)
 void sub_4F6400()
-{
-}
-
-// STUB: 0x4F6480 sub_4F6480 (7 bytes)
-void sub_4F6480()
 {
 }
 
@@ -921,11 +906,6 @@ void sub_4FE7F0()
 {
 }
 
-// STUB: 0x4FE870 sub_4FE870 (7 bytes)
-void sub_4FE870()
-{
-}
-
 // STUB: 0x4FE880 sub_4FE880 (97 bytes)
 void sub_4FE880()
 {
@@ -1028,11 +1008,6 @@ void sub_4FFA40()
 
 // STUB: 0x4FFB20 sub_4FFB20 (116 bytes)
 void sub_4FFB20()
-{
-}
-
-// STUB: 0x4FFBA0 sub_4FFBA0 (7 bytes)
-void sub_4FFBA0()
 {
 }
 

@@ -6,5 +6,6 @@ void AgNetworkManager::vfn_0()
 {
 }
 
+// FUNCTION: 0x52B320 ??1?$AgSingleton@VAgNetworkManager@@@@UAE@XZ
 // FUNCTION: 0x52B360 ??_G?$AgSingleton@VAgNetworkManager@@@@UAEPAXI@Z
 template class AgSingleton<AgNetworkManager>;

@@ -103,5 +103,6 @@ __declspec(noinline) AgInputManager::~AgInputManager()
 
 // FUNCTION: 0x4F73F0 ??_GAgInputManager@@UAEPAXI@Z
 
+// FUNCTION: 0x4F6480 ??1?$AgSingleton@VAgInputManager@@@@UAE@XZ
 // FUNCTION: 0x4F7330 ??_G?$AgSingleton@VAgInputManager@@@@UAEPAXI@Z
 template class AgSingleton<AgInputManager>;

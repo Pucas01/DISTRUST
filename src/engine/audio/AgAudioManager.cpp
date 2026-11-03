@@ -98,5 +98,6 @@ __declspec(noinline) AgAudioManager::~AgAudioManager()
 
 // FUNCTION: 0x50D460 ??_GAgAudioManager@@UAEPAXI@Z
 
+// FUNCTION: 0x50D230 ??1?$AgSingleton@VAgAudioManager@@@@UAE@XZ
 // FUNCTION: 0x50D430 ??_G?$AgSingleton@VAgAudioManager@@@@UAEPAXI@Z
 template class AgSingleton<AgAudioManager>;

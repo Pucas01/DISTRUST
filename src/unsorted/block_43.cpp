@@ -293,11 +293,6 @@ void sub_435080()
 {
 }
 
-// STUB: 0x4350A0 sub_4350A0 (13 bytes)
-void sub_4350A0()
-{
-}
-
 // STUB: 0x4350B0 sub_4350B0 (85 bytes)
 void sub_4350B0()
 {
@@ -515,11 +510,6 @@ void sub_436210()
 
 // STUB: 0x4372F0 sub_4372F0 (2056 bytes)
 void sub_4372F0()
-{
-}
-
-// STUB: 0x437EC0 sub_437EC0 (13 bytes)
-void sub_437EC0()
 {
 }
 

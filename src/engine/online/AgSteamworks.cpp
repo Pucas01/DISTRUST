@@ -16,5 +16,6 @@ void AgSteamworks::vfn_1()
 {
 }
 
+// FUNCTION: 0x516BB0 ??1?$AgSingleton@VAgSteamworks@@@@UAE@XZ
 // FUNCTION: 0x516D10 ??_G?$AgSingleton@VAgSteamworks@@@@UAEPAXI@Z
 template class AgSingleton<AgSteamworks>;

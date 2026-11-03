@@ -138,5 +138,6 @@ __declspec(noinline) AgPlayerManager::~AgPlayerManager()
 
 // FUNCTION: 0x520DF0 ??_GAgPlayerManager@@UAEPAXI@Z
 
+// FUNCTION: 0x520B80 ??1?$AgSingleton@VAgPlayerManager@@@@UAE@XZ
 // FUNCTION: 0x520DC0 ??_G?$AgSingleton@VAgPlayerManager@@@@UAEPAXI@Z
 template class AgSingleton<AgPlayerManager>;

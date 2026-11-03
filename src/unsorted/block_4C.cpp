@@ -138,18 +138,8 @@ void sub_4C3AA0()
 {
 }
 
-// STUB: 0x4C3C80 sub_4C3C80 (13 bytes)
-void sub_4C3C80()
-{
-}
-
 // STUB: 0x4C3C90 sub_4C3C90 (181 bytes)
 void sub_4C3C90()
-{
-}
-
-// STUB: 0x4C3D50 sub_4C3D50 (13 bytes)
-void sub_4C3D50()
 {
 }
 
@@ -220,11 +210,6 @@ void sub_4C4690()
 
 // STUB: 0x4C4A40 sub_4C4A40 (80 bytes)
 void sub_4C4A40()
-{
-}
-
-// STUB: 0x4C4A90 sub_4C4A90 (13 bytes)
-void sub_4C4A90()
 {
 }
 

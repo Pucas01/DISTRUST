@@ -313,11 +313,6 @@ void sub_484A90()
 {
 }
 
-// STUB: 0x484BF0 sub_484BF0 (13 bytes)
-void sub_484BF0()
-{
-}
-
 // STUB: 0x484C00 sub_484C00 (147 bytes)
 void sub_484C00()
 {
@@ -465,11 +460,6 @@ void sub_486AF0()
 
 // STUB: 0x486B60 sub_486B60 (30 bytes)
 void sub_486B60()
-{
-}
-
-// STUB: 0x486B80 sub_486B80 (13 bytes)
-void sub_486B80()
 {
 }
 
