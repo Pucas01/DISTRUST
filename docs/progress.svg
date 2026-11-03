@@ -3106,8 +3106,8 @@ src/unsorted/block_4D.cpp</title></rect>
 <rect x="242.83" y="487.72" width="18.07" height="17.99" class="s"><title>sub_4DDF90
 914 bytes, not rewritten
 src/unsorted/block_4D.cpp</title></rect>
-<rect x="242.83" y="506.31" width="18.07" height="16.34" class="s"><title>drawSprite
-833 bytes, not rewritten
+<rect x="242.83" y="506.31" width="18.07" height="16.34" class="p"><title>drawSprite
+833 bytes, non matching
 src/unsorted/block_4D.cpp</title></rect>
 <rect x="242.83" y="523.26" width="18.07" height="15.91" class="s"><title>sub_4D97C0
 812 bytes, not rewritten
@@ -3769,8 +3769,8 @@ src/unsorted/block_43.cpp</title></rect>
 <rect x="430.67" y="125.93" width="15.27" height="16.50" class="s"><title>sub_434000
 715 bytes, not rewritten
 src/unsorted/block_43.cpp</title></rect>
-<rect x="430.67" y="143.03" width="15.27" height="14.03" class="s"><title>sub_43B5E0
-612 bytes, not rewritten
+<rect x="430.67" y="143.03" width="15.27" height="14.03" class="m"><title>sub_43B5E0
+612 bytes, matching
 src/unsorted/block_43.cpp</title></rect>
 <rect x="446.54" y="70.40" width="15.59" height="13.63" class="s"><title>sub_433DA0
 607 bytes, not rewritten
@@ -3793,8 +3793,8 @@ src/unsorted/block_43.cpp</title></rect>
 <rect x="446.54" y="98.44" width="12.68" height="12.00" class="s"><title>sub_4318A0
 441 bytes, not rewritten
 src/unsorted/block_43.cpp</title></rect>
-<rect x="446.54" y="111.05" width="12.68" height="11.63" class="s"><title>sub_437B00
-428 bytes, not rewritten
+<rect x="446.54" y="111.05" width="12.68" height="11.63" class="p"><title>sub_437B00
+428 bytes, non matching
 src/unsorted/block_43.cpp</title></rect>
 <rect x="446.54" y="123.28" width="12.68" height="11.46" class="s"><title>sub_430C60
 422 bytes, not rewritten
@@ -3892,8 +3892,8 @@ src/unsorted/block_43.cpp</title></rect>
 <rect x="509.24" y="105.19" width="6.71" height="6.78" class="s"><title>sub_434FB0
 142 bytes, not rewritten
 src/unsorted/block_43.cpp</title></rect>
-<rect x="516.55" y="105.19" width="6.35" height="6.78" class="s"><title>sub_438220
-135 bytes, not rewritten
+<rect x="516.55" y="105.19" width="6.35" height="6.78" class="m"><title>sub_438220
+135 bytes, matching
 src/unsorted/block_43.cpp</title></rect>
 <rect x="477.44" y="112.56" width="6.87" height="6.21" class="s"><title>sub_4353E0
 134 bytes, not rewritten
@@ -4438,8 +4438,8 @@ src/unsorted/block_4E.cpp</title></rect>
 <rect x="452.79" y="276.11" width="7.76" height="8.85" class="s"><title>sub_4E2D80
 208 bytes, not rewritten
 src/unsorted/block_4E.cpp</title></rect>
-<rect x="452.79" y="285.55" width="7.76" height="8.57" class="s"><title>setSpriteRect
-202 bytes, not rewritten
+<rect x="452.79" y="285.55" width="7.76" height="8.57" class="m"><title>setSpriteRect
+202 bytes, matching
 src/unsorted/block_4E.cpp</title></rect>
 <rect x="452.79" y="294.72" width="7.76" height="8.57" class="s"><title>sub_4E32B0
 202 bytes, not rewritten
