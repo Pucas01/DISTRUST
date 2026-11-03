@@ -1041,16 +1041,6 @@ void sub_4DE3A0()
 {
 }
 
-// STUB: 0x4DE850 sub_4DE850 (30 bytes)
-void sub_4DE850()
-{
-}
-
-// STUB: 0x4DE870 sub_4DE870 (30 bytes)
-void sub_4DE870()
-{
-}
-
 // STUB: 0x4DE890 sub_4DE890 (29 bytes)
 void sub_4DE890()
 {

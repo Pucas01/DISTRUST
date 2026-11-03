@@ -4201,3 +4201,6 @@
 0x5F957F	_powhlp	func
 0x60F230	__clean_type_info_names	func
 0x73E3EE	g_anagram	data
+0x74C1AC	g_entries	data
+0x4DE850	enableEntry	func
+0x4DE870	disableEntry	func
