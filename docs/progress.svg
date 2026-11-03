@@ -20452,8 +20452,8 @@ src/engine/system/AgSystemManager.cpp</title></rect>
 <rect x="983.52" y="410.22" width="1.38" height="1.28" class="s"><title>AgSystemManager::fn_520080
 6 bytes, not rewritten
 src/engine/system/AgSystemManager.cpp</title></rect>
-<rect x="984.90" y="410.22" width="0.69" height="1.28" class="s"><title>AgSystemManager::vfn_7
-3 bytes, not rewritten
+<rect x="984.90" y="410.22" width="0.69" height="1.28" class="m"><title>AgSystemManager::vfn_7
+3 bytes, matching
 src/engine/system/AgSystemManager.cpp</title></rect>
 <rect x="960.11" y="413.80" width="5.47" height="9.12" class="m"><title>??0LockQueueNode@details@Concurrency@@QAE@I@Z
 201 bytes, matching
@@ -21634,11 +21634,11 @@ src/engine/io/AgMount.cpp</title></rect>
 <rect x="1128.83" y="425.94" width="1.41" height="2.17" class="s"><title>AgMount::fn_502DB0
 11 bytes, not rewritten
 src/engine/io/AgMount.cpp</title></rect>
-<rect x="1130.23" y="425.94" width="1.28" height="1.08" class="s"><title>AgMount::vfn_7
-5 bytes, not rewritten
+<rect x="1130.23" y="425.94" width="1.28" height="1.08" class="m"><title>AgMount::vfn_7
+5 bytes, matching
 src/engine/io/AgMount.cpp</title></rect>
-<rect x="1130.23" y="427.03" width="1.28" height="1.08" class="s"><title>AgMount::vfn_8
-5 bytes, not rewritten
+<rect x="1130.23" y="427.03" width="1.28" height="1.08" class="m"><title>AgMount::vfn_8
+5 bytes, matching
 src/engine/io/AgMount.cpp</title></rect>
 <rect x="1133.81" y="409.75" width="8.42" height="7.04" class="s"><title>AgMemoryStream::fn_519BE0
 249 bytes, not rewritten
@@ -24538,8 +24538,8 @@ src/lib/crt/wcscpy_s.cpp</title></rect>
 <rect x="1166.04" y="536.61" width="4.87" height="4.91" class="s"><title>AgPlatformRenderListProcessor::vfn_0
 88 bytes, not rewritten
 src/engine/render/AgPlatformRenderListProcessor.cpp</title></rect>
-<rect x="1171.21" y="536.31" width="0.19" height="5.51" class="s"><title>AgPlatformRenderListProcessor::vfn_8
-3 bytes, not rewritten
+<rect x="1171.21" y="536.31" width="0.19" height="5.51" class="m"><title>AgPlatformRenderListProcessor::vfn_8
+3 bytes, matching
 src/engine/render/AgPlatformRenderListProcessor.cpp</title></rect>
 <rect x="1171.69" y="536.61" width="4.94" height="4.91" class="s"><title>AgServiceEventManager::vfn_0
 89 bytes, not rewritten
