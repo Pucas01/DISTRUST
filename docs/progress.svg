@@ -3616,11 +3616,11 @@ src/unsorted/block_4D.cpp</title></rect>
 <rect x="344.41" y="577.54" width="2.94" height="2.73" class="s"><title>sub_4D79A0
 31 bytes, not rewritten
 src/unsorted/block_4D.cpp</title></rect>
-<rect x="344.41" y="580.86" width="2.94" height="2.62" class="s"><title>sub_4DE850
-30 bytes, not rewritten
+<rect x="344.41" y="580.86" width="2.94" height="2.62" class="m"><title>sub_4DE850
+30 bytes, matching
 src/unsorted/block_4D.cpp</title></rect>
-<rect x="344.41" y="584.08" width="2.94" height="2.62" class="s"><title>sub_4DE870
-30 bytes, not rewritten
+<rect x="344.41" y="584.08" width="2.94" height="2.62" class="m"><title>sub_4DE870
+30 bytes, matching
 src/unsorted/block_4D.cpp</title></rect>
 <rect x="347.95" y="570.78" width="2.62" height="2.82" class="s"><title>sub_4D4790
 29 bytes, not rewritten
