@@ -1,10 +1,5 @@
 #include "engine/system/AgPCSystemManager.gen.h"
 
-// STUB: 0x516D70 AgPCSystemManager::vfn_0 (33 bytes)
-void AgPCSystemManager::vfn_0()
-{
-}
-
 // STUB: 0x5173C0 AgPCSystemManager::vfn_6 (779 bytes)
 void AgPCSystemManager::vfn_6()
 {
@@ -54,3 +49,10 @@ void AgPCSystemManager::fn_518AA0()
 void AgPCSystemManager::vfn_7()
 {
 }
+
+// STUB: 0x516BD0 AgPCSystemManager::~AgPCSystemManager (157 bytes)
+__declspec(noinline) AgPCSystemManager::~AgPCSystemManager()
+{
+}
+
+// FUNCTION: 0x516D70 ??_GAgPCSystemManager@@UAEPAXI@Z

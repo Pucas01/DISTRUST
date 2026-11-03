@@ -6,7 +6,7 @@ class AgMoviePlayer
 {
 public:
     // vtable 0x632564, offset 0
-    virtual void vfn_0(); // 0x51A380
+    virtual ~AgMoviePlayer(); // 0x51A380
     virtual void vfn_1(); // 0x51A6A0
     virtual void vfn_2(); // 0x51A960
     virtual void vfn_3(); // 0x4135B0

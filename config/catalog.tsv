@@ -395,7 +395,7 @@
 0x41EBD0	18	sub_41EBD0		unsorted	block_41	unknown	stub
 0x41EBF0	13	sub_41EBF0		unsorted	block_41	unknown	stub
 0x41EC00	2129	sub_41EC00		unsorted	block_41	unknown	stub
-0x41F460	38	sub_41F460		unsorted	block_41	unknown	stub
+0x41F460	38	sub_41F460		unsorted	block_41	unknown	done
 0x41F490	28	sub_41F490		unsorted	block_41	unknown	stub
 0x41F4B0	2652	sub_41F4B0		unsorted	block_41	unknown	stub
 0x41FF10	230	sub_41FF10		unsorted	block_41	unknown	stub
@@ -444,7 +444,7 @@
 0x4232B0	38	sub_4232B0		unsorted	block_42	unknown	stub
 0x4232E0	615	sub_4232E0		unsorted	block_42	unknown	stub
 0x423550	1260	sub_423550		unsorted	block_42	unknown	stub
-0x423A40	36	sub_423A40		unsorted	block_42	unknown	stub
+0x423A40	36	sub_423A40		unsorted	block_42	unknown	done
 0x423A70	78	sub_423A70		unsorted	block_42	unknown	stub
 0x423AC0	264	sub_423AC0		unsorted	block_42	unknown	stub
 0x423BD0	361	sub_423BD0		unsorted	block_42	unknown	stub
@@ -592,14 +592,23 @@
 0x436210	4314	sub_436210		unsorted	block_43	unknown	stub
 0x4372F0	2056	sub_4372F0		unsorted	block_43	unknown	stub
 0x437B00	428	sub_437B00		unsorted	block_43	unknown	stub
+0x437CB0	289	screenStateCase4		game	screen_text	unknown	done
+0x437DE0	214	screenStateAdvance		game	screen_state	unknown	done
 0x437EC0	13	sub_437EC0		unsorted	block_43	unknown	stub
 0x437ED0	85	sub_437ED0		unsorted	block_43	unknown	stub
 0x437F30	70	sub_437F30		unsorted	block_43	unknown	stub
+0x437F80	118	screenStateCase0		game	screen_fade	unknown	done
+0x438000	118	screenStateCase1		game	screen_fade	unknown	done
+0x438080	133	screenStateCase2		game	screen_fade	unknown	done
 0x438110	261	sub_438110		unsorted	block_43	unknown	stub
-0x438220	135	sub_438220		unsorted	block_43	unknown	stub
+0x438220	135	sub_438220		unsorted	block_43	unknown	done
 0x4382E0	10987	sub_4382E0		unsorted	block_43	unknown	stub
 0x43ADD0	2062	sub_43ADD0		unsorted	block_43	unknown	stub
-0x43B5E0	612	sub_43B5E0		unsorted	block_43	unknown	stub
+0x43B5E0	612	sub_43B5E0		unsorted	block_43	unknown	done
+0x43B850	590	screenStateCase5		game	screen_menu	unknown	done
+0x43BAA0	162	screenStateCase9		game	screen_fade	unknown	done
+0x43BB50	123	screenStateCase7		game	screen_fade	unknown	done
+0x43BBD0	82	screenStateCase8		game	screen_fade	unknown	done
 0x43BC30	28	sub_43BC30		unsorted	block_43	unknown	stub
 0x43BC50	25	sub_43BC50		unsorted	block_43	unknown	stub
 0x43BD00	6897	sub_43BD00		unsorted	block_43	unknown	stub
@@ -775,7 +784,7 @@
 0x457230	231	sub_457230		unsorted	block_45	unknown	stub
 0x457320	1241	sub_457320		unsorted	block_45	unknown	stub
 0x457800	126	sub_457800		unsorted	block_45	unknown	stub
-0x457880	24	sub_457880		unsorted	block_45	unknown	stub
+0x457880	24	sub_457880		unsorted	block_45	unknown	done
 0x4578A0	3536	sub_4578A0		unsorted	block_45	unknown	stub
 0x4586A0	153	sub_4586A0		unsorted	block_45	unknown	stub
 0x458740	171	sub_458740		unsorted	block_45	unknown	stub
@@ -838,14 +847,14 @@
 0x462D80	27	sub_462D80		unsorted	block_46	unknown	stub
 0x462DA0	52	sub_462DA0		unsorted	block_46	unknown	stub
 0x462DE0	23	sub_462DE0		unsorted	block_46	unknown	stub
-0x462E00	28	sub_462E00		unsorted	block_46	unknown	stub
+0x462E00	28	sub_462E00		unsorted	block_46	unknown	done
 0x462E20	6	sub_462E20		unsorted	global_getters	unknown	done
 0x462E30	13	sub_462E30		unsorted	block_46	unknown	stub
 0x462E40	48	sub_462E40		unsorted	block_46	unknown	stub
 0x462E70	103	sub_462E70		unsorted	block_46	unknown	stub
 0x462EE0	13	sub_462EE0		unsorted	block_46	unknown	stub
 0x462EF0	73	sub_462EF0		unsorted	block_46	unknown	stub
-0x462F40	26	sub_462F40		unsorted	block_46	unknown	stub
+0x462F40	26	sub_462F40		unsorted	block_46	unknown	done
 0x462F60	44	sub_462F60		unsorted	block_46	unknown	stub
 0x462F90	18	sub_462F90		unsorted	block_46	unknown	stub
 0x462FB0	123	sub_462FB0		unsorted	block_46	unknown	stub
@@ -854,7 +863,7 @@
 0x463090	145	sub_463090		unsorted	block_46	unknown	stub
 0x463160	5	sub_463160		unsorted	thunks	unknown	done
 0x463170	20	sub_463170		unsorted	block_46	unknown	stub
-0x463190	117	sub_463190		unsorted	block_46	unknown	stub
+0x463190	117	sub_463190		unsorted	block_46	unknown	done
 0x463210	84	sub_463210		unsorted	block_46	unknown	stub
 0x463270	20	sub_463270		unsorted	block_46	unknown	stub
 0x463290	100	sub_463290		unsorted	block_46	unknown	stub
@@ -967,7 +976,7 @@
 0x46CFA0	81	sub_46CFA0		unsorted	block_46	unknown	stub
 0x46D000	79	sub_46D000		unsorted	block_46	unknown	stub
 0x46D050	79	sub_46D050		unsorted	block_46	unknown	stub
-0x46D0A0	33	sub_46D0A0		unsorted	block_46	unknown	stub
+0x46D0A0	33	sub_46D0A0		unsorted	block_46	unknown	done
 0x46D0D0	344	sub_46D0D0		unsorted	block_46	unknown	stub
 0x46D230	267	sub_46D230		unsorted	block_46	unknown	stub
 0x46D370	1385	sub_46D370		unsorted	block_46	unknown	stub
@@ -977,14 +986,14 @@
 0x46D9A0	56	sub_46D9A0		unsorted	block_46	unknown	stub
 0x46D9E0	63	sub_46D9E0		unsorted	block_46	unknown	stub
 0x46DA20	74	sub_46DA20		unsorted	block_46	unknown	stub
-0x46DA70	46	sub_46DA70		unsorted	block_46	unknown	stub
+0x46DA70	46	sub_46DA70		unsorted	block_46	unknown	done
 0x46DAA0	46	sub_46DAA0		unsorted	block_46	unknown	stub
 0x46DAD0	56	sub_46DAD0		unsorted	block_46	unknown	stub
 0x46DB10	53	sub_46DB10		unsorted	block_46	unknown	stub
-0x46DB50	63	sub_46DB50		unsorted	block_46	unknown	stub
+0x46DB50	63	sub_46DB50		unsorted	block_46	unknown	done
 0x46DB90	74	resetVertexColors		unsorted	block_46	unknown	stub
-0x46DBE0	46	sub_46DBE0		unsorted	block_46	unknown	stub
-0x46DC10	46	sub_46DC10		unsorted	block_46	unknown	stub
+0x46DBE0	46	sub_46DBE0		unsorted	block_46	unknown	done
+0x46DC10	46	sub_46DC10		unsorted	block_46	unknown	done
 0x46DC40	56	sub_46DC40		unsorted	block_46	unknown	stub
 0x46DC80	63	sub_46DC80		unsorted	block_46	unknown	stub
 0x46DCC0	93	sub_46DCC0		unsorted	block_46	unknown	stub
@@ -1002,7 +1011,7 @@
 0x46E710	52	sub_46E710		unsorted	block_46	unknown	stub
 0x46E750	144	sub_46E750		unsorted	block_46	unknown	stub
 0x46E7E0	127	sub_46E7E0		unsorted	block_46	unknown	stub
-0x46E860	65	sub_46E860		unsorted	block_46	unknown	stub
+0x46E860	65	sub_46E860		unsorted	block_46	unknown	done
 0x46E8B0	117	sub_46E8B0		unsorted	block_46	unknown	stub
 0x46E930	24	sub_46E930		unsorted	block_46	unknown	stub
 0x46E950	54	sub_46E950		unsorted	block_46	unknown	stub
@@ -1125,7 +1134,7 @@
 0x476110	147	sub_476110		unsorted	block_47	unknown	stub
 0x4761B0	268	sub_4761B0		unsorted	block_47	unknown	stub
 0x4762C0	131	sub_4762C0		unsorted	block_47	unknown	stub
-0x476350	33	sub_476350		unsorted	block_47	unknown	stub
+0x476350	33	sub_476350		unsorted	block_47	unknown	done
 0x476380	33	sub_476380		unsorted	block_47	unknown	stub
 0x4763B0	54	sub_4763B0		unsorted	block_47	unknown	stub
 0x4763F0	33	sub_4763F0		unsorted	block_47	unknown	stub
@@ -1484,10 +1493,41 @@
 0x48E360	125	sub_48E360		unsorted	block_48	unknown	stub
 0x48E3E0	90	sub_48E3E0		unsorted	block_48	unknown	stub
 0x48E440	474	sub_48E440		unsorted	block_48	unknown	stub
+0x48E620	330	updateAnagramCleared		game	game_mode_update	unknown	done
+0x48E770	291	updateAnagramFailed		game	game_mode_update	unknown	done
 0x48E8A0	1532	sub_48E8A0		unsorted	block_48	unknown	stub
 0x48EEA0	1250	sub_48EEA0		unsorted	block_48	unknown	stub
 0x48F390	621	sub_48F390		unsorted	block_48	unknown	stub
+0x48F600	291	updateAnagramTimeUp		game	game_mode_update	unknown	done
 0x48F730	19143	sub_48F730		unsorted	block_48	unknown	stub
+0x48F870	727	updateMode1D		game	game_mode_update	unknown	done
+0x48FB50	433	updateMode1C		game	game_mode_update	unknown	done
+0x48FD10	185	updateMode1F		game	game_mode_update	unknown	done
+0x48FDD0	169	updateMode1E		game	game_mode_update	unknown	done
+0x48FE80	574	updateMode01		game	game_mode_update	unknown	done
+0x4900C0	157	updateMode0D		game	game_mode_update	unknown	done
+0x490160	163	updateMode13		game	game_mode_update	unknown	done
+0x490210	1120	updateNonstopStart		game	game_mode_update	unknown	done
+0x490670	305	updateMode0E		game	game_mode_update	unknown	done
+0x4907B0	105	updateMode0F		game	game_mode_update	unknown	done
+0x490820	339	updateMode0C		game	game_mode_update	unknown	done
+0x491160	163	updateMode14		game	game_mode_update	unknown	done
+0x491210	197	updateMode15		game	game_mode_update	unknown	done
+0x4912E0	163	updateMode12		game	game_mode_update	unknown	done
+0x491390	111	updateMode10		game	game_mode_update	unknown	done
+0x491400	83	updateMode11		game	game_mode_update	unknown	done
+0x491460	364	updateMode27		game	game_mode_update	unknown	done
+0x493860	359	updateMode26		game	game_mode_update	unknown	done
+0x4939D0	293	updateMode24		game	game_mode_update	unknown	done
+0x493B00	421	updateMode25		game	game_mode_update	unknown	done
+0x493CB0	101	updateMode07		game	game_mode_update	unknown	done
+0x493D20	101	updateMode08		game	game_mode_update	unknown	done
+0x493D90	351	updateMode02		game	game_mode_update	unknown	done
+0x493EF0	161	updateMode09		game	game_mode_update	unknown	done
+0x493FA0	167	updateMode04		game	game_mode_update	unknown	done
+0x494050	202	updateMode03		game	game_mode_update	unknown	done
+0x494120	101	updateMode05		game	game_mode_update	unknown	done
+0x494190	103	updateMode06		game	game_mode_update	unknown	done
 0x494200	290	sub_494200		unsorted	block_49	unknown	stub
 0x494330	554	sub_494330		unsorted	block_49	unknown	stub
 0x494560	81	sub_494560		unsorted	block_49	unknown	stub
@@ -1890,7 +1930,7 @@
 0x4B1E90	38	sub_4B1E90		unsorted	block_4B	unknown	stub
 0x4B1EC0	17	CCallback<DRApplication,GameOverlayActivated_t>::vfn_1	CCallback<DRApplication,GameOverlayActivated_t>	game	CCallback_DRApplication_GameOverlayActivated_t	virtual	stub
 0x4B1EE0	23	CCallback<DRApplication,GameOverlayActivated_t>::vfn_0	CCallback<DRApplication,GameOverlayActivated_t>	game	CCallback_DRApplication_GameOverlayActivated_t	virtual	stub
-0x4B1F00	84	AgReferencedObject::acquire		unsorted	block_4B	unknown	stub
+0x4B1F00	84	AgReferencedObject::acquire		unsorted	block_4B	unknown	done
 0x4B1F60	133	sub_4B1F60		unsorted	block_4B	unknown	stub
 0x4B1FF0	220	sub_4B1FF0		unsorted	block_4B	unknown	stub
 0x4B20D0	424	sub_4B20D0		unsorted	block_4B	unknown	stub
@@ -1902,7 +1942,7 @@
 0x4B2400	133	sub_4B2400		unsorted	block_4B	unknown	stub
 0x4B2490	5	sub_4B2490		unsorted	thunks	unknown	done
 0x4B24A0	82	sub_4B24A0		unsorted	block_4B	unknown	stub
-0x4B2500	51	AgControlBlock::addRef		unsorted	block_4B	unknown	stub
+0x4B2500	51	AgControlBlock::addRef		unsorted	block_4B	unknown	done
 0x4B2540	205	sub_4B2540		unsorted	block_4B	unknown	stub
 0x4B2610	112	DRApplication::vfn_5	DRApplication	game	DRApplication	virtual	stub
 0x4B2680	121	DRApplication::vfn_2	DRApplication	game	DRApplication	virtual	stub
@@ -2003,7 +2043,7 @@
 0x4B94A0	4	sub_4B94A0		unsorted	block_4B	unknown	stub
 0x4B94B0	12	sub_4B94B0		unsorted	global_tests	unknown	done
 0x4B94C0	2033	sub_4B94C0		unsorted	block_4B	unknown	stub
-0x4B9CC0	21	sub_4B9CC0		unsorted	block_4B	unknown	stub
+0x4B9CC0	21	sub_4B9CC0		unsorted	block_4B	unknown	done
 0x4B9CE0	656	sub_4B9CE0		unsorted	block_4B	unknown	stub
 0x4B9F70	227	sub_4B9F70		unsorted	block_4B	unknown	stub
 0x4BA060	8	sub_4BA060		unsorted	block_4B	unknown	stub
@@ -2114,7 +2154,7 @@
 0x4C3D50	13	sub_4C3D50		unsorted	block_4C	unknown	stub
 0x4C3D60	90	sub_4C3D60		unsorted	block_4C	unknown	stub
 0x4C3DC0	73	sub_4C3DC0		unsorted	block_4C	unknown	stub
-0x4C3E10	18	sub_4C3E10		unsorted	block_4C	unknown	stub
+0x4C3E10	18	sub_4C3E10		unsorted	block_4C	unknown	done
 0x4C3E30	338	AgObjectPool::alloc		unsorted	block_4C	unknown	stub
 0x4C3F90	82	sub_4C3F90		unsorted	block_4C	unknown	stub
 0x4C3FF0	122	AgObjectPool::free		unsorted	block_4C	unknown	stub
@@ -2137,12 +2177,12 @@
 0x4C4CB0	183	sub_4C4CB0		unsorted	block_4C	unknown	stub
 0x4C4D70	138	sub_4C4D70		unsorted	block_4C	unknown	stub
 0x4C4E00	186	sub_4C4E00		unsorted	block_4C	unknown	stub
-0x4C4F70	13	sub_4C4F70		unsorted	block_4C	unknown	stub
+0x4C4F70	13	sub_4C4F70		unsorted	block_4C	unknown	done
 0x4C4F80	900	sub_4C4F80		unsorted	block_4C	unknown	stub
 0x4C5310	11	sub_4C5310		unsorted	global_setters	unknown	done
 0x4C5320	11	sub_4C5320		unsorted	global_setters	unknown	done
 0x4C5330	21	sub_4C5330		unsorted	block_4C	unknown	stub
-0x4C5350	131	sub_4C5350		unsorted	block_4C	unknown	stub
+0x4C5350	131	sub_4C5350		unsorted	block_4C	unknown	done
 0x4C53E0	224	sub_4C53E0		unsorted	block_4C	unknown	stub
 0x4C54C0	7	sub_4C54C0		unsorted	block_4C	unknown	stub
 0x4C54F0	34	AgIThreadHost::vfn_0	AgIThreadHost	engine/thread	AgIThreadHost	virtual	stub
@@ -2159,7 +2199,7 @@
 0x4C5D30	433	DRFileIOHost::fn_4C5D30	DRFileIOHost	engine/io	DRFileIOHost	inferred	stub
 0x4C5EF0	187	DRFileIOHost::fn_4C5EF0	DRFileIOHost	engine/io	DRFileIOHost	inferred	stub
 0x4C5FC0	206	DRFileIOHost::fn_4C5FC0	DRFileIOHost	engine/io	DRFileIOHost	inferred	stub
-0x4C6090	18	DRFileIOHost::fn_4C6090	DRFileIOHost	engine/io	DRFileIOHost	inferred	stub
+0x4C6090	18	DRFileIOHost::fn_4C6090	DRFileIOHost	engine/io	DRFileIOHost	inferred	done
 0x4C60B0	164	DRFileIOHost::fn_4C60B0	DRFileIOHost	engine/io	DRFileIOHost	inferred	stub
 0x4C6160	36	DRFileIOHost::fn_4C6160	DRFileIOHost	engine/io	DRFileIOHost	inferred	stub
 0x4C6190	11	DRFileIOHost::vfn_4	DRFileIOHost	engine/io	DRFileIOHost	virtual	stub
@@ -2168,7 +2208,7 @@
 0x4C65B0	44	sub_4C65B0		unsorted	block_4C	unknown	stub
 0x4C65E0	96	sub_4C65E0		unsorted	block_4C	unknown	stub
 0x4C6640	72	sub_4C6640		unsorted	block_4C	unknown	stub
-0x4C6690	47	sub_4C6690		unsorted	block_4C	unknown	stub
+0x4C6690	47	sub_4C6690		unsorted	block_4C	unknown	done
 0x4C66C0	65	sub_4C66C0		unsorted	block_4C	unknown	stub
 0x4C6710	121	sub_4C6710		unsorted	block_4C	unknown	stub
 0x4C6790	108	sub_4C6790		unsorted	block_4C	unknown	stub
@@ -2197,32 +2237,32 @@
 0x4C8640	333	sub_4C8640		unsorted	block_4C	unknown	stub
 0x4C8790	223	sub_4C8790		unsorted	block_4C	unknown	stub
 0x4C8870	100	sub_4C8870		unsorted	block_4C	unknown	stub
-0x4C88E0	39	sub_4C88E0		unsorted	block_4C	unknown	stub
-0x4C8910	130	sub_4C8910		unsorted	block_4C	unknown	stub
+0x4C88E0	39	sub_4C88E0		unsorted	block_4C	unknown	done
+0x4C8910	130	sub_4C8910		unsorted	block_4C	unknown	done
 0x4C89A0	322	sub_4C89A0		unsorted	block_4C	unknown	stub
-0x4C8AF0	42	sub_4C8AF0		unsorted	block_4C	unknown	stub
+0x4C8AF0	42	sub_4C8AF0		unsorted	block_4C	unknown	done
 0x4C8B20	42	sub_4C8B20		unsorted	block_4C	unknown	stub
 0x4C8B50	58	sub_4C8B50		unsorted	block_4C	unknown	stub
-0x4C8B90	125	sub_4C8B90		unsorted	block_4C	unknown	stub
+0x4C8B90	125	sub_4C8B90		unsorted	block_4C	unknown	done
 0x4C8C10	28	sub_4C8C10		unsorted	block_4C	unknown	stub
-0x4C8C30	28	sub_4C8C30		unsorted	block_4C	unknown	stub
-0x4C8C50	30	sub_4C8C50		unsorted	block_4C	unknown	stub
+0x4C8C30	28	sub_4C8C30		unsorted	block_4C	unknown	done
+0x4C8C50	30	sub_4C8C50		unsorted	block_4C	unknown	done
 0x4C8C70	28	sub_4C8C70		unsorted	block_4C	unknown	stub
 0x4C8C90	28	sub_4C8C90		unsorted	block_4C	unknown	stub
-0x4C8CB0	70	sub_4C8CB0		unsorted	block_4C	unknown	stub
+0x4C8CB0	70	sub_4C8CB0		unsorted	block_4C	unknown	done
 0x4C8D00	35	sub_4C8D00		unsorted	block_4C	unknown	stub
 0x4C8D30	82	sub_4C8D30		unsorted	block_4C	unknown	stub
 0x4C8D90	82	sub_4C8D90		unsorted	block_4C	unknown	stub
-0x4C8DF0	82	sub_4C8DF0		unsorted	block_4C	unknown	stub
+0x4C8DF0	82	sub_4C8DF0		unsorted	block_4C	unknown	done
 0x4C8E50	175	sub_4C8E50		unsorted	block_4C	unknown	stub
 0x4C8F00	348	sub_4C8F00		unsorted	block_4C	unknown	stub
 0x4C9060	244	sub_4C9060		unsorted	block_4C	unknown	stub
 0x4C9160	82	sub_4C9160		unsorted	block_4C	unknown	stub
-0x4C91C0	84	sub_4C91C0		unsorted	block_4C	unknown	stub
-0x4C9220	108	sub_4C9220		unsorted	block_4C	unknown	stub
+0x4C91C0	84	sub_4C91C0		unsorted	block_4C	unknown	done
+0x4C9220	108	sub_4C9220		unsorted	block_4C	unknown	done
 0x4C9290	122	sub_4C9290		unsorted	block_4C	unknown	stub
-0x4C9310	26	sub_4C9310		unsorted	block_4C	unknown	stub
-0x4C9330	102	sub_4C9330		unsorted	block_4C	unknown	stub
+0x4C9310	26	sub_4C9310		unsorted	block_4C	unknown	done
+0x4C9330	102	sub_4C9330		unsorted	block_4C	unknown	done
 0x4C93A0	57	sub_4C93A0		unsorted	block_4C	unknown	stub
 0x4C93E0	96	sub_4C93E0		unsorted	block_4C	unknown	stub
 0x4C9440	84	sub_4C9440		unsorted	block_4C	unknown	stub
@@ -2274,12 +2314,12 @@
 0x4CE730	29	sub_4CE730		unsorted	block_4C	unknown	stub
 0x4CE750	103	sub_4CE750		unsorted	block_4C	unknown	stub
 0x4CE7C0	495	sub_4CE7C0		unsorted	block_4C	unknown	stub
-0x4CE9B0	32	sub_4CE9B0		unsorted	block_4C	unknown	stub
+0x4CE9B0	32	sub_4CE9B0		unsorted	block_4C	unknown	done
 0x4CE9D0	267	sub_4CE9D0		unsorted	block_4C	unknown	stub
 0x4CEAE0	58	sub_4CEAE0		unsorted	block_4C	unknown	stub
 0x4CEB20	122	sub_4CEB20		unsorted	block_4C	unknown	stub
 0x4CEBA0	3496	sub_4CEBA0		unsorted	block_4C	unknown	stub
-0x4CF950	32	sub_4CF950		unsorted	block_4C	unknown	stub
+0x4CF950	32	sub_4CF950		unsorted	block_4C	unknown	done
 0x4CF970	45	sub_4CF970		unsorted	block_4C	unknown	stub
 0x4CF9A0	32	sub_4CF9A0		unsorted	block_4C	unknown	stub
 0x4CF9C0	80	sub_4CF9C0		unsorted	block_4C	unknown	stub
@@ -2289,10 +2329,10 @@
 0x4D00D0	654	sub_4D00D0		unsorted	block_4D	unknown	stub
 0x4D0360	97	sub_4D0360		unsorted	block_4D	unknown	stub
 0x4D03D0	612	sub_4D03D0		unsorted	block_4D	unknown	stub
-0x4D0640	35	sub_4D0640		unsorted	block_4D	unknown	stub
+0x4D0640	35	sub_4D0640		unsorted	block_4D	unknown	done
 0x4D0670	51	sub_4D0670		unsorted	block_4D	unknown	stub
 0x4D06B0	6	sub_4D06B0		unsorted	global_getters	unknown	done
-0x4D06C0	13	sub_4D06C0		unsorted	block_4D	unknown	stub
+0x4D06C0	13	sub_4D06C0		unsorted	block_4D	unknown	done
 0x4D06D0	756	sub_4D06D0		unsorted	block_4D	unknown	stub
 0x4D09D0	60	sub_4D09D0		unsorted	block_4D	unknown	stub
 0x4D0A10	2455	sub_4D0A10		unsorted	block_4D	unknown	stub
@@ -2387,23 +2427,23 @@
 0x4D6B70	13	sub_4D6B70		unsorted	block_4D	unknown	stub
 0x4D6B80	384	sub_4D6B80		unsorted	block_4D	unknown	stub
 0x4D6D00	86	sub_4D6D00		unsorted	block_4D	unknown	stub
-0x4D6D60	54	sub_4D6D60		unsorted	block_4D	unknown	stub
-0x4D6DA0	54	sub_4D6DA0		unsorted	block_4D	unknown	stub
-0x4D6DE0	54	sub_4D6DE0		unsorted	block_4D	unknown	stub
-0x4D6E20	54	sub_4D6E20		unsorted	block_4D	unknown	stub
-0x4D6E60	54	sub_4D6E60		unsorted	block_4D	unknown	stub
-0x4D6EA0	54	sub_4D6EA0		unsorted	block_4D	unknown	stub
+0x4D6D60	54	sub_4D6D60		unsorted	block_4D	unknown	done
+0x4D6DA0	54	sub_4D6DA0		unsorted	block_4D	unknown	done
+0x4D6DE0	54	sub_4D6DE0		unsorted	block_4D	unknown	done
+0x4D6E20	54	sub_4D6E20		unsorted	block_4D	unknown	done
+0x4D6E60	54	sub_4D6E60		unsorted	block_4D	unknown	done
+0x4D6EA0	54	sub_4D6EA0		unsorted	block_4D	unknown	done
 0x4D6EE0	54	sub_4D6EE0		unsorted	block_4D	unknown	done
-0x4D6F20	22	sub_4D6F20		unsorted	block_4D	unknown	stub
+0x4D6F20	22	sub_4D6F20		unsorted	block_4D	unknown	done
 0x4D6F40	82	sub_4D6F40		unsorted	block_4D	unknown	stub
 0x4D6FA0	15	sub_4D6FA0		unsorted	block_4D	unknown	stub
 0x4D6FB0	15	sub_4D6FB0		unsorted	block_4D	unknown	stub
 0x4D6FC0	6	sub_4D6FC0		unsorted	global_getters	unknown	done
 0x4D6FD0	6	sub_4D6FD0		unsorted	global_getters	unknown	done
-0x4D6FE0	21	sub_4D6FE0		unsorted	block_4D	unknown	stub
-0x4D7000	36	sub_4D7000		unsorted	block_4D	unknown	stub
+0x4D6FE0	21	sub_4D6FE0		unsorted	block_4D	unknown	done
+0x4D7000	36	sub_4D7000		unsorted	block_4D	unknown	done
 0x4D7030	2023	sub_4D7030		unsorted	block_4D	unknown	stub
-0x4D7820	21	sub_4D7820		unsorted	block_4D	unknown	stub
+0x4D7820	21	sub_4D7820		unsorted	block_4D	unknown	done
 0x4D7840	6	sub_4D7840		unsorted	global_getters	unknown	done
 0x4D7850	6	sub_4D7850		unsorted	global_getters	unknown	done
 0x4D7860	6	sub_4D7860		unsorted	global_getters	unknown	done
@@ -2484,7 +2524,7 @@
 0x4DC1F0	502	sub_4DC1F0		unsorted	block_4D	unknown	stub
 0x4DC3F0	11	sub_4DC3F0		unsorted	block_4D	unknown	stub
 0x4DC400	64	sub_4DC400		unsorted	block_4D	unknown	stub
-0x4DC440	82	sub_4DC440		unsorted	block_4D	unknown	stub
+0x4DC440	82	sub_4DC440		unsorted	block_4D	unknown	done
 0x4DC4A0	571	sub_4DC4A0		unsorted	block_4D	unknown	stub
 0x4DC6E0	126	sub_4DC6E0		unsorted	block_4D	unknown	stub
 0x4DC760	48	lockTexturePalette		game	texture_slots	unknown	done
@@ -2510,11 +2550,11 @@
 0x4DDDE0	29	sub_4DDDE0		unsorted	block_4D	unknown	stub
 0x4DDE00	398	sub_4DDE00		unsorted	block_4D	unknown	stub
 0x4DDF90	914	sub_4DDF90		unsorted	block_4D	unknown	stub
-0x4DE330	106	sub_4DE330		unsorted	block_4D	unknown	stub
+0x4DE330	106	sub_4DE330		unsorted	block_4D	unknown	done
 0x4DE3A0	1192	sub_4DE3A0		unsorted	block_4D	unknown	stub
-0x4DE850	30	sub_4DE850		unsorted	block_4D	unknown	stub
-0x4DE870	30	sub_4DE870		unsorted	block_4D	unknown	stub
-0x4DE890	29	sub_4DE890		unsorted	block_4D	unknown	stub
+0x4DE850	30	sub_4DE850		unsorted	block_4D	unknown	done
+0x4DE870	30	sub_4DE870		unsorted	block_4D	unknown	done
+0x4DE890	29	sub_4DE890		unsorted	block_4D	unknown	done
 0x4DE8B0	61	sub_4DE8B0		unsorted	block_4D	unknown	stub
 0x4DE8F0	529	sub_4DE8F0		unsorted	block_4D	unknown	stub
 0x4DEB10	833	drawSprite		unsorted	block_4D	unknown	stub
@@ -2530,8 +2570,8 @@
 0x4E02E0	438	sub_4E02E0		unsorted	block_4E	unknown	stub
 0x4E04A0	50	sub_4E04A0		unsorted	block_4E	unknown	stub
 0x4E04E0	1496	sub_4E04E0		unsorted	block_4E	unknown	stub
-0x4E0AC0	202	setSpriteRect		unsorted	block_4E	unknown	stub
-0x4E0B90	272	sub_4E0B90		unsorted	block_4E	unknown	stub
+0x4E0AC0	202	setSpriteRect		unsorted	block_4E	unknown	done
+0x4E0B90	272	sub_4E0B90		unsorted	block_4E	unknown	done
 0x4E0CB0	233	sub_4E0CB0		unsorted	block_4E	unknown	stub
 0x4E0DA0	512	uploadTexturePixels		unsorted	block_4E	unknown	stub
 0x4E0FA0	232	createTextureFromSource		unsorted	block_4E	unknown	stub
@@ -2696,7 +2736,7 @@
 0x4EA1F0	47	sub_4EA1F0		unsorted	block_4E	unknown	stub
 0x4EA220	123	sub_4EA220		unsorted	block_4E	unknown	stub
 0x4EA2A0	67	sub_4EA2A0		unsorted	block_4E	unknown	stub
-0x4EA2F0	23	sub_4EA2F0		unsorted	block_4E	unknown	stub
+0x4EA2F0	23	sub_4EA2F0		unsorted	block_4E	unknown	done
 0x4EA310	53	sub_4EA310		unsorted	block_4E	unknown	stub
 0x4EA350	42	sub_4EA350		unsorted	block_4E	unknown	stub
 0x4EA380	52	sub_4EA380		unsorted	block_4E	unknown	stub
@@ -2873,7 +2913,7 @@
 0x4F4580	62	sub_4F4580		unsorted	block_4F	unknown	stub
 0x4F45C0	167	sub_4F45C0		unsorted	block_4F	unknown	stub
 0x4F4670	221	sub_4F4670		unsorted	block_4F	unknown	stub
-0x4F4750	33	AgProgram::vfn_0	AgProgram	engine/system	AgProgram	virtual	stub
+0x4F4750	33	AgProgram::vfn_0	AgProgram	engine/system	AgProgram	virtual	done
 0x4F4780	6	sub_4F4780		unsorted	global_getters	unknown	done
 0x4F4790	4	AgUser::vfn_5	AgUser	engine/online	AgUser	virtual	stub
 0x4F47A0	9	AgProgram::vfn_4	AgProgram	engine/system	AgProgram	virtual	stub
@@ -2932,10 +2972,10 @@
 0x4F72D0	43	sub_4F72D0		unsorted	block_4F	unknown	stub
 0x4F7300	37	sub_4F7300		unsorted	block_4F	unknown	stub
 0x4F7325	5	sub_4F7325		unsorted	block_4F	unknown	stub
-0x4F7330	34	AgSingleton<AgInputManager>::vfn_0	AgSingleton<AgInputManager>	engine/core	AgSingleton_AgInputManager	virtual	stub
+0x4F7330	34	AgSingleton<AgInputManager>::vfn_0	AgSingleton<AgInputManager>	engine/core	AgSingleton_AgInputManager	virtual	done
 0x4F7360	139	AgController::vfn_0	AgController	engine/input	AgController	virtual	stub
-0x4F73F0	33	AgInputManager::vfn_0	AgInputManager	engine/input	AgInputManager	virtual	stub
-0x4F7420	33	AgStandardGamepadController::vfn_0	AgStandardGamepadController	engine/input	AgStandardGamepadController	virtual	stub
+0x4F73F0	33	AgInputManager::vfn_0	AgInputManager	engine/input	AgInputManager	virtual	done
+0x4F7420	33	AgStandardGamepadController::vfn_0	AgStandardGamepadController	engine/input	AgStandardGamepadController	virtual	done
 0x4F7450	149	sub_4F7450		unsorted	block_4F	unknown	stub
 0x4F74F0	176	sub_4F74F0		unsorted	block_4F	unknown	stub
 0x4F75A0	176	sub_4F75A0		unsorted	block_4F	unknown	stub
@@ -3015,7 +3055,7 @@
 0x4FD1F0	22	sub_4FD1F0		unsorted	block_4F	unknown	stub
 0x4FD210	17	sub_4FD210		unsorted	block_4F	unknown	stub
 0x4FD230	190	sub_4FD230		unsorted	block_4F	unknown	stub
-0x4FD2F0	34	sub_4FD2F0		unsorted	block_4F	unknown	stub
+0x4FD2F0	34	sub_4FD2F0		unsorted	block_4F	unknown	done
 0x4FD320	50	??0StringRef@@QAE@PBD@Z		unsorted	block_4F	unknown	done
 0x4FD360	20	sub_4FD360		unsorted	block_4F	unknown	stub
 0x4FD380	16	sub_4FD380		unsorted	block_4F	unknown	stub
@@ -3026,15 +3066,15 @@
 0x4FD420	32	sub_4FD420		unsorted	block_4F	unknown	stub
 0x4FD440	104	sub_4FD440		unsorted	block_4F	unknown	stub
 0x4FD4B0	122	sub_4FD4B0		unsorted	block_4F	unknown	stub
-0x4FD530	71	sub_4FD530		unsorted	block_4F	unknown	stub
-0x4FD580	102	sub_4FD580		unsorted	block_4F	unknown	stub
+0x4FD530	71	sub_4FD530		unsorted	block_4F	unknown	done
+0x4FD580	102	sub_4FD580		unsorted	block_4F	unknown	done
 0x4FD5F0	74	sub_4FD5F0		unsorted	block_4F	unknown	stub
 0x4FD640	82	sub_4FD640		unsorted	block_4F	unknown	stub
-0x4FD6A0	85	sub_4FD6A0		unsorted	block_4F	unknown	stub
+0x4FD6A0	85	sub_4FD6A0		unsorted	block_4F	unknown	done
 0x4FD700	246	sub_4FD700		unsorted	block_4F	unknown	stub
 0x4FD800	36	sub_4FD800		unsorted	block_4F	unknown	stub
 0x4FD830	82	sub_4FD830		unsorted	block_4F	unknown	stub
-0x4FD890	29	??1exception@std@@UAE@XZ		unsorted	block_4F	unknown	stub
+0x4FD890	29	??1exception@std@@UAE@XZ		unsorted	block_4F	unknown	done
 0x4FD8B0	83	sub_4FD8B0		unsorted	block_4F	unknown	stub
 0x4FD910	125	sub_4FD910		unsorted	block_4F	unknown	stub
 0x4FD990	98	sub_4FD990		unsorted	block_4F	unknown	stub
@@ -3070,8 +3110,8 @@
 0x4FE880	97	sub_4FE880		unsorted	block_4F	unknown	stub
 0x4FE8F0	66	sub_4FE8F0		unsorted	block_4F	unknown	stub
 0x4FE940	230	sub_4FE940		unsorted	block_4F	unknown	stub
-0x4FEA30	34	AgSingleton<AgLocalizationManager>::vfn_0	AgSingleton<AgLocalizationManager>	engine/core	AgSingleton_AgLocalizationManager	virtual	stub
-0x4FEA60	33	AgLocalizationManager::vfn_0	AgLocalizationManager	engine/system	AgLocalizationManager	virtual	stub
+0x4FEA30	34	AgSingleton<AgLocalizationManager>::vfn_0	AgSingleton<AgLocalizationManager>	engine/core	AgSingleton_AgLocalizationManager	virtual	done
+0x4FEA60	33	AgLocalizationManager::vfn_0	AgLocalizationManager	engine/system	AgLocalizationManager	virtual	done
 0x4FEA90	83	sub_4FEA90		unsorted	block_4F	unknown	stub
 0x4FEAF0	117	sub_4FEAF0		unsorted	block_4F	unknown	stub
 0x4FEB70	222	sub_4FEB70		unsorted	block_4F	unknown	stub
@@ -3096,7 +3136,7 @@
 0x4FFC70	96	sub_4FFC70		unsorted	block_4F	unknown	stub
 0x4FFCD0	83	sub_4FFCD0		unsorted	block_4F	unknown	stub
 0x4FFD30	66	sub_4FFD30		unsorted	block_4F	unknown	stub
-0x4FFDB0	34	AgSingleton<AgWorkerPool>::vfn_0	AgSingleton<AgWorkerPool>	engine/core	AgSingleton_AgWorkerPool	virtual	stub
+0x4FFDB0	34	AgSingleton<AgWorkerPool>::vfn_0	AgSingleton<AgWorkerPool>	engine/core	AgSingleton_AgWorkerPool	virtual	done
 0x4FFDE0	119	AgWorkerPool::vfn_0	AgWorkerPool	engine/thread	AgWorkerPool	virtual	stub
 0x4FFE60	205	sub_4FFE60		unsorted	block_4F	unknown	stub
 0x4FFF30	114	sub_4FFF30		unsorted	block_4F	unknown	stub
@@ -3117,14 +3157,14 @@
 0x500BE0	251	sub_500BE0		unsorted	block_50	unknown	stub
 0x500D20	117	sub_500D20		unsorted	block_50	unknown	stub
 0x500DA0	125	sub_500DA0		unsorted	block_50	unknown	stub
-0x500E20	19	freeControlBlock		unsorted	block_50	unknown	stub
+0x500E20	19	freeControlBlock		unsorted	block_50	unknown	done
 0x500E40	127	sub_500E40		unsorted	block_50	unknown	stub
 0x500EC0	155	sub_500EC0		unsorted	block_50	unknown	stub
 0x500F60	239	sub_500F60		unsorted	block_50	unknown	stub
 0x501050	252	sub_501050		unsorted	block_50	unknown	stub
-0x501150	18	sub_501150		unsorted	block_50	unknown	stub
-0x501170	16	atomicDecrement		unsorted	block_50	unknown	stub
-0x501180	18	sub_501180		unsorted	block_50	unknown	stub
+0x501150	18	sub_501150		unsorted	block_50	unknown	done
+0x501170	16	atomicDecrement		unsorted	block_50	unknown	done
+0x501180	18	sub_501180		unsorted	block_50	unknown	done
 0x5011A0	194	sub_5011A0		unsorted	block_50	unknown	stub
 0x501270	112	sub_501270		unsorted	block_50	unknown	stub
 0x5012E0	85	sub_5012E0		unsorted	block_50	unknown	stub
@@ -3170,7 +3210,7 @@
 0x502630	234	sub_502630		unsorted	block_50	unknown	stub
 0x502720	297	sub_502720		unsorted	block_50	unknown	stub
 0x502850	194	sub_502850		unsorted	block_50	unknown	stub
-0x502920	33	AgMount::vfn_0	AgMount	engine/io	AgMount	virtual	stub
+0x502920	33	AgMount::vfn_0	AgMount	engine/io	AgMount	virtual	done
 0x502950	108	AgMount::vfn_14	AgMount	engine/io	AgMount	virtual	stub
 0x5029C0	5	AgMount::vfn_7	AgMount	engine/io	AgMount	virtual	stub
 0x5029D0	5	AgMount::vfn_8	AgMount	engine/io	AgMount	virtual	stub
@@ -3209,7 +3249,7 @@
 0x504460	150	sub_504460		unsorted	block_50	unknown	stub
 0x504500	57	sub_504500		unsorted	block_50	unknown	stub
 0x504540	88	AgReference<AgArchive>::vfn_0	AgReference<AgArchive>	engine/io	AgReference_AgArchive	virtual	stub
-0x5045A0	33	AgArchive::vfn_0	AgArchive	engine/io	AgArchive	virtual	stub
+0x5045A0	33	AgArchive::vfn_0	AgArchive	engine/io	AgArchive	virtual	done
 0x5045D0	176	AgArchive::fn_5045D0	AgArchive	engine/io	AgArchive	inferred	stub
 0x504680	164	AgArchive::fn_504680	AgArchive	engine/io	AgArchive	inferred	stub
 0x504730	160	AgArchive::fn_504730	AgArchive	engine/io	AgArchive	inferred	stub
@@ -3248,14 +3288,14 @@
 0x506DD0	7	sub_506DD0		unsorted	block_50	unknown	stub
 0x506DE0	167	sub_506DE0		unsorted	block_50	unknown	stub
 0x506E90	34	AgThreadPool::Job::vfn_0	AgThreadPool::Job	engine/thread	AgThreadPool_Job	virtual	stub
-0x506EC0	33	RenderJob::vfn_0	RenderJob	engine/render	RenderJob	virtual	stub
+0x506EC0	33	RenderJob::vfn_0	RenderJob	engine/render	RenderJob	virtual	done
 0x506F00	322	sub_506F00		unsorted	block_50	unknown	stub
 0x507050	8	AgThreadPool::Job::vfn_3	AgThreadPool::Job	engine/thread	AgThreadPool_Job	virtual	stub
 0x507060	11	sub_507060		unsorted	block_50	unknown	stub
 0x507070	361	sub_507070		unsorted	block_50	unknown	stub
 0x5071E0	39	sub_5071E0		unsorted	block_50	unknown	stub
 0x507210	170	sub_507210		unsorted	block_50	unknown	stub
-0x5072C0	6	sub_5072C0		unsorted	block_50	unknown	stub
+0x5072C0	6	sub_5072C0		unsorted	block_50	unknown	done
 0x5072D0	9	sub_5072D0		unsorted	block_50	unknown	stub
 0x5072E0	9	sub_5072E0		unsorted	block_50	unknown	stub
 0x5072F0	9	sub_5072F0		unsorted	block_50	unknown	stub
@@ -3306,8 +3346,8 @@
 0x5094F0	265	sub_5094F0		unsorted	block_50	unknown	stub
 0x509600	94	sub_509600		unsorted	block_50	unknown	stub
 0x509660	126	sub_509660		unsorted	block_50	unknown	stub
-0x5096E0	34	AgSingleton<AgFileSystem>::vfn_0	AgSingleton<AgFileSystem>	engine/core	AgSingleton_AgFileSystem	virtual	stub
-0x509710	33	AgFileSystem::vfn_0	AgFileSystem	engine/io	AgFileSystem	virtual	stub
+0x5096E0	34	AgSingleton<AgFileSystem>::vfn_0	AgSingleton<AgFileSystem>	engine/core	AgSingleton_AgFileSystem	virtual	done
+0x509710	33	AgFileSystem::vfn_0	AgFileSystem	engine/io	AgFileSystem	virtual	done
 0x509740	176	AgFileSystem::fn_509740	AgFileSystem	engine/io	AgFileSystem	inferred	stub
 0x5097F0	102	AgFileSystem::fn_5097F0	AgFileSystem	engine/io	AgFileSystem	inferred	stub
 0x509860	222	AgFileSystem::fn_509860	AgFileSystem	engine/io	AgFileSystem	inferred	stub
@@ -3367,8 +3407,8 @@
 0x50D240	68	sub_50D240		unsorted	block_50	unknown	stub
 0x50D290	177	sub_50D290		unsorted	block_50	unknown	stub
 0x50D350	218	sub_50D350		unsorted	block_50	unknown	stub
-0x50D430	34	AgSingleton<AgAudioManager>::vfn_0	AgSingleton<AgAudioManager>	engine/core	AgSingleton_AgAudioManager	virtual	stub
-0x50D460	33	AgAudioManager::vfn_0	AgAudioManager	engine/audio	AgAudioManager	virtual	stub
+0x50D430	34	AgSingleton<AgAudioManager>::vfn_0	AgSingleton<AgAudioManager>	engine/core	AgSingleton_AgAudioManager	virtual	done
+0x50D460	33	AgAudioManager::vfn_0	AgAudioManager	engine/audio	AgAudioManager	virtual	done
 0x50D490	247	AgAudioManager::fn_50D490	AgAudioManager	engine/audio	AgAudioManager	inferred	stub
 0x50D590	261	AgAudioManager::fn_50D590	AgAudioManager	engine/audio	AgAudioManager	inferred	stub
 0x50D6A0	87	AgAudioManager::fn_50D6A0	AgAudioManager	engine/audio	AgAudioManager	inferred	stub
@@ -3413,14 +3453,14 @@
 0x50F0D0	88	AgReference<AgIndexBuffer>::vfn_0	AgReference<AgIndexBuffer>	engine/render	AgReference_AgIndexBuffer	virtual	stub
 0x50F130	88	AgReference<AgVertexBuffer>::vfn_0	AgReference<AgVertexBuffer>	engine/render	AgReference_AgVertexBuffer	virtual	stub
 0x50F190	150	AgRenderList::vfn_0	AgRenderList	engine/render	AgRenderList	virtual	stub
-0x50F230	31	sub_50F230		unsorted	block_50	unknown	stub
+0x50F230	31	sub_50F230		unsorted	block_50	unknown	done
 0x50F250	222	sub_50F250		unsorted	block_50	unknown	stub
 0x50F330	222	sub_50F330		unsorted	block_50	unknown	stub
 0x50F410	204	sub_50F410		unsorted	block_50	unknown	stub
 0x50F4E0	114	sub_50F4E0		unsorted	block_50	unknown	stub
 0x50F560	114	sub_50F560		unsorted	block_50	unknown	stub
 0x50F5E0	114	sub_50F5E0		unsorted	block_50	unknown	stub
-0x50F660	88	sub_50F660		unsorted	block_50	unknown	stub
+0x50F660	88	sub_50F660		unsorted	block_50	unknown	done
 0x50F6C0	172	sub_50F6C0		unsorted	block_50	unknown	stub
 0x50F770	56	sub_50F770		unsorted	block_50	unknown	stub
 0x50F7B0	108	sub_50F7B0		unsorted	block_50	unknown	stub
@@ -3479,8 +3519,8 @@
 0x510FC0	7	sub_510FC0		unsorted	block_51	unknown	stub
 0x510FD0	169	sub_510FD0		unsorted	block_51	unknown	stub
 0x511079	8	AgBusyScreen::vfn_12_0	AgBusyScreen	engine/system	AgBusyScreen	virtual	stub
-0x511090	34	AgSingleton<AgBusyScreen>::vfn_0	AgSingleton<AgBusyScreen>	engine/core	AgSingleton_AgBusyScreen	virtual	stub
-0x5110C0	33	AgBusyScreen::vfn_0	AgBusyScreen	engine/system	AgBusyScreen	virtual	stub
+0x511090	34	AgSingleton<AgBusyScreen>::vfn_0	AgSingleton<AgBusyScreen>	engine/core	AgSingleton_AgBusyScreen	virtual	done
+0x5110C0	33	AgBusyScreen::vfn_0	AgBusyScreen	engine/system	AgBusyScreen	virtual	done
 0x5110F0	89	shared_5110F0		unsorted	shared_stubs	shared	stub
 0x511150	93	AgBusyScreen::fn_511150	AgBusyScreen	engine/system	AgBusyScreen	inferred	stub
 0x5111B0	188	AgBusyScreen::fn_5111B0	AgBusyScreen	engine/system	AgBusyScreen	inferred	stub
@@ -3502,7 +3542,7 @@
 0x512170	31	sub_512170		unsorted	block_51	unknown	stub
 0x512190	8	sub_512190		unsorted	block_51	unknown	stub
 0x5121A0	8	sub_5121A0		unsorted	block_51	unknown	stub
-0x5121B0	19	sub_5121B0		unsorted	block_51	unknown	stub
+0x5121B0	19	sub_5121B0		unsorted	block_51	unknown	done
 0x5121D0	4	sub_5121D0		unsorted	block_51	unknown	stub
 0x5121E0	4	sub_5121E0		unsorted	block_51	unknown	stub
 0x5121F0	60	sub_5121F0		unsorted	block_51	unknown	stub
@@ -3525,7 +3565,7 @@
 0x512AB0	97	sub_512AB0		unsorted	block_51	unknown	stub
 0x512B20	68	sub_512B20		unsorted	block_51	unknown	stub
 0x512B70	218	sub_512B70		unsorted	block_51	unknown	stub
-0x512C50	34	AgSingleton<AgDisplayManager>::vfn_0	AgSingleton<AgDisplayManager>	engine/core	AgSingleton_AgDisplayManager	virtual	stub
+0x512C50	34	AgSingleton<AgDisplayManager>::vfn_0	AgSingleton<AgDisplayManager>	engine/core	AgSingleton_AgDisplayManager	virtual	done
 0x512C80	89	AgDisplayManager::vfn_0	AgDisplayManager	engine/render	AgDisplayManager	virtual	stub
 0x512CE0	86	AgDisplayManager::fn_512CE0	AgDisplayManager	engine/render	AgDisplayManager	inferred	stub
 0x512D40	260	AgDisplayManager::fn_512D40	AgDisplayManager	engine/render	AgDisplayManager	inferred	stub
@@ -3566,7 +3606,7 @@
 0x515870	21	sub_515870		unsorted	block_51	unknown	stub
 0x515890	21	sub_515890		unsorted	block_51	unknown	stub
 0x5158B0	87	sub_5158B0		unsorted	block_51	unknown	stub
-0x515910	4	shared_515910		unsorted	shared_stubs	shared	stub
+0x515910	4	shared_515910		unsorted	shared_stubs	shared	done
 0x515920	387	sub_515920		unsorted	block_51	unknown	stub
 0x515AB0	280	sub_515AB0		unsorted	block_51	unknown	stub
 0x515BD0	94	AgTexture2d::vfn_0	AgTexture2d	engine/render	AgTexture2d	virtual	stub
@@ -3586,7 +3626,7 @@
 0x516550	161	sub_516550		unsorted	block_51	unknown	stub
 0x516600	73	sub_516600		unsorted	block_51	unknown	stub
 0x516650	6	sub_516650		unsorted	block_51	unknown	stub
-0x516660	3	sub_516660		unsorted	block_51	unknown	stub
+0x516660	3	sub_516660		unsorted	block_51	unknown	done
 0x516670	20	sub_516670		unsorted	block_51	unknown	stub
 0x516690	25	sub_516690		unsorted	block_51	unknown	stub
 0x5166B0	217	sub_5166B0		unsorted	block_51	unknown	stub
@@ -3594,14 +3634,14 @@
 0x5168A0	289	sub_5168A0		unsorted	block_51	unknown	stub
 0x5169D0	181	sub_5169D0		unsorted	block_51	unknown	stub
 0x516A90	175	sub_516A90		unsorted	block_51	unknown	stub
-0x516B40	106	??1?$AgReference@VTextureObject@@@@QAE@XZ		unsorted	block_51	unknown	stub
+0x516B40	106	??1?$AgReference@VTextureObject@@@@QAE@XZ		unsorted	block_51	unknown	done
 0x516BB0	7	sub_516BB0		unsorted	block_51	unknown	stub
 0x516BC0	7	sub_516BC0		unsorted	block_51	unknown	stub
 0x516BD0	157	sub_516BD0		unsorted	block_51	unknown	stub
 0x516C70	157	sub_516C70		unsorted	block_51	unknown	stub
-0x516D10	34	AgSingleton<AgSteamworks>::vfn_0	AgSingleton<AgSteamworks>	engine/core	AgSingleton_AgSteamworks	virtual	stub
-0x516D40	34	AgSingleton<AgSystemManager>::vfn_0	AgSingleton<AgSystemManager>	engine/core	AgSingleton_AgSystemManager	virtual	stub
-0x516D70	33	AgPCSystemManager::vfn_0	AgPCSystemManager	engine/system	AgPCSystemManager	virtual	stub
+0x516D10	34	AgSingleton<AgSteamworks>::vfn_0	AgSingleton<AgSteamworks>	engine/core	AgSingleton_AgSteamworks	virtual	done
+0x516D40	34	AgSingleton<AgSystemManager>::vfn_0	AgSingleton<AgSystemManager>	engine/core	AgSingleton_AgSystemManager	virtual	done
+0x516D70	33	AgPCSystemManager::vfn_0	AgPCSystemManager	engine/system	AgPCSystemManager	virtual	done
 0x516DA0	89	AgSteamworks::vfn_0	AgSteamworks	engine/online	AgSteamworks	virtual	stub
 0x516E00	135	sub_516E00		unsorted	block_51	unknown	stub
 0x516E90	720	sub_516E90		unsorted	block_51	unknown	stub
@@ -3635,16 +3675,16 @@
 0x518EF0	366	sub_518EF0		unsorted	block_51	unknown	stub
 0x519060	261	sub_519060		unsorted	block_51	unknown	stub
 0x519170	171	sub_519170		unsorted	block_51	unknown	stub
-0x519220	33	AgThread::vfn_0	AgThread	engine/thread	AgThread	virtual	stub
+0x519220	33	AgThread::vfn_0	AgThread	engine/thread	AgThread	virtual	done
 0x519250	139	sub_519250		unsorted	block_51	unknown	stub
 0x5192E0	36	sub_5192E0		unsorted	block_51	unknown	stub
 0x519310	48	sub_519310		unsorted	block_51	unknown	stub
 0x519340	70	sub_519340		unsorted	block_51	unknown	stub
 0x519390	14	sub_519390		unsorted	block_51	unknown	stub
-0x5193A0	30	sub_5193A0		unsorted	block_51	unknown	stub
+0x5193A0	30	sub_5193A0		unsorted	block_51	unknown	done
 0x5193C0	221	sub_5193C0		unsorted	block_51	unknown	stub
 0x5194A0	178	sub_5194A0		unsorted	block_51	unknown	stub
-0x519560	33	AgResource::vfn_0	AgResource	engine/render	AgResource	virtual	stub
+0x519560	33	AgResource::vfn_0	AgResource	engine/render	AgResource	virtual	done
 0x519590	8	AgResource::vfn_2	AgResource	engine/render	AgResource	virtual	stub
 0x5195A0	22	sub_5195A0		unsorted	block_51	unknown	stub
 0x5195C0	22	sub_5195C0		unsorted	block_51	unknown	stub
@@ -3672,7 +3712,7 @@
 0x51A090	237	sub_51A090		unsorted	block_51	unknown	stub
 0x51A180	202	sub_51A180		unsorted	block_51	unknown	stub
 0x51A250	290	sub_51A250		unsorted	block_51	unknown	stub
-0x51A380	33	AgMoviePlayer::vfn_0	AgMoviePlayer	engine/movie	AgMoviePlayer	virtual	stub
+0x51A380	33	AgMoviePlayer::vfn_0	AgMoviePlayer	engine/movie	AgMoviePlayer	virtual	done
 0x51A3B0	432	AgMoviePlayer::fn_51A3B0	AgMoviePlayer	engine/movie	AgMoviePlayer	inferred	stub
 0x51A560	149	AgMoviePlayer::fn_51A560	AgMoviePlayer	engine/movie	AgMoviePlayer	inferred	stub
 0x51A600	93	AgMoviePlayer::fn_51A600	AgMoviePlayer	engine/movie	AgMoviePlayer	inferred	stub
@@ -3702,7 +3742,7 @@
 0x51B640	294	sub_51B640		unsorted	block_51	unknown	stub
 0x51B770	176	sub_51B770		unsorted	block_51	unknown	stub
 0x51B820	239	sub_51B820		unsorted	block_51	unknown	stub
-0x51B910	33	AgAudioChannel::vfn_0	AgAudioChannel	engine/audio	AgAudioChannel	virtual	stub
+0x51B910	33	AgAudioChannel::vfn_0	AgAudioChannel	engine/audio	AgAudioChannel	virtual	done
 0x51B940	41	sub_51B940		unsorted	block_51	unknown	stub
 0x51B970	88	sub_51B970		unsorted	block_51	unknown	stub
 0x51B9D0	194	sub_51B9D0		unsorted	block_51	unknown	stub
@@ -3761,7 +3801,7 @@
 0x51E490	113	sub_51E490		unsorted	block_51	unknown	stub
 0x51E510	308	sub_51E510		unsorted	block_51	unknown	stub
 0x51E650	88	AgReference<AgShaderProgram>::vfn_0	AgReference<AgShaderProgram>	engine/render	AgReference_AgShaderProgram	virtual	stub
-0x51E6B0	33	AgShaderProgram::vfn_0	AgShaderProgram	engine/render	AgShaderProgram	virtual	stub
+0x51E6B0	33	AgShaderProgram::vfn_0	AgShaderProgram	engine/render	AgShaderProgram	virtual	done
 0x51E6E0	134	AgShaderProgram::fn_51E6E0	AgShaderProgram	engine/render	AgShaderProgram	inferred	stub
 0x51E770	778	AgShaderProgram::fn_51E770	AgShaderProgram	engine/render	AgShaderProgram	inferred	stub
 0x51EA80	95	AgShaderProgram::vfn_1	AgShaderProgram	engine/render	AgShaderProgram	virtual	stub
@@ -3777,7 +3817,7 @@
 0x51F280	214	sub_51F280		unsorted	block_51	unknown	stub
 0x51F3A0	167	sub_51F3A0		unsorted	block_51	unknown	stub
 0x51F450	88	AgReference<AgMount>::vfn_0	AgReference<AgMount>	engine/io	AgReference_AgMount	virtual	stub
-0x51F4B0	33	AgDirectory::vfn_0	AgDirectory	engine/io	AgDirectory	virtual	stub
+0x51F4B0	33	AgDirectory::vfn_0	AgDirectory	engine/io	AgDirectory	virtual	done
 0x51F4E0	22	sub_51F4E0		unsorted	block_51	unknown	stub
 0x51F500	19	sub_51F500		unsorted	block_51	unknown	stub
 0x51F520	36	sub_51F520		unsorted	block_51	unknown	stub
@@ -3796,7 +3836,7 @@
 0x51FB40	94	sub_51FB40		unsorted	block_51	unknown	stub
 0x51FBA0	97	AgJsonNode::vfn_0	AgJsonNode	engine/json	AgJsonNode	virtual	stub
 0x51FC10	104	shared_51FC10		unsorted	shared_stubs	shared	stub
-0x51FC80	33	AgSystemManager::vfn_0	AgSystemManager	engine/system	AgSystemManager	virtual	stub
+0x51FC80	33	AgSystemManager::vfn_0	AgSystemManager	engine/system	AgSystemManager	virtual	done
 0x51FCB0	192	AgSystemManager::fn_51FCB0	AgSystemManager	engine/system	AgSystemManager	inferred	stub
 0x51FD80	229	AgSystemManager::fn_51FD80	AgSystemManager	engine/system	AgSystemManager	inferred	stub
 0x51FE70	106	AgSystemManager::fn_51FE70	AgSystemManager	engine/system	AgSystemManager	inferred	stub
@@ -3832,8 +3872,8 @@
 0x520C30	279	sub_520C30		unsorted	block_52	unknown	stub
 0x520D50	13	sub_520D50		unsorted	block_52	unknown	stub
 0x520D60	86	sub_520D60		unsorted	block_52	unknown	stub
-0x520DC0	34	AgSingleton<AgPlayerManager>::vfn_0	AgSingleton<AgPlayerManager>	engine/core	AgSingleton_AgPlayerManager	virtual	stub
-0x520DF0	33	AgPlayerManager::vfn_0	AgPlayerManager	engine/online	AgPlayerManager	virtual	stub
+0x520DC0	34	AgSingleton<AgPlayerManager>::vfn_0	AgSingleton<AgPlayerManager>	engine/core	AgSingleton_AgPlayerManager	virtual	done
+0x520DF0	33	AgPlayerManager::vfn_0	AgPlayerManager	engine/online	AgPlayerManager	virtual	done
 0x520E20	222	AgPlayerManager::fn_520E20	AgPlayerManager	engine/online	AgPlayerManager	inferred	stub
 0x520F00	114	AgPlayerManager::fn_520F00	AgPlayerManager	engine/online	AgPlayerManager	inferred	stub
 0x520F80	219	AgPlayerManager::fn_520F80	AgPlayerManager	engine/online	AgPlayerManager	inferred	stub
@@ -3874,8 +3914,8 @@
 0x5235B0	202	sub_5235B0		unsorted	block_52	unknown	stub
 0x523680	202	sub_523680		unsorted	block_52	unknown	stub
 0x523750	157	AgPCInputManager::vfn_0	AgPCInputManager	engine/input	AgPCInputManager	virtual	stub
-0x5237F0	33	AgStandardKeyboardController::vfn_0	AgStandardKeyboardController	engine/input	AgStandardKeyboardController	virtual	stub
-0x523820	33	AgStandardMouseController::vfn_0	AgStandardMouseController	engine/input	AgStandardMouseController	virtual	stub
+0x5237F0	33	AgStandardKeyboardController::vfn_0	AgStandardKeyboardController	engine/input	AgStandardKeyboardController	virtual	done
+0x523820	33	AgStandardMouseController::vfn_0	AgStandardMouseController	engine/input	AgStandardMouseController	virtual	done
 0x523850	641	sub_523850		unsorted	block_52	unknown	stub
 0x523CA0	786	sub_523CA0		unsorted	block_52	unknown	stub
 0x524230	833	sub_524230		unsorted	block_52	unknown	stub
@@ -3924,7 +3964,7 @@
 0x526540	160	sub_526540		unsorted	block_52	unknown	stub
 0x5265E0	7	sub_5265E0		unsorted	block_52	unknown	stub
 0x5265F0	94	sub_5265F0		unsorted	block_52	unknown	stub
-0x526650	34	AgSingleton<AgExceptionHandler>::vfn_0	AgSingleton<AgExceptionHandler>	engine/core	AgSingleton_AgExceptionHandler	virtual	stub
+0x526650	34	AgSingleton<AgExceptionHandler>::vfn_0	AgSingleton<AgExceptionHandler>	engine/core	AgSingleton_AgExceptionHandler	virtual	done
 0x526680	113	AgExceptionHandler::vfn_0	AgExceptionHandler	engine/system	AgExceptionHandler	virtual	stub
 0x526700	113	AgPCExceptionHandler::vfn_0	AgPCExceptionHandler	engine/system	AgPCExceptionHandler	virtual	stub
 0x526780	155	sub_526780		unsorted	block_52	unknown	stub
@@ -3951,8 +3991,8 @@
 0x527640	246	sub_527640		unsorted	block_52	unknown	stub
 0x527736	5	sub_527736		unsorted	block_52	unknown	stub
 0x52773B	5	sub_52773B		unsorted	block_52	unknown	stub
-0x527740	34	AgSingleton<AgUserManager>::vfn_0	AgSingleton<AgUserManager>	engine/core	AgSingleton_AgUserManager	virtual	stub
-0x527770	33	AgUserManager::vfn_0	AgUserManager	engine/online	AgUserManager	virtual	stub
+0x527740	34	AgSingleton<AgUserManager>::vfn_0	AgSingleton<AgUserManager>	engine/core	AgSingleton_AgUserManager	virtual	done
+0x527770	33	AgUserManager::vfn_0	AgUserManager	engine/online	AgUserManager	virtual	done
 0x5277A0	86	AgUserManager::fn_5277A0	AgUserManager	engine/online	AgUserManager	inferred	stub
 0x527800	222	AgUserManager::fn_527800	AgUserManager	engine/online	AgUserManager	inferred	stub
 0x5278E0	257	AgUserManager::fn_5278E0	AgUserManager	engine/online	AgUserManager	inferred	stub
@@ -3978,7 +4018,7 @@
 0x528B20	130	sub_528B20		unsorted	block_52	unknown	stub
 0x528BB0	146	sub_528BB0		unsorted	block_52	unknown	stub
 0x528C50	418	sub_528C50		unsorted	block_52	unknown	stub
-0x528E00	33	AgThreadPool::vfn_1	AgThreadPool	engine/thread	AgThreadPool	virtual	stub
+0x528E00	33	AgThreadPool::vfn_1	AgThreadPool	engine/thread	AgThreadPool	virtual	done
 0x528E30	89	AgThreadPool::ThreadHost::vfn_0	AgThreadPool::ThreadHost	engine/thread	AgThreadPool_ThreadHost	virtual	stub
 0x528E90	114	sub_528E90		unsorted	block_52	unknown	stub
 0x528F10	65	sub_528F10		unsorted	block_52	unknown	stub
@@ -4010,8 +4050,8 @@
 0x52A2B0	219	sub_52A2B0		unsorted	block_52	unknown	stub
 0x52A390	7	sub_52A390		unsorted	block_52	unknown	stub
 0x52A3A0	245	sub_52A3A0		unsorted	block_52	unknown	stub
-0x52A4A0	34	AgSingleton<AgDialogManager>::vfn_0	AgSingleton<AgDialogManager>	engine/core	AgSingleton_AgDialogManager	virtual	stub
-0x52A4D0	33	AgDialogManager::vfn_0	AgDialogManager	engine/online	AgDialogManager	virtual	stub
+0x52A4A0	34	AgSingleton<AgDialogManager>::vfn_0	AgSingleton<AgDialogManager>	engine/core	AgSingleton_AgDialogManager	virtual	done
+0x52A4D0	33	AgDialogManager::vfn_0	AgDialogManager	engine/online	AgDialogManager	virtual	done
 0x52A500	219	AgDialogManager::fn_52A500	AgDialogManager	engine/online	AgDialogManager	inferred	stub
 0x52A5E0	105	AgDialogManager::vfn_6	AgDialogManager	engine/online	AgDialogManager	virtual	stub
 0x52A650	105	AgDialogManager::vfn_3	AgDialogManager	engine/online	AgDialogManager	virtual	stub
@@ -4025,22 +4065,22 @@
 0x52ABB0	97	sub_52ABB0		unsorted	block_52	unknown	stub
 0x52AC20	97	sub_52AC20		unsorted	block_52	unknown	stub
 0x52AC90	165	sub_52AC90		unsorted	block_52	unknown	stub
-0x52AD40	34	AgSingleton<AgProfileManager>::vfn_0	AgSingleton<AgProfileManager>	engine/core	AgSingleton_AgProfileManager	virtual	stub
-0x52AD70	33	AgProfileManager::vfn_0	AgProfileManager	engine/online	AgProfileManager	virtual	stub
+0x52AD40	34	AgSingleton<AgProfileManager>::vfn_0	AgSingleton<AgProfileManager>	engine/core	AgSingleton_AgProfileManager	virtual	done
+0x52AD70	33	AgProfileManager::vfn_0	AgProfileManager	engine/online	AgProfileManager	virtual	done
 0x52ADA0	247	sub_52ADA0		unsorted	block_52	unknown	stub
 0x52AEA0	112	sub_52AEA0		unsorted	block_52	unknown	stub
 0x52AF10	189	sub_52AF10		unsorted	block_52	unknown	stub
 0x52AFD0	768	sub_52AFD0		unsorted	block_52	unknown	stub
 0x52B2D0	65	sub_52B2D0		unsorted	block_52	unknown	stub
 0x52B320	7	sub_52B320		unsorted	block_52	unknown	stub
-0x52B330	40	std::E::EV?$allocator::?$vector::_Tidy		unsorted	block_52	unknown	stub
-0x52B360	34	AgSingleton<AgNetworkManager>::vfn_0	AgSingleton<AgNetworkManager>	engine/core	AgSingleton_AgNetworkManager	virtual	stub
+0x52B330	40	std::E::EV?$allocator::?$vector::_Tidy		unsorted	block_52	unknown	done
+0x52B360	34	AgSingleton<AgNetworkManager>::vfn_0	AgSingleton<AgNetworkManager>	engine/core	AgSingleton_AgNetworkManager	virtual	done
 0x52B390	132	AgNetworkManager::vfn_0	AgNetworkManager	engine/online	AgNetworkManager	virtual	stub
 0x52B420	171	sub_52B420		unsorted	block_52	unknown	stub
 0x52B4D0	81	sub_52B4D0		unsorted	block_52	unknown	stub
 0x52B530	7	sub_52B530		unsorted	block_52	unknown	stub
 0x52B540	66	sub_52B540		unsorted	block_52	unknown	stub
-0x52B590	34	AgSingleton<AgServiceEventManager>::vfn_0	AgSingleton<AgServiceEventManager>	engine/core	AgSingleton_AgServiceEventManager	virtual	stub
+0x52B590	34	AgSingleton<AgServiceEventManager>::vfn_0	AgSingleton<AgServiceEventManager>	engine/core	AgSingleton_AgServiceEventManager	virtual	done
 0x52B5C0	89	AgServiceEventManager::vfn_0	AgServiceEventManager	engine/online	AgServiceEventManager	virtual	stub
 0x52B620	112	sub_52B620		unsorted	block_52	unknown	stub
 0x52B690	171	sub_52B690		unsorted	block_52	unknown	stub
@@ -4048,7 +4088,7 @@
 0x52B7B0	199	sub_52B7B0		unsorted	block_52	unknown	stub
 0x52B880	7	sub_52B880		unsorted	block_52	unknown	stub
 0x52B890	97	sub_52B890		unsorted	block_52	unknown	stub
-0x52B900	34	AgSingleton<AgSessionManager>::vfn_0	AgSingleton<AgSessionManager>	engine/core	AgSingleton_AgSessionManager	virtual	stub
+0x52B900	34	AgSingleton<AgSessionManager>::vfn_0	AgSingleton<AgSessionManager>	engine/core	AgSingleton_AgSessionManager	virtual	done
 0x52B930	116	AgSessionManager::vfn_0	AgSessionManager	engine/online	AgSessionManager	virtual	stub
 0x52B9B0	112	AgSessionManager::fn_52B9B0	AgSessionManager	engine/online	AgSessionManager	inferred	stub
 0x52BA20	303	AgSessionManager::fn_52BA20	AgSessionManager	engine/online	AgSessionManager	inferred	stub
@@ -4094,11 +4134,11 @@
 0x52DA40	29	sub_52DA40		unsorted	block_52	unknown	stub
 0x52DA60	483	sub_52DA60		unsorted	block_52	unknown	stub
 0x52DC50	64	AgBuffer::vfn_0	AgBuffer	engine/core	AgBuffer	virtual	done
-0x52DC90	34	AgSingleton<AgLeaderboardManager>::vfn_0	AgSingleton<AgLeaderboardManager>	engine/core	AgSingleton_AgLeaderboardManager	virtual	stub
+0x52DC90	34	AgSingleton<AgLeaderboardManager>::vfn_0	AgSingleton<AgLeaderboardManager>	engine/core	AgSingleton_AgLeaderboardManager	virtual	done
 0x52DCC0	94	AgDefaultLeaderboard::vfn_0	AgDefaultLeaderboard	engine/online	AgDefaultLeaderboard	virtual	stub
-0x52DD20	88	AgDefaultLeaderboardManager::vfn_0	AgDefaultLeaderboardManager	engine/online	AgDefaultLeaderboardManager	virtual	stub
-0x52DD80	33	AgLeaderboard::vfn_0	AgLeaderboard	engine/online	AgLeaderboard	virtual	stub
-0x52DDB0	33	AgLeaderboardManager::vfn_0	AgLeaderboardManager	engine/online	AgLeaderboardManager	virtual	stub
+0x52DD20	88	AgDefaultLeaderboardManager::vfn_0	AgDefaultLeaderboardManager	engine/online	AgDefaultLeaderboardManager	virtual	done
+0x52DD80	33	AgLeaderboard::vfn_0	AgLeaderboard	engine/online	AgLeaderboard	virtual	done
+0x52DDB0	33	AgLeaderboardManager::vfn_0	AgLeaderboardManager	engine/online	AgLeaderboardManager	virtual	done
 0x52DDE0	176	sub_52DDE0		unsorted	block_52	unknown	stub
 0x52DE90	160	sub_52DE90		unsorted	block_52	unknown	stub
 0x52DF30	93	sub_52DF30		unsorted	block_52	unknown	stub
@@ -4107,7 +4147,7 @@
 0x52E130	127	sub_52E130		unsorted	block_52	unknown	stub
 0x52E1B0	276	sub_52E1B0		unsorted	block_52	unknown	stub
 0x52E2D0	64	sub_52E2D0		unsorted	block_52	unknown	stub
-0x52E310	30	sub_52E310		unsorted	block_52	unknown	stub
+0x52E310	30	sub_52E310		unsorted	block_52	unknown	done
 0x52E330	192	AgDefaultLeaderboardManager::vfn_3	AgDefaultLeaderboardManager	engine/online	AgDefaultLeaderboardManager	virtual	stub
 0x52E3F0	599	sub_52E3F0		unsorted	block_52	unknown	stub
 0x52E650	93	AgDefaultLeaderboard::vfn_3	AgDefaultLeaderboard	engine/online	AgDefaultLeaderboard	virtual	stub
@@ -4176,10 +4216,10 @@
 0x5326F0	115	sub_5326F0		unsorted	block_53	unknown	stub
 0x532770	130	sub_532770		unsorted	block_53	unknown	stub
 0x532800	88	AgReference<AgResource>::vfn_0	AgReference<AgResource>	engine/render	AgReference_AgResource	virtual	stub
-0x532860	34	AgSingleton<AgResourceManager>::vfn_0	AgSingleton<AgResourceManager>	engine/core	AgSingleton_AgResourceManager	virtual	stub
+0x532860	34	AgSingleton<AgResourceManager>::vfn_0	AgSingleton<AgResourceManager>	engine/core	AgSingleton_AgResourceManager	virtual	done
 0x532890	89	shared_532890		unsorted	shared_stubs	shared	stub
 0x5328F0	157	AgResourceLoadJob::vfn_0	AgResourceLoadJob	engine/render	AgResourceLoadJob	virtual	stub
-0x532990	33	AgResourceManager::vfn_0	AgResourceManager	engine/render	AgResourceManager	virtual	stub
+0x532990	33	AgResourceManager::vfn_0	AgResourceManager	engine/render	AgResourceManager	virtual	done
 0x5329C0	34	VAgResource::?$AgFactory::IAllocator::vfn_0	VAgResource::?$AgFactory::IAllocator	engine/render	VAgResource_AgFactory_IAllocator	virtual	stub
 0x5329F0	160	sub_5329F0		unsorted	block_53	unknown	stub
 0x532A90	180	sub_532A90		unsorted	block_53	unknown	stub
@@ -4237,7 +4277,7 @@
 0x534D00	260	sub_534D00		unsorted	block_53	unknown	stub
 0x534E20	567	sub_534E20		unsorted	block_53	unknown	stub
 0x535060	188	sub_535060		unsorted	block_53	unknown	stub
-0x535120	33	AgArchiveFile::vfn_0	AgArchiveFile	engine/io	AgArchiveFile	virtual	stub
+0x535120	33	AgArchiveFile::vfn_0	AgArchiveFile	engine/io	AgArchiveFile	virtual	done
 0x535150	115	AgArchiveFile::vfn_6	AgArchiveFile	engine/io	AgArchiveFile	virtual	stub
 0x5351D0	7	AgArchiveFile::vfn_4	AgArchiveFile	engine/io	AgArchiveFile	virtual	stub
 0x5351E0	139	AgArchiveFile::vfn_2	AgArchiveFile	engine/io	AgArchiveFile	virtual	stub
@@ -4245,7 +4285,7 @@
 0x5352D0	992	sub_5352D0		unsorted	block_53	unknown	stub
 0x5356B0	398	sub_5356B0		unsorted	block_53	unknown	stub
 0x53583E	8	AgAsyncStreamReader::vfn_8_0	AgAsyncStreamReader	engine/io	AgAsyncStreamReader	virtual	stub
-0x535850	33	AgAsyncStreamReader::vfn_0	AgAsyncStreamReader	engine/io	AgAsyncStreamReader	virtual	stub
+0x535850	33	AgAsyncStreamReader::vfn_0	AgAsyncStreamReader	engine/io	AgAsyncStreamReader	virtual	done
 0x535880	7	AgAsyncStreamReader::vfn_6	AgAsyncStreamReader	engine/io	AgAsyncStreamReader	virtual	stub
 0x535890	170	AgAsyncStreamReader::fn_535890	AgAsyncStreamReader	engine/io	AgAsyncStreamReader	inferred	stub
 0x535940	7	AgAsyncStreamReader::vfn_4	AgAsyncStreamReader	engine/io	AgAsyncStreamReader	virtual	stub
@@ -4265,7 +4305,7 @@
 0x536530	102	sub_536530		unsorted	block_53	unknown	stub
 0x5365A0	397	??1AgRenderListProcessor@@UAE@XZ		unsorted	block_53	unknown	stub
 0x536730	171	sub_536730		unsorted	block_53	unknown	stub
-0x5367E0	33	AgRenderListProcessor::vfn_0	AgRenderListProcessor	engine/render	AgRenderListProcessor	virtual	stub
+0x5367E0	33	AgRenderListProcessor::vfn_0	AgRenderListProcessor	engine/render	AgRenderListProcessor	virtual	done
 0x536810	376	AgRenderListProcessor::fn_536810	AgRenderListProcessor	engine/render	AgRenderListProcessor	inferred	stub
 0x536990	252	AgRenderListProcessor::fn_536990	AgRenderListProcessor	engine/render	AgRenderListProcessor	inferred	stub
 0x536A90	14	AgRenderListProcessor::vfn_3	AgRenderListProcessor	engine/render	AgRenderListProcessor	virtual	stub
@@ -4306,7 +4346,7 @@
 0x5386C0	379	sub_5386C0		unsorted	block_53	unknown	stub
 0x538840	204	sub_538840		unsorted	block_53	unknown	stub
 0x538910	147	sub_538910		unsorted	block_53	unknown	stub
-0x5389B0	88	AgPCFileSystem::vfn_0	AgPCFileSystem	engine/io	AgPCFileSystem	virtual	stub
+0x5389B0	88	AgPCFileSystem::vfn_0	AgPCFileSystem	engine/io	AgPCFileSystem	virtual	done
 0x538A10	117	AgPCFileSystem::fn_538A10	AgPCFileSystem	engine/io	AgPCFileSystem	inferred	stub
 0x538A90	359	AgPCFileSystem::fn_538A90	AgPCFileSystem	engine/io	AgPCFileSystem	inferred	stub
 0x538C00	1827	AgPCFileSystem::vfn_3	AgPCFileSystem	engine/io	AgPCFileSystem	virtual	stub
@@ -4321,8 +4361,8 @@
 0x539510	161	sub_539510		unsorted	block_53	unknown	stub
 0x5395C0	139	sub_5395C0		unsorted	block_53	unknown	stub
 0x539650	65	sub_539650		unsorted	block_53	unknown	stub
-0x5396A0	88	AgPlatformResourceTexture2d::vfn_0	AgPlatformResourceTexture2d	engine/render	AgPlatformResourceTexture2d	virtual	stub
-0x539700	33	AgPlatformResourceTexture2dBase::vfn_0	AgPlatformResourceTexture2dBase	engine/render	AgPlatformResourceTexture2dBase	virtual	stub
+0x5396A0	88	AgPlatformResourceTexture2d::vfn_0	AgPlatformResourceTexture2d	engine/render	AgPlatformResourceTexture2d	virtual	done
+0x539700	33	AgPlatformResourceTexture2dBase::vfn_0	AgPlatformResourceTexture2dBase	engine/render	AgPlatformResourceTexture2dBase	virtual	done
 0x539730	94	AgResourceTexture2dD3D::vfn_0	AgResourceTexture2dD3D	engine/render	AgResourceTexture2dD3D	virtual	stub
 0x539790	867	AgResourceTexture2dD3D::fn_539790	AgResourceTexture2dD3D	engine/render	AgResourceTexture2dD3D	inferred	stub
 0x539B10	86	AgResourceTexture2dD3D::vfn_12	AgResourceTexture2dD3D	engine/render	AgResourceTexture2dD3D	virtual	stub
@@ -4388,8 +4428,8 @@
 0x53C240	33	std::ctype::vfn_0	std::ctype	lib/std	std_ctype	virtual	stub
 0x53C270	108	std::num_put::vfn_0	std::num_put	lib/std	std_num_put	virtual	stub
 0x53C2E0	142	std::numpunct::vfn_0	std::numpunct	lib/std	std_numpunct	virtual	stub
-0x53C370	33	AgAudioManagerFMOD::vfn_0	AgAudioManagerFMOD	engine/audio	AgAudioManagerFMOD	virtual	stub
-0x53C3A0	88	AgPriorityThreadPool::vfn_1	AgPriorityThreadPool	engine/thread	AgPriorityThreadPool	virtual	stub
+0x53C370	33	AgAudioManagerFMOD::vfn_0	AgAudioManagerFMOD	engine/audio	AgAudioManagerFMOD	virtual	done
+0x53C3A0	88	AgPriorityThreadPool::vfn_1	AgPriorityThreadPool	engine/thread	AgPriorityThreadPool	virtual	done
 0x53C400	89	AudioStreamJob::vfn_0	AudioStreamJob	engine/audio	AudioStreamJob	virtual	stub
 0x53C460	89	AgPriorityThreadPool::PriorityJob::vfn_0	AgPriorityThreadPool::PriorityJob	engine/thread	AgPriorityThreadPool_PriorityJob	virtual	stub
 0x53C4C0	34	std::_Facet_base::vfn_0	std::_Facet_base	lib/std	std__Facet_base	virtual	stub
@@ -4490,7 +4530,7 @@
 0x53FDC0	235	std::basic_streambuf::vfn_8	std::basic_streambuf	lib/std	std_basic_streambuf	virtual	stub
 0x53FEB0	236	std::basic_streambuf::vfn_9	std::basic_streambuf	lib/std	std_basic_streambuf	virtual	stub
 0x53FFA0	92	sub_53FFA0		unsorted	block_53	unknown	stub
-0x540000	88	AgAudioChannelFMOD::vfn_0	AgAudioChannelFMOD	engine/audio	AgAudioChannelFMOD	virtual	stub
+0x540000	88	AgAudioChannelFMOD::vfn_0	AgAudioChannelFMOD	engine/audio	AgAudioChannelFMOD	virtual	done
 0x540060	69	sub_540060		unsorted	block_54	unknown	stub
 0x5400B0	461	sub_5400B0		unsorted	block_54	unknown	stub
 0x540280	69	sub_540280		unsorted	block_54	unknown	stub
@@ -4503,7 +4543,7 @@
 0x5405B0	417	sub_5405B0		unsorted	block_54	unknown	stub
 0x540760	113	sub_540760		unsorted	block_54	unknown	stub
 0x5407E0	149	sub_5407E0		unsorted	block_54	unknown	stub
-0x540880	88	AgAudioSourceFMOD::vfn_0	AgAudioSourceFMOD	engine/audio	AgAudioSourceFMOD	virtual	stub
+0x540880	88	AgAudioSourceFMOD::vfn_0	AgAudioSourceFMOD	engine/audio	AgAudioSourceFMOD	virtual	done
 0x5408E0	315	sub_5408E0		unsorted	block_54	unknown	stub
 0x540A20	206	sub_540A20		unsorted	block_54	unknown	stub
 0x540AF0	48	sub_540AF0		unsorted	block_54	unknown	stub
@@ -6534,7 +6574,7 @@
 0x5C67B1	5	??3@YAXPAX@Z		lib/crt	invarg	library	done
 0x5C67B6	47	__onexitinit		lib/crt	onexit	library	done
 0x5C67E5	64	_onexit		lib/crt	onexit	library	done
-0x5C6825	182	_onexit_nolock		lib/crt	block_5C	library	stub
+0x5C6825	182	_onexit_nolock		lib/crt	block_5C	library	done
 0x5C68DB	21	atexit		lib/crt	onexit	library	done
 0x5C68F0	31	_snprintf_s		lib/crt	sprintf	library	done
 0x5C690F	130	sprintf		lib/crt	sprintf	library	done
@@ -6585,8 +6625,8 @@
 0x5C9520	611	strstr		lib/crt	block_5C	library	stub
 0x5C9783	989	__libm_sse2_acosf		lib/crt	block_5C	library	stub
 0x5C9B60	642	qsort		lib/crt	qsort	library	done
-0x5C9DF0	108	shortsort		lib/crt	block_5C	library	stub
-0x5C9E60	44	swap		lib/crt	block_5C	library	stub
+0x5C9DF0	108	shortsort		lib/crt	block_5C	library	done
+0x5C9E60	44	swap		lib/crt	block_5C	library	done
 0x5C9E8C	170	_snprintf		lib/crt	snprintf	library	done
 0x5C9F40	292	strncpy		lib/crt	block_5C	library	stub
 0x5CA064	27	??0__non_rtti_object@std@@QAE@ABV01@@Z		lib/crt	block_5C	library	stub
@@ -6684,7 +6724,7 @@
 0x5CC67C	45	_unlock_file2		lib/crt	_file	library	done
 0x5CC6B0	173	memchr		lib/crt	block_5C	library	stub
 0x5CC760	123	_setjmp3		lib/crt	block_5C	library	stub
-0x5CC7DB	548	strtoxl		lib/crt	block_5C	library	stub
+0x5CC7DB	548	strtoxl		lib/crt	block_5C	library	done
 0x5CC9FF	42	strtol		lib/crt	strtol	library	done
 0x5CCA29	132	_getenv_helper_nolock		lib/crt	getenv	library	done
 0x5CCAAD	124	getenv		lib/crt	getenv	library	done
@@ -6852,7 +6892,7 @@
 0x5D2F30	139	strlen		lib/crt	block_5D	library	stub
 0x5D2FBB	21	_heap_init		lib/crt	heapinit	library	done
 0x5D2FD0	175	_isctype_l		lib/crt	isctype	library	done
-0x5D307F	489	__crtLCMapStringA_stat		lib/crt	block_5D	library	stub
+0x5D307F	489	__crtLCMapStringA_stat		lib/crt	block_5D	library	done
 0x5D3268	68	__crtLCMapStringA		lib/crt	a_map	library	done
 0x5D32AC	30	_freea		lib/crt	a_map	library	done
 0x5D32CA	49	_ftbuf		lib/crt	_sftbuf	library	done
@@ -6928,7 +6968,7 @@
 0x5D6C41	437	raise		lib/crt	winsig	library	done
 0x5D6DF6	60	siglookup		lib/crt	block_5D	library	stub
 0x5D6E32	164	strncpy_s		lib/crt	strncpy_s	library	done
-0x5D6ED6	216	__crtGetLocaleInfoA_stat		lib/crt	block_5D	library	stub
+0x5D6ED6	216	__crtGetLocaleInfoA_stat		lib/crt	block_5D	library	done
 0x5D6FAE	56	__crtGetLocaleInfoA		lib/crt	a_loc	library	done
 0x5D6FE7	53	sub_5D6FE7		lib/crt	block_5D	library	stub
 0x5D701C	78	sub_5D701C		lib/crt	block_5D	library	stub
@@ -6972,8 +7012,8 @@
 0x5D8B9A	520	__init_numeric		lib/crt	initnum	library	done
 0x5D8DA2	896	__free_lc_time		lib/crt	inittime	library	done
 0x5D9122	124	__init_time		lib/crt	inittime	library	done
-0x5D919E	2033	_get_lc_time		lib/crt	block_5D	library	stub
-0x5D998F	236	__crtGetStringTypeA_stat		lib/crt	block_5D	library	stub
+0x5D919E	2033	_get_lc_time		lib/crt	block_5D	library	done
+0x5D998F	236	__crtGetStringTypeA_stat		lib/crt	block_5D	library	done
 0x5D9A7B	62	__crtGetStringTypeA		lib/crt	a_str	library	done
 0x5D9AB9	41	__pctype_func		lib/crt	ctype	library	done
 0x5D9AE2	38	___lc_codepage_func		lib/crt	initctyp	library	done
@@ -7007,7 +7047,7 @@
 0x5DC390	139	sub_5DC390		lib/crt	block_5D	library	stub
 0x5DC41B	34	sub_5DC41B		lib/crt	block_5D	library	stub
 0x5DC43D	104	sub_5DC43D		lib/crt	block_5D	library	stub
-0x5DC4A5	108	TranslateName		lib/crt	block_5D	library	stub
+0x5DC4A5	108	TranslateName		lib/crt	block_5D	library	done
 0x5DC511	538	sub_5DC511		lib/crt	block_5D	library	stub
 0x5DC730	24	sub_5DC730		lib/crt	block_5D	library	stub
 0x5DC74E	425	sub_5DC74E		lib/crt	block_5D	library	stub
@@ -7062,8 +7102,8 @@
 0x5DE1AC	24	sub_5DE1AC		lib/crt	block_5D	library	stub
 0x5DE1C4	444	_mbsnbicmp_l		lib/crt	block_5D	library	stub
 0x5DE380	582	__crtsetenv		lib/crt	setenv	library	done
-0x5DE5C6	96	copy_environ		lib/crt	block_5D	library	stub
-0x5DE626	91	findenv		lib/crt	block_5D	library	stub
+0x5DE5C6	96	copy_environ		lib/crt	block_5D	library	done
+0x5DE626	91	findenv		lib/crt	block_5D	library	done
 0x5DE681	195	_strnicoll_l		lib/crt	strnicol	library	done
 0x5DE744	619	__crtCompareStringA_stat		lib/crt	block_5D	library	stub
 0x5DE9AF	32	__strncnt		lib/crt	strncnt	library	done
@@ -7139,10 +7179,10 @@
 0x5E2952	51	??0_Lockit@std@@QAE@H@Z		lib/crt	block_5E	library	stub
 0x5E29AE	36	??1_Lockit@std@@QAE@XZ		lib/crt	block_5E	library	stub
 0x5E29D2	5	__free_locale		lib/crt	rtlocks	library	done
-0x5E29D7	108	_Getctype		lib/crt	block_5E	library	stub
-0x5E2A43	253	_Tolower		lib/crt	block_5E	library	stub
-0x5E2B40	105	_Getcvt		lib/crt	block_5E	library	stub
-0x5E2BA9	253	_Toupper		lib/crt	block_5E	library	stub
+0x5E29D7	108	_Getctype		lib/crt	block_5E	library	done
+0x5E2A43	253	_Tolower		lib/crt	block_5E	library	done
+0x5E2B40	105	_Getcvt		lib/crt	block_5E	library	done
+0x5E2BA9	253	_Toupper		lib/crt	block_5E	library	done
 0x5E2CA6	61	??0_Locimp@locale@std@@AAE@_N@Z		lib/crt	block_5E	library	stub
 0x5E2CE3	21	??1_Fac_node@std@@QAE@XZ		lib/crt	block_5E	library	stub
 0x5E2D1C	43	??1_Locimp@locale@std@@MAE@XZ		lib/crt	block_5E	library	stub
@@ -7162,9 +7202,9 @@
 0x5E3004	37	?_Callfns@ios_base@std@@AAEXW4event@12@@Z		lib/crt	block_5E	library	stub
 0x5E3029	61	?_Ios_base_dtor@ios_base@std@@CAXPAV12@@Z		lib/crt	block_5E	library	stub
 0x5E3066	66	?_Tidy@ios_base@std@@AAEXXZ		lib/crt	block_5E	library	stub
-0x5E30A8	33	_Getcoll		lib/crt	block_5E	library	stub
+0x5E30A8	33	_Getcoll		lib/crt	block_5E	library	done
 0x5E30C9	149	_Strcoll		lib/crt	block_5E	library	stub
-0x5E315E	166	_Strxfrm		lib/crt	block_5E	library	stub
+0x5E315E	166	_Strxfrm		lib/crt	block_5E	library	done
 0x5E3204	14	sub_5E3204		lib/crt	block_5E	library	stub
 0x5E3212	23	sub_5E3212		lib/crt	block_5E	library	stub
 0x5E3229	14	sub_5E3229		lib/crt	block_5E	library	stub

@@ -5,11 +5,6 @@ void AgAsyncStreamReader::vfn_8_0()
 {
 }
 
-// STUB: 0x535850 AgAsyncStreamReader::vfn_0 (33 bytes)
-void AgAsyncStreamReader::vfn_0()
-{
-}
-
 // STUB: 0x535880 AgAsyncStreamReader::vfn_6 (7 bytes)
 void AgAsyncStreamReader::vfn_6()
 {
@@ -64,3 +59,10 @@ void AgAsyncStreamReader::vfn_2()
 void AgAsyncStreamReader::vfn_5()
 {
 }
+
+// STUB: 0x5356B0 AgAsyncStreamReader::~AgAsyncStreamReader (398 bytes)
+__declspec(noinline) AgAsyncStreamReader::~AgAsyncStreamReader()
+{
+}
+
+// FUNCTION: 0x535850 ??_GAgAsyncStreamReader@@UAEPAXI@Z

@@ -48,11 +48,6 @@ void sub_5405B0()
 {
 }
 
-// STUB: 0x540760 sub_540760 (113 bytes)
-void sub_540760()
-{
-}
-
 // STUB: 0x5407E0 sub_5407E0 (149 bytes)
 void sub_5407E0()
 {

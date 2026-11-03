@@ -1,9 +1,5 @@
 #include "engine/online/AgDialogManager.gen.h"
-
-// STUB: 0x52A4D0 AgDialogManager::vfn_0 (33 bytes)
-void AgDialogManager::vfn_0()
-{
-}
+#include "engine/core/AgSingleton.h"
 
 // STUB: 0x52A500 AgDialogManager::fn_52A500 (219 bytes)
 void AgDialogManager::fn_52A500()
@@ -24,3 +20,13 @@ void AgDialogManager::vfn_3()
 void AgDialogManager::vfn_4()
 {
 }
+
+// STUB: 0x52A3A0 AgDialogManager::~AgDialogManager (245 bytes)
+__declspec(noinline) AgDialogManager::~AgDialogManager()
+{
+}
+
+// FUNCTION: 0x52A4D0 ??_GAgDialogManager@@UAEPAXI@Z
+
+// FUNCTION: 0x52A4A0 ??_G?$AgSingleton@VAgDialogManager@@@@UAEPAXI@Z
+template class AgSingleton<AgDialogManager>;

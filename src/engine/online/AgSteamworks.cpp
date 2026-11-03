@@ -1,4 +1,5 @@
 #include "engine/online/AgSteamworks.gen.h"
+#include "engine/core/AgSingleton.h"
 
 // STUB: 0x516DA0 AgSteamworks::vfn_0 (89 bytes)
 void AgSteamworks::vfn_0()
@@ -14,3 +15,6 @@ void AgSteamworks::vfn_2()
 void AgSteamworks::vfn_1()
 {
 }
+
+// FUNCTION: 0x516D10 ??_G?$AgSingleton@VAgSteamworks@@@@UAEPAXI@Z
+template class AgSingleton<AgSteamworks>;

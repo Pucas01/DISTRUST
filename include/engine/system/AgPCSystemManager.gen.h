@@ -6,7 +6,7 @@ class AgPCSystemManager
 {
 public:
     // vtable 0x6322EC, offset 0
-    virtual void vfn_0(); // 0x516D70
+    virtual ~AgPCSystemManager(); // 0x516D70
     virtual void vfn_1(); // 0x518400
     virtual void vfn_2(); // 0x518270
     virtual void vfn_3(); // 0x518960

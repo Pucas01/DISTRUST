@@ -6,5 +6,5 @@ class AgThread
 {
 public:
     // vtable 0x632510, offset 0
-    virtual void vfn_0(); // 0x519220
+    virtual ~AgThread(); // 0x519220
 };

@@ -1,12 +1,14 @@
 #pragma once
 
+#include "engine/online/AgLeaderboardManager.gen.h"
+
 // Generated from RTTI by tools/scaffold.py. Slot signatures are not known yet.
 // bases: AgLeaderboardManager, AgSingleton<AgLeaderboardManager>
-class AgDefaultLeaderboardManager
+class AgDefaultLeaderboardManager : public AgLeaderboardManager
 {
 public:
+    AgDefaultLeaderboardManager();
     // vtable 0x632A38, offset 0
-    virtual void vfn_0(); // 0x52DD20
     virtual void vfn_1(); // 0x52FB40
     virtual void vfn_2(); // 0x52FAF0
     virtual void vfn_3(); // 0x52E330

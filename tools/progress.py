@@ -54,14 +54,17 @@ def squarify(values, x, y, w, h):
 
 def load():
     results = {}
-    for path in (ROOT / "build" / "check").rglob("*.json"):
+    check = ROOT / "build" / "check"
+    for path in check.rglob("*.json"):
+        if not (ROOT / "src" / path.relative_to(check).with_suffix(".cpp")).exists():
+            continue
         for entry in json.loads(path.read_text()):
             results[entry["address"]] = entry["status"]
     groups = collections.defaultdict(list)
     for line in (ROOT / "config" / "catalog.tsv").read_text().splitlines()[1:]:
         cols = line.split("\t")
         address, size, module, base = int(cols[0], 16), int(cols[1]), cols[4], cols[5]
-        if module.startswith("lib") or size <= 0:
+        if size <= 0:
             continue
         if address in results:
             state = "match" if results[address] == "match" else "partial"

@@ -6,7 +6,7 @@ class AgAsyncStreamReader
 {
 public:
     // vtable 0x632CD0, offset 0
-    virtual void vfn_0(); // 0x535850
+    virtual ~AgAsyncStreamReader(); // 0x535850
     virtual void vfn_1(); // 0x501D30
     virtual void vfn_2(); // 0x535F80
     virtual void vfn_3(); // 0x5361A0

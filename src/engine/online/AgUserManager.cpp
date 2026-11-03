@@ -1,9 +1,5 @@
 #include "engine/online/AgUserManager.gen.h"
-
-// STUB: 0x527770 AgUserManager::vfn_0 (33 bytes)
-void AgUserManager::vfn_0()
-{
-}
+#include "engine/core/AgSingleton.h"
 
 // STUB: 0x5277A0 AgUserManager::fn_5277A0 (86 bytes)
 void AgUserManager::fn_5277A0()
@@ -74,3 +70,13 @@ void AgUserManager::fn_528070()
 void AgUserManager::vfn_3()
 {
 }
+
+// STUB: 0x527550 AgUserManager::~AgUserManager (225 bytes)
+__declspec(noinline) AgUserManager::~AgUserManager()
+{
+}
+
+// FUNCTION: 0x527770 ??_GAgUserManager@@UAEPAXI@Z
+
+// FUNCTION: 0x527740 ??_G?$AgSingleton@VAgUserManager@@@@UAEPAXI@Z
+template class AgSingleton<AgUserManager>;

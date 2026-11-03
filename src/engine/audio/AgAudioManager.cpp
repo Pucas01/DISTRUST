@@ -1,9 +1,5 @@
 #include "engine/audio/AgAudioManager.h"
-
-// STUB: 0x50D460 AgAudioManager::vfn_0 (33 bytes)
-void AgAudioManager::vfn_0()
-{
-}
+#include "engine/core/AgSingleton.h"
 
 // STUB: 0x50D490 AgAudioManager::fn_50D490 (247 bytes)
 void AgAudioManager::fn_50D490()
@@ -94,3 +90,13 @@ float* AgAudioManager::getListenerPosition()
 {
     return listenerPosition;
 }
+
+// STUB: 0x50D290 AgAudioManager::~AgAudioManager (177 bytes)
+__declspec(noinline) AgAudioManager::~AgAudioManager()
+{
+}
+
+// FUNCTION: 0x50D460 ??_GAgAudioManager@@UAEPAXI@Z
+
+// FUNCTION: 0x50D430 ??_G?$AgSingleton@VAgAudioManager@@@@UAEPAXI@Z
+template class AgSingleton<AgAudioManager>;

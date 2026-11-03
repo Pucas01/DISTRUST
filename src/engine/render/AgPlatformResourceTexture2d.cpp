@@ -1,6 +1,9 @@
+// FLAGS: /nologo /c /O2 /Oy- /Gy /GS /Zc:wchar_t /arch:SSE2 /fp:fast /EHa
 #include "engine/render/AgPlatformResourceTexture2d.gen.h"
 
-// STUB: 0x5396A0 AgPlatformResourceTexture2d::vfn_0 (88 bytes)
-void AgPlatformResourceTexture2d::vfn_0()
+// STUB: 0x5395C0 AgPlatformResourceTexture2d::AgPlatformResourceTexture2d (139 bytes)
+AgPlatformResourceTexture2d::AgPlatformResourceTexture2d()
 {
 }
+
+// FUNCTION: 0x5396A0 ??_GAgPlatformResourceTexture2d@@UAEPAXI@Z

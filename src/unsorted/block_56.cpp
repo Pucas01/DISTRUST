@@ -103,11 +103,6 @@ void sub_562D20()
 {
 }
 
-// STUB: 0x5630E0 sub_5630E0 (71 bytes)
-void sub_5630E0()
-{
-}
-
 // STUB: 0x5633A0 sub_5633A0 (129 bytes)
 void sub_5633A0()
 {

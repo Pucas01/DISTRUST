@@ -6,7 +6,7 @@ class AgRenderListProcessor
 {
 public:
     // vtable 0x632D24, offset 0
-    virtual void vfn_0(); // 0x5367E0
+    virtual ~AgRenderListProcessor(); // 0x5367E0
     virtual void vfn_1(); // 0x5373B0
     virtual void vfn_2(); // 0x537B20
     virtual void vfn_3(); // 0x536A90

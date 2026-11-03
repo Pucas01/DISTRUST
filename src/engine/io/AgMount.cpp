@@ -1,10 +1,5 @@
 #include "engine/io/AgMount.gen.h"
 
-// STUB: 0x502920 AgMount::vfn_0 (33 bytes)
-void AgMount::vfn_0()
-{
-}
-
 // STUB: 0x502950 AgMount::vfn_14 (108 bytes)
 void AgMount::vfn_14()
 {
@@ -44,3 +39,10 @@ void AgMount::fn_502DB0()
 void AgMount::vfn_4()
 {
 }
+
+// STUB: 0x502850 AgMount::~AgMount (194 bytes)
+__declspec(noinline) AgMount::~AgMount()
+{
+}
+
+// FUNCTION: 0x502920 ??_GAgMount@@UAEPAXI@Z

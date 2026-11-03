@@ -1,10 +1,5 @@
 #include "engine/movie/AgMoviePlayer.gen.h"
 
-// STUB: 0x51A380 AgMoviePlayer::vfn_0 (33 bytes)
-void AgMoviePlayer::vfn_0()
-{
-}
-
 // STUB: 0x51A3B0 AgMoviePlayer::fn_51A3B0 (432 bytes)
 void AgMoviePlayer::fn_51A3B0()
 {
@@ -49,3 +44,10 @@ void AgMoviePlayer::vfn_1()
 void AgMoviePlayer::vfn_2()
 {
 }
+
+// STUB: 0x51A250 AgMoviePlayer::~AgMoviePlayer (290 bytes)
+__declspec(noinline) AgMoviePlayer::~AgMoviePlayer()
+{
+}
+
+// FUNCTION: 0x51A380 ??_GAgMoviePlayer@@UAEPAXI@Z

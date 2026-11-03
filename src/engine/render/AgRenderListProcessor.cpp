@@ -1,10 +1,5 @@
 #include "engine/render/AgRenderListProcessor.gen.h"
 
-// STUB: 0x5367E0 AgRenderListProcessor::vfn_0 (33 bytes)
-void AgRenderListProcessor::vfn_0()
-{
-}
-
 // STUB: 0x536810 AgRenderListProcessor::fn_536810 (376 bytes)
 void AgRenderListProcessor::fn_536810()
 {
@@ -139,3 +134,10 @@ void AgRenderListProcessor::vfn_4()
 void AgRenderListProcessor::vfn_5()
 {
 }
+
+// STUB: 0x5365A0 AgRenderListProcessor::~AgRenderListProcessor (397 bytes)
+__declspec(noinline) AgRenderListProcessor::~AgRenderListProcessor()
+{
+}
+
+// FUNCTION: 0x5367E0 ??_GAgRenderListProcessor@@UAEPAXI@Z

@@ -1,9 +1,5 @@
+// FLAGS: /nologo /c /O2 /Oy- /Gy /GS /Zc:wchar_t /arch:SSE2 /fp:fast /EHa
 #include "engine/io/AgPCFileSystem.gen.h"
-
-// STUB: 0x5389B0 AgPCFileSystem::vfn_0 (88 bytes)
-void AgPCFileSystem::vfn_0()
-{
-}
 
 // STUB: 0x538A10 AgPCFileSystem::fn_538A10 (117 bytes)
 void AgPCFileSystem::fn_538A10()
@@ -24,3 +20,10 @@ void AgPCFileSystem::vfn_3()
 void AgPCFileSystem::vfn_6()
 {
 }
+
+// STUB: 0x538840 AgPCFileSystem::AgPCFileSystem (204 bytes)
+AgPCFileSystem::AgPCFileSystem()
+{
+}
+
+// FUNCTION: 0x5389B0 ??_GAgPCFileSystem@@UAEPAXI@Z

@@ -1,12 +1,8 @@
 #include "engine/system/AgBusyScreen.gen.h"
+#include "engine/core/AgSingleton.h"
 
 // STUB: 0x511079 AgBusyScreen::vfn_12_0 (8 bytes)
 void AgBusyScreen::vfn_12_0()
-{
-}
-
-// STUB: 0x5110C0 AgBusyScreen::vfn_0 (33 bytes)
-void AgBusyScreen::vfn_0()
 {
 }
 
@@ -29,3 +25,13 @@ void AgBusyScreen::vfn_1()
 void AgBusyScreen::vfn_2()
 {
 }
+
+// STUB: 0x510FD0 AgBusyScreen::~AgBusyScreen (169 bytes)
+__declspec(noinline) AgBusyScreen::~AgBusyScreen()
+{
+}
+
+// FUNCTION: 0x5110C0 ??_GAgBusyScreen@@UAEPAXI@Z
+
+// FUNCTION: 0x511090 ??_G?$AgSingleton@VAgBusyScreen@@@@UAEPAXI@Z
+template class AgSingleton<AgBusyScreen>;

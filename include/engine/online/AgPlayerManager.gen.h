@@ -6,7 +6,7 @@ class AgPlayerManager
 {
 public:
     // vtable 0x6326E8, offset 0
-    virtual void vfn_0(); // 0x520DF0
+    virtual ~AgPlayerManager(); // 0x520DF0
     virtual void vfn_1(); // 0x521E00
     virtual void vfn_2(); // 0x521D90
     virtual void vfn_3(); // 0x522570

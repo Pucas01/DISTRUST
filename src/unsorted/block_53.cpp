@@ -183,11 +183,6 @@ void sub_5324F0()
 {
 }
 
-// STUB: 0x532540 sub_532540 (410 bytes)
-void sub_532540()
-{
-}
-
 // STUB: 0x5326E0 sub_5326E0 (7 bytes)
 void sub_5326E0()
 {
@@ -358,18 +353,8 @@ void sub_534E20()
 {
 }
 
-// STUB: 0x535060 sub_535060 (188 bytes)
-void sub_535060()
-{
-}
-
 // STUB: 0x5352D0 sub_5352D0 (992 bytes)
 void sub_5352D0()
-{
-}
-
-// STUB: 0x5356B0 sub_5356B0 (398 bytes)
-void sub_5356B0()
 {
 }
 
@@ -395,11 +380,6 @@ void sub_5364B0()
 
 // STUB: 0x536530 sub_536530 (102 bytes)
 void sub_536530()
-{
-}
-
-// STUB: 0x5365A0 ??1AgRenderListProcessor@@UAE@XZ (397 bytes)
-void f_1AgRenderListProcessor_UAE_XZ()
 {
 }
 
@@ -463,11 +443,6 @@ void sub_5386C0()
 {
 }
 
-// STUB: 0x538840 sub_538840 (204 bytes)
-void sub_538840()
-{
-}
-
 // STUB: 0x538910 sub_538910 (147 bytes)
 void sub_538910()
 {
@@ -475,11 +450,6 @@ void sub_538910()
 
 // STUB: 0x539510 sub_539510 (161 bytes)
 void sub_539510()
-{
-}
-
-// STUB: 0x5395C0 sub_5395C0 (139 bytes)
-void sub_5395C0()
 {
 }
 
@@ -563,11 +533,6 @@ void sub_53B010()
 {
 }
 
-// STUB: 0x53B090 sub_53B090 (238 bytes)
-void sub_53B090()
-{
-}
-
 // STUB: 0x53B180 sub_53B180 (227 bytes)
 void sub_53B180()
 {
@@ -620,11 +585,6 @@ void sub_53B720()
 
 // STUB: 0x53B7A0 sub_53B7A0 (150 bytes)
 void sub_53B7A0()
-{
-}
-
-// STUB: 0x53B840 sub_53B840 (209 bytes)
-void sub_53B840()
 {
 }
 
@@ -878,7 +838,3 @@ void sub_53F4E0()
 {
 }
 
-// STUB: 0x53FFA0 sub_53FFA0 (92 bytes)
-void sub_53FFA0()
-{
-}

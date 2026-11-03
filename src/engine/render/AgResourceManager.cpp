@@ -1,9 +1,5 @@
 #include "engine/render/AgResourceManager.gen.h"
-
-// STUB: 0x532990 AgResourceManager::vfn_0 (33 bytes)
-void AgResourceManager::vfn_0()
-{
-}
+#include "engine/core/AgSingleton.h"
 
 // STUB: 0x5337C0 AgResourceManager::vfn_2 (81 bytes)
 void AgResourceManager::vfn_2()
@@ -14,3 +10,13 @@ void AgResourceManager::vfn_2()
 void AgResourceManager::vfn_1()
 {
 }
+
+// STUB: 0x532540 AgResourceManager::~AgResourceManager (410 bytes)
+__declspec(noinline) AgResourceManager::~AgResourceManager()
+{
+}
+
+// FUNCTION: 0x532990 ??_GAgResourceManager@@UAEPAXI@Z
+
+// FUNCTION: 0x532860 ??_G?$AgSingleton@VAgResourceManager@@@@UAEPAXI@Z
+template class AgSingleton<AgResourceManager>;

@@ -1,9 +1,5 @@
 #include "engine/input/AgInputManager.gen.h"
-
-// STUB: 0x4F73F0 AgInputManager::vfn_0 (33 bytes)
-void AgInputManager::vfn_0()
-{
-}
+#include "engine/core/AgSingleton.h"
 
 // STUB: 0x4FA230 AgInputManager::vfn_4 (91 bytes)
 void AgInputManager::vfn_4()
@@ -99,3 +95,13 @@ void AgInputManager::fn_4FBA30()
 void AgInputManager::vfn_3()
 {
 }
+
+// STUB: 0x4F69E0 AgInputManager::~AgInputManager (522 bytes)
+__declspec(noinline) AgInputManager::~AgInputManager()
+{
+}
+
+// FUNCTION: 0x4F73F0 ??_GAgInputManager@@UAEPAXI@Z
+
+// FUNCTION: 0x4F7330 ??_G?$AgSingleton@VAgInputManager@@@@UAEPAXI@Z
+template class AgSingleton<AgInputManager>;

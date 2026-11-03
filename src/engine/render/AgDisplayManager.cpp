@@ -1,4 +1,5 @@
 #include "engine/render/AgDisplayManager.gen.h"
+#include "engine/core/AgSingleton.h"
 
 // STUB: 0x512C80 AgDisplayManager::vfn_0 (89 bytes)
 void AgDisplayManager::vfn_0()
@@ -39,3 +40,6 @@ void AgDisplayManager::vfn_2()
 void AgDisplayManager::vfn_1()
 {
 }
+
+// FUNCTION: 0x512C50 ??_G?$AgSingleton@VAgDisplayManager@@@@UAEPAXI@Z
+template class AgSingleton<AgDisplayManager>;

@@ -1,9 +1,5 @@
 #include "engine/io/AgFileSystem.gen.h"
-
-// STUB: 0x509710 AgFileSystem::vfn_0 (33 bytes)
-void AgFileSystem::vfn_0()
-{
-}
+#include "engine/core/AgSingleton.h"
 
 // STUB: 0x509740 AgFileSystem::fn_509740 (176 bytes)
 void AgFileSystem::fn_509740()
@@ -194,3 +190,13 @@ void AgFileSystem::fn_50B4E0()
 void AgFileSystem::vfn_4()
 {
 }
+
+// STUB: 0x509290 AgFileSystem::~AgFileSystem (255 bytes)
+__declspec(noinline) AgFileSystem::~AgFileSystem()
+{
+}
+
+// FUNCTION: 0x509710 ??_GAgFileSystem@@UAEPAXI@Z
+
+// FUNCTION: 0x5096E0 ??_G?$AgSingleton@VAgFileSystem@@@@UAEPAXI@Z
+template class AgSingleton<AgFileSystem>;

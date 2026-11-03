@@ -6,7 +6,7 @@ class AgBusyScreen
 {
 public:
     // vtable 0x632208, offset 0
-    virtual void vfn_0(); // 0x5110C0
+    virtual ~AgBusyScreen(); // 0x5110C0
     virtual void vfn_1(); // 0x511270
     virtual void vfn_2(); // 0x511380
     virtual void vfn_3(); // 0x4135B0

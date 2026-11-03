@@ -1,9 +1,5 @@
 #include "engine/online/AgLeaderboardManager.gen.h"
-
-// STUB: 0x52DDB0 AgLeaderboardManager::vfn_0 (33 bytes)
-void AgLeaderboardManager::vfn_0()
-{
-}
+#include "engine/core/AgSingleton.h"
 
 // STUB: 0x52E840 AgLeaderboardManager::vfn_5 (1612 bytes)
 void AgLeaderboardManager::vfn_5()
@@ -64,3 +60,13 @@ void AgLeaderboardManager::vfn_1()
 void AgLeaderboardManager::vfn_4()
 {
 }
+
+// STUB: 0x52D3F0 AgLeaderboardManager::~AgLeaderboardManager (294 bytes)
+__declspec(noinline) AgLeaderboardManager::~AgLeaderboardManager()
+{
+}
+
+// FUNCTION: 0x52DDB0 ??_GAgLeaderboardManager@@UAEPAXI@Z
+
+// FUNCTION: 0x52DC90 ??_G?$AgSingleton@VAgLeaderboardManager@@@@UAEPAXI@Z
+template class AgSingleton<AgLeaderboardManager>;

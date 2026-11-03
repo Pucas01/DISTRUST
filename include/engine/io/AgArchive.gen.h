@@ -6,7 +6,7 @@ class AgArchive
 {
 public:
     // vtable 0x631EBC, offset 0
-    virtual void vfn_0(); // 0x5045A0
+    virtual ~AgArchive(); // 0x5045A0
     virtual void vfn_1(); // 0x4135B0
     virtual void vfn_2(); // 0x505ED0
     virtual void vfn_3(); // 0x4135B0

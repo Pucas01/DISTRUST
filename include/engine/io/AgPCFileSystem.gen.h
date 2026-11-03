@@ -1,12 +1,14 @@
 #pragma once
 
+#include "engine/io/AgFileSystem.gen.h"
+
 // Generated from RTTI by tools/scaffold.py. Slot signatures are not known yet.
 // bases: AgFileSystem, AgSingleton<AgFileSystem>
-class AgPCFileSystem
+class AgPCFileSystem : public AgFileSystem
 {
 public:
+    AgPCFileSystem();
     // vtable 0x632DE8, offset 0
-    virtual void vfn_0(); // 0x5389B0
     virtual void vfn_1(); // 0x501D60
     virtual void vfn_2(); // 0x50AB60
     virtual void vfn_3(); // 0x538C00

@@ -1,9 +1,5 @@
 #include "engine/online/AgPlayerManager.gen.h"
-
-// STUB: 0x520DF0 AgPlayerManager::vfn_0 (33 bytes)
-void AgPlayerManager::vfn_0()
-{
-}
+#include "engine/core/AgSingleton.h"
 
 // STUB: 0x520E20 AgPlayerManager::fn_520E20 (222 bytes)
 void AgPlayerManager::fn_520E20()
@@ -134,3 +130,13 @@ void AgPlayerManager::fn_522460()
 void AgPlayerManager::vfn_3()
 {
 }
+
+// STUB: 0x520C30 AgPlayerManager::~AgPlayerManager (279 bytes)
+__declspec(noinline) AgPlayerManager::~AgPlayerManager()
+{
+}
+
+// FUNCTION: 0x520DF0 ??_GAgPlayerManager@@UAEPAXI@Z
+
+// FUNCTION: 0x520DC0 ??_G?$AgSingleton@VAgPlayerManager@@@@UAEPAXI@Z
+template class AgSingleton<AgPlayerManager>;

@@ -28,8 +28,7 @@ def main():
     catalog = ROOT / "config" / "catalog.tsv"
     if catalog.exists():
         rows = [l.split("\t") for l in catalog.read_text().splitlines()[1:]]
-        mine = [r for r in rows if not r[4].startswith("lib")]
-        print("%d of %d non-library functions rewritten" % (sum(r[7] == "done" for r in mine), len(mine)))
+        print("%d of %d functions rewritten" % (sum(r[7] == "done" for r in rows), len(rows)))
     return 0
 
 

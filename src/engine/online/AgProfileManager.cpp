@@ -1,6 +1,12 @@
 #include "engine/online/AgProfileManager.gen.h"
+#include "engine/core/AgSingleton.h"
 
-// STUB: 0x52AD70 AgProfileManager::vfn_0 (33 bytes)
-void AgProfileManager::vfn_0()
+// STUB: 0x52AC90 AgProfileManager::~AgProfileManager (165 bytes)
+__declspec(noinline) AgProfileManager::~AgProfileManager()
 {
 }
+
+// FUNCTION: 0x52AD70 ??_GAgProfileManager@@UAEPAXI@Z
+
+// FUNCTION: 0x52AD40 ??_G?$AgSingleton@VAgProfileManager@@@@UAEPAXI@Z
+template class AgSingleton<AgProfileManager>;

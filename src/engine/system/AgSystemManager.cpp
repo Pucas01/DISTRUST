@@ -1,9 +1,5 @@
 #include "engine/system/AgSystemManager.gen.h"
-
-// STUB: 0x51FC80 AgSystemManager::vfn_0 (33 bytes)
-void AgSystemManager::vfn_0()
-{
-}
+#include "engine/core/AgSingleton.h"
 
 // STUB: 0x51FCB0 AgSystemManager::fn_51FCB0 (192 bytes)
 void AgSystemManager::fn_51FCB0()
@@ -99,3 +95,13 @@ void AgSystemManager::vfn_7()
 void AgSystemManager::vfn_5()
 {
 }
+
+// STUB: 0x516C70 AgSystemManager::~AgSystemManager (157 bytes)
+__declspec(noinline) AgSystemManager::~AgSystemManager()
+{
+}
+
+// FUNCTION: 0x51FC80 ??_GAgSystemManager@@UAEPAXI@Z
+
+// FUNCTION: 0x516D40 ??_G?$AgSingleton@VAgSystemManager@@@@UAEPAXI@Z
+template class AgSingleton<AgSystemManager>;

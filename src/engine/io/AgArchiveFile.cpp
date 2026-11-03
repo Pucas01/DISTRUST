@@ -1,10 +1,5 @@
 #include "engine/io/AgArchiveFile.gen.h"
 
-// STUB: 0x535120 AgArchiveFile::vfn_0 (33 bytes)
-void AgArchiveFile::vfn_0()
-{
-}
-
 // STUB: 0x535150 AgArchiveFile::vfn_6 (115 bytes)
 void AgArchiveFile::vfn_6()
 {
@@ -24,3 +19,10 @@ void AgArchiveFile::vfn_2()
 void AgArchiveFile::vfn_5()
 {
 }
+
+// STUB: 0x535060 AgArchiveFile::~AgArchiveFile (188 bytes)
+__declspec(noinline) AgArchiveFile::~AgArchiveFile()
+{
+}
+
+// FUNCTION: 0x535120 ??_GAgArchiveFile@@UAEPAXI@Z

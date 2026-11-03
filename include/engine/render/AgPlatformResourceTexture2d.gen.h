@@ -1,12 +1,14 @@
 #pragma once
 
+#include "engine/render/AgPlatformResourceTexture2dBase.gen.h"
+
 // Generated from RTTI by tools/scaffold.py. Slot signatures are not known yet.
 // bases: AgPlatformResourceTexture2dBase, AgPlatformResource, AgReferencedObject
-class AgPlatformResourceTexture2d
+class AgPlatformResourceTexture2d : public AgPlatformResourceTexture2dBase
 {
 public:
+    AgPlatformResourceTexture2d();
     // vtable 0x632F14, offset 0
-    virtual void vfn_0(); // 0x5396A0
     virtual void vfn_1(); // 0x563130
     virtual void vfn_2(); // 0x5C66ED
     virtual void vfn_3(); // 0x4135B0

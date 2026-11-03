@@ -1,4 +1,5 @@
 #include "engine/online/AgSessionManager.gen.h"
+#include "engine/core/AgSingleton.h"
 
 // STUB: 0x52B930 AgSessionManager::vfn_0 (116 bytes)
 void AgSessionManager::vfn_0()
@@ -19,3 +20,6 @@ void AgSessionManager::fn_52BA20()
 void AgSessionManager::vfn_3()
 {
 }
+
+// FUNCTION: 0x52B900 ??_G?$AgSingleton@VAgSessionManager@@@@UAEPAXI@Z
+template class AgSingleton<AgSessionManager>;

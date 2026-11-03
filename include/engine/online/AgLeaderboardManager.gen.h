@@ -6,7 +6,7 @@ class AgLeaderboardManager
 {
 public:
     // vtable 0x632A00, offset 0
-    virtual void vfn_0(); // 0x52DDB0
+    virtual ~AgLeaderboardManager(); // 0x52DDB0
     virtual void vfn_1(); // 0x52FB40
     virtual void vfn_2(); // 0x52FAF0
     virtual void vfn_3(); // 0x5C66ED

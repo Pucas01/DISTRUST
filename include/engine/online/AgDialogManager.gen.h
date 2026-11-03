@@ -6,7 +6,7 @@ class AgDialogManager
 {
 public:
     // vtable 0x632918, offset 0
-    virtual void vfn_0(); // 0x52A4D0
+    virtual ~AgDialogManager(); // 0x52A4D0
     virtual void vfn_1(); // 0x501D60
     virtual void vfn_2(); // 0x501D60
     virtual void vfn_3(); // 0x52A650

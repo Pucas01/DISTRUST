@@ -6,5 +6,5 @@ class AgAudioChannel
 {
 public:
     // vtable 0x632604, offset 0
-    virtual void vfn_0(); // 0x51B910
+    virtual ~AgAudioChannel(); // 0x51B910
 };

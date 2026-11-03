@@ -6,7 +6,7 @@ class AgInputManager
 {
 public:
     // vtable 0x631B60, offset 0
-    virtual void vfn_0(); // 0x4F73F0
+    virtual ~AgInputManager(); // 0x4F73F0
     virtual void vfn_1(); // 0x4FA710
     virtual void vfn_2(); // 0x4FA6C0
     virtual void vfn_3(); // 0x4FBB60

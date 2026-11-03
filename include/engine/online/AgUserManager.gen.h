@@ -6,7 +6,7 @@ class AgUserManager
 {
 public:
     // vtable 0x6327E0, offset 0
-    virtual void vfn_0(); // 0x527770
+    virtual ~AgUserManager(); // 0x527770
     virtual void vfn_1(); // 0x527F60
     virtual void vfn_2(); // 0x527F10
     virtual void vfn_3(); // 0x5281A0
