@@ -2,10 +2,10 @@
 
 struct AgControlBlock
 {
-    int uses;
-    int weak;
-    void* object;
-    void addRef();
+    volatile int uses;
+    volatile int weak;
+    void* volatile object;
+    int addRef();
 };
 
 class AgReferencedObject

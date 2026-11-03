@@ -638,11 +638,6 @@ void sub_52B320()
 {
 }
 
-// STUB: 0x52B330 std::E::EV?$allocator::?$vector::_Tidy (40 bytes)
-void std_E_EV_allocator_vector__Tidy()
-{
-}
-
 // STUB: 0x52B420 sub_52B420 (171 bytes)
 void sub_52B420()
 {
@@ -930,11 +925,6 @@ void sub_52E1B0()
 
 // STUB: 0x52E2D0 sub_52E2D0 (64 bytes)
 void sub_52E2D0()
-{
-}
-
-// STUB: 0x52E310 sub_52E310 (30 bytes)
-void sub_52E310()
 {
 }
 

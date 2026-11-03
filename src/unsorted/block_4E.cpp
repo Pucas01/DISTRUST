@@ -708,11 +708,6 @@ void sub_4EA2A0()
 {
 }
 
-// STUB: 0x4EA2F0 sub_4EA2F0 (23 bytes)
-void sub_4EA2F0()
-{
-}
-
 // STUB: 0x4EA310 sub_4EA310 (53 bytes)
 void sub_4EA310()
 {

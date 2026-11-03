@@ -208,11 +208,6 @@ void sub_423550()
 {
 }
 
-// STUB: 0x423A40 sub_423A40 (36 bytes)
-void sub_423A40()
-{
-}
-
 // STUB: 0x423A70 sub_423A70 (78 bytes)
 void sub_423A70()
 {

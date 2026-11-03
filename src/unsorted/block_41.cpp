@@ -673,11 +673,6 @@ void sub_41EC00()
 {
 }
 
-// STUB: 0x41F460 sub_41F460 (38 bytes)
-void sub_41F460()
-{
-}
-
 // STUB: 0x41F490 sub_41F490 (28 bytes)
 void sub_41F490()
 {

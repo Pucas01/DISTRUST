@@ -26,8 +26,8 @@ void __cdecl sub_4A37E0(int a, int b, int c, int d, int e);
 void __cdecl sub_4A3F50(int value);
 void __cdecl sub_48CF50(int a, int b, float c, int d);
 void __cdecl sub_48D110(int id, float value);
-void __cdecl sub_4C5350(int a, int b, int c);
-int __cdecl sub_4C4F70();
+void __cdecl startFade(int a, int b, int c);
+int __cdecl isFadeIdle();
 void __cdecl sub_4A3DC0();
 void __cdecl sub_4993B0();
 void __cdecl sub_497B80(int a, int b);
@@ -193,13 +193,13 @@ void updateMode04()
     }
     if (g_modeTimer.frame == 10)
     {
-        sub_4C5350(1, 1, 60);
+        startFade(1, 1, 60);
         g_modeTimer.frame++;
         return;
     }
     if (g_modeTimer.frame == 11)
     {
-        if (sub_4C4F70() == 1)
+        if (isFadeIdle() == 1)
             g_modeTimer.frame++;
         return;
     }
@@ -342,7 +342,7 @@ static __forceinline void updateMenuMode(int arg)
         sub_457880(0);
         sub_49A720(0);
         sub_48B020();
-        g_73C6B0[0x85E0] = 0xFF;
+        g_gameState[0x85E0] = 0xFF;
         sub_4946F0(arg);
         g_modeTimer.frame++;
         g_modeTimer.sub = 0;
@@ -436,7 +436,7 @@ void updateMode15()
         if (g_73E382.b != 0xFF)
         {
             sub_4C4B10(0x220);
-            sub_4C5350(0, 4, 30);
+            startFade(0, 4, 30);
             sub_48CF50((signed char)g_73E382.b, g_73E386, 1.0f, 0);
             g_73E382.b = 0xFF;
             g_73E386 = -1;
@@ -537,13 +537,13 @@ void updateMode1F()
     }
     if (g_modeTimer.frame == 10)
     {
-        sub_4C5350(1, 1, 60);
+        startFade(1, 1, 60);
         g_modeTimer.frame++;
         return;
     }
     if (g_modeTimer.frame == 11)
     {
-        if (sub_4C4F70() == 1)
+        if (isFadeIdle() == 1)
             g_modeTimer.frame++;
         return;
     }
@@ -632,7 +632,7 @@ void __cdecl sub_434FB0(int a, int b, int c);
 void __cdecl sub_434E60(int a, int b);
 void __cdecl sub_4350B0(int value);
 void __cdecl sub_432E90();
-void __cdecl sub_4D06C0(int value);
+void __cdecl setActiveId(int value);
 
 // BLOCK: 0x491460 updateMode27 364
 void updateMode27()
@@ -640,7 +640,7 @@ void updateMode27()
     if (g_modeTimer.frame == 0)
     {
         g_6879EC = 0;
-        sub_4C5350(1, 1, 1);
+        startFade(1, 1, 1);
         sub_41AC10(g_73E35C);
         sub_422B30(g_73E481, 0);
         sub_430EF0();
@@ -665,7 +665,7 @@ void updateMode27()
         }
         sub_4350B0(g_73E35C);
         sub_432E90();
-        sub_4D06C0(10000);
+        setActiveId(10000);
         g_gameMode = ModeIdle;
         g_modeTimer.frame = 0;
         g_6879EC = 1;
@@ -689,7 +689,7 @@ void updateMode02()
         sub_457880(0);
         sub_4CE7C0();
         sub_41AF90(-1, 0, 0, 0, 0, 0, 0, 0, 0);
-        sub_4C5350(0, 1, 60);
+        startFade(0, 1, 60);
         sub_48CF50((signed char)g_73E383, g_73E386, 1.0f, 0);
         sub_497B80(0, g_73E358);
         g_modeTimer.frame++;
@@ -908,7 +908,7 @@ extern unsigned char g_73E35E;
 extern unsigned char g_623650[];
 extern short g_73E35C;
 extern unsigned char g_6879EC;
-void __cdecl sub_4C5350(int a, int b, int c);
+void __cdecl startFade(int a, int b, int c);
 void __cdecl sub_4A61E0(int value);
 int __cdecl sub_4A61C0();
 void __cdecl sub_4A61B0();
@@ -972,11 +972,11 @@ void updateMode0E()
 }
 
 void __cdecl sub_48B020();
-void __cdecl sub_4C5350(int a, int b, int c);
+void __cdecl startFade(int a, int b, int c);
 void __cdecl sub_42F240();
 int __cdecl sub_4A0D70();
 void __cdecl sub_49A300();
-int __cdecl sub_4C4F70();
+int __cdecl isFadeIdle();
 void __cdecl sub_42E060();
 void __cdecl sub_496E00();
 void __cdecl sub_49A660();
@@ -1027,14 +1027,14 @@ void updateMode0C()
         g_73E354 = g_73E354 + 1.0f;
         if (g_73E354 >= 30)
         {
-            sub_4C5350(1, 1, 60);
+            startFade(1, 1, 60);
             g_modeTimer.frame++;
         }
         return;
     }
     if (g_modeTimer.frame == 5)
     {
-        if (sub_4C4F70() == 1)
+        if (isFadeIdle() == 1)
             g_modeTimer.frame++;
         return;
     }
@@ -1334,7 +1334,7 @@ void updateNonstopStart()
             const SceneLoad &s = g_697C88[(signed char)g_73E391];
             sub_41AF90(s.id, s.arg[0], s.arg[1], s.arg[2], s.arg[3], s.arg[4], s.arg[5], s.arg[6], s.arg[7]);
         }
-        sub_4C5350(0, 1, 60);
+        startFade(0, 1, 60);
         bool hasVoice = false;
         int voice = 0;
         if (g_73E480 == 1)
@@ -1348,7 +1348,7 @@ void updateNonstopStart()
     }
     if (g_modeTimer.frame == 1)
     {
-        if (sub_4C4F70() == 1)
+        if (isFadeIdle() == 1)
         {
             if (g_73E480 == 0)
                 sub_4A61E0(0);
@@ -1372,7 +1372,7 @@ void updateNonstopStart()
     }
     if (g_modeTimer.frame == 4)
     {
-        if (sub_4C4F70() == 1)
+        if (isFadeIdle() == 1)
             g_modeTimer.frame++;
         return;
     }
@@ -1499,7 +1499,7 @@ void updateMode1C()
 
 extern unsigned char g_6879EC;
 extern short g_73E35C;
-void __cdecl sub_4C5350(int a, int b, int c);
+void __cdecl startFade(int a, int b, int c);
 void __cdecl sub_4A61E0(int value);
 int __cdecl sub_4A61C0();
 void __cdecl sub_4A61B0();
@@ -1517,7 +1517,7 @@ void updateMode01()
     if (g_modeTimer.frame == 0)
     {
         g_6879EC = 0;
-        sub_4C5350(0, 1, 1);
+        startFade(0, 1, 1);
         sub_4A61E0(5);
         g_modeTimer.frame++;
         return;
@@ -1566,7 +1566,7 @@ void updateMode01()
         int r = sub_4A61C0();
         if (r == 1)
         {
-            sub_4C5350(r, r, r);
+            startFade(r, r, r);
             g_modeTimer.frame++;
         }
         return;
@@ -1581,7 +1581,7 @@ void updateMode01()
     if (g_modeTimer.frame == 100)
     {
         g_6879EC = 0;
-        sub_4C5350(1, 1, 1);
+        startFade(1, 1, 1);
         sub_41AC10(g_73E35C);
         sub_422240(g_73E35E);
         for (int i = 0; i < 17; i++)
@@ -1601,7 +1601,7 @@ void updateMode01()
     else if (g_modeTimer.frame == 200)
     {
         g_6879EC = 0;
-        sub_4C5350(1, 1, 1);
+        startFade(1, 1, 1);
         sub_41AC10(g_73E35C);
         sub_422240(g_73E35E);
         for (int i = 0; i < 17; i++)
@@ -1879,7 +1879,7 @@ void updateAnagram()
         return;
     }
     float prev = g_69813C;
-    if (g_73C6B0 == 0 || *(int *)(g_73C6B0 + 0x89D4) == 0)
+    if (g_gameState == 0 || *(int *)(g_gameState + 0x89D4) == 0)
     {
         if (testButtonA(0x31))
         {
@@ -1970,7 +1970,7 @@ void updateAnagramReveal()
             const SceneLoad &s = g_697C88[(signed char)g_73E391];
             sub_41AF90(s.id, s.arg[0], s.arg[1], s.arg[2], s.arg[3], s.arg[4], s.arg[5], s.arg[6], s.arg[7]);
         }
-        sub_4C5350(0, 1, 60);
+        startFade(0, 1, 60);
         g_73E383 = 0;
         g_73E386 = 0x10A;
         sub_48CF50(0, g_73E386, 1.0f, 0);
@@ -1979,7 +1979,7 @@ void updateAnagramReveal()
     }
     if (g_modeTimer.frame == 1)
     {
-        if (sub_4C4F70() == 1)
+        if (isFadeIdle() == 1)
         {
             sub_4A61E0(2);
             g_modeTimer.frame++;
@@ -2023,7 +2023,7 @@ void updateAnagramReveal()
     if (g_modeTimer.frame == 10)
     {
         sub_4C4B10(0x220);
-        sub_4C5350(0, 4, 60);
+        startFade(0, 4, 60);
         g_6879ED = 0;
         g_73E398 = (float)(g_73E394 * 60);
         unsigned seconds = (unsigned)g_73E398;
@@ -2122,7 +2122,7 @@ void updateAnagramInit()
         sub_4CE7C0();
         for (int i = 0; i < 17; i++)
             sub_48CDD0(g_623650[i], i);
-        sub_4C5350(1, 1, 1);
+        startFade(1, 1, 1);
         sub_433040(1);
         g_modeTimer.frame++;
         return;
@@ -2164,7 +2164,7 @@ void updateAnagramInit()
     {
         sub_432E90();
         sub_4A61E0(2);
-        sub_4C5350(0, 1, 60);
+        startFade(0, 1, 60);
         g_6879ED = 0;
         g_73E398 = (float)(g_73E394 * 60);
         unsigned seconds = (unsigned)g_73E398;

@@ -281,5 +281,5 @@ void __cdecl enterMode20Or21(int value)
     g_6FDBA0.a = 0;
     g_6FDBA0.b = 0;
     g_73E391 = 3;
-    g_73C6B0[0x85E0] = 0xFF;
+    g_gameState[0x85E0] = 0xFF;
 }

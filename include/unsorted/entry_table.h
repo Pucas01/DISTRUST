@@ -40,15 +40,23 @@ struct EntryRecord
     char pad01[2];
     char flag03;
     char loaded;
-    char pad05;
+    char ready;
     char status;
-    char pad07[0x19];
+    char unk07;
+    char kind08;
+    char pad09;
+    char flag0A;
+    char pad0B[0x15];
     short count;
     char pad22[8];
     short childCount;
     char pad2C[4];
     short param;
-    char pad32[0xC4 - 0x32];
+    char pad32[2];
+    float originX;
+    float originY;
+    char pad3C[0x84 - 0x3C];
+    char name[0x40];
     short* values;
     int padC8;
     EntryChild* children;
@@ -58,4 +66,4 @@ struct EntryRecord
 
 int __cdecl findEntryLayer(EntryRecord* entry, int key);
 EntryObject* __cdecl findEntryObject(EntryRecord* entry, int key);
-void __cdecl sub_4CF950(int kind, int flag);
+void __cdecl setSlotFlagB(unsigned int index, unsigned char value);

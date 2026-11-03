@@ -886,11 +886,6 @@ void sub_4FD230()
 {
 }
 
-// STUB: 0x4FD2F0 sub_4FD2F0 (34 bytes)
-void sub_4FD2F0()
-{
-}
-
 // STUB: 0x4FD360 sub_4FD360 (20 bytes)
 void sub_4FD360()
 {
@@ -933,11 +928,6 @@ void sub_4FD440()
 
 // STUB: 0x4FD4B0 sub_4FD4B0 (122 bytes)
 void sub_4FD4B0()
-{
-}
-
-// STUB: 0x4FD580 sub_4FD580 (102 bytes)
-void sub_4FD580()
 {
 }
 

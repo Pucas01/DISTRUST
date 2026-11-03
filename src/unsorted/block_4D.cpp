@@ -18,18 +18,8 @@ void sub_4D03D0()
 {
 }
 
-// STUB: 0x4D0640 sub_4D0640 (35 bytes)
-void sub_4D0640()
-{
-}
-
 // STUB: 0x4D0670 sub_4D0670 (51 bytes)
 void sub_4D0670()
-{
-}
-
-// STUB: 0x4D06C0 sub_4D06C0 (13 bytes)
-void sub_4D06C0()
 {
 }
 

@@ -3,11 +3,6 @@ void shared_5110F0()
 {
 }
 
-// STUB: 0x515910 shared_515910 (4 bytes)
-void shared_515910()
-{
-}
-
 // STUB: 0x519CF0 shared_519CF0 (4 bytes)
 void shared_519CF0()
 {

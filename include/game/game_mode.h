@@ -110,7 +110,7 @@ extern int g_6FDB88;
 extern int g_6FDB98;
 extern ShortPair g_6FDB9C;
 extern ShortPair g_6FDBA0;
-extern unsigned char* g_73C6B0;
+extern unsigned char* g_gameState;
 
 void __cdecl resetGame();
 void __cdecl enterMode20Or21(int value);

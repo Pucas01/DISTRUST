@@ -138,11 +138,6 @@ void sub_4B1E90()
 {
 }
 
-// STUB: 0x4B1F00 AgReferencedObject::acquire (84 bytes)
-void AgReferencedObject_acquire()
-{
-}
-
 // STUB: 0x4B1F60 sub_4B1F60 (133 bytes)
 void sub_4B1F60()
 {
@@ -185,11 +180,6 @@ void sub_4B2400()
 
 // STUB: 0x4B24A0 sub_4B24A0 (82 bytes)
 void sub_4B24A0()
-{
-}
-
-// STUB: 0x4B2500 AgControlBlock::addRef (51 bytes)
-void AgControlBlock_addRef()
 {
 }
 
@@ -640,11 +630,6 @@ void sub_4B94A0()
 
 // STUB: 0x4B94C0 sub_4B94C0 (2033 bytes)
 void sub_4B94C0()
-{
-}
-
-// STUB: 0x4B9CC0 sub_4B9CC0 (21 bytes)
-void sub_4B9CC0()
 {
 }
 

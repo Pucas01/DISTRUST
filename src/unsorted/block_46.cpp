@@ -183,11 +183,6 @@ void sub_462DE0()
 {
 }
 
-// STUB: 0x462E00 sub_462E00 (28 bytes)
-void sub_462E00()
-{
-}
-
 // STUB: 0x462E30 sub_462E30 (13 bytes)
 void sub_462E30()
 {
@@ -210,11 +205,6 @@ void sub_462EE0()
 
 // STUB: 0x462EF0 sub_462EF0 (73 bytes)
 void sub_462EF0()
-{
-}
-
-// STUB: 0x462F40 sub_462F40 (26 bytes)
-void sub_462F40()
 {
 }
 
@@ -758,11 +748,6 @@ void sub_46D050()
 {
 }
 
-// STUB: 0x46D0A0 sub_46D0A0 (33 bytes)
-void sub_46D0A0()
-{
-}
-
 // STUB: 0x46D0D0 sub_46D0D0 (344 bytes)
 void sub_46D0D0()
 {
@@ -808,11 +793,6 @@ void sub_46DA20()
 {
 }
 
-// STUB: 0x46DA70 sub_46DA70 (46 bytes)
-void sub_46DA70()
-{
-}
-
 // STUB: 0x46DAA0 sub_46DAA0 (46 bytes)
 void sub_46DAA0()
 {
@@ -828,23 +808,8 @@ void sub_46DB10()
 {
 }
 
-// STUB: 0x46DB50 sub_46DB50 (63 bytes)
-void sub_46DB50()
-{
-}
-
 // STUB: 0x46DB90 resetVertexColors (74 bytes)
 void resetVertexColors()
-{
-}
-
-// STUB: 0x46DBE0 sub_46DBE0 (46 bytes)
-void sub_46DBE0()
-{
-}
-
-// STUB: 0x46DC10 sub_46DC10 (46 bytes)
-void sub_46DC10()
 {
 }
 
@@ -930,11 +895,6 @@ void sub_46E750()
 
 // STUB: 0x46E7E0 sub_46E7E0 (127 bytes)
 void sub_46E7E0()
-{
-}
-
-// STUB: 0x46E860 sub_46E860 (65 bytes)
-void sub_46E860()
 {
 }
 

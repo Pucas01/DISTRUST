@@ -208,11 +208,6 @@ void sub_457800()
 {
 }
 
-// STUB: 0x457880 sub_457880 (24 bytes)
-void sub_457880()
-{
-}
-
 // STUB: 0x4578A0 sub_4578A0 (3536 bytes)
 void sub_4578A0()
 {

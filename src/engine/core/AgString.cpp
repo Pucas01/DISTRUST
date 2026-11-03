@@ -28,6 +28,21 @@ AgString::AgString(const AgString& other)
     data[length] = 0;
 }
 
+// FUNCTION: 0x4FD580 ??0AgString@@QAE@AAVStringRef@@@Z
+AgString::AgString(StringRef& ref)
+{
+    length = 0;
+    data = 0;
+    int count = ref.size();
+    const char* text = ref.c_str();
+    if (count < 0)
+        count = (int)strlen(text);
+    data = (char*)operator new[](count + 1);
+    length = count;
+    memcpy(data, text, count);
+    data[length] = 0;
+}
+
 // FUNCTION: 0x4FD890 ??1AgString@@QAE@XZ
 AgString::~AgString()
 {

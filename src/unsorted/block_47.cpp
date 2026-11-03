@@ -543,11 +543,6 @@ void sub_4762C0()
 {
 }
 
-// STUB: 0x476350 sub_476350 (33 bytes)
-void sub_476350()
-{
-}
-
 // STUB: 0x476380 sub_476380 (33 bytes)
 void sub_476380()
 {

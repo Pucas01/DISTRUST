@@ -238,11 +238,6 @@ void sub_5121A0()
 {
 }
 
-// STUB: 0x5121B0 sub_5121B0 (19 bytes)
-void sub_5121B0()
-{
-}
-
 // STUB: 0x5121D0 sub_5121D0 (4 bytes)
 void sub_5121D0()
 {
@@ -603,11 +598,6 @@ void sub_516650()
 {
 }
 
-// STUB: 0x516660 sub_516660 (3 bytes)
-void sub_516660()
-{
-}
-
 // STUB: 0x516670 sub_516670 (20 bytes)
 void sub_516670()
 {
@@ -640,11 +630,6 @@ void sub_5169D0()
 
 // STUB: 0x516A90 sub_516A90 (175 bytes)
 void sub_516A90()
-{
-}
-
-// STUB: 0x516B40 ??1?$AgReference@VTextureObject@@@@QAE@XZ (106 bytes)
-void f_1_AgReference_VTextureObject_QAE_XZ()
 {
 }
 
@@ -785,11 +770,6 @@ void sub_519340()
 
 // STUB: 0x519390 sub_519390 (14 bytes)
 void sub_519390()
-{
-}
-
-// STUB: 0x5193A0 sub_5193A0 (30 bytes)
-void sub_5193A0()
 {
 }
 

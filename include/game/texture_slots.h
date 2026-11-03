@@ -96,7 +96,9 @@ struct TextureSlot
     void reset(int flag);
 };
 
-int __cdecl atomicDecrement(int* value);
+int __cdecl atomicDecrement(volatile int* value);
+int __cdecl atomicIncrement(volatile int* value);
+int __cdecl atomicCompareExchange(volatile int* target, int expected, int value);
 void __cdecl freeControlBlock(void* block);
 void* __cdecl allocGraphicsMemory(int pool, unsigned size, int alignment, int flag, int* handleOut);
 void __cdecl freeGraphicsMemory(int handle, int flag);

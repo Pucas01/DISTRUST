@@ -58,11 +58,6 @@ void sub_500DA0()
 {
 }
 
-// STUB: 0x500E20 freeControlBlock (19 bytes)
-void freeControlBlock()
-{
-}
-
 // STUB: 0x500E40 sub_500E40 (127 bytes)
 void sub_500E40()
 {
@@ -80,16 +75,6 @@ void sub_500F60()
 
 // STUB: 0x501050 sub_501050 (252 bytes)
 void sub_501050()
-{
-}
-
-// STUB: 0x501150 sub_501150 (18 bytes)
-void sub_501150()
-{
-}
-
-// STUB: 0x501180 sub_501180 (18 bytes)
-void sub_501180()
 {
 }
 
@@ -490,11 +475,6 @@ void sub_5071E0()
 
 // STUB: 0x507210 sub_507210 (170 bytes)
 void sub_507210()
-{
-}
-
-// STUB: 0x5072C0 sub_5072C0 (6 bytes)
-void sub_5072C0()
 {
 }
 
@@ -963,11 +943,6 @@ void sub_50EFB0()
 {
 }
 
-// STUB: 0x50F230 sub_50F230 (31 bytes)
-void sub_50F230()
-{
-}
-
 // STUB: 0x50F250 sub_50F250 (222 bytes)
 void sub_50F250()
 {
@@ -995,11 +970,6 @@ void sub_50F560()
 
 // STUB: 0x50F5E0 sub_50F5E0 (114 bytes)
 void sub_50F5E0()
-{
-}
-
-// STUB: 0x50F660 sub_50F660 (88 bytes)
-void sub_50F660()
 {
 }
 

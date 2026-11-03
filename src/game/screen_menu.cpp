@@ -21,7 +21,7 @@ void __cdecl sub_46E690(int a, int b, int c);
 int __cdecl playSound(int a, int b);
 void __cdecl sub_4C89A0(int a, const char* name);
 char __cdecl isEntryDone(unsigned int index);
-void __cdecl sub_4C5350(int a, int b, int c);
+void __cdecl startFade(int a, int b, int c);
 int __cdecl testButtonA(int key);
 int __cdecl testButtonC(int key);
 int __cdecl testButtonB(int key);
@@ -90,7 +90,7 @@ void __cdecl screenStateCase5()
             return;
         }
     } else if (result == last && g_screenFlag) {
-        sub_4C5350(1, 1, 10);
+        startFade(1, 1, 10);
         g_screenState = 0xB;
         return;
     }
@@ -140,7 +140,7 @@ void __cdecl screenStateCase6()
             return;
         }
     } else if (result == last && g_screenFlag) {
-        sub_4C5350(1, 1, 10);
+        startFade(1, 1, 10);
         g_screenState = 0xC;
         return;
     }

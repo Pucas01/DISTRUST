@@ -14,7 +14,7 @@ void __cdecl screenStateCase7();
 void __cdecl screenStateCase8();
 void __cdecl screenStateCase9();
 void __cdecl screenStateAdvance();
-int __cdecl sub_4C4F70();
+int __cdecl isFadeIdle();
 
 // FUNCTION: 0x438220 updateScreenState
 void __cdecl updateScreenState()
@@ -41,7 +41,7 @@ void __cdecl updateScreenState()
         break;
     case 11:
     case 12:
-        if (sub_4C4F70())
+        if (isFadeIdle())
             screenStateAdvance();
         break;
     }
@@ -71,7 +71,7 @@ int __cdecl sub_435330(int line);
 int __cdecl sub_435580(int line);
 void __cdecl sub_46D370(int id);
 void __cdecl sub_46D9A0();
-void __cdecl sub_4D06C0(int v);
+void __cdecl setActiveId(int v);
 
 // FUNCTION: 0x437DE0 screenStateAdvance
 void __cdecl screenStateAdvance()
@@ -84,7 +84,7 @@ void __cdecl screenStateAdvance()
         sub_46D370(0xB);
     }
     sub_46D9A0();
-    sub_4D06C0(g_screenCursor);
+    setActiveId(g_screenCursor);
     g_screenCursor = -1;
     g_screenTimer = 0;
     g_screenValue = 0;
