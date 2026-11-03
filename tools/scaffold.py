@@ -5,7 +5,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from dr1lib import MARKER, ROOT, STUB_MARKER as STUB
+from dr1lib import BLOCK_MARKER, MARKER, ROOT, STUB_MARKER as STUB
 
 from coffobj import plain
 
@@ -73,18 +73,20 @@ def load_symbols():
 
 
 def scan_sources():
-    done, taken, deletable = {}, set(), []
+    done, taken, deletable, homes = {}, set(), [], {}
     for path in (ROOT / "src").rglob("*.cpp"):
         lines = path.read_text().splitlines()
         functions = [int(m.group(1), 16) for m in map(MARKER.match, lines) if m]
         stubs = [int(m.group(1), 16) for m in map(STUB.match, lines) if m]
+        for address in stubs + [int(m.group(1), 16) for m in map(BLOCK_MARKER.match, lines) if m]:
+            homes[address] = path.relative_to(ROOT / "src")
         for address in functions:
             done[address] = path.relative_to(ROOT / "src")
         if functions:
             taken.update(functions + stubs)
         elif stubs:
             deletable.append(path)
-    return done, taken, deletable
+    return done, taken, deletable, homes
 
 
 STUB_BLOCK = re.compile(r"// STUB: (0x[0-9A-Fa-f]+) [^\n]*\n[^\n]*\n\{\n\}\n\n?")
@@ -166,7 +168,7 @@ def main():
     classes = load_classes()
     symbols = load_symbols()
     print("read %d functions, %d classes, %d names" % (len(functions), len(classes), len(symbols)), flush=True)
-    done, taken, deletable = scan_sources()
+    done, taken, deletable, homes = scan_sources()
     removed = drop_finished_stubs(done)
     if removed:
         print("removed %d stubs for functions that are rewritten elsewhere" % removed, flush=True)
@@ -214,6 +216,8 @@ def main():
         status = "done" if address in done else "stub"
         if address in done:
             module, base = done[address].parent.as_posix(), done[address].stem
+        elif address in homes:
+            module, base = homes[address].parent.as_posix(), homes[address].stem
         catalog.append((address, size, name, owner or "", module, base, kind, status))
 
     src = ROOT / "src"
