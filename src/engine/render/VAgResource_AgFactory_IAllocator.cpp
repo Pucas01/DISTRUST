@@ -1,4 +1,7 @@
-// STUB: 0x5329C0 VAgResource::?$AgFactory::IAllocator::vfn_0 (34 bytes)
-void VAgResource_AgFactory_IAllocator_vfn_0()
-{
-}
+#include "engine/render/AgFactory.h"
+
+class AgResource;
+
+template AgFactory<AgResource>::IAllocator::IAllocator();
+
+// FUNCTION: 0x5329C0 ??_GIAllocator@?$AgFactory@VAgResource@@@@UAEPAXI@Z

@@ -433,11 +433,6 @@ void sub_4C8870()
 {
 }
 
-// STUB: 0x4C89A0 sub_4C89A0 (322 bytes)
-void sub_4C89A0()
-{
-}
-
 // STUB: 0x4C8B20 sub_4C8B20 (42 bytes)
 void sub_4C8B20()
 {

@@ -8,11 +8,6 @@ void shared_519CF0()
 {
 }
 
-// STUB: 0x51FC10 shared_51FC10 (104 bytes)
-void shared_51FC10()
-{
-}
-
 // STUB: 0x532890 shared_532890 (89 bytes)
 void shared_532890()
 {

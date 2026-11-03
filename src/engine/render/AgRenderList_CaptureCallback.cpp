@@ -1,4 +1,7 @@
-// STUB: 0x522A50 AgRenderList::CaptureCallback::vfn_1 (34 bytes)
-void AgRenderList_CaptureCallback_vfn_1()
+#include "engine/render/AgRenderList.gen.h"
+
+AgRenderList::CaptureCallback::CaptureCallback()
 {
 }
+
+// FUNCTION: 0x522A50 ??_GCaptureCallback@AgRenderList@@UAEPAXI@Z

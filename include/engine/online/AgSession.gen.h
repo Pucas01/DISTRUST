@@ -6,7 +6,7 @@ class AgSession
 {
 public:
     // vtable 0x64A4A8, offset 0
-    virtual void vfn_0(); // 0x5C4FB0
+    virtual ~AgSession(); // 0x5C4FB0
     virtual void vfn_1(); // 0x5C50B0
     virtual void vfn_2(); // 0x501D60
     virtual void vfn_3(); // 0x501D60

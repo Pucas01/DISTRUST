@@ -1,10 +1,5 @@
 #include "engine/render/AgResourceShaderProgramD3D.gen.h"
 
-// STUB: 0x550630 AgResourceShaderProgramD3D::vfn_0 (33 bytes)
-void AgResourceShaderProgramD3D::vfn_0()
-{
-}
-
 // STUB: 0x550660 AgResourceShaderProgramD3D::fn_550660 (99 bytes)
 void AgResourceShaderProgramD3D::fn_550660()
 {
@@ -39,3 +34,10 @@ void AgResourceShaderProgramD3D::vfn_6()
 void AgResourceShaderProgramD3D::vfn_10()
 {
 }
+
+// STUB: 0x550490 AgResourceShaderProgramD3D::~AgResourceShaderProgramD3D (152 bytes)
+__declspec(noinline) AgResourceShaderProgramD3D::~AgResourceShaderProgramD3D()
+{
+}
+
+// FUNCTION: 0x550630 ??_GAgResourceShaderProgramD3D@@UAEPAXI@Z

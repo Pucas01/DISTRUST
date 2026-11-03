@@ -8,6 +8,7 @@
 #define CALLBACK __stdcall
 #define DECLSPEC_IMPORT __declspec(dllimport)
 #define INFINITE 0xFFFFFFFF
+#define CP_UTF8 65001
 #define WAIT_OBJECT_0 0
 #define NULL_HANDLE 0
 
@@ -96,6 +97,7 @@ DECLSPEC_IMPORT BOOL WINAPI QueryPerformanceFrequency(LARGE_INTEGER *freq);
 DECLSPEC_IMPORT HANDLE WINAPI CreateSemaphoreA(LPSECURITY_ATTRIBUTES attr, LONG initial, LONG maximum, LPCSTR name);
 DECLSPEC_IMPORT BOOL WINAPI ReleaseSemaphore(HANDLE h, LONG count, LONG *previous);
 DECLSPEC_IMPORT BOOL WINAPI TerminateThread(HANDLE h, DWORD code);
+DECLSPEC_IMPORT int WINAPI WideCharToMultiByte(unsigned codePage, DWORD flags, const wchar_t *wide, int wideLength, char *out, int outLength, const char *defaultChar, BOOL *usedDefault);
 #ifdef __cplusplus
 }
 #endif

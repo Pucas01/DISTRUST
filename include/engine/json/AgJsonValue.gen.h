@@ -1,10 +1,9 @@
 #pragma once
 
-// Generated from RTTI by tools/scaffold.py. Slot signatures are not known yet.
-// bases: AgJsonNode
-class AgJsonValue
+#include "engine/json/AgJsonNode.gen.h"
+
+class AgJsonValue : public AgJsonNode
 {
 public:
-    // vtable 0x63276C, offset 0
-    virtual void vfn_0(); // 0x51FC10
+    AgJsonValue();
 };

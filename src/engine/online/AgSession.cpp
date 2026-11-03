@@ -1,10 +1,5 @@
 #include "engine/online/AgSession.gen.h"
 
-// STUB: 0x5C4FB0 AgSession::vfn_0 (33 bytes)
-void AgSession::vfn_0()
-{
-}
-
 // STUB: 0x5C4FE0 AgSession::fn_5C4FE0 (202 bytes)
 void AgSession::fn_5C4FE0()
 {
@@ -64,3 +59,10 @@ void AgSession::fn_5C58D0()
 void AgSession::vfn_9()
 {
 }
+
+// STUB: 0x5C4E60 AgSession::~AgSession (326 bytes)
+__declspec(noinline) AgSession::~AgSession()
+{
+}
+
+// FUNCTION: 0x5C4FB0 ??_GAgSession@@UAEPAXI@Z

@@ -1,31 +1,32 @@
-#include "game/texture_slots.h"
-
-template <class T>
-AgReference<T>::~AgReference()
-{
-    AgControlBlock* block = control;
-    T* raw = object;
-    object = 0;
-    if (block) {
-        control = 0;
-        int lastWeak = 0;
-        int remaining;
-        if (atomicDecrement(&block->uses) == 0) {
-            remaining = atomicDecrement(&block->weak);
-            if (remaining == 0)
-                lastWeak = remaining + 1;
-            else
-                block->weak;
-            block->object = 0;
-            if (raw)
-                delete raw;
-            if (lastWeak)
-                freeControlBlock(block);
-        } else {
-            block->uses;
-        }
-    }
-}
+#include "engine/core/AgReference.inl"
+#include "engine/core/AgBuffer.h"
 
 // FUNCTION: 0x516B40 ??1?$AgReference@VTextureObject@@@@QAE@XZ
 template AgReference<TextureObject>::~AgReference();
+
+static int tryAddRef(AgControlBlock* block)
+{
+    int count = block->uses;
+    while (count)
+    {
+        if (atomicCompareExchange(&block->uses, count, count + 1) == count)
+            return count + 1;
+        count = block->uses;
+    }
+    return 0;
+}
+
+template <class T>
+AgReference<T>::AgReference(const AgReference& other)
+{
+    control = 0;
+    object = 0;
+    if (other.control && tryAddRef(other.control))
+    {
+        control = other.control;
+        object = other.object;
+    }
+}
+
+// FUNCTION: 0x54C6E0 ??0?$AgReference@VAgBuffer@@@@QAE@ABV0@@Z
+template AgReference<AgBuffer>::AgReference(const AgReference&);

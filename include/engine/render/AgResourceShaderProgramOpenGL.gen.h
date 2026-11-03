@@ -6,7 +6,7 @@ class AgResourceShaderProgramOpenGL
 {
 public:
     // vtable 0x633988, offset 0
-    virtual void vfn_0(); // 0x54E6D0
+    virtual ~AgResourceShaderProgramOpenGL(); // 0x54E6D0
     virtual void vfn_1(); // 0x54FA40
     virtual void vfn_2(); // 0x54EAD0
     virtual void vfn_3(); // 0x4135B0

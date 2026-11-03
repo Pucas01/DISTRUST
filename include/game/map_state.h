@@ -38,7 +38,7 @@ extern int g_73DC04;
 extern int* getColorTableA();
 extern int* getColorTableB();
 extern short* sub_476350(int);
-extern void resetVertexColors();
+extern void resetHandlesA();
 extern void clearMapState();
 extern void loadMapTextures(int);
 extern int __cdecl playSound(int, int);

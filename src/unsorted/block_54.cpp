@@ -108,11 +108,6 @@ void sub_540CF0()
 {
 }
 
-// STUB: 0x540F20 sub_540F20 (16 bytes)
-void sub_540F20()
-{
-}
-
 // STUB: 0x540F30 sub_540F30 (115 bytes)
 void sub_540F30()
 {
@@ -303,11 +298,6 @@ void sub_54C5B0()
 {
 }
 
-// STUB: 0x54C6E0 VTextureObject::?$AgReference::assign (98 bytes)
-void VTextureObject_AgReference_assign()
-{
-}
-
 // STUB: 0x54C750 sub_54C750 (130 bytes)
 void sub_54C750()
 {
@@ -445,11 +435,6 @@ void sub_54DE50()
 
 // STUB: 0x54DEC0 sub_54DEC0 (97 bytes)
 void sub_54DEC0()
-{
-}
-
-// STUB: 0x54DF30 sub_54DF30 (70 bytes)
-void sub_54DF30()
 {
 }
 

@@ -47,7 +47,7 @@ void __cdecl resetMapStateA()
     g_mapState.unk_CB = 0;
     g_mapState.unk_D0 = 0;
     g_73DCB5 = 12;
-    resetVertexColors();
+    resetHandlesA();
 }
 
 // FUNCTION: 0x4841A0 resetMapStateB
@@ -68,7 +68,7 @@ void __cdecl resetMapStateB()
     g_mapState.unk_CB = 0;
     g_mapState.unk_D0 = 0;
     g_73DCBB = 12;
-    resetVertexColors();
+    resetHandlesA();
 }
 
 // FUNCTION: 0x47CED0 openMap

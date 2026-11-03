@@ -1,10 +1,5 @@
 #include "engine/io/AgVirtualMount.gen.h"
 
-// STUB: 0x5605B0 AgVirtualMount::vfn_0 (33 bytes)
-void AgVirtualMount::vfn_0()
-{
-}
-
 // STUB: 0x5605E0 AgVirtualMount::fn_5605E0 (120 bytes)
 void AgVirtualMount::fn_5605E0()
 {
@@ -17,11 +12,6 @@ void AgVirtualMount::fn_560660()
 
 // STUB: 0x560720 AgVirtualMount::fn_560720 (284 bytes)
 void AgVirtualMount::fn_560720()
-{
-}
-
-// STUB: 0x560840 AgVirtualMount::fn_560840 (84 bytes)
-void AgVirtualMount::fn_560840()
 {
 }
 
@@ -79,3 +69,10 @@ void AgVirtualMount::vfn_10()
 void AgVirtualMount::vfn_8()
 {
 }
+
+// STUB: 0x5603A0 AgVirtualMount::~AgVirtualMount (187 bytes)
+__declspec(noinline) AgVirtualMount::~AgVirtualMount()
+{
+}
+
+// FUNCTION: 0x5605B0 ??_GAgVirtualMount@@UAEPAXI@Z

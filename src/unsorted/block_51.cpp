@@ -363,11 +363,6 @@ void sub_5136B0()
 {
 }
 
-// STUB: 0x513720 sub_513720 (70 bytes)
-void sub_513720()
-{
-}
-
 // STUB: 0x513770 sub_513770 (97 bytes)
 void sub_513770()
 {
@@ -803,21 +798,6 @@ void sub_519AB0()
 {
 }
 
-// STUB: 0x51A030 AgHeapAllocator::alloc (18 bytes)
-void AgHeapAllocator_alloc()
-{
-}
-
-// STUB: 0x51A050 AgHeapAllocator::allocAligned (21 bytes)
-void AgHeapAllocator_allocAligned()
-{
-}
-
-// STUB: 0x51A070 AgHeapAllocator::free (18 bytes)
-void AgHeapAllocator_free()
-{
-}
-
 // STUB: 0x51A090 sub_51A090 (237 bytes)
 void sub_51A090()
 {
@@ -1163,11 +1143,6 @@ void sub_51E380()
 {
 }
 
-// STUB: 0x51E490 sub_51E490 (113 bytes)
-void sub_51E490()
-{
-}
-
 // STUB: 0x51EAE0 sub_51EAE0 (224 bytes)
 void sub_51EAE0()
 {
@@ -1270,16 +1245,6 @@ void sub_51F7C0()
 
 // STUB: 0x51F880 sub_51F880 (252 bytes)
 void sub_51F880()
-{
-}
-
-// STUB: 0x51F980 sub_51F980 (188 bytes)
-void sub_51F980()
-{
-}
-
-// STUB: 0x51FA40 sub_51FA40 (74 bytes)
-void sub_51FA40()
 {
 }
 

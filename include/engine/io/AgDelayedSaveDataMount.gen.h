@@ -6,7 +6,7 @@ class AgDelayedSaveDataMount
 {
 public:
     // vtable 0x6340FC, offset 0
-    virtual void vfn_0(); // 0x561EC0
+    virtual ~AgDelayedSaveDataMount(); // 0x561EC0
     virtual void vfn_1(); // 0x562A40
     virtual void vfn_2(); // 0x562360
     virtual void vfn_3(); // 0x4135B0

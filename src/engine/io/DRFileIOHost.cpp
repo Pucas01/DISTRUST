@@ -65,11 +65,6 @@ void DRFileIOHost::fn_4C5FC0()
 {
 }
 
-// STUB: 0x4C6090 DRFileIOHost::fn_4C6090 (18 bytes)
-void DRFileIOHost::fn_4C6090()
-{
-}
-
 // STUB: 0x4C60B0 DRFileIOHost::fn_4C60B0 (164 bytes)
 void DRFileIOHost::fn_4C60B0()
 {

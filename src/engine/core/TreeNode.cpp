@@ -11,8 +11,27 @@ struct Tree
 {
     TreeNode* head;
 
+    void rotateLeft(TreeNode* node);
     void rotateRight(TreeNode* node);
 };
+
+// FUNCTION: 0x560840 Tree::rotateLeft
+void Tree::rotateLeft(TreeNode* node)
+{
+    TreeNode* pivot = node->right;
+    node->right = pivot->left;
+    if (!pivot->left->isNil)
+        pivot->left->parent = node;
+    pivot->parent = node->parent;
+    if (node == head->parent)
+        head->parent = pivot;
+    else if (node == node->parent->left)
+        node->parent->left = pivot;
+    else
+        node->parent->right = pivot;
+    pivot->left = node;
+    node->parent = pivot;
+}
 
 // FUNCTION: 0x50F660 Tree::rotateRight
 void Tree::rotateRight(TreeNode* node)

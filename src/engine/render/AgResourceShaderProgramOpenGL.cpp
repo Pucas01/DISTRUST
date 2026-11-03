@@ -1,10 +1,5 @@
 #include "engine/render/AgResourceShaderProgramOpenGL.gen.h"
 
-// STUB: 0x54E6D0 AgResourceShaderProgramOpenGL::vfn_0 (33 bytes)
-void AgResourceShaderProgramOpenGL::vfn_0()
-{
-}
-
 // STUB: 0x54E700 AgResourceShaderProgramOpenGL::fn_54E700 (93 bytes)
 void AgResourceShaderProgramOpenGL::fn_54E700()
 {
@@ -99,3 +94,10 @@ void AgResourceShaderProgramOpenGL::vfn_10()
 void AgResourceShaderProgramOpenGL::vfn_8()
 {
 }
+
+// STUB: 0x54E180 AgResourceShaderProgramOpenGL::~AgResourceShaderProgramOpenGL (216 bytes)
+__declspec(noinline) AgResourceShaderProgramOpenGL::~AgResourceShaderProgramOpenGL()
+{
+}
+
+// FUNCTION: 0x54E6D0 ??_GAgResourceShaderProgramOpenGL@@UAEPAXI@Z

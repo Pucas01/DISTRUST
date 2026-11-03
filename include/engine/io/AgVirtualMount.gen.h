@@ -6,7 +6,7 @@ class AgVirtualMount
 {
 public:
     // vtable 0x6340BC, offset 0
-    virtual void vfn_0(); // 0x5605B0
+    virtual ~AgVirtualMount(); // 0x5605B0
     virtual void vfn_1(); // 0x4135B0
     virtual void vfn_2(); // 0x4135B0
     virtual void vfn_3(); // 0x4135B0

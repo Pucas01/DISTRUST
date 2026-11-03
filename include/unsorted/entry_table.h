@@ -48,9 +48,12 @@ struct EntryRecord
     char flag0A;
     char pad0B[0x15];
     short count;
-    char pad22[8];
+    char pad22[2];
+    short objectCount;
+    char pad26[4];
     short childCount;
-    char pad2C[4];
+    char pad2C[2];
+    short stateCount;
     short param;
     char pad32[2];
     float originX;
@@ -58,10 +61,13 @@ struct EntryRecord
     char pad3C[0x84 - 0x3C];
     char name[0x40];
     short* values;
-    int padC8;
+    char* objects;
     EntryChild* children;
     EntryLayer* layers;
-    char padD4[0x100 - 0xD4];
+    char padD4[8];
+    int state[6];
+    short stateWord;
+    char padF6[0xA];
 };
 
 int __cdecl findEntryLayer(EntryRecord* entry, int key);

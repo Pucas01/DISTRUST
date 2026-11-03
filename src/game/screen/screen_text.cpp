@@ -15,7 +15,7 @@ int __cdecl sub_435D10(int line, int flag);
 int __cdecl sub_435A40(int value);
 int __cdecl sub_435F10(int line, int index);
 int __cdecl sub_435380(int line, int flag);
-char __cdecl sub_46DD80(const unsigned* flags, int bit);
+bool __cdecl testBit(const unsigned* flags, int bit);
 char __cdecl sub_46E930(int low, int high, int value);
 int __cdecl sub_46E2F0(short* a, short* b, int* c, int* d, int e, int f, int g, int h, int i, int j, int k);
 int __cdecl playSound(int a, int b);
@@ -30,7 +30,7 @@ void __cdecl screenStateCase3()
     int limit = count * 30;
     if (timer >= limit - 1) {
         g_screenSound = (short)sub_435A40(g_screenValue);
-        if (sub_46DD80(g_6E48F4, 0x1B))
+        if (testBit(g_6E48F4, 0x1B))
             g_screenSound += 10;
         g_screenState = 4;
         g_screenTimer = 0;

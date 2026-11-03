@@ -133,53 +133,8 @@ void sub_5256E0()
 {
 }
 
-// STUB: 0x5258F0 sub_5258F0 (155 bytes)
-void sub_5258F0()
-{
-}
-
-// STUB: 0x525990 sub_525990 (53 bytes)
-void sub_525990()
-{
-}
-
-// STUB: 0x5259D0 sub_5259D0 (53 bytes)
-void sub_5259D0()
-{
-}
-
-// STUB: 0x525A10 sub_525A10 (37 bytes)
-void sub_525A10()
-{
-}
-
-// STUB: 0x525A40 sub_525A40 (129 bytes)
-void sub_525A40()
-{
-}
-
-// STUB: 0x525AD0 sub_525AD0 (36 bytes)
-void sub_525AD0()
-{
-}
-
-// STUB: 0x525B00 sub_525B00 (45 bytes)
-void sub_525B00()
-{
-}
-
 // STUB: 0x525B30 sub_525B30 (91 bytes)
 void sub_525B30()
-{
-}
-
-// STUB: 0x525B90 sub_525B90 (72 bytes)
-void sub_525B90()
-{
-}
-
-// STUB: 0x525BE0 sub_525BE0 (346 bytes)
-void sub_525BE0()
 {
 }
 

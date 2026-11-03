@@ -548,11 +548,6 @@ void sub_43ADD0()
 {
 }
 
-// STUB: 0x43B5E0 sub_43B5E0 (612 bytes)
-void sub_43B5E0()
-{
-}
-
 // STUB: 0x43BC30 sub_43BC30 (28 bytes)
 void sub_43BC30()
 {

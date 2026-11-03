@@ -4,6 +4,8 @@ extern unsigned char g_fadeActive;
 extern unsigned char g_slotFlags[];
 
 void __cdecl sub_4C7D40(EntryRecord* entry, const char* name);
+void __cdecl sub_4C7DE0(EntryRecord* entry, const char* name);
+void __cdecl sub_4CDC20(EntryRecord* entry, int index);
 void __cdecl sub_4EA220(int mode, void* object);
 
 extern EntryRecord* g_entryTable;
@@ -146,6 +148,39 @@ void __cdecl setEntryName(unsigned int index, const char* name)
         entry->unk07 = 0;
         entry->flag0A = 1;
         sub_4C7D40(entry, name);
+        for (int i = 0; i < 0x40; i++) {
+            entry->name[i] = name[i];
+            if (!name[i])
+                break;
+        }
+    }
+}
+
+// FUNCTION: 0x4C89A0 resetEntry
+void __cdecl resetEntry(unsigned int index, const char* name)
+{
+    if (index <= 0x6d) {
+        EntryRecord* entry = &g_entryTable[index];
+        entry->loaded = 1;
+        entry->ready = 1;
+        entry->status = 0;
+        entry->unk07 = 0;
+        entry->flag0A = 1;
+        for (int i = 0; i < entry->objectCount; i++) {
+            char* objects = entry->objects;
+            if (objects && i >= 0 && i < entry->objectCount) {
+                objects[i * 0xA4] = 0;
+                *(unsigned short*)(objects + i * 0xA4 + 4) = 0xFFFF;
+            }
+        }
+        for (int i = 0; i < entry->childCount; i++)
+            sub_4CDC20(entry, i);
+        if (entry->stateCount) {
+            entry->stateWord = -1;
+            for (int i = 0; i < 6; i++)
+                entry->state[i] = 0;
+        }
+        sub_4C7DE0(entry, name);
         for (int i = 0; i < 0x40; i++) {
             entry->name[i] = name[i];
             if (!name[i])

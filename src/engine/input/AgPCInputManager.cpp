@@ -15,41 +15,6 @@ void AgPCInputManager::vfn_5()
 {
 }
 
-// STUB: 0x524990 AgPCInputManager::fn_524990 (120 bytes)
-void AgPCInputManager::fn_524990()
-{
-}
-
-// STUB: 0x524A10 AgPCInputManager::fn_524A10 (122 bytes)
-void AgPCInputManager::fn_524A10()
-{
-}
-
-// STUB: 0x524A90 AgPCInputManager::fn_524A90 (87 bytes)
-void AgPCInputManager::fn_524A90()
-{
-}
-
-// STUB: 0x524AF0 AgPCInputManager::fn_524AF0 (89 bytes)
-void AgPCInputManager::fn_524AF0()
-{
-}
-
-// STUB: 0x524B50 AgPCInputManager::fn_524B50 (57 bytes)
-void AgPCInputManager::fn_524B50()
-{
-}
-
-// STUB: 0x524B90 AgPCInputManager::fn_524B90 (87 bytes)
-void AgPCInputManager::fn_524B90()
-{
-}
-
-// STUB: 0x524BF0 AgPCInputManager::fn_524BF0 (89 bytes)
-void AgPCInputManager::fn_524BF0()
-{
-}
-
 // STUB: 0x524C50 AgPCInputManager::vfn_2 (5 bytes)
 void AgPCInputManager::vfn_2()
 {
@@ -75,17 +40,63 @@ void AgPCInputManager::fn_524DC0()
 {
 }
 
-// STUB: 0x524FB0 AgPCInputManager::fn_524FB0 (93 bytes)
-void AgPCInputManager::fn_524FB0()
-{
-}
-
-// STUB: 0x525010 AgPCInputManager::fn_525010 (616 bytes)
-void AgPCInputManager::fn_525010()
-{
-}
-
 // STUB: 0x525430 AgPCInputManager::vfn_3 (160 bytes)
 void AgPCInputManager::vfn_3()
 {
+}
+
+// FUNCTION: 0x524A90 AgPCInputManager::pressMouseButton
+void AgPCInputManager::pressMouseButton(int index)
+{
+    mouse->buttons[index] = true;
+}
+
+// FUNCTION: 0x524AF0 AgPCInputManager::releaseMouseButton
+void AgPCInputManager::releaseMouseButton(int index)
+{
+    mouse->buttons[index] = false;
+}
+
+// FUNCTION: 0x524B50 AgPCInputManager::addMouseDelta
+void AgPCInputManager::addMouseDelta(const float* delta)
+{
+    AgMouseState* state = mouse;
+    state->x += delta[0];
+    state->y = delta[1] + state->y;
+}
+
+// FUNCTION: 0x524B90 AgPCInputManager::pressKey
+void AgPCInputManager::pressKey(int index)
+{
+    keyboard->keys[index] = true;
+}
+
+// FUNCTION: 0x524BF0 AgPCInputManager::releaseKey
+void AgPCInputManager::releaseKey(int index)
+{
+    keyboard->keys[index] = false;
+}
+
+// FUNCTION: 0x524990 AgPCInputManager::onKeyDown
+void AgPCInputManager::onKeyDown(SDL_Keysym key)
+{
+    int index = translateScancode(key);
+    g_pcInputManager->keyboard->keys[index] = true;
+}
+
+// FUNCTION: 0x524A10 AgPCInputManager::onKeyUp
+void AgPCInputManager::onKeyUp(SDL_Keysym key)
+{
+    int index = translateScancode(key);
+    g_pcInputManager->keyboard->keys[index] = false;
+}
+
+// FUNCTION: 0x524FB0 AgPCInputManager::onMouseMotion
+void AgPCInputManager::onMouseMotion(const SDL_MouseMotionEvent* motion)
+{
+    if (cursor) {
+        cursor->x = (float)motion->xrel + cursor->x;
+        cursor->y = (float)motion->yrel + cursor->y;
+        mouse->cursor = *cursor;
+    }
 }

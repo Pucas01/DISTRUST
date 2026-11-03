@@ -19,7 +19,7 @@ int __cdecl sub_435290(int line);
 int __cdecl sub_46E2F0(short* a, short* b, int* c, int* d, int e, int f, int g, int h, int i, int j, int k);
 void __cdecl sub_46E690(int a, int b, int c);
 int __cdecl playSound(int a, int b);
-void __cdecl sub_4C89A0(int a, const char* name);
+void __cdecl resetEntry(int a, const char* name);
 char __cdecl isEntryDone(unsigned int index);
 void __cdecl startFade(int a, int b, int c);
 int __cdecl testButtonA(int key);
@@ -71,11 +71,11 @@ void __cdecl screenStateCase5()
             index = sub_4354B0(g_screenLine);
         else
             index = sub_435290(g_screenLine);
-        sub_4C89A0(g_6A9BE4[0], "fl_in_2");
+        resetEntry(g_6A9BE4[0], "fl_in_2");
         sub_46E690(g_6A9BE4[0], 0, g_6A9BE4[index]);
     }
     if (result == -2) {
-        sub_4C89A0(g_6A9BE4[0], "fl_out");
+        resetEntry(g_6A9BE4[0], "fl_out");
         g_screenDirty = 0;
         playSound(5, 100);
     } else if (result == -4) {
@@ -84,7 +84,7 @@ void __cdecl screenStateCase5()
         return;
     } else if (result > -1 && result < last) {
         if (!g_screenFlag) {
-            sub_4C89A0(g_6A9BE4[0], "fl_out");
+            resetEntry(g_6A9BE4[0], "fl_out");
             g_screenDirty = 1;
             playSound(4, 100);
             return;
@@ -119,11 +119,11 @@ void __cdecl screenStateCase6()
             index = sub_435720(g_screenLine, g_screenX);
         else
             index = sub_435D40(g_screenLine, g_screenX);
-        sub_4C89A0(g_6A9BE4[0], "fl_in_2");
+        resetEntry(g_6A9BE4[0], "fl_in_2");
         sub_46E690(g_6A9BE4[0], 0, g_6A9BE4[index]);
     }
     if (result == -2) {
-        sub_4C89A0(g_6A9BE4[0], "fl_out");
+        resetEntry(g_6A9BE4[0], "fl_out");
         g_screenDirty = 0;
         playSound(5, 100);
     } else if (result == -4) {
@@ -133,7 +133,7 @@ void __cdecl screenStateCase6()
         return;
     } else if (result > -1 && result < last) {
         if (!g_screenFlag) {
-            sub_4C89A0(g_6A9BE4[0], "fl_out");
+            resetEntry(g_6A9BE4[0], "fl_out");
             g_screenY = (short)count;
             g_screenDirty = 1;
             playSound(4, 100);

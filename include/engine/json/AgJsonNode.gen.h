@@ -1,9 +1,17 @@
 #pragma once
 
-// Generated from RTTI by tools/scaffold.py. Slot signatures are not known yet.
+#include "engine/core/AgReference.h"
+#include "engine/json/AgJsonMeta.h"
+
 class AgJsonNode
 {
 public:
-    // vtable 0x632690, offset 0
-    virtual void vfn_0(); // 0x51FBA0
+    AgJsonNode();
+#ifdef AG_JSON_NODE_OUT_OF_LINE_DTOR
+    virtual ~AgJsonNode();
+#else
+    virtual ~AgJsonNode() {}
+#endif
+
+    AgReference<AgJsonMeta> meta;
 };

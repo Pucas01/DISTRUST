@@ -5,11 +5,6 @@ void AgDelayedSaveDataMount::vfn_256_0()
 {
 }
 
-// STUB: 0x561EC0 AgDelayedSaveDataMount::vfn_0 (33 bytes)
-void AgDelayedSaveDataMount::vfn_0()
-{
-}
-
 // STUB: 0x562280 AgDelayedSaveDataMount::vfn_256_4 (4 bytes)
 void AgDelayedSaveDataMount::vfn_256_4()
 {
@@ -49,3 +44,10 @@ void AgDelayedSaveDataMount::vfn_5()
 void AgDelayedSaveDataMount::vfn_1()
 {
 }
+
+// STUB: 0x561D80 AgDelayedSaveDataMount::~AgDelayedSaveDataMount (172 bytes)
+__declspec(noinline) AgDelayedSaveDataMount::~AgDelayedSaveDataMount()
+{
+}
+
+// FUNCTION: 0x561EC0 ??_GAgDelayedSaveDataMount@@UAEPAXI@Z

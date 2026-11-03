@@ -39,6 +39,7 @@ public:
     }
     ~AgReference();
     void assign(const AgReference& other);
+    void releaseInPlace();
 
     AgReference& operator=(const AgReference& other)
     {

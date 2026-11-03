@@ -1,9 +1,12 @@
-// STUB: 0x506E90 AgThreadPool::Job::vfn_0 (34 bytes)
-void AgThreadPool_Job_vfn_0()
+#include "engine/thread/AgThreadPool.gen.h"
+
+AgThreadPool::Job::Job()
 {
 }
 
+// FUNCTION: 0x506E90 ??_GJob@AgThreadPool@@UAEPAXI@Z
+
 // STUB: 0x507050 AgThreadPool::Job::vfn_3 (8 bytes)
-void AgThreadPool_Job_vfn_3()
+void AgThreadPool::Job::vfn_3()
 {
 }

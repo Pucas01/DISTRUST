@@ -1,10 +1,5 @@
 #include "engine/input/AgSDLGamepadController.gen.h"
 
-// STUB: 0x5AD590 AgSDLGamepadController::vfn_0 (33 bytes)
-void AgSDLGamepadController::vfn_0()
-{
-}
-
 // STUB: 0x5AD5C0 AgSDLGamepadController::vfn_2 (71 bytes)
 void AgSDLGamepadController::vfn_2()
 {
@@ -19,3 +14,10 @@ void AgSDLGamepadController::fn_5AD610()
 void AgSDLGamepadController::vfn_1()
 {
 }
+
+// STUB: 0x5AD4D0 AgSDLGamepadController::~AgSDLGamepadController (183 bytes)
+__declspec(noinline) AgSDLGamepadController::~AgSDLGamepadController()
+{
+}
+
+// FUNCTION: 0x5AD590 ??_GAgSDLGamepadController@@UAEPAXI@Z
