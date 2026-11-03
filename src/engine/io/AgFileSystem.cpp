@@ -201,3 +201,53 @@ __declspec(noinline) AgFileSystem::~AgFileSystem()
 // FUNCTION: 0x509110 ??1?$AgSingleton@VAgFileSystem@@@@UAE@XZ
 // FUNCTION: 0x5096E0 ??_G?$AgSingleton@VAgFileSystem@@@@UAEPAXI@Z
 template class AgSingleton<AgFileSystem>;
+
+// STUB: 0x509120 sub_509120 (97 bytes)
+void sub_509120()
+{
+}
+
+// STUB: 0x509190 sub_509190 (86 bytes)
+void sub_509190()
+{
+}
+
+// STUB: 0x5091F0 sub_5091F0 (66 bytes)
+void sub_5091F0()
+{
+}
+
+// STUB: 0x509240 sub_509240 (66 bytes)
+void sub_509240()
+{
+}
+
+// STUB: 0x509390 sub_509390 (107 bytes)
+void sub_509390()
+{
+}
+
+// STUB: 0x509400 sub_509400 (65 bytes)
+void sub_509400()
+{
+}
+
+// STUB: 0x509450 sub_509450 (150 bytes)
+void sub_509450()
+{
+}
+
+// STUB: 0x5094F0 sub_5094F0 (265 bytes)
+void sub_5094F0()
+{
+}
+
+// STUB: 0x509600 sub_509600 (94 bytes)
+void sub_509600()
+{
+}
+
+// STUB: 0x509660 sub_509660 (126 bytes)
+void sub_509660()
+{
+}

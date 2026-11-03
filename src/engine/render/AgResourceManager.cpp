@@ -21,3 +21,13 @@ __declspec(noinline) AgResourceManager::~AgResourceManager()
 // FUNCTION: 0x532420 ??1?$AgSingleton@VAgResourceManager@@@@UAE@XZ
 // FUNCTION: 0x532860 ??_G?$AgSingleton@VAgResourceManager@@@@UAEPAXI@Z
 template class AgSingleton<AgResourceManager>;
+
+// STUB: 0x532430 sub_532430 (179 bytes)
+void sub_532430()
+{
+}
+
+// STUB: 0x5324F0 sub_5324F0 (65 bytes)
+void sub_5324F0()
+{
+}

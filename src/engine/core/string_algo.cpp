@@ -71,3 +71,8 @@ StringRef __cdecl substringRef(const char* text, unsigned length, unsigned pos, 
 {
     return makeSubstring(text, length, pos, count);
 }
+
+// STUB: 0x525B30 sub_525B30 (91 bytes)
+void sub_525B30()
+{
+}

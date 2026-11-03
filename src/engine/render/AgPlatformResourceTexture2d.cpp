@@ -7,3 +7,8 @@ AgPlatformResourceTexture2d::AgPlatformResourceTexture2d()
 }
 
 // FUNCTION: 0x5396A0 ??_GAgPlatformResourceTexture2d@@UAEPAXI@Z
+
+// STUB: 0x539650 sub_539650 (65 bytes)
+void sub_539650()
+{
+}

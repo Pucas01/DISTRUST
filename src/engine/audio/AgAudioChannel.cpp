@@ -6,3 +6,8 @@ __declspec(noinline) AgAudioChannel::~AgAudioChannel()
 }
 
 // FUNCTION: 0x51B910 ??_GAgAudioChannel@@UAEPAXI@Z
+
+// STUB: 0x51B820 sub_51B820 (239 bytes)
+void sub_51B820()
+{
+}

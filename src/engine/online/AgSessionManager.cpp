@@ -24,3 +24,8 @@ void AgSessionManager::vfn_3()
 // FUNCTION: 0x52B880 ??1?$AgSingleton@VAgSessionManager@@@@UAE@XZ
 // FUNCTION: 0x52B900 ??_G?$AgSingleton@VAgSessionManager@@@@UAEPAXI@Z
 template class AgSingleton<AgSessionManager>;
+
+// STUB: 0x52B890 sub_52B890 (97 bytes)
+void sub_52B890()
+{
+}

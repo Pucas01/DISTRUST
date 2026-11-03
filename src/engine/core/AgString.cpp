@@ -208,3 +208,8 @@ AgString::AgString()
     data = (char*)operator new[](1);
     *data = 0;
 }
+
+// STUB: 0x4FDC20 AgString::operator+= (184 bytes)
+void AgString_operator_plus_eq()
+{
+}

@@ -1,0 +1,184 @@
+// STUB: 0x4B76D0 sub_4B76D0 (139 bytes)
+void sub_4B76D0()
+{
+}
+
+// STUB: 0x4B7760 sub_4B7760 (152 bytes)
+void sub_4B7760()
+{
+}
+
+// STUB: 0x4B7800 sub_4B7800 (152 bytes)
+void sub_4B7800()
+{
+}
+
+// STUB: 0x4B78A0 sub_4B78A0 (198 bytes)
+void sub_4B78A0()
+{
+}
+
+// STUB: 0x4B7970 sub_4B7970 (129 bytes)
+void sub_4B7970()
+{
+}
+
+// STUB: 0x4B7A00 sub_4B7A00 (129 bytes)
+void sub_4B7A00()
+{
+}
+
+// STUB: 0x4B7A90 sub_4B7A90 (236 bytes)
+void sub_4B7A90()
+{
+}
+
+// STUB: 0x4B7B80 sub_4B7B80 (1166 bytes)
+void sub_4B7B80()
+{
+}
+
+// STUB: 0x4B8030 sub_4B8030 (164 bytes)
+void sub_4B8030()
+{
+}
+
+// STUB: 0x4B80E0 sub_4B80E0 (62 bytes)
+void sub_4B80E0()
+{
+}
+
+// STUB: 0x4B8120 sub_4B8120 (530 bytes)
+void sub_4B8120()
+{
+}
+
+// STUB: 0x4B8340 sub_4B8340 (285 bytes)
+void sub_4B8340()
+{
+}
+
+// STUB: 0x4B8460 sub_4B8460 (96 bytes)
+void sub_4B8460()
+{
+}
+
+// STUB: 0x4B84C0 sub_4B84C0 (167 bytes)
+void sub_4B84C0()
+{
+}
+
+// STUB: 0x4B8570 sub_4B8570 (366 bytes)
+void sub_4B8570()
+{
+}
+
+// STUB: 0x4B86E0 sub_4B86E0 (114 bytes)
+void sub_4B86E0()
+{
+}
+
+// STUB: 0x4B8760 sub_4B8760 (36 bytes)
+void sub_4B8760()
+{
+}
+
+// STUB: 0x4B8790 sub_4B8790 (8 bytes)
+void sub_4B8790()
+{
+}
+
+// STUB: 0x4B87A0 sub_4B87A0 (66 bytes)
+void sub_4B87A0()
+{
+}
+
+// STUB: 0x4B87F0 sub_4B87F0 (24 bytes)
+void sub_4B87F0()
+{
+}
+
+// STUB: 0x4B8810 sub_4B8810 (98 bytes)
+void sub_4B8810()
+{
+}
+
+// STUB: 0x4B8880 sub_4B8880 (372 bytes)
+void sub_4B8880()
+{
+}
+
+// STUB: 0x4B8A00 sub_4B8A00 (520 bytes)
+void sub_4B8A00()
+{
+}
+
+// STUB: 0x4B8C10 sub_4B8C10 (45 bytes)
+void sub_4B8C10()
+{
+}
+
+// STUB: 0x4B8C40 sub_4B8C40 (54 bytes)
+void sub_4B8C40()
+{
+}
+
+// STUB: 0x4B8C80 sub_4B8C80 (63 bytes)
+void sub_4B8C80()
+{
+}
+
+// STUB: 0x4B8CC0 sub_4B8CC0 (243 bytes)
+void sub_4B8CC0()
+{
+}
+
+// STUB: 0x4B8DC0 sub_4B8DC0 (158 bytes)
+void sub_4B8DC0()
+{
+}
+
+// STUB: 0x4B8E60 sub_4B8E60 (107 bytes)
+void sub_4B8E60()
+{
+}
+
+// STUB: 0x4B8ED0 sub_4B8ED0 (185 bytes)
+void sub_4B8ED0()
+{
+}
+
+// STUB: 0x4B8F90 sub_4B8F90 (128 bytes)
+void sub_4B8F90()
+{
+}
+
+// STUB: 0x4B9010 sub_4B9010 (39 bytes)
+void sub_4B9010()
+{
+}
+
+// STUB: 0x4B9040 sub_4B9040 (188 bytes)
+void sub_4B9040()
+{
+}
+
+// STUB: 0x4B9100 sub_4B9100 (614 bytes)
+void sub_4B9100()
+{
+}
+
+// STUB: 0x4B9370 sub_4B9370 (76 bytes)
+void sub_4B9370()
+{
+}
+
+// STUB: 0x4B93C0 sub_4B93C0 (82 bytes)
+void sub_4B93C0()
+{
+}
+
+// STUB: 0x4B9420 sub_4B9420 (9 bytes)
+void sub_4B9420()
+{
+}

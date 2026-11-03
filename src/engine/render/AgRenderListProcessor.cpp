@@ -141,3 +141,8 @@ __declspec(noinline) AgRenderListProcessor::~AgRenderListProcessor()
 }
 
 // FUNCTION: 0x5367E0 ??_GAgRenderListProcessor@@UAEPAXI@Z
+
+// STUB: 0x536730 sub_536730 (171 bytes)
+void sub_536730()
+{
+}

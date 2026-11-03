@@ -78,3 +78,8 @@ void __cdecl resetInput()
     memset(g_inputState, 0, sizeof(g_inputState));
     g_swapConfirm = sub_4C2100() == 0;
 }
+
+// STUB: 0x4D7030 sub_4D7030 (2023 bytes)
+void sub_4D7030()
+{
+}

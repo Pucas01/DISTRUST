@@ -27,3 +27,8 @@ AgPCFileSystem::AgPCFileSystem()
 }
 
 // FUNCTION: 0x5389B0 ??_GAgPCFileSystem@@UAEPAXI@Z
+
+// STUB: 0x538910 sub_538910 (147 bytes)
+void sub_538910()
+{
+}

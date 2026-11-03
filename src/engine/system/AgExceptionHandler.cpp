@@ -10,3 +10,8 @@ AgExceptionHandler* createExceptionHandler()
 {
     return new AgExceptionHandler;
 }
+
+// STUB: 0x5265F0 sub_5265F0 (94 bytes)
+void sub_5265F0()
+{
+}

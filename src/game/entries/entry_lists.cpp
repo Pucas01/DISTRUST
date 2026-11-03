@@ -50,3 +50,8 @@ void __cdecl clearOwnedPair(OwnedPair* pair)
         pair->second = 0;
     }
 }
+
+// STUB: 0x46E990 sub_46E990 (193 bytes)
+void sub_46E990()
+{
+}

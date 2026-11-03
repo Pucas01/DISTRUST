@@ -81,3 +81,38 @@ __declspec(noinline) AgUserManager::~AgUserManager()
 // FUNCTION: 0x527400 ??1?$AgSingleton@VAgUserManager@@@@UAE@XZ
 // FUNCTION: 0x527740 ??_G?$AgSingleton@VAgUserManager@@@@UAEPAXI@Z
 template class AgSingleton<AgUserManager>;
+
+// STUB: 0x527410 sub_527410 (68 bytes)
+void sub_527410()
+{
+}
+
+// STUB: 0x527460 sub_527460 (66 bytes)
+void sub_527460()
+{
+}
+
+// STUB: 0x5274B0 sub_5274B0 (66 bytes)
+void sub_5274B0()
+{
+}
+
+// STUB: 0x527500 sub_527500 (65 bytes)
+void sub_527500()
+{
+}
+
+// STUB: 0x527640 sub_527640 (246 bytes)
+void sub_527640()
+{
+}
+
+// STUB: 0x527736 sub_527736 (5 bytes)
+void sub_527736()
+{
+}
+
+// STUB: 0x52773B sub_52773B (5 bytes)
+void sub_52773B()
+{
+}

@@ -141,3 +141,23 @@ __declspec(noinline) AgPlayerManager::~AgPlayerManager()
 // FUNCTION: 0x520B80 ??1?$AgSingleton@VAgPlayerManager@@@@UAE@XZ
 // FUNCTION: 0x520DC0 ??_G?$AgSingleton@VAgPlayerManager@@@@UAEPAXI@Z
 template class AgSingleton<AgPlayerManager>;
+
+// STUB: 0x520B90 sub_520B90 (66 bytes)
+void sub_520B90()
+{
+}
+
+// STUB: 0x520BE0 sub_520BE0 (66 bytes)
+void sub_520BE0()
+{
+}
+
+// STUB: 0x520D50 sub_520D50 (13 bytes)
+void sub_520D50()
+{
+}
+
+// STUB: 0x520D60 sub_520D60 (86 bytes)
+void sub_520D60()
+{
+}

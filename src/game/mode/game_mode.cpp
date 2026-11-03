@@ -283,3 +283,58 @@ void __cdecl enterMode20Or21(int value)
     g_73E391 = 3;
     g_gameState[0x85E0] = 0xFF;
 }
+
+// STUB: 0x48D990 sub_48D990 (43 bytes)
+void sub_48D990()
+{
+}
+
+// STUB: 0x48D9C0 sub_48D9C0 (52 bytes)
+void sub_48D9C0()
+{
+}
+
+// STUB: 0x48DA30 sub_48DA30 (30 bytes)
+void sub_48DA30()
+{
+}
+
+// STUB: 0x48DAC0 sub_48DAC0 (42 bytes)
+void sub_48DAC0()
+{
+}
+
+// STUB: 0x48DB70 sub_48DB70 (30 bytes)
+void sub_48DB70()
+{
+}
+
+// STUB: 0x48DEE0 sub_48DEE0 (21 bytes)
+void sub_48DEE0()
+{
+}
+
+// STUB: 0x48DF90 sub_48DF90 (43 bytes)
+void sub_48DF90()
+{
+}
+
+// STUB: 0x48DFC0 sub_48DFC0 (13 bytes)
+void sub_48DFC0()
+{
+}
+
+// STUB: 0x48DFD0 sub_48DFD0 (11 bytes)
+void sub_48DFD0()
+{
+}
+
+// STUB: 0x48DFE0 sub_48DFE0 (13 bytes)
+void sub_48DFE0()
+{
+}
+
+// STUB: 0x48DFF0 sub_48DFF0 (134 bytes)
+void sub_48DFF0()
+{
+}
