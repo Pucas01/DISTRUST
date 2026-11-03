@@ -1,11 +1,3 @@
-extern unsigned long long g_bitMask; // 0x7483e8
-
-// FUNCTION: 0x4D6EE0 sub_4D6EE0
-int __cdecl sub_4D6EE0(unsigned int bit)
-{
-    return (((unsigned long long)1 << bit) & g_bitMask) != 0;
-}
-
 // STUB: 0x4D0090 sub_4D0090 (63 bytes)
 void sub_4D0090()
 {
@@ -501,41 +493,6 @@ void sub_4D6D00()
 {
 }
 
-// STUB: 0x4D6D60 sub_4D6D60 (54 bytes)
-void sub_4D6D60()
-{
-}
-
-// STUB: 0x4D6DA0 sub_4D6DA0 (54 bytes)
-void sub_4D6DA0()
-{
-}
-
-// STUB: 0x4D6DE0 sub_4D6DE0 (54 bytes)
-void sub_4D6DE0()
-{
-}
-
-// STUB: 0x4D6E20 sub_4D6E20 (54 bytes)
-void sub_4D6E20()
-{
-}
-
-// STUB: 0x4D6E60 sub_4D6E60 (54 bytes)
-void sub_4D6E60()
-{
-}
-
-// STUB: 0x4D6EA0 sub_4D6EA0 (54 bytes)
-void sub_4D6EA0()
-{
-}
-
-// STUB: 0x4D6F20 sub_4D6F20 (22 bytes)
-void sub_4D6F20()
-{
-}
-
 // STUB: 0x4D6F40 sub_4D6F40 (82 bytes)
 void sub_4D6F40()
 {
@@ -551,23 +508,8 @@ void sub_4D6FB0()
 {
 }
 
-// STUB: 0x4D6FE0 sub_4D6FE0 (21 bytes)
-void sub_4D6FE0()
-{
-}
-
-// STUB: 0x4D7000 sub_4D7000 (36 bytes)
-void sub_4D7000()
-{
-}
-
 // STUB: 0x4D7030 sub_4D7030 (2023 bytes)
 void sub_4D7030()
-{
-}
-
-// STUB: 0x4D7820 sub_4D7820 (21 bytes)
-void sub_4D7820()
 {
 }
 

@@ -88,11 +88,6 @@ void sub_501150()
 {
 }
 
-// STUB: 0x501170 atomicDecrement (16 bytes)
-void atomicDecrement()
-{
-}
-
 // STUB: 0x501180 sub_501180 (18 bytes)
 void sub_501180()
 {

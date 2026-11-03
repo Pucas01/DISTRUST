@@ -42,7 +42,7 @@ extern short g_73E358;
 void __cdecl sub_49A720(int value);
 void __cdecl sub_48B600(int value);
 void __cdecl sub_4A0D30(int value);
-void __cdecl sub_463190(int a, int b);
+int __cdecl playSound(int a, int b);
 void __cdecl sub_4A0490();
 int __cdecl sub_4A0D70();
 void __cdecl sub_4A17F0(int value);
@@ -257,7 +257,7 @@ void updateMode0F()
         sub_49A720(0);
         sub_48B600(0);
         sub_4A0D30(g_73E3B2);
-        sub_463190(0x75, 0x64);
+        playSound(0x75, 0x64);
         sub_4A0490();
         g_modeTimer.frame++;
         return;
@@ -934,7 +934,7 @@ void __cdecl sub_4980E0(int a, int b, int c);
 void __cdecl sub_4A0A00(int value);
 int __cdecl sub_4A04E0(int value);
 void __cdecl sub_48CDF0(int a, int b, float c);
-void __cdecl sub_463190(int a, int b);
+int __cdecl playSound(int a, int b);
 int __cdecl sub_42EB00(int value);
 void __cdecl sub_4CE9D0(int value);
 
@@ -959,7 +959,7 @@ void updateMode0E()
         if (g_73E480 && g_6A5C10 == 0x16)
             icon = 0x10D;
         sub_48CDF0(slot, icon, 1.0f);
-        sub_463190(0xB1, 100);
+        playSound(0xB1, 100);
         sub_4A0490();
         g_modeTimer.frame++;
         return;
@@ -1625,7 +1625,7 @@ void updateMode01()
 }
 
 void __cdecl sub_457880(int value);
-void __cdecl sub_463190(int a, int b);
+int __cdecl playSound(int a, int b);
 int __cdecl sub_4966A0();
 void __cdecl sub_486B90(unsigned a, unsigned b, unsigned c);
 extern float g_73E398;
@@ -1647,8 +1647,8 @@ extern float g_62DA98;
 extern float g_62DA9C;
 extern float g_6235B4;
 extern float g_7403E0;
-int __cdecl sub_4D6E20(int value);
-int __cdecl sub_4D6EE0(int value);
+int __cdecl testButtonC(int value);
+int __cdecl testButtonB(int value);
 void __cdecl sub_4967A0(int a, int b);
 
 static __forceinline void wrapCursor()
@@ -1692,26 +1692,26 @@ void updateMode1D()
         bool moved = false;
         if (free)
         {
-            if (sub_4D6E20(0x14))
+            if (testButtonC(0x14))
             {
                 moved = true;
-                sub_463190(0x12, 100);
+                playSound(0x12, 100);
                 g_73E416++;
                 wrapCursor();
                 sub_4967A0(g_73E416, 0);
             }
-            else if (sub_4D6E20(0x15))
+            else if (testButtonC(0x15))
             {
                 moved = true;
-                sub_463190(0x12, 100);
+                playSound(0x12, 100);
                 g_73E416--;
                 wrapCursor();
                 sub_4967A0(g_73E416, 1);
             }
         }
-        if (!moved && (hit || sub_4D6EE0(0x16)))
+        if (!moved && (hit || testButtonB(0x16)))
         {
-            sub_463190(0x71, 100);
+            playSound(0x71, 100);
             g_gameMode = 0x1F;
             g_modeTimer.frame = 0;
             return;
@@ -1764,7 +1764,7 @@ void __cdecl sub_486880();
 int __cdecl sub_486A40();
 void __cdecl sub_48D3A0();
 void __cdecl sub_48D450();
-int __cdecl sub_4D6DA0(int value);
+int __cdecl testButtonA(int value);
 void __cdecl sub_48E270(int value);
 void __cdecl sub_46D230(int a, int b);
 void __cdecl sub_4866F0(int value);
@@ -1786,7 +1786,7 @@ void updateAnagram()
     Vec2 pos = sub_4B9430()->pos;
     a -= pos.x;
     b -= pos.y;
-    if (sub_4D6EE0(0x2E) != 0 || sub_4D6EE0(0x2F) != 0)
+    if (testButtonB(0x2E) != 0 || testButtonB(0x2F) != 0)
     {
         if (g_73E3F2 < g_73E3F4)
             g_6FDB9C.a++;
@@ -1827,18 +1827,18 @@ void updateAnagram()
             if (sub_484DD0(slot) == 0)
             {
                 sub_4980E0(4, (int)a, (int)b);
-                sub_463190(0x76, 100);
+                playSound(0x76, 100);
             }
             else
             {
                 sub_4980E0(0, (int)a, (int)b);
-                sub_463190(0x75, 100);
+                playSound(0x75, 100);
             }
         }
         else
         {
             sub_4980E0(2, (int)a, (int)b);
-            sub_463190(0x6F, 100);
+            playSound(0x6F, 100);
         }
     }
     if (g_73E3F2 >= g_73E3F4 && sub_486A40() == 0)
@@ -1881,7 +1881,7 @@ void updateAnagram()
     float prev = g_69813C;
     if (g_73C6B0 == 0 || *(int *)(g_73C6B0 + 0x89D4) == 0)
     {
-        if (sub_4D6DA0(0x31))
+        if (testButtonA(0x31))
         {
             if (g_69813C != g_623160)
             {
@@ -1906,7 +1906,7 @@ void updateAnagram()
                     g_69813C = g_611888;
             }
         }
-        else if (sub_4D6DA0(0x30))
+        else if (testButtonA(0x30))
             g_69813C = g_6239D0;
         else
             g_69813C = g_611888;

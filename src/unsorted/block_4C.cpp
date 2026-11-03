@@ -1,22 +1,3 @@
-#include "unsorted/entry_table.h"
-
-extern EntryRecord* g_entryTable; // 0x7405ec
-
-// FUNCTION: 0x4C85E0 sub_4C85E0
-int __cdecl sub_4C85E0(unsigned int index, int slot)
-{
-    if (index <= 0x6d) {
-        EntryRecord* entry = &g_entryTable[index];
-        if (entry->valid && slot >= 0 && slot < entry->count) {
-            short* values = entry->values;
-            if (values) {
-                return *(short*)((char*)values + slot * 10);
-            }
-        }
-    }
-    return -1;
-}
-
 // STUB: 0x4C0340 sub_4C0340 (1591 bytes)
 void sub_4C0340()
 {
@@ -477,11 +458,6 @@ void sub_4C8870()
 {
 }
 
-// STUB: 0x4C88E0 sub_4C88E0 (39 bytes)
-void sub_4C88E0()
-{
-}
-
 // STUB: 0x4C8910 sub_4C8910 (130 bytes)
 void sub_4C8910()
 {
@@ -507,11 +483,6 @@ void sub_4C8B50()
 {
 }
 
-// STUB: 0x4C8B90 sub_4C8B90 (125 bytes)
-void sub_4C8B90()
-{
-}
-
 // STUB: 0x4C8C10 sub_4C8C10 (28 bytes)
 void sub_4C8C10()
 {
@@ -519,11 +490,6 @@ void sub_4C8C10()
 
 // STUB: 0x4C8C30 sub_4C8C30 (28 bytes)
 void sub_4C8C30()
-{
-}
-
-// STUB: 0x4C8C50 sub_4C8C50 (30 bytes)
-void sub_4C8C50()
 {
 }
 
@@ -557,11 +523,6 @@ void sub_4C8D90()
 {
 }
 
-// STUB: 0x4C8DF0 sub_4C8DF0 (82 bytes)
-void sub_4C8DF0()
-{
-}
-
 // STUB: 0x4C8E50 sub_4C8E50 (175 bytes)
 void sub_4C8E50()
 {
@@ -579,16 +540,6 @@ void sub_4C9060()
 
 // STUB: 0x4C9160 sub_4C9160 (82 bytes)
 void sub_4C9160()
-{
-}
-
-// STUB: 0x4C91C0 sub_4C91C0 (84 bytes)
-void sub_4C91C0()
-{
-}
-
-// STUB: 0x4C9220 sub_4C9220 (108 bytes)
-void sub_4C9220()
 {
 }
 

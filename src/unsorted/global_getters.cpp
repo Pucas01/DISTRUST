@@ -23,7 +23,7 @@ extern unsigned char g_7403D6;
 extern int g_740414;
 extern int g_740418;
 extern int g_744C54;
-extern int g_748220;
+extern int g_inputState;
 extern int g_748224;
 extern int g_748228;
 extern int g_74822C;
@@ -198,7 +198,7 @@ int __cdecl sub_4D6FC0()
 // FUNCTION: 0x4D6FD0 sub_4D6FD0
 int __cdecl sub_4D6FD0()
 {
-    return g_748220;
+    return g_inputState;
 }
 
 // FUNCTION: 0x4D7840 sub_4D7840

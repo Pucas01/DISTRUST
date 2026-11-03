@@ -253,11 +253,6 @@ void sub_463170()
 {
 }
 
-// STUB: 0x463190 sub_463190 (117 bytes)
-void sub_463190()
-{
-}
-
 // STUB: 0x463210 sub_463210 (84 bytes)
 void sub_463210()
 {

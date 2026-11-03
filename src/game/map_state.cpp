@@ -87,5 +87,5 @@ void __cdecl openMap(int arg)
     g_mapState.color = -1;
     g_mapState.unk_E1 = 1;
     loadMapTextures(mode);
-    g_73DC04 = sub_463190(12, 100);
+    g_73DC04 = playSound(12, 100);
 }

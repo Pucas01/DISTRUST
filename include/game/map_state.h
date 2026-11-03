@@ -41,5 +41,5 @@ extern short* sub_476350(int);
 extern void resetVertexColors();
 extern void clearMapState();
 extern void loadMapTextures(int);
-extern int sub_463190(int, int);
+extern int __cdecl playSound(int, int);
 extern void sub_480E30(int);

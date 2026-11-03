@@ -2,14 +2,14 @@ extern signed char g_screenState;
 extern int g_screenTimer;
 extern float g_7403E0;
 
-void __cdecl sub_463190(int a, int b);
-int __cdecl sub_4D6DA0(int key);
+int __cdecl playSound(int a, int b);
+int __cdecl testButtonA(int key);
 
 // FUNCTION: 0x437F80 screenStateCase0
 void __cdecl screenStateCase0()
 {
     int t;
-    if (sub_4D6DA0(0x30)) {
+    if (testButtonA(0x30)) {
         t = (int)((float)g_screenTimer + g_7403E0 * 3.0f);
         if (t > 14)
             t = 14;
@@ -28,7 +28,7 @@ void __cdecl screenStateCase0()
 void __cdecl screenStateCase1()
 {
     int t;
-    if (sub_4D6DA0(0x30)) {
+    if (testButtonA(0x30)) {
         t = (int)((float)g_screenTimer + g_7403E0 * 3.0f);
         if (t > 10)
             t = 10;
@@ -47,7 +47,7 @@ void __cdecl screenStateCase1()
 void __cdecl screenStateCase2()
 {
     int t;
-    if (sub_4D6DA0(0x30)) {
+    if (testButtonA(0x30)) {
         t = (int)((float)g_screenTimer + g_7403E0 * 3.0f);
         if (t > 38)
             t = 38;
@@ -56,7 +56,7 @@ void __cdecl screenStateCase2()
     if (t >= 38) {
         g_screenState = 3;
         g_screenTimer = 0;
-        sub_463190(0x81, 100);
+        playSound(0x81, 100);
         return;
     }
     t = (int)((float)t + g_7403E0);
@@ -65,7 +65,7 @@ void __cdecl screenStateCase2()
 
 extern short g_6E47C8;
 char __cdecl sub_46E930(int low, int high, int value);
-int __cdecl sub_4D6EE0(int key);
+int __cdecl testButtonB(int key);
 void __cdecl sub_46D230(int a, int b);
 extern short g_screenSound;
 
@@ -79,7 +79,7 @@ void __cdecl screenStateCase9()
         return;
     }
     int t;
-    if (sub_4D6DA0(0x30)) {
+    if (testButtonA(0x30)) {
         t = (int)((float)g_screenTimer + g_7403E0 * 3.0f);
         t = t > 0x35 ? 0x35 : t;
     } else {
@@ -101,7 +101,7 @@ void __cdecl screenStateCase7()
         return;
     }
     int t;
-    if (sub_4D6DA0(0x30)) {
+    if (testButtonA(0x30)) {
         t = (int)((float)g_screenTimer + g_7403E0 * 3.0f);
         t = t > 0x45 ? 0x45 : t;
     } else {
@@ -114,12 +114,12 @@ void __cdecl screenStateCase7()
 // FUNCTION: 0x43BBD0 screenStateCase8
 void __cdecl screenStateCase8()
 {
-    if (sub_4D6EE0(0x16)) {
+    if (testButtonB(0x16)) {
         sub_46D230(2, g_screenSound);
         if (g_6E47C8 > 999)
             g_6E47C8 = 999;
         g_screenTimer = 0;
         g_screenState = 9;
-        sub_463190(4, 100);
+        playSound(4, 100);
     }
 }

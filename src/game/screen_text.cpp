@@ -18,8 +18,8 @@ int __cdecl sub_435380(int line, int flag);
 char __cdecl sub_46DD80(const unsigned* flags, int bit);
 char __cdecl sub_46E930(int low, int high, int value);
 int __cdecl sub_46E2F0(short* a, short* b, int* c, int* d, int e, int f, int g, int h, int i, int j, int k);
-void __cdecl sub_463190(int a, int b);
-int __cdecl sub_4D6DA0(int key);
+int __cdecl playSound(int a, int b);
+int __cdecl testButtonA(int key);
 
 // FUNCTION: 0x437B00 screenStateCase3
 void __cdecl screenStateCase3()
@@ -42,10 +42,10 @@ void __cdecl screenStateCase3()
     }
     if (sub_46E2F0(&g_screenX, &g_screenY, &g_screenH, &g_screenW, 0, result, 0,
                    sub_435380(g_screenLine, g_screenFlag), 0, count, 1) == -4)
-        sub_463190(0x81, 100);
+        playSound(0x81, 100);
     timer = g_screenTimer;
     int next;
-    if (sub_4D6DA0(0x30)) {
+    if (testButtonA(0x30)) {
         next = (int)((float)g_screenTimer + g_7403E0 * 3.0f);
         next = next > limit ? limit : next;
     } else {
@@ -79,10 +79,10 @@ void __cdecl screenStateCase4()
         result = 2;
     if (sub_46E2F0(&g_screenX, &g_screenY, &g_screenH, &g_screenW, 0, result, 0,
                    sub_435380(g_screenLine, g_screenFlag), 0, count + 1, 1) == -4)
-        sub_463190(0x82, 100);
+        playSound(0x82, 100);
     timer = g_screenTimer;
     int next;
-    if (sub_4D6DA0(0x30)) {
+    if (testButtonA(0x30)) {
         next = (int)((float)g_screenTimer + g_7403E0 * 3.0f);
         next = next > 0x72 ? 0x72 : next;
     } else {

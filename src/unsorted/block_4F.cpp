@@ -936,11 +936,6 @@ void sub_4FD4B0()
 {
 }
 
-// STUB: 0x4FD530 sub_4FD530 (71 bytes)
-void sub_4FD530()
-{
-}
-
 // STUB: 0x4FD580 sub_4FD580 (102 bytes)
 void sub_4FD580()
 {
@@ -956,11 +951,6 @@ void sub_4FD640()
 {
 }
 
-// STUB: 0x4FD6A0 sub_4FD6A0 (85 bytes)
-void sub_4FD6A0()
-{
-}
-
 // STUB: 0x4FD700 sub_4FD700 (246 bytes)
 void sub_4FD700()
 {
@@ -973,11 +963,6 @@ void sub_4FD800()
 
 // STUB: 0x4FD830 sub_4FD830 (82 bytes)
 void sub_4FD830()
-{
-}
-
-// STUB: 0x4FD890 sub_4FD890 (29 bytes)
-void sub_4FD890()
 {
 }
 
