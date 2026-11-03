@@ -2050,8 +2050,8 @@ src/unsorted/block_46.cpp</title></rect>
 <rect x="292.72" y="241.03" width="6.76" height="6.92" class="s"><title>sub_462830
 166 bytes, not rewritten
 src/unsorted/block_46.cpp</title></rect>
-<rect x="300.08" y="241.03" width="6.72" height="6.92" class="s"><title>sub_46DDF0
-165 bytes, not rewritten
+<rect x="300.08" y="241.03" width="6.72" height="6.92" class="m"><title>sub_46DDF0
+165 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="307.40" y="241.03" width="6.68" height="6.92" class="s"><title>sub_4659F0
 164 bytes, not rewritten
@@ -2146,8 +2146,8 @@ src/unsorted/block_46.cpp</title></rect>
 <rect x="277.00" y="289.59" width="5.03" height="4.91" class="s"><title>sub_46CC90
 93 bytes, not rewritten
 src/unsorted/block_46.cpp</title></rect>
-<rect x="277.00" y="295.10" width="5.03" height="4.91" class="s"><title>sub_46DCC0
-93 bytes, not rewritten
+<rect x="277.00" y="295.10" width="5.03" height="4.91" class="m"><title>sub_46DCC0
+93 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="282.63" y="261.21" width="5.15" height="4.68" class="s"><title>sub_46EBC0
 91 bytes, not rewritten
@@ -2179,8 +2179,8 @@ src/unsorted/block_46.cpp</title></rect>
 <rect x="282.63" y="276.61" width="4.90" height="4.31" class="s"><title>sub_46CFA0
 81 bytes, not rewritten
 src/unsorted/block_46.cpp</title></rect>
-<rect x="282.63" y="281.52" width="4.90" height="4.25" class="s"><title>sub_46DEF0
-80 bytes, not rewritten
+<rect x="282.63" y="281.52" width="4.90" height="4.25" class="m"><title>sub_46DEF0
+80 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="282.63" y="286.37" width="4.90" height="4.19" class="s"><title>sub_46D000
 79 bytes, not rewritten
@@ -2191,14 +2191,14 @@ src/unsorted/block_46.cpp</title></rect>
 <rect x="282.63" y="295.95" width="4.90" height="4.07" class="s"><title>sub_46C120
 77 bytes, not rewritten
 src/unsorted/block_46.cpp</title></rect>
-<rect x="288.13" y="266.49" width="4.33" height="4.55" class="s"><title>sub_46DEA0
-76 bytes, not rewritten
+<rect x="288.13" y="266.49" width="4.33" height="4.55" class="m"><title>sub_46DEA0
+76 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="293.06" y="266.49" width="4.20" height="4.55" class="s"><title>sub_46DA20
-74 bytes, not rewritten
+<rect x="293.06" y="266.49" width="4.20" height="4.55" class="m"><title>sub_46DA20
+74 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="297.85" y="266.49" width="4.20" height="4.55" class="s"><title>resetVertexColors
-74 bytes, not rewritten
+<rect x="297.85" y="266.49" width="4.20" height="4.55" class="m"><title>resetVertexColors
+74 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="302.65" y="266.49" width="4.20" height="4.55" class="s"><title>sub_46E640
 74 bytes, not rewritten
@@ -2224,20 +2224,20 @@ src/unsorted/block_46.cpp</title></rect>
 <rect x="288.13" y="286.57" width="3.94" height="4.18" class="m"><title>sub_46E860
 65 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="288.13" y="291.35" width="3.94" height="4.03" class="s"><title>sub_46D9E0
-63 bytes, not rewritten
+<rect x="288.13" y="291.35" width="3.94" height="4.03" class="m"><title>sub_46D9E0
+63 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="288.13" y="295.98" width="3.94" height="4.03" class="m"><title>sub_46DB50
 63 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="292.67" y="271.64" width="3.56" height="4.46" class="s"><title>sub_46DC80
-63 bytes, not rewritten
+<rect x="292.67" y="271.64" width="3.56" height="4.46" class="m"><title>sub_46DC80
+63 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="292.67" y="276.69" width="3.56" height="4.38" class="s"><title>sub_465480
 62 bytes, not rewritten
 src/unsorted/block_46.cpp</title></rect>
-<rect x="292.67" y="281.67" width="3.56" height="4.38" class="s"><title>sub_46EA60
-62 bytes, not rewritten
+<rect x="292.67" y="281.67" width="3.56" height="4.38" class="m"><title>sub_46EA60
+62 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="292.67" y="286.65" width="3.56" height="4.22" class="s"><title>sub_46D940
 60 bytes, not rewritten
@@ -2248,17 +2248,17 @@ src/unsorted/block_46.cpp</title></rect>
 <rect x="292.67" y="296.04" width="3.56" height="3.98" class="s"><title>sub_46B550
 57 bytes, not rewritten
 src/unsorted/block_46.cpp</title></rect>
-<rect x="296.82" y="271.64" width="3.59" height="3.86" class="s"><title>sub_46D9A0
-56 bytes, not rewritten
+<rect x="296.82" y="271.64" width="3.59" height="3.86" class="m"><title>sub_46D9A0
+56 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="301.01" y="271.64" width="3.59" height="3.86" class="s"><title>sub_46DAD0
-56 bytes, not rewritten
+<rect x="301.01" y="271.64" width="3.59" height="3.86" class="m"><title>sub_46DAD0
+56 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="305.20" y="271.64" width="3.59" height="3.86" class="s"><title>sub_46DC40
-56 bytes, not rewritten
+<rect x="305.20" y="271.64" width="3.59" height="3.86" class="m"><title>sub_46DC40
+56 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="309.38" y="271.64" width="3.59" height="3.86" class="s"><title>sub_46DDB0
-56 bytes, not rewritten
+<rect x="309.38" y="271.64" width="3.59" height="3.86" class="m"><title>sub_46DDB0
+56 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="313.57" y="271.64" width="3.44" height="3.86" class="s"><title>sub_46B860
 54 bytes, not rewritten
@@ -2266,26 +2266,26 @@ src/unsorted/block_46.cpp</title></rect>
 <rect x="317.61" y="271.64" width="3.44" height="3.86" class="s"><title>sub_46BA40
 54 bytes, not rewritten
 src/unsorted/block_46.cpp</title></rect>
-<rect x="296.82" y="276.10" width="3.62" height="3.67" class="s"><title>sub_46E950
-54 bytes, not rewritten
+<rect x="296.82" y="276.10" width="3.62" height="3.67" class="m"><title>sub_46E950
+54 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="296.82" y="280.37" width="3.62" height="3.59" class="s"><title>sub_46DB10
-53 bytes, not rewritten
+<rect x="296.82" y="280.37" width="3.62" height="3.59" class="m"><title>sub_46DB10
+53 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="296.82" y="284.56" width="3.62" height="3.51" class="s"><title>sub_462DA0
-52 bytes, not rewritten
+<rect x="296.82" y="284.56" width="3.62" height="3.51" class="m"><title>sub_462DA0
+52 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="296.82" y="288.67" width="3.62" height="3.51" class="s"><title>sub_46E710
-52 bytes, not rewritten
+<rect x="296.82" y="288.67" width="3.62" height="3.51" class="m"><title>sub_46E710
+52 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="296.82" y="292.78" width="3.62" height="3.43" class="s"><title>sub_465010
 51 bytes, not rewritten
 src/unsorted/block_46.cpp</title></rect>
-<rect x="296.82" y="296.82" width="3.62" height="3.20" class="s"><title>sub_462E40
-48 bytes, not rewritten
+<rect x="296.82" y="296.82" width="3.62" height="3.20" class="m"><title>sub_462E40
+48 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="301.04" y="276.10" width="3.64" height="3.17" class="s"><title>sub_46DD80
-48 bytes, not rewritten
+<rect x="301.04" y="276.10" width="3.64" height="3.17" class="m"><title>sub_46DD80
+48 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="305.28" y="276.10" width="3.56" height="3.17" class="s"><title>sub_46BF10
 47 bytes, not rewritten
@@ -2299,8 +2299,8 @@ src/unsorted/block_46.cpp</title></rect>
 <rect x="317.58" y="276.10" width="3.47" height="3.17" class="m"><title>sub_46DA70
 46 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="301.04" y="279.87" width="3.52" height="3.12" class="s"><title>sub_46DAA0
-46 bytes, not rewritten
+<rect x="301.04" y="279.87" width="3.52" height="3.12" class="m"><title>sub_46DAA0
+46 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="305.16" y="279.87" width="3.52" height="3.12" class="m"><title>sub_46DBE0
 46 bytes, matching
@@ -2308,11 +2308,11 @@ src/unsorted/block_46.cpp</title></rect>
 <rect x="309.28" y="279.87" width="3.52" height="3.12" class="m"><title>sub_46DC10
 46 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="313.40" y="279.87" width="3.52" height="3.12" class="s"><title>sub_46DD20
-46 bytes, not rewritten
+<rect x="313.40" y="279.87" width="3.52" height="3.12" class="m"><title>sub_46DD20
+46 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="317.52" y="279.87" width="3.52" height="3.12" class="s"><title>sub_46DD50
-46 bytes, not rewritten
+<rect x="317.52" y="279.87" width="3.52" height="3.12" class="m"><title>sub_46DD50
+46 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="301.04" y="283.60" width="3.58" height="2.92" class="s"><title>sub_462F60
 44 bytes, not rewritten
@@ -2323,8 +2323,8 @@ src/unsorted/block_46.cpp</title></rect>
 <rect x="301.04" y="290.55" width="3.58" height="2.84" class="s"><title>sub_46BA10
 43 bytes, not rewritten
 src/unsorted/block_46.cpp</title></rect>
-<rect x="301.04" y="293.98" width="3.58" height="2.76" class="s"><title>sub_4634B0
-42 bytes, not rewritten
+<rect x="301.04" y="293.98" width="3.58" height="2.76" class="m"><title>sub_4634B0
+42 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="301.04" y="297.34" width="3.58" height="2.68" class="s"><title>sub_462380
 41 bytes, not rewritten
@@ -2335,8 +2335,8 @@ src/unsorted/block_46.cpp</title></rect>
 <rect x="308.62" y="283.60" width="2.72" height="3.42" class="s"><title>sub_463500
 40 bytes, not rewritten
 src/unsorted/block_46.cpp</title></rect>
-<rect x="311.94" y="283.60" width="2.72" height="3.42" class="s"><title>sub_46D910
-40 bytes, not rewritten
+<rect x="311.94" y="283.60" width="2.72" height="3.42" class="m"><title>sub_46D910
+40 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="315.26" y="283.60" width="2.64" height="3.42" class="s"><title>sub_463030
 39 bytes, not rewritten
@@ -2359,8 +2359,8 @@ src/unsorted/block_46.cpp</title></rect>
 <rect x="308.66" y="287.62" width="2.80" height="2.15" class="m"><title>sub_462E00
 28 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="312.05" y="287.62" width="2.68" height="2.15" class="s"><title>sub_462D80
-27 bytes, not rewritten
+<rect x="312.05" y="287.62" width="2.68" height="2.15" class="m"><title>sub_462D80
+27 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="315.33" y="287.62" width="2.56" height="2.15" class="m"><title>sub_462F40
 26 bytes, matching
@@ -2371,59 +2371,59 @@ src/unsorted/block_46.cpp</title></rect>
 <rect x="308.66" y="290.36" width="2.59" height="2.01" class="s"><title>sub_461AF0
 25 bytes, not rewritten
 src/unsorted/block_46.cpp</title></rect>
-<rect x="308.66" y="292.98" width="2.59" height="2.01" class="s"><title>sub_462250
-25 bytes, not rewritten
+<rect x="308.66" y="292.98" width="2.59" height="2.01" class="m"><title>sub_462250
+25 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="308.66" y="295.59" width="2.59" height="1.91" class="s"><title>sub_462D60
-24 bytes, not rewritten
+<rect x="308.66" y="295.59" width="2.59" height="1.91" class="m"><title>sub_462D60
+24 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="308.66" y="298.10" width="2.59" height="1.91" class="s"><title>sub_46E930
-24 bytes, not rewritten
+<rect x="308.66" y="298.10" width="2.59" height="1.91" class="m"><title>sub_46E930
+24 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="311.85" y="290.36" width="2.08" height="2.26" class="s"><title>sub_462DE0
-23 bytes, not rewritten
+<rect x="311.85" y="290.36" width="2.08" height="2.26" class="m"><title>sub_462DE0
+23 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="314.53" y="290.36" width="1.85" height="2.26" class="s"><title>sub_46BA80
-21 bytes, not rewritten
+<rect x="314.53" y="290.36" width="1.85" height="2.26" class="m"><title>sub_46BA80
+21 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="316.98" y="290.36" width="1.73" height="2.26" class="s"><title>sub_463170
-20 bytes, not rewritten
+<rect x="316.98" y="290.36" width="1.73" height="2.26" class="m"><title>sub_463170
+20 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="319.31" y="290.36" width="1.73" height="2.26" class="s"><title>sub_463270
-20 bytes, not rewritten
+<rect x="319.31" y="290.36" width="1.73" height="2.26" class="m"><title>sub_463270
+20 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="311.85" y="293.22" width="1.88" height="1.95" class="s"><title>sub_46B8A0
-19 bytes, not rewritten
+<rect x="311.85" y="293.22" width="1.88" height="1.95" class="m"><title>sub_46B8A0
+19 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="311.85" y="295.78" width="1.88" height="1.82" class="s"><title>sub_462F90
-18 bytes, not rewritten
+<rect x="311.85" y="295.78" width="1.88" height="1.82" class="m"><title>sub_462F90
+18 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="311.85" y="298.20" width="1.88" height="1.82" class="s"><title>sub_463300
-18 bytes, not rewritten
+<rect x="311.85" y="298.20" width="1.88" height="1.82" class="m"><title>sub_463300
+18 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="314.33" y="293.22" width="1.99" height="1.59" class="s"><title>sub_46D980
-17 bytes, not rewritten
+<rect x="314.33" y="293.22" width="1.99" height="1.59" class="p"><title>sub_46D980
+17 bytes, non matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="316.92" y="293.22" width="1.84" height="1.59" class="s"><title>sub_46BA00
-16 bytes, not rewritten
+<rect x="316.92" y="293.22" width="1.84" height="1.59" class="p"><title>sub_46BA00
+16 bytes, non matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="319.36" y="293.22" width="1.69" height="1.59" class="s"><title>sub_463990
-15 bytes, not rewritten
+<rect x="319.36" y="293.22" width="1.69" height="1.59" class="m"><title>sub_463990
+15 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="314.03" y="295.11" width="1.80" height="2.60" class="s"><title>sub_463980
-14 bytes, not rewritten
+<rect x="314.03" y="295.11" width="1.80" height="2.60" class="m"><title>sub_463980
+14 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="314.03" y="297.71" width="1.80" height="2.60" class="s"><title>sub_46BAA0
-14 bytes, not rewritten
+<rect x="314.03" y="297.71" width="1.80" height="2.60" class="m"><title>sub_46BAA0
+14 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="315.83" y="295.11" width="2.50" height="1.73" class="s"><title>sub_462D50
-13 bytes, not rewritten
+<rect x="315.83" y="295.11" width="2.50" height="1.73" class="m"><title>sub_462D50
+13 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="315.83" y="296.85" width="2.50" height="1.73" class="s"><title>sub_462E30
-13 bytes, not rewritten
+<rect x="315.83" y="296.85" width="2.50" height="1.73" class="m"><title>sub_462E30
+13 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="315.83" y="298.58" width="2.50" height="1.73" class="s"><title>sub_462EE0
-13 bytes, not rewritten
+<rect x="315.83" y="298.58" width="2.50" height="1.73" class="m"><title>sub_462EE0
+13 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="318.33" y="295.11" width="1.51" height="2.88" class="s"><title>sub_463420
 13 bytes, not rewritten
@@ -2431,11 +2431,11 @@ src/unsorted/block_46.cpp</title></rect>
 <rect x="319.84" y="295.11" width="1.51" height="2.88" class="s"><title>sub_4634A0
 13 bytes, not rewritten
 src/unsorted/block_46.cpp</title></rect>
-<rect x="318.33" y="297.99" width="1.87" height="2.32" class="s"><title>sub_463C80
-13 bytes, not rewritten
+<rect x="318.33" y="297.99" width="1.87" height="2.32" class="m"><title>sub_463C80
+13 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
-<rect x="320.19" y="297.99" width="1.15" height="2.32" class="s"><title>sub_4634E0
-8 bytes, not rewritten
+<rect x="320.19" y="297.99" width="1.15" height="2.32" class="m"><title>sub_4634E0
+8 bytes, matching
 src/unsorted/block_46.cpp</title></rect>
 <rect x="173.29" y="302.61" width="32.59" height="73.53" class="s"><title>sub_4B43F0
 7377 bytes, not rewritten
@@ -3541,8 +3541,8 @@ src/unsorted/block_4D.cpp</title></rect>
 <rect x="297.61" y="563.38" width="3.01" height="3.74" class="s"><title>sub_4D6560
 47 bytes, not rewritten
 src/unsorted/block_4D.cpp</title></rect>
-<rect x="297.61" y="567.72" width="3.01" height="3.37" class="s"><title>sub_4D64F0
-43 bytes, not rewritten
+<rect x="297.61" y="567.72" width="3.01" height="3.37" class="m"><title>sub_4D64F0
+43 bytes, matching
 src/unsorted/block_4D.cpp</title></rect>
 <rect x="297.61" y="571.69" width="3.01" height="3.37" class="s"><title>sub_4DDD10
 43 bytes, not rewritten
@@ -3571,8 +3571,8 @@ src/unsorted/block_4D.cpp</title></rect>
 <rect x="315.28" y="563.38" width="2.58" height="3.17" class="s"><title>sub_4D4760
 36 bytes, not rewritten
 src/unsorted/block_4D.cpp</title></rect>
-<rect x="318.46" y="563.38" width="2.58" height="3.17" class="s"><title>sub_4D64C0
-36 bytes, not rewritten
+<rect x="318.46" y="563.38" width="2.58" height="3.17" class="m"><title>sub_4D64C0
+36 bytes, matching
 src/unsorted/block_4D.cpp</title></rect>
 <rect x="301.22" y="567.15" width="2.94" height="2.79" class="m"><title>sub_4D7000
 36 bytes, matching
@@ -3610,8 +3610,8 @@ src/unsorted/block_4D.cpp</title></rect>
 <rect x="304.76" y="570.41" width="2.91" height="2.44" class="s"><title>sub_4D13F0
 32 bytes, not rewritten
 src/unsorted/block_4D.cpp</title></rect>
-<rect x="308.27" y="570.41" width="2.80" height="2.44" class="s"><title>freeUnmanaged
-31 bytes, not rewritten
+<rect x="308.27" y="570.41" width="2.80" height="2.44" class="m"><title>freeUnmanaged
+31 bytes, matching
 src/unsorted/block_4D.cpp</title></rect>
 <rect x="311.67" y="570.41" width="2.80" height="2.44" class="s"><title>sub_4D79A0
 31 bytes, not rewritten
@@ -5026,8 +5026,8 @@ src/unsorted/block_4C.cpp</title></rect>
 <rect x="392.44" y="373.03" width="9.79" height="9.76" class="s"><title>sub_4C7DE0
 323 bytes, not rewritten
 src/unsorted/block_4C.cpp</title></rect>
-<rect x="402.83" y="373.03" width="9.76" height="9.76" class="s"><title>sub_4C89A0
-322 bytes, not rewritten
+<rect x="402.83" y="373.03" width="9.76" height="9.76" class="p"><title>sub_4C89A0
+322 bytes, non matching
 src/unsorted/block_4C.cpp</title></rect>
 <rect x="413.19" y="373.03" width="9.50" height="9.76" class="s"><title>sub_4CAA20
 314 bytes, not rewritten
@@ -6286,8 +6286,8 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="489.36" y="124.81" width="8.30" height="8.78" class="s"><title>sub_4F7D40
 251 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="489.36" y="134.19" width="8.30" height="8.59" class="s"><title>sub_4FD700
-246 bytes, not rewritten
+<rect x="489.36" y="134.19" width="8.30" height="8.59" class="m"><title>sub_4FD700
+246 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="489.36" y="143.38" width="8.30" height="8.03" class="s"><title>sub_4F1660
 231 bytes, not rewritten
@@ -6367,8 +6367,8 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="547.52" y="83.59" width="7.36" height="7.33" class="s"><title>sub_4F3A60
 190 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="555.48" y="83.59" width="7.36" height="7.33" class="s"><title>sub_4FD230
-190 bytes, not rewritten
+<rect x="555.48" y="83.59" width="7.36" height="7.33" class="p"><title>sub_4FD230
+190 bytes, non matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="563.44" y="83.59" width="7.32" height="7.33" class="s"><title>sub_4F8980
 189 bytes, not rewritten
@@ -6481,8 +6481,8 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="566.87" y="98.91" width="5.61" height="6.31" class="s"><title>sub_4F7840
 129 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="573.08" y="98.91" width="5.61" height="6.31" class="s"><title>sub_4FD0C0
-129 bytes, not rewritten
+<rect x="573.08" y="98.91" width="5.61" height="6.31" class="p"><title>sub_4FD0C0
+129 bytes, non matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="521.34" y="105.82" width="6.20" height="5.71" class="s"><title>sub_4FF6E0
 129 bytes, not rewritten
@@ -6490,8 +6490,8 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="521.34" y="112.13" width="6.20" height="5.66" class="s"><title>sub_4F47E0
 128 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="521.34" y="118.39" width="6.20" height="5.51" class="s"><title>sub_4FD910
-125 bytes, not rewritten
+<rect x="521.34" y="118.39" width="6.20" height="5.51" class="m"><title>sub_4FD910
+125 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="521.34" y="124.51" width="6.20" height="5.47" class="s"><title>sub_4F44C0
 124 bytes, not rewritten
@@ -6505,8 +6505,8 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="521.34" y="142.70" width="6.20" height="5.42" class="s"><title>sub_4F1A30
 123 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="521.34" y="148.72" width="6.20" height="5.37" class="s"><title>sub_4FD4B0
-122 bytes, not rewritten
+<rect x="521.34" y="148.72" width="6.20" height="5.37" class="p"><title>sub_4FD4B0
+122 bytes, non matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="521.34" y="154.69" width="6.20" height="5.32" class="s"><title>sub_4F6BF0
 121 bytes, not rewritten
@@ -6520,8 +6520,8 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="541.09" y="105.82" width="5.85" height="5.54" class="s"><title>sub_4F4A20
 119 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="547.54" y="105.82" width="5.85" height="5.54" class="s"><title>sub_4FDAF0
-119 bytes, not rewritten
+<rect x="547.54" y="105.82" width="5.85" height="5.54" class="m"><title>sub_4FDAF0
+119 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="553.98" y="105.82" width="5.79" height="5.54" class="s"><title>sub_4F9990
 118 bytes, not rewritten
@@ -6547,8 +6547,8 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="528.14" y="130.23" width="5.64" height="5.47" class="s"><title>sub_4F8220
 114 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="528.14" y="136.31" width="5.64" height="5.47" class="s"><title>sub_4FDB70
-114 bytes, not rewritten
+<rect x="528.14" y="136.31" width="5.64" height="5.47" class="m"><title>sub_4FDB70
+114 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="528.14" y="142.38" width="5.64" height="5.47" class="s"><title>sub_4FE7F0
 114 bytes, not rewritten
@@ -6583,11 +6583,11 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="534.38" y="117.62" width="4.89" height="5.76" class="s"><title>sub_4FF1B0
 105 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="534.38" y="123.97" width="4.89" height="5.70" class="s"><title>sub_4FD440
-104 bytes, not rewritten
+<rect x="534.38" y="123.97" width="4.89" height="5.70" class="p"><title>sub_4FD440
+104 bytes, non matching
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="534.38" y="130.27" width="4.89" height="5.64" class="s"><title>sub_4FDA80
-103 bytes, not rewritten
+<rect x="534.38" y="130.27" width="4.89" height="5.64" class="m"><title>sub_4FDA80
+103 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="534.38" y="136.51" width="4.89" height="5.58" class="m"><title>sub_4FD580
 102 bytes, matching
@@ -6598,8 +6598,8 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="534.38" y="148.68" width="4.89" height="5.39" class="s"><title>sub_4F85C0
 99 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="534.38" y="154.67" width="4.89" height="5.33" class="s"><title>sub_4FD990
-98 bytes, not rewritten
+<rect x="534.38" y="154.67" width="4.89" height="5.33" class="m"><title>sub_4FD990
+98 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="539.87" y="117.62" width="5.03" height="5.13" class="s"><title>sub_4F6490
 97 bytes, not rewritten
@@ -6658,11 +6658,11 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="568.42" y="123.35" width="4.90" height="4.54" class="m"><title>sub_4FD6A0
 85 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="573.92" y="123.35" width="4.77" height="4.54" class="s"><title>sub_4FD8B0
-83 bytes, not rewritten
+<rect x="573.92" y="123.35" width="4.77" height="4.54" class="m"><title>sub_4FD8B0
+83 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="545.73" y="128.49" width="4.50" height="4.81" class="s"><title>sub_4FE660
-83 bytes, not rewritten
+<rect x="545.73" y="128.49" width="4.50" height="4.81" class="m"><title>sub_4FE660
+83 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="545.73" y="133.90" width="4.50" height="4.81" class="s"><title>sub_4FEA90
 83 bytes, not rewritten
@@ -6670,11 +6670,11 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="545.73" y="139.30" width="4.50" height="4.81" class="s"><title>sub_4FFCD0
 83 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="545.73" y="144.71" width="4.50" height="4.74" class="s"><title>sub_4FD640
-82 bytes, not rewritten
+<rect x="545.73" y="144.71" width="4.50" height="4.74" class="m"><title>sub_4FD640
+82 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="545.73" y="150.05" width="4.50" height="4.74" class="s"><title>sub_4FD830
-82 bytes, not rewritten
+<rect x="545.73" y="150.05" width="4.50" height="4.74" class="m"><title>sub_4FD830
+82 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="545.73" y="155.39" width="4.50" height="4.61" class="s"><title>sub_4F1AF0
 80 bytes, not rewritten
@@ -6685,14 +6685,14 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="555.77" y="128.49" width="4.21" height="4.72" class="s"><title>sub_4F2860
 77 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="560.59" y="128.49" width="4.21" height="4.72" class="s"><title>sub_4FD190
-77 bytes, not rewritten
+<rect x="560.59" y="128.49" width="4.21" height="4.72" class="m"><title>sub_4FD190
+77 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="565.40" y="128.49" width="4.09" height="4.72" class="s"><title>sub_4F4440
 75 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="570.09" y="128.49" width="4.03" height="4.72" class="s"><title>sub_4FD5F0
-74 bytes, not rewritten
+<rect x="570.09" y="128.49" width="4.03" height="4.72" class="m"><title>sub_4FD5F0
+74 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="574.72" y="128.49" width="3.96" height="4.72" class="s"><title>sub_4FE020
 73 bytes, not rewritten
@@ -6745,11 +6745,11 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="555.82" y="156.29" width="3.33" height="3.71" class="s"><title>sub_4F25D0
 51 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="559.75" y="138.18" width="3.50" height="3.54" class="s"><title>sub_4FDA30
-51 bytes, not rewritten
+<rect x="559.75" y="138.18" width="3.50" height="3.54" class="m"><title>sub_4FDA30
+51 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="563.85" y="138.18" width="3.50" height="3.54" class="s"><title>sub_4FDCE0
-51 bytes, not rewritten
+<rect x="563.85" y="138.18" width="3.50" height="3.54" class="m"><title>sub_4FDCE0
+51 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="567.95" y="138.18" width="3.42" height="3.54" class="m"><title>??0StringRef@@QAE@PBD@Z
 50 bytes, matching
@@ -6757,8 +6757,8 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="571.97" y="138.18" width="3.10" height="3.54" class="s"><title>sub_4F27D0
 46 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="575.67" y="138.18" width="3.02" height="3.54" class="s"><title>sub_4FDD20
-45 bytes, not rewritten
+<rect x="575.67" y="138.18" width="3.02" height="3.54" class="m"><title>sub_4FDD20
+45 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="559.75" y="142.32" width="3.15" height="3.22" class="s"><title>sub_4F72D0
 43 bytes, not rewritten
@@ -6766,8 +6766,8 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="559.75" y="146.14" width="3.15" height="3.22" class="s"><title>sub_4F8310
 43 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="559.75" y="149.95" width="3.15" height="3.04" class="s"><title>sub_4FD150
-41 bytes, not rewritten
+<rect x="559.75" y="149.95" width="3.15" height="3.04" class="m"><title>sub_4FD150
+41 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="559.75" y="153.59" width="3.15" height="2.95" class="s"><title>sub_4F17F0
 40 bytes, not rewritten
@@ -6775,23 +6775,23 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="559.75" y="157.14" width="3.15" height="2.86" class="s"><title>sub_4F4490
 39 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="563.50" y="142.32" width="2.61" height="3.34" class="s"><title>sub_4FD3D0
-38 bytes, not rewritten
+<rect x="563.50" y="142.32" width="2.61" height="3.34" class="m"><title>sub_4FD3D0
+38 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="566.70" y="142.32" width="2.61" height="3.34" class="s"><title>sub_4FDBF0
-38 bytes, not rewritten
+<rect x="566.70" y="142.32" width="2.61" height="3.34" class="m"><title>sub_4FDBF0
+38 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="569.91" y="142.32" width="2.52" height="3.34" class="s"><title>sub_4F7300
 37 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="573.04" y="142.32" width="2.52" height="3.34" class="s"><title>sub_4FD390
-37 bytes, not rewritten
+<rect x="573.04" y="142.32" width="2.52" height="3.34" class="m"><title>sub_4FD390
+37 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="576.16" y="142.32" width="2.52" height="3.34" class="s"><title>sub_4FDA00
-37 bytes, not rewritten
+<rect x="576.16" y="142.32" width="2.52" height="3.34" class="m"><title>sub_4FDA00
+37 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="563.50" y="146.26" width="2.60" height="3.14" class="s"><title>sub_4FD800
-36 bytes, not rewritten
+<rect x="563.50" y="146.26" width="2.60" height="3.14" class="m"><title>sub_4FD800
+36 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="563.50" y="150.00" width="2.60" height="3.14" class="s"><title>sub_4FE590
 36 bytes, not rewritten
@@ -6799,14 +6799,14 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="563.50" y="153.74" width="2.60" height="2.93" class="m"><title>sub_4FD2F0
 34 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="563.50" y="157.28" width="2.60" height="2.73" class="s"><title>sub_4FD420
-32 bytes, not rewritten
+<rect x="563.50" y="157.28" width="2.60" height="2.73" class="m"><title>sub_4FD420
+32 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="566.70" y="146.26" width="2.73" height="2.60" class="s"><title>sub_4FDE60
 32 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="570.02" y="146.26" width="2.62" height="2.60" class="s"><title>sub_4FD400
-31 bytes, not rewritten
+<rect x="570.02" y="146.26" width="2.62" height="2.60" class="m"><title>sub_4FD400
+31 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="573.25" y="146.26" width="2.42" height="2.60" class="s"><title>sub_4F7950
 29 bytes, not rewritten
@@ -6829,14 +6829,14 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="569.83" y="149.46" width="2.01" height="2.46" class="s"><title>sub_4F27B0
 24 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="572.44" y="149.46" width="1.79" height="2.46" class="s"><title>sub_4FD1F0
-22 bytes, not rewritten
+<rect x="572.44" y="149.46" width="1.79" height="2.46" class="m"><title>sub_4FD1F0
+22 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="574.83" y="149.46" width="1.68" height="2.46" class="s"><title>sub_4F9A10
 21 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="577.11" y="149.46" width="1.57" height="2.46" class="s"><title>sub_4FD360
-20 bytes, not rewritten
+<rect x="577.11" y="149.46" width="1.57" height="2.46" class="m"><title>sub_4FD360
+20 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="569.83" y="152.52" width="1.70" height="2.29" class="s"><title>sub_4FF6C0
 20 bytes, not rewritten
@@ -6850,14 +6850,14 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="572.13" y="152.52" width="1.92" height="1.77" class="s"><title>sub_4F2840
 18 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="574.65" y="152.52" width="1.78" height="1.77" class="s"><title>sub_4FD210
-17 bytes, not rewritten
+<rect x="574.65" y="152.52" width="1.78" height="1.77" class="m"><title>sub_4FD210
+17 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="577.04" y="152.52" width="1.64" height="1.77" class="s"><title>sub_4F2760
 16 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="572.13" y="154.89" width="1.84" height="1.58" class="s"><title>sub_4FD380
-16 bytes, not rewritten
+<rect x="572.13" y="154.89" width="1.84" height="1.58" class="m"><title>sub_4FD380
+16 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="571.83" y="156.76" width="2.44" height="1.77" class="s"><title>sub_4F2630
 13 bytes, not rewritten
@@ -6865,11 +6865,11 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="571.83" y="158.53" width="2.44" height="1.77" class="s"><title>sub_4F2660
 13 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="574.27" y="154.59" width="2.45" height="1.76" class="s"><title>sub_4FDA70
-13 bytes, not rewritten
+<rect x="574.27" y="154.59" width="2.45" height="1.76" class="m"><title>sub_4FDA70
+13 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="576.72" y="154.59" width="2.26" height="1.76" class="s"><title>sub_4FD3C0
-12 bytes, not rewritten
+<rect x="576.72" y="154.59" width="2.26" height="1.76" class="m"><title>sub_4FD3C0
+12 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="574.27" y="156.35" width="1.43" height="2.33" class="s"><title>sub_4F47C0
 10 bytes, not rewritten
@@ -6892,11 +6892,11 @@ src/unsorted/block_4F.cpp</title></rect>
 <rect x="577.41" y="157.77" width="1.57" height="1.06" class="s"><title>sub_4F7325
 5 bytes, not rewritten
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="577.41" y="158.83" width="0.90" height="1.48" class="s"><title>sub_4FD1E0
-4 bytes, not rewritten
+<rect x="577.41" y="158.83" width="0.90" height="1.48" class="m"><title>sub_4FD1E0
+4 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
-<rect x="578.31" y="158.83" width="0.67" height="1.48" class="s"><title>sub_4FD180
-3 bytes, not rewritten
+<rect x="578.31" y="158.83" width="0.67" height="1.48" class="m"><title>sub_4FD180
+3 bytes, matching
 src/unsorted/block_4F.cpp</title></rect>
 <rect x="463.91" y="162.60" width="30.37" height="19.43" class="s"><title>sub_5150B0
 1866 bytes, not rewritten
@@ -7204,8 +7204,8 @@ src/unsorted/block_51.cpp</title></rect>
 <rect x="526.36" y="234.51" width="7.09" height="7.57" class="s"><title>sub_51DDE0
 189 bytes, not rewritten
 src/unsorted/block_51.cpp</title></rect>
-<rect x="534.05" y="234.51" width="7.05" height="7.57" class="s"><title>sub_51F980
-188 bytes, not rewritten
+<rect x="534.05" y="234.51" width="7.05" height="7.57" class="m"><title>sub_51F980
+188 bytes, matching
 src/unsorted/block_51.cpp</title></rect>
 <rect x="541.71" y="234.51" width="7.01" height="7.57" class="s"><title>sub_51B580
 187 bytes, not rewritten
@@ -7384,8 +7384,8 @@ src/unsorted/block_51.cpp</title></rect>
 <rect x="532.36" y="301.29" width="5.82" height="5.31" class="s"><title>sub_51EF20
 114 bytes, not rewritten
 src/unsorted/block_51.cpp</title></rect>
-<rect x="538.78" y="263.42" width="5.53" height="5.52" class="s"><title>sub_51E490
-113 bytes, not rewritten
+<rect x="538.78" y="263.42" width="5.53" height="5.52" class="m"><title>sub_51E490
+113 bytes, matching
 src/unsorted/block_51.cpp</title></rect>
 <rect x="544.92" y="263.42" width="5.48" height="5.52" class="s"><title>sub_510230
 112 bytes, not rewritten
@@ -7474,14 +7474,14 @@ src/unsorted/block_51.cpp</title></rect>
 <rect x="565.22" y="274.78" width="4.11" height="4.63" class="s"><title>sub_51CDE0
 74 bytes, not rewritten
 src/unsorted/block_51.cpp</title></rect>
-<rect x="569.93" y="274.78" width="4.11" height="4.63" class="s"><title>sub_51FA40
-74 bytes, not rewritten
+<rect x="569.93" y="274.78" width="4.11" height="4.63" class="m"><title>sub_51FA40
+74 bytes, matching
 src/unsorted/block_51.cpp</title></rect>
 <rect x="574.64" y="274.78" width="4.04" height="4.63" class="s"><title>sub_516600
 73 bytes, not rewritten
 src/unsorted/block_51.cpp</title></rect>
-<rect x="550.08" y="280.01" width="4.23" height="4.22" class="s"><title>sub_513720
-70 bytes, not rewritten
+<rect x="550.08" y="280.01" width="4.23" height="4.22" class="m"><title>sub_513720
+70 bytes, matching
 src/unsorted/block_51.cpp</title></rect>
 <rect x="550.08" y="284.82" width="4.23" height="4.22" class="s"><title>sub_519340
 70 bytes, not rewritten
@@ -7624,8 +7624,8 @@ src/unsorted/block_51.cpp</title></rect>
 <rect x="569.09" y="295.25" width="2.04" height="2.04" class="s"><title>sub_515890
 21 bytes, not rewritten
 src/unsorted/block_51.cpp</title></rect>
-<rect x="571.73" y="295.25" width="2.04" height="2.04" class="s"><title>AgHeapAllocator::allocAligned
-21 bytes, not rewritten
+<rect x="571.73" y="295.25" width="2.04" height="2.04" class="m"><title>AgHeapAllocator::allocAligned
+21 bytes, matching
 src/unsorted/block_51.cpp</title></rect>
 <rect x="574.38" y="295.25" width="1.92" height="2.04" class="s"><title>sub_516670
 20 bytes, not rewritten
@@ -7639,11 +7639,11 @@ src/unsorted/block_51.cpp</title></rect>
 <rect x="569.09" y="300.28" width="2.05" height="1.79" class="s"><title>sub_51F500
 19 bytes, not rewritten
 src/unsorted/block_51.cpp</title></rect>
-<rect x="569.09" y="302.67" width="2.05" height="1.66" class="s"><title>AgHeapAllocator::alloc
-18 bytes, not rewritten
+<rect x="569.09" y="302.67" width="2.05" height="1.66" class="m"><title>AgHeapAllocator::alloc
+18 bytes, matching
 src/unsorted/block_51.cpp</title></rect>
-<rect x="569.09" y="304.93" width="2.05" height="1.66" class="s"><title>AgHeapAllocator::free
-18 bytes, not rewritten
+<rect x="569.09" y="304.93" width="2.05" height="1.66" class="m"><title>AgHeapAllocator::free
+18 bytes, matching
 src/unsorted/block_51.cpp</title></rect>
 <rect x="571.44" y="297.59" width="1.96" height="2.38" class="s"><title>sub_519390
 14 bytes, not rewritten
@@ -11407,8 +11407,8 @@ src/unsorted/block_52.cpp</title></rect>
 <rect x="715.90" y="42.69" width="10.88" height="11.45" class="s"><title>sub_528C50
 418 bytes, not rewritten
 src/unsorted/block_52.cpp</title></rect>
-<rect x="715.90" y="54.74" width="10.88" height="9.37" class="s"><title>sub_525BE0
-346 bytes, not rewritten
+<rect x="715.90" y="54.74" width="10.88" height="9.37" class="m"><title>sub_525BE0
+346 bytes, matching
 src/unsorted/block_52.cpp</title></rect>
 <rect x="715.90" y="64.71" width="10.88" height="9.26" class="s"><title>sub_5281D0
 342 bytes, not rewritten
@@ -11614,8 +11614,8 @@ src/unsorted/block_52.cpp</title></rect>
 <rect x="752.78" y="112.20" width="7.07" height="6.30" class="s"><title>sub_52DE90
 160 bytes, not rewritten
 src/unsorted/block_52.cpp</title></rect>
-<rect x="752.78" y="119.11" width="7.07" height="6.09" class="s"><title>sub_5258F0
-155 bytes, not rewritten
+<rect x="752.78" y="119.11" width="7.07" height="6.09" class="m"><title>sub_5258F0
+155 bytes, matching
 src/unsorted/block_52.cpp</title></rect>
 <rect x="752.78" y="125.79" width="7.07" height="6.09" class="s"><title>sub_526780
 155 bytes, not rewritten
@@ -11668,8 +11668,8 @@ src/unsorted/block_52.cpp</title></rect>
 <rect x="773.96" y="84.38" width="6.46" height="5.50" class="s"><title>sub_52BD30
 130 bytes, not rewritten
 src/unsorted/block_52.cpp</title></rect>
-<rect x="781.02" y="84.38" width="6.40" height="5.50" class="s"><title>sub_525A40
-129 bytes, not rewritten
+<rect x="781.02" y="84.38" width="6.40" height="5.50" class="m"><title>sub_525A40
+129 bytes, matching
 src/unsorted/block_52.cpp</title></rect>
 <rect x="788.03" y="84.38" width="6.35" height="5.50" class="s"><title>sub_5207B0
 128 bytes, not rewritten
@@ -11794,8 +11794,8 @@ src/unsorted/block_52.cpp</title></rect>
 <rect x="783.52" y="123.46" width="4.79" height="4.00" class="s"><title>sub_52D270
 75 bytes, not rewritten
 src/unsorted/block_52.cpp</title></rect>
-<rect x="783.52" y="128.07" width="4.79" height="3.82" class="s"><title>sub_525B90
-72 bytes, not rewritten
+<rect x="783.52" y="128.07" width="4.79" height="3.82" class="m"><title>sub_525B90
+72 bytes, matching
 src/unsorted/block_52.cpp</title></rect>
 <rect x="788.91" y="108.06" width="4.42" height="3.89" class="s"><title>sub_527410
 68 bytes, not rewritten
@@ -11830,23 +11830,23 @@ src/unsorted/block_52.cpp</title></rect>
 <rect x="788.91" y="127.37" width="3.54" height="4.52" class="s"><title>sub_52E2D0
 64 bytes, not rewritten
 src/unsorted/block_52.cpp</title></rect>
-<rect x="793.05" y="116.97" width="3.73" height="3.45" class="s"><title>sub_525990
-53 bytes, not rewritten
+<rect x="793.05" y="116.97" width="3.73" height="3.45" class="m"><title>sub_525990
+53 bytes, matching
 src/unsorted/block_52.cpp</title></rect>
-<rect x="793.05" y="121.02" width="3.73" height="3.45" class="s"><title>sub_5259D0
-53 bytes, not rewritten
+<rect x="793.05" y="121.02" width="3.73" height="3.45" class="m"><title>sub_5259D0
+53 bytes, matching
 src/unsorted/block_52.cpp</title></rect>
 <rect x="793.05" y="125.07" width="3.73" height="3.37" class="s"><title>sub_5292B0
 52 bytes, not rewritten
 src/unsorted/block_52.cpp</title></rect>
-<rect x="793.05" y="129.04" width="3.73" height="2.84" class="s"><title>sub_525B00
-45 bytes, not rewritten
+<rect x="793.05" y="129.04" width="3.73" height="2.84" class="m"><title>sub_525B00
+45 bytes, matching
 src/unsorted/block_52.cpp</title></rect>
 <rect x="797.38" y="116.97" width="3.37" height="2.73" class="m"><title>std::E::EV?$allocator::?$vector::_Tidy
 40 bytes, matching
 src/unsorted/block_52.cpp</title></rect>
-<rect x="801.36" y="116.97" width="3.07" height="2.73" class="s"><title>sub_525A10
-37 bytes, not rewritten
+<rect x="801.36" y="116.97" width="3.07" height="2.73" class="m"><title>sub_525A10
+37 bytes, matching
 src/unsorted/block_52.cpp</title></rect>
 <rect x="805.03" y="116.97" width="2.98" height="2.73" class="s"><title>sub_520750
 36 bytes, not rewritten
@@ -11854,8 +11854,8 @@ src/unsorted/block_52.cpp</title></rect>
 <rect x="797.38" y="120.30" width="3.14" height="2.58" class="s"><title>sub_520780
 36 bytes, not rewritten
 src/unsorted/block_52.cpp</title></rect>
-<rect x="801.12" y="120.30" width="3.14" height="2.58" class="s"><title>sub_525AD0
-36 bytes, not rewritten
+<rect x="801.12" y="120.30" width="3.14" height="2.58" class="m"><title>sub_525AD0
+36 bytes, matching
 src/unsorted/block_52.cpp</title></rect>
 <rect x="804.86" y="120.30" width="3.14" height="2.58" class="s"><title>sub_526F80
 36 bytes, not rewritten
@@ -14968,8 +14968,8 @@ src/unsorted/block_54.cpp</title></rect>
 <rect x="844.90" y="193.94" width="4.78" height="5.40" class="s"><title>sub_54D970
 99 bytes, not rewritten
 src/unsorted/block_54.cpp</title></rect>
-<rect x="844.90" y="199.94" width="4.78" height="5.34" class="s"><title>VTextureObject::?$AgReference::assign
-98 bytes, not rewritten
+<rect x="844.90" y="199.94" width="4.78" height="5.34" class="m"><title>VTextureObject::?$AgReference::assign
+98 bytes, matching
 src/unsorted/block_54.cpp</title></rect>
 <rect x="850.28" y="181.46" width="4.58" height="5.51" class="s"><title>sub_540CF0
 97 bytes, not rewritten
@@ -15004,8 +15004,8 @@ src/unsorted/block_54.cpp</title></rect>
 <rect x="855.46" y="197.63" width="4.97" height="3.55" class="s"><title>sub_5404D0
 71 bytes, not rewritten
 src/unsorted/block_54.cpp</title></rect>
-<rect x="855.46" y="201.78" width="4.97" height="3.49" class="s"><title>sub_54DF30
-70 bytes, not rewritten
+<rect x="855.46" y="201.78" width="4.97" height="3.49" class="m"><title>sub_54DF30
+70 bytes, matching
 src/unsorted/block_54.cpp</title></rect>
 <rect x="861.03" y="187.57" width="4.05" height="4.24" class="s"><title>sub_540060
 69 bytes, not rewritten
@@ -15055,8 +15055,8 @@ src/unsorted/block_54.cpp</title></rect>
 <rect x="868.98" y="203.41" width="2.31" height="1.87" class="s"><title>sub_540B20
 22 bytes, not rewritten
 src/unsorted/block_54.cpp</title></rect>
-<rect x="871.88" y="203.41" width="1.51" height="1.87" class="s"><title>sub_540F20
-16 bytes, not rewritten
+<rect x="871.88" y="203.41" width="1.51" height="1.87" class="m"><title>sub_540F20
+16 bytes, matching
 src/unsorted/block_54.cpp</title></rect>
 <rect x="873.70" y="203.11" width="0.92" height="2.47" class="s"><title>sub_540BB0
 7 bytes, not rewritten
@@ -17512,8 +17512,8 @@ src/engine/render/AgResourceShaderProgramOpenGL.cpp</title></rect>
 <rect x="884.79" y="444.43" width="3.45" height="6.64" class="s"><title>AgResourceShaderProgramOpenGL::fn_54E700
 93 bytes, not rewritten
 src/engine/render/AgResourceShaderProgramOpenGL.cpp</title></rect>
-<rect x="888.83" y="444.43" width="3.14" height="2.18" class="s"><title>AgResourceShaderProgramOpenGL::vfn_0
-33 bytes, not rewritten
+<rect x="888.83" y="444.43" width="3.14" height="2.18" class="m"><title>AgResourceShaderProgramOpenGL::vfn_0
+33 bytes, matching
 src/engine/render/AgResourceShaderProgramOpenGL.cpp</title></rect>
 <rect x="888.83" y="447.21" width="3.14" height="1.92" class="s"><title>AgResourceShaderProgramOpenGL::vfn_5
 30 bytes, not rewritten
@@ -18496,14 +18496,14 @@ src/engine/io/AgVirtualMount.cpp</title></rect>
 <rect x="1183.50" y="283.43" width="3.20" height="6.64" class="s"><title>AgVirtualMount::vfn_10
 89 bytes, not rewritten
 src/engine/io/AgVirtualMount.cpp</title></rect>
-<rect x="1178.38" y="290.68" width="3.32" height="6.02" class="s"><title>AgVirtualMount::fn_560840
-84 bytes, not rewritten
+<rect x="1178.38" y="290.68" width="3.32" height="6.02" class="m"><title>AgVirtualMount::fn_560840
+84 bytes, matching
 src/engine/io/AgVirtualMount.cpp</title></rect>
 <rect x="1182.30" y="290.68" width="4.40" height="3.48" class="s"><title>AgVirtualMount::vfn_13
 66 bytes, not rewritten
 src/engine/io/AgVirtualMount.cpp</title></rect>
-<rect x="1182.30" y="294.76" width="3.42" height="1.94" class="s"><title>AgVirtualMount::vfn_0
-33 bytes, not rewritten
+<rect x="1182.30" y="294.76" width="3.42" height="1.94" class="m"><title>AgVirtualMount::vfn_0
+33 bytes, matching
 src/engine/io/AgVirtualMount.cpp</title></rect>
 <rect x="1186.03" y="294.46" width="0.97" height="2.54" class="s"><title>AgVirtualMount::vfn_11
 8 bytes, not rewritten
@@ -19687,8 +19687,8 @@ src/engine/audio/AgAudioManager.cpp</title></rect>
 <rect x="956.24" y="428.36" width="1.57" height="0.76" class="m"><title>AgAudioManager::getListenerPosition
 4 bytes, matching
 src/engine/audio/AgAudioManager.cpp</title></rect>
-<rect x="931.14" y="431.43" width="14.34" height="11.75" class="s"><title>AgPCInputManager::fn_525010
-616 bytes, not rewritten
+<rect x="931.14" y="431.43" width="14.34" height="11.75" class="m"><title>AgPCInputManager::fn_525010
+616 bytes, matching
 src/engine/input/AgPCInputManager.cpp</title></rect>
 <rect x="946.08" y="431.43" width="11.43" height="11.75" class="s"><title>AgPCInputManager::fn_524DC0
 496 bytes, not rewritten
@@ -19708,32 +19708,32 @@ src/engine/input/AgPCInputManager.cpp</title></rect>
 <rect x="946.91" y="443.78" width="5.11" height="6.06" class="s"><title>AgPCInputManager::fn_524C70
 127 bytes, not rewritten
 src/engine/input/AgPCInputManager.cpp</title></rect>
-<rect x="952.62" y="443.78" width="4.89" height="6.06" class="s"><title>AgPCInputManager::fn_524A10
-122 bytes, not rewritten
+<rect x="952.62" y="443.78" width="4.89" height="6.06" class="m"><title>AgPCInputManager::fn_524A10
+122 bytes, matching
 src/engine/input/AgPCInputManager.cpp</title></rect>
-<rect x="939.85" y="450.44" width="4.89" height="5.95" class="s"><title>AgPCInputManager::fn_524990
-120 bytes, not rewritten
+<rect x="939.85" y="450.44" width="4.89" height="5.95" class="m"><title>AgPCInputManager::fn_524990
+120 bytes, matching
 src/engine/input/AgPCInputManager.cpp</title></rect>
-<rect x="939.85" y="456.99" width="4.89" height="4.48" class="s"><title>AgPCInputManager::fn_524FB0
-93 bytes, not rewritten
+<rect x="939.85" y="456.99" width="4.89" height="4.48" class="m"><title>AgPCInputManager::fn_524FB0
+93 bytes, matching
 src/engine/input/AgPCInputManager.cpp</title></rect>
-<rect x="945.33" y="450.44" width="3.98" height="5.22" class="s"><title>AgPCInputManager::fn_524AF0
-89 bytes, not rewritten
+<rect x="945.33" y="450.44" width="3.98" height="5.22" class="m"><title>AgPCInputManager::fn_524AF0
+89 bytes, matching
 src/engine/input/AgPCInputManager.cpp</title></rect>
-<rect x="945.33" y="456.26" width="3.98" height="5.22" class="s"><title>AgPCInputManager::fn_524BF0
-89 bytes, not rewritten
+<rect x="945.33" y="456.26" width="3.98" height="5.22" class="m"><title>AgPCInputManager::fn_524BF0
+89 bytes, matching
 src/engine/input/AgPCInputManager.cpp</title></rect>
-<rect x="949.92" y="450.44" width="3.50" height="5.77" class="s"><title>AgPCInputManager::fn_524A90
-87 bytes, not rewritten
+<rect x="949.92" y="450.44" width="3.50" height="5.77" class="m"><title>AgPCInputManager::fn_524A90
+87 bytes, matching
 src/engine/input/AgPCInputManager.cpp</title></rect>
-<rect x="954.01" y="450.44" width="3.50" height="5.77" class="s"><title>AgPCInputManager::fn_524B90
-87 bytes, not rewritten
+<rect x="954.01" y="450.44" width="3.50" height="5.77" class="m"><title>AgPCInputManager::fn_524B90
+87 bytes, matching
 src/engine/input/AgPCInputManager.cpp</title></rect>
 <rect x="949.92" y="456.80" width="3.78" height="4.67" class="s"><title>AgPCInputManager::vfn_5
 77 bytes, not rewritten
 src/engine/input/AgPCInputManager.cpp</title></rect>
-<rect x="954.30" y="456.80" width="3.21" height="3.88" class="s"><title>AgPCInputManager::fn_524B50
-57 bytes, not rewritten
+<rect x="954.30" y="456.80" width="3.21" height="3.88" class="m"><title>AgPCInputManager::fn_524B50
+57 bytes, matching
 src/engine/input/AgPCInputManager.cpp</title></rect>
 <rect x="954.00" y="460.99" width="1.91" height="0.79" class="s"><title>AgPCInputManager::vfn_2
 5 bytes, not rewritten
@@ -19831,8 +19831,8 @@ src/engine/online/AgSession.cpp</title></rect>
 <rect x="947.40" y="520.57" width="7.56" height="4.24" class="s"><title>AgSession::vfn_6
 132 bytes, not rewritten
 src/engine/online/AgSession.cpp</title></rect>
-<rect x="955.56" y="515.66" width="1.95" height="3.27" class="s"><title>AgSession::vfn_0
-33 bytes, not rewritten
+<rect x="955.56" y="515.66" width="1.95" height="3.27" class="m"><title>AgSession::vfn_0
+33 bytes, matching
 src/engine/online/AgSession.cpp</title></rect>
 <rect x="955.56" y="519.53" width="1.95" height="1.87" class="s"><title>AgSession::fn_5C5460
 21 bytes, not rewritten
@@ -21067,8 +21067,8 @@ src/engine/input/AgSDLGamepadController.cpp</title></rect>
 <rect x="1005.80" y="398.55" width="2.65" height="5.68" class="s"><title>AgSDLGamepadController::vfn_2
 71 bytes, not rewritten
 src/engine/input/AgSDLGamepadController.cpp</title></rect>
-<rect x="1005.80" y="404.83" width="2.65" height="2.32" class="s"><title>AgSDLGamepadController::vfn_0
-33 bytes, not rewritten
+<rect x="1005.80" y="404.83" width="2.65" height="2.32" class="m"><title>AgSDLGamepadController::vfn_0
+33 bytes, matching
 src/engine/input/AgSDLGamepadController.cpp</title></rect>
 <rect x="1011.05" y="385.38" width="20.40" height="14.82" class="m"><title>vp8_build_intra_predictors_mbuv_s_c
 1127 bytes, matching
@@ -21145,8 +21145,8 @@ src/engine/io/AgDelayedSaveDataMount.cpp</title></rect>
 <rect x="1092.36" y="398.54" width="6.90" height="5.40" class="s"><title>AgDelayedSaveDataMount::vfn_5
 157 bytes, not rewritten
 src/engine/io/AgDelayedSaveDataMount.cpp</title></rect>
-<rect x="1092.36" y="404.54" width="2.34" height="2.61" class="s"><title>AgDelayedSaveDataMount::vfn_0
-33 bytes, not rewritten
+<rect x="1092.36" y="404.54" width="2.34" height="2.61" class="m"><title>AgDelayedSaveDataMount::vfn_0
+33 bytes, matching
 src/engine/io/AgDelayedSaveDataMount.cpp</title></rect>
 <rect x="1095.00" y="404.24" width="1.87" height="3.21" class="s"><title>AgDelayedSaveDataMount::vfn_2
 21 bytes, not rewritten
@@ -21460,8 +21460,8 @@ src/engine/render/AgResourceShaderProgramD3D.cpp</title></rect>
 <rect x="1003.79" y="532.48" width="3.46" height="6.31" class="s"><title>AgResourceShaderProgramD3D::fn_550660
 99 bytes, not rewritten
 src/engine/render/AgResourceShaderProgramD3D.cpp</title></rect>
-<rect x="1003.79" y="539.39" width="1.93" height="3.10" class="s"><title>AgResourceShaderProgramD3D::vfn_0
-33 bytes, not rewritten
+<rect x="1003.79" y="539.39" width="1.93" height="3.10" class="m"><title>AgResourceShaderProgramD3D::vfn_0
+33 bytes, matching
 src/engine/render/AgResourceShaderProgramD3D.cpp</title></rect>
 <rect x="1006.02" y="539.09" width="1.53" height="3.70" class="s"><title>AgResourceShaderProgramD3D::vfn_9
 20 bytes, not rewritten
@@ -22492,8 +22492,8 @@ src/lib/crt/gs_report.cpp</title></rect>
 <rect x="1171.69" y="456.07" width="2.84" height="1.05" class="m"><title>__report_rangecheckfailure
 12 bytes, matching
 src/lib/crt/gs_report.cpp</title></rect>
-<rect x="1176.83" y="445.34" width="5.04" height="3.95" class="s"><title>shared_51FC10
-104 bytes, not rewritten
+<rect x="1176.83" y="445.34" width="5.04" height="3.95" class="m"><title>shared_51FC10
+104 bytes, matching
 src/unsorted/shared_stubs.cpp</title></rect>
 <rect x="1182.47" y="445.34" width="4.23" height="3.95" class="s"><title>shared_5110F0
 89 bytes, not rewritten
@@ -24478,8 +24478,8 @@ src/lib/crt/a_map.cpp</title></rect>
 <rect x="1134.81" y="582.54" width="1.88" height="5.46" class="m"><title>_freea
 30 bytes, matching
 src/lib/crt/a_map.cpp</title></rect>
-<rect x="1136.99" y="530.89" width="5.22" height="5.11" class="s"><title>AgJsonNode::vfn_0
-97 bytes, not rewritten
+<rect x="1136.99" y="530.89" width="5.22" height="5.11" class="m"><title>AgJsonNode::vfn_0
+97 bytes, matching
 src/engine/json/AgJsonNode.cpp</title></rect>
 <rect x="1142.81" y="530.89" width="2.94" height="5.11" class="s"><title>Concurrency::details::CacheLocalScheduleGroup::vfn_8
 59 bytes, not rewritten
@@ -24784,8 +24784,8 @@ src/lib/crt/future.cpp</title></rect>
 <rect x="1157.10" y="577.40" width="3.40" height="3.09" class="s"><title>std::ios_base::vfn_0
 43 bytes, not rewritten
 src/lib/std/std_ios_base.cpp</title></rect>
-<rect x="1157.10" y="581.09" width="2.63" height="3.00" class="s"><title>AgThreadPool::Job::vfn_0
-34 bytes, not rewritten
+<rect x="1157.10" y="581.09" width="2.63" height="3.00" class="m"><title>AgThreadPool::Job::vfn_0
+34 bytes, matching
 src/engine/thread/AgThreadPool_Job.cpp</title></rect>
 <rect x="1160.04" y="580.79" width="0.76" height="3.60" class="s"><title>AgThreadPool::Job::vfn_3
 8 bytes, not rewritten
@@ -24856,8 +24856,8 @@ src/lib/std/std__Ref_count___ExceptionPtr.cpp</title></rect>
 <rect x="1184.68" y="563.08" width="3.32" height="1.24" class="s"><title>std::_Ref_count&lt;__ExceptionPtr&gt;::vfn_1
 12 bytes, not rewritten
 src/lib/std/std__Ref_count___ExceptionPtr.cpp</title></rect>
-<rect x="1161.10" y="564.62" width="2.85" height="2.78" class="s"><title>AgIThreadHost::vfn_0
-34 bytes, not rewritten
+<rect x="1161.10" y="564.62" width="2.85" height="2.78" class="m"><title>AgIThreadHost::vfn_0
+34 bytes, matching
 src/engine/thread/AgIThreadHost.cpp</title></rect>
 <rect x="1161.10" y="568.00" width="2.85" height="2.78" class="m"><title>AgSingleton&lt;AgInputManager&gt;::vfn_0
 34 bytes, matching
@@ -24889,8 +24889,8 @@ src/engine/core/AgSingleton_AgSystemManager.cpp</title></rect>
 <rect x="1164.54" y="574.77" width="2.85" height="2.78" class="m"><title>AgSingleton&lt;AgPlayerManager&gt;::vfn_0
 34 bytes, matching
 src/engine/core/AgSingleton_AgPlayerManager.cpp</title></rect>
-<rect x="1164.54" y="578.15" width="2.85" height="2.78" class="s"><title>AgRenderList::CaptureCallback::vfn_1
-34 bytes, not rewritten
+<rect x="1164.54" y="578.15" width="2.85" height="2.78" class="m"><title>AgRenderList::CaptureCallback::vfn_1
+34 bytes, matching
 src/engine/render/AgRenderList_CaptureCallback.cpp</title></rect>
 <rect x="1164.54" y="581.53" width="2.85" height="2.78" class="m"><title>AgSingleton&lt;AgExceptionHandler&gt;::vfn_0
 34 bytes, matching
@@ -24919,8 +24919,8 @@ src/engine/core/AgSingleton_AgLeaderboardManager.cpp</title></rect>
 <rect x="1167.99" y="568.06" width="2.86" height="2.77" class="m"><title>AgSingleton&lt;AgResourceManager&gt;::vfn_0
 34 bytes, matching
 src/engine/core/AgSingleton_AgResourceManager.cpp</title></rect>
-<rect x="1167.99" y="571.43" width="2.86" height="2.77" class="s"><title>VAgResource::?$AgFactory::IAllocator::vfn_0
-34 bytes, not rewritten
+<rect x="1167.99" y="571.43" width="2.86" height="2.77" class="m"><title>VAgResource::?$AgFactory::IAllocator::vfn_0
+34 bytes, matching
 src/engine/render/VAgResource_AgFactory_IAllocator.cpp</title></rect>
 <rect x="1167.99" y="574.81" width="2.86" height="2.77" class="s"><title>std::_Facet_base::vfn_0
 34 bytes, not rewritten
@@ -24931,8 +24931,8 @@ src/engine/core/AgSingleton_AgHttp.cpp</title></rect>
 <rect x="1167.99" y="581.55" width="2.86" height="2.77" class="s"><title>AgSingleton&lt;AgMicroTransaction&gt;::vfn_0
 34 bytes, not rewritten
 src/engine/core/AgSingleton_AgMicroTransaction.cpp</title></rect>
-<rect x="1167.99" y="584.93" width="2.86" height="2.77" class="s"><title>AgAudioEffect::vfn_0
-34 bytes, not rewritten
+<rect x="1167.99" y="584.93" width="2.86" height="2.77" class="m"><title>AgAudioEffect::vfn_0
+34 bytes, matching
 src/engine/audio/AgAudioEffect.cpp</title></rect>
 <rect x="1171.45" y="568.06" width="2.83" height="2.80" class="s"><title>AgSingleton&lt;AgAllocators&gt;::vfn_0
 34 bytes, not rewritten
@@ -24961,8 +24961,8 @@ src/engine/online/AgProfileManager.cpp</title></rect>
 <rect x="1171.45" y="581.56" width="2.76" height="2.77" class="m"><title>AgLeaderboard::vfn_0
 33 bytes, matching
 src/engine/online/AgLeaderboard.cpp</title></rect>
-<rect x="1171.45" y="584.93" width="2.76" height="2.77" class="s"><title>AgPlatformResourceShaderProgramBase::vfn_0
-33 bytes, not rewritten
+<rect x="1171.45" y="584.93" width="2.76" height="2.77" class="m"><title>AgPlatformResourceShaderProgramBase::vfn_0
+33 bytes, matching
 src/engine/render/AgPlatformResourceShaderProgramBase.cpp</title></rect>
 <rect x="1174.80" y="571.46" width="2.80" height="2.73" class="s"><title>std::_Node_class::vfn_0
 33 bytes, not rewritten
