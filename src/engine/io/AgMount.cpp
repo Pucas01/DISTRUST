@@ -5,14 +5,16 @@ void AgMount::vfn_14()
 {
 }
 
-// STUB: 0x5029C0 AgMount::vfn_7 (5 bytes)
-void AgMount::vfn_7()
+// FUNCTION: 0x5029C0 AgMount::vfn_7
+int AgMount::vfn_7(int, int, int)
 {
+    return 0;
 }
 
-// STUB: 0x5029D0 AgMount::vfn_8 (5 bytes)
-void AgMount::vfn_8()
+// FUNCTION: 0x5029D0 AgMount::vfn_8
+int AgMount::vfn_8(int)
 {
+    return 0;
 }
 
 // STUB: 0x5029E0 AgMount::fn_5029E0 (221 bytes)

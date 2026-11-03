@@ -86,8 +86,8 @@ void AgSystemManager::fn_520400()
 {
 }
 
-// STUB: 0x520520 AgSystemManager::vfn_7 (3 bytes)
-void AgSystemManager::vfn_7()
+// FUNCTION: 0x520520 AgSystemManager::vfn_7
+void AgSystemManager::vfn_7(int, int, int, int)
 {
 }
 
