@@ -863,11 +863,6 @@ void sub_51B080()
 {
 }
 
-// STUB: 0x51B1D0 sub_51B1D0 (34 bytes)
-void sub_51B1D0()
-{
-}
-
 // STUB: 0x51B200 sub_51B200 (287 bytes)
 void sub_51B200()
 {

@@ -1,6 +1,6 @@
 #include "engine/audio/AgAudioSource.gen.h"
 
-// STUB: 0x51B380 AgAudioSource::vfn_0 (57 bytes)
-void AgAudioSource::vfn_0()
+// STUB: 0x51B1D0 AgAudioSource::~AgAudioSource (34 bytes)
+__declspec(noinline) AgAudioSource::~AgAudioSource()
 {
 }
