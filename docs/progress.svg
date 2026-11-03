@@ -3520,8 +3520,8 @@ src/unsorted/block_4D.cpp</title></rect>
 <rect x="293.17" y="583.47" width="3.84" height="3.23" class="s"><title>sub_4D0670
 51 bytes, not rewritten
 src/unsorted/block_4D.cpp</title></rect>
-<rect x="297.61" y="559.25" width="3.53" height="3.52" class="s"><title>sub_4D6520
-51 bytes, not rewritten
+<rect x="297.61" y="559.25" width="3.53" height="3.52" class="m"><title>sub_4D6520
+51 bytes, matching
 src/unsorted/block_4D.cpp</title></rect>
 <rect x="301.73" y="559.25" width="3.53" height="3.52" class="s"><title>sub_4DA6E0
 51 bytes, not rewritten
@@ -3538,8 +3538,8 @@ src/unsorted/block_4D.cpp</title></rect>
 <rect x="317.76" y="559.25" width="3.28" height="3.52" class="s"><title>sub_4D4BB0
 48 bytes, not rewritten
 src/unsorted/block_4D.cpp</title></rect>
-<rect x="297.61" y="563.38" width="3.01" height="3.74" class="s"><title>sub_4D6560
-47 bytes, not rewritten
+<rect x="297.61" y="563.38" width="3.01" height="3.74" class="m"><title>sub_4D6560
+47 bytes, matching
 src/unsorted/block_4D.cpp</title></rect>
 <rect x="297.61" y="567.72" width="3.01" height="3.37" class="m"><title>sub_4D64F0
 43 bytes, matching
@@ -3703,8 +3703,8 @@ src/unsorted/block_4D.cpp</title></rect>
 <rect x="315.67" y="583.65" width="2.59" height="1.68" class="m"><title>sub_4D06C0
 13 bytes, matching
 src/unsorted/block_4D.cpp</title></rect>
-<rect x="315.67" y="585.32" width="2.59" height="1.68" class="s"><title>sub_4D6590
-13 bytes, not rewritten
+<rect x="315.67" y="585.32" width="2.59" height="1.68" class="m"><title>sub_4D6590
+13 bytes, matching
 src/unsorted/block_4D.cpp</title></rect>
 <rect x="318.25" y="581.71" width="1.54" height="2.81" class="m"><title>sub_4D6A80
 13 bytes, matching
