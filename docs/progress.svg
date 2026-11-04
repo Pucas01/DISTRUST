@@ -1018,129 +1018,129 @@ src/engine/freetype/truetype.cpp</title></rect>
 <rect x="126.87" y="257.95" width="1.68" height="1.58" class="m"><title>Project_y
 8 bytes, matching
 src/engine/freetype/truetype.cpp</title></rect>
-<rect x="13.30" y="261.84" width="39.49" height="45.51" class="s"><title>sub_458CD0
-5582 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+<rect x="13.30" y="261.84" width="39.49" height="45.51" class="p"><title>sub_458CD0
+5582 bytes, non matching
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="13.30" y="307.94" width="39.49" height="35.44" class="s"><title>sub_45C970
 4363 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="13.30" y="343.98" width="39.49" height="30.57" class="s"><title>sub_45DA80
 3774 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="53.39" y="261.84" width="39.17" height="29.08" class="s"><title>sub_45A2A0
 3564 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="93.16" y="261.84" width="35.08" height="29.08" class="s"><title>sub_45F010
 3198 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="53.39" y="291.52" width="27.90" height="28.50" class="s"><title>sub_45B810
 2504 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="81.89" y="291.52" width="27.82" height="28.50" class="s"><title>sub_45FDA0
 2497 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="110.31" y="291.52" width="17.94" height="28.50" class="s"><title>sub_460770
 1629 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="53.39" y="320.62" width="23.11" height="20.03" class="s"><title>sub_45B090
 1477 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="53.39" y="341.25" width="23.11" height="17.78" class="s"><title>sub_45C2F0
 1316 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="53.39" y="359.63" width="23.11" height="14.92" class="s"><title>sub_45EBB0
 1111 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="77.10" y="320.62" width="18.72" height="15.55" class="s"><title>sub_461610
 942 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="96.42" y="320.62" width="15.81" height="15.55" class="s"><title>sub_458910
 800 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="112.83" y="320.62" width="15.42" height="15.55" class="s"><title>sub_461C30
 781 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="77.10" y="336.77" width="13.26" height="13.93" class="s"><title>sub_461220
 608 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="77.10" y="351.30" width="13.26" height="12.02" class="s"><title>sub_460F80
 528 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="77.10" y="363.92" width="13.26" height="10.63" class="s"><title>sub_462070
 470 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="90.96" y="336.77" width="13.18" height="9.73" class="s"><title>sub_45B660
 430 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="104.74" y="336.77" width="13.12" height="9.73" class="s"><title>sub_45EA00
 428 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="118.46" y="336.77" width="9.78" height="9.73" class="s"><title>sub_45C820
 324 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="90.96" y="347.10" width="9.09" height="9.00" class="s"><title>sub_4587F0
 281 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="90.96" y="356.70" width="9.09" height="8.86" class="s"><title>sub_461B10
 277 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="90.96" y="366.17" width="9.09" height="8.39" class="s"><title>sub_45FC90
 263 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="100.65" y="347.10" width="7.38" height="9.40" class="s"><title>sub_4619C0
 241 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="100.65" y="357.10" width="7.38" height="9.07" class="s"><title>sub_461480
 233 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="100.65" y="366.77" width="7.38" height="7.78" class="s"><title>sub_45C220
 202 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="108.63" y="347.10" width="6.35" height="8.02" class="s"><title>sub_45E940
 181 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="115.59" y="347.10" width="6.09" height="8.02" class="s"><title>sub_460ED0
 174 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="122.27" y="347.10" width="5.97" height="8.02" class="s"><title>sub_458740
 171 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="108.63" y="355.72" width="6.90" height="6.16" class="s"><title>sub_4586A0
 153 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="108.63" y="362.48" width="6.90" height="5.80" class="s"><title>sub_461570
 145 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="108.63" y="368.88" width="6.90" height="5.67" class="s"><title>sub_461190
 142 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="116.13" y="355.72" width="6.57" height="5.91" class="s"><title>sub_460E40
 141 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="123.30" y="355.72" width="4.94" height="5.91" class="s"><title>sub_460DD0
 109 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="116.13" y="362.23" width="6.03" height="4.79" class="s"><title>sub_458C30
 108 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="122.76" y="362.23" width="5.48" height="4.79" class="s"><title>sub_462000
 99 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="116.13" y="367.62" width="3.27" height="6.93" class="s"><title>sub_461F40
 88 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="120.00" y="367.62" width="5.56" height="3.86" class="s"><title>sub_461FA0
 83 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
-<rect x="120.00" y="372.09" width="5.56" height="2.47" class="s"><title>sub_45C1E0
-57 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
-<rect x="126.16" y="367.62" width="2.08" height="3.84" class="s"><title>sub_461AC0
-36 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
-<rect x="126.16" y="372.07" width="2.08" height="2.49" class="s"><title>sub_461AF0
-25 bytes, not rewritten
-src/unsorted/45/tu_4586A0.cpp</title></rect>
+src/game/screen/page_menu.cpp</title></rect>
+<rect x="120.00" y="372.09" width="5.56" height="2.47" class="m"><title>submitSavedWords
+57 bytes, matching
+src/game/screen/page_menu.cpp</title></rect>
+<rect x="126.16" y="367.62" width="2.08" height="3.84" class="m"><title>refreshApplyFlag
+36 bytes, matching
+src/game/screen/page_menu.cpp</title></rect>
+<rect x="126.16" y="372.07" width="2.08" height="2.49" class="m"><title>lookupSlotByte
+25 bytes, matching
+src/game/screen/page_menu.cpp</title></rect>
 <rect x="13.30" y="377.15" width="28.35" height="55.65" class="m"><title>cf2_interpT2CharString
 4920 bytes, matching
 src/engine/freetype/cff.cpp</title></rect>
@@ -3100,99 +3100,99 @@ src/unsorted/44/tu_44B530.cpp</title></rect>
 <rect x="226.22" y="582.00" width="2.00" height="3.77" class="s"><title>sub_451620
 23 bytes, not rewritten
 src/unsorted/44/tu_44B530.cpp</title></rect>
-<rect x="224.22" y="585.77" width="4.00" height="1.23" class="s"><title>sub_44BDD0
-15 bytes, not rewritten
+<rect x="224.22" y="585.77" width="4.00" height="1.23" class="m"><title>getTable6954DC
+15 bytes, matching
 src/unsorted/44/tu_44B530.cpp</title></rect>
 <rect x="230.52" y="13.30" width="50.95" height="39.00" class="s"><title>sub_4534F0
 6231 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="282.07" y="13.30" width="27.44" height="39.00" class="s"><title>sub_456140
 3389 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="230.52" y="52.90" width="23.17" height="29.38" class="s"><title>sub_452070
 2175 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="230.52" y="82.88" width="23.17" height="25.85" class="s"><title>sub_4559C0
 1919 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="254.29" y="52.90" width="20.60" height="18.58" class="s"><title>sub_457320
 1241 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="275.49" y="52.90" width="17.74" height="18.58" class="s"><title>sub_4550C0
 1074 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="293.83" y="52.90" width="15.68" height="18.58" class="s"><title>sub_455500
 953 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="254.29" y="72.08" width="14.04" height="18.89" class="s"><title>sub_454D50
 871 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="254.29" y="91.58" width="14.04" height="17.15" class="s"><title>sub_451CF0
 793 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="268.93" y="72.08" width="13.52" height="17.69" class="s"><title>sub_452B90
 788 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="268.93" y="90.37" width="13.52" height="10.24" class="s"><title>sub_452EB0
 467 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="268.93" y="101.21" width="13.52" height="7.52" class="s"><title>sub_452A30
 350 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="283.05" y="72.08" width="9.54" height="10.51" class="s"><title>sub_453190
 344 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="293.19" y="72.08" width="8.71" height="10.51" class="s"><title>sub_4528F0
 316 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="302.50" y="72.08" width="7.00" height="10.51" class="s"><title>sub_456EC0
 258 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="283.05" y="83.20" width="8.67" height="8.38" class="s"><title>sub_4532F0
 254 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="283.05" y="92.18" width="8.67" height="8.38" class="s"><title>sub_4533F0
 254 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="283.05" y="101.16" width="8.67" height="7.57" class="s"><title>sub_457230
 231 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="292.32" y="83.20" width="9.06" height="7.13" class="s"><title>sub_457080
 228 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="301.97" y="83.20" width="7.53" height="7.13" class="s"><title>sub_451C30
 192 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="292.32" y="90.93" width="8.64" height="6.03" class="s"><title>sub_457170
 187 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="301.56" y="90.93" width="7.95" height="6.03" class="s"><title>sub_456FD0
 173 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="292.32" y="97.56" width="7.98" height="5.67" class="s"><title>sub_4558E0
 164 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="292.32" y="103.83" width="7.98" height="4.90" class="s"><title>sub_453100
 144 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="300.89" y="97.56" width="5.06" height="6.69" class="s"><title>sub_457800
 126 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="306.56" y="97.56" width="2.95" height="6.69" class="s"><title>sub_453090
 79 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
-<rect x="300.89" y="104.85" width="3.72" height="3.88" class="s"><title>sub_452010
-59 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
-<rect x="305.21" y="104.85" width="2.84" height="1.88" class="s"><title>sub_4558C0
-26 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
-<rect x="305.21" y="107.33" width="2.84" height="1.40" class="s"><title>sub_452050
-21 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
-<rect x="308.35" y="104.55" width="1.46" height="4.48" class="s"><title>sub_4530E0
-20 bytes, not rewritten
-src/unsorted/45/tu_451C30.cpp</title></rect>
+src/game/mode/state_accessors.cpp</title></rect>
+<rect x="300.89" y="104.85" width="3.72" height="3.88" class="m"><title>releaseStateHandle
+59 bytes, matching
+src/game/mode/state_accessors.cpp</title></rect>
+<rect x="305.21" y="104.85" width="2.84" height="1.88" class="m"><title>resetStateEntry
+26 bytes, matching
+src/game/mode/state_accessors.cpp</title></rect>
+<rect x="305.21" y="107.33" width="2.84" height="1.40" class="m"><title>isCounterHigh
+21 bytes, matching
+src/game/mode/state_accessors.cpp</title></rect>
+<rect x="308.35" y="104.55" width="1.46" height="4.48" class="m"><title>getStateInt
+20 bytes, matching
+src/game/mode/state_accessors.cpp</title></rect>
 <rect x="230.52" y="111.33" width="30.70" height="23.02" class="m"><title>af_cjk_metrics_init_blues
 2257 bytes, matching
 src/engine/freetype/autofit.cpp</title></rect>
@@ -4053,124 +4053,124 @@ src/engine/freetype/psaux.cpp</title></rect>
 src/engine/freetype/psaux.cpp</title></rect>
 <rect x="312.11" y="165.51" width="21.23" height="15.43" class="s"><title>sub_47ACA0
 1082 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="333.94" y="165.51" width="20.36" height="15.43" class="s"><title>sub_47B0E0
 1039 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="354.90" y="165.51" width="19.01" height="15.43" class="s"><title>sub_479F10
 972 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="312.11" y="181.54" width="14.37" height="20.28" class="s"><title>sub_47A8D0
 967 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="312.11" y="202.43" width="14.37" height="18.84" class="s"><title>sub_47A4A0
 900 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="312.11" y="221.87" width="14.37" height="16.63" class="s"><title>sub_4791E0
 798 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="327.08" y="181.54" width="16.40" height="12.77" class="s"><title>sub_47B4F0
 703 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="344.08" y="181.54" width="15.80" height="12.77" class="s"><title>sub_47C590
 678 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="360.48" y="181.54" width="13.43" height="12.77" class="s"><title>sub_47BAA0
 580 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="327.08" y="194.92" width="11.66" height="14.59" class="s"><title>loadMapTextures
 576 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="327.08" y="210.11" width="11.66" height="14.41" class="s"><title>sub_47B7B0
 569 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="327.08" y="225.12" width="11.66" height="13.38" class="s"><title>sub_47C370
 530 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="339.34" y="194.92" width="12.03" height="10.05" class="s"><title>sub_47C840
 416 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="351.98" y="194.92" width="11.46" height="10.05" class="s"><title>sub_479630
 397 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="364.03" y="194.92" width="9.88" height="10.05" class="s"><title>sub_47C210
 345 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="339.34" y="205.57" width="8.40" height="11.37" class="s"><title>sub_47CAA0
 333 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="339.34" y="217.54" width="8.40" height="10.22" class="s"><title>sub_479DE0
 301 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="339.34" y="228.35" width="8.40" height="10.15" class="s"><title>sub_479500
 299 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="348.34" y="205.57" width="8.85" height="9.42" class="s"><title>sub_47BF20
 293 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="357.80" y="205.57" width="8.34" height="9.42" class="s"><title>sub_479870
 277 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="366.73" y="205.57" width="7.18" height="9.42" class="s"><title>sub_479CB0
 241 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="348.34" y="215.59" width="7.71" height="8.55" class="s"><title>sub_47BCF0
 235 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="348.34" y="224.74" width="7.71" height="7.07" class="s"><title>sub_47A3D0
 197 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="348.34" y="232.41" width="7.71" height="6.09" class="s"><title>sub_4797C0
 172 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="356.65" y="215.59" width="5.55" height="7.60" class="s"><title>sub_47BDE0
 156 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="362.80" y="215.59" width="5.35" height="7.60" class="s"><title>sub_47BE80
 151 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="368.75" y="215.59" width="5.16" height="7.60" class="s"><title>sub_479BA0
 146 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="356.65" y="223.80" width="5.91" height="5.21" class="s"><title>sub_47BA20
 117 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="356.65" y="229.61" width="5.91" height="4.47" class="s"><title>sub_479C40
 102 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="356.65" y="234.68" width="5.91" height="3.82" class="s"><title>sub_47A310
 89 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="363.16" y="223.80" width="5.14" height="4.19" class="s"><title>sub_47A370
 85 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
-<rect x="368.90" y="223.80" width="5.01" height="4.19" class="s"><title>sub_479180
-83 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
-<rect x="363.16" y="228.58" width="3.18" height="5.73" class="s"><title>sub_47C130
-74 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
-<rect x="363.16" y="234.91" width="3.18" height="3.59" class="s"><title>sub_47A890
-49 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
-<rect x="366.94" y="228.58" width="3.30" height="3.38" class="s"><title>sub_47B9F0
-48 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
-<rect x="370.85" y="228.58" width="3.06" height="3.38" class="s"><title>sub_47A830
-45 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
-<rect x="366.94" y="232.56" width="3.55" height="2.83" class="s"><title>sub_47CE30
-44 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
-<rect x="366.94" y="235.99" width="3.55" height="2.51" class="s"><title>sub_479150
-40 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
-<rect x="371.10" y="232.56" width="2.81" height="2.72" class="s"><title>sub_479DB0
-35 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
-<rect x="371.10" y="235.88" width="2.81" height="2.62" class="s"><title>sub_47A860
-34 bytes, not rewritten
-src/unsorted/47/tu_479150.cpp</title></rect>
+src/game/mode/map_cursor.cpp</title></rect>
+<rect x="368.90" y="223.80" width="5.01" height="4.19" class="m"><title>mapStepBack
+83 bytes, matching
+src/game/mode/map_cursor.cpp</title></rect>
+<rect x="363.16" y="228.58" width="3.18" height="5.73" class="m"><title>mapStepScroll
+74 bytes, matching
+src/game/mode/map_cursor.cpp</title></rect>
+<rect x="363.16" y="234.91" width="3.18" height="3.59" class="m"><title>mapStepUpWrap
+49 bytes, matching
+src/game/mode/map_cursor.cpp</title></rect>
+<rect x="366.94" y="228.58" width="3.30" height="3.38" class="m"><title>mapStepAdvance
+48 bytes, matching
+src/game/mode/map_cursor.cpp</title></rect>
+<rect x="370.85" y="228.58" width="3.06" height="3.38" class="m"><title>mapStepDownOne
+45 bytes, matching
+src/game/mode/map_cursor.cpp</title></rect>
+<rect x="366.94" y="232.56" width="3.55" height="2.83" class="m"><title>openMapMode
+44 bytes, matching
+src/game/mode/map_cursor.cpp</title></rect>
+<rect x="366.94" y="235.99" width="3.55" height="2.51" class="p"><title>mapAdvance
+40 bytes, non matching
+src/game/mode/map_cursor.cpp</title></rect>
+<rect x="371.10" y="232.56" width="2.81" height="2.72" class="m"><title>mapStepDownNine
+35 bytes, matching
+src/game/mode/map_cursor.cpp</title></rect>
+<rect x="371.10" y="235.88" width="2.81" height="2.62" class="m"><title>mapStepUp
+34 bytes, matching
+src/game/mode/map_cursor.cpp</title></rect>
 <rect x="312.11" y="241.10" width="16.14" height="14.95" class="m"><title>psh_hint_table_align_hints
 806 bytes, matching
 src/engine/freetype/pshinter.cpp</title></rect>
@@ -4413,145 +4413,145 @@ src/unsorted/43/tu_4382E0.cpp</title></rect>
 src/unsorted/43/tu_4382E0.cpp</title></rect>
 <rect x="312.11" y="455.68" width="27.27" height="20.65" class="s"><title>sub_4EB6B0
 1836 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="339.98" y="455.68" width="18.84" height="20.65" class="s"><title>sub_4EC660
 1281 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="359.42" y="455.68" width="14.49" height="20.65" class="s"><title>sub_4ECF10
 994 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="312.11" y="476.94" width="12.95" height="17.23" class="s"><title>sub_4EA470
 749 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="312.11" y="494.77" width="12.95" height="13.50" class="s"><title>sub_4EB2F0
 592 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="312.11" y="508.87" width="12.95" height="13.40" class="s"><title>sub_4EACA0
 588 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="325.66" y="476.94" width="11.87" height="12.34" class="s"><title>sub_4EBF90
 500 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="325.66" y="489.87" width="11.87" height="10.86" class="s"><title>sub_4EAF30
 443 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="325.66" y="501.34" width="11.87" height="10.32" class="s"><title>sub_4ED6D0
 422 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="325.66" y="512.26" width="11.87" height="10.01" class="s"><title>sub_4ECB80
 410 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="338.12" y="476.94" width="13.03" height="8.94" class="s"><title>sub_4EBDF0
 403 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="351.75" y="476.94" width="10.83" height="8.94" class="s"><title>sub_4EAA30
 338 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="363.18" y="476.94" width="10.73" height="8.94" class="s"><title>sub_4ECD20
 335 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="338.12" y="486.48" width="9.28" height="10.17" class="s"><title>sub_4EB120
 330 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="348.01" y="486.48" width="8.98" height="10.17" class="s"><title>sub_4EC1D0
 320 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="357.59" y="486.48" width="7.87" height="10.17" class="s"><title>sub_4ED580
 283 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="366.06" y="486.48" width="7.84" height="10.17" class="s"><title>sub_4ED460
 282 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="338.12" y="497.25" width="7.77" height="8.07" class="s"><title>sub_4EC3F0
 225 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="338.12" y="505.92" width="7.77" height="7.91" class="s"><title>sub_4EA830
 221 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="338.12" y="514.43" width="7.77" height="7.84" class="s"><title>sub_4EC310
 219 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="346.50" y="497.25" width="7.31" height="8.21" class="s"><title>sub_4EA950
 216 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="346.50" y="506.06" width="7.31" height="7.97" class="s"><title>sub_4EC4E0
 210 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="346.50" y="514.63" width="7.31" height="7.64" class="s"><title>sub_4ED300
 202 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="354.41" y="497.25" width="6.53" height="6.41" class="s"><title>sub_4ECE70
 155 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="361.54" y="497.25" width="6.07" height="6.41" class="s"><title>sub_4EA760
 145 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="368.21" y="497.25" width="5.70" height="6.41" class="s"><title>sub_4ED3D0
 137 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="354.41" y="504.26" width="4.46" height="6.79" class="s"><title>sub_4EB610
-116 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="354.41" y="511.65" width="4.46" height="5.52" class="s"><title>sub_4EA410
-96 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="354.41" y="517.77" width="4.46" height="4.50" class="s"><title>sub_4EABD0
-80 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="359.47" y="504.26" width="5.00" height="3.95" class="s"><title>sub_4EA3C0
-79 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="365.08" y="504.26" width="4.15" height="3.95" class="s"><title>sub_4EC5C0
-67 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="369.83" y="504.26" width="4.08" height="3.95" class="s"><title>sub_4EAC50
-66 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="359.47" y="508.81" width="3.53" height="4.47" class="s"><title>sub_4EC610
-65 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="359.47" y="513.89" width="3.53" height="4.01" class="s"><title>sub_4EC190
-59 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="359.47" y="518.49" width="3.53" height="3.77" class="s"><title>sub_4EA910
-56 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="363.60" y="508.81" width="3.18" height="3.93" class="s"><title>sub_4EA310
-53 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="367.38" y="508.81" width="3.11" height="3.93" class="s"><title>sub_4EA380
-52 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="371.09" y="508.81" width="2.82" height="3.93" class="s"><title>sub_4EAC20
-48 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="363.60" y="513.34" width="3.97" height="2.79" class="s"><title>sub_4EB2C0
-48 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="363.60" y="516.73" width="3.97" height="2.58" class="s"><title>sub_4ED6A0
-45 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="363.60" y="519.90" width="3.97" height="2.36" class="s"><title>sub_4EA350
-42 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="368.18" y="513.34" width="2.78" height="3.22" class="s"><title>sub_4EB0F0
-40 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="371.55" y="513.34" width="2.36" height="3.22" class="s"><title>sub_4EA800
-35 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="368.18" y="517.16" width="2.96" height="2.39" class="s"><title>sub_4EB270
-33 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="368.18" y="520.15" width="2.96" height="2.12" class="s"><title>sub_4EABB0
-30 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="371.74" y="517.16" width="2.17" height="2.54" class="s"><title>sub_4EB690
-27 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
-<rect x="371.74" y="520.30" width="2.17" height="1.96" class="s"><title>sub_4EB2A0
-22 bytes, not rewritten
-src/unsorted/4E/tu_4EA310.cpp</title></rect>
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="354.41" y="504.26" width="4.46" height="6.79" class="m"><title>releaseObjSlots
+116 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="354.41" y="511.65" width="4.46" height="5.52" class="p"><title>findChunk3
+96 bytes, non matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="354.41" y="517.77" width="4.46" height="4.50" class="m"><title>initObjFromTable
+80 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="359.47" y="504.26" width="5.00" height="3.95" class="p"><title>countChunks
+79 bytes, non matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="365.08" y="504.26" width="4.15" height="3.95" class="m"><title>callWithVec4
+67 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="369.83" y="504.26" width="4.08" height="3.95" class="m"><title>releaseNodeChild
+66 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="359.47" y="508.81" width="3.53" height="4.47" class="m"><title>callWithFloats
+65 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="359.47" y="513.89" width="3.53" height="4.01" class="m"><title>halfToFloat
+59 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="359.47" y="518.49" width="3.53" height="3.77" class="m"><title>releaseNode
+56 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="363.60" y="508.81" width="3.18" height="3.93" class="m"><title>setAllocators
+53 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="367.38" y="508.81" width="3.11" height="3.93" class="m"><title>isOmgHeader
+52 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="371.09" y="508.81" width="2.82" height="3.93" class="m"><title>setObjBounds
+48 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="363.60" y="513.34" width="3.97" height="2.79" class="m"><title>getObjDrawCount
+48 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="363.60" y="516.73" width="3.97" height="2.58" class="m"><title>copyQuad
+45 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="363.60" y="519.90" width="3.97" height="2.36" class="m"><title>setAllocatorsB
+42 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="368.18" y="513.34" width="2.78" height="3.22" class="m"><title>unrefObject
+40 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="371.55" y="513.34" width="2.36" height="3.22" class="m"><title>objDataSize
+35 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="368.18" y="517.16" width="2.96" height="2.39" class="m"><title>getObjSlot
+33 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="368.18" y="520.15" width="2.96" height="2.12" class="m"><title>setObjParams
+30 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="371.74" y="517.16" width="2.17" height="2.54" class="m"><title>releaseIfFlag
+27 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
+<rect x="371.74" y="520.30" width="2.17" height="1.96" class="m"><title>getObjCount
+22 bytes, matching
+src/engine/render/gmo_object.cpp</title></rect>
 <rect x="312.11" y="524.87" width="40.85" height="22.85" class="s"><title>sub_488610
 3019 bytes, not rewritten
 src/unsorted/48/tu_487F80.cpp</title></rect>
@@ -5575,138 +5575,138 @@ src/unsorted/4A/tu_4A14B0.cpp</title></rect>
 <rect x="429.96" y="524.62" width="2.58" height="1.92" class="s"><title>sub_4A37C0
 25 bytes, not rewritten
 src/unsorted/4A/tu_4A14B0.cpp</title></rect>
-<rect x="429.66" y="526.83" width="3.18" height="1.51" class="s"><title>sub_4A3940
-15 bytes, not rewritten
+<rect x="429.66" y="526.83" width="3.18" height="1.51" class="p"><title>setCursorState5
+15 bytes, non matching
 src/unsorted/4A/tu_4A14B0.cpp</title></rect>
 <rect x="376.51" y="530.64" width="32.60" height="18.02" class="s"><title>sub_4E66E0
 1932 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="409.71" y="530.64" width="22.84" height="18.02" class="s"><title>sub_4E5780
 1364 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="376.51" y="549.26" width="10.05" height="15.31" class="s"><title>sub_4E4870
 530 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="376.51" y="565.17" width="10.05" height="10.81" class="s"><title>sub_4E4A90
 380 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="376.51" y="576.58" width="10.05" height="10.12" class="s"><title>sub_4E4EA0
 357 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="387.16" y="549.26" width="9.93" height="9.24" class="s"><title>sub_4E6590
 324 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="387.16" y="559.10" width="9.93" height="8.91" class="s"><title>sub_4E5030
 313 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="387.16" y="568.61" width="9.93" height="8.76" class="s"><title>sub_4E6F50
 308 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="387.16" y="577.97" width="9.93" height="8.73" class="s"><title>sub_4E4D60
 307 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="397.69" y="549.26" width="9.34" height="9.22" class="s"><title>sub_4E6450
 305 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="407.63" y="549.26" width="8.69" height="9.22" class="s"><title>sub_4E4C10
 285 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="416.92" y="549.26" width="8.46" height="9.22" class="s"><title>sub_4E62D0
 278 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="425.97" y="549.26" width="6.57" height="9.22" class="s"><title>sub_4E6E70
 220 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="397.69" y="559.08" width="6.64" height="8.94" class="s"><title>sub_4E5E80
 216 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="397.69" y="568.62" width="6.64" height="8.76" class="s"><title>allocGraphicsMemory
 212 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="397.69" y="577.98" width="6.64" height="8.72" class="s"><title>sub_4E52F0
 211 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="404.93" y="559.08" width="7.70" height="7.45" class="s"><title>freeGraphicsMemory
 209 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="413.24" y="559.08" width="6.67" height="7.45" class="s"><title>sub_4E56C0
 183 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="420.51" y="559.08" width="5.84" height="7.45" class="s"><title>sub_4E6050
 162 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="426.94" y="559.08" width="5.60" height="7.45" class="s"><title>sub_4E55A0
 156 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="404.93" y="567.13" width="6.36" height="6.29" class="s"><title>sub_4E6230
 150 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="404.93" y="574.02" width="6.36" height="6.06" class="s"><title>sub_4E6190
 145 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="404.93" y="580.68" width="6.36" height="6.02" class="s"><title>sub_4E47D0
 144 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="411.89" y="567.13" width="5.09" height="6.31" class="s"><title>sub_4E54A0
 123 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="411.89" y="574.04" width="5.09" height="6.09" class="s"><title>sub_4E5170
 119 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="411.89" y="580.73" width="5.09" height="5.97" class="s"><title>sub_4E5640
 117 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="417.59" y="567.13" width="4.79" height="6.17" class="s"><title>sub_4E5210
 114 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="422.98" y="567.13" width="4.79" height="6.17" class="s"><title>sub_4E5520
 114 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="428.37" y="567.13" width="4.18" height="6.17" class="s"><title>sub_4E6120
 101 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="417.59" y="573.89" width="5.67" height="4.14" class="s"><title>sub_4E5290
 93 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="417.59" y="578.63" width="5.67" height="3.78" class="s"><title>sub_4E5D20
 86 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="417.59" y="583.02" width="5.67" height="3.68" class="s"><title>sub_4E63F0
 84 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="423.86" y="573.89" width="4.24" height="3.43" class="s"><title>sub_4E5CE0
 61 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
-<rect x="428.70" y="573.89" width="3.84" height="3.43" class="s"><title>sub_4E5460
-56 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
+<rect x="428.70" y="573.89" width="3.84" height="3.43" class="m"><title>IntVec::grow
+56 bytes, matching
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="423.86" y="577.93" width="4.46" height="2.81" class="s"><title>sub_4E5400
 54 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="428.92" y="577.93" width="3.62" height="2.81" class="s"><title>sub_4E53D0
 45 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
-<rect x="423.86" y="581.34" width="3.21" height="2.93" class="s"><title>sub_4E4D30
-42 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
+<rect x="423.86" y="581.34" width="3.21" height="2.93" class="m"><title>copyInts
+42 bytes, matching
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="423.86" y="584.86" width="3.21" height="1.84" class="s"><title>sub_4E5440
 29 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
-<rect x="427.67" y="581.34" width="2.40" height="2.38" class="s"><title>sub_4E51F0
-28 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
-<rect x="430.67" y="581.34" width="1.87" height="2.38" class="s"><title>sub_4E5010
-23 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
-<rect x="427.67" y="584.32" width="1.65" height="2.38" class="s"><title>sub_4E6100
-21 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
-<rect x="429.92" y="584.32" width="1.44" height="2.38" class="s"><title>sub_4E5D80
-19 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
-<rect x="431.66" y="584.02" width="1.18" height="2.98" class="s"><title>sub_4E5F60
-11 bytes, not rewritten
-src/unsorted/4E/tu_4E47D0.cpp</title></rect>
+src/engine/core/int_containers.cpp</title></rect>
+<rect x="427.67" y="581.34" width="2.40" height="2.38" class="m"><title>OwnedBuf::release
+28 bytes, matching
+src/engine/core/int_containers.cpp</title></rect>
+<rect x="430.67" y="581.34" width="1.87" height="2.38" class="m"><title>Triple3::clear
+23 bytes, matching
+src/engine/core/int_containers.cpp</title></rect>
+<rect x="427.67" y="584.32" width="1.65" height="2.38" class="m"><title>resetGlobals7538C0
+21 bytes, matching
+src/engine/core/int_containers.cpp</title></rect>
+<rect x="429.92" y="584.32" width="1.44" height="2.38" class="m"><title>getSlot
+19 bytes, matching
+src/engine/core/int_containers.cpp</title></rect>
+<rect x="431.66" y="584.02" width="1.18" height="2.98" class="m"><title>copyGlobal74D8A0
+11 bytes, matching
+src/engine/core/int_containers.cpp</title></rect>
 <rect x="435.14" y="13.30" width="23.95" height="24.34" class="s"><title>sub_4AD520
 1914 bytes, not rewritten
 src/unsorted/4A/tu_4AD520.cpp</title></rect>
@@ -5833,8 +5833,8 @@ src/unsorted/44/tu_448DD0.cpp</title></rect>
 <rect x="484.75" y="128.67" width="3.50" height="3.30" class="s"><title>sub_44A960
 50 bytes, not rewritten
 src/unsorted/44/tu_448DD0.cpp</title></rect>
-<rect x="484.45" y="132.27" width="4.10" height="0.78" class="s"><title>sub_44ACC0
-10 bytes, not rewritten
+<rect x="484.45" y="132.27" width="4.10" height="0.78" class="m"><title>callPair44B530
+10 bytes, matching
 src/unsorted/44/tu_448DD0.cpp</title></rect>
 <rect x="435.14" y="135.35" width="53.11" height="40.42" class="s"><title>sub_43BD00
 6897 bytes, not rewritten
@@ -5902,8 +5902,8 @@ src/unsorted/4B/tu_4B9CE0.cpp</title></rect>
 <rect x="486.64" y="245.86" width="1.61" height="1.71" class="s"><title>sub_4BBCA0
 16 bytes, not rewritten
 src/unsorted/4B/tu_4B9CE0.cpp</title></rect>
-<rect x="486.64" y="248.17" width="1.61" height="1.71" class="s"><title>sub_4BBCB0
-16 bytes, not rewritten
+<rect x="486.64" y="248.17" width="1.61" height="1.71" class="m"><title>Pair2::clear
+16 bytes, matching
 src/unsorted/4B/tu_4B9CE0.cpp</title></rect>
 <rect x="486.34" y="250.17" width="2.21" height="1.15" class="s"><title>sub_4BA060
 8 bytes, not rewritten
@@ -6171,109 +6171,109 @@ src/engine/io/AgFileSystem.cpp</title></rect>
 src/engine/io/AgFileSystem.cpp</title></rect>
 <rect x="435.14" y="425.57" width="15.10" height="22.81" class="s"><title>sub_5A92D0
 1154 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="435.14" y="448.98" width="15.10" height="15.10" class="s"><title>sub_5A88A0
 774 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="435.14" y="464.68" width="15.10" height="13.11" class="s"><title>sub_5A9DF0
 676 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="450.84" y="425.57" width="15.08" height="11.04" class="s"><title>sub_5A8BB0
 573 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="466.52" y="425.57" width="10.65" height="11.04" class="s"><title>sub_5A7DC0
 411 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="477.77" y="425.57" width="10.48" height="11.04" class="s"><title>sub_5A8700
 405 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="450.84" y="437.20" width="9.98" height="10.90" class="s"><title>sub_5A82B0
 382 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="461.42" y="437.20" width="9.29" height="10.90" class="s"><title>sub_5A8510
 357 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="471.31" y="437.20" width="8.85" height="10.90" class="s"><title>sub_5A8090
 341 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="480.76" y="437.20" width="7.49" height="10.90" class="s"><title>sub_5A98B0
 292 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="450.84" y="448.70" width="7.66" height="10.39" class="s"><title>sub_5A9010
 285 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="450.84" y="459.69" width="7.66" height="9.47" class="s"><title>sub_5AA140
 261 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="450.84" y="469.76" width="7.66" height="8.04" class="s"><title>sub_5A9B80
 224 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="459.10" y="448.70" width="8.56" height="7.08" class="s"><title>sub_5A8ED0
 221 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="459.10" y="456.38" width="8.56" height="6.95" class="s"><title>sub_5A8DF0
 217 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="459.10" y="463.93" width="8.56" height="6.74" class="s"><title>sub_5A8430
 211 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="459.10" y="471.27" width="8.56" height="6.53" class="s"><title>sub_5A9AB0
 205 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="468.26" y="448.70" width="6.71" height="7.77" class="s"><title>sub_5A99E0
 192 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="475.57" y="448.70" width="6.18" height="7.77" class="s"><title>sub_5AA2F0
 178 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="482.34" y="448.70" width="5.91" height="7.77" class="s"><title>sub_5A7F60
 171 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="468.26" y="457.07" width="6.87" height="6.44" class="s"><title>sub_5A97B0
 165 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="475.73" y="457.07" width="6.55" height="6.44" class="s"><title>sub_5A9D50
 158 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="482.88" y="457.07" width="5.37" height="6.44" class="s"><title>sub_5A8220
 132 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="468.26" y="464.10" width="4.66" height="6.79" class="s"><title>sub_5A9130
 122 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="468.26" y="471.49" width="4.66" height="6.30" class="s"><title>sub_5A8680
 114 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="473.52" y="464.10" width="4.30" height="6.81" class="s"><title>sub_5A9CD0
 114 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="473.52" y="471.51" width="4.30" height="6.29" class="s"><title>std::E::EV?$allocator::?$vector::_Reserve
 106 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="478.42" y="464.10" width="4.97" height="5.29" class="s"><title>sub_5AA0D0
 103 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="483.99" y="464.10" width="4.26" height="5.29" class="s"><title>sub_5A8FB0
 90 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="478.42" y="470.00" width="3.80" height="4.25" class="s"><title>sub_5A9860
 67 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
-<rect x="478.42" y="474.85" width="3.80" height="2.95" class="s"><title>sub_5A9290
-49 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
-<rect x="482.82" y="470.00" width="2.42" height="4.36" class="s"><title>sub_5A8030
-47 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
+<rect x="478.42" y="474.85" width="3.80" height="2.95" class="p"><title>RxParser::isGroupChar
+49 bytes, non matching
+src/engine/core/regex_parser.cpp</title></rect>
+<rect x="482.82" y="470.00" width="2.42" height="4.36" class="m"><title>destroyNodeRange
+47 bytes, matching
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="485.84" y="470.00" width="2.42" height="4.36" class="s"><title>sub_5A81F0
 47 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
-<rect x="482.82" y="474.96" width="3.30" height="2.83" class="s"><title>sub_5A8060
-42 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
-<rect x="486.72" y="474.96" width="1.53" height="2.83" class="s"><title>sub_5A8010
-23 bytes, not rewritten
-src/unsorted/5A/tu_5A7DC0.cpp</title></rect>
+src/engine/core/regex_parser.cpp</title></rect>
+<rect x="482.82" y="474.96" width="3.30" height="2.83" class="p"><title>NodeList::clear
+42 bytes, non matching
+src/engine/core/regex_parser.cpp</title></rect>
+<rect x="486.72" y="474.96" width="1.53" height="2.83" class="m"><title>isNotMax
+23 bytes, matching
+src/engine/core/regex_parser.cpp</title></rect>
 <rect x="435.14" y="480.39" width="22.79" height="22.05" class="s"><title>sub_4D2670
 1664 bytes, not rewritten
 src/unsorted/4D/tu_4D1B50.cpp</title></rect>
@@ -6660,115 +6660,115 @@ src/engine/libvpx/vp8/decoder/threading.cpp</title></rect>
 src/engine/libvpx/vp8/decoder/threading.cpp</title></rect>
 <rect x="490.85" y="227.59" width="15.84" height="13.39" class="s"><title>sub_4F8DC0
 724 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="490.85" y="241.59" width="15.84" height="12.75" class="s"><title>sub_4F8A40
 691 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="490.85" y="254.94" width="15.84" height="11.13" class="s"><title>sub_4F7AE0
 607 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="490.85" y="266.67" width="15.84" height="11.07" class="s"><title>sub_4F9140
 604 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="507.29" y="227.59" width="13.23" height="10.52" class="s"><title>sub_4F9590
 484 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="521.12" y="227.59" width="10.68" height="10.52" class="s"><title>sub_4F9400
 395 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="532.40" y="227.59" width="10.48" height="10.52" class="s"><title>sub_4F8340
 388 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="507.29" y="238.72" width="9.96" height="9.00" class="s"><title>sub_4F8720
 319 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="517.86" y="238.72" width="9.37" height="9.00" class="s"><title>sub_4F9780
 301 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="527.82" y="238.72" width="7.71" height="9.00" class="s"><title>sub_4F7D40
 251 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="536.14" y="238.72" width="6.75" height="9.00" class="s"><title>sub_4F7FF0
 222 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="507.29" y="248.32" width="8.28" height="7.17" class="s"><title>sub_4F7F10
 217 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="507.29" y="256.08" width="8.28" height="6.99" class="s"><title>sub_4F98B0
 212 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="507.29" y="263.67" width="8.28" height="6.74" class="s"><title>sub_4F7A10
 205 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="507.29" y="271.01" width="8.28" height="6.74" class="s"><title>sub_4F80D0
 205 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="516.17" y="248.32" width="8.83" height="6.28" class="s"><title>sub_4F7E40
 204 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="525.60" y="248.32" width="8.55" height="6.28" class="s"><title>sub_4F84D0
 198 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="534.75" y="248.32" width="8.13" height="6.28" class="s"><title>sub_4F8980
 189 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="516.17" y="255.19" width="6.63" height="7.70" class="s"><title>sub_4F8D00
 189 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="516.17" y="263.50" width="6.63" height="7.31" class="s"><title>sub_4F8860
 180 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="516.17" y="271.40" width="6.63" height="6.34" class="s"><title>sub_4F90A0
 158 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="523.41" y="255.19" width="7.05" height="5.71" class="s"><title>sub_4F7970
 152 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="531.06" y="255.19" width="5.89" height="5.71" class="s"><title>sub_4F7840
 129 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="537.55" y="255.19" width="5.34" height="5.71" class="s"><title>sub_4F9990
 118 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="523.41" y="261.51" width="5.87" height="5.05" class="s"><title>sub_4F86A0
 115 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="523.41" y="267.15" width="5.87" height="5.00" class="s"><title>sub_4F81A0
 114 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="523.41" y="272.75" width="5.87" height="5.00" class="s"><title>sub_4F8220
 114 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="529.88" y="261.51" width="6.23" height="4.65" class="s"><title>sub_4F78D0
 113 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="536.71" y="261.51" width="6.17" height="4.65" class="s"><title>sub_4F8630
 112 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="529.88" y="266.76" width="4.78" height="5.25" class="s"><title>sub_4F85C0
 99 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="529.88" y="272.61" width="4.78" height="5.13" class="s"><title>sub_4F82A0
 97 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="535.26" y="266.76" width="3.54" height="6.39" class="s"><title>sub_4F8920
 91 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="539.39" y="266.76" width="3.49" height="6.39" class="s"><title>sub_4F93A0
 90 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
-<rect x="535.26" y="273.75" width="2.37" height="3.99" class="s"><title>sub_4F8310
-43 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
-<rect x="538.23" y="273.75" width="3.20" height="1.82" class="s"><title>sub_4F7950
-29 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
-<rect x="538.23" y="276.17" width="3.20" height="1.57" class="s"><title>sub_4F85A0
-26 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
-<rect x="541.73" y="273.45" width="1.45" height="4.59" class="s"><title>sub_4F9A10
-21 bytes, not rewritten
-src/unsorted/4F/tu_4F7840.cpp</title></rect>
+src/engine/core/misc_wrappers.cpp</title></rect>
+<rect x="535.26" y="273.75" width="2.37" height="3.99" class="p"><title>fillInts
+43 bytes, non matching
+src/engine/core/misc_wrappers.cpp</title></rect>
+<rect x="538.23" y="273.75" width="3.20" height="1.82" class="m"><title>destroyBoxed
+29 bytes, matching
+src/engine/core/misc_wrappers.cpp</title></rect>
+<rect x="538.23" y="276.17" width="3.20" height="1.57" class="m"><title>Holder::stopBoth
+26 bytes, matching
+src/engine/core/misc_wrappers.cpp</title></rect>
+<rect x="541.73" y="273.45" width="1.45" height="4.59" class="m"><title>forwardFirst
+21 bytes, matching
+src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="490.85" y="280.35" width="17.17" height="28.62" class="s"><title>AgArchive::fn_504CF0
 1634 bytes, not rewritten
 src/engine/io/AgArchive.cpp</title></rect>
@@ -6922,8 +6922,8 @@ src/unsorted/47/tu_476EB0.cpp</title></rect>
 <rect x="538.62" y="379.93" width="2.78" height="2.60" class="s"><title>sub_477E50
 34 bytes, not rewritten
 src/unsorted/47/tu_476EB0.cpp</title></rect>
-<rect x="541.70" y="379.63" width="1.49" height="3.20" class="s"><title>sub_4777D0
-15 bytes, not rewritten
+<rect x="541.70" y="379.63" width="1.49" height="3.20" class="m"><title>setTable73DA98
+15 bytes, matching
 src/unsorted/47/tu_476EB0.cpp</title></rect>
 <rect x="490.85" y="385.13" width="24.56" height="29.44" class="s"><title>sub_4C0980
 2380 bytes, not rewritten
@@ -6960,202 +6960,202 @@ src/unsorted/4B/tu_4BFBE0.cpp</title></rect>
 src/unsorted/4B/tu_4BFBE0.cpp</title></rect>
 <rect x="490.85" y="437.25" width="18.09" height="27.54" class="s"><title>sub_4BE160
 1658 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="490.85" y="465.40" width="18.09" height="10.01" class="s"><title>sub_4BEB00
 625 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="490.85" y="476.00" width="18.09" height="9.52" class="s"><title>sub_4BDB30
 596 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="509.55" y="437.25" width="11.73" height="11.88" class="s"><title>sub_4BDD90
 485 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="521.88" y="437.25" width="11.15" height="11.88" class="s"><title>sub_4BF350
 462 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="533.62" y="437.25" width="9.26" height="11.88" class="s"><title>sub_4BE970
 388 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="509.55" y="449.73" width="11.17" height="9.13" class="s"><title>sub_4BEEC0
 361 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="521.32" y="449.73" width="11.14" height="9.13" class="s"><title>sub_4BF890
 360 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="533.05" y="449.73" width="9.83" height="9.13" class="s"><title>sub_4BF0F0
 320 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="509.55" y="459.47" width="9.45" height="9.03" class="s"><title>sub_4BFA00
 305 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="509.55" y="469.10" width="9.45" height="8.18" class="s"><title>sub_4BF230
 278 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="509.55" y="477.88" width="9.45" height="7.64" class="s"><title>sub_4BDF80
 261 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="519.59" y="459.47" width="7.44" height="7.97" class="s"><title>sub_4BF600
 217 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="527.63" y="459.47" width="7.33" height="7.97" class="s"><title>sub_4BF520
 214 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="535.56" y="459.47" width="7.33" height="7.97" class="s"><title>sub_4BF6E0
 214 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="519.59" y="468.03" width="6.54" height="8.69" class="s"><title>sub_4BE7E0
 209 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="519.59" y="477.32" width="6.54" height="8.20" class="s"><title>sub_4BF7C0
 198 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="526.73" y="468.03" width="7.84" height="6.73" class="s"><title>sub_4BE090
 195 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="535.17" y="468.03" width="7.71" height="6.73" class="s"><title>sub_4BF030
 192 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="526.73" y="475.36" width="7.19" height="5.35" class="s"><title>sub_4BFB40
 146 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="526.73" y="481.31" width="7.19" height="4.21" class="s"><title>sub_4BEE00
 118 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="534.52" y="475.36" width="3.92" height="3.47" class="s"><title>sub_4BED80
 58 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
-<rect x="539.04" y="475.36" width="3.84" height="3.47" class="s"><title>sub_4BEDC0
-57 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
-<rect x="534.52" y="479.43" width="2.82" height="3.21" class="s"><title>sub_4BE900
-41 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
-<rect x="534.52" y="483.24" width="2.82" height="2.28" class="s"><title>sub_4BE8C0
-31 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
+<rect x="539.04" y="475.36" width="3.84" height="3.47" class="p"><title>setViewParams
+57 bytes, non matching
+src/game/screen/view_params.cpp</title></rect>
+<rect x="534.52" y="479.43" width="2.82" height="3.21" class="m"><title>setAngleDegrees
+41 bytes, matching
+src/game/screen/view_params.cpp</title></rect>
+<rect x="534.52" y="483.24" width="2.82" height="2.28" class="m"><title>bindBuf740148
+31 bytes, matching
+src/game/screen/view_params.cpp</title></rect>
 <rect x="537.94" y="479.43" width="2.18" height="2.94" class="s"><title>sub_4BE8E0
 31 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="540.71" y="479.43" width="2.18" height="2.94" class="s"><title>sub_4BEE80
 31 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
 <rect x="537.94" y="482.98" width="2.53" height="2.54" class="s"><title>sub_4BEEA0
 31 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
-<rect x="540.76" y="482.68" width="1.21" height="1.57" class="s"><title>sub_4BE930
-6 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
-<rect x="541.98" y="482.68" width="1.21" height="1.57" class="s"><title>sub_4BE940
-6 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
-<rect x="540.76" y="484.25" width="1.21" height="1.57" class="s"><title>sub_4BE950
-6 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
-<rect x="541.98" y="484.25" width="1.21" height="1.57" class="s"><title>sub_4BE960
-6 bytes, not rewritten
-src/unsorted/4B/tu_4BDB30.cpp</title></rect>
+src/game/screen/view_params.cpp</title></rect>
+<rect x="540.76" y="482.68" width="1.21" height="1.57" class="m"><title>getBuf7401E0
+6 bytes, matching
+src/game/screen/view_params.cpp</title></rect>
+<rect x="541.98" y="482.68" width="1.21" height="1.57" class="m"><title>getBuf7401A0
+6 bytes, matching
+src/game/screen/view_params.cpp</title></rect>
+<rect x="540.76" y="484.25" width="1.21" height="1.57" class="m"><title>getBuf7402E0
+6 bytes, matching
+src/game/screen/view_params.cpp</title></rect>
+<rect x="541.98" y="484.25" width="1.21" height="1.57" class="m"><title>getBuf7402A0
+6 bytes, matching
+src/game/screen/view_params.cpp</title></rect>
 <rect x="490.85" y="488.12" width="16.32" height="23.92" class="s"><title>sub_4D4F40
 1308 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="490.85" y="512.64" width="16.32" height="23.62" class="s"><title>sub_4D41F0
 1292 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="507.78" y="488.12" width="24.51" height="12.58" class="s"><title>sub_4D56D0
 1043 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="532.89" y="488.12" width="9.99" height="12.58" class="s"><title>sub_4D5AF0
 440 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="507.78" y="501.30" width="9.69" height="11.52" class="s"><title>sub_4D5540
 393 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="507.78" y="513.42" width="9.69" height="9.30" class="s"><title>sub_4D4DF0
 321 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="507.78" y="523.32" width="9.69" height="6.28" class="s"><title>sub_4D3F40
 223 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="507.78" y="530.20" width="9.69" height="6.06" class="s"><title>sub_4D5460
 216 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="518.06" y="501.30" width="8.41" height="6.73" class="s"><title>sub_4D4910
 208 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="527.07" y="501.30" width="8.37" height="6.73" class="s"><title>sub_4D5DC0
 207 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="536.04" y="501.30" width="6.85" height="6.73" class="s"><title>sub_4D4A10
 172 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="518.06" y="508.62" width="6.02" height="7.36" class="s"><title>sub_4D47B0
 166 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="524.68" y="508.62" width="5.98" height="7.36" class="s"><title>sub_4D4860
 165 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="531.25" y="508.62" width="5.62" height="7.36" class="s"><title>sub_4D4D00
 156 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="537.47" y="508.62" width="5.42" height="7.36" class="s"><title>sub_4D5E90
 151 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="518.06" y="516.58" width="6.27" height="6.38" class="s"><title>sub_4D5F30
 151 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="518.06" y="523.56" width="6.27" height="6.24" class="s"><title>sub_4D5CB0
 148 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="518.06" y="530.40" width="6.27" height="5.87" class="s"><title>sub_4D4AC0
 140 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="524.93" y="516.58" width="6.13" height="5.95" class="s"><title>sub_4D4C70
 139 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="531.66" y="516.58" width="6.04" height="5.95" class="s"><title>sub_4D4BE0
 137 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="538.30" y="516.58" width="4.58" height="5.95" class="s"><title>sub_4D5D50
 107 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="524.93" y="523.13" width="6.03" height="4.14" class="s"><title>sub_4D40E0
 99 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="524.93" y="527.87" width="6.03" height="4.04" class="s"><title>sub_4D4180
 97 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="524.93" y="532.51" width="6.03" height="3.75" class="s"><title>sub_4D4020
 91 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="531.56" y="523.13" width="5.61" height="3.90" class="s"><title>sub_4D4080
 88 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="537.77" y="523.13" width="5.11" height="3.90" class="s"><title>sub_4D4700
 81 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="531.56" y="527.63" width="3.70" height="4.35" class="s"><title>sub_4D4DA0
 67 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
 <rect x="531.56" y="532.58" width="3.70" height="3.68" class="s"><title>sub_4D4B70
 58 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
-<rect x="535.86" y="527.63" width="3.21" height="3.39" class="s"><title>sub_4D4150
-48 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
-<rect x="539.67" y="527.63" width="3.21" height="3.39" class="s"><title>sub_4D4BB0
-48 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
-<rect x="535.86" y="531.62" width="4.00" height="2.16" class="s"><title>sub_4D49E0
-40 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
-<rect x="535.86" y="534.38" width="4.00" height="1.88" class="s"><title>sub_4D4760
-36 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
-<rect x="540.46" y="531.62" width="2.43" height="2.44" class="s"><title>sub_4D4790
-29 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
-<rect x="540.46" y="534.66" width="2.43" height="1.60" class="s"><title>sub_4D4B50
-21 bytes, not rewritten
-src/unsorted/4D/tu_4D3F40.cpp</title></rect>
+src/game/entries/record_table.cpp</title></rect>
+<rect x="535.86" y="527.63" width="3.21" height="3.39" class="m"><title>anyRecActive
+48 bytes, matching
+src/game/entries/record_table.cpp</title></rect>
+<rect x="539.67" y="527.63" width="3.21" height="3.39" class="m"><title>setRecByte7
+48 bytes, matching
+src/game/entries/record_table.cpp</title></rect>
+<rect x="535.86" y="531.62" width="4.00" height="2.16" class="m"><title>setRecByte5
+40 bytes, matching
+src/game/entries/record_table.cpp</title></rect>
+<rect x="535.86" y="534.38" width="4.00" height="1.88" class="m"><title>setSlotWord
+36 bytes, matching
+src/game/entries/record_table.cpp</title></rect>
+<rect x="540.46" y="531.62" width="2.43" height="2.44" class="m"><title>clearRecFlags
+29 bytes, matching
+src/game/entries/record_table.cpp</title></rect>
+<rect x="540.46" y="534.66" width="2.43" height="1.60" class="m"><title>resetGlobals745900
+21 bytes, matching
+src/game/entries/record_table.cpp</title></rect>
 <rect x="490.85" y="538.86" width="48.82" height="47.84" class="s"><title>sub_46ECB0
 7546 bytes, not rewritten
 src/unsorted/46/tu_46EAA0.cpp</title></rect>
@@ -7168,11 +7168,11 @@ src/unsorted/46/tu_46EAA0.cpp</title></rect>
 <rect x="540.27" y="575.46" width="2.62" height="8.08" class="s"><title>sub_46EC20
 88 bytes, not rewritten
 src/unsorted/46/tu_46EAA0.cpp</title></rect>
-<rect x="539.97" y="583.84" width="1.61" height="3.16" class="s"><title>sub_470C30
-16 bytes, not rewritten
+<rect x="539.97" y="583.84" width="1.61" height="3.16" class="m"><title>remapIndex
+16 bytes, matching
 src/unsorted/46/tu_46EAA0.cpp</title></rect>
-<rect x="541.58" y="583.84" width="1.61" height="3.16" class="s"><title>sub_470C40
-16 bytes, not rewritten
+<rect x="541.58" y="583.84" width="1.61" height="3.16" class="m"><title>getRec695F18
+16 bytes, matching
 src/unsorted/46/tu_46EAA0.cpp</title></rect>
 <rect x="545.49" y="13.30" width="32.71" height="21.35" class="s"><title>sub_4C6FD0
 2310 bytes, not rewritten
@@ -7774,14 +7774,14 @@ src/unsorted/49/tu_4984C0.cpp</title></rect>
 <rect x="585.80" y="380.52" width="2.35" height="1.65" class="s"><title>sub_499490
 21 bytes, not rewritten
 src/unsorted/49/tu_4984C0.cpp</title></rect>
-<rect x="588.45" y="377.76" width="3.02" height="1.57" class="s"><title>sub_4994B0
-15 bytes, not rewritten
+<rect x="588.45" y="377.76" width="3.02" height="1.57" class="m"><title>setWord73E558
+15 bytes, matching
 src/unsorted/49/tu_4984C0.cpp</title></rect>
-<rect x="588.45" y="379.33" width="3.02" height="1.57" class="s"><title>sub_4994C0
-15 bytes, not rewritten
+<rect x="588.45" y="379.33" width="3.02" height="1.57" class="m"><title>setWord73E556
+15 bytes, matching
 src/unsorted/49/tu_4984C0.cpp</title></rect>
-<rect x="588.45" y="380.90" width="3.02" height="1.57" class="s"><title>sub_49A300
-15 bytes, not rewritten
+<rect x="588.45" y="380.90" width="3.02" height="1.57" class="p"><title>setState73E5C8
+15 bytes, non matching
 src/unsorted/49/tu_4984C0.cpp</title></rect>
 <rect x="545.49" y="384.77" width="29.42" height="23.89" class="s"><title>sub_42CF70
 2327 bytes, not rewritten
@@ -7879,123 +7879,123 @@ src/unsorted/43/tu_43E520.cpp</title></rect>
 <rect x="587.22" y="481.27" width="1.94" height="3.50" class="s"><title>sub_440000
 33 bytes, not rewritten
 src/unsorted/43/tu_43E520.cpp</title></rect>
-<rect x="589.77" y="481.27" width="1.40" height="1.76" class="s"><title>sub_43EB80
-15 bytes, not rewritten
+<rect x="589.77" y="481.27" width="1.40" height="1.76" class="m"><title>call43F310
+15 bytes, matching
 src/unsorted/43/tu_43E520.cpp</title></rect>
-<rect x="589.47" y="483.34" width="2.00" height="1.73" class="s"><title>sub_43E5E0
-11 bytes, not rewritten
+<rect x="589.47" y="483.34" width="2.00" height="1.73" class="p"><title>getBit10
+11 bytes, non matching
 src/unsorted/43/tu_43E520.cpp</title></rect>
 <rect x="545.49" y="487.37" width="22.76" height="15.16" class="s"><title>sub_4B7B80
 1166 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="568.85" y="487.37" width="11.70" height="15.16" class="s"><title>sub_4B9100
 614 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="581.15" y="487.37" width="10.02" height="15.16" class="s"><title>sub_4B8120
 530 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="545.49" y="503.13" width="11.31" height="13.19" class="s"><title>sub_4B8A00
 520 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="545.49" y="516.92" width="11.31" height="9.27" class="s"><title>sub_4B8880
 372 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="545.49" y="526.79" width="11.31" height="9.11" class="s"><title>sub_4B8570
 366 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="557.39" y="503.13" width="8.51" height="9.28" class="s"><title>sub_4B8340
 285 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="557.39" y="513.01" width="8.51" height="7.83" class="s"><title>sub_4B8CC0
 243 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="557.39" y="521.44" width="8.51" height="7.58" class="s"><title>sub_4B7A90
 236 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="557.39" y="529.63" width="8.51" height="6.27" class="s"><title>sub_4B78A0
 198 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="566.50" y="503.13" width="8.20" height="6.15" class="s"><title>sub_4B9040
 188 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="575.30" y="503.13" width="8.06" height="6.15" class="s"><title>sub_4B8ED0
 185 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="583.96" y="503.13" width="7.22" height="6.15" class="s"><title>sub_4B84C0
 167 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="566.50" y="509.88" width="6.02" height="7.22" class="s"><title>sub_4B8030
 164 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="573.12" y="509.88" width="5.78" height="7.22" class="s"><title>sub_4B8DC0
 158 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="579.50" y="509.88" width="5.54" height="7.22" class="s"><title>sub_4B7760
 152 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="585.63" y="509.88" width="5.54" height="7.22" class="s"><title>sub_4B7800
 152 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="566.50" y="517.70" width="6.07" height="5.98" class="s"><title>sub_4B76D0
 139 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="566.50" y="524.28" width="6.07" height="5.51" class="s"><title>sub_4B7970
 129 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="566.50" y="530.39" width="6.07" height="5.51" class="s"><title>sub_4B7A00
 129 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="573.17" y="517.70" width="6.22" height="5.33" class="s"><title>sub_4B8F90
 128 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="579.99" y="517.70" width="5.48" height="5.33" class="s"><title>sub_4B86E0
 114 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="586.07" y="517.70" width="5.10" height="5.33" class="s"><title>sub_4B8E60
 107 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="573.17" y="523.63" width="4.16" height="5.90" class="s"><title>sub_4B8810
 98 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="573.17" y="530.13" width="4.16" height="5.77" class="s"><title>sub_4B8460
 96 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="577.93" y="523.63" width="4.90" height="4.11" class="s"><title>sub_4B93C0
 82 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="577.93" y="528.34" width="4.90" height="3.77" class="s"><title>sub_4B9370
 76 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="577.93" y="532.70" width="4.90" height="3.19" class="s"><title>sub_4B87A0
 66 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
-<rect x="583.43" y="523.63" width="3.61" height="4.13" class="s"><title>sub_4B8C80
-63 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
+<rect x="583.43" y="523.63" width="3.61" height="4.13" class="m"><title>NodeMap::eraseTree
+63 bytes, matching
+src/engine/core/string_map.cpp</title></rect>
 <rect x="587.63" y="523.63" width="3.54" height="4.13" class="s"><title>sub_4B80E0
 62 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="583.43" y="528.36" width="3.24" height="3.84" class="s"><title>sub_4B8C40
 54 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
-<rect x="583.43" y="532.80" width="3.24" height="3.10" class="s"><title>sub_4B8C10
-45 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
-<rect x="587.27" y="528.36" width="3.90" height="2.14" class="s"><title>sub_4B9010
-39 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
+<rect x="583.43" y="532.80" width="3.24" height="3.10" class="m"><title>newHeadNode
+45 bytes, matching
+src/engine/core/string_map.cpp</title></rect>
+<rect x="587.27" y="528.36" width="3.90" height="2.14" class="m"><title>clearRegistry
+39 bytes, matching
+src/engine/core/string_map.cpp</title></rect>
 <rect x="587.27" y="531.09" width="3.90" height="1.93" class="s"><title>sub_4B8760
 36 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="587.27" y="533.62" width="2.04" height="2.28" class="s"><title>sub_4B87F0
 24 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
 <rect x="589.60" y="533.32" width="1.87" height="1.52" class="s"><title>sub_4B9420
 9 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
-<rect x="589.60" y="534.84" width="1.87" height="1.35" class="s"><title>sub_4B8790
-8 bytes, not rewritten
-src/unsorted/4B/tu_4B76D0.cpp</title></rect>
+src/engine/core/string_map.cpp</title></rect>
+<rect x="589.60" y="534.84" width="1.87" height="1.35" class="m"><title>StrKeyed::dtorKey
+8 bytes, matching
+src/engine/core/string_map.cpp</title></rect>
 <rect x="545.49" y="538.49" width="17.48" height="19.69" class="m"><title>cid_slot_load_glyph
 1162 bytes, matching
 src/engine/freetype/type1cid.cpp</title></rect>
@@ -8944,8 +8944,8 @@ src/unsorted/48/tu_4811E0.cpp</title></rect>
 <rect x="726.90" y="50.14" width="5.21" height="3.61" class="s"><title>sub_482FA0
 78 bytes, not rewritten
 src/unsorted/48/tu_4811E0.cpp</title></rect>
-<rect x="732.41" y="49.84" width="1.19" height="4.21" class="s"><title>sub_482FF0
-16 bytes, not rewritten
+<rect x="732.41" y="49.84" width="1.19" height="4.21" class="m"><title>getShort6288F0
+16 bytes, matching
 src/unsorted/48/tu_4811E0.cpp</title></rect>
 <rect x="735.90" y="13.30" width="16.03" height="22.40" class="s"><title>sub_4E8B30
 1221 bytes, not rewritten
@@ -9691,8 +9691,8 @@ src/unsorted/4D/tu_4DA4B0.cpp</title></rect>
 <rect x="674.62" y="95.68" width="2.96" height="1.90" class="s"><title>sub_4DB170
 18 bytes, not rewritten
 src/unsorted/4D/tu_4DA4B0.cpp</title></rect>
-<rect x="677.58" y="95.68" width="1.97" height="1.90" class="s"><title>sub_4DA530
-12 bytes, not rewritten
+<rect x="677.58" y="95.68" width="1.97" height="1.90" class="m"><title>isWord74C000Thirteen
+12 bytes, matching
 src/unsorted/4D/tu_4DA4B0.cpp</title></rect>
 <rect x="639.96" y="99.88" width="16.73" height="12.01" class="m"><title>Concurrency::details::WorkSearchContext::SearchCacheLocal
 702 bytes, matching
@@ -10000,11 +10000,11 @@ src/unsorted/48/tu_48C0C0.cpp</title></rect>
 <rect x="676.44" y="263.43" width="2.81" height="1.41" class="s"><title>sub_48CDD0
 22 bytes, not rewritten
 src/unsorted/48/tu_48C0C0.cpp</title></rect>
-<rect x="676.14" y="265.14" width="1.81" height="2.92" class="s"><title>sub_48D4E0
-17 bytes, not rewritten
+<rect x="676.14" y="265.14" width="1.81" height="2.92" class="p"><title>resetState73E480
+17 bytes, non matching
 src/unsorted/48/tu_48C0C0.cpp</title></rect>
-<rect x="677.95" y="265.14" width="1.60" height="2.92" class="s"><title>sub_48D540
-15 bytes, not rewritten
+<rect x="677.95" y="265.14" width="1.60" height="2.92" class="m"><title>setWord73E412
+15 bytes, matching
 src/unsorted/48/tu_48C0C0.cpp</title></rect>
 <rect x="639.96" y="270.36" width="18.65" height="39.04" class="s"><title>sub_4D0A10
 2455 bytes, not rewritten
@@ -10830,94 +10830,94 @@ src/unsorted/4B/tu_4B0580.cpp</title></rect>
 src/unsorted/4B/tu_4B0580.cpp</title></rect>
 <rect x="1000.02" y="56.35" width="18.50" height="13.03" class="s"><title>sub_5A3C80
 843 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1019.11" y="56.35" width="8.78" height="13.03" class="s"><title>sub_5A41C0
 414 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1028.49" y="56.35" width="7.89" height="13.03" class="s"><title>sub_5A3A70
 375 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1000.02" y="69.98" width="8.89" height="11.27" class="s"><title>sub_5A4010
 365 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1000.02" y="81.85" width="8.89" height="11.20" class="s"><title>??$_Insert@PAE@?$vector@EV?$allocator@E@std@@@std@@QAEXV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@E@std@@@std@@@1@PAE1Uforward_iterator_tag@1@@Z
 363 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1009.51" y="69.98" width="6.49" height="8.45" class="s"><title>sub_5A4430
 208 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1009.51" y="79.03" width="6.49" height="8.15" class="s"><title>sub_5A4360
 201 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1009.51" y="87.78" width="6.49" height="5.27" class="s"><title>sub_5A3BF0
 135 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1016.60" y="69.98" width="6.30" height="5.26" class="s"><title>sub_5A46A0
 131 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1023.50" y="69.98" width="6.14" height="5.26" class="s"><title>sub_5A4620
 128 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1030.24" y="69.98" width="6.14" height="5.26" class="s"><title>sub_5A48B0
 128 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1016.60" y="75.84" width="5.85" height="5.53" class="s"><title>sub_5A4940
 128 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1016.60" y="81.97" width="5.85" height="5.24" class="s"><title>sub_5A4730
 122 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1016.60" y="87.81" width="5.85" height="5.24" class="s"><title>sub_5A4830
 122 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1023.05" y="75.84" width="4.87" height="5.89" class="s"><title>sub_5A47B0
 115 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1028.52" y="75.84" width="3.82" height="5.89" class="s"><title>sub_5A4AB0
 93 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1032.94" y="75.84" width="3.44" height="5.89" class="s"><title>sub_5A3A10
 85 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1023.05" y="82.33" width="4.47" height="4.45" class="s"><title>sub_5A4A30
 83 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1023.05" y="87.38" width="4.47" height="2.63" class="s"><title>sub_5A4180
 53 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
-<rect x="1023.05" y="90.61" width="4.47" height="2.44" class="s"><title>sub_5A3FD0
-50 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
-<rect x="1028.12" y="82.33" width="2.41" height="3.09" class="s"><title>sub_5A45C0
-36 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
+<rect x="1023.05" y="90.61" width="4.47" height="2.44" class="m"><title>inRanges
+50 bytes, matching
+src/engine/core/regex_ranges.cpp</title></rect>
+<rect x="1028.12" y="82.33" width="2.41" height="3.09" class="p"><title>callWithTempZero
+36 bytes, non matching
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1031.13" y="82.33" width="2.41" height="3.09" class="s"><title>sub_5A45F0
 36 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
-<rect x="1034.14" y="82.33" width="2.24" height="3.09" class="s"><title>sub_5A4500
-34 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
+<rect x="1034.14" y="82.33" width="2.24" height="3.09" class="p"><title>callWithTemp
+34 bytes, non matching
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1028.12" y="86.02" width="2.15" height="3.21" class="s"><title>sub_5A4530
 34 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1028.12" y="89.84" width="2.15" height="3.21" class="s"><title>sub_5A4560
 34 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1030.87" y="86.02" width="2.65" height="2.63" class="s"><title>sub_5A4590
 34 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
-<rect x="1034.12" y="86.02" width="2.26" height="2.63" class="s"><title>sub_5A49D0
-30 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
+<rect x="1034.12" y="86.02" width="2.26" height="2.63" class="m"><title>callUninit
+30 bytes, matching
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1030.87" y="89.26" width="3.61" height="1.60" class="s"><title>sub_5A49F0
 30 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1030.87" y="91.46" width="3.61" height="1.60" class="s"><title>sub_5A4A10
 30 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
-<rect x="1034.79" y="88.96" width="1.90" height="4.40" class="s"><title>sub_5A4A90
-27 bytes, not rewritten
-src/unsorted/5A/tu_5A38A0.cpp</title></rect>
+src/engine/core/regex_ranges.cpp</title></rect>
+<rect x="1034.79" y="88.96" width="1.90" height="4.40" class="m"><title>copyPair
+27 bytes, matching
+src/engine/core/regex_ranges.cpp</title></rect>
 <rect x="1038.98" y="56.35" width="20.22" height="12.21" class="s"><title>sub_49AD60
 864 bytes, not rewritten
 src/unsorted/49/tu_49A310.cpp</title></rect>
@@ -11308,8 +11308,8 @@ src/unsorted/4B/tu_4B6660.cpp</title></rect>
 <rect x="710.64" y="247.80" width="1.60" height="2.05" class="s"><title>sub_4B7030
 19 bytes, not rewritten
 src/unsorted/4B/tu_4B6660.cpp</title></rect>
-<rect x="712.54" y="247.50" width="1.74" height="2.65" class="s"><title>sub_4B7060
-15 bytes, not rewritten
+<rect x="712.54" y="247.50" width="1.74" height="2.65" class="m"><title>Vec8Arr::get
+15 bytes, matching
 src/unsorted/4B/tu_4B6660.cpp</title></rect>
 <rect x="714.28" y="247.50" width="0.93" height="2.65" class="s"><title>sub_4B7050
 8 bytes, not rewritten
@@ -11875,8 +11875,8 @@ src/unsorted/4B/tu_4BCCE0.cpp</title></rect>
 <rect x="884.54" y="126.11" width="2.55" height="3.08" class="s"><title>sub_4BCCE0
 38 bytes, not rewritten
 src/unsorted/4B/tu_4BCCE0.cpp</title></rect>
-<rect x="887.39" y="125.81" width="1.24" height="3.68" class="s"><title>sub_4BD4B0
-15 bytes, not rewritten
+<rect x="887.39" y="125.81" width="1.24" height="3.68" class="m"><title>setWord740056
+15 bytes, matching
 src/unsorted/4B/tu_4BCCE0.cpp</title></rect>
 <rect x="890.94" y="95.65" width="31.61" height="16.42" class="m"><title>fnt_face_get_dll_font
 1798 bytes, matching
@@ -12037,8 +12037,8 @@ src/unsorted/4E/tu_4EE5D0.cpp</title></rect>
 <rect x="1020.61" y="125.79" width="2.88" height="1.90" class="s"><title>sub_4EF490
 18 bytes, not rewritten
 src/unsorted/4E/tu_4EE5D0.cpp</title></rect>
-<rect x="1020.61" y="127.69" width="2.88" height="1.80" class="s"><title>sub_4EF250
-17 bytes, not rewritten
+<rect x="1020.61" y="127.69" width="2.88" height="1.80" class="m"><title>getField2CAddr
+17 bytes, matching
 src/unsorted/4E/tu_4EE5D0.cpp</title></rect>
 <rect x="1025.79" y="95.65" width="14.90" height="11.25" class="s"><title>sub_503210
 604 bytes, not rewritten
@@ -12727,14 +12727,14 @@ src/unsorted/4E/tu_4ED880.cpp</title></rect>
 <rect x="747.23" y="517.89" width="2.17" height="2.35" class="s"><title>sub_4EE4C0
 27 bytes, not rewritten
 src/unsorted/4E/tu_4ED880.cpp</title></rect>
-<rect x="744.16" y="520.54" width="1.85" height="2.78" class="s"><title>sub_4EE510
-17 bytes, not rewritten
+<rect x="744.16" y="520.54" width="1.85" height="2.78" class="m"><title>getField34
+17 bytes, matching
 src/unsorted/4E/tu_4ED880.cpp</title></rect>
-<rect x="746.01" y="520.54" width="1.85" height="2.78" class="s"><title>sub_4EE560
-17 bytes, not rewritten
+<rect x="746.01" y="520.54" width="1.85" height="2.78" class="m"><title>getField3C
+17 bytes, matching
 src/unsorted/4E/tu_4ED880.cpp</title></rect>
-<rect x="747.86" y="520.54" width="1.85" height="2.78" class="s"><title>sub_4EE5B0
-17 bytes, not rewritten
+<rect x="747.86" y="520.54" width="1.85" height="2.78" class="m"><title>getField70Addr
+17 bytes, matching
 src/unsorted/4E/tu_4ED880.cpp</title></rect>
 <rect x="717.50" y="525.62" width="16.84" height="15.27" class="s"><title>sub_415EF0
 914 bytes, not rewritten
@@ -12775,8 +12775,8 @@ src/unsorted/49/tu_49B630.cpp</title></rect>
 <rect x="745.71" y="580.39" width="3.69" height="5.11" class="s"><title>sub_49B810
 81 bytes, not rewritten
 src/unsorted/49/tu_49B630.cpp</title></rect>
-<rect x="745.41" y="585.80" width="4.29" height="1.20" class="s"><title>sub_49C3A0
-17 bytes, not rewritten
+<rect x="745.41" y="585.80" width="4.29" height="1.20" class="p"><title>takeWord73E7D8
+17 bytes, non matching
 src/unsorted/49/tu_49B630.cpp</title></rect>
 <rect x="752.01" y="131.79" width="18.48" height="28.36" class="s"><title>AgPCFileSystem::vfn_3
 1827 bytes, not rewritten
@@ -12943,8 +12943,8 @@ src/unsorted/43/tu_432E90.cpp</title></rect>
 <rect x="920.33" y="155.31" width="3.62" height="3.84" class="s"><title>sub_4333B0
 62 bytes, not rewritten
 src/unsorted/43/tu_432E90.cpp</title></rect>
-<rect x="920.03" y="159.45" width="4.22" height="1.00" class="s"><title>sub_432EE0
-14 bytes, not rewritten
+<rect x="920.03" y="159.45" width="4.22" height="1.00" class="m"><title>isWord6A8D54Max
+14 bytes, matching
 src/unsorted/43/tu_432E90.cpp</title></rect>
 <rect x="926.55" y="131.79" width="10.07" height="16.03" class="s"><title>sub_526A50
 588 bytes, not rewritten
@@ -14071,11 +14071,11 @@ src/unsorted/49/tu_495D20.cpp</title></rect>
 <rect x="807.25" y="185.19" width="2.51" height="1.80" class="s"><title>sub_4966A0
 25 bytes, not rewritten
 src/unsorted/49/tu_495D20.cpp</title></rect>
-<rect x="806.95" y="187.29" width="1.55" height="3.08" class="s"><title>sub_4967D0
-16 bytes, not rewritten
+<rect x="806.95" y="187.29" width="1.55" height="3.08" class="m"><title>setState73E4BC1
+16 bytes, matching
 src/unsorted/49/tu_495D20.cpp</title></rect>
-<rect x="808.50" y="187.29" width="1.55" height="3.08" class="s"><title>sub_4967E0
-16 bytes, not rewritten
+<rect x="808.50" y="187.29" width="1.55" height="3.08" class="m"><title>setState73E4BC8
+16 bytes, matching
 src/unsorted/49/tu_495D20.cpp</title></rect>
 <rect x="812.35" y="162.75" width="10.41" height="9.32" class="m"><title>vp8_sixtap_predict16x16_mmx
 366 bytes, matching
@@ -14326,8 +14326,8 @@ src/unsorted/47/tu_476380.cpp</title></rect>
 <rect x="984.00" y="186.71" width="3.18" height="1.88" class="s"><title>sub_476420
 20 bytes, not rewritten
 src/unsorted/47/tu_476380.cpp</title></rect>
-<rect x="984.00" y="188.59" width="2.17" height="1.78" class="s"><title>sub_476700
-13 bytes, not rewritten
+<rect x="984.00" y="188.59" width="2.17" height="1.78" class="m"><title>isNotSixteen
+13 bytes, matching
 src/unsorted/47/tu_476380.cpp</title></rect>
 <rect x="986.17" y="188.59" width="1.00" height="1.78" class="s"><title>sub_476E50
 6 bytes, not rewritten
@@ -14518,8 +14518,8 @@ src/unsorted/4D/tu_4DBA60.cpp</title></rect>
 <rect x="1156.36" y="187.11" width="2.08" height="1.73" class="s"><title>sub_4DBA60
 21 bytes, not rewritten
 src/unsorted/4D/tu_4DBA60.cpp</title></rect>
-<rect x="1156.06" y="189.15" width="2.68" height="1.22" class="s"><title>sub_4DC3F0
-11 bytes, not rewritten
+<rect x="1156.06" y="189.15" width="2.68" height="1.22" class="m"><title>resetBoundTexture
+11 bytes, matching
 src/unsorted/4D/tu_4DBA60.cpp</title></rect>
 <rect x="1161.03" y="162.75" width="25.67" height="12.81" class="s"><title>sub_4E3ED0
 1185 bytes, not rewritten
@@ -14887,11 +14887,11 @@ src/unsorted/4E/tu_4E3460.cpp</title></rect>
 <rect x="805.06" y="498.50" width="3.81" height="4.31" class="s"><title>sub_4E3620
 73 bytes, not rewritten
 src/unsorted/4E/tu_4E3460.cpp</title></rect>
-<rect x="804.76" y="503.11" width="2.29" height="1.68" class="s"><title>sub_4E3460
-13 bytes, not rewritten
+<rect x="804.76" y="503.11" width="2.29" height="1.68" class="m"><title>resetGlobal74D268
+13 bytes, matching
 src/unsorted/4E/tu_4E3460.cpp</title></rect>
-<rect x="807.05" y="503.11" width="2.11" height="1.68" class="s"><title>sub_4E3D00
-12 bytes, not rewritten
+<rect x="807.05" y="503.11" width="2.11" height="1.68" class="m"><title>??0StrHolder@@QAE@XZ
+12 bytes, matching
 src/unsorted/4E/tu_4E3460.cpp</title></rect>
 <rect x="782.37" y="507.09" width="11.68" height="24.87" class="s"><title>std::locale::facet::fn_53C860
 1056 bytes, not rewritten
@@ -15385,14 +15385,14 @@ src/unsorted/51/tu_51B940.cpp</title></rect>
 <rect x="1050.46" y="215.79" width="3.46" height="2.38" class="s"><title>sub_51BD70
 41 bytes, not rewritten
 src/unsorted/51/tu_51B940.cpp</title></rect>
-<rect x="1054.22" y="212.51" width="2.18" height="1.76" class="s"><title>sub_51BAA0
-13 bytes, not rewritten
+<rect x="1054.22" y="212.51" width="2.18" height="1.76" class="m"><title>BitsOwner::notBit0
+13 bytes, matching
 src/unsorted/51/tu_51B940.cpp</title></rect>
-<rect x="1054.22" y="214.27" width="2.18" height="1.76" class="s"><title>sub_51BAB0
-13 bytes, not rewritten
+<rect x="1054.22" y="214.27" width="2.18" height="1.76" class="m"><title>BitsOwner::bit1
+13 bytes, matching
 src/unsorted/51/tu_51B940.cpp</title></rect>
-<rect x="1054.22" y="216.03" width="2.18" height="1.49" class="s"><title>sub_51BAC0
-11 bytes, not rewritten
+<rect x="1054.22" y="216.03" width="2.18" height="1.49" class="m"><title>BitsOwner::bit0
+11 bytes, matching
 src/unsorted/51/tu_51B940.cpp</title></rect>
 <rect x="1054.22" y="217.52" width="2.18" height="0.95" class="s"><title>sub_51BAD0
 7 bytes, not rewritten
@@ -15700,8 +15700,8 @@ src/unsorted/51/tu_51EAE0.cpp</title></rect>
 <rect x="831.88" y="292.65" width="3.57" height="5.59" class="s"><title>sub_51EBC0
 88 bytes, not rewritten
 src/unsorted/51/tu_51EAE0.cpp</title></rect>
-<rect x="831.58" y="298.54" width="4.17" height="0.84" class="s"><title>sub_51ED10
-12 bytes, not rewritten
+<rect x="831.58" y="298.54" width="4.17" height="0.84" class="p"><title>Fwd48::forward
+12 bytes, non matching
 src/unsorted/51/tu_51EAE0.cpp</title></rect>
 <rect x="811.46" y="301.69" width="11.06" height="23.89" class="s"><title>AgResourceVertexBufferD3D::fn_54AC70
 974 bytes, not rewritten
@@ -15844,11 +15844,11 @@ src/unsorted/51/tu_51A970.cpp</title></rect>
 <rect x="833.25" y="477.50" width="2.21" height="2.84" class="s"><title>sub_51A970
 33 bytes, not rewritten
 src/unsorted/51/tu_51A970.cpp</title></rect>
-<rect x="832.95" y="480.64" width="1.57" height="2.61" class="s"><title>sub_51AF80
-14 bytes, not rewritten
+<rect x="832.95" y="480.64" width="1.57" height="2.61" class="m"><title>getTickMs
+14 bytes, matching
 src/unsorted/51/tu_51A970.cpp</title></rect>
-<rect x="834.52" y="480.64" width="1.23" height="2.61" class="s"><title>sub_51AF00
-11 bytes, not rewritten
+<rect x="834.52" y="480.64" width="1.23" height="2.61" class="m"><title>Wrap8::setInnerFlag
+11 bytes, matching
 src/unsorted/51/tu_51A970.cpp</title></rect>
 <rect x="811.46" y="485.55" width="12.88" height="23.47" class="s"><title>AgSDLInputManager::vfn_3
 1108 bytes, not rewritten
@@ -16747,8 +16747,8 @@ src/unsorted/55/tu_550C10.cpp</title></rect>
 <rect x="927.17" y="266.09" width="1.83" height="1.77" class="s"><title>sub_550CD0
 20 bytes, not rewritten
 src/unsorted/55/tu_550C10.cpp</title></rect>
-<rect x="929.30" y="265.79" width="1.58" height="2.37" class="s"><title>sub_550CC0
-13 bytes, not rewritten
+<rect x="929.30" y="265.79" width="1.58" height="2.37" class="m"><title>FloatArr::get
+13 bytes, matching
 src/unsorted/55/tu_550C10.cpp</title></rect>
 <rect x="933.18" y="246.76" width="12.61" height="12.19" class="s"><title>sub_512480
 588 bytes, not rewritten
@@ -16861,8 +16861,8 @@ src/unsorted/4B/tu_4BC320.cpp</title></rect>
 <rect x="1046.58" y="263.99" width="1.65" height="2.59" class="s"><title>sub_4BC320
 25 bytes, not rewritten
 src/unsorted/4B/tu_4BC320.cpp</title></rect>
-<rect x="1046.28" y="266.88" width="2.25" height="1.28" class="s"><title>sub_4BC340
-10 bytes, not rewritten
+<rect x="1046.28" y="266.88" width="2.25" height="1.28" class="m"><title>callPair4D0090
+10 bytes, matching
 src/unsorted/4B/tu_4BC320.cpp</title></rect>
 <rect x="1050.83" y="246.76" width="20.66" height="10.63" class="s"><title>sub_4AC620
 832 bytes, not rewritten
@@ -17545,11 +17545,11 @@ src/unsorted/4D/tu_4D7880.cpp</title></rect>
 <rect x="880.06" y="582.00" width="2.40" height="1.86" class="s"><title>sub_4D7A30
 26 bytes, not rewritten
 src/unsorted/4D/tu_4D7880.cpp</title></rect>
-<rect x="879.76" y="584.16" width="1.50" height="2.84" class="s"><title>sub_4D7880
-15 bytes, not rewritten
+<rect x="879.76" y="584.16" width="1.50" height="2.84" class="m"><title>getTable748240
+15 bytes, matching
 src/unsorted/4D/tu_4D7880.cpp</title></rect>
-<rect x="881.26" y="584.16" width="1.50" height="2.84" class="s"><title>sub_4D78C0
-15 bytes, not rewritten
+<rect x="881.26" y="584.16" width="1.50" height="2.84" class="m"><title>getTable748248
+15 bytes, matching
 src/unsorted/4D/tu_4D7880.cpp</title></rect>
 <rect x="885.06" y="270.46" width="8.01" height="7.02" class="s"><title>sub_5A31A0
 231 bytes, not rewritten
@@ -17971,8 +17971,8 @@ src/unsorted/47/tu_473D20.cpp</title></rect>
 <rect x="899.36" y="417.58" width="3.43" height="2.20" class="s"><title>sub_473E40
 40 bytes, not rewritten
 src/unsorted/47/tu_473D20.cpp</title></rect>
-<rect x="903.09" y="417.28" width="1.51" height="2.80" class="s"><title>sub_474270
-15 bytes, not rewritten
+<rect x="903.09" y="417.28" width="1.51" height="2.80" class="m"><title>getTable73CFA8
+15 bytes, matching
 src/unsorted/47/tu_473D20.cpp</title></rect>
 <rect x="885.06" y="422.38" width="7.83" height="9.17" class="s"><title>sub_483530
 292 bytes, not rewritten
@@ -18421,11 +18421,11 @@ src/unsorted/50/tu_501620.cpp</title></rect>
 <rect x="1138.62" y="307.88" width="6.02" height="3.74" class="s"><title>sub_501AE0
 103 bytes, not rewritten
 src/unsorted/50/tu_501620.cpp</title></rect>
-<rect x="1144.94" y="307.58" width="1.47" height="2.47" class="s"><title>sub_501AC0
-13 bytes, not rewritten
+<rect x="1144.94" y="307.58" width="1.47" height="2.47" class="m"><title>Callback::invoke
+13 bytes, matching
 src/unsorted/50/tu_501620.cpp</title></rect>
-<rect x="1146.42" y="307.58" width="1.36" height="2.47" class="s"><title>sub_501AB0
-12 bytes, not rewritten
+<rect x="1146.42" y="307.58" width="1.36" height="2.47" class="m"><title>callV2
+12 bytes, matching
 src/unsorted/50/tu_501620.cpp</title></rect>
 <rect x="1144.94" y="310.04" width="1.04" height="1.88" class="s"><title>sub_501A90
 7 bytes, not rewritten
@@ -18589,8 +18589,8 @@ src/unsorted/4F/tu_4F2760.cpp</title></rect>
 <rect x="922.50" y="447.55" width="2.72" height="1.84" class="s"><title>sub_4F2840
 18 bytes, not rewritten
 src/unsorted/4F/tu_4F2760.cpp</title></rect>
-<rect x="922.50" y="449.39" width="2.72" height="1.64" class="s"><title>sub_4F2760
-16 bytes, not rewritten
+<rect x="922.50" y="449.39" width="2.72" height="1.64" class="m"><title>getRec755AE8
+16 bytes, matching
 src/unsorted/4F/tu_4F2760.cpp</title></rect>
 <rect x="906.90" y="453.33" width="14.05" height="17.06" class="m"><title>__init_monetary
 930 bytes, matching
@@ -19300,8 +19300,8 @@ src/unsorted/4A/tu_4A5EA0.cpp</title></rect>
 <rect x="941.62" y="584.21" width="1.87" height="2.49" class="s"><title>sub_4A6280
 28 bytes, not rewritten
 src/unsorted/4A/tu_4A5EA0.cpp</title></rect>
-<rect x="943.79" y="583.91" width="1.06" height="3.09" class="s"><title>sub_4A61B0
-12 bytes, not rewritten
+<rect x="943.79" y="583.91" width="1.06" height="3.09" class="m"><title>setWord73EA86
+12 bytes, matching
 src/unsorted/4A/tu_4A5EA0.cpp</title></rect>
 <rect x="947.15" y="333.22" width="16.54" height="15.17" class="s"><title>sub_5352D0
 992 bytes, not rewritten
@@ -19897,8 +19897,8 @@ src/unsorted/49/tu_49F350.cpp</title></rect>
 <rect x="1167.26" y="362.79" width="1.80" height="1.82" class="s"><title>sub_49F680
 22 bytes, not rewritten
 src/unsorted/49/tu_49F350.cpp</title></rect>
-<rect x="1169.36" y="362.49" width="1.09" height="2.42" class="s"><title>sub_49F670
-10 bytes, not rewritten
+<rect x="1169.36" y="362.49" width="1.09" height="2.42" class="p"><title>setWord73E9C0
+10 bytes, non matching
 src/unsorted/49/tu_49F350.cpp</title></rect>
 <rect x="1172.75" y="350.99" width="6.26" height="6.57" class="s"><title>sub_4C4E00
 186 bytes, not rewritten
@@ -20704,8 +20704,8 @@ src/unsorted/50/tu_507060.cpp</title></rect>
 <rect x="1184.69" y="390.00" width="2.01" height="3.17" class="s"><title>sub_5071E0
 39 bytes, not rewritten
 src/unsorted/50/tu_507060.cpp</title></rect>
-<rect x="1184.39" y="393.47" width="2.61" height="1.06" class="s"><title>sub_507060
-11 bytes, not rewritten
+<rect x="1184.39" y="393.47" width="2.61" height="1.06" class="m"><title>callSystemV6
+11 bytes, matching
 src/unsorted/50/tu_507060.cpp</title></rect>
 <rect x="995.87" y="396.83" width="6.33" height="11.41" class="s"><title>sub_5008A0
 330 bytes, not rewritten
@@ -21091,17 +21091,17 @@ src/unsorted/47/tu_470C60.cpp</title></rect>
 <rect x="1015.60" y="432.21" width="1.47" height="1.54" class="s"><title>sub_470CF0
 18 bytes, not rewritten
 src/unsorted/47/tu_470C60.cpp</title></rect>
-<rect x="1017.37" y="429.77" width="1.81" height="2.18" class="s"><title>sub_470C80
-16 bytes, not rewritten
+<rect x="1017.37" y="429.77" width="1.81" height="2.18" class="m"><title>getRec696BD0
+16 bytes, matching
 src/unsorted/47/tu_470C60.cpp</title></rect>
-<rect x="1019.18" y="429.77" width="1.81" height="2.18" class="s"><title>sub_470E20
-16 bytes, not rewritten
+<rect x="1019.18" y="429.77" width="1.81" height="2.18" class="m"><title>getRec696978
+16 bytes, matching
 src/unsorted/47/tu_470C60.cpp</title></rect>
-<rect x="1017.37" y="431.95" width="1.87" height="2.11" class="s"><title>sub_470E30
-16 bytes, not rewritten
+<rect x="1017.37" y="431.95" width="1.87" height="2.11" class="m"><title>getRec696998
+16 bytes, matching
 src/unsorted/47/tu_470C60.cpp</title></rect>
-<rect x="1019.24" y="431.95" width="1.75" height="2.11" class="s"><title>sub_470DA0
-15 bytes, not rewritten
+<rect x="1019.24" y="431.95" width="1.75" height="2.11" class="m"><title>getRec696728
+15 bytes, matching
 src/unsorted/47/tu_470C60.cpp</title></rect>
 <rect x="1010.01" y="436.35" width="8.96" height="10.43" class="s"><title>sub_483FA0
 428 bytes, not rewritten
@@ -21751,17 +21751,17 @@ src/unsorted/49/tu_49F170.cpp</title></rect>
 <rect x="1075.69" y="440.58" width="1.80" height="3.42" class="s"><title>sub_49F200
 26 bytes, not rewritten
 src/unsorted/49/tu_49F170.cpp</title></rect>
-<rect x="1077.49" y="440.58" width="2.21" height="1.71" class="s"><title>sub_49F2E0
-16 bytes, not rewritten
+<rect x="1077.49" y="440.58" width="2.21" height="1.71" class="m"><title>setState73E8409
+16 bytes, matching
 src/unsorted/49/tu_49F170.cpp</title></rect>
-<rect x="1077.49" y="442.29" width="2.21" height="1.71" class="s"><title>sub_49F2F0
-16 bytes, not rewritten
+<rect x="1077.49" y="442.29" width="2.21" height="1.71" class="m"><title>setState73E8408
+16 bytes, matching
 src/unsorted/49/tu_49F170.cpp</title></rect>
-<rect x="1079.70" y="440.58" width="1.45" height="1.79" class="s"><title>sub_49F330
-11 bytes, not rewritten
+<rect x="1079.70" y="440.58" width="1.45" height="1.79" class="m"><title>setFloat73E854
+11 bytes, matching
 src/unsorted/49/tu_49F170.cpp</title></rect>
-<rect x="1079.70" y="442.37" width="1.45" height="1.63" class="s"><title>sub_49F190
-10 bytes, not rewritten
+<rect x="1079.70" y="442.37" width="1.45" height="1.63" class="p"><title>setWord73E8C4
+10 bytes, non matching
 src/unsorted/49/tu_49F170.cpp</title></rect>
 <rect x="1083.45" y="434.74" width="4.70" height="8.97" class="s"><title>sub_486960
 215 bytes, not rewritten
@@ -22123,11 +22123,11 @@ src/unsorted/46/tu_463340.cpp</title></rect>
 <rect x="1146.22" y="452.05" width="6.52" height="2.88" class="s"><title>sub_463430
 108 bytes, not rewritten
 src/unsorted/46/tu_463340.cpp</title></rect>
-<rect x="1153.04" y="451.75" width="1.72" height="1.74" class="s"><title>sub_463420
-13 bytes, not rewritten
+<rect x="1153.04" y="451.75" width="1.72" height="1.74" class="m"><title>callDB600One
+13 bytes, matching
 src/unsorted/46/tu_463340.cpp</title></rect>
-<rect x="1153.04" y="453.49" width="1.72" height="1.74" class="s"><title>sub_4634A0
-13 bytes, not rewritten
+<rect x="1153.04" y="453.49" width="1.72" height="1.74" class="m"><title>callDB600Zero
+13 bytes, matching
 src/unsorted/46/tu_463340.cpp</title></rect>
 <rect x="1157.06" y="446.30" width="8.21" height="4.35" class="p"><title>AgTimer::update
 190 bytes, non matching
@@ -22414,8 +22414,8 @@ src/lib/crt/open.cpp</title></rect>
 <rect x="1057.46" y="549.57" width="7.41" height="7.37" class="s"><title>sub_432D60
 288 bytes, not rewritten
 src/unsorted/43/tu_432D50.cpp</title></rect>
-<rect x="1065.17" y="549.27" width="0.42" height="7.97" class="s"><title>sub_432D50
-15 bytes, not rewritten
+<rect x="1065.17" y="549.27" width="0.42" height="7.97" class="m"><title>setWord6A8D5A
+15 bytes, matching
 src/unsorted/43/tu_432D50.cpp</title></rect>
 <rect x="1057.46" y="559.53" width="3.74" height="3.49" class="m"><title>_recalloc_crt
 80 bytes, matching
@@ -22963,11 +22963,11 @@ src/unsorted/51/tu_5180F0.cpp</title></rect>
 <rect x="1082.78" y="476.79" width="1.60" height="3.54" class="s"><title>sub_5180F0
 27 bytes, not rewritten
 src/unsorted/51/tu_5180F0.cpp</title></rect>
-<rect x="1082.78" y="480.34" width="1.60" height="1.71" class="s"><title>sub_5181E0
-13 bytes, not rewritten
+<rect x="1082.78" y="480.34" width="1.60" height="1.71" class="m"><title>call517330Zero
+13 bytes, matching
 src/unsorted/51/tu_5180F0.cpp</title></rect>
-<rect x="1082.78" y="482.04" width="1.60" height="1.71" class="s"><title>sub_5181F0
-13 bytes, not rewritten
+<rect x="1082.78" y="482.04" width="1.60" height="1.71" class="m"><title>call517330One
+13 bytes, matching
 src/unsorted/51/tu_5180F0.cpp</title></rect>
 <rect x="1086.68" y="477.09" width="5.65" height="3.20" class="m"><title>AgExceptionHandler::vfn_0
 113 bytes, matching
@@ -23473,8 +23473,8 @@ src/unsorted/48/tu_4866F0.cpp</title></rect>
 <rect x="1089.22" y="510.42" width="2.97" height="4.48" class="s"><title>sub_486760
 92 bytes, not rewritten
 src/unsorted/48/tu_4866F0.cpp</title></rect>
-<rect x="1088.92" y="515.20" width="3.57" height="0.88" class="s"><title>sub_486750
-16 bytes, not rewritten
+<rect x="1088.92" y="515.20" width="3.57" height="0.88" class="m"><title>setState73E138
+16 bytes, matching
 src/unsorted/48/tu_4866F0.cpp</title></rect>
 <rect x="1086.18" y="518.39" width="4.26" height="5.37" class="s"><title>sub_4F26B0
 147 bytes, not rewritten
@@ -23965,8 +23965,8 @@ src/unsorted/49/tu_49F6C0.cpp</title></rect>
 <rect x="1174.88" y="506.16" width="3.31" height="1.51" class="s"><title>sub_49F740
 28 bytes, not rewritten
 src/unsorted/49/tu_49F6C0.cpp</title></rect>
-<rect x="1178.19" y="506.16" width="1.77" height="1.51" class="s"><title>sub_49F730
-15 bytes, not rewritten
+<rect x="1178.19" y="506.16" width="1.77" height="1.51" class="m"><title>setWord73E85A
+15 bytes, matching
 src/unsorted/49/tu_49F6C0.cpp</title></rect>
 <rect x="1182.27" y="502.67" width="4.43" height="4.71" class="s"><title>AgRenderList::vfn_0
 150 bytes, not rewritten
@@ -24226,11 +24226,11 @@ src/lib/std/std__Generic_error_category.cpp</title></rect>
 <rect x="1117.11" y="547.34" width="2.62" height="3.40" class="s"><title>sub_4D6F40
 82 bytes, not rewritten
 src/unsorted/4D/tu_4D6F40.cpp</title></rect>
-<rect x="1120.03" y="547.04" width="1.18" height="2.00" class="s"><title>sub_4D6FA0
-15 bytes, not rewritten
+<rect x="1120.03" y="547.04" width="1.18" height="2.00" class="m"><title>getFloat748260
+15 bytes, matching
 src/unsorted/4D/tu_4D6F40.cpp</title></rect>
-<rect x="1120.03" y="549.04" width="1.18" height="2.00" class="s"><title>sub_4D6FB0
-15 bytes, not rewritten
+<rect x="1120.03" y="549.04" width="1.18" height="2.00" class="m"><title>getFloat748258
+15 bytes, matching
 src/unsorted/4D/tu_4D6F40.cpp</title></rect>
 <rect x="1117.11" y="553.34" width="3.80" height="3.40" class="s"><title>NewAllocator&lt;AgConstantsBuffer,AgResource&gt;::vfn_1
 112 bytes, not rewritten
@@ -24253,11 +24253,11 @@ src/unsorted/4A/tu_4AFDF0.cpp</title></rect>
 <rect x="1116.11" y="585.44" width="4.07" height="2.26" class="s"><title>sub_4AFE20
 39 bytes, not rewritten
 src/unsorted/4A/tu_4AFDF0.cpp</title></rect>
-<rect x="1120.47" y="582.05" width="1.73" height="2.97" class="s"><title>sub_4AFE50
-15 bytes, not rewritten
+<rect x="1120.47" y="582.05" width="1.73" height="2.97" class="m"><title>getTable699270
+15 bytes, matching
 src/unsorted/4A/tu_4AFDF0.cpp</title></rect>
-<rect x="1120.47" y="585.03" width="1.73" height="2.97" class="s"><title>sub_4AFE60
-15 bytes, not rewritten
+<rect x="1120.47" y="585.03" width="1.73" height="2.97" class="m"><title>getTable6992AC
+15 bytes, matching
 src/unsorted/4A/tu_4AFDF0.cpp</title></rect>
 <rect x="1123.50" y="523.11" width="1.55" height="3.12" class="m"><title>resetSnapshot
 51 bytes, matching
@@ -24310,20 +24310,20 @@ src/lib/crt/VirtualProcessorRoot.cpp</title></rect>
 <rect x="1170.58" y="522.11" width="3.34" height="1.66" class="s"><title>sub_50FA10
 26 bytes, not rewritten
 src/unsorted/50/tu_50FA00.cpp</title></rect>
-<rect x="1174.22" y="521.81" width="1.97" height="2.26" class="s"><title>sub_50FA00
-13 bytes, not rewritten
+<rect x="1174.22" y="521.81" width="1.97" height="2.26" class="m"><title>Holder50::count38
+13 bytes, matching
 src/unsorted/50/tu_50FA00.cpp</title></rect>
-<rect x="1170.28" y="524.08" width="2.26" height="1.97" class="s"><title>sub_50FA30
-13 bytes, not rewritten
+<rect x="1170.28" y="524.08" width="2.26" height="1.97" class="m"><title>Holder50::count50
+13 bytes, matching
 src/unsorted/50/tu_50FA00.cpp</title></rect>
-<rect x="1170.28" y="526.05" width="2.26" height="1.97" class="s"><title>sub_50FA60
-13 bytes, not rewritten
+<rect x="1170.28" y="526.05" width="2.26" height="1.97" class="m"><title>Holder50::count20
+13 bytes, matching
 src/unsorted/50/tu_50FA00.cpp</title></rect>
-<rect x="1172.54" y="524.08" width="1.82" height="2.44" class="s"><title>sub_50FA70
-13 bytes, not rewritten
+<rect x="1172.54" y="524.08" width="1.82" height="2.44" class="m"><title>Holder50::count2c
+13 bytes, matching
 src/unsorted/50/tu_50FA00.cpp</title></rect>
-<rect x="1174.36" y="524.08" width="1.82" height="2.44" class="s"><title>sub_50FA80
-13 bytes, not rewritten
+<rect x="1174.36" y="524.08" width="1.82" height="2.44" class="m"><title>Holder50::count5c
+13 bytes, matching
 src/unsorted/50/tu_50FA00.cpp</title></rect>
 <rect x="1172.54" y="526.52" width="2.05" height="1.50" class="s"><title>sub_50FA50
 9 bytes, not rewritten
@@ -25039,8 +25039,8 @@ src/lib/std/std_basic_ostream.cpp</title></rect>
 <rect x="1180.58" y="585.93" width="1.33" height="2.07" class="s"><title>std::basic_ostream::vfn_8_2
 8 bytes, not rewritten
 src/lib/std/std_basic_ostream.cpp</title></rect>
-<rect x="1182.21" y="581.71" width="1.48" height="1.88" class="s"><title>sub_4E8010
-15 bytes, not rewritten
+<rect x="1182.21" y="581.71" width="1.48" height="1.88" class="m"><title>callAchievements
+15 bytes, matching
 src/unsorted/4E/tu_4E8010.cpp</title></rect>
 <rect x="1184.29" y="581.71" width="1.48" height="1.88" class="m"><title>@__security_check_cookie@4
 15 bytes, matching
@@ -25051,8 +25051,8 @@ src/engine/thread/sleep.cpp</title></rect>
 <rect x="1182.21" y="584.19" width="1.40" height="1.80" class="m"><title>_seterrormode
 14 bytes, matching
 src/lib/crt/seterrm.cpp</title></rect>
-<rect x="1181.91" y="586.29" width="2.00" height="1.71" class="s"><title>sub_4F47C0
-10 bytes, not rewritten
+<rect x="1181.91" y="586.29" width="2.00" height="1.71" class="m"><title>Flagged::setFlag
+10 bytes, matching
 src/unsorted/4F/tu_4F47C0.cpp</title></rect>
 <rect x="1183.91" y="583.89" width="1.36" height="2.01" class="m"><title>AgSimpleThreadHost::vfn_2
 8 bytes, matching
