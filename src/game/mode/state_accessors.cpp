@@ -1,3 +1,11 @@
+#include "game/game_mode.h"
+
+extern const char* g_695794;
+
+void __cdecl resetEntry(int a, const char* name);
+int __cdecl sub_4D79F0(int a, int b);
+int __cdecl sub_4C6090(int id);
+
 // STUB: 0x451C30 sub_451C30 (192 bytes)
 void sub_451C30()
 {
@@ -8,14 +16,21 @@ void sub_451CF0()
 {
 }
 
-// STUB: 0x452010 sub_452010 (59 bytes)
-void sub_452010()
+// FUNCTION: 0x452010 releaseStateHandle
+void releaseStateHandle()
 {
+    short h = *(short*)(g_gameState + 0xFEC);
+    if (h != -1) {
+        sub_4C6090(h);
+        *(short*)(g_gameState + 0xFEC) = -1;
+        *(int*)(g_gameState + 0xFE4) = 0;
+    }
 }
 
-// STUB: 0x452050 sub_452050 (21 bytes)
-void sub_452050()
+// FUNCTION: 0x452050 isCounterHigh
+char isCounterHigh()
 {
+    return sub_4D79F0(0, 0) >= 1000;
 }
 
 // STUB: 0x452070 sub_452070 (2175 bytes)
@@ -48,9 +63,10 @@ void sub_453090()
 {
 }
 
-// STUB: 0x4530E0 sub_4530E0 (20 bytes)
-void sub_4530E0()
+// FUNCTION: 0x4530E0 getStateInt
+int __cdecl getStateInt(int index)
 {
+    return *(int*)(g_gameState + index * 4 + 0x8A74);
 }
 
 // STUB: 0x453100 sub_453100 (144 bytes)
@@ -93,9 +109,10 @@ void sub_455500()
 {
 }
 
-// STUB: 0x4558C0 sub_4558C0 (26 bytes)
-void sub_4558C0()
+// FUNCTION: 0x4558C0 resetStateEntry
+void resetStateEntry()
 {
+    resetEntry(*(int*)(g_gameState + 0x89F8), g_695794);
 }
 
 // STUB: 0x4558E0 sub_4558E0 (164 bytes)

@@ -1,3 +1,18 @@
+struct Vtbl3b {
+    virtual void v0();
+    virtual void v1();
+    virtual void v2();
+};
+
+typedef void (__fastcall* FastFn)(void*);
+
+struct Callback {
+    int pad0[3];
+    void* arg;
+    FastFn fn;
+    bool invoke();
+};
+
 // STUB: 0x501620 sub_501620 (202 bytes)
 void sub_501620()
 {
@@ -38,14 +53,17 @@ void sub_501AA0()
 {
 }
 
-// STUB: 0x501AB0 sub_501AB0 (12 bytes)
-void sub_501AB0()
+// FUNCTION: 0x501AB0 callV2
+void __cdecl callV2(Vtbl3b* p)
 {
+    p->v2();
 }
 
-// STUB: 0x501AC0 sub_501AC0 (13 bytes)
-void sub_501AC0()
+// FUNCTION: 0x501AC0 Callback::invoke
+bool Callback::invoke()
 {
+    fn(arg);
+    return true;
 }
 
 // STUB: 0x501ACD sub_501ACD (5 bytes)

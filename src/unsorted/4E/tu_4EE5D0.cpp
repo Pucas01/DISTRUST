@@ -1,3 +1,5 @@
+
+
 // STUB: 0x4EE5D0 sub_4EE5D0 (62 bytes)
 void sub_4EE5D0()
 {
@@ -88,9 +90,12 @@ void sub_4EF100()
 {
 }
 
-// STUB: 0x4EF250 sub_4EF250 (17 bytes)
-void sub_4EF250()
+// FUNCTION: 0x4EF250 getField2CAddr
+char* __cdecl getField2CAddr(char* o)
 {
+    if (!o)
+        return o;
+    return o + 0x2C;
 }
 
 // STUB: 0x4EF270 sub_4EF270 (282 bytes)

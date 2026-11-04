@@ -1,6 +1,17 @@
-// STUB: 0x4E3460 sub_4E3460 (13 bytes)
-void sub_4E3460()
+#include "engine/core/AgString.h"
+
+extern int g_74D268;
+
+struct StrHolder {
+    AgString s;
+    StrHolder();
+};
+
+// FUNCTION: 0x4E3460 resetGlobal74D268
+int resetGlobal74D268()
 {
+    g_74D268 = 0;
+    return 0;
 }
 
 // STUB: 0x4E3470 sub_4E3470 (422 bytes)
@@ -33,8 +44,8 @@ void sub_4E3C10()
 {
 }
 
-// STUB: 0x4E3D00 sub_4E3D00 (12 bytes)
-void sub_4E3D00()
+// FUNCTION: 0x4E3D00 ??0StrHolder@@QAE@XZ
+StrHolder::StrHolder()
 {
 }
 

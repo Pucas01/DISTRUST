@@ -1,3 +1,5 @@
+extern int g_boundTexture;
+
 // STUB: 0x4DBA60 sub_4DBA60 (21 bytes)
 void sub_4DBA60()
 {
@@ -23,9 +25,10 @@ void sub_4DC1F0()
 {
 }
 
-// STUB: 0x4DC3F0 sub_4DC3F0 (11 bytes)
-void sub_4DC3F0()
+// FUNCTION: 0x4DC3F0 resetBoundTexture
+void resetBoundTexture()
 {
+    g_boundTexture = -9999;
 }
 
 // STUB: 0x4DC400 sub_4DC400 (64 bytes)

@@ -1,3 +1,9 @@
+struct Pair2 {
+    int a;
+    int b;
+    Pair2* clear();
+};
+
 // STUB: 0x4B9CE0 sub_4B9CE0 (656 bytes)
 void sub_4B9CE0()
 {
@@ -53,9 +59,12 @@ void sub_4BBCA0()
 {
 }
 
-// STUB: 0x4BBCB0 sub_4BBCB0 (16 bytes)
-void sub_4BBCB0()
+// FUNCTION: 0x4BBCB0 Pair2::clear
+Pair2* Pair2::clear()
 {
+    a = 0;
+    b = 0;
+    return this;
 }
 
 // STUB: 0x4BBD40 sub_4BBD40 (114 bytes)

@@ -1,3 +1,13 @@
+struct FlagBits {
+    unsigned int low : 10;
+    unsigned int bit10 : 1;
+    unsigned int rest : 21;
+};
+
+extern FlagBits g_6A9D24;
+
+void __cdecl sub_43F310(int a, int b, int c);
+
 // STUB: 0x43E520 sub_43E520 (94 bytes)
 void sub_43E520()
 {
@@ -8,9 +18,10 @@ void sub_43E5A0()
 {
 }
 
-// STUB: 0x43E5E0 sub_43E5E0 (11 bytes)
-void sub_43E5E0()
+// FUNCTION: 0x43E5E0 getBit10
+char getBit10()
 {
+    return g_6A9D24.bit10;
 }
 
 // STUB: 0x43E5F0 sub_43E5F0 (38 bytes)
@@ -43,9 +54,10 @@ void sub_43EA60()
 {
 }
 
-// STUB: 0x43EB80 sub_43EB80 (15 bytes)
-void sub_43EB80()
+// FUNCTION: 0x43EB80 call43F310
+void call43F310()
 {
+    sub_43F310(1, 0, 0);
 }
 
 // STUB: 0x43EB90 sub_43EB90 (121 bytes)

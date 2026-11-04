@@ -1,3 +1,5 @@
+extern short g_740056;
+
 // STUB: 0x4BCCE0 sub_4BCCE0 (38 bytes)
 void sub_4BCCE0()
 {
@@ -13,9 +15,10 @@ void sub_4BD1F0()
 {
 }
 
-// STUB: 0x4BD4B0 sub_4BD4B0 (15 bytes)
-void sub_4BD4B0()
+// FUNCTION: 0x4BD4B0 setWord740056
+void __cdecl setWord740056(short v)
 {
+    g_740056 = v;
 }
 
 // STUB: 0x4BD4C0 sub_4BD4C0 (275 bytes)

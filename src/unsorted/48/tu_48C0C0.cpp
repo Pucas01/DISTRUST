@@ -1,3 +1,7 @@
+extern short g_73E412;
+extern unsigned short g_73E481;
+extern unsigned char g_73E480;
+
 // STUB: 0x48C0C0 sub_48C0C0 (384 bytes)
 void sub_48C0C0()
 {
@@ -83,9 +87,11 @@ void sub_48D450()
 {
 }
 
-// STUB: 0x48D4E0 sub_48D4E0 (17 bytes)
-void sub_48D4E0()
+// FUNCTION: 0x48D4E0 resetState73E480
+void resetState73E480()
 {
+    g_73E481 = 0xFF;
+    g_73E480 = 0;
 }
 
 // STUB: 0x48D500 sub_48D500 (60 bytes)
@@ -93,7 +99,8 @@ void sub_48D500()
 {
 }
 
-// STUB: 0x48D540 sub_48D540 (15 bytes)
-void sub_48D540()
+// FUNCTION: 0x48D540 setWord73E412
+void __cdecl setWord73E412(short v)
 {
+    g_73E412 = v;
 }

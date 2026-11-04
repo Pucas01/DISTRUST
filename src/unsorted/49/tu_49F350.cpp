@@ -1,3 +1,5 @@
+extern unsigned short g_73E9C0;
+
 // STUB: 0x49F350 sub_49F350 (23 bytes)
 void sub_49F350()
 {
@@ -28,9 +30,10 @@ void sub_49F640()
 {
 }
 
-// STUB: 0x49F670 sub_49F670 (10 bytes)
-void sub_49F670()
+// FUNCTION: 0x49F670 setWord73E9C0
+void setWord73E9C0()
 {
+    g_73E9C0 = 10;
 }
 
 // STUB: 0x49F680 sub_49F680 (22 bytes)

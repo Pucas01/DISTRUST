@@ -1,3 +1,15 @@
+struct S_getField34 {
+    char pad[52];
+    int v;
+};
+struct S_getField3C {
+    char pad[60];
+    int v;
+};
+struct S70 {
+    char pad[0x70];
+};
+
 // STUB: 0x4ED880 sub_4ED880 (47 bytes)
 void sub_4ED880()
 {
@@ -93,9 +105,12 @@ void sub_4EE4E0()
 {
 }
 
-// STUB: 0x4EE510 sub_4EE510 (17 bytes)
-void sub_4EE510()
+// FUNCTION: 0x4EE510 getField34
+int __cdecl getField34(S_getField34* o)
 {
+    if (!o)
+        return (int)o;
+    return o->v;
 }
 
 // STUB: 0x4EE530 sub_4EE530 (36 bytes)
@@ -103,9 +118,12 @@ void sub_4EE530()
 {
 }
 
-// STUB: 0x4EE560 sub_4EE560 (17 bytes)
-void sub_4EE560()
+// FUNCTION: 0x4EE560 getField3C
+int __cdecl getField3C(S_getField3C* o)
 {
+    if (!o)
+        return (int)o;
+    return o->v;
 }
 
 // STUB: 0x4EE580 sub_4EE580 (36 bytes)
@@ -113,7 +131,10 @@ void sub_4EE580()
 {
 }
 
-// STUB: 0x4EE5B0 sub_4EE5B0 (17 bytes)
-void sub_4EE5B0()
+// FUNCTION: 0x4EE5B0 getField70Addr
+char* __cdecl getField70Addr(char* o)
 {
+    if (!o)
+        return o;
+    return o + 0x70;
 }

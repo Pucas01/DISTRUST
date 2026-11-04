@@ -1,3 +1,5 @@
+extern int g_6954DC[];
+
 // STUB: 0x44B530 sub_44B530 (526 bytes)
 void sub_44B530()
 {
@@ -28,9 +30,10 @@ void sub_44BD10()
 {
 }
 
-// STUB: 0x44BDD0 sub_44BDD0 (15 bytes)
-void sub_44BDD0()
+// FUNCTION: 0x44BDD0 getTable6954DC
+int __cdecl getTable6954DC(int i)
 {
+    return g_6954DC[i];
 }
 
 // STUB: 0x44BDE0 sub_44BDE0 (332 bytes)

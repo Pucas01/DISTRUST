@@ -1,3 +1,5 @@
+extern unsigned short g_74C000;
+
 // STUB: 0x4DA4B0 sub_4DA4B0 (50 bytes)
 void sub_4DA4B0()
 {
@@ -8,9 +10,10 @@ void sub_4DA4F0()
 {
 }
 
-// STUB: 0x4DA530 sub_4DA530 (12 bytes)
-void sub_4DA530()
+// FUNCTION: 0x4DA530 isWord74C000Thirteen
+char isWord74C000Thirteen()
 {
+    return g_74C000 == 13;
 }
 
 // STUB: 0x4DA540 sub_4DA540 (307 bytes)

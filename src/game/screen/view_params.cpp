@@ -1,3 +1,25 @@
+#include <emmintrin.h>
+
+struct Vec2f {
+    float x;
+    float y;
+};
+
+extern char g_7401E0[];
+extern char g_7401A0[];
+extern char g_7402E0[];
+extern char g_7402A0[];
+extern char g_740148[];
+extern char* g_740184;
+extern float g_7400D4;
+extern int g_7400D0;
+extern Vec2f g_7400D8;
+extern float g_7400E0;
+extern Vec2f g_7400E4;
+extern float g_7400EC;
+
+void __cdecl sub_4BE160(void* obj, int value);
+
 // STUB: 0x4BDB30 sub_4BDB30 (596 bytes)
 void sub_4BDB30()
 {
@@ -28,9 +50,11 @@ void sub_4BE7E0()
 {
 }
 
-// STUB: 0x4BE8C0 sub_4BE8C0 (31 bytes)
-void sub_4BE8C0()
+// FUNCTION: 0x4BE8C0 bindBuf740148
+void __cdecl bindBuf740148(int value)
 {
+    g_740184 = g_740148;
+    sub_4BE160(g_740148, value);
 }
 
 // STUB: 0x4BE8E0 sub_4BE8E0 (31 bytes)
@@ -38,29 +62,34 @@ void sub_4BE8E0()
 {
 }
 
-// STUB: 0x4BE900 sub_4BE900 (41 bytes)
-void sub_4BE900()
+// FUNCTION: 0x4BE900 setAngleDegrees
+void __cdecl setAngleDegrees(float degrees)
 {
+    g_7400D4 = (float)(degrees * 3.141592653589793 * 0.005555555555555556);
 }
 
-// STUB: 0x4BE930 sub_4BE930 (6 bytes)
-void sub_4BE930()
+// FUNCTION: 0x4BE930 getBuf7401E0
+char* getBuf7401E0()
 {
+    return g_7401E0;
 }
 
-// STUB: 0x4BE940 sub_4BE940 (6 bytes)
-void sub_4BE940()
+// FUNCTION: 0x4BE940 getBuf7401A0
+char* getBuf7401A0()
 {
+    return g_7401A0;
 }
 
-// STUB: 0x4BE950 sub_4BE950 (6 bytes)
-void sub_4BE950()
+// FUNCTION: 0x4BE950 getBuf7402E0
+char* getBuf7402E0()
 {
+    return g_7402E0;
 }
 
-// STUB: 0x4BE960 sub_4BE960 (6 bytes)
-void sub_4BE960()
+// FUNCTION: 0x4BE960 getBuf7402A0
+char* getBuf7402A0()
 {
+    return g_7402A0;
 }
 
 // STUB: 0x4BE970 sub_4BE970 (388 bytes)
@@ -78,9 +107,14 @@ void sub_4BED80()
 {
 }
 
-// STUB: 0x4BEDC0 sub_4BEDC0 (57 bytes)
-void sub_4BEDC0()
+// FUNCTION: 0x4BEDC0 setViewParams
+void __cdecl setViewParams(long long a, int b, long long c, int d)
 {
+    _mm_storel_epi64((__m128i*)&g_7400D8, _mm_loadl_epi64((const __m128i*)&a));
+    *(int*)&g_7400E0 = b;
+    g_7400D0 = 0;
+    _mm_storel_epi64((__m128i*)&g_7400E4, _mm_loadl_epi64((const __m128i*)&c));
+    *(int*)&g_7400EC = d;
 }
 
 // STUB: 0x4BEE00 sub_4BEE00 (118 bytes)

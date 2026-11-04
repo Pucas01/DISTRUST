@@ -1,3 +1,5 @@
+extern short g_6288F0[];
+
 // STUB: 0x4811E0 sub_4811E0 (241 bytes)
 void sub_4811E0()
 {
@@ -68,7 +70,8 @@ void sub_482FA0()
 {
 }
 
-// STUB: 0x482FF0 sub_482FF0 (16 bytes)
-void sub_482FF0()
+// FUNCTION: 0x482FF0 getShort6288F0
+int __cdecl getShort6288F0(int i)
 {
+    return g_6288F0[i];
 }

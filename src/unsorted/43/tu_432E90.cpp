@@ -1,11 +1,14 @@
+extern short g_6A8D54;
+
 // STUB: 0x432E90 sub_432E90 (71 bytes)
 void sub_432E90()
 {
 }
 
-// STUB: 0x432EE0 sub_432EE0 (14 bytes)
-void sub_432EE0()
+// FUNCTION: 0x432EE0 isWord6A8D54Max
+bool isWord6A8D54Max()
 {
+    return g_6A8D54 == -1;
 }
 
 // STUB: 0x432EF0 sub_432EF0 (323 bytes)

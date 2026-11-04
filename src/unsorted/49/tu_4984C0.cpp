@@ -1,3 +1,8 @@
+extern short g_73E558;
+extern short g_73E556;
+extern unsigned char g_73E5C8;
+extern int g_73E5CA;
+
 // STUB: 0x4984C0 sub_4984C0 (3492 bytes)
 void sub_4984C0()
 {
@@ -48,14 +53,16 @@ void sub_499490()
 {
 }
 
-// STUB: 0x4994B0 sub_4994B0 (15 bytes)
-void sub_4994B0()
+// FUNCTION: 0x4994B0 setWord73E558
+void __cdecl setWord73E558(short v)
 {
+    g_73E558 = v;
 }
 
-// STUB: 0x4994C0 sub_4994C0 (15 bytes)
-void sub_4994C0()
+// FUNCTION: 0x4994C0 setWord73E556
+void __cdecl setWord73E556(short v)
 {
+    g_73E556 = v;
 }
 
 // STUB: 0x4994D0 sub_4994D0 (828 bytes)
@@ -113,7 +120,10 @@ void sub_49A2E0()
 {
 }
 
-// STUB: 0x49A300 sub_49A300 (15 bytes)
-void sub_49A300()
+// FUNCTION: 0x49A300 setState73E5C8
+int setState73E5C8()
 {
+    g_73E5C8 = 6;
+    g_73E5CA = 0;
+    return 0;
 }

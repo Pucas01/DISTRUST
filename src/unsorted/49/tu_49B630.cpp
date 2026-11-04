@@ -1,3 +1,5 @@
+extern unsigned short g_73E7D8;
+
 // STUB: 0x49B630 sub_49B630 (110 bytes)
 void sub_49B630()
 {
@@ -43,7 +45,10 @@ void sub_49BE80()
 {
 }
 
-// STUB: 0x49C3A0 sub_49C3A0 (17 bytes)
-void sub_49C3A0()
+// FUNCTION: 0x49C3A0 takeWord73E7D8
+unsigned short takeWord73E7D8()
 {
+    unsigned short v = g_73E7D8;
+    g_73E7D8 = 0;
+    return v;
 }

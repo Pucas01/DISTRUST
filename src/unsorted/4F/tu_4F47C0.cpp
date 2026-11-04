@@ -1,4 +1,11 @@
-// STUB: 0x4F47C0 sub_4F47C0 (10 bytes)
-void sub_4F47C0()
+struct Flagged {
+    char pad[0xC];
+    int flag;
+    void setFlag(int unused);
+};
+
+// FUNCTION: 0x4F47C0 Flagged::setFlag
+void Flagged::setFlag(int unused)
 {
+    flag = 1;
 }

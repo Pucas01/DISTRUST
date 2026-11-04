@@ -1,3 +1,6 @@
+extern unsigned char g_cursorState;
+extern int g_73E9E2;
+
 // STUB: 0x4A14B0 sub_4A14B0 (577 bytes)
 void sub_4A14B0()
 {
@@ -88,9 +91,11 @@ void sub_4A37E0()
 {
 }
 
-// STUB: 0x4A3940 sub_4A3940 (15 bytes)
-void sub_4A3940()
+// FUNCTION: 0x4A3940 setCursorState5
+void setCursorState5()
 {
+    g_cursorState = 5;
+    g_73E9E2 = 0;
 }
 
 // STUB: 0x4A3950 sub_4A3950 (506 bytes)

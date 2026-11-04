@@ -1,3 +1,5 @@
+extern unsigned char g_73DA98[];
+
 // STUB: 0x476EB0 sub_476EB0 (168 bytes)
 void sub_476EB0()
 {
@@ -48,9 +50,10 @@ void sub_4777A0()
 {
 }
 
-// STUB: 0x4777D0 sub_4777D0 (15 bytes)
-void sub_4777D0()
+// FUNCTION: 0x4777D0 setTable73DA98
+void __cdecl setTable73DA98(int i)
 {
+    g_73DA98[i] = 3;
 }
 
 // STUB: 0x4777E0 sub_4777E0 (270 bytes)

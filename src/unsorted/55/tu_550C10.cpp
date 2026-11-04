@@ -1,11 +1,17 @@
+struct FloatArr {
+    float v[1];
+    float get(int i);
+};
+
 // STUB: 0x550C10 sub_550C10 (172 bytes)
 void sub_550C10()
 {
 }
 
-// STUB: 0x550CC0 sub_550CC0 (13 bytes)
-void sub_550CC0()
+// FUNCTION: 0x550CC0 FloatArr::get
+float FloatArr::get(int i)
 {
+    return v[i];
 }
 
 // STUB: 0x550CD0 sub_550CD0 (20 bytes)

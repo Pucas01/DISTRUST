@@ -1,3 +1,26 @@
+struct ListNode {
+    virtual ~ListNode();
+    int a;
+    int b;
+    ListNode* next;
+};
+
+struct NodeList {
+    ListNode* head;
+    void clear();
+};
+
+struct RxParser {
+    const char* cur;
+    int pad4;
+    const char* end;
+    char pad0c[0x44];
+    unsigned int flags;
+    bool isGroupChar();
+};
+
+int __stdcall sub_5A8430(int a, int b);
+
 // STUB: 0x5A7DC0 sub_5A7DC0 (411 bytes)
 void sub_5A7DC0()
 {
@@ -8,19 +31,34 @@ void sub_5A7F60()
 {
 }
 
-// STUB: 0x5A8010 sub_5A8010 (23 bytes)
-void sub_5A8010()
+// FUNCTION: 0x5A8010 isNotMax
+bool isNotMax()
 {
+    return sub_5A8430(10, 0x7FFFFFFF) != 0x7FFFFFFF;
 }
 
-// STUB: 0x5A8030 sub_5A8030 (47 bytes)
-void sub_5A8030()
+// FUNCTION: 0x5A8030 destroyNodeRange
+void __cdecl destroyNodeRange(ListNode* first, ListNode* last)
 {
+    while (first != last && first) {
+        ListNode* cur = first;
+        first = cur->next;
+        cur->next = 0;
+        delete cur;
+    }
 }
 
-// STUB: 0x5A8060 sub_5A8060 (42 bytes)
-void sub_5A8060()
+// FUNCTION: 0x5A8060 NodeList::clear
+void NodeList::clear()
 {
+    ListNode* p = head;
+    while (p) {
+        ListNode* cur = p;
+        p = cur->next;
+        cur->next = 0;
+        delete cur;
+    }
+    head = 0;
 }
 
 // STUB: 0x5A8090 sub_5A8090 (341 bytes)
@@ -98,9 +136,22 @@ void sub_5A9130()
 {
 }
 
-// STUB: 0x5A9290 sub_5A9290 (49 bytes)
-void sub_5A9290()
+// FUNCTION: 0x5A9290 RxParser::isGroupChar
+bool RxParser::isGroupChar()
 {
+    const char* p = cur + 1;
+    if (p == end)
+        return false;
+    unsigned int f = flags;
+    if (!(f & 8)) {
+        if (*p == '(' || *p == ')')
+            return true;
+    }
+    if (!(f & 0x10)) {
+        if (*p == '{' || *p == '}')
+            return true;
+    }
+    return false;
 }
 
 // STUB: 0x5A92D0 sub_5A92D0 (1154 bytes)

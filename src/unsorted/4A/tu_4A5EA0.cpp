@@ -1,3 +1,5 @@
+extern short g_73EA86;
+
 // STUB: 0x4A5EA0 sub_4A5EA0 (648 bytes)
 void sub_4A5EA0()
 {
@@ -13,9 +15,10 @@ void sub_4A6180()
 {
 }
 
-// STUB: 0x4A61B0 sub_4A61B0 (12 bytes)
-void sub_4A61B0()
+// FUNCTION: 0x4A61B0 setWord73EA86
+int setWord73EA86()
 {
+    return g_73EA86 = 0x65;
 }
 
 // STUB: 0x4A61C0 sub_4A61C0 (32 bytes)

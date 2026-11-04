@@ -1,3 +1,28 @@
+struct Rec {
+    char pad0[4];
+    unsigned char b4;
+    unsigned char b5;
+    char pad6;
+    unsigned char b7;
+    char pad8[0x24];
+    unsigned char b2c;
+    char pad2d[5];
+    short w32;
+    char pad34[0x7C];
+};
+
+struct Rec8 {
+    char pad0[4];
+    unsigned char b4;
+    char pad5;
+    short w6;
+};
+
+extern Rec* g_recs;
+extern Rec8* g_slots8;
+extern int g_745900;
+extern int g_745940;
+
 // STUB: 0x4D3F40 sub_4D3F40 (223 bytes)
 void sub_4D3F40()
 {
@@ -18,9 +43,14 @@ void sub_4D40E0()
 {
 }
 
-// STUB: 0x4D4150 sub_4D4150 (48 bytes)
-void sub_4D4150()
+// FUNCTION: 0x4D4150 anyRecActive
+bool anyRecActive()
 {
+    for (int i = 0; i < 0x96; i++) {
+        if (g_recs[i].b4 && g_recs[i].w32 > 0)
+            return true;
+    }
+    return false;
 }
 
 // STUB: 0x4D4180 sub_4D4180 (97 bytes)
@@ -38,14 +68,21 @@ void sub_4D4700()
 {
 }
 
-// STUB: 0x4D4760 sub_4D4760 (36 bytes)
-void sub_4D4760()
+// FUNCTION: 0x4D4760 setSlotWord
+void __cdecl setSlotWord(unsigned int index, short value)
 {
+    if (index <= 0x3F) {
+        Rec8* r = &g_slots8[index];
+        if (r->b4)
+            r->w6 = value;
+    }
 }
 
-// STUB: 0x4D4790 sub_4D4790 (29 bytes)
-void sub_4D4790()
+// FUNCTION: 0x4D4790 clearRecFlags
+void clearRecFlags()
 {
+    for (int i = 0; i < 0x96; i++)
+        g_recs[i].b2c = 0;
 }
 
 // STUB: 0x4D47B0 sub_4D47B0 (166 bytes)
@@ -63,9 +100,14 @@ void sub_4D4910()
 {
 }
 
-// STUB: 0x4D49E0 sub_4D49E0 (40 bytes)
-void sub_4D49E0()
+// FUNCTION: 0x4D49E0 setRecByte5
+void __cdecl setRecByte5(unsigned int index, char value)
 {
+    if (index <= 0x95) {
+        Rec* r = &g_recs[index];
+        if (r->b4 == 1)
+            r->b5 = value;
+    }
 }
 
 // STUB: 0x4D4A10 sub_4D4A10 (172 bytes)
@@ -78,9 +120,11 @@ void sub_4D4AC0()
 {
 }
 
-// STUB: 0x4D4B50 sub_4D4B50 (21 bytes)
-void sub_4D4B50()
+// FUNCTION: 0x4D4B50 resetGlobals745900
+void resetGlobals745900()
 {
+    g_745900 = 0;
+    g_745940 = -1;
 }
 
 // STUB: 0x4D4B70 sub_4D4B70 (58 bytes)
@@ -88,9 +132,14 @@ void sub_4D4B70()
 {
 }
 
-// STUB: 0x4D4BB0 sub_4D4BB0 (48 bytes)
-void sub_4D4BB0()
+// FUNCTION: 0x4D4BB0 setRecByte7
+void __cdecl setRecByte7(unsigned int index, int value)
 {
+    if (index <= 0x95) {
+        Rec* r = &g_recs[index];
+        if (r->b4 && r->b7 != value)
+            r->b7 = value;
+    }
 }
 
 // STUB: 0x4D4BE0 sub_4D4BE0 (137 bytes)

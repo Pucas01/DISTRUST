@@ -1,3 +1,37 @@
+#include "engine/core/AgString.h"
+
+struct MapNode {
+    MapNode* left;
+    MapNode* parent;
+    MapNode* right;
+    unsigned char color;
+    unsigned char isNil;
+    char pad[6];
+    AgString key;
+};
+
+struct StrKeyed {
+    int pad;
+    AgString key;
+    void dtorKey();
+};
+
+struct NodeMap {
+    void eraseTree(MapNode* n);
+};
+
+struct Registry {
+    char pad[0x1C];
+};
+
+extern void* g_73F4D0;
+
+__declspec(noreturn) void __cdecl sub_5E2317();
+void* __cdecl operator new(unsigned int size);
+void __cdecl operator delete(void* block);
+inline void* operator new(unsigned int, void* where) { return where; }
+void __fastcall sub_4B8880(void* self);
+
 // STUB: 0x4B76D0 sub_4B76D0 (139 bytes)
 void sub_4B76D0()
 {
@@ -83,9 +117,10 @@ void sub_4B8760()
 {
 }
 
-// STUB: 0x4B8790 sub_4B8790 (8 bytes)
-void sub_4B8790()
+// FUNCTION: 0x4B8790 StrKeyed::dtorKey
+void StrKeyed::dtorKey()
 {
+    key.~AgString();
 }
 
 // STUB: 0x4B87A0 sub_4B87A0 (66 bytes)
@@ -113,9 +148,18 @@ void sub_4B8A00()
 {
 }
 
-// STUB: 0x4B8C10 sub_4B8C10 (45 bytes)
-void sub_4B8C10()
+// FUNCTION: 0x4B8C10 newHeadNode
+MapNode* __cdecl newHeadNode()
 {
+    MapNode* p = (MapNode*)operator new(0x28);
+    if (!p)
+        sub_5E2317();
+    p->left = p;
+    new ((void*)&p->parent) MapNode*(p);
+    new ((void*)&p->right) MapNode*(p);
+    p->color = 1;
+    p->isNil = 1;
+    return p;
 }
 
 // STUB: 0x4B8C40 sub_4B8C40 (54 bytes)
@@ -123,9 +167,15 @@ void sub_4B8C40()
 {
 }
 
-// STUB: 0x4B8C80 sub_4B8C80 (63 bytes)
-void sub_4B8C80()
+// FUNCTION: 0x4B8C80 NodeMap::eraseTree
+void NodeMap::eraseTree(MapNode* root)
 {
+    for (MapNode* p = root; !p->isNil; root = p) {
+        eraseTree(p->right);
+        p = p->left;
+        root->key.~AgString();
+        operator delete(root);
+    }
 }
 
 // STUB: 0x4B8CC0 sub_4B8CC0 (243 bytes)
@@ -153,9 +203,15 @@ void sub_4B8F90()
 {
 }
 
-// STUB: 0x4B9010 sub_4B9010 (39 bytes)
-void sub_4B9010()
+// FUNCTION: 0x4B9010 clearRegistry
+void clearRegistry()
 {
+    void* p = g_73F4D0;
+    if (p) {
+        sub_4B8880(p);
+        operator delete(p);
+    }
+    g_73F4D0 = 0;
 }
 
 // STUB: 0x4B9040 sub_4B9040 (188 bytes)

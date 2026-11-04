@@ -1,3 +1,6 @@
+extern int g_699270[];
+extern int g_6992AC[];
+
 // STUB: 0x4AFDF0 sub_4AFDF0 (42 bytes)
 void sub_4AFDF0()
 {
@@ -8,12 +11,14 @@ void sub_4AFE20()
 {
 }
 
-// STUB: 0x4AFE50 sub_4AFE50 (15 bytes)
-void sub_4AFE50()
+// FUNCTION: 0x4AFE50 getTable699270
+int __cdecl getTable699270(int i)
 {
+    return g_699270[i];
 }
 
-// STUB: 0x4AFE60 sub_4AFE60 (15 bytes)
-void sub_4AFE60()
+// FUNCTION: 0x4AFE60 getTable6992AC
+int __cdecl getTable6992AC(int i)
 {
+    return g_6992AC[i];
 }

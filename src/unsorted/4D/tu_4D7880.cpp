@@ -1,6 +1,10 @@
-// STUB: 0x4D7880 sub_4D7880 (15 bytes)
-void sub_4D7880()
+extern int g_748240[];
+extern int g_748248[];
+
+// FUNCTION: 0x4D7880 getTable748240
+int __cdecl getTable748240(int i)
 {
+    return g_748240[i];
 }
 
 // STUB: 0x4D7890 sub_4D7890 (36 bytes)
@@ -8,9 +12,10 @@ void sub_4D7890()
 {
 }
 
-// STUB: 0x4D78C0 sub_4D78C0 (15 bytes)
-void sub_4D78C0()
+// FUNCTION: 0x4D78C0 getTable748248
+int __cdecl getTable748248(int i)
 {
+    return g_748248[i];
 }
 
 // STUB: 0x4D78D0 sub_4D78D0 (36 bytes)

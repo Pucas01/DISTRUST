@@ -1,3 +1,16 @@
+struct Bits8 {
+    char pad[8];
+    unsigned char flags;
+};
+
+struct BitsOwner {
+    int pad0[2];
+    Bits8* b;
+    int bit0();
+    int notBit0();
+    int bit1();
+};
+
 // STUB: 0x51B940 sub_51B940 (41 bytes)
 void sub_51B940()
 {
@@ -13,19 +26,22 @@ void sub_51B9D0()
 {
 }
 
-// STUB: 0x51BAA0 sub_51BAA0 (13 bytes)
-void sub_51BAA0()
+// FUNCTION: 0x51BAA0 BitsOwner::notBit0
+int BitsOwner::notBit0()
 {
+    return ~b->flags & 1;
 }
 
-// STUB: 0x51BAB0 sub_51BAB0 (13 bytes)
-void sub_51BAB0()
+// FUNCTION: 0x51BAB0 BitsOwner::bit1
+int BitsOwner::bit1()
 {
+    return (b->flags >> 1) & 1;
 }
 
-// STUB: 0x51BAC0 sub_51BAC0 (11 bytes)
-void sub_51BAC0()
+// FUNCTION: 0x51BAC0 BitsOwner::bit0
+int BitsOwner::bit0()
 {
+    return b->flags & 1;
 }
 
 // STUB: 0x51BAD0 sub_51BAD0 (7 bytes)

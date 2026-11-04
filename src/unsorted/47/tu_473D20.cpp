@@ -1,3 +1,5 @@
+extern int g_73CFA8[];
+
 // STUB: 0x473D20 sub_473D20 (135 bytes)
 void sub_473D20()
 {
@@ -33,9 +35,10 @@ void sub_474180()
 {
 }
 
-// STUB: 0x474270 sub_474270 (15 bytes)
-void sub_474270()
+// FUNCTION: 0x474270 getTable73CFA8
+int __cdecl getTable73CFA8(int i)
 {
+    return g_73CFA8[i];
 }
 
 // STUB: 0x474280 sub_474280 (123 bytes)

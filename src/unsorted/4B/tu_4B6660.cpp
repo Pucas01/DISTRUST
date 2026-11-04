@@ -1,3 +1,8 @@
+struct Vec8Arr {
+    float* p;
+    float get(int i);
+};
+
 // STUB: 0x4B6660 sub_4B6660 (67 bytes)
 void sub_4B6660()
 {
@@ -98,9 +103,10 @@ void sub_4B7050()
 {
 }
 
-// STUB: 0x4B7060 sub_4B7060 (15 bytes)
-void sub_4B7060()
+// FUNCTION: 0x4B7060 Vec8Arr::get
+float Vec8Arr::get(int i)
 {
+    return p[i * 2];
 }
 
 // STUB: 0x4B7070 sub_4B7070 (41 bytes)

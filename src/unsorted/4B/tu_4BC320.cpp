@@ -1,11 +1,16 @@
+void sub_4D0090();
+void sub_4F43D0();
+
 // STUB: 0x4BC320 sub_4BC320 (25 bytes)
 void sub_4BC320()
 {
 }
 
-// STUB: 0x4BC340 sub_4BC340 (10 bytes)
-void sub_4BC340()
+// FUNCTION: 0x4BC340 callPair4D0090
+void callPair4D0090()
 {
+    sub_4D0090();
+    sub_4F43D0();
 }
 
 // STUB: 0x4BC350 sub_4BC350 (476 bytes)

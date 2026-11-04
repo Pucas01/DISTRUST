@@ -1,11 +1,20 @@
+extern unsigned short g_73E8C4;
+extern float g_73E854;
+
+extern unsigned char g_73E840;
+extern short g_73E842;
+extern unsigned char g_73E840;
+extern short g_73E842;
+
 // STUB: 0x49F170 sub_49F170 (26 bytes)
 void sub_49F170()
 {
 }
 
-// STUB: 0x49F190 sub_49F190 (10 bytes)
-void sub_49F190()
+// FUNCTION: 0x49F190 setWord73E8C4
+void setWord73E8C4()
 {
+    g_73E8C4 = 11;
 }
 
 // STUB: 0x49F1A0 sub_49F1A0 (39 bytes)
@@ -33,14 +42,18 @@ void sub_49F250()
 {
 }
 
-// STUB: 0x49F2E0 sub_49F2E0 (16 bytes)
-void sub_49F2E0()
+// FUNCTION: 0x49F2E0 setState73E8409
+void setState73E8409()
 {
+    g_73E840 = 9;
+    g_73E842 = 0;
 }
 
-// STUB: 0x49F2F0 sub_49F2F0 (16 bytes)
-void sub_49F2F0()
+// FUNCTION: 0x49F2F0 setState73E8408
+void setState73E8408()
 {
+    g_73E840 = 8;
+    g_73E842 = 0;
 }
 
 // STUB: 0x49F300 sub_49F300 (37 bytes)
@@ -48,7 +61,8 @@ void sub_49F300()
 {
 }
 
-// STUB: 0x49F330 sub_49F330 (11 bytes)
-void sub_49F330()
+// FUNCTION: 0x49F330 setFloat73E854
+void setFloat73E854()
 {
+    g_73E854 = 30.0f;
 }

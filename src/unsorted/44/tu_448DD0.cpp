@@ -1,3 +1,6 @@
+void sub_44B530();
+void sub_44F3F0();
+
 // STUB: 0x448DD0 sub_448DD0 (354 bytes)
 void sub_448DD0()
 {
@@ -98,9 +101,11 @@ void sub_44AC80()
 {
 }
 
-// STUB: 0x44ACC0 sub_44ACC0 (10 bytes)
-void sub_44ACC0()
+// FUNCTION: 0x44ACC0 callPair44B530
+void callPair44B530()
 {
+    sub_44B530();
+    sub_44F3F0();
 }
 
 // STUB: 0x44ACE0 sub_44ACE0 (911 bytes)

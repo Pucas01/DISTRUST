@@ -1,3 +1,18 @@
+struct TempTag {
+    char c;
+    TempTag() {}
+};
+
+struct RangeSet {
+    int pad0;
+    int count;
+    signed char* data;
+};
+
+void __cdecl sub_5A4730(int a, int b, int c, int d, int e);
+void __cdecl sub_5A48B0(int a, int b, int c, char* tmp, int d);
+void __cdecl sub_5A48B0(int a, int b, int c, char* tmp, int d, int e);
+
 // STUB: 0x5A38A0 ??$_Insert@PAE@?$vector@EV?$allocator@E@std@@@std@@QAEXV?$_Vector_const_iterator@V?$_Vector_val@U?$_Simple_types@E@std@@@std@@@1@PAE1Uforward_iterator_tag@1@@Z (363 bytes)
 void Insert_PAE_vector_EV_allocator_E_std_std_QAEXV__Vector_const_iterator_V__Vector_val_U__Simple_types_E_std_std_1_PAE1Uforward_iterator_tag_1_Z()
 {
@@ -23,9 +38,14 @@ void sub_5A3C80()
 {
 }
 
-// STUB: 0x5A3FD0 sub_5A3FD0 (50 bytes)
-void sub_5A3FD0()
+// FUNCTION: 0x5A3FD0 inRanges
+bool __cdecl inRanges(signed char ch, RangeSet* rs)
 {
+    for (int i = 0; i < rs->count; i += 2) {
+        if (rs->data[i] <= ch && ch <= rs->data[i + 1])
+            return true;
+    }
+    return false;
 }
 
 // STUB: 0x5A4010 sub_5A4010 (365 bytes)
@@ -53,9 +73,11 @@ void sub_5A4430()
 {
 }
 
-// STUB: 0x5A4500 sub_5A4500 (34 bytes)
-void sub_5A4500()
+// FUNCTION: 0x5A4500 callWithTemp
+void __stdcall callWithTemp(int a, int b, int c)
 {
+    char tmp;
+    sub_5A48B0(a, b, c, &tmp, c);
 }
 
 // STUB: 0x5A4530 sub_5A4530 (34 bytes)
@@ -73,9 +95,11 @@ void sub_5A4590()
 {
 }
 
-// STUB: 0x5A45C0 sub_5A45C0 (36 bytes)
-void sub_5A45C0()
+// FUNCTION: 0x5A45C0 callWithTempZero
+void __stdcall callWithTempZero(int a, int b, int c)
 {
+    char tmp;
+    sub_5A48B0(a, b, c, &tmp, 0, c);
 }
 
 // STUB: 0x5A45F0 sub_5A45F0 (36 bytes)
@@ -118,9 +142,11 @@ void sub_5A4940()
 {
 }
 
-// STUB: 0x5A49D0 sub_5A49D0 (30 bytes)
-void sub_5A49D0()
+// FUNCTION: 0x5A49D0 callUninit
+void __cdecl callUninit(int a, int b, int c)
 {
+    int unused;
+    sub_5A4730(a, b, c, 0, unused);
 }
 
 // STUB: 0x5A49F0 sub_5A49F0 (30 bytes)
@@ -138,9 +164,13 @@ void sub_5A4A30()
 {
 }
 
-// STUB: 0x5A4A90 sub_5A4A90 (27 bytes)
-void sub_5A4A90()
+// FUNCTION: 0x5A4A90 copyPair
+void __stdcall copyPair(int* dst, const int* src)
 {
+    if (dst) {
+        dst[0] = src[0];
+        dst[1] = src[1];
+    }
 }
 
 // STUB: 0x5A4AB0 sub_5A4AB0 (93 bytes)

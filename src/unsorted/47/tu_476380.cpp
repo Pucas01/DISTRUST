@@ -1,3 +1,5 @@
+extern int g_697B40;
+
 // STUB: 0x476380 sub_476380 (33 bytes)
 void sub_476380()
 {
@@ -38,9 +40,10 @@ void sub_476660()
 {
 }
 
-// STUB: 0x476700 sub_476700 (13 bytes)
-void sub_476700()
+// FUNCTION: 0x476700 isNotSixteen
+bool isNotSixteen()
 {
+    return g_697B40 != 16;
 }
 
 // STUB: 0x476710 sub_476710 (113 bytes)

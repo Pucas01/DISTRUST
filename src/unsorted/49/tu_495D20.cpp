@@ -1,3 +1,8 @@
+extern unsigned char g_73E4BC;
+extern short g_73E4BE;
+extern unsigned char g_73E4BC;
+extern short g_73E4BE;
+
 // STUB: 0x495D20 sub_495D20 (34 bytes)
 void sub_495D20()
 {
@@ -83,12 +88,16 @@ void sub_4967A0()
 {
 }
 
-// STUB: 0x4967D0 sub_4967D0 (16 bytes)
-void sub_4967D0()
+// FUNCTION: 0x4967D0 setState73E4BC1
+void setState73E4BC1()
 {
+    g_73E4BC = 1;
+    g_73E4BE = 0;
 }
 
-// STUB: 0x4967E0 sub_4967E0 (16 bytes)
-void sub_4967E0()
+// FUNCTION: 0x4967E0 setState73E4BC8
+void setState73E4BC8()
 {
+    g_73E4BC = 8;
+    g_73E4BE = 0;
 }

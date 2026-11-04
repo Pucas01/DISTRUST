@@ -1,3 +1,26 @@
+struct Vtbl3 {
+    virtual void v0();
+    virtual void v1();
+    virtual void v2();
+};
+
+struct Holder {
+    char pad[0x1C8];
+    Vtbl3* b;
+    int gap;
+    Vtbl3* a;
+    void stopBoth();
+};
+
+struct Boxed {
+    char pad[0x10];
+    char inner[4];
+};
+
+void __stdcall sub_4F9590(int a, int b);
+void __fastcall sub_4F6730(void* self);
+void __cdecl operator delete(void* block);
+
 // STUB: 0x4F7840 sub_4F7840 (129 bytes)
 void sub_4F7840()
 {
@@ -8,9 +31,11 @@ void sub_4F78D0()
 {
 }
 
-// STUB: 0x4F7950 sub_4F7950 (29 bytes)
-void sub_4F7950()
+// FUNCTION: 0x4F7950 destroyBoxed
+void __stdcall destroyBoxed(Boxed* o)
 {
+    sub_4F6730(o->inner);
+    operator delete(o);
 }
 
 // STUB: 0x4F7970 sub_4F7970 (152 bytes)
@@ -68,9 +93,15 @@ void sub_4F82A0()
 {
 }
 
-// STUB: 0x4F8310 sub_4F8310 (43 bytes)
-void sub_4F8310()
+// FUNCTION: 0x4F8310 fillInts
+int* __stdcall fillInts(int* first, unsigned int count, const int* value)
 {
+    int* p = first;
+    for (unsigned int n = count; n; --n) {
+        *p = *value;
+        p++;
+    }
+    return first + count;
 }
 
 // STUB: 0x4F8340 sub_4F8340 (388 bytes)
@@ -83,9 +114,11 @@ void sub_4F84D0()
 {
 }
 
-// STUB: 0x4F85A0 sub_4F85A0 (26 bytes)
-void sub_4F85A0()
+// FUNCTION: 0x4F85A0 Holder::stopBoth
+void Holder::stopBoth()
 {
+    a->v2();
+    b->v2();
 }
 
 // STUB: 0x4F85C0 sub_4F85C0 (99 bytes)
@@ -178,7 +211,9 @@ void sub_4F9990()
 {
 }
 
-// STUB: 0x4F9A10 sub_4F9A10 (21 bytes)
-void sub_4F9A10()
+// FUNCTION: 0x4F9A10 forwardFirst
+int __stdcall forwardFirst(int a, int b)
 {
+    sub_4F9590(a, b);
+    return a;
 }
