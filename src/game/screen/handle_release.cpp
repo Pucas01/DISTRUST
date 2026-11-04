@@ -1,0 +1,62 @@
+extern short g_73EA86;
+
+extern unsigned char g_73EA80;
+extern short g_73EA82;
+extern short g_73EA84;
+int __cdecl sub_4C6090(int id);
+int __cdecl sub_4C8390(int id);
+
+// STUB: 0x4A5EA0 sub_4A5EA0 (648 bytes)
+void sub_4A5EA0()
+{
+}
+
+// FUNCTION: 0x4A6130 releaseHandles73EA
+void releaseHandles73EA()
+{
+    g_73EA80 = 0xFF;
+    if (g_73EA82 != -1) {
+        sub_4C6090(g_73EA82);
+        g_73EA82 = -1;
+    }
+    if (g_73EA84 != -1) {
+        sub_4C8390(g_73EA84);
+        g_73EA84 = -1;
+    }
+}
+
+// STUB: 0x4A6180 sub_4A6180 (44 bytes)
+void sub_4A6180()
+{
+}
+
+// FUNCTION: 0x4A61B0 setWord73EA86
+int setWord73EA86()
+{
+    return g_73EA86 = 0x65;
+}
+
+// STUB: 0x4A61C0 sub_4A61C0 (32 bytes)
+void sub_4A61C0()
+{
+}
+
+// STUB: 0x4A61E0 sub_4A61E0 (94 bytes)
+void sub_4A61E0()
+{
+}
+
+// STUB: 0x4A6240 sub_4A6240 (51 bytes)
+void sub_4A6240()
+{
+}
+
+// STUB: 0x4A6280 sub_4A6280 (28 bytes)
+void sub_4A6280()
+{
+}
+
+// STUB: 0x4A62A0 sub_4A62A0 (35 bytes)
+void sub_4A62A0()
+{
+}
