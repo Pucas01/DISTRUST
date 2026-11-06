@@ -1,6 +1,9 @@
 void sub_44B530();
 void sub_44F3F0();
 
+extern unsigned short g_6FD878[];
+extern unsigned short g_6FD684[];
+
 // STUB: 0x448DD0 sub_448DD0 (354 bytes)
 void sub_448DD0()
 {
@@ -76,9 +79,14 @@ void sub_44A820()
 {
 }
 
-// STUB: 0x44A960 sub_44A960 (50 bytes)
-void sub_44A960()
+// FUNCTION: 0x44A960 sub_44A960
+int __cdecl sub_44A960(int key, int n)
 {
+    for (int i = 0; i < n; i++) {
+        if (g_6FD878[i] == key)
+            return g_6FD684[i];
+    }
+    return -1;
 }
 
 // STUB: 0x44A9A0 sub_44A9A0 (129 bytes)

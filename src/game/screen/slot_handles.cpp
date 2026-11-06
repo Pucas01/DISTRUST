@@ -7,6 +7,8 @@ struct Slot6C {
 extern Slot6C g_slotEntries[];
 int __cdecl sub_4C8390(int id);
 
+int __cdecl sub_4C6090(int id);
+
 // STUB: 0x4AD520 sub_4AD520 (1914 bytes)
 void sub_4AD520()
 {
@@ -77,14 +79,24 @@ void sub_4AFB80()
 {
 }
 
-// STUB: 0x4AFC30 sub_4AFC30 (46 bytes)
-void sub_4AFC30()
+// FUNCTION: 0x4AFC30 sub_4AFC30
+void __cdecl sub_4AFC30(int i)
 {
+    Slot6C* e = &g_slotEntries[i];
+    int h = e->pad0;
+    if (h > 0) {
+        sub_4C6090(h);
+        e->pad0 = -1;
+        e->pad68[0] = 0;
+        e->pad68[1] = 0;
+    }
 }
 
-// STUB: 0x4AFC60 sub_4AFC60 (33 bytes)
-void sub_4AFC60()
+// FUNCTION: 0x4AFC60 sub_4AFC60
+bool __cdecl sub_4AFC60(int i)
 {
+    Slot6C* e = &g_slotEntries[i];
+    return *((char*)e + 0x69) && e->count > 0;
 }
 
 // STUB: 0x4AFC90 sub_4AFC90 (143 bytes)

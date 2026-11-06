@@ -20,6 +20,10 @@ extern float g_7400EC;
 
 void __cdecl sub_4BE160(void* obj, int value);
 
+extern float g_69959C;
+extern float g_6995A0;
+extern char g_74010C[];
+
 // STUB: 0x4BDB30 sub_4BDB30 (596 bytes)
 void sub_4BDB30()
 {
@@ -57,9 +61,11 @@ void __cdecl bindBuf740148(int value)
     sub_4BE160(g_740148, value);
 }
 
-// STUB: 0x4BE8E0 sub_4BE8E0 (31 bytes)
-void sub_4BE8E0()
+// FUNCTION: 0x4BE8E0 sub_4BE8E0
+void __cdecl sub_4BE8E0(int value)
 {
+    g_740184 = (char*)&g_7400D0;
+    sub_4BE160(&g_7400D0, value);
 }
 
 // FUNCTION: 0x4BE900 setAngleDegrees
@@ -122,14 +128,18 @@ void sub_4BEE00()
 {
 }
 
-// STUB: 0x4BEE80 sub_4BEE80 (31 bytes)
-void sub_4BEE80()
+// FUNCTION: 0x4BEE80 sub_4BEE80
+void __cdecl sub_4BEE80(float a, float b)
 {
+    g_69959C = a;
+    g_6995A0 = b;
 }
 
-// STUB: 0x4BEEA0 sub_4BEEA0 (31 bytes)
-void sub_4BEEA0()
+// FUNCTION: 0x4BEEA0 sub_4BEEA0
+void __cdecl sub_4BEEA0(int value)
 {
+    g_740184 = g_74010C;
+    sub_4BE160(g_74010C, value);
 }
 
 // STUB: 0x4BEEC0 sub_4BEEC0 (361 bytes)

@@ -15,19 +15,36 @@ void __cdecl setBatchFlag8(unsigned int index)
         ((char*)&g_spriteBatches[index])[8] = 1;
 }
 
-// STUB: 0x4DDD10 sub_4DDD10 (43 bytes)
-void sub_4DDD10()
+// FUNCTION: 0x4DDD10 sub_4DDD10
+void __cdecl sub_4DDD10(unsigned int i, char c, short s)
 {
+    if (i <= 0x3f) {
+        char* b = (char*)g_spriteBatches + i * 0x210;
+        b[0x15] = c;
+        *(short*)(b + 0x1a) = s;
+        b[2] = 0;
+    }
 }
 
-// STUB: 0x4DDD40 sub_4DDD40 (43 bytes)
-void sub_4DDD40()
+// FUNCTION: 0x4DDD40 sub_4DDD40
+void __cdecl sub_4DDD40(unsigned int i, char c, short s)
 {
+    if (i <= 0x3f) {
+        char* b = (char*)g_spriteBatches + i * 0x210;
+        b[0x15] = c;
+        *(short*)(b + 0x1a) = s;
+        b[2] = 1;
+    }
 }
 
-// STUB: 0x4DDD70 sub_4DDD70 (33 bytes)
-void sub_4DDD70()
+// FUNCTION: 0x4DDD70 sub_4DDD70
+void __cdecl sub_4DDD70(unsigned int i)
 {
+    if (i <= 0x3f) {
+        SpriteBatchRaw* b = (SpriteBatchRaw*)((char*)g_spriteBatches + i * 0x210);
+        *((char*)b + 0xb) = 1;
+        *((char*)b + 2) = 0;
+    }
 }
 
 // FUNCTION: 0x4DDDA0 setBatchFlag6

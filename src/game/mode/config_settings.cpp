@@ -9,6 +9,13 @@ extern unsigned char g_73DC82;
 extern unsigned char g_73DC83;
 extern unsigned char g_73DC84;
 
+extern int g_73DC64;
+extern int g_73DC68;
+
+extern short g_mapState;
+void __cdecl sub_4800B0(int a);
+void __cdecl sub_480000(int a, int b, int c, int d, int e);
+
 // STUB: 0x47F4A0 sub_47F4A0 (1835 bytes)
 void sub_47F4A0()
 {
@@ -49,14 +56,21 @@ void sub_4800B0()
 {
 }
 
-// STUB: 0x4801B0 sub_4801B0 (41 bytes)
-void sub_4801B0()
+// FUNCTION: 0x4801B0 sub_4801B0
+void __cdecl sub_4801B0(int a)
 {
+    sub_4800B0(a);
+    sub_480000(g_mapState, 0x70, 0x1a2, a, 0x12);
 }
 
-// STUB: 0x4801E0 sub_4801E0 (32 bytes)
-void sub_4801E0()
+// FUNCTION: 0x4801E0 sub_4801E0
+int __cdecl sub_4801E0(int i)
 {
+    if (i == 0)
+        return g_73DC64;
+    if (i == 1)
+        return g_73DC68;
+    return -1;
 }
 
 // STUB: 0x480200 sub_480200 (207 bytes)

@@ -9,6 +9,8 @@ extern RecB0* g_recs;
 extern short g_745918;
 void __cdecl sub_4EDFB0(void* p);
 
+void* __cdecl sub_4D3F40(int a, int b, float c, int d, float e);
+
 // STUB: 0x4D1B50 sub_4D1B50 (206 bytes)
 void sub_4D1B50()
 {
@@ -114,9 +116,15 @@ bool __cdecl freeRec(unsigned int index)
     return false;
 }
 
-// STUB: 0x4D3D20 sub_4D3D20 (40 bytes)
-void sub_4D3D20()
+// FUNCTION: 0x4D3D20 sub_4D3D20
+bool __cdecl sub_4D3D20(const char* s)
 {
+    if (!s)
+        return false;
+    if (*s++ != 'O') return false;
+    if (*s++ != 'M') return false;
+    if (*s++ != 'G') return false;
+    return *s == '.';
 }
 
 // STUB: 0x4D3D50 sub_4D3D50 (163 bytes)
@@ -134,12 +142,21 @@ void sub_4D3E60()
 {
 }
 
-// STUB: 0x4D3ED0 sub_4D3ED0 (52 bytes)
-void sub_4D3ED0()
+// FUNCTION: 0x4D3ED0 sub_4D3ED0
+bool __cdecl sub_4D3ED0(unsigned int i, float f)
 {
+    if (i <= 0x95) {
+        char* r = (char*)g_recs + i * 0xb0;
+        if (r[4]) {
+            *(float*)(r + 0xa0) = f;
+            return true;
+        }
+    }
+    return false;
 }
 
-// STUB: 0x4D3F10 sub_4D3F10 (41 bytes)
-void sub_4D3F10()
+// FUNCTION: 0x4D3F10 sub_4D3F10
+void* __cdecl sub_4D3F10(int a, int b, float c, int d)
 {
+    return sub_4D3F40(a, b, c, d, 0.0f);
 }

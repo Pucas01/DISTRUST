@@ -21,6 +21,36 @@ struct RxParser {
 
 int __stdcall sub_5A8430(int a, int b);
 
+struct Elem1_5A9C60 {
+    char b[1];
+};
+
+struct VecR1_5A9C60 {
+    Elem1_5A9C60* first;
+    Elem1_5A9C60* last;
+    Elem1_5A9C60* end;
+    void reserve(unsigned int n);
+    void _Reserve(unsigned int n);
+};
+namespace std {
+__declspec(noreturn) void __cdecl _Xlength_error(const char* what);
+}
+
+struct Elem8_5A9CD0 {
+    char b[8];
+};
+
+struct VecR8_5A9CD0 {
+    Elem8_5A9CD0* first;
+    Elem8_5A9CD0* last;
+    Elem8_5A9CD0* end;
+    void reserve(unsigned int n);
+    void _Reserve(unsigned int n);
+};
+namespace std {
+__declspec(noreturn) void __cdecl _Xlength_error(const char* what);
+}
+
 // STUB: 0x5A7DC0 sub_5A7DC0 (411 bytes)
 void sub_5A7DC0()
 {
@@ -189,14 +219,46 @@ void sub_5A9B80()
 {
 }
 
-// STUB: 0x5A9C60 std::E::EV?$allocator::?$vector::_Reserve (106 bytes)
-void std_E_EV_allocator_vector__Reserve()
+// FUNCTION: 0x5A9C60 VecR1_5A9C60::_Reserve
+void VecR1_5A9C60::_Reserve(unsigned int n)
 {
+    if ((unsigned int)(end - last) < n) {
+        Elem1_5A9C60* f = first;
+        if ((unsigned int)(f - last) - 1 < n) {
+            std::_Xlength_error("vector<T> too long");
+        } else {
+            unsigned int want = (last - f) + n;
+            unsigned int cap = end - f;
+            if (0xFFFFFFFFu - cap / 2 < cap)
+                cap = 0;
+            else
+                cap += cap / 2;
+            if (cap < want)
+                cap = want;
+            reserve(cap);
+        }
+    }
 }
 
-// STUB: 0x5A9CD0 sub_5A9CD0 (114 bytes)
-void sub_5A9CD0()
+// FUNCTION: 0x5A9CD0 VecR8_5A9CD0::_Reserve
+void VecR8_5A9CD0::_Reserve(unsigned int n)
 {
+    if ((unsigned int)(end - last) < n) {
+        unsigned int size = last - first;
+        if (0xFFFFFFFFu / 8 - size < n) {
+            std::_Xlength_error("vector<T> too long");
+        } else {
+            unsigned int want = size + n;
+            unsigned int cap = end - first;
+            if (0xFFFFFFFFu / 8 - cap / 2 < cap)
+                cap = 0;
+            else
+                cap += cap / 2;
+            if (cap < want)
+                cap = want;
+            reserve(cap);
+        }
+    }
 }
 
 // STUB: 0x5A9D50 sub_5A9D50 (158 bytes)

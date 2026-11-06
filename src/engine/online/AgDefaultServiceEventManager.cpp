@@ -1,7 +1,8 @@
+// FLAGS: /nologo /c /O2 /Oy- /Gy /GS /Zc:wchar_t /arch:SSE2 /fp:fast /EHa
 #include "engine/online/AgDefaultServiceEventManager.gen.h"
 
-// STUB: 0x55C470 AgDefaultServiceEventManager::vfn_0 (95 bytes)
-void AgDefaultServiceEventManager::vfn_0()
+// FUNCTION: 0x55C470 ??_GAgDefaultServiceEventManager@@UAEPAXI@Z
+AgDefaultServiceEventManager::~AgDefaultServiceEventManager()
 {
 }
 

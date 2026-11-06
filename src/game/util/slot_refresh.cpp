@@ -11,6 +11,8 @@ extern short g_73E524[];
 extern unsigned char g_6879EC;
 void __cdecl setEntryKind(unsigned int index, int value);
 
+bool __cdecl isEntryDone(int id);
+
 // FUNCTION: 0x497780 clearSlots73E5
 void clearSlots73E5()
 {
@@ -98,9 +100,13 @@ void sub_498030()
 {
 }
 
-// STUB: 0x4980B0 sub_4980B0 (42 bytes)
-void sub_4980B0()
+// FUNCTION: 0x4980B0 sub_4980B0
+int __cdecl sub_4980B0(unsigned int i)
 {
+    short v = g_73E524[i];
+    if (v == -1)
+        return 1;
+    return isEntryDone(v);
 }
 
 // STUB: 0x4980E0 sub_4980E0 (224 bytes)

@@ -4,9 +4,15 @@ extern unsigned char g_pending;
 extern unsigned char g_73E38D;
 extern unsigned char g_73E38E;
 
-// STUB: 0x48DE00 sub_48DE00 (25 bytes)
-void sub_48DE00()
+extern unsigned char g_73E38C;
+
+// FUNCTION: 0x48DE00 sub_48DE00
+void __cdecl sub_48DE00(unsigned int v)
 {
+    if (v <= 0x1f) {
+        g_73E38C = (unsigned char)v;
+        g_73E382 = 1;
+    }
 }
 
 // FUNCTION: 0x48DE20 setPending73E38

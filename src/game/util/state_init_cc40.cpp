@@ -5,6 +5,9 @@ extern int g_73CC60;
 extern int g_73CC68;
 extern unsigned char g_73CC4B;
 
+extern unsigned char g_73CC48;
+extern unsigned char g_73CC4A;
+
 // STUB: 0x465F30 sub_465F30 (668 bytes)
 void sub_465F30()
 {
@@ -101,7 +104,13 @@ void sub_46B800()
 {
 }
 
-// STUB: 0x46B860 sub_46B860 (54 bytes)
-void sub_46B860()
+// FUNCTION: 0x46B860 sub_46B860
+void __cdecl sub_46B860(unsigned char v)
 {
+    g_73CC40 = 1;
+    g_73CC44 = 1;
+    g_73CC60 = 0;
+    g_73CC68 = 0;
+    g_73CC4A = v;
+    g_73CC48 = 0;
 }

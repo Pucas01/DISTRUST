@@ -56,9 +56,11 @@ void sub_48CC30()
 {
 }
 
-// STUB: 0x48CDD0 sub_48CDD0 (22 bytes)
-void sub_48CDD0()
+// FUNCTION: 0x48CDD0 sub_48CDD0
+void __cdecl sub_48CDD0(unsigned int i, char c)
 {
+    if (i <= 0x10)
+        ((char*)&g_73E2C1)[i] = c;
 }
 
 // STUB: 0x48CDF0 sub_48CDF0 (342 bytes)

@@ -6,6 +6,9 @@ extern short g_73EA84;
 int __cdecl sub_4C6090(int id);
 int __cdecl sub_4C8390(int id);
 
+extern char g_73EA81;
+extern short g_73EA86;
+
 // STUB: 0x4A5EA0 sub_4A5EA0 (648 bytes)
 void sub_4A5EA0()
 {
@@ -36,9 +39,12 @@ int setWord73EA86()
     return g_73EA86 = 0x65;
 }
 
-// STUB: 0x4A61C0 sub_4A61C0 (32 bytes)
-void sub_4A61C0()
+// FUNCTION: 0x4A61C0 sub_4A61C0
+int sub_4A61C0()
 {
+    if (g_73EA80 == 0xFF || g_73EA86 == 100)
+        return 1;
+    return g_73EA81;
 }
 
 // STUB: 0x4A61E0 sub_4A61E0 (94 bytes)

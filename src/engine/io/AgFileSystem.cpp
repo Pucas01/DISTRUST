@@ -1,6 +1,21 @@
 #include "engine/io/AgFileSystem.gen.h"
 #include "engine/core/AgSingleton.h"
 
+struct Elem8_509940 {
+    char b[8];
+};
+
+struct VecR8_509940 {
+    Elem8_509940* first;
+    Elem8_509940* last;
+    Elem8_509940* end;
+    void reserve(unsigned int n);
+    void _Reserve(unsigned int n);
+};
+namespace std {
+__declspec(noreturn) void __cdecl _Xlength_error(const char* what);
+}
+
 // STUB: 0x509740 AgFileSystem::fn_509740 (176 bytes)
 void AgFileSystem::fn_509740()
 {
@@ -16,9 +31,25 @@ void AgFileSystem::fn_509860()
 {
 }
 
-// STUB: 0x509940 AgFileSystem::fn_509940 (114 bytes)
-void AgFileSystem::fn_509940()
+// FUNCTION: 0x509940 VecR8_509940::_Reserve
+void VecR8_509940::_Reserve(unsigned int n)
 {
+    if ((unsigned int)(end - last) < n) {
+        unsigned int size = last - first;
+        if (0xFFFFFFFFu / 8 - size < n) {
+            std::_Xlength_error("vector<T> too long");
+        } else {
+            unsigned int want = size + n;
+            unsigned int cap = end - first;
+            if (0xFFFFFFFFu / 8 - cap / 2 < cap)
+                cap = 0;
+            else
+                cap += cap / 2;
+            if (cap < want)
+                cap = want;
+            reserve(cap);
+        }
+    }
 }
 
 // STUB: 0x5099C0 AgFileSystem::fn_5099C0 (256 bytes)

@@ -52,8 +52,9 @@ void sub_47E2B0()
 }
 
 // STUB: 0x47E320 sub_47E320 (109 bytes)
-void sub_47E320()
+__declspec(noinline) void sub_47E320()
 {
+    __asm nop
 }
 
 // STUB: 0x47E390 sub_47E390 (36 bytes)

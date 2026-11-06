@@ -6,14 +6,28 @@ extern int g_73C410[];
 extern int g_73C438[];
 extern int g_73C498[];
 
+extern unsigned char g_73C53E;
+extern char g_73C548[];
+extern unsigned char g_73C3E8;
+extern unsigned char g_73C535;
+extern unsigned char g_73C534;
+
 // STUB: 0x441550 sub_441550 (64 bytes)
 void sub_441550()
 {
 }
 
-// STUB: 0x441590 sub_441590 (50 bytes)
-void sub_441590()
+// FUNCTION: 0x441590 sub_441590
+void __cdecl sub_441590(char a, int b, int c)
 {
+    unsigned char n = g_73C53E;
+    if (n < 0x14) {
+        char* e = g_73C548 + n * 16;
+        e[1] = a;
+        *(int*)(e + 8) = b;
+        *(int*)(e + 0xc) = c;
+        g_73C53E++;
+    }
 }
 
 // STUB: 0x4415D0 sub_4415D0 (280 bytes)
@@ -49,9 +63,10 @@ int allSlotsUsed73C4()
     return g_73C4E8 != -1;
 }
 
-// STUB: 0x4419D0 sub_4419D0 (21 bytes)
-void sub_4419D0()
+// FUNCTION: 0x4419D0 sub_4419D0
+void __cdecl sub_4419D0(int a)
 {
+    g_73C3E8 = (unsigned char)(((a != 1) - 1) & 3);
 }
 
 // STUB: 0x4419F0 sub_4419F0 (82 bytes)
@@ -59,9 +74,14 @@ void sub_4419F0()
 {
 }
 
-// STUB: 0x441A50 sub_441A50 (46 bytes)
-void sub_441A50()
+// FUNCTION: 0x441A50 sub_441A50
+void __cdecl sub_441A50(int a, int b)
 {
+    g_73C535 = (unsigned char)b;
+    if (b == 1) {
+        if (a != -1)
+            g_73C534 = (unsigned char)a;
+    }
 }
 
 // FUNCTION: 0x441A80 setOrigin73C3F0

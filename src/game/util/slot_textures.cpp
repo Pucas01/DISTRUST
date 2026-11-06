@@ -8,6 +8,10 @@ extern short g_73E5B4[];
 extern short g_73E5BC[];
 bool __cdecl touchTexture(int id, int generation);
 
+extern int g_73E5AC;
+extern int g_73E5B0;
+extern char g_73E566[];
+
 // STUB: 0x4984C0 sub_4984C0 (3492 bytes)
 void sub_4984C0()
 {
@@ -52,19 +56,24 @@ void sub_4993F0()
 {
 }
 
-// STUB: 0x499450 sub_499450 (23 bytes)
-void sub_499450()
+// FUNCTION: 0x499450 sub_499450
+void __cdecl sub_499450(int i, short v)
 {
+    *(short*)(g_73E566 + i * 20) = v;
 }
 
-// STUB: 0x499470 sub_499470 (30 bytes)
-void sub_499470()
+// FUNCTION: 0x499470 sub_499470
+void __cdecl sub_499470(int i, int v)
 {
+    *(short*)(g_73E566 + i * 20) = (short)v;
+    *(short*)(g_73E566 + i * 20 + 2) = (short)v;
 }
 
-// STUB: 0x499490 sub_499490 (21 bytes)
-void sub_499490()
+// FUNCTION: 0x499490 sub_499490
+void __cdecl sub_499490(int a, int b)
 {
+    g_73E5AC = a;
+    g_73E5B0 = b;
 }
 
 // FUNCTION: 0x4994B0 setWord73E558
@@ -129,9 +138,15 @@ void sub_49A170()
 {
 }
 
-// STUB: 0x49A2E0 sub_49A2E0 (30 bytes)
-void sub_49A2E0()
+// FUNCTION: 0x49A2E0 sub_49A2E0
+int sub_49A2E0()
 {
+    unsigned char c = g_73E5C8;
+    if (c == 2)
+        return 1;
+    if (c == 4)
+        return 1;
+    return c == 0;
 }
 
 // FUNCTION: 0x49A300 setState73E5C8

@@ -1,5 +1,17 @@
 #include "game/game_mode.h"
 
+extern unsigned char g_pending;
+extern unsigned char g_73E38D;
+extern unsigned char g_73E38E;
+extern unsigned char g_73E39C;
+extern unsigned char g_73E35A;
+void __cdecl sub_486AF0(int);
+void __cdecl sub_49C510(int);
+void __cdecl sub_49F6C0(int);
+void __cdecl sub_4966E0(int);
+void __cdecl sub_499350();
+void __cdecl sub_499380();
+
 // FUNCTION: 0x48D870 enterMode1C
 void __cdecl enterMode1C(short a, char b)
 {
@@ -284,54 +296,83 @@ void __cdecl enterMode20Or21(int value)
     g_gameState[0x85E0] = 0xFF;
 }
 
-// STUB: 0x48D990 sub_48D990 (43 bytes)
-void sub_48D990()
+// FUNCTION: 0x48D990 sub_48D990
+void __cdecl sub_48D990(unsigned int a, unsigned int b)
 {
+    if (a <= 0x10 && b <= 0x113) {
+        g_73E382.a = 1;
+        g_73E382.b = a;
+        g_73E386 = b;
+    }
 }
 
-// STUB: 0x48D9C0 sub_48D9C0 (52 bytes)
-void sub_48D9C0()
+// FUNCTION: 0x48D9C0 sub_48D9C0
+void __cdecl sub_48D9C0(unsigned int a, int b, unsigned int c)
 {
+    if (a <= 0x10 && b >= 0 && c <= 1) {
+        g_73E382.a = 1;
+        g_pending = a;
+        g_73E38D = b;
+        g_73E38E = c;
+    }
 }
 
-// STUB: 0x48DA30 sub_48DA30 (30 bytes)
-void sub_48DA30()
+// FUNCTION: 0x48DA30 sub_48DA30
+void __cdecl sub_48DA30(unsigned int v)
 {
+    if (v <= 0x13)
+        g_73E39C = v;
 }
 
-// STUB: 0x48DAC0 sub_48DAC0 (42 bytes)
-void sub_48DAC0()
+// FUNCTION: 0x48DAC0 sub_48DAC0
+void __cdecl sub_48DAC0(int v)
 {
+    if (v >= 0 && v <= (signed char)g_73E39C)
+        g_73E39D = v;
 }
 
-// STUB: 0x48DB70 sub_48DB70 (30 bytes)
-void sub_48DB70()
+// FUNCTION: 0x48DB70 sub_48DB70
+void __cdecl sub_48DB70(int v)
 {
+    if (v > 0)
+        g_73E394 = v;
 }
 
-// STUB: 0x48DEE0 sub_48DEE0 (21 bytes)
-void sub_48DEE0()
+// FUNCTION: 0x48DEE0 sub_48DEE0
+void __cdecl sub_48DEE0(int v)
 {
+    if (v == 1)
+        sub_499350();
+    else
+        sub_499380();
 }
 
-// STUB: 0x48DF90 sub_48DF90 (43 bytes)
-void sub_48DF90()
+// FUNCTION: 0x48DF90 sub_48DF90
+void __cdecl sub_48DF90(int v)
 {
+    g_73E35A = (char)v;
+    sub_486AF0(v);
+    sub_49C510(v);
+    sub_49F6C0(v);
+    sub_4966E0(v);
 }
 
-// STUB: 0x48DFC0 sub_48DFC0 (13 bytes)
+// FUNCTION: 0x48DFC0 sub_48DFC0
 void sub_48DFC0()
 {
+    g_gameState[0x85E0] = 0xFF;
 }
 
-// STUB: 0x48DFD0 sub_48DFD0 (11 bytes)
-void sub_48DFD0()
+// FUNCTION: 0x48DFD0 sub_48DFD0
+unsigned char* sub_48DFD0()
 {
+    return g_gameState + 0x85E2;
 }
 
-// STUB: 0x48DFE0 sub_48DFE0 (13 bytes)
-void sub_48DFE0()
+// FUNCTION: 0x48DFE0 sub_48DFE0
+int sub_48DFE0()
 {
+    return g_gameState[0x85E0];
 }
 
 // STUB: 0x48DFF0 sub_48DFF0 (134 bytes)

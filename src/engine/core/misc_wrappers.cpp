@@ -21,6 +21,36 @@ void __stdcall sub_4F9590(int a, int b);
 void __fastcall sub_4F6730(void* self);
 void __cdecl operator delete(void* block);
 
+struct Elem8_4F81A0 {
+    char b[8];
+};
+
+struct VecR8_4F81A0 {
+    Elem8_4F81A0* first;
+    Elem8_4F81A0* last;
+    Elem8_4F81A0* end;
+    void reserve(unsigned int n);
+    void _Reserve(unsigned int n);
+};
+namespace std {
+__declspec(noreturn) void __cdecl _Xlength_error(const char* what);
+}
+
+struct Elem8_4F8220 {
+    char b[8];
+};
+
+struct VecR8_4F8220 {
+    Elem8_4F8220* first;
+    Elem8_4F8220* last;
+    Elem8_4F8220* end;
+    void reserve(unsigned int n);
+    void _Reserve(unsigned int n);
+};
+namespace std {
+__declspec(noreturn) void __cdecl _Xlength_error(const char* what);
+}
+
 // STUB: 0x4F7840 sub_4F7840 (129 bytes)
 void sub_4F7840()
 {
@@ -78,14 +108,46 @@ void sub_4F80D0()
 {
 }
 
-// STUB: 0x4F81A0 sub_4F81A0 (114 bytes)
-void sub_4F81A0()
+// FUNCTION: 0x4F81A0 VecR8_4F81A0::_Reserve
+void VecR8_4F81A0::_Reserve(unsigned int n)
 {
+    if ((unsigned int)(end - last) < n) {
+        unsigned int size = last - first;
+        if (0xFFFFFFFFu / 8 - size < n) {
+            std::_Xlength_error("vector<T> too long");
+        } else {
+            unsigned int want = size + n;
+            unsigned int cap = end - first;
+            if (0xFFFFFFFFu / 8 - cap / 2 < cap)
+                cap = 0;
+            else
+                cap += cap / 2;
+            if (cap < want)
+                cap = want;
+            reserve(cap);
+        }
+    }
 }
 
-// STUB: 0x4F8220 sub_4F8220 (114 bytes)
-void sub_4F8220()
+// FUNCTION: 0x4F8220 VecR8_4F8220::_Reserve
+void VecR8_4F8220::_Reserve(unsigned int n)
 {
+    if ((unsigned int)(end - last) < n) {
+        unsigned int size = last - first;
+        if (0xFFFFFFFFu / 8 - size < n) {
+            std::_Xlength_error("vector<T> too long");
+        } else {
+            unsigned int want = size + n;
+            unsigned int cap = end - first;
+            if (0xFFFFFFFFu / 8 - cap / 2 < cap)
+                cap = 0;
+            else
+                cap += cap / 2;
+            if (cap < want)
+                cap = want;
+            reserve(cap);
+        }
+    }
 }
 
 // STUB: 0x4F82A0 sub_4F82A0 (97 bytes)

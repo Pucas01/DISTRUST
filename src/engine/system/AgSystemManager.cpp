@@ -1,6 +1,36 @@
 #include "engine/system/AgSystemManager.gen.h"
 #include "engine/core/AgSingleton.h"
 
+struct Elem1_51FE70 {
+    char b[1];
+};
+
+struct VecR1_51FE70 {
+    Elem1_51FE70* first;
+    Elem1_51FE70* last;
+    Elem1_51FE70* end;
+    void reserve(unsigned int n);
+    void _Reserve(unsigned int n);
+};
+namespace std {
+__declspec(noreturn) void __cdecl _Xlength_error(const char* what);
+}
+
+struct Elem8_51FEE0 {
+    char b[8];
+};
+
+struct VecR8_51FEE0 {
+    Elem8_51FEE0* first;
+    Elem8_51FEE0* last;
+    Elem8_51FEE0* end;
+    void reserve(unsigned int n);
+    void _Reserve(unsigned int n);
+};
+namespace std {
+__declspec(noreturn) void __cdecl _Xlength_error(const char* what);
+}
+
 // STUB: 0x51FCB0 AgSystemManager::fn_51FCB0 (192 bytes)
 void AgSystemManager::fn_51FCB0()
 {
@@ -11,14 +41,46 @@ void AgSystemManager::fn_51FD80()
 {
 }
 
-// STUB: 0x51FE70 AgSystemManager::fn_51FE70 (106 bytes)
-void AgSystemManager::fn_51FE70()
+// FUNCTION: 0x51FE70 VecR1_51FE70::_Reserve
+void VecR1_51FE70::_Reserve(unsigned int n)
 {
+    if ((unsigned int)(end - last) < n) {
+        Elem1_51FE70* f = first;
+        if ((unsigned int)(f - last) - 1 < n) {
+            std::_Xlength_error("vector<T> too long");
+        } else {
+            unsigned int want = (last - f) + n;
+            unsigned int cap = end - f;
+            if (0xFFFFFFFFu - cap / 2 < cap)
+                cap = 0;
+            else
+                cap += cap / 2;
+            if (cap < want)
+                cap = want;
+            reserve(cap);
+        }
+    }
 }
 
-// STUB: 0x51FEE0 AgSystemManager::fn_51FEE0 (114 bytes)
-void AgSystemManager::fn_51FEE0()
+// FUNCTION: 0x51FEE0 VecR8_51FEE0::_Reserve
+void VecR8_51FEE0::_Reserve(unsigned int n)
 {
+    if ((unsigned int)(end - last) < n) {
+        unsigned int size = last - first;
+        if (0xFFFFFFFFu / 8 - size < n) {
+            std::_Xlength_error("vector<T> too long");
+        } else {
+            unsigned int want = size + n;
+            unsigned int cap = end - first;
+            if (0xFFFFFFFFu / 8 - cap / 2 < cap)
+                cap = 0;
+            else
+                cap += cap / 2;
+            if (cap < want)
+                cap = want;
+            reserve(cap);
+        }
+    }
 }
 
 // STUB: 0x51FF60 AgSystemManager::fn_51FF60 (115 bytes)

@@ -32,6 +32,21 @@ struct IntVec {
 void __cdecl operator delete[](void* block);
 void* __cdecl memmove(void* dst, const void* src, unsigned int n);
 
+struct Elem4_4E5520 {
+    char b[4];
+};
+
+struct VecR4_4E5520 {
+    Elem4_4E5520* first;
+    Elem4_4E5520* last;
+    Elem4_4E5520* end;
+    void reserve(unsigned int n);
+    void _Reserve(unsigned int n);
+};
+namespace std {
+__declspec(noreturn) void __cdecl _Xlength_error(const char* what);
+}
+
 // STUB: 0x4E47D0 sub_4E47D0 (144 bytes)
 void sub_4E47D0()
 {
@@ -142,9 +157,25 @@ void sub_4E54A0()
 {
 }
 
-// STUB: 0x4E5520 sub_4E5520 (114 bytes)
-void sub_4E5520()
+// FUNCTION: 0x4E5520 VecR4_4E5520::_Reserve
+void VecR4_4E5520::_Reserve(unsigned int n)
 {
+    if ((unsigned int)(end - last) < n) {
+        unsigned int size = last - first;
+        if (0xFFFFFFFFu / 4 - size < n) {
+            std::_Xlength_error("vector<T> too long");
+        } else {
+            unsigned int want = size + n;
+            unsigned int cap = end - first;
+            if (0xFFFFFFFFu / 4 - cap / 2 < cap)
+                cap = 0;
+            else
+                cap += cap / 2;
+            if (cap < want)
+                cap = want;
+            reserve(cap);
+        }
+    }
 }
 
 // STUB: 0x4E55A0 sub_4E55A0 (156 bytes)

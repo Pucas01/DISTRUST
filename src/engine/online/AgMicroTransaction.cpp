@@ -1,6 +1,9 @@
+// FLAGS: /nologo /c /O2 /Oy- /Gy /GS /Zc:wchar_t /arch:SSE2 /fp:fast /EHa
 #include "engine/online/AgMicroTransaction.gen.h"
 
-// STUB: 0x549F60 AgMicroTransaction::vfn_0 (89 bytes)
-void AgMicroTransaction::vfn_0()
+// FUNCTION: 0x549F60 ??_GAgMicroTransaction@@UAEPAXI@Z
+
+AgMicroTransaction* createAgMicroTransaction()
 {
+    return new AgMicroTransaction;
 }

@@ -1,12 +1,13 @@
 #pragma once
 
+#include "engine/render/AgRenderListProcessor.gen.h"
+
 // Generated from RTTI by tools/scaffold.py. Slot signatures are not known yet.
 // bases: AgRenderListProcessor, AgReferencedObject
-class AgPlatformRenderListProcessor
+class AgPlatformRenderListProcessor : public AgRenderListProcessor
 {
 public:
     // vtable 0x648D64, offset 0
-    virtual void vfn_0(); // 0x5AE0F0
     virtual void vfn_1(); // 0x5373B0
     virtual void vfn_2(); // 0x537B20
     virtual void vfn_3(); // 0x536A90

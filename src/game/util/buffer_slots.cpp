@@ -11,19 +11,36 @@ struct Slot10F0 {
     char pad16[0x10DA];
 };
 
+void __cdecl sub_4CE9D0(int id);
+
 // STUB: 0x4A0490 sub_4A0490 (72 bytes)
 void sub_4A0490()
 {
 }
 
-// STUB: 0x4A04E0 sub_4A04E0 (65 bytes)
-void sub_4A04E0()
+// FUNCTION: 0x4A04E0 sub_4A04E0
+int __cdecl sub_4A04E0(int id)
 {
+    char* p = (char*)g_73E9CC;
+    if (!p)
+        return -1;
+    for (int i = 0; i < 10; i++, p += 0x10f0) {
+        if (p[0] && *(unsigned short*)(p + 0x14) == id)
+            return (unsigned char)p[0xd28];
+    }
+    return -1;
 }
 
-// STUB: 0x4A0530 sub_4A0530 (48 bytes)
-void sub_4A0530()
+// FUNCTION: 0x4A0530 sub_4A0530
+void __cdecl sub_4A0530(unsigned int i)
 {
+    if (g_73E9CC) {
+        if (i <= 9) {
+            char* p = (char*)g_73E9CC + i * 0x10f0;
+            sub_4CE9D0(*(unsigned short*)(p + 0x14));
+            p[0] = 0;
+        }
+    }
 }
 
 // STUB: 0x4A0560 sub_4A0560 (1061 bytes)
@@ -31,9 +48,12 @@ void sub_4A0560()
 {
 }
 
-// STUB: 0x4A0990 sub_4A0990 (39 bytes)
-void sub_4A0990()
+// FUNCTION: 0x4A0990 sub_4A0990
+int __cdecl sub_4A0990(unsigned int i)
 {
+    if (g_73E9CC && i <= 9)
+        return *(unsigned short*)((char*)g_73E9CC + i * 0x10f0 + 0x14);
+    return -1;
 }
 
 // FUNCTION: 0x4A09C0 freeBuffers73E9
@@ -79,14 +99,32 @@ void sub_4A0CE0()
 {
 }
 
-// STUB: 0x4A0D30 sub_4A0D30 (58 bytes)
-void sub_4A0D30()
+// FUNCTION: 0x4A0D30 sub_4A0D30
+void __cdecl sub_4A0D30(int id)
 {
+    char* p = (char*)g_73E9CC;
+    if (!p)
+        return;
+    for (int i = 0; i < 10; i++, p += 0x10f0) {
+        if (p[0] && *(unsigned short*)(p + 0x14) == id) {
+            p[0xa] = 7;
+            *(unsigned short*)(p + 0xc) = 0;
+            return;
+        }
+    }
 }
 
-// STUB: 0x4A0D70 sub_4A0D70 (41 bytes)
-void sub_4A0D70()
+// FUNCTION: 0x4A0D70 sub_4A0D70
+int sub_4A0D70()
 {
+    char* p = (char*)g_73E9CC;
+    if (!p)
+        return 1;
+    for (int i = 0; i < 10; i++, p += 0x10f0) {
+        if (p[0])
+            return 0;
+    }
+    return 1;
 }
 
 // FUNCTION: 0x4A0DA0 findSlotByWord
@@ -120,9 +158,11 @@ void __cdecl getSlotOrigin(unsigned int index, int* x, int* y)
     }
 }
 
-// STUB: 0x4A13E0 sub_4A13E0 (34 bytes)
-void sub_4A13E0()
+// FUNCTION: 0x4A13E0 sub_4A13E0
+void __cdecl sub_4A13E0(unsigned int i)
 {
+    if (g_73E9CC && i <= 9)
+        *((char*)g_73E9CC + i * 0x10f0 + 1) = 1;
 }
 
 // STUB: 0x4A1410 sub_4A1410 (150 bytes)

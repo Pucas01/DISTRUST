@@ -1,5 +1,15 @@
 extern unsigned char g_73DA98[];
 
+extern int g_73D9D0;
+
+extern unsigned char g_73DA4E;
+
+extern short g_73DA8C;
+void sub_4738D0();
+
+extern unsigned short g_7016B6;
+extern signed char g_6E4890[];
+
 // STUB: 0x476EB0 sub_476EB0 (168 bytes)
 void sub_476EB0()
 {
@@ -20,9 +30,15 @@ void sub_477230()
 {
 }
 
-// STUB: 0x477320 sub_477320 (35 bytes)
-void sub_477320()
+// FUNCTION: 0x477320 sub_477320
+int sub_477320()
 {
+    if (g_73D9D0 >= 10) {
+        g_73DA4E = 9;
+        return 3;
+    }
+    g_73D9D0++;
+    return 3;
 }
 
 // STUB: 0x477350 sub_477350 (290 bytes)
@@ -35,9 +51,12 @@ void sub_477480()
 {
 }
 
-// STUB: 0x4776F0 sub_4776F0 (50 bytes)
-void sub_4776F0()
+// FUNCTION: 0x4776F0 sub_4776F0
+int __cdecl sub_4776F0(int i)
 {
+    if (i >= 100)
+        return (g_7016B6 & (1 << ((i - 3) & 31))) ? 1 : 0;
+    return g_6E4890[i];
 }
 
 // STUB: 0x477730 sub_477730 (103 bytes)
@@ -45,9 +64,12 @@ void sub_477730()
 {
 }
 
-// STUB: 0x4777A0 sub_4777A0 (34 bytes)
-void sub_4777A0()
+// FUNCTION: 0x4777A0 sub_4777A0
+bool __cdecl sub_4777A0(unsigned int i)
 {
+    if (i > 0x71 || (int)i >= 0x74)
+        return false;
+    return g_73DA98[i] == 3;
 }
 
 // FUNCTION: 0x4777D0 setTable73DA98
@@ -61,9 +83,17 @@ void sub_4777E0()
 {
 }
 
-// STUB: 0x4778F0 sub_4778F0 (47 bytes)
-void sub_4778F0()
+// FUNCTION: 0x4778F0 sub_4778F0
+bool __cdecl sub_4778F0(unsigned int i)
 {
+    if (i > 0x71 || (int)i >= 0x74)
+        return false;
+    if (g_73DA98[i] != 0)
+        return false;
+    short s = (short)i;
+    g_73DA8C = s;
+    g_73DA98[s] = 1;
+    return true;
 }
 
 // STUB: 0x477920 sub_477920 (226 bytes)
@@ -81,19 +111,40 @@ void sub_477AA0()
 {
 }
 
-// STUB: 0x477E20 sub_477E20 (45 bytes)
-void sub_477E20()
+// FUNCTION: 0x477E20 sub_477E20
+int sub_477E20()
 {
+    if (g_73D9D0 >= 10) {
+        g_73DA4E = 1;
+        g_73D9D0 = 24;
+        return 3;
+    }
+    g_73D9D0++;
+    return 3;
 }
 
-// STUB: 0x477E50 sub_477E50 (34 bytes)
-void sub_477E50()
+// FUNCTION: 0x477E50 sub_477E50
+int sub_477E50()
 {
+    if (g_73D9D0 <= 0) {
+        g_73DA4E = 7;
+        return 16;
+    }
+    g_73D9D0--;
+    return 3;
 }
 
-// STUB: 0x477E80 sub_477E80 (49 bytes)
-void sub_477E80()
+// FUNCTION: 0x477E80 sub_477E80
+int sub_477E80()
 {
+    if (g_73D9D0 <= 0) {
+        g_73DA4E = 2;
+        g_73D9D0 = 10;
+        sub_4738D0();
+        return 3;
+    }
+    g_73D9D0--;
+    return 3;
 }
 
 // STUB: 0x477EC0 sub_477EC0 (1153 bytes)

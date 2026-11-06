@@ -3,14 +3,28 @@ extern int g_744C74[];
 extern int g_744C80[];
 bool __cdecl touchTexture(int id, int generation);
 
-// STUB: 0x4CF970 sub_4CF970 (45 bytes)
+extern int g_744C4C;
+extern int g_744C88;
+extern int g_744C8C;
+extern int g_744C50;
+extern unsigned char g_744C58;
+extern unsigned char g_740638[];
+
+// FUNCTION: 0x4CF970 sub_4CF970
 void sub_4CF970()
 {
+    g_744C4C ^= 1;
+    g_744C88 = 0;
+    g_744C8C = 0;
+    g_744C50 = 0;
+    g_744C58 = 1;
 }
 
-// STUB: 0x4CF9A0 sub_4CF9A0 (32 bytes)
-void sub_4CF9A0()
+// FUNCTION: 0x4CF9A0 sub_4CF9A0
+void __cdecl sub_4CF9A0(unsigned int i, unsigned char c)
 {
+    if (i <= 0xff)
+        g_740638[i * 60] = c;
 }
 
 // STUB: 0x4CF9C0 sub_4CF9C0 (80 bytes)

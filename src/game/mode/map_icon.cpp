@@ -5,19 +5,41 @@ void __cdecl sub_473920(int a);
 extern char g_628406[];
 void __cdecl sub_4761B0(const char* s, int a, int b, int c, int d, int e, int f);
 
+extern void* g_6A8D24;
+struct P2_73D9DC {
+    short a;
+    short b;
+};
+extern P2_73D9DC g_73D9DC;
+extern int g_7005D4;
+extern unsigned short g_6E4694;
+extern unsigned char g_73D9D6;
+extern unsigned char g_73D9D7;
+bool __cdecl sub_473C60(int);
+void __cdecl sub_4740F0(int);
+void __cdecl freeUnmanaged(void* p);
+
+extern int g_697B40;
+void clearMapState();
+
 // STUB: 0x472830 sub_472830 (565 bytes)
 void sub_472830()
 {
 }
 
-// STUB: 0x472A70 sub_472A70 (29 bytes)
+// FUNCTION: 0x472A70 sub_472A70
 void sub_472A70()
 {
+    if (g_6A8D24) {
+        freeUnmanaged(g_6A8D24);
+        g_6A8D24 = 0;
+    }
 }
 
 // STUB: 0x472A90 sub_472A90 (389 bytes)
-void sub_472A90()
+__declspec(noinline) void sub_472A90()
 {
+    __asm nop
 }
 
 // STUB: 0x472C20 sub_472C20 (532 bytes)
@@ -40,9 +62,14 @@ void sub_473290()
 {
 }
 
-// STUB: 0x4732E0 sub_4732E0 (43 bytes)
+// FUNCTION: 0x4732E0 sub_4732E0
 void sub_4732E0()
 {
+    clearMapState();
+    g_6E4694 |= 4;
+    g_73D9D6 = 9;
+    sub_472A90();
+    g_73D9D7 = *(unsigned short*)((char*)g_6A8D24 + 2) > 0;
 }
 
 // STUB: 0x473350 sub_473350 (184 bytes)
@@ -50,9 +77,12 @@ void sub_473350()
 {
 }
 
-// STUB: 0x473470 sub_473470 (32 bytes)
-void sub_473470()
+// FUNCTION: 0x473470 sub_473470
+char sub_473470()
 {
+    char r = sub_473C60(g_697B40);
+    sub_4740F0(g_697B40);
+    return r;
 }
 
 // STUB: 0x473490 sub_473490 (347 bytes)
@@ -70,9 +100,11 @@ void sub_4736D0()
 {
 }
 
-// STUB: 0x4738D0 sub_4738D0 (8 bytes)
+// FUNCTION: 0x4738D0 sub_4738D0
 void sub_4738D0()
 {
+    g_73D9DC.a = 0;
+    g_73D9DC.b = 0;
 }
 
 // FUNCTION: 0x4738E0 drawMapIcon
@@ -102,9 +134,10 @@ void sub_473BA0()
 {
 }
 
-// STUB: 0x473C40 sub_473C40 (27 bytes)
-void sub_473C40()
+// FUNCTION: 0x473C40 sub_473C40
+bool __cdecl sub_473C40(int n)
 {
+    return (g_7005D4 & (1 << (n & 31))) ? true : false;
 }
 
 // STUB: 0x473C60 sub_473C60 (82 bytes)

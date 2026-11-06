@@ -91,24 +91,28 @@ void sub_451100()
 {
 }
 
-// STUB: 0x4515C0 sub_4515C0 (23 bytes)
-void sub_4515C0()
+// FUNCTION: 0x4515C0 sub_4515C0
+bool __cdecl sub_4515C0(int a, int b)
 {
+    return a == 10 && b >= 19;
 }
 
-// STUB: 0x4515E0 sub_4515E0 (23 bytes)
-void sub_4515E0()
+// FUNCTION: 0x4515E0 sub_4515E0
+bool __cdecl sub_4515E0(int a, int b)
 {
+    return a == 10 && b == 19;
 }
 
-// STUB: 0x451600 sub_451600 (23 bytes)
-void sub_451600()
+// FUNCTION: 0x451600 sub_451600
+bool __cdecl sub_451600(int a, int b)
 {
+    return a == 6 && b == 16;
 }
 
-// STUB: 0x451620 sub_451620 (23 bytes)
-void sub_451620()
+// FUNCTION: 0x451620 sub_451620
+bool __cdecl sub_451620(int a, int b)
 {
+    return a == 16 && b >= 20;
 }
 
 // STUB: 0x451640 sub_451640 (152 bytes)

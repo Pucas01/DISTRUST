@@ -7,6 +7,12 @@
 class AgPriorityThreadPool : public AgThreadPool
 {
 public:
+    class PriorityJob : public AgThreadPool::Job
+    {
+    public:
+        PriorityJob();
+    };
+
     AgPriorityThreadPool();
     // vtable 0x6331D0, offset 0
     virtual void vfn_0(); // 0x529690

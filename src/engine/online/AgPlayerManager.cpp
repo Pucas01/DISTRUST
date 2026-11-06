@@ -1,14 +1,45 @@
 #include "engine/online/AgPlayerManager.gen.h"
 #include "engine/core/AgSingleton.h"
 
+struct Elem8_520F00 {
+    char b[8];
+};
+
+struct VecR8_520F00 {
+    Elem8_520F00* first;
+    Elem8_520F00* last;
+    Elem8_520F00* end;
+    void reserve(unsigned int n);
+    void _Reserve(unsigned int n);
+};
+namespace std {
+__declspec(noreturn) void __cdecl _Xlength_error(const char* what);
+}
+
 // STUB: 0x520E20 AgPlayerManager::fn_520E20 (222 bytes)
 void AgPlayerManager::fn_520E20()
 {
 }
 
-// STUB: 0x520F00 AgPlayerManager::fn_520F00 (114 bytes)
-void AgPlayerManager::fn_520F00()
+// FUNCTION: 0x520F00 VecR8_520F00::_Reserve
+void VecR8_520F00::_Reserve(unsigned int n)
 {
+    if ((unsigned int)(end - last) < n) {
+        unsigned int size = last - first;
+        if (0xFFFFFFFFu / 8 - size < n) {
+            std::_Xlength_error("vector<T> too long");
+        } else {
+            unsigned int want = size + n;
+            unsigned int cap = end - first;
+            if (0xFFFFFFFFu / 8 - cap / 2 < cap)
+                cap = 0;
+            else
+                cap += cap / 2;
+            if (cap < want)
+                cap = want;
+            reserve(cap);
+        }
+    }
 }
 
 // STUB: 0x520F80 AgPlayerManager::fn_520F80 (219 bytes)
