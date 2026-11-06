@@ -6,6 +6,11 @@ extern unsigned char g_74063D[];
 void __cdecl sub_4F2670(int);
 void __cdecl sub_4F26B0(int);
 
+struct Float6x15 {
+    float f[15];
+};
+extern Float6x15 g_74064C[];
+
 // STUB: 0x4CE4F0 sub_4CE4F0 (72 bytes)
 void sub_4CE4F0()
 {
@@ -46,9 +51,17 @@ void __cdecl sub_4CE730(int i, unsigned char v)
         g_74063D[i * 60] = v;
 }
 
-// STUB: 0x4CE750 sub_4CE750 (103 bytes)
-void sub_4CE750()
+// FUNCTION: 0x4CE750 setFloats74064C
+void __cdecl setFloats74064C(int i, float a, float b, float c, float d, float e, float f)
 {
+    if (i < 0)
+        return;
+    g_74064C[i].f[0] = a;
+    g_74064C[i].f[1] = b;
+    g_74064C[i].f[2] = c;
+    g_74064C[i].f[3] = d;
+    g_74064C[i].f[4] = e;
+    g_74064C[i].f[5] = f;
 }
 
 // STUB: 0x4CE7C0 sub_4CE7C0 (495 bytes)

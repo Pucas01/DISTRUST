@@ -23,11 +23,6 @@ void sub_4FEAF0()
 {
 }
 
-// STUB: 0x4FEB70 sub_4FEB70 (222 bytes)
-void sub_4FEB70()
-{
-}
-
 // FUNCTION: 0x4FEC50 VecR8_4FEC50::_Reserve
 void VecR8_4FEC50::_Reserve(unsigned int n)
 {
@@ -47,11 +42,6 @@ void VecR8_4FEC50::_Reserve(unsigned int n)
             reserve(cap);
         }
     }
-}
-
-// STUB: 0x4FECD0 sub_4FECD0 (189 bytes)
-void sub_4FECD0()
-{
 }
 
 // STUB: 0x4FED90 sub_4FED90 (663 bytes)

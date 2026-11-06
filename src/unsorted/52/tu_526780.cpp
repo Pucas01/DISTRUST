@@ -3,11 +3,6 @@ void sub_526780()
 {
 }
 
-// STUB: 0x526820 sub_526820 (130 bytes)
-void sub_526820()
-{
-}
-
 // STUB: 0x5268B0 sub_5268B0 (193 bytes)
 void sub_5268B0()
 {
@@ -33,23 +28,8 @@ void sub_526E60()
 {
 }
 
-// STUB: 0x526F80 sub_526F80 (36 bytes)
-void sub_526F80()
-{
-}
-
-// STUB: 0x526FB0 sub_526FB0 (36 bytes)
-void sub_526FB0()
-{
-}
-
 // STUB: 0x526FE0 sub_526FE0 (160 bytes)
 void sub_526FE0()
-{
-}
-
-// STUB: 0x527080 sub_527080 (152 bytes)
-void sub_527080()
 {
 }
 

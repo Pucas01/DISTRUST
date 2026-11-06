@@ -6,11 +6,6 @@ void AgUserManager::fn_5277A0()
 {
 }
 
-// STUB: 0x527800 AgUserManager::fn_527800 (222 bytes)
-void AgUserManager::fn_527800()
-{
-}
-
 // STUB: 0x5278E0 AgUserManager::fn_5278E0 (257 bytes)
 void AgUserManager::fn_5278E0()
 {
@@ -23,11 +18,6 @@ void AgUserManager::fn_5279F0()
 
 // STUB: 0x527AA0 AgUserManager::fn_527AA0 (436 bytes)
 void AgUserManager::fn_527AA0()
-{
-}
-
-// STUB: 0x527C60 AgUserManager::fn_527C60 (115 bytes)
-void AgUserManager::fn_527C60()
 {
 }
 
@@ -84,21 +74,6 @@ template class AgSingleton<AgUserManager>;
 
 // STUB: 0x527410 sub_527410 (68 bytes)
 void sub_527410()
-{
-}
-
-// STUB: 0x527460 sub_527460 (66 bytes)
-void sub_527460()
-{
-}
-
-// STUB: 0x5274B0 sub_5274B0 (66 bytes)
-void sub_5274B0()
-{
-}
-
-// STUB: 0x527500 sub_527500 (65 bytes)
-void sub_527500()
 {
 }
 

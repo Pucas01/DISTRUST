@@ -68,18 +68,8 @@ void sub_514360()
 {
 }
 
-// STUB: 0x5144D0 sub_5144D0 (189 bytes)
-void sub_5144D0()
-{
-}
-
 // STUB: 0x514590 sub_514590 (796 bytes)
 void sub_514590()
-{
-}
-
-// STUB: 0x5148B0 sub_5148B0 (189 bytes)
-void sub_5148B0()
 {
 }
 

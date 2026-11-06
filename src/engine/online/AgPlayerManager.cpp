@@ -16,11 +16,6 @@ namespace std {
 __declspec(noreturn) void __cdecl _Xlength_error(const char* what);
 }
 
-// STUB: 0x520E20 AgPlayerManager::fn_520E20 (222 bytes)
-void AgPlayerManager::fn_520E20()
-{
-}
-
 // FUNCTION: 0x520F00 VecR8_520F00::_Reserve
 void VecR8_520F00::_Reserve(unsigned int n)
 {
@@ -172,16 +167,6 @@ __declspec(noinline) AgPlayerManager::~AgPlayerManager()
 // FUNCTION: 0x520B80 ??1?$AgSingleton@VAgPlayerManager@@@@UAE@XZ
 // FUNCTION: 0x520DC0 ??_G?$AgSingleton@VAgPlayerManager@@@@UAEPAXI@Z
 template class AgSingleton<AgPlayerManager>;
-
-// STUB: 0x520B90 sub_520B90 (66 bytes)
-void sub_520B90()
-{
-}
-
-// STUB: 0x520BE0 sub_520BE0 (66 bytes)
-void sub_520BE0()
-{
-}
 
 // STUB: 0x520D50 sub_520D50 (13 bytes)
 void sub_520D50()

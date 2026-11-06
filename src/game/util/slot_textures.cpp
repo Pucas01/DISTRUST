@@ -12,6 +12,9 @@ extern int g_73E5AC;
 extern int g_73E5B0;
 extern char g_73E566[];
 
+extern short g_73E552;
+extern short g_73E554;
+
 // STUB: 0x4984C0 sub_4984C0 (3492 bytes)
 void sub_4984C0()
 {
@@ -27,14 +30,25 @@ void sub_4992B0()
 {
 }
 
-// STUB: 0x499350 sub_499350 (37 bytes)
-void sub_499350()
+// FUNCTION: 0x499350 resetSlot73E550To1
+void __cdecl resetSlot73E550To1()
 {
+    short s = g_73E550;
+    if (s == 1 || s == 2)
+        return;
+    g_73E554 = 0;
+    *(int*)&g_73E550 = 1;
 }
 
-// STUB: 0x499380 sub_499380 (36 bytes)
-void sub_499380()
+// FUNCTION: 0x499380 resetSlot73E550To3
+void __cdecl resetSlot73E550To3()
 {
+    short s = g_73E550;
+    if (s == 3 || s == 0)
+        return;
+    g_73E550 = 3;
+    g_73E552 = 0;
+    g_73E554 = 0;
 }
 
 // FUNCTION: 0x4993B0 releaseSlotTextures

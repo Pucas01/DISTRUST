@@ -13,16 +13,6 @@ void sub_51DBE0()
 {
 }
 
-// STUB: 0x51DC40 sub_51DC40 (130 bytes)
-void sub_51DC40()
-{
-}
-
-// STUB: 0x51DCD0 sub_51DCD0 (130 bytes)
-void sub_51DCD0()
-{
-}
-
 // STUB: 0x51DD60 sub_51DD60 (116 bytes)
 void sub_51DD60()
 {

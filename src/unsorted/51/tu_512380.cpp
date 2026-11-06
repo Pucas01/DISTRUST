@@ -13,11 +13,6 @@ void sub_5123E0()
 {
 }
 
-// STUB: 0x5123F0 sub_5123F0 (130 bytes)
-void sub_5123F0()
-{
-}
-
 // STUB: 0x512480 sub_512480 (588 bytes)
 void sub_512480()
 {

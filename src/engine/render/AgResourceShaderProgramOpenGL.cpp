@@ -10,16 +10,6 @@ void AgResourceShaderProgramOpenGL::fn_54E760()
 {
 }
 
-// STUB: 0x54E7D0 AgResourceShaderProgramOpenGL::fn_54E7D0 (176 bytes)
-void AgResourceShaderProgramOpenGL::fn_54E7D0()
-{
-}
-
-// STUB: 0x54E880 AgResourceShaderProgramOpenGL::fn_54E880 (160 bytes)
-void AgResourceShaderProgramOpenGL::fn_54E880()
-{
-}
-
 // STUB: 0x54E920 AgResourceShaderProgramOpenGL::fn_54E920 (117 bytes)
 void AgResourceShaderProgramOpenGL::fn_54E920()
 {
@@ -40,18 +30,8 @@ void AgResourceShaderProgramOpenGL::vfn_2()
 {
 }
 
-// STUB: 0x54F1F0 AgResourceShaderProgramOpenGL::fn_54F1F0 (189 bytes)
-void AgResourceShaderProgramOpenGL::fn_54F1F0()
-{
-}
-
 // STUB: 0x54F2B0 AgResourceShaderProgramOpenGL::fn_54F2B0 (679 bytes)
 void AgResourceShaderProgramOpenGL::fn_54F2B0()
-{
-}
-
-// STUB: 0x54F560 AgResourceShaderProgramOpenGL::fn_54F560 (189 bytes)
-void AgResourceShaderProgramOpenGL::fn_54F560()
 {
 }
 

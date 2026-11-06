@@ -1,4 +1,11 @@
-// STUB: 0x532EF0 NewAllocator<AgIndexBuffer,AgResource>::vfn_1 (112 bytes)
-void NewAllocator_AgIndexBuffer_AgResource_vfn_1()
+// FLAGS: /nologo /c /O2 /Oy- /Gy /GS /Zc:wchar_t /arch:SSE2 /fp:fast /EHa
+struct Obj_532EF0 {
+    Obj_532EF0();
+    char pad[0x4C];
+};
+
+// FUNCTION: 0x532EF0 createObj532EF0
+void* createObj532EF0()
 {
+    return new Obj_532EF0();
 }

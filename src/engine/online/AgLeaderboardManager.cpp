@@ -6,28 +6,13 @@ void AgLeaderboardManager::vfn_5()
 {
 }
 
-// STUB: 0x52EE90 AgLeaderboardManager::fn_52EE90 (189 bytes)
-void AgLeaderboardManager::fn_52EE90()
-{
-}
-
 // STUB: 0x52EF50 AgLeaderboardManager::fn_52EF50 (810 bytes)
 void AgLeaderboardManager::fn_52EF50()
 {
 }
 
-// STUB: 0x52F280 AgLeaderboardManager::fn_52F280 (189 bytes)
-void AgLeaderboardManager::fn_52F280()
-{
-}
-
 // STUB: 0x52F340 AgLeaderboardManager::fn_52F340 (673 bytes)
 void AgLeaderboardManager::fn_52F340()
-{
-}
-
-// STUB: 0x52F5F0 AgLeaderboardManager::fn_52F5F0 (189 bytes)
-void AgLeaderboardManager::fn_52F5F0()
 {
 }
 

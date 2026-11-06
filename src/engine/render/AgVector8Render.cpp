@@ -43,21 +43,6 @@ namespace std {
 __declspec(noreturn) void __cdecl _Xlength_error(const char* what);
 }
 
-// STUB: 0x50F250 sub_50F250 (222 bytes)
-void sub_50F250()
-{
-}
-
-// STUB: 0x50F330 sub_50F330 (222 bytes)
-void sub_50F330()
-{
-}
-
-// STUB: 0x50F410 sub_50F410 (204 bytes)
-void sub_50F410()
-{
-}
-
 // FUNCTION: 0x50F4E0 VecR8_50F4E0::_Reserve
 void VecR8_50F4E0::_Reserve(unsigned int n)
 {

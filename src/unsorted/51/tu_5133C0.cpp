@@ -13,7 +13,3 @@ void sub_513560()
 {
 }
 
-// STUB: 0x5136B0 sub_5136B0 (97 bytes)
-void sub_5136B0()
-{
-}

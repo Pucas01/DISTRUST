@@ -89,9 +89,15 @@ void sub_4DAB80()
         g_749250 = 1;
 }
 
-// STUB: 0x4DABA0 sub_4DABA0 (29 bytes)
-void sub_4DABA0()
+// FUNCTION: 0x4DABA0 allFlags74BFFBClear
+bool __cdecl allFlags74BFFBClear()
 {
+    for (int i = 0; i < 4; i++) {
+        unsigned char c = g_74BFFB[i];
+        if (c != 0 && c != 3)
+            return false;
+    }
+    return true;
 }
 
 // STUB: 0x4DABC0 sub_4DABC0 (1444 bytes)

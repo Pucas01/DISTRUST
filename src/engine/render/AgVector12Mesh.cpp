@@ -48,11 +48,6 @@ void sub_551A50()
 {
 }
 
-// STUB: 0x551AF0 sub_551AF0 (97 bytes)
-void sub_551AF0()
-{
-}
-
 // STUB: 0x551B60 sub_551B60 (97 bytes)
 void sub_551B60()
 {
@@ -70,16 +65,6 @@ void sub_551C80()
 
 // STUB: 0x551CD0 sub_551CD0 (160 bytes)
 void sub_551CD0()
-{
-}
-
-// STUB: 0x551D70 sub_551D70 (176 bytes)
-void sub_551D70()
-{
-}
-
-// STUB: 0x551E20 sub_551E20 (160 bytes)
-void sub_551E20()
 {
 }
 
@@ -121,11 +106,6 @@ void VecR12_5520C0::_Reserve(unsigned int n)
 
 // STUB: 0x552160 sub_552160 (250 bytes)
 void sub_552160()
-{
-}
-
-// STUB: 0x552260 sub_552260 (189 bytes)
-void sub_552260()
 {
 }
 

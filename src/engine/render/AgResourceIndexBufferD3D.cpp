@@ -1,10 +1,5 @@
 #include "engine/render/AgResourceIndexBufferD3D.gen.h"
 
-// STUB: 0x54B940 AgResourceIndexBufferD3D::vfn_0 (94 bytes)
-void AgResourceIndexBufferD3D::vfn_0()
-{
-}
-
 // STUB: 0x54B9A0 AgResourceIndexBufferD3D::fn_54B9A0 (144 bytes)
 void AgResourceIndexBufferD3D::fn_54B9A0()
 {

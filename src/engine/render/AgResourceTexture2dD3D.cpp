@@ -1,10 +1,5 @@
 #include "engine/render/AgResourceTexture2dD3D.gen.h"
 
-// STUB: 0x539730 AgResourceTexture2dD3D::vfn_0 (94 bytes)
-void AgResourceTexture2dD3D::vfn_0()
-{
-}
-
 // STUB: 0x539790 AgResourceTexture2dD3D::fn_539790 (867 bytes)
 void AgResourceTexture2dD3D::fn_539790()
 {

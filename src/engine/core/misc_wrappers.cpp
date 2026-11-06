@@ -98,16 +98,6 @@ void sub_4F7F10()
 {
 }
 
-// STUB: 0x4F7FF0 sub_4F7FF0 (222 bytes)
-void sub_4F7FF0()
-{
-}
-
-// STUB: 0x4F80D0 sub_4F80D0 (205 bytes)
-void sub_4F80D0()
-{
-}
-
 // FUNCTION: 0x4F81A0 VecR8_4F81A0::_Reserve
 void VecR8_4F81A0::_Reserve(unsigned int n)
 {
@@ -193,11 +183,6 @@ void sub_4F8630()
 {
 }
 
-// STUB: 0x4F86A0 sub_4F86A0 (115 bytes)
-void sub_4F86A0()
-{
-}
-
 // STUB: 0x4F8720 sub_4F8720 (319 bytes)
 void sub_4F8720()
 {
@@ -213,18 +198,8 @@ void sub_4F8920()
 {
 }
 
-// STUB: 0x4F8980 sub_4F8980 (189 bytes)
-void sub_4F8980()
-{
-}
-
 // STUB: 0x4F8A40 sub_4F8A40 (691 bytes)
 void sub_4F8A40()
-{
-}
-
-// STUB: 0x4F8D00 sub_4F8D00 (189 bytes)
-void sub_4F8D00()
 {
 }
 

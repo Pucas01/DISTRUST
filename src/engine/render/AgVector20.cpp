@@ -13,11 +13,6 @@ namespace std {
 __declspec(noreturn) void __cdecl _Xlength_error(const char* what);
 }
 
-// STUB: 0x516460 sub_516460 (224 bytes)
-void sub_516460()
-{
-}
-
 // FUNCTION: 0x516550 VecR20_516550::_Reserve
 void VecR20_516550::_Reserve(unsigned int n)
 {

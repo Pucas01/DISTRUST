@@ -1,5 +1,15 @@
 extern unsigned char g_73DF5C[];
 
+extern unsigned char g_73DCD5;
+struct Ent5 {
+    int a;
+    int b;
+    int c;
+    int d;
+    int e;
+};
+extern Ent5 g_73DCDC[];
+
 // STUB: 0x484C00 sub_484C00 (147 bytes)
 void sub_484C00()
 {
@@ -34,9 +44,15 @@ int __cdecl sub_484E00(int i, int* a, int* b)
     return -1;
 }
 
-// STUB: 0x484E40 sub_484E40 (74 bytes)
-void sub_484E40()
+// FUNCTION: 0x484E40 getEntry73DCDC
+void __cdecl getEntry73DCDC(int i, int* a, int* b, int* c, int* d)
 {
+    if (i >= 0 && i < g_73DCD5) {
+        *a = g_73DCDC[i].a;
+        *b = g_73DCDC[i].b;
+        *c = g_73DCDC[i].c;
+        *d = g_73DCDC[i].d;
+    }
 }
 
 // STUB: 0x484E90 sub_484E90 (117 bytes)

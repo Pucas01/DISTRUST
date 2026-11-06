@@ -16,18 +16,8 @@ namespace std {
 __declspec(noreturn) void __cdecl _Xlength_error(const char* what);
 }
 
-// STUB: 0x509740 AgFileSystem::fn_509740 (176 bytes)
-void AgFileSystem::fn_509740()
-{
-}
-
 // STUB: 0x5097F0 AgFileSystem::fn_5097F0 (102 bytes)
 void AgFileSystem::fn_5097F0()
-{
-}
-
-// STUB: 0x509860 AgFileSystem::fn_509860 (222 bytes)
-void AgFileSystem::fn_509860()
 {
 }
 
@@ -94,11 +84,6 @@ void AgFileSystem::fn_50A190()
 
 // STUB: 0x50A280 AgFileSystem::vfn_5 (214 bytes)
 void AgFileSystem::vfn_5()
-{
-}
-
-// STUB: 0x50A360 AgFileSystem::fn_50A360 (115 bytes)
-void AgFileSystem::fn_50A360()
 {
 }
 
@@ -233,33 +218,13 @@ __declspec(noinline) AgFileSystem::~AgFileSystem()
 // FUNCTION: 0x5096E0 ??_G?$AgSingleton@VAgFileSystem@@@@UAEPAXI@Z
 template class AgSingleton<AgFileSystem>;
 
-// STUB: 0x509120 sub_509120 (97 bytes)
-void sub_509120()
-{
-}
-
 // STUB: 0x509190 sub_509190 (86 bytes)
 void sub_509190()
 {
 }
 
-// STUB: 0x5091F0 sub_5091F0 (66 bytes)
-void sub_5091F0()
-{
-}
-
-// STUB: 0x509240 sub_509240 (66 bytes)
-void sub_509240()
-{
-}
-
 // STUB: 0x509390 sub_509390 (107 bytes)
 void sub_509390()
-{
-}
-
-// STUB: 0x509400 sub_509400 (65 bytes)
-void sub_509400()
 {
 }
 

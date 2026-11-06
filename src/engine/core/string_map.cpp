@@ -123,11 +123,6 @@ void StrKeyed::dtorKey()
     key.~AgString();
 }
 
-// STUB: 0x4B87A0 sub_4B87A0 (66 bytes)
-void sub_4B87A0()
-{
-}
-
 // STUB: 0x4B87F0 sub_4B87F0 (24 bytes)
 void sub_4B87F0()
 {

@@ -83,11 +83,6 @@ void VecR8_51FEE0::_Reserve(unsigned int n)
     }
 }
 
-// STUB: 0x51FF60 AgSystemManager::fn_51FF60 (115 bytes)
-void AgSystemManager::fn_51FF60()
-{
-}
-
 // STUB: 0x51FFE0 AgSystemManager::vfn_4 (136 bytes)
 void AgSystemManager::vfn_4()
 {

@@ -121,9 +121,11 @@ void __cdecl sub_434E60(unsigned int i, char c)
     }
 }
 
-// STUB: 0x434E90 sub_434E90 (25 bytes)
-void sub_434E90()
+// FUNCTION: 0x434E90 setRec58Byte
+void __cdecl setRec58Byte(unsigned int i, char v)
 {
+    if (i <= 0x27)
+        ((char*)g_6A8D78)[i * 0x58 + 3] = v;
 }
 
 // STUB: 0x434EB0 sub_434EB0 (174 bytes)

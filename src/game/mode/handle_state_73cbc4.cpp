@@ -8,6 +8,21 @@ extern unsigned char g_73CBCB;
 
 extern float g_7403E0;
 
+char __cdecl isEntryDone(unsigned int index);
+void __cdecl resetEntry(unsigned int index, const char* name);
+void __cdecl releaseEntryIds(int* ids, int count);
+struct OwnedPair {
+    int a;
+    int b;
+    int c;
+};
+void __cdecl clearOwnedPair(OwnedPair* pair);
+extern unsigned int g_73CC3C;
+extern const char* g_695E14;
+extern const char* g_695E0C;
+extern OwnedPair g_73CBD4[];
+extern OwnedPair g_73CBF8[];
+
 // STUB: 0x464800 sub_464800 (310 bytes)
 void sub_464800()
 {
@@ -28,9 +43,13 @@ void sub_464B20()
 {
 }
 
-// STUB: 0x464C00 sub_464C00 (46 bytes)
-void sub_464C00()
+// FUNCTION: 0x464C00 advanceEntryTo5
+void __cdecl advanceEntryTo5()
 {
+    if (isEntryDone(g_73CC3C)) {
+        resetEntry(g_73CC3C, g_695E14);
+        g_73CBC8 = 5;
+    }
 }
 
 // STUB: 0x464C30 sub_464C30 (304 bytes)
@@ -85,9 +104,15 @@ void sub_465400()
 {
 }
 
-// STUB: 0x465450 sub_465450 (43 bytes)
-void sub_465450()
+// FUNCTION: 0x465450 clearOwnedPairs73CBD4
+void __cdecl clearOwnedPairs73CBD4()
 {
+    releaseEntryIds((int*)&g_73CC3C, 1);
+    int p = (int)g_73CBD4;
+    do {
+        clearOwnedPair((OwnedPair*)p);
+        p += 12;
+    } while (p < (int)g_73CBF8);
 }
 
 // STUB: 0x465480 sub_465480 (62 bytes)
@@ -117,9 +142,13 @@ void sub_465510()
 {
 }
 
-// STUB: 0x4657C0 sub_4657C0 (46 bytes)
-void sub_4657C0()
+// FUNCTION: 0x4657C0 advanceEntryTo3
+void __cdecl advanceEntryTo3()
 {
+    if (isEntryDone(g_73CC3C)) {
+        resetEntry(g_73CC3C, g_695E0C);
+        g_73CBC8 = 3;
+    }
 }
 
 // FUNCTION: 0x4657F0 sub_4657F0

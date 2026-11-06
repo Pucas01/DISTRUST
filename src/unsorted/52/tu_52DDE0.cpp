@@ -1,13 +1,3 @@
-// STUB: 0x52DDE0 sub_52DDE0 (176 bytes)
-void sub_52DDE0()
-{
-}
-
-// STUB: 0x52DE90 sub_52DE90 (160 bytes)
-void sub_52DE90()
-{
-}
-
 // STUB: 0x52DF30 sub_52DF30 (93 bytes)
 void sub_52DF30()
 {

@@ -1,8 +1,3 @@
-// STUB: 0x5501F0 sub_5501F0 (130 bytes)
-void sub_5501F0()
-{
-}
-
 // STUB: 0x550280 sub_550280 (123 bytes)
 void sub_550280()
 {

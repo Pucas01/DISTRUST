@@ -8,23 +8,8 @@ void sub_51F500()
 {
 }
 
-// STUB: 0x51F520 sub_51F520 (36 bytes)
-void sub_51F520()
-{
-}
-
-// STUB: 0x51F550 sub_51F550 (36 bytes)
-void sub_51F550()
-{
-}
-
 // STUB: 0x51F580 sub_51F580 (125 bytes)
 void sub_51F580()
-{
-}
-
-// STUB: 0x51F600 sub_51F600 (152 bytes)
-void sub_51F600()
 {
 }
 

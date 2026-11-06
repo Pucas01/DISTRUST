@@ -44,48 +44,8 @@ void sub_50E2D0()
 {
 }
 
-// STUB: 0x50E300 sub_50E300 (36 bytes)
-void sub_50E300()
-{
-}
-
-// STUB: 0x50E330 sub_50E330 (36 bytes)
-void sub_50E330()
-{
-}
-
-// STUB: 0x50E360 sub_50E360 (36 bytes)
-void sub_50E360()
-{
-}
-
-// STUB: 0x50E390 sub_50E390 (36 bytes)
-void sub_50E390()
-{
-}
-
 // STUB: 0x50E3C0 sub_50E3C0 (122 bytes)
 void sub_50E3C0()
-{
-}
-
-// STUB: 0x50E440 sub_50E440 (128 bytes)
-void sub_50E440()
-{
-}
-
-// STUB: 0x50E4D0 sub_50E4D0 (152 bytes)
-void sub_50E4D0()
-{
-}
-
-// STUB: 0x50E570 sub_50E570 (152 bytes)
-void sub_50E570()
-{
-}
-
-// STUB: 0x50E610 sub_50E610 (128 bytes)
-void sub_50E610()
 {
 }
 
@@ -140,16 +100,6 @@ template void AgReference<V_50E9E0>::releaseInPlace();
 
 // STUB: 0x50EAD0 sub_50EAD0 (97 bytes)
 void sub_50EAD0()
-{
-}
-
-// STUB: 0x50EB40 sub_50EB40 (66 bytes)
-void sub_50EB40()
-{
-}
-
-// STUB: 0x50EB90 sub_50EB90 (66 bytes)
-void sub_50EB90()
 {
 }
 

@@ -1,10 +1,5 @@
 #include "engine/render/AgResourceTexture2dOpenGL.gen.h"
 
-// STUB: 0x549170 AgResourceTexture2dOpenGL::vfn_0 (94 bytes)
-void AgResourceTexture2dOpenGL::vfn_0()
-{
-}
-
 // STUB: 0x5491D0 AgResourceTexture2dOpenGL::fn_5491D0 (244 bytes)
 void AgResourceTexture2dOpenGL::fn_5491D0()
 {

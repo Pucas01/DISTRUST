@@ -102,11 +102,6 @@ void __stdcall callWithTempZero(int a, int b, int c)
     sub_5A48B0(a, b, c, &tmp, 0, c);
 }
 
-// STUB: 0x5A45F0 sub_5A45F0 (36 bytes)
-void sub_5A45F0()
-{
-}
-
 // STUB: 0x5A4620 sub_5A4620 (128 bytes)
 void sub_5A4620()
 {
@@ -129,16 +124,6 @@ void sub_5A47B0()
 
 // STUB: 0x5A4830 sub_5A4830 (122 bytes)
 void sub_5A4830()
-{
-}
-
-// STUB: 0x5A48B0 sub_5A48B0 (128 bytes)
-void sub_5A48B0()
-{
-}
-
-// STUB: 0x5A4940 sub_5A4940 (128 bytes)
-void sub_5A4940()
 {
 }
 

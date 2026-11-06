@@ -1,8 +1,32 @@
+struct Obj4C6800 {
+    char p0[0x14];
+    unsigned char b14;
+    char p15[0x19];
+    short w2e;
+    char p30[0xA4];
+    float fd4;
+    float fd8;
+    int idc;
+    int ie0;
+    int ie4;
+    int ie8;
+    int iec;
+    int if0;
+    unsigned short wf4;
+    short pf6;
+    int df8;
+};
 extern char* g_entryTable;
 
-// STUB: 0x4C66C0 sub_4C66C0 (65 bytes)
-void sub_4C66C0()
+// FUNCTION: 0x4C66C0 getEntryOffset
+int __cdecl getEntryOffset(unsigned char* p, int idx)
 {
+    if (p) {
+        int n = (((p[3] << 8 | p[2]) << 8 | p[1]) << 8) | p[0];
+        if (idx >= 0 && idx < n)
+            return ((int*)p)[idx + 1];
+    }
+    return -1;
 }
 
 // STUB: 0x4C6710 sub_4C6710 (121 bytes)
@@ -15,9 +39,21 @@ void sub_4C6790()
 {
 }
 
-// STUB: 0x4C6800 sub_4C6800 (89 bytes)
-void sub_4C6800()
+// FUNCTION: 0x4C6800 resetObj4C6800
+void __cdecl resetObj4C6800(Obj4C6800* o)
 {
+    o->b14 = 0;
+    o->wf4 = 0xFFFF;
+    o->w2e = 0;
+    o->df8 = 0;
+    o->fd4 = 480.0f;
+    o->fd8 = 272.0f;
+    o->idc = 0;
+    o->ie0 = 0;
+    o->ie4 = 0;
+    o->ie8 = 0;
+    o->iec = 0;
+    o->if0 = 0;
 }
 
 // STUB: 0x4C6860 sub_4C6860 (880 bytes)

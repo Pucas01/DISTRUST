@@ -1,13 +1,3 @@
-// STUB: 0x55F610 sub_55F610 (130 bytes)
-void sub_55F610()
-{
-}
-
-// STUB: 0x55F6A0 sub_55F6A0 (130 bytes)
-void sub_55F6A0()
-{
-}
-
 // STUB: 0x55F730 sub_55F730 (101 bytes)
 void sub_55F730()
 {
@@ -50,11 +40,6 @@ void sub_5600A0()
 
 // STUB: 0x560100 sub_560100 (208 bytes)
 void sub_560100()
-{
-}
-
-// STUB: 0x5601D0 sub_5601D0 (97 bytes)
-void sub_5601D0()
 {
 }
 

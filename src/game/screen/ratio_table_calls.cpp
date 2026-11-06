@@ -7,6 +7,14 @@ extern char g_7005F4[];
 extern int g_6A9BF8;
 extern int g_6A9BFC;
 
+void __cdecl releaseObjectIds(int* ids, int count);
+void __cdecl releaseEntryIds(int* ids, int count);
+extern int g_6A9B40[];
+extern int g_6A9BE0[];
+extern int g_6A9BE8;
+extern int g_6A9BEC;
+extern int g_6A9BF0;
+
 // FUNCTION: 0x435D10 sub_435D10
 int __cdecl sub_435D10(unsigned int a, char flag)
 {
@@ -61,9 +69,14 @@ void sub_435FE0()
 {
 }
 
-// STUB: 0x436050 sub_436050 (58 bytes)
-void sub_436050()
+// FUNCTION: 0x436050 releaseRatioIds
+void __cdecl releaseRatioIds()
 {
+    releaseObjectIds(g_6A9B40, 40);
+    releaseEntryIds(g_6A9BE0, 2);
+    g_6A9BE8 = -1;
+    g_6A9BEC = -1;
+    g_6A9BF0 = -1;
 }
 
 // FUNCTION: 0x436090 sub_436090

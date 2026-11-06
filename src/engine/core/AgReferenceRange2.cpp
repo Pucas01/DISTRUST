@@ -26,12 +26,3 @@ void sub_4FE480()
 {
 }
 
-// STUB: 0x4FE590 sub_4FE590 (36 bytes)
-void sub_4FE590()
-{
-}
-
-// STUB: 0x4FE5C0 sub_4FE5C0 (152 bytes)
-void sub_4FE5C0()
-{
-}

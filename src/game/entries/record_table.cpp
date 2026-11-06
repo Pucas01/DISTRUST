@@ -1,10 +1,16 @@
+struct MaskObj;
+void __cdecl setMasked_f54(MaskObj* o, unsigned int mask, unsigned int value);
+bool __cdecl freeRec(unsigned int index);
+
 struct Rec {
-    char pad0[4];
+    MaskObj* obj;
     unsigned char b4;
     unsigned char b5;
     char pad6;
     unsigned char b7;
-    char pad8[0x24];
+    char pad8[0x22];
+    unsigned char b2a;
+    char pad2b;
     unsigned char b2c;
     char pad2d[5];
     short w32;
@@ -33,9 +39,24 @@ void sub_4D4020()
 {
 }
 
-// STUB: 0x4D4080 sub_4D4080 (88 bytes)
-void sub_4D4080()
+// FUNCTION: 0x4D4080 setRecMask
+void __cdecl setRecMask(unsigned int i, int v)
 {
+    if (i > 0x95)
+        return;
+    Rec* r = &g_recs[i];
+    if (!r->b4)
+        return;
+    MaskObj* o = r->obj;
+    if (!o)
+        return;
+    if (r->b2a == v)
+        return;
+    r->b2a = v;
+    if (v == 0)
+        setMasked_f54(o, 4, v);
+    else
+        setMasked_f54(o, 4, 0xFFFFFFFF);
 }
 
 // STUB: 0x4D40E0 sub_4D40E0 (99 bytes)
@@ -157,9 +178,18 @@ void sub_4D4D00()
 {
 }
 
-// STUB: 0x4D4DA0 sub_4D4DA0 (67 bytes)
-void sub_4D4DA0()
+// FUNCTION: 0x4D4DA0 setRecPending
+bool __cdecl setRecPending(unsigned int i, char v)
 {
+    if (v && i <= 0x95) {
+        Rec* r = &g_recs[i];
+        if (r->b4) {
+            r->b5 = 0;
+            r->w32 = 5;
+            return true;
+        }
+    }
+    return freeRec(i);
 }
 
 // STUB: 0x4D4DF0 sub_4D4DF0 (321 bytes)

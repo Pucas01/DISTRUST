@@ -1,3 +1,5 @@
+extern "C" int __cdecl abs(int);
+#pragma intrinsic(abs)
 struct Pair2 {
     int a;
     int b;
@@ -115,7 +117,20 @@ void sub_4BC000()
 {
 }
 
-// STUB: 0x4BC2D0 sub_4BC2D0 (74 bytes)
-void sub_4BC2D0()
+// FUNCTION: 0x4BC2D0 wrapIndex38
+int __cdecl wrapIndex38(int a, int b)
 {
+    int c;
+    if (a < 0)
+        c = 0x25;
+    else if (a >= 0x26)
+        c = 0;
+    else
+        c = a;
+    if (b < 0) {
+        if (c < abs(b))
+            return b + 0x26 + c;
+        return b + c;
+    }
+    return (b + c) % 0x26;
 }

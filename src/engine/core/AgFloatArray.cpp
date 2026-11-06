@@ -19,11 +19,6 @@ void sub_550CD0()
 {
 }
 
-// STUB: 0x550CF0 sub_550CF0 (130 bytes)
-void sub_550CF0()
-{
-}
-
 // STUB: 0x550D80 sub_550D80 (604 bytes)
 void sub_550D80()
 {
@@ -31,11 +26,6 @@ void sub_550D80()
 
 // STUB: 0x550FE0 sub_550FE0 (286 bytes)
 void sub_550FE0()
-{
-}
-
-// STUB: 0x551100 sub_551100 (36 bytes)
-void sub_551100()
 {
 }
 

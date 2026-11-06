@@ -38,11 +38,6 @@ void sub_5A5D50()
 {
 }
 
-// STUB: 0x5A5DB0 sub_5A5DB0 (65 bytes)
-void sub_5A5DB0()
-{
-}
-
 // STUB: 0x5A5E00 sub_5A5E00 (115 bytes)
 void sub_5A5E00()
 {

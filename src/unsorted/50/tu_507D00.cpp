@@ -1,8 +1,3 @@
-// STUB: 0x507D00 sub_507D00 (130 bytes)
-void sub_507D00()
-{
-}
-
 // STUB: 0x507D90 sub_507D90 (327 bytes)
 void sub_507D90()
 {
@@ -30,16 +25,6 @@ void sub_5083D0()
 
 // STUB: 0x5084F0 sub_5084F0 (623 bytes)
 void sub_5084F0()
-{
-}
-
-// STUB: 0x508760 sub_508760 (36 bytes)
-void sub_508760()
-{
-}
-
-// STUB: 0x508790 sub_508790 (36 bytes)
-void sub_508790()
 {
 }
 

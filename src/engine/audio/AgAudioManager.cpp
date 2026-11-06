@@ -16,11 +16,6 @@ void AgAudioManager::fn_50D6A0()
 {
 }
 
-// STUB: 0x50D700 AgAudioManager::fn_50D700 (115 bytes)
-void AgAudioManager::fn_50D700()
-{
-}
-
 // STUB: 0x50D780 AgAudioManager::fn_50D780 (275 bytes)
 void AgAudioManager::fn_50D780()
 {
@@ -33,11 +28,6 @@ void AgAudioManager::fn_50D8A0()
 
 // STUB: 0x50DA30 AgAudioManager::fn_50DA30 (125 bytes)
 void AgAudioManager::fn_50DA30()
-{
-}
-
-// STUB: 0x50DAB0 AgAudioManager::fn_50DAB0 (189 bytes)
-void AgAudioManager::fn_50DAB0()
 {
 }
 

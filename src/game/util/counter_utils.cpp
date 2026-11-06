@@ -4,6 +4,10 @@ void sub_44F3F0();
 extern unsigned short g_6FD878[];
 extern unsigned short g_6FD684[];
 
+extern unsigned char g_6E4737;
+
+void __cdecl sub_423240(int value);
+
 // STUB: 0x448DD0 sub_448DD0 (354 bytes)
 void sub_448DD0()
 {
@@ -64,14 +68,34 @@ void sub_44A490()
 {
 }
 
-// STUB: 0x44A780 sub_44A780 (96 bytes)
-void sub_44A780()
+// FUNCTION: 0x44A780 checkCode6E4737
+__declspec(safebuffers) void __cdecl checkCode6E4737(int a, int b)
 {
+    if (b == 0 || (a == 10 && b == 0x13)) {
+        unsigned char t[11] = { 0x15, 0x29, 0x3d, 0x51, 0x94, 0x9b, 0x12, 0xa0, 0x01, 0x65, 0xf8 };
+        unsigned char c = g_6E4737;
+        for (int i = 0; i < 11; i++) {
+            if (t[i] == c) {
+                sub_423240(0);
+                return;
+            }
+        }
+        sub_423240(1);
+        return;
+    }
+    sub_423240(0);
 }
 
-// STUB: 0x44A7E0 sub_44A7E0 (62 bytes)
-void sub_44A7E0()
+// FUNCTION: 0x44A7E0 isKnownCode6E4737
+__declspec(safebuffers) bool __cdecl isKnownCode6E4737()
 {
+    unsigned char t[11] = { 0x15, 0x29, 0x3d, 0x51, 0x94, 0x9b, 0x12, 0xa0, 0x01, 0x65, 0xf8 };
+    unsigned char c = g_6E4737;
+    for (int i = 0; i < 11; i++) {
+        if (t[i] == c)
+            return true;
+    }
+    return false;
 }
 
 // STUB: 0x44A820 sub_44A820 (311 bytes)

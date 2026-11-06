@@ -23,11 +23,6 @@ void sub_5069A0()
 {
 }
 
-// STUB: 0x506B70 sub_506B70 (65 bytes)
-void sub_506B70()
-{
-}
-
 // STUB: 0x506BC0 sub_506BC0 (186 bytes)
 void sub_506BC0()
 {

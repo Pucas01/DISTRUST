@@ -67,11 +67,6 @@ void VecR12_4EFA10::_Reserve(unsigned int n)
     }
 }
 
-// STUB: 0x4EFAB0 sub_4EFAB0 (66 bytes)
-void sub_4EFAB0()
-{
-}
-
 // STUB: 0x4EFB00 sub_4EFB00 (255 bytes)
 void sub_4EFB00()
 {

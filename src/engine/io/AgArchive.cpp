@@ -1,17 +1,7 @@
 #include "engine/io/AgArchive.gen.h"
 
-// STUB: 0x5045D0 AgArchive::fn_5045D0 (176 bytes)
-void AgArchive::fn_5045D0()
-{
-}
-
 // STUB: 0x504680 AgArchive::fn_504680 (164 bytes)
 void AgArchive::fn_504680()
-{
-}
-
-// STUB: 0x504730 AgArchive::fn_504730 (160 bytes)
-void AgArchive::fn_504730()
 {
 }
 
@@ -80,18 +70,8 @@ void AgArchive::fn_505570()
 {
 }
 
-// STUB: 0x505640 AgArchive::fn_505640 (189 bytes)
-void AgArchive::fn_505640()
-{
-}
-
 // STUB: 0x505700 AgArchive::fn_505700 (687 bytes)
 void AgArchive::fn_505700()
-{
-}
-
-// STUB: 0x5059B0 AgArchive::fn_5059B0 (189 bytes)
-void AgArchive::fn_5059B0()
 {
 }
 

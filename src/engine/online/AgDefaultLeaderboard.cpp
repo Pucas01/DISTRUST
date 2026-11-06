@@ -1,10 +1,5 @@
 #include "engine/online/AgDefaultLeaderboard.gen.h"
 
-// STUB: 0x52DCC0 AgDefaultLeaderboard::vfn_0 (94 bytes)
-void AgDefaultLeaderboard::vfn_0()
-{
-}
-
 // STUB: 0x52E650 AgDefaultLeaderboard::vfn_3 (93 bytes)
 void AgDefaultLeaderboard::vfn_3()
 {

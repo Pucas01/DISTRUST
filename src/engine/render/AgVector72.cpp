@@ -13,16 +13,6 @@ namespace std {
 __declspec(noreturn) void __cdecl _Xlength_error(const char* what);
 }
 
-// STUB: 0x547EA0 sub_547EA0 (36 bytes)
-void sub_547EA0()
-{
-}
-
-// STUB: 0x547ED0 sub_547ED0 (128 bytes)
-void sub_547ED0()
-{
-}
-
 // STUB: 0x547F60 sub_547F60 (90 bytes)
 void sub_547F60()
 {
@@ -35,11 +25,6 @@ void sub_547FC0()
 
 // STUB: 0x548070 sub_548070 (154 bytes)
 void sub_548070()
-{
-}
-
-// STUB: 0x548110 sub_548110 (224 bytes)
-void sub_548110()
 {
 }
 

@@ -25,11 +25,6 @@ void AgDisplayManager::fn_512D40()
 {
 }
 
-// STUB: 0x512E50 AgDisplayManager::fn_512E50 (189 bytes)
-void AgDisplayManager::fn_512E50()
-{
-}
-
 // STUB: 0x512F10 AgDisplayManager::fn_512F10 (666 bytes)
 void AgDisplayManager::fn_512F10()
 {
@@ -53,11 +48,6 @@ void AgDisplayManager::vfn_1()
 // FUNCTION: 0x512A30 ??1?$AgSingleton@VAgDisplayManager@@@@UAE@XZ
 // FUNCTION: 0x512C50 ??_G?$AgSingleton@VAgDisplayManager@@@@UAEPAXI@Z
 template class AgSingleton<AgDisplayManager>;
-
-// STUB: 0x512A40 sub_512A40 (97 bytes)
-void sub_512A40()
-{
-}
 
 // STUB: 0x512AB0 sub_512AB0 (97 bytes)
 void sub_512AB0()

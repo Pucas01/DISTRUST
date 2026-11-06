@@ -13,11 +13,6 @@ void sub_55B0D0()
 {
 }
 
-// STUB: 0x55B150 sub_55B150 (97 bytes)
-void sub_55B150()
-{
-}
-
 // STUB: 0x55B1C0 sub_55B1C0 (131 bytes)
 void sub_55B1C0()
 {

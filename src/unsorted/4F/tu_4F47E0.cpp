@@ -3,21 +3,6 @@ void sub_4F47E0()
 {
 }
 
-// STUB: 0x4F4870 sub_4F4870 (130 bytes)
-void sub_4F4870()
-{
-}
-
-// STUB: 0x4F4900 sub_4F4900 (130 bytes)
-void sub_4F4900()
-{
-}
-
-// STUB: 0x4F4990 sub_4F4990 (130 bytes)
-void sub_4F4990()
-{
-}
-
 // STUB: 0x4F4A20 sub_4F4A20 (119 bytes)
 void sub_4F4A20()
 {

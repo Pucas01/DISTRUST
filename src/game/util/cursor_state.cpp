@@ -81,9 +81,13 @@ void sub_4A3700()
 {
 }
 
-// STUB: 0x4A37C0 sub_4A37C0 (25 bytes)
-void sub_4A37C0()
+// FUNCTION: 0x4A37C0 isCursorStateIdle
+int __cdecl isCursorStateIdle()
 {
+    unsigned char c = g_cursorState;
+    if (c == 3)
+        return 1;
+    return c == 0;
 }
 
 // STUB: 0x4A37E0 sub_4A37E0 (346 bytes)

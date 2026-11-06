@@ -1,8 +1,3 @@
-// STUB: 0x5329F0 sub_5329F0 (160 bytes)
-void sub_5329F0()
-{
-}
-
 // STUB: 0x532A90 sub_532A90 (180 bytes)
 void sub_532A90()
 {

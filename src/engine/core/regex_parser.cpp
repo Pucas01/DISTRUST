@@ -209,16 +209,6 @@ void sub_5A99E0()
 {
 }
 
-// STUB: 0x5A9AB0 sub_5A9AB0 (205 bytes)
-void sub_5A9AB0()
-{
-}
-
-// STUB: 0x5A9B80 sub_5A9B80 (224 bytes)
-void sub_5A9B80()
-{
-}
-
 // FUNCTION: 0x5A9C60 VecR1_5A9C60::_Reserve
 void VecR1_5A9C60::_Reserve(unsigned int n)
 {

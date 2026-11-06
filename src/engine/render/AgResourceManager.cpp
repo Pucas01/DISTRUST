@@ -27,7 +27,3 @@ void sub_532430()
 {
 }
 
-// STUB: 0x5324F0 sub_5324F0 (65 bytes)
-void sub_5324F0()
-{
-}

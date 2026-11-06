@@ -8,16 +8,6 @@ void sub_52BC00()
 {
 }
 
-// STUB: 0x52BCA0 sub_52BCA0 (130 bytes)
-void sub_52BCA0()
-{
-}
-
-// STUB: 0x52BD30 sub_52BD30 (130 bytes)
-void sub_52BD30()
-{
-}
-
 // STUB: 0x52BDC0 sub_52BDC0 (590 bytes)
 void sub_52BDC0()
 {

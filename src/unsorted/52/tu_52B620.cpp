@@ -1,8 +1,3 @@
-// STUB: 0x52B620 sub_52B620 (112 bytes)
-void sub_52B620()
-{
-}
-
 // STUB: 0x52B690 sub_52B690 (171 bytes)
 void sub_52B690()
 {

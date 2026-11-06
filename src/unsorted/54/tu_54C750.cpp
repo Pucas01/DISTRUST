@@ -1,13 +1,3 @@
-// STUB: 0x54C750 sub_54C750 (130 bytes)
-void sub_54C750()
-{
-}
-
-// STUB: 0x54C7E0 sub_54C7E0 (130 bytes)
-void sub_54C7E0()
-{
-}
-
 // STUB: 0x54C870 sub_54C870 (114 bytes)
 void sub_54C870()
 {

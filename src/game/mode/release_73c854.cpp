@@ -9,6 +9,9 @@ extern int g_73C87C;
 extern int g_73C880;
 extern int g_73C884;
 
+extern int g_73C6EC[];
+extern int g_73C6FC[];
+
 // STUB: 0x462270 sub_462270 (88 bytes)
 void sub_462270()
 {
@@ -53,9 +56,25 @@ void sub_4625D0()
 {
 }
 
-// STUB: 0x462830 sub_462830 (166 bytes)
-void sub_462830()
+// FUNCTION: 0x462830 clearIds73C6FC
+void __cdecl clearIds73C6FC()
 {
+    releaseEntryIds(g_73C6EC, 3);
+    g_73C6FC[0] = -1;
+    g_73C6FC[1] = -1;
+    g_73C6FC[2] = -1;
+    g_73C6FC[3] = -1;
+    g_73C6FC[4] = -1;
+    g_73C6FC[5] = -1;
+    g_73C6FC[6] = -1;
+    g_73C6FC[7] = -1;
+    g_73C6FC[8] = -1;
+    g_73C6FC[9] = -1;
+    g_73C6FC[10] = -1;
+    g_73C6FC[11] = -1;
+    g_73C6FC[12] = -1;
+    g_73C6FC[13] = -1;
+    g_73C6FC[14] = -1;
 }
 
 // STUB: 0x4628E0 sub_4628E0 (195 bytes)

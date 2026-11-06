@@ -9,6 +9,11 @@ int __cdecl sub_4C8390(int id);
 extern char g_73EA81;
 extern short g_73EA86;
 
+extern int g_73EA98;
+extern int g_73EA9C;
+extern unsigned char g_73EA90;
+extern int g_73EA92;
+
 // STUB: 0x4A5EA0 sub_4A5EA0 (648 bytes)
 void sub_4A5EA0()
 {
@@ -62,7 +67,12 @@ void sub_4A6280()
 {
 }
 
-// STUB: 0x4A62A0 sub_4A62A0 (35 bytes)
-void sub_4A62A0()
+// FUNCTION: 0x4A62A0 beginPair73EA90
+void __cdecl beginPair73EA90(int a, int b)
 {
+    g_73EA98 = a;
+    g_73EA9C = b;
+    g_73EA90 = 1;
+    *(short*)((char*)&g_73EA90 + 2) = 0;
+    *(short*)((char*)&g_73EA90 + 4) = 0;
 }

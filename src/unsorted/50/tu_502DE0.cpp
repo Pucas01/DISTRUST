@@ -18,16 +18,6 @@ void sub_503060()
 {
 }
 
-// STUB: 0x5030F0 sub_5030F0 (130 bytes)
-void sub_5030F0()
-{
-}
-
-// STUB: 0x503180 sub_503180 (130 bytes)
-void sub_503180()
-{
-}
-
 // STUB: 0x503210 sub_503210 (604 bytes)
 void sub_503210()
 {
@@ -50,11 +40,6 @@ void sub_5037F0()
 
 // STUB: 0x503910 sub_503910 (268 bytes)
 void sub_503910()
-{
-}
-
-// STUB: 0x503A20 sub_503A20 (36 bytes)
-void sub_503A20()
 {
 }
 

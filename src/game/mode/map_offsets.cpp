@@ -4,6 +4,9 @@ extern int g_73DA28;
 extern int g_73DA2C;
 void __cdecl sub_476440(int a, int b, int c);
 
+extern int g_73D9C4;
+extern unsigned char g_73D9CB;
+
 // STUB: 0x474320 sub_474320 (158 bytes)
 void sub_474320()
 {
@@ -57,7 +60,19 @@ void sub_474BE0()
 {
 }
 
-// STUB: 0x474C90 sub_474C90 (92 bytes)
-void sub_474C90()
+// FUNCTION: 0x474C90 setFadeRatio
+void __cdecl setFadeRatio(int a, int b)
 {
+    if (a == b) {
+        g_73D9C4 = 0xFF;
+        g_73D9CB = 0x40;
+        return;
+    }
+    if (a <= 0) {
+        g_73D9C4 = 0;
+        g_73D9CB = 0;
+        return;
+    }
+    g_73D9C4 = 0xFF / b * a;
+    g_73D9CB = 0x40 / b * a;
 }

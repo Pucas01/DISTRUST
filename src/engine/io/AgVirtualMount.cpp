@@ -30,11 +30,6 @@ void AgVirtualMount::vfn_13()
 {
 }
 
-// STUB: 0x560D90 AgVirtualMount::fn_560D90 (189 bytes)
-void AgVirtualMount::fn_560D90()
-{
-}
-
 // STUB: 0x560E50 AgVirtualMount::fn_560E50 (804 bytes)
 void AgVirtualMount::fn_560E50()
 {

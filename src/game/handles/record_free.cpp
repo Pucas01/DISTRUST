@@ -1,3 +1,8 @@
+struct Cmp1E20 {
+    char p0[8];
+    float f08;
+    unsigned short w0c;
+};
 struct RecB0 {
     void* ptr;
     unsigned char b4;
@@ -26,9 +31,18 @@ void sub_4D1D30()
 {
 }
 
-// STUB: 0x4D1E20 sub_4D1E20 (65 bytes)
-void sub_4D1E20()
+// FUNCTION: 0x4D1E20 compareRecs
+int __cdecl compareRecs(Cmp1E20* a, Cmp1E20* b)
 {
+    short wa = a->w0c;
+    short wb = b->w0c;
+    if (wa < wb)
+        return -1;
+    if (wa > wb)
+        return 1;
+    if (a->f08 < b->f08)
+        return -1;
+    return a->f08 > b->f08;
 }
 
 // STUB: 0x4D1E70 sub_4D1E70 (1001 bytes)
