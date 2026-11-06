@@ -1,23 +1,3 @@
-// STUB: 0x4E8900 sub_4E8900 (37 bytes)
-void sub_4E8900()
-{
-}
-
-// STUB: 0x4E8930 sub_4E8930 (61 bytes)
-void sub_4E8930()
-{
-}
-
-// STUB: 0x4E8970 sub_4E8970 (72 bytes)
-void sub_4E8970()
-{
-}
-
-// STUB: 0x4E89C0 sub_4E89C0 (77 bytes)
-void sub_4E89C0()
-{
-}
-
 // STUB: 0x4E8A10 sub_4E8A10 (275 bytes)
 void sub_4E8A10()
 {
@@ -25,16 +5,6 @@ void sub_4E8A10()
 
 // STUB: 0x4E8B30 sub_4E8B30 (1221 bytes)
 void sub_4E8B30()
-{
-}
-
-// STUB: 0x4E9000 sub_4E9000 (87 bytes)
-void sub_4E9000()
-{
-}
-
-// STUB: 0x4E9060 sub_4E9060 (97 bytes)
-void sub_4E9060()
 {
 }
 
@@ -80,11 +50,6 @@ void sub_4EA170()
 
 // STUB: 0x4EA1F0 sub_4EA1F0 (47 bytes)
 void sub_4EA1F0()
-{
-}
-
-// STUB: 0x4EA220 sub_4EA220 (123 bytes)
-void sub_4EA220()
 {
 }
 

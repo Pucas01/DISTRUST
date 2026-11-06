@@ -13,11 +13,6 @@ void sub_4BCB40()
 {
 }
 
-// STUB: 0x4BCB90 sub_4BCB90 (56 bytes)
-void sub_4BCB90()
-{
-}
-
 // STUB: 0x4BCBD0 sub_4BCBD0 (52 bytes)
 void sub_4BCBD0()
 {

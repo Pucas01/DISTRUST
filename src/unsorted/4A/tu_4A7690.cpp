@@ -1,8 +1,3 @@
-// STUB: 0x4A7690 sub_4A7690 (89 bytes)
-void sub_4A7690()
-{
-}
-
 // STUB: 0x4A76F0 sub_4A76F0 (1032 bytes)
 void sub_4A76F0()
 {

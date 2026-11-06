@@ -7,8 +7,3 @@ void sub_484290()
 void sub_484540()
 {
 }
-
-// STUB: 0x4845F0 sub_4845F0 (45 bytes)
-void sub_4845F0()
-{
-}

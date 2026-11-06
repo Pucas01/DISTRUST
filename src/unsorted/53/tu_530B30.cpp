@@ -33,18 +33,8 @@ void sub_5312D0()
 {
 }
 
-// STUB: 0x531340 sub_531340 (186 bytes)
-void sub_531340()
-{
-}
-
 // STUB: 0x531400 sub_531400 (153 bytes)
 void sub_531400()
-{
-}
-
-// STUB: 0x5314A0 sub_5314A0 (186 bytes)
-void sub_5314A0()
 {
 }
 
@@ -53,18 +43,8 @@ void sub_531560()
 {
 }
 
-// STUB: 0x531600 sub_531600 (186 bytes)
-void sub_531600()
-{
-}
-
 // STUB: 0x5316C0 sub_5316C0 (153 bytes)
 void sub_5316C0()
-{
-}
-
-// STUB: 0x531760 sub_531760 (186 bytes)
-void sub_531760()
 {
 }
 
@@ -73,28 +53,13 @@ void sub_531820()
 {
 }
 
-// STUB: 0x5318C0 sub_5318C0 (186 bytes)
-void sub_5318C0()
-{
-}
-
 // STUB: 0x531980 sub_531980 (153 bytes)
 void sub_531980()
 {
 }
 
-// STUB: 0x531A20 sub_531A20 (186 bytes)
-void sub_531A20()
-{
-}
-
 // STUB: 0x531AE0 sub_531AE0 (153 bytes)
 void sub_531AE0()
-{
-}
-
-// STUB: 0x531B80 sub_531B80 (186 bytes)
-void sub_531B80()
 {
 }
 

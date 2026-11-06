@@ -1,8 +1,3 @@
-// STUB: 0x483120 sub_483120 (47 bytes)
-void sub_483120()
-{
-}
-
 // STUB: 0x483150 sub_483150 (85 bytes)
 void sub_483150()
 {
@@ -25,11 +20,6 @@ void sub_483370()
 
 // STUB: 0x4833E0 sub_4833E0 (196 bytes)
 void sub_4833E0()
-{
-}
-
-// STUB: 0x4834B0 sub_4834B0 (39 bytes)
-void sub_4834B0()
 {
 }
 

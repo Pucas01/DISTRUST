@@ -3,21 +3,6 @@ void sub_4FDD50()
 {
 }
 
-// STUB: 0x4FDE20 sub_4FDE20 (26 bytes)
-void sub_4FDE20()
-{
-}
-
-// STUB: 0x4FDE40 sub_4FDE40 (26 bytes)
-void sub_4FDE40()
-{
-}
-
-// STUB: 0x4FDE60 sub_4FDE60 (32 bytes)
-void sub_4FDE60()
-{
-}
-
 // STUB: 0x4FDE80 sub_4FDE80 (92 bytes)
 void sub_4FDE80()
 {

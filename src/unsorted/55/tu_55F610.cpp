@@ -43,18 +43,8 @@ void sub_560100()
 {
 }
 
-// STUB: 0x560250 sub_560250 (97 bytes)
-void sub_560250()
-{
-}
-
 // STUB: 0x5602C0 sub_5602C0 (105 bytes)
 void sub_5602C0()
-{
-}
-
-// STUB: 0x560330 sub_560330 (97 bytes)
-void sub_560330()
 {
 }
 

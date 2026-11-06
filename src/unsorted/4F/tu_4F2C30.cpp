@@ -13,11 +13,6 @@ void sub_4F3280()
 {
 }
 
-// STUB: 0x4F3560 sub_4F3560 (141 bytes)
-void sub_4F3560()
-{
-}
-
 // STUB: 0x4F35F0 sub_4F35F0 (220 bytes)
 void sub_4F35F0()
 {
@@ -40,11 +35,6 @@ void sub_4F38E0()
 
 // STUB: 0x4F3940 sub_4F3940 (216 bytes)
 void sub_4F3940()
-{
-}
-
-// STUB: 0x4F3A20 sub_4F3A20 (54 bytes)
-void sub_4F3A20()
 {
 }
 

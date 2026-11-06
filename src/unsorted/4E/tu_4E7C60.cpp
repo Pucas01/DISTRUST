@@ -8,16 +8,6 @@ void std_D_DU_char_traits_basic_string__Chassign()
 {
 }
 
-// STUB: 0x4E7E00 sub_4E7E00 (118 bytes)
-void sub_4E7E00()
-{
-}
-
-// STUB: 0x4E7E80 sub_4E7E80 (111 bytes)
-void sub_4E7E80()
-{
-}
-
 // STUB: 0x4E7EF0 sub_4E7EF0 (264 bytes)
 void sub_4E7EF0()
 {

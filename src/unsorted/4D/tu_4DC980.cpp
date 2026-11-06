@@ -1,8 +1,3 @@
-// STUB: 0x4DC980 sub_4DC980 (123 bytes)
-void sub_4DC980()
-{
-}
-
 // STUB: 0x4DCA00 sub_4DCA00 (400 bytes)
 void sub_4DCA00()
 {
@@ -25,10 +20,5 @@ void sub_4DD100()
 
 // STUB: 0x4DD570 sub_4DD570 (1133 bytes)
 void sub_4DD570()
-{
-}
-
-// STUB: 0x4DD9E0 sub_4DD9E0 (36 bytes)
-void sub_4DD9E0()
 {
 }

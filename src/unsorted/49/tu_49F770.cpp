@@ -1,8 +1,3 @@
-// STUB: 0x49F770 sub_49F770 (129 bytes)
-void sub_49F770()
-{
-}
-
 // STUB: 0x49F800 sub_49F800 (1008 bytes)
 void sub_49F800()
 {
@@ -23,16 +18,6 @@ void sub_49FF30()
 {
 }
 
-// STUB: 0x4A0090 sub_4A0090 (73 bytes)
-void sub_4A0090()
-{
-}
-
-// STUB: 0x4A00E0 sub_4A00E0 (73 bytes)
-void sub_4A00E0()
-{
-}
-
 // STUB: 0x4A0130 sub_4A0130 (121 bytes)
 void sub_4A0130()
 {
@@ -40,11 +25,6 @@ void sub_4A0130()
 
 // STUB: 0x4A01B0 sub_4A01B0 (380 bytes)
 void sub_4A01B0()
-{
-}
-
-// STUB: 0x4A0330 sub_4A0330 (143 bytes)
-void sub_4A0330()
 {
 }
 

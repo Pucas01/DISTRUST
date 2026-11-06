@@ -28,11 +28,6 @@ void sub_50C4F0()
 {
 }
 
-// STUB: 0x50C560 sub_50C560 (97 bytes)
-void sub_50C560()
-{
-}
-
 // STUB: 0x50C5D0 sub_50C5D0 (185 bytes)
 void sub_50C5D0()
 {

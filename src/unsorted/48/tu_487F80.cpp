@@ -1,15 +1,5 @@
-// STUB: 0x487F80 sub_487F80 (212 bytes)
-void sub_487F80()
-{
-}
-
 // STUB: 0x488060 sub_488060 (559 bytes)
 void sub_488060()
-{
-}
-
-// STUB: 0x488290 sub_488290 (198 bytes)
-void sub_488290()
 {
 }
 

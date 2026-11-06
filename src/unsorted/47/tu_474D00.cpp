@@ -58,21 +58,6 @@ void sub_475970()
 {
 }
 
-// STUB: 0x475A00 sub_475A00 (68 bytes)
-void sub_475A00()
-{
-}
-
-// STUB: 0x475A50 sub_475A50 (26 bytes)
-void sub_475A50()
-{
-}
-
-// STUB: 0x475A70 sub_475A70 (28 bytes)
-void sub_475A70()
-{
-}
-
 // STUB: 0x475A90 sub_475A90 (28 bytes)
 void sub_475A90()
 {

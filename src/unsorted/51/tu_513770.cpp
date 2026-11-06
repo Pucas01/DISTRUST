@@ -1,13 +1,3 @@
-// STUB: 0x513770 sub_513770 (97 bytes)
-void sub_513770()
-{
-}
-
-// STUB: 0x5137E0 sub_5137E0 (97 bytes)
-void sub_5137E0()
-{
-}
-
 // STUB: 0x513850 sub_513850 (462 bytes)
 void sub_513850()
 {

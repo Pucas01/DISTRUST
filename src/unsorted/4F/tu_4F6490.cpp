@@ -1,13 +1,3 @@
-// STUB: 0x4F65E0 sub_4F65E0 (97 bytes)
-void sub_4F65E0()
-{
-}
-
-// STUB: 0x4F6650 sub_4F6650 (97 bytes)
-void sub_4F6650()
-{
-}
-
 // STUB: 0x4F66C0 sub_4F66C0 (97 bytes)
 void sub_4F66C0()
 {

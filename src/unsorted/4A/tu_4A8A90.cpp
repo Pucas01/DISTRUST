@@ -3,11 +3,6 @@ void sub_4A8A90()
 {
 }
 
-// STUB: 0x4A8EA0 sub_4A8EA0 (46 bytes)
-void sub_4A8EA0()
-{
-}
-
 // STUB: 0x4A8ED0 sub_4A8ED0 (879 bytes)
 void sub_4A8ED0()
 {
@@ -43,11 +38,6 @@ void sub_4AA470()
 {
 }
 
-// STUB: 0x4AA950 sub_4AA950 (164 bytes)
-void sub_4AA950()
-{
-}
-
 // STUB: 0x4AAA00 sub_4AAA00 (283 bytes)
 void sub_4AAA00()
 {
@@ -60,16 +50,6 @@ void sub_4AAB20()
 
 // STUB: 0x4AACB0 sub_4AACB0 (1180 bytes)
 void sub_4AACB0()
-{
-}
-
-// STUB: 0x4AB160 sub_4AB160 (146 bytes)
-void sub_4AB160()
-{
-}
-
-// STUB: 0x4AB200 sub_4AB200 (266 bytes)
-void sub_4AB200()
 {
 }
 
