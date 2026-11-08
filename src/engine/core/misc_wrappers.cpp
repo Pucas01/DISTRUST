@@ -148,11 +148,10 @@ void sub_4F82A0()
 // FUNCTION: 0x4F8310 fillInts
 int* __stdcall fillInts(int* first, unsigned int count, const int* value)
 {
+    unsigned int n = count;
     int* p = first;
-    for (unsigned int n = count; n; --n) {
+    for (; n; n--, p++)
         *p = *value;
-        p++;
-    }
     return first + count;
 }
 

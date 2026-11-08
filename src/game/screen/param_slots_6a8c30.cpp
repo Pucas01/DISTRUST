@@ -1,8 +1,3 @@
-// STUB: 0x430F00 sub_430F00 (59 bytes)
-void sub_430F00()
-{
-}
-
 // FUNCTION: 0x430F40 sub_430F40
 void __cdecl sub_430F40(unsigned int a, unsigned int b)
 {

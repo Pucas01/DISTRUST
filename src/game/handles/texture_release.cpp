@@ -27,11 +27,6 @@ void __cdecl sub_4CF9A0(unsigned int i, unsigned char c)
         g_740638[i * 60] = c;
 }
 
-// STUB: 0x4CF9C0 sub_4CF9C0 (80 bytes)
-void sub_4CF9C0()
-{
-}
-
 // STUB: 0x4CFA10 sub_4CFA10 (618 bytes)
 void sub_4CFA10()
 {

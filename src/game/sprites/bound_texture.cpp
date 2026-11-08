@@ -31,7 +31,3 @@ void resetBoundTexture()
     g_boundTexture = -9999;
 }
 
-// STUB: 0x4DC400 sub_4DC400 (64 bytes)
-void sub_4DC400()
-{
-}

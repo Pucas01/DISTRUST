@@ -8,7 +8,7 @@ public:
     // vtable 0x6326A0, offset 0
     virtual ~AgSystemManager(); // 0x51FC80
     virtual void vfn_1(); // 0x520210
-    virtual void vfn_2(); // 0x520200
+    virtual int vfn_2(); // 0x520200
     virtual void vfn_3(); // 0x5C66ED
     virtual void vfn_4(); // 0x51FFE0
     virtual void vfn_5(); // 0x520530

@@ -1,4 +1,5 @@
 #include "engine/io/AgVirtualMount.gen.h"
+#include "engine/field.h"
 
 // STUB: 0x5605E0 AgVirtualMount::fn_5605E0 (120 bytes)
 void AgVirtualMount::fn_5605E0()
@@ -15,9 +16,10 @@ void AgVirtualMount::fn_560720()
 {
 }
 
-// STUB: 0x5608A0 AgVirtualMount::vfn_11 (8 bytes)
-void AgVirtualMount::vfn_11()
+// FUNCTION: 0x5608A0 AgVirtualMount::vfn_11
+int AgVirtualMount::vfn_11(int, int)
 {
+    return 1;
 }
 
 // STUB: 0x5608B0 AgVirtualMount::fn_5608B0 (1164 bytes)

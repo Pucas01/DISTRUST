@@ -1,3 +1,5 @@
+#include "engine/field.h"
+
 extern short g_73EA86;
 
 extern unsigned char g_73EA80;
@@ -62,9 +64,12 @@ void sub_4A6240()
 {
 }
 
-// STUB: 0x4A6280 sub_4A6280 (28 bytes)
+#include <string.h>
+
+// FUNCTION: 0x4A6280 sub_4A6280
 void sub_4A6280()
 {
+    memset(&g_73EA90, 0, 24);
 }
 
 // FUNCTION: 0x4A62A0 beginPair73EA90

@@ -1,4 +1,5 @@
 #include "engine/render/AgResourceTexture2dOpenGL.gen.h"
+#include "engine/field.h"
 
 // STUB: 0x5491D0 AgResourceTexture2dOpenGL::fn_5491D0 (244 bytes)
 void AgResourceTexture2dOpenGL::fn_5491D0()
@@ -10,9 +11,10 @@ void AgResourceTexture2dOpenGL::fn_5492D0()
 {
 }
 
-// STUB: 0x5493F0 AgResourceTexture2dOpenGL::vfn_9 (9 bytes)
-void AgResourceTexture2dOpenGL::vfn_9()
+// FUNCTION: 0x5493F0 AgResourceTexture2dOpenGL::vfn_9
+bool AgResourceTexture2dOpenGL::vfn_9()
 {
+    return fieldAt<int>(this, 0x4C) != 0;
 }
 
 // STUB: 0x549400 AgResourceTexture2dOpenGL::vfn_2 (1005 bytes)

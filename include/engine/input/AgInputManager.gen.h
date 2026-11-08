@@ -11,7 +11,7 @@ public:
     virtual void vfn_2(); // 0x4FA6C0
     virtual void vfn_3(); // 0x4FBB60
     virtual void vfn_4(); // 0x4FA230
-    virtual void vfn_5(); // 0x4FA3B0
+    virtual int vfn_5(int a); // 0x4FA3B0
     virtual void vfn_6(); // 0x55C280
     virtual void vfn_7(); // 0x55C280
     void fn_4FA290(); // 0x4FA290

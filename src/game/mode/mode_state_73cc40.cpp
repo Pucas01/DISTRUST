@@ -46,11 +46,6 @@ void __cdecl sub_46BF10(unsigned char v)
     g_73CC49 = v;
 }
 
-// STUB: 0x46BF40 sub_46BF40 (26 bytes)
-void sub_46BF40()
-{
-}
-
 // STUB: 0x46BF60 sub_46BF60 (433 bytes)
 void sub_46BF60()
 {

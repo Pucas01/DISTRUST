@@ -16,11 +16,6 @@ void sub_475EF0()
 {
 }
 
-// STUB: 0x475F80 sub_475F80 (87 bytes)
-void sub_475F80()
-{
-}
-
 // STUB: 0x475FE0 sub_475FE0 (95 bytes)
 void sub_475FE0()
 {

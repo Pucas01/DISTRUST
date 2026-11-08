@@ -1,3 +1,5 @@
+#include "engine/field.h"
+
 extern short g_73E142;
 extern unsigned char g_73E140;
 void __cdecl setEntryFlag(unsigned int index, int value);
@@ -31,7 +33,16 @@ void __cdecl sub_486AF0(int a)
     }
 }
 
-// STUB: 0x486B60 sub_486B60 (30 bytes)
+extern unsigned char g_73E13E;
+extern unsigned char g_73E138;
+extern short g_73E13A;
+extern unsigned char g_73E141;
+
+// FUNCTION: 0x486B60 sub_486B60
 void sub_486B60()
 {
+    g_73E13E = 0;
+    g_73E138 = 1;
+    g_73E13A = 0;
+    g_73E141 = 1;
 }

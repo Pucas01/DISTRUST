@@ -18,11 +18,6 @@ void sub_487850()
 {
 }
 
-// STUB: 0x487BB0 sub_487BB0 (66 bytes)
-void sub_487BB0()
-{
-}
-
 // STUB: 0x487D30 sub_487D30 (161 bytes)
 void sub_487D30()
 {

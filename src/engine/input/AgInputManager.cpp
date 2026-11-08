@@ -1,4 +1,5 @@
 #include "engine/input/AgInputManager.gen.h"
+#include "engine/field.h"
 #include "engine/core/AgSingleton.h"
 
 // STUB: 0x4FA230 AgInputManager::vfn_4 (91 bytes)
@@ -16,9 +17,10 @@ void AgInputManager::fn_4FA300()
 {
 }
 
-// STUB: 0x4FA3B0 AgInputManager::vfn_5 (10 bytes)
-void AgInputManager::vfn_5()
+// FUNCTION: 0x4FA3B0 AgInputManager::vfn_5
+int AgInputManager::vfn_5(int a)
 {
+    return a;
 }
 
 // STUB: 0x4FA3C0 AgInputManager::fn_4FA3C0 (216 bytes)

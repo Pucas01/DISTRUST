@@ -46,11 +46,6 @@ void __cdecl sub_435F10(int a, int b)
     sub_435D80((char*)g_7005F4 + b * 24, a, b);
 }
 
-// STUB: 0x435F30 sub_435F30 (74 bytes)
-void sub_435F30()
-{
-}
-
 // FUNCTION: 0x435F90 sub_435F90
 void sub_435F90()
 {
@@ -90,12 +85,3 @@ void sub_4360B0()
 {
 }
 
-// STUB: 0x436130 sub_436130 (47 bytes)
-void sub_436130()
-{
-}
-
-// STUB: 0x436160 sub_436160 (71 bytes)
-void sub_436160()
-{
-}

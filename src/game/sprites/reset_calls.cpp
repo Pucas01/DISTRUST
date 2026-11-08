@@ -31,7 +31,3 @@ void sub_4C4690()
 {
 }
 
-// STUB: 0x4C4A40 sub_4C4A40 (80 bytes)
-void sub_4C4A40()
-{
-}

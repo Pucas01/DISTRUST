@@ -37,11 +37,6 @@ void sub_42EBB0()
 {
 }
 
-// STUB: 0x42F240 sub_42F240 (24 bytes)
-void sub_42F240()
-{
-}
-
 // STUB: 0x42F260 sub_42F260 (4971 bytes)
 void sub_42F260()
 {

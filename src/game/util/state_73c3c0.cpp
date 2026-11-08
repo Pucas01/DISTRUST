@@ -6,11 +6,6 @@ void sub_441CA0()
 {
 }
 
-// STUB: 0x441CF0 sub_441CF0 (65 bytes)
-void sub_441CF0()
-{
-}
-
 // FUNCTION: 0x441D40 sub_441D40
 void __cdecl sub_441D40(unsigned int i, unsigned char v)
 {

@@ -129,9 +129,3 @@ void __cdecl resetHandlesC()
 extern short g_7016A5;
 extern char g_7016A7;
 
-// FUNCTION: 0x46D980 clearFlags7016A5
-void __cdecl clearFlags7016A5()
-{
-    g_7016A5 = 0;
-    g_7016A7 = 0;
-}

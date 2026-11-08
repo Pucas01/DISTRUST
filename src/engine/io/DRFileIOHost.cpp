@@ -1,4 +1,5 @@
 #include "engine/io/DRFileIOHost.gen.h"
+#include "engine/field.h"
 
 // STUB: 0x4C5520 DRFileIOHost::vfn_0 (159 bytes)
 void DRFileIOHost::vfn_0()
@@ -75,9 +76,11 @@ void DRFileIOHost::fn_4C6160()
 {
 }
 
-// STUB: 0x4C6190 DRFileIOHost::vfn_4 (11 bytes)
-void DRFileIOHost::vfn_4()
+// FUNCTION: 0x4C6190 DRFileIOHost::vfn_4
+bool DRFileIOHost::vfn_4()
 {
+    int host = fieldAt<int>(this, 0xC);
+    return host == 0;
 }
 
 // STUB: 0x4C61A0 DRFileIOHost::fn_4C61A0 (6 bytes)
@@ -90,7 +93,8 @@ void DRFileIOHost::vfn_1()
 {
 }
 
-// STUB: 0x4F47D0 DRFileIOHost::vfn_2 (8 bytes)
+// FUNCTION: 0x4F47D0 DRFileIOHost::vfn_2
 void DRFileIOHost::vfn_2()
 {
+    fieldAt<int>(this, 0xC) = 1;
 }

@@ -26,11 +26,6 @@ void sub_435330()
 {
 }
 
-// STUB: 0x435380 sub_435380 (90 bytes)
-void sub_435380()
-{
-}
-
 // STUB: 0x4353E0 sub_4353E0 (134 bytes)
 void sub_4353E0()
 {
@@ -93,11 +88,6 @@ float __cdecl sub_435830(int a, int b)
     return g_7007D4[a][b].pad[0] * 0.01f * 1.0f;
 }
 
-// STUB: 0x435870 sub_435870 (80 bytes)
-void sub_435870()
-{
-}
-
 // STUB: 0x4358C0 sub_4358C0 (184 bytes)
 void sub_4358C0()
 {
@@ -105,11 +95,6 @@ void sub_4358C0()
 
 // STUB: 0x435980 sub_435980 (188 bytes)
 void sub_435980()
-{
-}
-
-// STUB: 0x435A40 sub_435A40 (77 bytes)
-void sub_435A40()
 {
 }
 

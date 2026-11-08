@@ -1,3 +1,5 @@
+#include "engine/field.h"
+
 
 
 struct MaskObj {
@@ -47,9 +49,15 @@ void __cdecl setMasked_f4c(MaskObj* o, unsigned int mask, unsigned int value)
         o->f4c = (o->f4c & ~mask) | (mask & value);
 }
 
-// STUB: 0x4EEB90 sub_4EEB90 (28 bytes)
-void sub_4EEB90()
+// FUNCTION: 0x4EEB90 sub_4EEB90
+void sub_4EEB90(char* p, char on)
 {
+    if (p) {
+        if (on == 1)
+            *(unsigned int*)(p + 0x14) |= 0x20;
+        else
+            *(unsigned int*)(p + 0x14) &= ~0x20u;
+    }
 }
 
 // FUNCTION: 0x4EEBB0 setMasked_f54
@@ -119,19 +127,27 @@ void sub_4EF270()
 {
 }
 
-// STUB: 0x4EF450 sub_4EF450 (22 bytes)
-void sub_4EF450()
+// FUNCTION: 0x4EF450 sub_4EF450
+void sub_4EF450(char* p, float a)
 {
+    if (p)
+        *(float*)(p + 0x3C) = a;
 }
 
-// STUB: 0x4EF470 sub_4EF470 (32 bytes)
-void sub_4EF470()
+// FUNCTION: 0x4EF470 sub_4EF470
+void sub_4EF470(char* p, float a, float b)
 {
+    if (p) {
+        *(float*)(p + 0x2C) = a;
+        *(float*)(p + 0x30) = b;
+    }
 }
 
-// STUB: 0x4EF490 sub_4EF490 (18 bytes)
-void sub_4EF490()
+// FUNCTION: 0x4EF490 sub_4EF490
+void sub_4EF490(char* p, int a)
 {
+    if (p)
+        *(int*)(p + 0x38) = a;
 }
 
 // STUB: 0x4EF4B0 sub_4EF4B0 (33 bytes)

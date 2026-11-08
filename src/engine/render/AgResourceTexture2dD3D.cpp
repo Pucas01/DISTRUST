@@ -1,4 +1,5 @@
 #include "engine/render/AgResourceTexture2dD3D.gen.h"
+#include "engine/field.h"
 
 // STUB: 0x539790 AgResourceTexture2dD3D::fn_539790 (867 bytes)
 void AgResourceTexture2dD3D::fn_539790()
@@ -15,9 +16,10 @@ void AgResourceTexture2dD3D::vfn_13()
 {
 }
 
-// STUB: 0x539BD0 AgResourceTexture2dD3D::vfn_9 (10 bytes)
-void AgResourceTexture2dD3D::vfn_9()
+// FUNCTION: 0x539BD0 AgResourceTexture2dD3D::vfn_9
+bool AgResourceTexture2dD3D::vfn_9()
 {
+    return fieldAt<int>(this, 0x20) == 1;
 }
 
 // STUB: 0x539BE0 AgResourceTexture2dD3D::vfn_2 (516 bytes)

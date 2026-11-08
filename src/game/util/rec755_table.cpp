@@ -31,11 +31,6 @@ bool __cdecl sub_4F27B0(int n)
     return (g_755B68 & (1 << n)) ? true : false;
 }
 
-// STUB: 0x4F27D0 sub_4F27D0 (46 bytes)
-void sub_4F27D0()
-{
-}
-
 // FUNCTION: 0x4F2800 sub_4F2800
 void __cdecl sub_4F2800(int i, int kind, int v)
 {
@@ -57,11 +52,6 @@ void __cdecl sub_4F2800(int i, int kind, int v)
 void __cdecl sub_4F2840(float v)
 {
     g_755AE4 = v;
-}
-
-// STUB: 0x4F2860 sub_4F2860 (77 bytes)
-void sub_4F2860()
-{
 }
 
 // STUB: 0x4F28B0 sub_4F28B0 (890 bytes)

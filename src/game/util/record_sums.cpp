@@ -33,11 +33,6 @@ void sub_41B210()
 {
 }
 
-// STUB: 0x41B230 sub_41B230 (42 bytes)
-void sub_41B230()
-{
-}
-
 // STUB: 0x41B260 sub_41B260 (540 bytes)
 void sub_41B260()
 {

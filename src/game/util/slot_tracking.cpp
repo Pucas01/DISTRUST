@@ -12,11 +12,6 @@ extern unsigned char g_73C3E8;
 extern unsigned char g_73C535;
 extern unsigned char g_73C534;
 
-// STUB: 0x441550 sub_441550 (64 bytes)
-void sub_441550()
-{
-}
-
 // FUNCTION: 0x441590 sub_441590
 void __cdecl sub_441590(char a, int b, int c)
 {

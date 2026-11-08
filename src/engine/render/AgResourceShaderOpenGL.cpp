@@ -1,4 +1,5 @@
 #include "engine/render/AgResourceShaderOpenGL.gen.h"
+#include "engine/field.h"
 
 // STUB: 0x5A62C0 AgResourceShaderOpenGL::vfn_0 (140 bytes)
 void AgResourceShaderOpenGL::vfn_0()
@@ -20,7 +21,8 @@ void AgResourceShaderOpenGL::fn_5AAF60()
 {
 }
 
-// STUB: 0x5AB080 AgResourceShaderOpenGL::vfn_6 (9 bytes)
-void AgResourceShaderOpenGL::vfn_6()
+// FUNCTION: 0x5AB080 AgResourceShaderOpenGL::vfn_6
+bool AgResourceShaderOpenGL::vfn_6()
 {
+    return fieldAt<int>(this, 0x20) != 0;
 }

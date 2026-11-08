@@ -6,8 +6,12 @@ void sub_40C130()
 // FUNCTION: 0x40C190 sub_40C190
 int __cdecl sub_40C190(const short* p)
 {
+    unsigned int i = 0;
     int sum = 0;
-    for (unsigned int i = 0; i < 256; i++)
-        sum += p[i] * p[i];
+    do {
+        int v = p[i];
+        sum += v * v;
+        i++;
+    } while (i < 256);
     return sum;
 }

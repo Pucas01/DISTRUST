@@ -46,11 +46,6 @@ void sub_46CF30()
 {
 }
 
-// STUB: 0x46CFA0 sub_46CFA0 (81 bytes)
-void sub_46CFA0()
-{
-}
-
 // STUB: 0x46D000 sub_46D000 (79 bytes)
 void sub_46D000()
 {

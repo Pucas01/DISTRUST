@@ -134,11 +134,6 @@ void sub_48BCD0()
 {
 }
 
-// STUB: 0x48BD50 sub_48BD50 (82 bytes)
-void sub_48BD50()
-{
-}
-
 // STUB: 0x48BDB0 sub_48BDB0 (119 bytes)
 void sub_48BDB0()
 {

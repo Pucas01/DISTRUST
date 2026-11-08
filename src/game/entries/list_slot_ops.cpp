@@ -23,13 +23,18 @@ struct EntryRec {
 // FUNCTION: 0x41AAF0 countListKinds
 int __cdecl countListKinds()
 {
-    int n = 0;
     ListItem* p = g_6A5BC4;
+    int n = 0;
     if (p) {
-        for (int i = g_6A5BBA; i > 0; i--, p++) {
-            int k = p->kind;
-            if (k == 2 || k == 7 || k == 8 || k == 9)
-                n++;
+        int i = g_6A5BBA;
+        if (i > 0) {
+            do {
+                int k = p->kind;
+                if (k == 2 || k == 7 || k == 8 || k == 9)
+                    n++;
+                p++;
+                i--;
+            } while (i);
         }
     }
     return n;

@@ -105,13 +105,6 @@ void sub_48D450()
 {
 }
 
-// FUNCTION: 0x48D4E0 resetState73E480
-void resetState73E480()
-{
-    g_73E481 = 0xFF;
-    g_73E480 = 0;
-}
-
 // STUB: 0x48D500 sub_48D500 (60 bytes)
 void sub_48D500()
 {

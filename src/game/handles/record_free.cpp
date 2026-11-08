@@ -100,11 +100,6 @@ void sub_4D37B0()
 {
 }
 
-// STUB: 0x4D3990 sub_4D3990 (73 bytes)
-void sub_4D3990()
-{
-}
-
 // STUB: 0x4D39E0 sub_4D39E0 (599 bytes)
 void sub_4D39E0()
 {

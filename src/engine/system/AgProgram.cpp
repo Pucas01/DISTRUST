@@ -1,8 +1,10 @@
 #include "engine/system/AgProgram.gen.h"
+#include "engine/field.h"
 
-// STUB: 0x4F47A0 AgProgram::vfn_4 (9 bytes)
-void AgProgram::vfn_4()
+// FUNCTION: 0x4F47A0 AgProgram::vfn_4
+bool AgProgram::vfn_4()
 {
+    return fieldAt<int>(this, 0x14) != 0;
 }
 
 // STUB: 0x4F47B0 AgProgram::vfn_1 (5 bytes)

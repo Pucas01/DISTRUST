@@ -12,7 +12,8 @@ struct Obj4C6800 {
     int ie8;
     int iec;
     int if0;
-    unsigned short wf4;
+    unsigned char wf4lo;
+    unsigned char wf4hi;
     short pf6;
     int df8;
 };
@@ -43,7 +44,8 @@ void sub_4C6790()
 void __cdecl resetObj4C6800(Obj4C6800* o)
 {
     o->b14 = 0;
-    o->wf4 = 0xFFFF;
+    o->wf4lo = 0xFF;
+    o->wf4hi = 0xFF;
     o->w2e = 0;
     o->df8 = 0;
     o->fd4 = 480.0f;

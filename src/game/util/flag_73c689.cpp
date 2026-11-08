@@ -58,11 +58,6 @@ void sub_441110()
 {
 }
 
-// STUB: 0x441190 sub_441190 (69 bytes)
-void sub_441190()
-{
-}
-
 // STUB: 0x4411E0 sub_4411E0 (45 bytes)
 void sub_4411E0()
 {

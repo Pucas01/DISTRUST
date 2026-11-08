@@ -15,7 +15,7 @@ public:
     virtual void vfn_6(); // 0x53A210
     virtual void vfn_7(); // 0x5498A0
     virtual void vfn_8(); // 0x53A040
-    virtual void vfn_9(); // 0x539BD0
+    virtual bool vfn_9(); // 0x539BD0
     virtual void vfn_10(); // 0x55C280
     virtual void vfn_11(); // 0x4135B0
     virtual void vfn_12(); // 0x539B10

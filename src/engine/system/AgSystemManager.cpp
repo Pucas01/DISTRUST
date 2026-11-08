@@ -1,4 +1,5 @@
 #include "engine/system/AgSystemManager.gen.h"
+#include "engine/field.h"
 #include "engine/core/AgSingleton.h"
 
 struct Elem1_51FE70 {
@@ -118,9 +119,11 @@ void AgSystemManager::vfn_8()
 {
 }
 
-// STUB: 0x520200 AgSystemManager::vfn_2 (13 bytes)
-void AgSystemManager::vfn_2()
+// FUNCTION: 0x520200 AgSystemManager::vfn_2
+int AgSystemManager::vfn_2()
 {
+    fieldAt<char>(this, 0x2A4) = 0;
+    return 1;
 }
 
 // STUB: 0x520210 AgSystemManager::vfn_1 (18 bytes)

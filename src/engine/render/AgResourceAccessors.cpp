@@ -1,3 +1,5 @@
+#include "engine/field.h"
+
 struct S_getField34 {
     char pad[52];
     int v;
@@ -10,14 +12,11 @@ struct S70 {
     char pad[0x70];
 };
 
-// STUB: 0x4ED880 sub_4ED880 (47 bytes)
-void sub_4ED880()
+// FUNCTION: 0x4ED8B0 sub_4ED8B0
+void sub_4ED8B0(float* p, float a, float b)
 {
-}
-
-// STUB: 0x4ED8B0 sub_4ED8B0 (27 bytes)
-void sub_4ED8B0()
-{
+    p[0] = a;
+    p[1] = b;
 }
 
 // STUB: 0x4ED8D0 sub_4ED8D0 (35 bytes)

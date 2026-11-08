@@ -1,3 +1,5 @@
+#include "engine/field.h"
+
 extern unsigned char g_73E5C8;
 struct P2_73E5CA {
     short a;
@@ -29,11 +31,6 @@ void sub_49A460()
 {
 }
 
-// STUB: 0x49A620 sub_49A620 (49 bytes)
-void sub_49A620()
-{
-}
-
 // STUB: 0x49A660 sub_49A660 (157 bytes)
 void sub_49A660()
 {
@@ -49,24 +46,18 @@ void sub_49A700()
     g_73E5F6.b = 0;
 }
 
-// STUB: 0x49A720 sub_49A720 (52 bytes)
-void sub_49A720()
-{
-}
-
 // STUB: 0x49A760 sub_49A760 (210 bytes)
 void sub_49A760()
 {
 }
 
-// STUB: 0x49A840 sub_49A840 (84 bytes)
-void sub_49A840()
+// FUNCTION: 0x49A8A0 sub_49A8A0
+void sub_49A8A0(int v)
 {
-}
-
-// STUB: 0x49A8A0 sub_49A8A0 (32 bytes)
-void sub_49A8A0()
-{
+    if ((signed char)g_73E5F6.a != v) {
+        g_73E5F6.a = (unsigned char)v;
+        g_73E5F6.b = 1;
+    }
 }
 
 // FUNCTION: 0x49A8C0 sub_49A8C0

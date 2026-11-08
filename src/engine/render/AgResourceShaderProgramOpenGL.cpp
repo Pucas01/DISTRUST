@@ -1,4 +1,5 @@
 #include "engine/render/AgResourceShaderProgramOpenGL.gen.h"
+#include "engine/field.h"
 
 // STUB: 0x54E700 AgResourceShaderProgramOpenGL::fn_54E700 (93 bytes)
 void AgResourceShaderProgramOpenGL::fn_54E700()
@@ -45,9 +46,10 @@ void AgResourceShaderProgramOpenGL::vfn_5()
 {
 }
 
-// STUB: 0x54F900 AgResourceShaderProgramOpenGL::vfn_7 (10 bytes)
-void AgResourceShaderProgramOpenGL::vfn_7()
+// FUNCTION: 0x54F900 AgResourceShaderProgramOpenGL::vfn_7
+bool AgResourceShaderProgramOpenGL::vfn_7()
 {
+    return fieldAt<int>(this, 0x38) != -1;
 }
 
 // STUB: 0x54F910 AgResourceShaderProgramOpenGL::fn_54F910 (289 bytes)

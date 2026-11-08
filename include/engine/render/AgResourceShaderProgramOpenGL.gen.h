@@ -13,7 +13,7 @@ public:
     virtual void vfn_4(); // 0x54FB10
     virtual void vfn_5(); // 0x54F8E0
     virtual void vfn_6(); // 0x54FA50
-    virtual void vfn_7(); // 0x54F900
+    virtual bool vfn_7(); // 0x54F900
     virtual void vfn_8(); // 0x5501D0
     virtual void vfn_9(); // 0x4135B0
     virtual void vfn_10(); // 0x54FEC0

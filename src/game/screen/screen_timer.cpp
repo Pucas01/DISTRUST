@@ -1,3 +1,5 @@
+#include "engine/field.h"
+
 #include <emmintrin.h>
 extern int g_6A9C58;
 extern int g_6A9C5C;
@@ -5,9 +7,12 @@ extern unsigned char g_6A9C60;
 extern int g_6A9C6C;
 extern char g_6A9C64[];
 
-// STUB: 0x43BC30 sub_43BC30 (28 bytes)
-void sub_43BC30()
+extern int g_screenTimer;
+
+// FUNCTION: 0x43BC30 sub_43BC30
+int sub_43BC30()
 {
+    return g_screenTimer / 30;
 }
 
 // STUB: 0x43BC50 sub_43BC50 (25 bytes)

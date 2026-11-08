@@ -71,11 +71,6 @@ void sub_49DC10()
 {
 }
 
-// STUB: 0x49DDD0 sub_49DDD0 (49 bytes)
-void sub_49DDD0()
-{
-}
-
 // STUB: 0x49DE20 sub_49DE20 (773 bytes)
 void sub_49DE20()
 {

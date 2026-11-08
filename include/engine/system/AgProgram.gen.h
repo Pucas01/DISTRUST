@@ -10,6 +10,6 @@ public:
     virtual void vfn_1(); // 0x4F47B0
     virtual void vfn_2(); // 0x4135B0
     virtual void vfn_3(); // 0x4135B0
-    virtual void vfn_4(); // 0x4F47A0
+    virtual bool vfn_4(); // 0x4F47A0
     virtual void vfn_5(); // 0x5C66ED
 };
