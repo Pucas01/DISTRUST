@@ -5,6 +5,16 @@ struct E24_7007D4 {
     int f;
 };
 extern E24_7007D4 g_7007D4[][20];
+struct E24w_7007D4 {
+    unsigned short pad[4];
+    unsigned short w08;
+    unsigned short w0a;
+    unsigned short w0c;
+    unsigned short w0e;
+    char pad2[8];
+};
+extern E24w_7007D4 g_7005F4[];
+
 
 // STUB: 0x435290 sub_435290 (153 bytes)
 void sub_435290()
@@ -103,27 +113,99 @@ void sub_435A40()
 {
 }
 
-// STUB: 0x435A90 sub_435A90 (116 bytes)
-void sub_435A90()
+// FUNCTION: 0x435A90 sub_435A90
+float __cdecl sub_435A90(int a, int b)
 {
+    E24w_7007D4* e = (E24w_7007D4*)&g_7007D4[a][b];
+    float r;
+    if (e->w08 == 0)
+        r = 0;
+    else {
+        float cap = (float)e->w08 * 0.5f;
+        float cur = (float)e->w0a;
+        if (cur != 0 && cap != 0) {
+            if (cur > cap)
+                cur = cap;
+            r = cur / cap;
+        } else
+            r = 0;
+    }
+    return r;
 }
 
-// STUB: 0x435B10 sub_435B10 (131 bytes)
-void sub_435B10()
+// FUNCTION: 0x435B10 sub_435B10
+int __cdecl sub_435B10(int a, int b)
 {
+    E24w_7007D4* e = (E24w_7007D4*)&g_7007D4[a][b];
+    float r;
+    if (e->w08 == 0)
+        r = 0;
+    else {
+        float cap = (float)e->w08 * 0.5f;
+        float cur = (float)e->w0a;
+        if (cur != 0 && cap != 0) {
+            if (cur > cap)
+                cur = cap;
+            r = cur / cap;
+        } else
+            r = 0;
+    }
+    float lim = 20.0f;
+    float x = r * lim;
+    return (int)(x > lim ? lim : x);
 }
 
-// STUB: 0x435BA0 sub_435BA0 (107 bytes)
-void sub_435BA0()
+// FUNCTION: 0x435BA0 sub_435BA0
+float __cdecl sub_435BA0(int a)
 {
+    E24w_7007D4* e = &g_7005F4[a];
+    float r;
+    if (e->w08 == 0)
+        r = 0;
+    else {
+        float cap = (float)e->w08 * 0.5f;
+        float cur = (float)e->w0a;
+        if (cur != 0 && cap != 0) {
+            if (cur > cap)
+                cur = cap;
+            r = cur / cap;
+        } else
+            r = 0;
+    }
+    return r;
 }
 
-// STUB: 0x435C10 sub_435C10 (122 bytes)
-void sub_435C10()
+// FUNCTION: 0x435C10 sub_435C10
+int __cdecl sub_435C10(int a)
 {
+    E24w_7007D4* e = &g_7005F4[a];
+    float r;
+    if (e->w08 == 0)
+        r = 0;
+    else {
+        float cap = (float)e->w08 * 0.5f;
+        float cur = (float)e->w0a;
+        if (cur != 0 && cap != 0) {
+            if (cur > cap)
+                cur = cap;
+            r = cur / cap;
+        } else
+            r = 0;
+    }
+    float lim = 20.0f;
+    float x = r * lim;
+    return (int)(x > lim ? lim : x);
 }
 
-// STUB: 0x435C90 sub_435C90 (102 bytes)
-void sub_435C90()
+// FUNCTION: 0x435C90 sub_435C90
+float __cdecl sub_435C90(int a, int b)
 {
+    E24w_7007D4* e = (E24w_7007D4*)&g_7007D4[a][b];
+    float total = (float)(e->w0c + e->w08);
+    float r;
+    if (total <= 0)
+        r = 0;
+    else
+        r = (float)(e->w0e + e->w0a) / total;
+    return r;
 }

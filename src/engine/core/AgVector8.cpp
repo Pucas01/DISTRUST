@@ -13,16 +13,6 @@ namespace std {
 __declspec(noreturn) void __cdecl _Xlength_error(const char* what);
 }
 
-// STUB: 0x4FEA90 sub_4FEA90 (83 bytes)
-void sub_4FEA90()
-{
-}
-
-// STUB: 0x4FEAF0 sub_4FEAF0 (117 bytes)
-void sub_4FEAF0()
-{
-}
-
 // FUNCTION: 0x4FEC50 VecR8_4FEC50::_Reserve
 void VecR8_4FEC50::_Reserve(unsigned int n)
 {

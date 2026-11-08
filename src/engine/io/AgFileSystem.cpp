@@ -16,11 +16,6 @@ namespace std {
 __declspec(noreturn) void __cdecl _Xlength_error(const char* what);
 }
 
-// STUB: 0x5097F0 AgFileSystem::fn_5097F0 (102 bytes)
-void AgFileSystem::fn_5097F0()
-{
-}
-
 // FUNCTION: 0x509940 VecR8_509940::_Reserve
 void VecR8_509940::_Reserve(unsigned int n)
 {
@@ -217,11 +212,6 @@ __declspec(noinline) AgFileSystem::~AgFileSystem()
 // FUNCTION: 0x509110 ??1?$AgSingleton@VAgFileSystem@@@@UAE@XZ
 // FUNCTION: 0x5096E0 ??_G?$AgSingleton@VAgFileSystem@@@@UAEPAXI@Z
 template class AgSingleton<AgFileSystem>;
-
-// STUB: 0x509190 sub_509190 (86 bytes)
-void sub_509190()
-{
-}
 
 // STUB: 0x509390 sub_509390 (107 bytes)
 void sub_509390()

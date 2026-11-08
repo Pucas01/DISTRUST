@@ -1,8 +1,3 @@
-// STUB: 0x4F47E0 sub_4F47E0 (128 bytes)
-void sub_4F47E0()
-{
-}
-
 // STUB: 0x4F4A20 sub_4F4A20 (119 bytes)
 void sub_4F4A20()
 {

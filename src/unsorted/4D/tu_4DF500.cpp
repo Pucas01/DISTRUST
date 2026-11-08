@@ -18,9 +18,16 @@ void sub_4E02E0()
 {
 }
 
-// STUB: 0x4E04A0 sub_4E04A0 (50 bytes)
-void sub_4E04A0()
+// FUNCTION: 0x4E04A0 sub_4E04A0
+extern char* g_spriteBatches;
+void __cdecl sub_4E02E0(int a, char* b);
+void __cdecl sub_4D4AC0(int a);
+void __cdecl sub_4E04A0(int a, int b)
 {
+    if (b != 2) {
+        sub_4E02E0(a, g_spriteBatches + 0x40 + a * 0x210);
+        sub_4D4AC0(a);
+    }
 }
 
 // STUB: 0x4E04E0 sub_4E04E0 (1496 bytes)

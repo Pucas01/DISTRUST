@@ -1,8 +1,3 @@
-// STUB: 0x530B30 sub_530B30 (128 bytes)
-void sub_530B30()
-{
-}
-
 // STUB: 0x530BC0 sub_530BC0 (331 bytes)
 void sub_530BC0()
 {

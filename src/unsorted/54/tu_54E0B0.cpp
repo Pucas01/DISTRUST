@@ -8,11 +8,6 @@ void sub_54E180()
 {
 }
 
-// STUB: 0x54E260 sub_54E260 (68 bytes)
-void sub_54E260()
-{
-}
-
 // STUB: 0x54E2B0 sub_54E2B0 (93 bytes)
 void sub_54E2B0()
 {

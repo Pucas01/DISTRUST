@@ -68,16 +68,6 @@ void sub_54D840()
 {
 }
 
-// STUB: 0x54D870 sub_54D870 (116 bytes)
-void sub_54D870()
-{
-}
-
-// STUB: 0x54D8F0 sub_54D8F0 (120 bytes)
-void sub_54D8F0()
-{
-}
-
 // STUB: 0x54D970 sub_54D970 (99 bytes)
 void sub_54D970()
 {
@@ -105,5 +95,15 @@ void sub_54DB50()
 
 // STUB: 0x54DBF0 sub_54DBF0 (160 bytes)
 void sub_54DBF0()
+{
+}
+
+// STUB: 0x54D870 sub_54D870 (116 bytes)
+void sub_54D870()
+{
+}
+
+// STUB: 0x54D8F0 sub_54D8F0 (120 bytes)
+void sub_54D8F0()
 {
 }

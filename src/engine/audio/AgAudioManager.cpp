@@ -92,11 +92,6 @@ __declspec(noinline) AgAudioManager::~AgAudioManager()
 // FUNCTION: 0x50D430 ??_G?$AgSingleton@VAgAudioManager@@@@UAEPAXI@Z
 template class AgSingleton<AgAudioManager>;
 
-// STUB: 0x50D240 sub_50D240 (68 bytes)
-void sub_50D240()
-{
-}
-
 // STUB: 0x50D350 sub_50D350 (218 bytes)
 void sub_50D350()
 {

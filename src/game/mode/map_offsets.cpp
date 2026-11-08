@@ -50,9 +50,30 @@ void sub_474A60()
 {
 }
 
-// STUB: 0x474B60 sub_474B60 (122 bytes)
-void sub_474B60()
+// FUNCTION: 0x474B60 sub_474B60
+struct Pair474B60 {
+    short a;
+    short b;
+};
+extern Pair474B60 g_73D9CC;
+extern short g_628022[];
+int __cdecl sub_474B60(int a, int b, int c)
 {
+    short* t = &g_628022[a * 7];
+    if (b == c) {
+        g_73D9CC.b = *t;
+        g_73D9CC.a = 100;
+        return 100;
+    }
+    if (b <= 0) {
+        g_73D9CC.a = 0;
+        g_73D9CC.b = 0;
+        return 0;
+    }
+    g_73D9CC.b = (short)((*t - 480) / c * b + 480);
+    int p = 100 / c * b;
+    g_73D9CC.a = (short)p;
+    return p;
 }
 
 // STUB: 0x474BE0 sub_474BE0 (147 bytes)

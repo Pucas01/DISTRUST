@@ -1,3 +1,33 @@
+#pragma pack(push, 1)
+struct Rec58Init {
+    short type;
+    unsigned char b2;
+    unsigned char b3;
+    unsigned char w4a;
+    unsigned char w4b;
+    unsigned char b6[2];
+    unsigned char b8;
+    short w9;
+    unsigned char b11;
+    int f0c;
+    char pad10[0xc];
+    int f1c;
+    int f20;
+    int f24;
+    char pad28[4];
+    int f2c;
+    int f30;
+    int f34;
+    float f38;
+    float f3c;
+    int f40;
+    int f44;
+    int f48;
+    char pad4c[0xc];
+};
+#pragma pack(pop)
+void __cdecl sub_434EB0(int index);
+
 struct Rec58 {
     short w0;
     char pad2[10];
@@ -71,9 +101,30 @@ void __cdecl sub_434820(unsigned int i, int v, char c)
     }
 }
 
-// STUB: 0x434850 sub_434850 (155 bytes)
-void sub_434850()
+// FUNCTION: 0x434850 sub_434850
+void __cdecl sub_434850(unsigned int index, unsigned int n)
 {
+    if (index <= 0x27 && n <= 8) {
+        Rec58Init* r = (Rec58Init*)&g_6A8D78[index];
+        if (r->type > 1)
+            sub_434EB0(index);
+        *(int*)r = 0x1010003;
+        r->f2c = 0;
+        r->f30 = 0;
+        r->f34 = 0;
+        r->f1c = -1;
+        r->f20 = -1;
+        r->f24 = 0;
+        r->w4a = 0;
+        r->w4b = 0;
+        r->f38 = 1.0f;
+        r->f3c = 1.0f;
+        r->f40 = 0;
+        r->f44 = 0;
+        r->f0c = -1;
+        r->f48 = -1;
+        r->b8 = 0xff;
+    }
 }
 
 // STUB: 0x4348F0 sub_4348F0 (215 bytes)

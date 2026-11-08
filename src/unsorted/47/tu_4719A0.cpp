@@ -52,7 +52,31 @@ void sub_472740()
 {
 }
 
-// STUB: 0x4727C0 sub_4727C0 (103 bytes)
+// FUNCTION: 0x4727C0 sub_4727C0
+struct Rec4727C0 {
+    char pad0[0x10];
+    int f10;
+    int f14;
+    int f18;
+    char pad1c[0xc];
+    int f28;
+};
+extern Rec4727C0 g_69742C[];
+extern int g_697910;
 void sub_4727C0()
 {
+    int n = g_697910;
+    for (int i = 0; i < 20; i++) {
+        Rec4727C0* r = &g_69742C[i];
+        if ((unsigned int)i <= 0xf)
+            r->f14 = 0xd480;
+        else if (i == 0x10)
+            r->f14 = 0xd480;
+        else if (i == 0x12)
+            r->f10 = n * -100;
+        else if (i == 0x13)
+            r->f10 = 0x17700;
+        r->f18 = 0;
+        r->f28 = 0x28;
+    }
 }

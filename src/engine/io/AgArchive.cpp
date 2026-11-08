@@ -1,10 +1,5 @@
 #include "engine/io/AgArchive.gen.h"
 
-// STUB: 0x504680 AgArchive::fn_504680 (164 bytes)
-void AgArchive::fn_504680()
-{
-}
-
 // STUB: 0x5047D0 AgArchive::fn_5047D0 (110 bytes)
 void AgArchive::fn_5047D0()
 {
@@ -116,3 +111,8 @@ __declspec(noinline) AgArchive::~AgArchive()
 }
 
 // FUNCTION: 0x5045A0 ??_GAgArchive@@UAEPAXI@Z
+
+// STUB: 0x504680 sub_504680 (164 bytes)
+void sub_504680()
+{
+}

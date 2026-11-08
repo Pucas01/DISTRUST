@@ -13,11 +13,6 @@ void sub_532B80()
 {
 }
 
-// STUB: 0x532BB0 sub_532BB0 (55 bytes)
-void sub_532BB0()
-{
-}
-
 // STUB: 0x532BF0 sub_532BF0 (31 bytes)
 void sub_532BF0()
 {

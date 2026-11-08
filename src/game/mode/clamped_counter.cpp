@@ -33,9 +33,20 @@ void sub_48E360()
 {
 }
 
-// STUB: 0x48E3E0 sub_48E3E0 (90 bytes)
-void sub_48E3E0()
+// FUNCTION: 0x48E3E0 sub_48E3E0
+extern float g_73E398;
+extern short g_73E394;
+void __cdecl sub_48E3E0(int d)
 {
+    float v = g_73E398 - (float)d;
+    g_73E398 = v;
+    if (v < 0) {
+        g_73E398 = 0;
+        return;
+    }
+    float cap = (float)(g_73E394 * 60);
+    if (v > cap)
+        g_73E398 = cap;
 }
 
 // STUB: 0x48E440 sub_48E440 (474 bytes)

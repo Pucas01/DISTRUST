@@ -13,22 +13,20 @@ void sub_4BCB40()
 {
 }
 
-// STUB: 0x4BCBD0 sub_4BCBD0 (52 bytes)
-void sub_4BCBD0()
+// FUNCTION: 0x4BCBD0 sub_4BCBD0
+#include <math.h>
+int __cdecl sub_4BCBD0(int x, int y)
 {
+    if (x == 0 && y == 0)
+        return 0;
+    return (int)sqrtf((float)(x * x) + (float)(y * y));
 }
 
-// STUB: 0x4BCC10 sub_4BCC10 (63 bytes)
-void sub_4BCC10()
+// FUNCTION: 0x4BCC10 sub_4BCC10
+float __cdecl sub_4BCC10(float a, float b)
 {
+    if (a == 0 && b == 0)
+        return 0;
+    return sqrtf(a * a + b * b);
 }
 
-// STUB: 0x4BCC50 sub_4BCC50 (48 bytes)
-void sub_4BCC50()
-{
-}
-
-// STUB: 0x4BCC80 sub_4BCC80 (87 bytes)
-void sub_4BCC80()
-{
-}

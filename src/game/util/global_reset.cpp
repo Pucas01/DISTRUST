@@ -54,7 +54,3 @@ void sub_4E3D10()
 {
 }
 
-// STUB: 0x4E3D70 sub_4E3D70 (87 bytes)
-void sub_4E3D70()
-{
-}

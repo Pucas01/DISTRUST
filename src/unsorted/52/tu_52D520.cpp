@@ -1,8 +1,3 @@
-// STUB: 0x52D520 sub_52D520 (87 bytes)
-void sub_52D520()
-{
-}
-
 // STUB: 0x52D580 sub_52D580 (97 bytes)
 void sub_52D580()
 {

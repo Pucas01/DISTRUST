@@ -13,11 +13,6 @@ AgJsonNode::~AgJsonNode()
 
 // FUNCTION: 0x51FBA0 ??_GAgJsonNode@@UAEPAXI@Z
 
-// STUB: 0x51FA90 sub_51FA90 (68 bytes)
-void sub_51FA90()
-{
-}
-
 // STUB: 0x51FAE0 sub_51FAE0 (81 bytes)
 void sub_51FAE0()
 {

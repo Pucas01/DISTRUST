@@ -116,11 +116,6 @@ void sub_4E5210()
 {
 }
 
-// STUB: 0x4E5290 sub_4E5290 (93 bytes)
-void sub_4E5290()
-{
-}
-
 // STUB: 0x4E52F0 sub_4E52F0 (211 bytes)
 void sub_4E52F0()
 {

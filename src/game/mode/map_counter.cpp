@@ -28,9 +28,21 @@ void sub_47E1B0()
 {
 }
 
-// STUB: 0x47E210 sub_47E210 (93 bytes)
-void sub_47E210()
+// FUNCTION: 0x47E210 sub_47E210
+int __cdecl sub_46DBE0(int id);
+void __cdecl sub_46DB50(int id);
+int __cdecl sub_46DC10(int id);
+void __cdecl sub_4CE9B0(int h, int v);
+void __cdecl sub_4F3C90(int a, int b, int c, int d, int e, int f, int g, int h, int i);
+void __cdecl sub_47E210(int a, int id, int c, int d, int e, int f)
 {
+    if (sub_46DBE0(id) != -2)
+        sub_46DB50(id);
+    int h = sub_46DC10(id);
+    if (h != -2) {
+        sub_4F3C90(0, h, c, d + 0x110, 0, a, 0, f, 1);
+        sub_4CE9B0(h, e);
+    }
 }
 
 // FUNCTION: 0x47E270 stepMapCounter
