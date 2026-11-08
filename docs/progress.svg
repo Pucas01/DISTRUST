@@ -6394,20 +6394,20 @@ src/unsorted/41/tu_418780.cpp</title></rect>
 <rect x="528.66" y="106.28" width="5.52" height="6.00" class="s"><title>sub_419450
 127 bytes, not rewritten
 src/unsorted/41/tu_418780.cpp</title></rect>
-<rect x="534.78" y="106.28" width="5.04" height="6.00" class="s"><title>sub_419CC0
-117 bytes, not rewritten
+<rect x="534.78" y="106.28" width="5.04" height="6.00" class="m"><title>sub_419CC0
+117 bytes, matching
 src/unsorted/41/tu_418780.cpp</title></rect>
-<rect x="528.66" y="112.88" width="5.69" height="2.94" class="s"><title>sub_418780
-70 bytes, not rewritten
+<rect x="528.66" y="112.88" width="5.69" height="2.94" class="m"><title>sub_418780
+70 bytes, matching
 src/unsorted/41/tu_418780.cpp</title></rect>
-<rect x="528.66" y="116.42" width="5.69" height="2.84" class="s"><title>sub_4187D0
-68 bytes, not rewritten
+<rect x="528.66" y="116.42" width="5.69" height="2.84" class="m"><title>sub_4187D0
+68 bytes, matching
 src/unsorted/41/tu_418780.cpp</title></rect>
-<rect x="534.95" y="112.88" width="4.87" height="3.24" class="s"><title>sub_4194D0
-66 bytes, not rewritten
+<rect x="534.95" y="112.88" width="4.87" height="3.24" class="m"><title>sub_4194D0
+66 bytes, matching
 src/unsorted/41/tu_418780.cpp</title></rect>
-<rect x="534.95" y="116.72" width="4.87" height="2.54" class="s"><title>sub_418BF0
-54 bytes, not rewritten
+<rect x="534.95" y="116.72" width="4.87" height="2.54" class="m"><title>sub_418BF0
+54 bytes, matching
 src/unsorted/41/tu_418780.cpp</title></rect>
 <rect x="488.88" y="121.86" width="35.96" height="28.35" class="m"><title>mt_decode_mb_rows
 3330 bytes, matching
@@ -7306,29 +7306,29 @@ src/lib/concrt/Concurrency_details_SchedulerBase.cpp</title></rect>
 <rect x="587.41" y="63.67" width="0.64" height="1.48" class="s"><title>Concurrency::details::SchedulerBase::vfn_17
 3 bytes, not rewritten
 src/lib/concrt/Concurrency_details_SchedulerBase.cpp</title></rect>
-<rect x="542.42" y="67.45" width="22.42" height="17.40" class="s"><title>vp8_mbloop_filter_horizontal_edge_uv_sse2
-1310 bytes, not rewritten
+<rect x="542.42" y="67.45" width="22.42" height="17.40" class="m"><title>vp8_mbloop_filter_horizontal_edge_uv_sse2
+1310 bytes, matching
 src/unsorted/5B/tu_5B3890.cpp</title></rect>
-<rect x="565.44" y="67.45" width="22.31" height="17.40" class="s"><title>vp8_mbloop_filter_horizontal_edge_sse2
-1304 bytes, not rewritten
+<rect x="565.44" y="67.45" width="22.31" height="17.40" class="m"><title>vp8_mbloop_filter_horizontal_edge_sse2
+1304 bytes, matching
 src/unsorted/5B/tu_5B3890.cpp</title></rect>
-<rect x="542.42" y="85.46" width="18.75" height="16.45" class="s"><title>vp8_loop_filter_vertical_edge_uv_sse2
-1043 bytes, not rewritten
+<rect x="542.42" y="85.46" width="18.75" height="16.45" class="m"><title>vp8_loop_filter_vertical_edge_uv_sse2
+1043 bytes, matching
 src/unsorted/5B/tu_5B3890.cpp</title></rect>
-<rect x="542.42" y="102.51" width="18.75" height="16.36" class="s"><title>vp8_loop_filter_vertical_edge_sse2
-1037 bytes, not rewritten
+<rect x="542.42" y="102.51" width="18.75" height="16.36" class="m"><title>vp8_loop_filter_vertical_edge_sse2
+1037 bytes, matching
 src/unsorted/5B/tu_5B3890.cpp</title></rect>
-<rect x="561.77" y="85.46" width="13.56" height="18.44" class="s"><title>vp8_mbloop_filter_vertical_edge_uv_sse2
-852 bytes, not rewritten
+<rect x="561.77" y="85.46" width="13.56" height="18.44" class="m"><title>vp8_mbloop_filter_vertical_edge_uv_sse2
+852 bytes, matching
 src/unsorted/5B/tu_5B3890.cpp</title></rect>
-<rect x="575.92" y="85.46" width="11.83" height="18.44" class="s"><title>vp8_mbloop_filter_vertical_edge_sse2
-748 bytes, not rewritten
+<rect x="575.92" y="85.46" width="11.83" height="18.44" class="m"><title>vp8_mbloop_filter_vertical_edge_sse2
+748 bytes, matching
 src/unsorted/5B/tu_5B3890.cpp</title></rect>
-<rect x="561.77" y="104.50" width="13.64" height="14.37" class="s"><title>vp8_loop_filter_horizontal_edge_uv_sse2
-674 bytes, not rewritten
+<rect x="561.77" y="104.50" width="13.64" height="14.37" class="m"><title>vp8_loop_filter_horizontal_edge_uv_sse2
+674 bytes, matching
 src/unsorted/5B/tu_5B3890.cpp</title></rect>
-<rect x="576.01" y="104.50" width="11.74" height="14.37" class="s"><title>vp8_loop_filter_horizontal_edge_sse2
-584 bytes, not rewritten
+<rect x="576.01" y="104.50" width="11.74" height="14.37" class="m"><title>vp8_loop_filter_horizontal_edge_sse2
+584 bytes, matching
 src/unsorted/5B/tu_5B3890.cpp</title></rect>
 <rect x="542.42" y="121.47" width="26.23" height="22.51" class="s"><title>sub_40E5C0
 1961 bytes, not rewritten
@@ -11032,29 +11032,29 @@ src/unsorted/4C/tu_4CE9D0.cpp</title></rect>
 <rect x="707.24" y="236.23" width="3.35" height="3.90" class="s"><title>sub_4CEAE0
 58 bytes, not rewritten
 src/unsorted/4C/tu_4CE9D0.cpp</title></rect>
-<rect x="676.32" y="242.73" width="18.57" height="21.25" class="s"><title>sub_5BA2E0
-1368 bytes, not rewritten
+<rect x="676.32" y="242.73" width="18.57" height="21.25" class="m"><title>sub_5BA2E0
+1368 bytes, matching
 src/unsorted/5B/tu_5B9F6B.cpp</title></rect>
-<rect x="676.32" y="264.58" width="18.57" height="11.41" class="s"><title>sub_5BAC74
-752 bytes, not rewritten
+<rect x="676.32" y="264.58" width="18.57" height="11.41" class="m"><title>sub_5BAC74
+752 bytes, matching
 src/unsorted/5B/tu_5B9F6B.cpp</title></rect>
-<rect x="695.49" y="242.73" width="15.10" height="12.97" class="s"><title>sub_5BA838
-696 bytes, not rewritten
+<rect x="695.49" y="242.73" width="15.10" height="12.97" class="m"><title>sub_5BA838
+696 bytes, matching
 src/unsorted/5B/tu_5B9F6B.cpp</title></rect>
-<rect x="695.49" y="256.30" width="15.10" height="6.96" class="s"><title>sub_5BAAF0
-388 bytes, not rewritten
+<rect x="695.49" y="256.30" width="15.10" height="6.96" class="m"><title>sub_5BAAF0
+388 bytes, matching
 src/unsorted/5B/tu_5B9F6B.cpp</title></rect>
-<rect x="695.49" y="263.86" width="8.73" height="6.72" class="s"><title>vp8_half_horiz_variance16x_h_sse2
-223 bytes, not rewritten
+<rect x="695.49" y="263.86" width="8.73" height="6.72" class="m"><title>vp8_half_horiz_variance16x_h_sse2
+223 bytes, matching
 src/unsorted/5B/tu_5B9F6B.cpp</title></rect>
-<rect x="695.49" y="271.18" width="8.73" height="4.81" class="s"><title>vp8_half_horiz_variance8x_h_sse2
-165 bytes, not rewritten
+<rect x="695.49" y="271.18" width="8.73" height="4.81" class="m"><title>vp8_half_horiz_variance8x_h_sse2
+165 bytes, matching
 src/unsorted/5B/tu_5B9F6B.cpp</title></rect>
-<rect x="704.82" y="263.86" width="5.77" height="6.75" class="s"><title>sub_5BA0F0
-153 bytes, not rewritten
+<rect x="704.82" y="263.86" width="5.77" height="6.75" class="m"><title>sub_5BA0F0
+153 bytes, matching
 src/unsorted/5B/tu_5B9F6B.cpp</title></rect>
-<rect x="704.82" y="271.21" width="5.77" height="4.78" class="s"><title>sub_5BA189
-112 bytes, not rewritten
+<rect x="704.82" y="271.21" width="5.77" height="4.78" class="m"><title>sub_5BA189
+112 bytes, matching
 src/unsorted/5B/tu_5B9F6B.cpp</title></rect>
 <rect x="676.32" y="278.59" width="11.85" height="15.82" class="s"><title>sub_475330
 668 bytes, not rewritten
@@ -11095,8 +11095,8 @@ src/unsorted/47/tu_474D00.cpp</title></rect>
 <rect x="695.12" y="306.30" width="4.96" height="5.40" class="s"><title>sub_475D20
 109 bytes, not rewritten
 src/unsorted/47/tu_474D00.cpp</title></rect>
-<rect x="700.68" y="299.70" width="4.73" height="5.60" class="s"><title>sub_475B70
-108 bytes, not rewritten
+<rect x="700.68" y="299.70" width="4.73" height="5.60" class="m"><title>sub_475B70
+108 bytes, matching
 src/unsorted/47/tu_474D00.cpp</title></rect>
 <rect x="706.01" y="299.70" width="4.58" height="5.60" class="s"><title>sub_475CB0
 105 bytes, not rewritten
@@ -11113,29 +11113,29 @@ src/unsorted/47/tu_474D00.cpp</title></rect>
 <rect x="709.56" y="305.60" width="1.34" height="6.40" class="s"><title>sub_475A90
 28 bytes, not rewritten
 src/unsorted/47/tu_474D00.cpp</title></rect>
-<rect x="676.32" y="314.30" width="16.72" height="18.32" class="s"><title>sub_5B7118
-1072 bytes, not rewritten
+<rect x="676.32" y="314.30" width="16.72" height="18.32" class="m"><title>sub_5B7118
+1072 bytes, matching
 src/unsorted/5B/tu_5B7118.cpp</title></rect>
-<rect x="676.32" y="333.23" width="16.72" height="13.70" class="s"><title>sub_5B7788
-810 bytes, not rewritten
+<rect x="676.32" y="333.23" width="16.72" height="13.70" class="m"><title>sub_5B7788
+810 bytes, matching
 src/unsorted/5B/tu_5B7118.cpp</title></rect>
-<rect x="693.65" y="314.30" width="16.95" height="9.44" class="s"><title>sub_5B7548
-576 bytes, not rewritten
+<rect x="693.65" y="314.30" width="16.95" height="9.44" class="m"><title>sub_5B7548
+576 bytes, matching
 src/unsorted/5B/tu_5B7118.cpp</title></rect>
-<rect x="693.65" y="324.34" width="8.51" height="13.43" class="s"><title>sub_5B7AB2
-418 bytes, not rewritten
+<rect x="693.65" y="324.34" width="8.51" height="13.43" class="m"><title>sub_5B7AB2
+418 bytes, matching
 src/unsorted/5B/tu_5B7118.cpp</title></rect>
-<rect x="702.76" y="324.34" width="7.83" height="13.43" class="s"><title>sub_5B7D30
-387 bytes, not rewritten
+<rect x="702.76" y="324.34" width="7.83" height="13.43" class="m"><title>sub_5B7D30
+387 bytes, matching
 src/unsorted/5B/tu_5B7118.cpp</title></rect>
-<rect x="693.65" y="338.37" width="6.35" height="8.55" class="s"><title>sub_5B7C54
-208 bytes, not rewritten
+<rect x="693.65" y="338.37" width="6.35" height="8.55" class="m"><title>sub_5B7C54
+208 bytes, matching
 src/unsorted/5B/tu_5B7118.cpp</title></rect>
-<rect x="700.60" y="338.37" width="6.22" height="8.55" class="s"><title>vp8_filter_block1d8_h6_sse2
-204 bytes, not rewritten
+<rect x="700.60" y="338.37" width="6.22" height="8.55" class="m"><title>vp8_filter_block1d8_h6_sse2
+204 bytes, matching
 src/unsorted/5B/tu_5B7118.cpp</title></rect>
-<rect x="707.42" y="338.37" width="3.18" height="8.55" class="s"><title>sub_5B7EB3
-113 bytes, not rewritten
+<rect x="707.42" y="338.37" width="3.18" height="8.55" class="m"><title>sub_5B7EB3
+113 bytes, matching
 src/unsorted/5B/tu_5B7118.cpp</title></rect>
 <rect x="676.32" y="349.53" width="17.46" height="21.05" class="s"><title>sub_4D7E80
 1279 bytes, not rewritten
@@ -11209,29 +11209,29 @@ src/unsorted/4F/tu_4F47E0.cpp</title></rect>
 <rect x="703.89" y="414.02" width="6.70" height="2.71" class="s"><title>sub_4F4CD0
 79 bytes, not rewritten
 src/unsorted/4F/tu_4F47E0.cpp</title></rect>
-<rect x="676.32" y="419.32" width="16.24" height="18.35" class="s"><title>vp8_mbloop_filter_horizontal_edge_mmx
-1044 bytes, not rewritten
+<rect x="676.32" y="419.32" width="16.24" height="18.35" class="m"><title>vp8_mbloop_filter_horizontal_edge_mmx
+1044 bytes, matching
 src/unsorted/5C/tu_5C23E1.cpp</title></rect>
-<rect x="676.32" y="438.27" width="16.24" height="13.05" class="s"><title>vp8_loop_filter_vertical_edge_mmx
-752 bytes, not rewritten
+<rect x="676.32" y="438.27" width="16.24" height="13.05" class="m"><title>vp8_loop_filter_vertical_edge_mmx
+752 bytes, matching
 src/unsorted/5C/tu_5C23E1.cpp</title></rect>
-<rect x="693.16" y="419.32" width="17.43" height="11.72" class="s"><title>vp8_mbloop_filter_vertical_edge_mmx
-727 bytes, not rewritten
+<rect x="693.16" y="419.32" width="17.43" height="11.72" class="m"><title>vp8_mbloop_filter_vertical_edge_mmx
+727 bytes, matching
 src/unsorted/5C/tu_5C23E1.cpp</title></rect>
-<rect x="693.16" y="431.64" width="10.73" height="11.34" class="s"><title>vp8_loop_filter_simple_vertical_edge_sse2
-443 bytes, not rewritten
+<rect x="693.16" y="431.64" width="10.73" height="11.34" class="m"><title>vp8_loop_filter_simple_vertical_edge_sse2
+443 bytes, matching
 src/unsorted/5C/tu_5C23E1.cpp</title></rect>
-<rect x="704.49" y="431.64" width="6.10" height="11.34" class="s"><title>sub_5C2DBC
-262 bytes, not rewritten
+<rect x="704.49" y="431.64" width="6.10" height="11.34" class="m"><title>sub_5C2DBC
+262 bytes, matching
 src/unsorted/5C/tu_5C23E1.cpp</title></rect>
-<rect x="693.16" y="443.58" width="7.68" height="7.73" class="s"><title>sub_5C318A
-226 bytes, not rewritten
+<rect x="693.16" y="443.58" width="7.68" height="7.73" class="m"><title>sub_5C318A
+226 bytes, matching
 src/unsorted/5C/tu_5C23E1.cpp</title></rect>
-<rect x="701.44" y="443.58" width="4.97" height="7.73" class="s"><title>sub_5C30F2
-152 bytes, not rewritten
+<rect x="701.44" y="443.58" width="4.97" height="7.73" class="m"><title>sub_5C30F2
+152 bytes, matching
 src/unsorted/5C/tu_5C23E1.cpp</title></rect>
-<rect x="707.02" y="443.58" width="3.58" height="7.73" class="s"><title>sub_5C3080
-114 bytes, not rewritten
+<rect x="707.02" y="443.58" width="3.58" height="7.73" class="m"><title>sub_5C3080
+114 bytes, matching
 src/unsorted/5C/tu_5C23E1.cpp</title></rect>
 <rect x="676.32" y="453.92" width="12.83" height="19.20" class="s"><title>sub_472220
 871 bytes, not rewritten
@@ -11263,8 +11263,8 @@ src/unsorted/47/tu_4719A0.cpp</title></rect>
 <rect x="707.07" y="474.90" width="3.52" height="7.03" class="s"><title>sub_4727C0
 103 bytes, not rewritten
 src/unsorted/47/tu_4719A0.cpp</title></rect>
-<rect x="707.07" y="482.53" width="3.52" height="2.95" class="s"><title>sub_471CA0
-48 bytes, not rewritten
+<rect x="707.07" y="482.53" width="3.52" height="2.95" class="m"><title>sub_471CA0
+48 bytes, matching
 src/unsorted/47/tu_4719A0.cpp</title></rect>
 <rect x="676.32" y="488.08" width="13.39" height="17.00" class="m"><title>vp8_post_proc_frame
 807 bytes, matching
@@ -11758,29 +11758,29 @@ src/engine/freetype/ftlzw.cpp</title></rect>
 <rect x="1087.59" y="122.09" width="1.67" height="5.08" class="m"><title>ft_lzw_stream_io
 28 bytes, matching
 src/engine/freetype/ftlzw.cpp</title></rect>
-<rect x="1091.56" y="95.00" width="16.89" height="14.64" class="s"><title>sub_5B9318
-879 bytes, not rewritten
+<rect x="1091.56" y="95.00" width="16.89" height="14.64" class="m"><title>sub_5B9318
+879 bytes, matching
 src/unsorted/5B/tu_5B89B0.cpp</title></rect>
-<rect x="1109.05" y="95.00" width="12.59" height="14.64" class="s"><title>sub_5B9081
-663 bytes, not rewritten
+<rect x="1109.05" y="95.00" width="12.59" height="14.64" class="m"><title>sub_5B9081
+663 bytes, matching
 src/unsorted/5B/tu_5B89B0.cpp</title></rect>
-<rect x="1091.56" y="110.23" width="12.15" height="9.96" class="s"><title>vp8_filter_block1d16_v6_ssse3
-444 bytes, not rewritten
+<rect x="1091.56" y="110.23" width="12.15" height="9.96" class="m"><title>vp8_filter_block1d16_v6_ssse3
+444 bytes, matching
 src/unsorted/5B/tu_5B89B0.cpp</title></rect>
-<rect x="1091.56" y="120.79" width="12.15" height="6.08" class="s"><title>vp8_filter_block1d8_h6_ssse3
-281 bytes, not rewritten
+<rect x="1091.56" y="120.79" width="12.15" height="6.08" class="m"><title>vp8_filter_block1d8_h6_ssse3
+281 bytes, matching
 src/unsorted/5B/tu_5B89B0.cpp</title></rect>
-<rect x="1104.31" y="110.23" width="9.05" height="8.10" class="s"><title>vp8_filter_block1d4_h6_ssse3
-277 bytes, not rewritten
+<rect x="1104.31" y="110.23" width="9.05" height="8.10" class="m"><title>vp8_filter_block1d4_h6_ssse3
+277 bytes, matching
 src/unsorted/5B/tu_5B89B0.cpp</title></rect>
-<rect x="1104.31" y="118.93" width="9.05" height="7.94" class="s"><title>vp8_filter_block1d8_v6_ssse3
-272 bytes, not rewritten
+<rect x="1104.31" y="118.93" width="9.05" height="7.94" class="m"><title>vp8_filter_block1d8_v6_ssse3
+272 bytes, matching
 src/unsorted/5B/tu_5B89B0.cpp</title></rect>
-<rect x="1113.96" y="110.23" width="7.68" height="8.22" class="s"><title>vp8_filter_block1d16_h6_ssse3
-241 bytes, not rewritten
+<rect x="1113.96" y="110.23" width="7.68" height="8.22" class="m"><title>vp8_filter_block1d16_h6_ssse3
+241 bytes, matching
 src/unsorted/5B/tu_5B89B0.cpp</title></rect>
-<rect x="1113.96" y="119.05" width="7.68" height="7.82" class="s"><title>vp8_filter_block1d4_v6_ssse3
-230 bytes, not rewritten
+<rect x="1113.96" y="119.05" width="7.68" height="7.82" class="m"><title>vp8_filter_block1d4_v6_ssse3
+230 bytes, matching
 src/unsorted/5B/tu_5B89B0.cpp</title></rect>
 <rect x="1124.25" y="95.00" width="15.98" height="9.84" class="s"><title>sub_498280
 571 bytes, not rewritten
@@ -13084,14 +13084,14 @@ src/unsorted/51/tu_514DC0.cpp</title></rect>
 <rect x="1063.35" y="152.88" width="1.82" height="2.00" class="s"><title>sub_515850
 21 bytes, not rewritten
 src/unsorted/51/tu_514DC0.cpp</title></rect>
-<rect x="1060.93" y="155.49" width="1.61" height="2.25" class="s"><title>sub_515870
-21 bytes, not rewritten
+<rect x="1060.93" y="155.49" width="1.61" height="2.25" class="m"><title>sub_515870
+21 bytes, matching
 src/unsorted/51/tu_514DC0.cpp</title></rect>
-<rect x="1063.14" y="155.49" width="2.03" height="1.80" class="s"><title>sub_515890
-21 bytes, not rewritten
+<rect x="1063.14" y="155.49" width="2.03" height="1.80" class="m"><title>sub_515890
+21 bytes, matching
 src/unsorted/51/tu_514DC0.cpp</title></rect>
-<rect x="1062.84" y="157.58" width="2.63" height="0.46" class="s"><title>sub_515820
-4 bytes, not rewritten
+<rect x="1062.84" y="157.58" width="2.63" height="0.46" class="m"><title>sub_515820
+4 bytes, matching
 src/unsorted/51/tu_514DC0.cpp</title></rect>
 <rect x="1067.77" y="129.47" width="10.41" height="7.49" class="s"><title>sub_502720
 297 bytes, not rewritten
@@ -13156,29 +13156,29 @@ src/unsorted/51/tu_51C230.cpp</title></rect>
 <rect x="1124.08" y="153.97" width="2.21" height="3.77" class="s"><title>sub_51C800
 41 bytes, not rewritten
 src/unsorted/51/tu_51C230.cpp</title></rect>
-<rect x="1128.89" y="129.47" width="15.49" height="14.53" class="s"><title>sub_5B66D0
-813 bytes, not rewritten
+<rect x="1128.89" y="129.47" width="15.49" height="14.53" class="m"><title>sub_5B66D0
+813 bytes, matching
 src/unsorted/5B/tu_5B666A.cpp</title></rect>
-<rect x="1144.98" y="129.47" width="11.53" height="14.53" class="s"><title>sub_5B6BB2
-613 bytes, not rewritten
+<rect x="1144.98" y="129.47" width="11.53" height="14.53" class="m"><title>sub_5B6BB2
+613 bytes, matching
 src/unsorted/5B/tu_5B666A.cpp</title></rect>
-<rect x="1128.89" y="144.60" width="8.92" height="13.14" class="s"><title>sub_5B69FD
-437 bytes, not rewritten
+<rect x="1128.89" y="144.60" width="8.92" height="13.14" class="m"><title>sub_5B69FD
+437 bytes, matching
 src/unsorted/5B/tu_5B666A.cpp</title></rect>
-<rect x="1138.42" y="144.60" width="6.31" height="13.14" class="s"><title>sub_5B6E17
-317 bytes, not rewritten
+<rect x="1138.42" y="144.60" width="6.31" height="13.14" class="m"><title>sub_5B6E17
+317 bytes, matching
 src/unsorted/5B/tu_5B666A.cpp</title></rect>
-<rect x="1145.33" y="144.60" width="5.37" height="7.47" class="s"><title>sub_5B7077
-161 bytes, not rewritten
+<rect x="1145.33" y="144.60" width="5.37" height="7.47" class="m"><title>sub_5B7077
+161 bytes, matching
 src/unsorted/5B/tu_5B666A.cpp</title></rect>
-<rect x="1151.30" y="144.60" width="5.22" height="7.47" class="s"><title>sub_5B6F54
-157 bytes, not rewritten
+<rect x="1151.30" y="144.60" width="5.22" height="7.47" class="m"><title>sub_5B6F54
+157 bytes, matching
 src/unsorted/5B/tu_5B666A.cpp</title></rect>
-<rect x="1145.33" y="152.68" width="6.49" height="5.06" class="s"><title>sub_5B6FF1
-134 bytes, not rewritten
+<rect x="1145.33" y="152.68" width="6.49" height="5.06" class="m"><title>sub_5B6FF1
+134 bytes, matching
 src/unsorted/5B/tu_5B666A.cpp</title></rect>
-<rect x="1152.41" y="152.68" width="4.11" height="5.06" class="s"><title>sub_5B666A
-89 bytes, not rewritten
+<rect x="1152.41" y="152.68" width="4.11" height="5.06" class="m"><title>sub_5B666A
+89 bytes, matching
 src/unsorted/5B/tu_5B666A.cpp</title></rect>
 <rect x="1159.12" y="129.47" width="27.58" height="14.72" class="s"><title>sub_414C90
 1442 bytes, not rewritten
@@ -13465,35 +13465,35 @@ src/unsorted/46/tu_463C90.cpp</title></rect>
 <rect x="767.97" y="397.99" width="5.25" height="7.21" class="s"><title>sub_464440
 153 bytes, not rewritten
 src/unsorted/46/tu_463C90.cpp</title></rect>
-<rect x="746.16" y="407.80" width="14.09" height="9.77" class="s"><title>sub_5C4134
-510 bytes, not rewritten
+<rect x="746.16" y="407.80" width="14.09" height="9.77" class="m"><title>sub_5C4134
+510 bytes, matching
 src/unsorted/5C/tu_5C4134.cpp</title></rect>
-<rect x="760.85" y="407.80" width="12.36" height="9.77" class="s"><title>sub_5C4810
-450 bytes, not rewritten
+<rect x="760.85" y="407.80" width="12.36" height="9.77" class="m"><title>sub_5C4810
+450 bytes, matching
 src/unsorted/5C/tu_5C4134.cpp</title></rect>
-<rect x="746.16" y="418.17" width="12.01" height="9.25" class="s"><title>sub_5C49E0
-416 bytes, not rewritten
+<rect x="746.16" y="418.17" width="12.01" height="9.25" class="m"><title>sub_5C49E0
+416 bytes, matching
 src/unsorted/5C/tu_5C4134.cpp</title></rect>
-<rect x="746.16" y="428.02" width="12.01" height="7.55" class="s"><title>vp8_filter_block2d_bil_var_mmx
-344 bytes, not rewritten
+<rect x="746.16" y="428.02" width="12.01" height="7.55" class="m"><title>vp8_filter_block2d_bil_var_mmx
+344 bytes, matching
 src/unsorted/5C/tu_5C4134.cpp</title></rect>
-<rect x="758.77" y="418.17" width="8.46" height="10.48" class="s"><title>sub_5C46C0
-336 bytes, not rewritten
+<rect x="758.77" y="418.17" width="8.46" height="10.48" class="m"><title>sub_5C46C0
+336 bytes, matching
 src/unsorted/5C/tu_5C4134.cpp</title></rect>
-<rect x="767.83" y="418.17" width="5.39" height="10.48" class="s"><title>vp8_filter_block2d_bil4x4_var_mmx
-222 bytes, not rewritten
+<rect x="767.83" y="418.17" width="5.39" height="10.48" class="m"><title>vp8_filter_block2d_bil4x4_var_mmx
+222 bytes, matching
 src/unsorted/5C/tu_5C4134.cpp</title></rect>
-<rect x="758.77" y="429.24" width="8.11" height="6.33" class="s"><title>vp8_get8x8var_mmx
-202 bytes, not rewritten
+<rect x="758.77" y="429.24" width="8.11" height="6.33" class="m"><title>vp8_get8x8var_mmx
+202 bytes, matching
 src/unsorted/5C/tu_5C4134.cpp</title></rect>
-<rect x="767.48" y="429.24" width="5.74" height="5.90" class="s"><title>sub_5C43FC
-138 bytes, not rewritten
+<rect x="767.48" y="429.24" width="5.74" height="5.90" class="m"><title>sub_5C43FC
+138 bytes, matching
 src/unsorted/5C/tu_5C4134.cpp</title></rect>
 <rect x="767.18" y="435.45" width="4.23" height="0.42" class="s"><title>D3DXCompileShader
 6 bytes, not rewritten
 src/unsorted/5C/tu_5C4134.cpp</title></rect>
-<rect x="771.41" y="435.45" width="2.11" height="0.42" class="s"><title>sub_5C4B80
-3 bytes, not rewritten
+<rect x="771.41" y="435.45" width="2.11" height="0.42" class="m"><title>sub_5C4B80
+3 bytes, matching
 src/unsorted/5C/tu_5C4134.cpp</title></rect>
 <rect x="746.16" y="438.17" width="19.26" height="13.57" class="m"><title>build_inter4x4_predictors_mb
 942 bytes, matching
@@ -13711,29 +13711,29 @@ src/lib/crt/event.cpp</title></rect>
 <rect x="773.31" y="585.55" width="0.21" height="1.45" class="m"><title>shared_5E447B
 1 bytes, matching
 src/lib/crt/event.cpp</title></rect>
-<rect x="775.82" y="160.34" width="12.17" height="14.70" class="s"><title>sub_5B6050
-655 bytes, not rewritten
+<rect x="775.82" y="160.34" width="12.17" height="14.70" class="m"><title>sub_5B6050
+655 bytes, matching
 src/unsorted/5B/tu_5B5C50.cpp</title></rect>
-<rect x="775.82" y="175.64" width="12.17" height="10.87" class="s"><title>sub_5B62DF
-491 bytes, not rewritten
+<rect x="775.82" y="175.64" width="12.17" height="10.87" class="m"><title>sub_5B62DF
+491 bytes, matching
 src/unsorted/5B/tu_5B5C50.cpp</title></rect>
-<rect x="788.58" y="160.34" width="9.03" height="12.28" class="s"><title>sub_5B64CA
-416 bytes, not rewritten
+<rect x="788.58" y="160.34" width="9.03" height="12.28" class="m"><title>sub_5B64CA
+416 bytes, matching
 src/unsorted/5B/tu_5B5C50.cpp</title></rect>
-<rect x="798.21" y="160.34" width="5.72" height="12.28" class="s"><title>sub_5B5D74
-273 bytes, not rewritten
+<rect x="798.21" y="160.34" width="5.72" height="12.28" class="m"><title>sub_5B5D74
+273 bytes, matching
 src/unsorted/5B/tu_5B5C50.cpp</title></rect>
-<rect x="788.58" y="173.22" width="9.08" height="7.81" class="s"><title>sub_5B5E85
-273 bytes, not rewritten
+<rect x="788.58" y="173.22" width="9.08" height="7.81" class="m"><title>sub_5B5E85
+273 bytes, matching
 src/unsorted/5B/tu_5B5C50.cpp</title></rect>
-<rect x="788.58" y="181.63" width="9.08" height="4.88" class="s"><title>sub_5B5F96
-178 bytes, not rewritten
+<rect x="788.58" y="181.63" width="9.08" height="4.88" class="m"><title>sub_5B5F96
+178 bytes, matching
 src/unsorted/5B/tu_5B5C50.cpp</title></rect>
-<rect x="798.27" y="173.22" width="5.67" height="6.77" class="s"><title>vp8_filter_block1d_h6_mmx
-155 bytes, not rewritten
+<rect x="798.27" y="173.22" width="5.67" height="6.77" class="m"><title>vp8_filter_block1d_h6_mmx
+155 bytes, matching
 src/unsorted/5B/tu_5B5C50.cpp</title></rect>
-<rect x="798.27" y="180.60" width="5.67" height="5.92" class="s"><title>vp8_filter_block1dc_v6_mmx
-137 bytes, not rewritten
+<rect x="798.27" y="180.60" width="5.67" height="5.92" class="m"><title>vp8_filter_block1dc_v6_mmx
+137 bytes, matching
 src/unsorted/5B/tu_5B5C50.cpp</title></rect>
 <rect x="806.53" y="160.34" width="13.12" height="14.29" class="s"><title>sub_4F22D0
 685 bytes, not rewritten
@@ -13942,32 +13942,32 @@ src/game/screen/ratio_table_7007d4.cpp</title></rect>
 <rect x="920.26" y="184.96" width="4.33" height="1.86" class="m"><title>sub_435790
 27 bytes, matching
 src/game/screen/ratio_table_7007d4.cpp</title></rect>
-<rect x="926.89" y="160.34" width="10.30" height="16.29" class="s"><title>sub_5B85EE
-619 bytes, not rewritten
+<rect x="926.89" y="160.34" width="10.30" height="16.29" class="m"><title>sub_5B85EE
+619 bytes, matching
 src/unsorted/5B/tu_5B7FFC.cpp</title></rect>
-<rect x="926.89" y="177.23" width="10.30" height="9.28" class="s"><title>vp8_filter_block1d16_h6_sse2
-362 bytes, not rewritten
+<rect x="926.89" y="177.23" width="10.30" height="9.28" class="m"><title>vp8_filter_block1d16_h6_sse2
+362 bytes, matching
 src/unsorted/5B/tu_5B7FFC.cpp</title></rect>
-<rect x="937.78" y="160.34" width="7.89" height="11.80" class="s"><title>vp8_filter_block1d16_h6_only_sse2
-354 bytes, not rewritten
+<rect x="937.78" y="160.34" width="7.89" height="11.80" class="m"><title>vp8_filter_block1d16_h6_only_sse2
+354 bytes, matching
 src/unsorted/5B/tu_5B7FFC.cpp</title></rect>
-<rect x="946.28" y="160.34" width="7.58" height="11.80" class="s"><title>sub_5B8859
-341 bytes, not rewritten
+<rect x="946.28" y="160.34" width="7.58" height="11.80" class="m"><title>sub_5B8859
+341 bytes, matching
 src/unsorted/5B/tu_5B7FFC.cpp</title></rect>
-<rect x="937.78" y="172.74" width="8.50" height="7.24" class="s"><title>vp8_filter_block1d16_v6_sse2
-240 bytes, not rewritten
+<rect x="937.78" y="172.74" width="8.50" height="7.24" class="m"><title>vp8_filter_block1d16_v6_sse2
+240 bytes, matching
 src/unsorted/5B/tu_5B7FFC.cpp</title></rect>
-<rect x="937.78" y="180.58" width="8.50" height="5.94" class="s"><title>vp8_filter_block1d8_h6_only_sse2
-200 bytes, not rewritten
+<rect x="937.78" y="180.58" width="8.50" height="5.94" class="m"><title>vp8_filter_block1d8_h6_only_sse2
+200 bytes, matching
 src/unsorted/5B/tu_5B7FFC.cpp</title></rect>
-<rect x="946.89" y="172.74" width="6.97" height="5.80" class="s"><title>vp8_filter_block1d8_v6_only_sse2
-163 bytes, not rewritten
+<rect x="946.89" y="172.74" width="6.97" height="5.80" class="m"><title>vp8_filter_block1d8_v6_only_sse2
+163 bytes, matching
 src/unsorted/5B/tu_5B7FFC.cpp</title></rect>
-<rect x="946.89" y="179.14" width="6.97" height="5.02" class="s"><title>vp8_filter_block1d8_v6_sse2
-143 bytes, not rewritten
+<rect x="946.89" y="179.14" width="6.97" height="5.02" class="m"><title>vp8_filter_block1d8_v6_sse2
+143 bytes, matching
 src/unsorted/5B/tu_5B7FFC.cpp</title></rect>
-<rect x="946.89" y="184.76" width="6.97" height="1.76" class="s"><title>vp8_unpack_block1d16_h6_sse2
-60 bytes, not rewritten
+<rect x="946.89" y="184.76" width="6.97" height="1.76" class="m"><title>vp8_unpack_block1d16_h6_sse2
+60 bytes, matching
 src/unsorted/5B/tu_5B7FFC.cpp</title></rect>
 <rect x="956.46" y="160.34" width="14.21" height="26.18" class="s"><title>sub_4DBCB0
 1333 bytes, not rewritten
@@ -14263,8 +14263,8 @@ src/unsorted/5A/tu_5AC500.cpp</title></rect>
 <rect x="799.21" y="238.37" width="1.91" height="4.97" class="s"><title>sub_5ACED0
 32 bytes, not rewritten
 src/unsorted/5A/tu_5AC500.cpp</title></rect>
-<rect x="799.21" y="243.33" width="1.91" height="3.10" class="s"><title>sub_5AC5B0
-20 bytes, not rewritten
+<rect x="799.21" y="243.33" width="1.91" height="3.10" class="m"><title>sub_5AC5B0
+20 bytes, matching
 src/unsorted/5A/tu_5AC500.cpp</title></rect>
 <rect x="775.82" y="248.74" width="15.31" height="9.58" class="s"><title>sub_529EF0
 546 bytes, not rewritten
@@ -14296,8 +14296,8 @@ src/unsorted/52/tu_529760.cpp</title></rect>
 <rect x="799.39" y="267.49" width="1.74" height="5.13" class="s"><title>sub_529870
 30 bytes, not rewritten
 src/unsorted/52/tu_529760.cpp</title></rect>
-<rect x="799.39" y="272.61" width="1.74" height="3.59" class="s"><title>sub_529990
-21 bytes, not rewritten
+<rect x="799.39" y="272.61" width="1.74" height="3.59" class="m"><title>sub_529990
+21 bytes, matching
 src/unsorted/52/tu_529760.cpp</title></rect>
 <rect x="775.82" y="278.50" width="16.79" height="14.62" class="s"><title>sub_4E3890
 893 bytes, not rewritten
@@ -14506,29 +14506,29 @@ src/unsorted/52/tu_5281D0.cpp</title></rect>
 <rect x="787.28" y="417.77" width="13.55" height="3.12" class="s"><title>sub_528880
 178 bytes, not rewritten
 src/unsorted/52/tu_5281D0.cpp</title></rect>
-<rect x="775.82" y="423.50" width="14.64" height="11.14" class="s"><title>vp8_filter_block2d_bil_var_sse2
-606 bytes, not rewritten
+<rect x="775.82" y="423.50" width="14.64" height="11.14" class="m"><title>vp8_filter_block2d_bil_var_sse2
+606 bytes, matching
 src/unsorted/5B/tu_5B9690.cpp</title></rect>
-<rect x="791.06" y="423.50" width="9.76" height="11.14" class="s"><title>vp8_get4x4var_mmx
-412 bytes, not rewritten
+<rect x="791.06" y="423.50" width="9.76" height="11.14" class="m"><title>vp8_get4x4var_mmx
+412 bytes, matching
 src/unsorted/5B/tu_5B9690.cpp</title></rect>
-<rect x="775.82" y="435.24" width="10.59" height="7.29" class="s"><title>vp8_get8x8var_sse2
-299 bytes, not rewritten
+<rect x="775.82" y="435.24" width="10.59" height="7.29" class="m"><title>vp8_get8x8var_sse2
+299 bytes, matching
 src/unsorted/5B/tu_5B9690.cpp</title></rect>
-<rect x="775.82" y="443.13" width="10.59" height="5.92" class="s"><title>vp8_half_horiz_vert_variance16x_h_sse2
-247 bytes, not rewritten
+<rect x="775.82" y="443.13" width="10.59" height="5.92" class="m"><title>vp8_half_horiz_vert_variance16x_h_sse2
+247 bytes, matching
 src/unsorted/5B/tu_5B9690.cpp</title></rect>
-<rect x="787.01" y="435.24" width="8.03" height="7.24" class="s"><title>vp8_half_vert_variance16x_h_sse2
-229 bytes, not rewritten
+<rect x="787.01" y="435.24" width="8.03" height="7.24" class="m"><title>vp8_half_vert_variance16x_h_sse2
+229 bytes, matching
 src/unsorted/5B/tu_5B9690.cpp</title></rect>
-<rect x="787.01" y="443.08" width="8.03" height="5.97" class="s"><title>vp8_half_horiz_vert_variance8x_h_sse2
-192 bytes, not rewritten
+<rect x="787.01" y="443.08" width="8.03" height="5.97" class="m"><title>vp8_half_horiz_vert_variance8x_h_sse2
+192 bytes, matching
 src/unsorted/5B/tu_5B9690.cpp</title></rect>
-<rect x="795.64" y="435.24" width="5.18" height="7.98" class="s"><title>vp8_half_vert_variance8x_h_sse2
-168 bytes, not rewritten
+<rect x="795.64" y="435.24" width="5.18" height="7.98" class="m"><title>vp8_half_vert_variance8x_h_sse2
+168 bytes, matching
 src/unsorted/5B/tu_5B9690.cpp</title></rect>
-<rect x="795.64" y="443.82" width="5.18" height="5.23" class="s"><title>sub_5B9690
-114 bytes, not rewritten
+<rect x="795.64" y="443.82" width="5.18" height="5.23" class="m"><title>sub_5B9690
+114 bytes, matching
 src/unsorted/5B/tu_5B9690.cpp</title></rect>
 <rect x="775.82" y="451.65" width="13.98" height="15.93" class="s"><title>sub_523270
 817 bytes, not rewritten
@@ -14857,23 +14857,23 @@ src/engine/input/AgPCInputManager.cpp</title></rect>
 <rect x="912.70" y="212.17" width="1.56" height="0.94" class="s"><title>AgPCInputManager::vfn_1
 5 bytes, not rewritten
 src/engine/input/AgPCInputManager.cpp</title></rect>
-<rect x="916.56" y="189.11" width="12.95" height="12.22" class="s"><title>sub_5BB9D8
-591 bytes, not rewritten
+<rect x="916.56" y="189.11" width="12.95" height="12.22" class="m"><title>sub_5BB9D8
+591 bytes, matching
 src/unsorted/5B/tu_5BB840.cpp</title></rect>
-<rect x="916.56" y="201.93" width="12.95" height="10.88" class="s"><title>vp8_loop_filter_horizontal_edge_mmx
-529 bytes, not rewritten
+<rect x="916.56" y="201.93" width="12.95" height="10.88" class="m"><title>vp8_loop_filter_horizontal_edge_mmx
+529 bytes, matching
 src/unsorted/5B/tu_5BB840.cpp</title></rect>
-<rect x="930.11" y="189.11" width="11.65" height="9.20" class="s"><title>sub_5BB840
-408 bytes, not rewritten
+<rect x="930.11" y="189.11" width="11.65" height="9.20" class="m"><title>sub_5BB840
+408 bytes, matching
 src/unsorted/5B/tu_5BB840.cpp</title></rect>
-<rect x="930.11" y="198.91" width="6.03" height="5.83" class="s"><title>sub_5BBD1D
-145 bytes, not rewritten
+<rect x="930.11" y="198.91" width="6.03" height="5.83" class="m"><title>sub_5BBD1D
+145 bytes, matching
 src/unsorted/5B/tu_5BB840.cpp</title></rect>
-<rect x="936.74" y="198.91" width="5.02" height="5.83" class="s"><title>sub_5BBCA2
-123 bytes, not rewritten
+<rect x="936.74" y="198.91" width="5.02" height="5.83" class="m"><title>sub_5BBCA2
+123 bytes, matching
 src/unsorted/5B/tu_5BB840.cpp</title></rect>
-<rect x="930.11" y="205.34" width="3.55" height="7.47" class="s"><title>sub_5BBC30
-114 bytes, not rewritten
+<rect x="930.11" y="205.34" width="3.55" height="7.47" class="m"><title>sub_5BBC30
+114 bytes, matching
 src/unsorted/5B/tu_5BB840.cpp</title></rect>
 <rect x="934.27" y="205.34" width="3.45" height="7.47" class="s"><title>sub_5BBDB0
 111 bytes, not rewritten
@@ -15175,8 +15175,8 @@ src/unsorted/52/tu_525D40.cpp</title></rect>
 <rect x="1184.69" y="209.59" width="2.01" height="2.77" class="s"><title>sub_525F70
 30 bytes, not rewritten
 src/unsorted/52/tu_525D40.cpp</title></rect>
-<rect x="1184.39" y="212.66" width="2.61" height="0.45" class="s"><title>sub_525F90
-4 bytes, not rewritten
+<rect x="1184.39" y="212.66" width="2.61" height="0.45" class="m"><title>sub_525F90
+4 bytes, matching
 src/unsorted/52/tu_525D40.cpp</title></rect>
 <rect x="803.43" y="215.41" width="9.18" height="9.73" class="m"><title>duplicateTexture
 345 bytes, matching
@@ -15325,8 +15325,8 @@ src/unsorted/4F/tu_4F9A30.cpp</title></rect>
 <rect x="822.10" y="397.09" width="4.33" height="5.15" class="s"><title>sub_4FA0A0
 97 bytes, not rewritten
 src/unsorted/4F/tu_4F9A30.cpp</title></rect>
-<rect x="821.80" y="402.54" width="4.93" height="0.42" class="s"><title>sub_4FA110
-7 bytes, not rewritten
+<rect x="821.80" y="402.54" width="4.93" height="0.42" class="m"><title>sub_4FA110
+7 bytes, matching
 src/unsorted/4F/tu_4F9A30.cpp</title></rect>
 <rect x="803.43" y="405.25" width="23.01" height="16.56" class="s"><title>sub_46D370
 1385 bytes, not rewritten
@@ -15679,8 +15679,8 @@ src/unsorted/5A/tu_5A5990.cpp</title></rect>
 <rect x="955.41" y="232.97" width="2.93" height="3.68" class="s"><title>sub_5A5F30
 52 bytes, not rewritten
 src/unsorted/5A/tu_5A5990.cpp</title></rect>
-<rect x="955.11" y="236.94" width="3.53" height="0.58" class="s"><title>sub_5A5E80
-7 bytes, not rewritten
+<rect x="955.11" y="236.94" width="3.53" height="0.58" class="m"><title>sub_5A5E80
+7 bytes, matching
 src/unsorted/5A/tu_5A5990.cpp</title></rect>
 <rect x="960.94" y="215.41" width="13.49" height="14.78" class="s"><title>sub_53A5A0
 746 bytes, not rewritten
@@ -15871,8 +15871,8 @@ src/unsorted/50/tu_506630.cpp</title></rect>
 <rect x="1132.83" y="234.92" width="3.59" height="2.30" class="s"><title>??1R_4B18F0@@QAE@XZ
 42 bytes, not rewritten
 src/unsorted/50/tu_506630.cpp</title></rect>
-<rect x="1136.72" y="234.62" width="0.70" height="2.90" class="s"><title>sub_506DD0
-7 bytes, not rewritten
+<rect x="1136.72" y="234.62" width="0.70" height="2.90" class="m"><title>sub_506DD0
+7 bytes, matching
 src/unsorted/50/tu_506630.cpp</title></rect>
 <rect x="1139.72" y="215.41" width="15.81" height="10.71" class="s"><title>sub_496F70
 641 bytes, not rewritten
@@ -16342,29 +16342,29 @@ src/engine/libvpx/vp8/common/filter.cpp</title></rect>
 <rect x="946.24" y="252.20" width="2.81" height="7.55" class="m"><title>filter_block2d_bil_second_pass
 97 bytes, matching
 src/engine/libvpx/vp8/common/filter.cpp</title></rect>
-<rect x="951.65" y="239.82" width="9.16" height="19.93" class="s"><title>sub_5B5725
-699 bytes, not rewritten
+<rect x="951.65" y="239.82" width="9.16" height="19.93" class="m"><title>sub_5B5725
+699 bytes, matching
 src/unsorted/5B/tu_5B5610.cpp</title></rect>
-<rect x="961.41" y="239.82" width="11.82" height="5.79" class="s"><title>sub_5B5610
-277 bytes, not rewritten
+<rect x="961.41" y="239.82" width="11.82" height="5.79" class="m"><title>sub_5B5610
+277 bytes, matching
 src/unsorted/5B/tu_5B5610.cpp</title></rect>
-<rect x="961.41" y="246.21" width="6.22" height="6.04" class="s"><title>sub_5B5BA7
-158 bytes, not rewritten
+<rect x="961.41" y="246.21" width="6.22" height="6.04" class="m"><title>sub_5B5BA7
+158 bytes, matching
 src/unsorted/5B/tu_5B5610.cpp</title></rect>
-<rect x="968.22" y="246.21" width="5.01" height="6.04" class="s"><title>sub_5B59E0
-130 bytes, not rewritten
+<rect x="968.22" y="246.21" width="5.01" height="6.04" class="m"><title>sub_5B59E0
+130 bytes, matching
 src/unsorted/5B/tu_5B5610.cpp</title></rect>
-<rect x="961.41" y="252.85" width="3.45" height="6.90" class="s"><title>sub_5B5B3D
-106 bytes, not rewritten
+<rect x="961.41" y="252.85" width="3.45" height="6.90" class="m"><title>sub_5B5B3D
+106 bytes, matching
 src/unsorted/5B/tu_5B5610.cpp</title></rect>
-<rect x="965.46" y="252.85" width="5.44" height="3.15" class="s"><title>sub_5B5A62
-79 bytes, not rewritten
+<rect x="965.46" y="252.85" width="5.44" height="3.15" class="m"><title>sub_5B5A62
+79 bytes, matching
 src/unsorted/5B/tu_5B5610.cpp</title></rect>
-<rect x="965.46" y="256.60" width="5.44" height="3.15" class="s"><title>sub_5B5AEE
-79 bytes, not rewritten
+<rect x="965.46" y="256.60" width="5.44" height="3.15" class="m"><title>sub_5B5AEE
+79 bytes, matching
 src/unsorted/5B/tu_5B5610.cpp</title></rect>
-<rect x="971.50" y="252.85" width="1.73" height="6.90" class="s"><title>sub_5B5AB1
-61 bytes, not rewritten
+<rect x="971.50" y="252.85" width="1.73" height="6.90" class="m"><title>sub_5B5AB1
+61 bytes, matching
 src/unsorted/5B/tu_5B5610.cpp</title></rect>
 <rect x="975.83" y="239.82" width="12.44" height="12.22" class="s"><title>AgDelayedSaveDataMount::vfn_1
 583 bytes, not rewritten
@@ -16831,29 +16831,29 @@ src/unsorted/51/tu_512380.cpp</title></rect>
 <rect x="853.76" y="307.62" width="20.36" height="19.68" class="s"><title>sub_5304C0
 1492 bytes, not rewritten
 src/unsorted/53/tu_5304C0.cpp</title></rect>
-<rect x="853.76" y="329.90" width="11.48" height="9.62" class="s"><title>sub_5C3F20
-434 bytes, not rewritten
+<rect x="853.76" y="329.90" width="11.48" height="9.62" class="m"><title>sub_5C3F20
+434 bytes, matching
 src/unsorted/5C/tu_5C3B5B.cpp</title></rect>
-<rect x="853.76" y="340.12" width="11.48" height="9.13" class="s"><title>sub_5C3D7F
-413 bytes, not rewritten
+<rect x="853.76" y="340.12" width="11.48" height="9.13" class="m"><title>sub_5C3D7F
+413 bytes, matching
 src/unsorted/5C/tu_5C3B5B.cpp</title></rect>
-<rect x="865.83" y="329.90" width="8.28" height="4.72" class="s"><title>vp8_intra_pred_y_tm_ssse3
-166 bytes, not rewritten
+<rect x="865.83" y="329.90" width="8.28" height="4.72" class="m"><title>vp8_intra_pred_y_tm_ssse3
+166 bytes, matching
 src/unsorted/5C/tu_5C3B5B.cpp</title></rect>
-<rect x="865.83" y="335.22" width="8.28" height="4.20" class="s"><title>vp8_intra_pred_y_tm_sse2
-150 bytes, not rewritten
+<rect x="865.83" y="335.22" width="8.28" height="4.20" class="m"><title>vp8_intra_pred_y_tm_sse2
+150 bytes, matching
 src/unsorted/5C/tu_5C3B5B.cpp</title></rect>
-<rect x="865.83" y="340.02" width="3.87" height="4.81" class="s"><title>vp8_intra_pred_y_ho_sse2
-85 bytes, not rewritten
+<rect x="865.83" y="340.02" width="3.87" height="4.81" class="m"><title>vp8_intra_pred_y_ho_sse2
+85 bytes, matching
 src/unsorted/5C/tu_5C3B5B.cpp</title></rect>
-<rect x="870.30" y="340.02" width="3.81" height="4.81" class="s"><title>sub_5C40E0
-84 bytes, not rewritten
+<rect x="870.30" y="340.02" width="3.81" height="4.81" class="m"><title>sub_5C40E0
+84 bytes, matching
 src/unsorted/5C/tu_5C3B5B.cpp</title></rect>
-<rect x="865.83" y="345.43" width="4.23" height="3.82" class="s"><title>vp8_intra_pred_y_ve_sse2
-75 bytes, not rewritten
+<rect x="865.83" y="345.43" width="4.23" height="3.82" class="m"><title>vp8_intra_pred_y_ve_sse2
+75 bytes, matching
 src/unsorted/5C/tu_5C3B5B.cpp</title></rect>
-<rect x="870.66" y="345.43" width="3.45" height="3.82" class="s"><title>vp8_dequantize_b_impl_mmx
-63 bytes, not rewritten
+<rect x="870.66" y="345.43" width="3.45" height="3.82" class="m"><title>vp8_dequantize_b_impl_mmx
+63 bytes, matching
 src/unsorted/5C/tu_5C3B5B.cpp</title></rect>
 <rect x="853.76" y="351.85" width="14.61" height="19.34" class="m"><title>GetCoeffs
 1066 bytes, matching
@@ -17275,8 +17275,8 @@ src/unsorted/50/tu_503BE0.cpp</title></rect>
 <rect x="1052.53" y="274.55" width="3.18" height="5.81" class="s"><title>sub_504300
 86 bytes, not rewritten
 src/unsorted/50/tu_503BE0.cpp</title></rect>
-<rect x="1052.23" y="280.67" width="3.78" height="0.37" class="s"><title>sub_504360
-5 bytes, not rewritten
+<rect x="1052.23" y="280.67" width="3.78" height="0.37" class="m"><title>sub_504360
+5 bytes, matching
 src/unsorted/50/tu_503BE0.cpp</title></rect>
 <rect x="1058.31" y="262.35" width="8.76" height="11.61" class="s"><title>sub_473F50
 405 bytes, not rewritten
@@ -17671,8 +17671,8 @@ src/unsorted/53/tu_53B920.cpp</title></rect>
 <rect x="894.43" y="520.28" width="1.32" height="5.09" class="s"><title>sub_53BC00
 24 bytes, not rewritten
 src/unsorted/53/tu_53B920.cpp</title></rect>
-<rect x="894.43" y="525.37" width="1.32" height="1.49" class="s"><title>sub_53B9C0
-7 bytes, not rewritten
+<rect x="894.43" y="525.37" width="1.32" height="1.49" class="m"><title>sub_53B9C0
+7 bytes, matching
 src/unsorted/53/tu_53B920.cpp</title></rect>
 <rect x="876.72" y="529.16" width="7.59" height="9.76" class="s"><title>RenderList::setTexture
 303 bytes, not rewritten
@@ -17722,35 +17722,35 @@ src/unsorted/4F/tu_4F6E20.cpp</title></rect>
 <rect x="893.48" y="562.84" width="1.97" height="3.42" class="s"><title>sub_4F7300
 37 bytes, not rewritten
 src/unsorted/4F/tu_4F6E20.cpp</title></rect>
-<rect x="893.18" y="566.56" width="2.57" height="0.54" class="s"><title>sub_4F7325
-5 bytes, not rewritten
+<rect x="893.18" y="566.56" width="2.57" height="0.54" class="m"><title>sub_4F7325
+5 bytes, matching
 src/unsorted/4F/tu_4F6E20.cpp</title></rect>
 <rect x="876.72" y="569.40" width="18.73" height="17.30" class="s"><title>sub_412600
 1238 bytes, not rewritten
 src/unsorted/41/tu_412600.cpp</title></rect>
-<rect x="898.05" y="283.34" width="9.26" height="10.99" class="s"><title>sub_5C3270
-409 bytes, not rewritten
+<rect x="898.05" y="283.34" width="9.26" height="10.99" class="m"><title>sub_5C3270
+409 bytes, matching
 src/unsorted/5C/tu_5C3270.cpp</title></rect>
-<rect x="898.05" y="294.93" width="9.26" height="5.55" class="s"><title>sub_5C3460
-217 bytes, not rewritten
+<rect x="898.05" y="294.93" width="9.26" height="5.55" class="m"><title>sub_5C3460
+217 bytes, matching
 src/unsorted/5C/tu_5C3270.cpp</title></rect>
-<rect x="907.91" y="283.34" width="4.34" height="7.31" class="s"><title>vp8_intra_pred_uv_dc_mmx2
-140 bytes, not rewritten
+<rect x="907.91" y="283.34" width="4.34" height="7.31" class="m"><title>vp8_intra_pred_uv_dc_mmx2
+140 bytes, matching
 src/unsorted/5C/tu_5C3270.cpp</title></rect>
-<rect x="912.85" y="283.34" width="4.10" height="7.31" class="s"><title>vp8_intra_pred_uv_tm_ssse3
-133 bytes, not rewritten
+<rect x="912.85" y="283.34" width="4.10" height="7.31" class="m"><title>vp8_intra_pred_uv_tm_ssse3
+133 bytes, matching
 src/unsorted/5C/tu_5C3270.cpp</title></rect>
-<rect x="907.91" y="291.25" width="5.17" height="5.31" class="s"><title>vp8_intra_pred_uv_dcleft_mmx2
-122 bytes, not rewritten
+<rect x="907.91" y="291.25" width="5.17" height="5.31" class="m"><title>vp8_intra_pred_uv_dcleft_mmx2
+122 bytes, matching
 src/unsorted/5C/tu_5C3270.cpp</title></rect>
-<rect x="913.67" y="291.25" width="3.27" height="5.31" class="s"><title>sub_5C3409
-82 bytes, not rewritten
+<rect x="913.67" y="291.25" width="3.27" height="5.31" class="m"><title>sub_5C3409
+82 bytes, matching
 src/unsorted/5C/tu_5C3270.cpp</title></rect>
-<rect x="907.91" y="297.17" width="5.18" height="3.31" class="s"><title>vp8_intra_pred_uv_dctop_mmx2
-81 bytes, not rewritten
+<rect x="907.91" y="297.17" width="5.18" height="3.31" class="m"><title>vp8_intra_pred_uv_dctop_mmx2
+81 bytes, matching
 src/unsorted/5C/tu_5C3270.cpp</title></rect>
-<rect x="913.69" y="297.17" width="3.26" height="3.31" class="s"><title>vp8_intra_pred_uv_dc128_mmx
-54 bytes, not rewritten
+<rect x="913.69" y="297.17" width="3.26" height="3.31" class="m"><title>vp8_intra_pred_uv_dc128_mmx
+54 bytes, matching
 src/unsorted/5C/tu_5C3270.cpp</title></rect>
 <rect x="919.55" y="283.34" width="6.18" height="8.83" class="s"><title>sub_501910
 229 bytes, not rewritten
@@ -17944,11 +17944,11 @@ src/unsorted/51/tu_516670.cpp</title></rect>
 <rect x="1157.39" y="294.77" width="7.10" height="5.72" class="s"><title>sub_516A90
 175 bytes, not rewritten
 src/unsorted/51/tu_516670.cpp</title></rect>
-<rect x="1164.79" y="294.47" width="1.98" height="3.51" class="s"><title>sub_516690
-25 bytes, not rewritten
+<rect x="1164.79" y="294.47" width="1.98" height="3.51" class="m"><title>sub_516690
+25 bytes, matching
 src/unsorted/51/tu_516670.cpp</title></rect>
-<rect x="1164.79" y="297.97" width="1.98" height="2.81" class="s"><title>sub_516670
-20 bytes, not rewritten
+<rect x="1164.79" y="297.97" width="1.98" height="2.81" class="m"><title>sub_516670
+20 bytes, matching
 src/unsorted/51/tu_516670.cpp</title></rect>
 <rect x="1169.07" y="283.34" width="11.37" height="10.88" class="s"><title>sub_4CE7C0
 495 bytes, not rewritten
@@ -17995,8 +17995,8 @@ src/unsorted/4F/tu_4FF6C0.cpp</title></rect>
 <rect x="912.31" y="311.01" width="3.23" height="7.81" class="s"><title>sub_4FFB20
 116 bytes, not rewritten
 src/unsorted/4F/tu_4FF6C0.cpp</title></rect>
-<rect x="912.01" y="319.12" width="3.83" height="1.45" class="s"><title>sub_4FF6C0
-20 bytes, not rewritten
+<rect x="912.01" y="319.12" width="3.83" height="1.45" class="m"><title>sub_4FF6C0
+20 bytes, matching
 src/unsorted/4F/tu_4FF6C0.cpp</title></rect>
 <rect x="898.05" y="322.88" width="11.42" height="17.09" class="s"><title>sub_507310
 767 bytes, not rewritten
@@ -18010,17 +18010,17 @@ src/unsorted/50/tu_5072D0.cpp</title></rect>
 <rect x="909.77" y="337.98" width="1.70" height="2.29" class="s"><title>sub_507770
 14 bytes, not rewritten
 src/unsorted/50/tu_5072D0.cpp</title></rect>
-<rect x="911.47" y="337.98" width="2.18" height="1.14" class="s"><title>sub_5072D0
-9 bytes, not rewritten
+<rect x="911.47" y="337.98" width="2.18" height="1.14" class="m"><title>sub_5072D0
+9 bytes, matching
 src/unsorted/50/tu_5072D0.cpp</title></rect>
-<rect x="911.47" y="339.12" width="2.18" height="1.14" class="s"><title>sub_5072E0
-9 bytes, not rewritten
+<rect x="911.47" y="339.12" width="2.18" height="1.14" class="m"><title>sub_5072E0
+9 bytes, matching
 src/unsorted/50/tu_5072D0.cpp</title></rect>
-<rect x="913.66" y="337.98" width="2.18" height="1.14" class="s"><title>sub_5072F0
-9 bytes, not rewritten
+<rect x="913.66" y="337.98" width="2.18" height="1.14" class="m"><title>sub_5072F0
+9 bytes, matching
 src/unsorted/50/tu_5072D0.cpp</title></rect>
-<rect x="913.66" y="339.12" width="2.18" height="1.14" class="s"><title>sub_507300
-9 bytes, not rewritten
+<rect x="913.66" y="339.12" width="2.18" height="1.14" class="m"><title>sub_507300
+9 bytes, matching
 src/unsorted/50/tu_5072D0.cpp</title></rect>
 <rect x="898.05" y="342.57" width="10.20" height="16.70" class="s"><title>sub_4CA770
 675 bytes, not rewritten
@@ -18073,29 +18073,29 @@ src/game/util/bit_array.cpp</title></rect>
 <rect x="912.18" y="395.54" width="3.36" height="2.26" class="m"><title>sub_417720
 41 bytes, matching
 src/game/util/bit_array.cpp</title></rect>
-<rect x="898.05" y="400.40" width="7.20" height="11.28" class="s"><title>sub_5BB09A
-335 bytes, not rewritten
+<rect x="898.05" y="400.40" width="7.20" height="11.28" class="m"><title>sub_5BB09A
+335 bytes, matching
 src/unsorted/5B/tu_5BAF64.cpp</title></rect>
-<rect x="898.05" y="412.28" width="7.20" height="4.72" class="s"><title>sub_5BAF64
-150 bytes, not rewritten
+<rect x="898.05" y="412.28" width="7.20" height="4.72" class="m"><title>sub_5BAF64
+150 bytes, matching
 src/unsorted/5B/tu_5BAF64.cpp</title></rect>
-<rect x="905.85" y="400.40" width="4.74" height="7.06" class="s"><title>sub_5BB342
-148 bytes, not rewritten
+<rect x="905.85" y="400.40" width="4.74" height="7.06" class="m"><title>sub_5BB342
+148 bytes, matching
 src/unsorted/5B/tu_5BAF64.cpp</title></rect>
-<rect x="911.19" y="400.40" width="4.35" height="7.06" class="s"><title>sub_5BB1F0
-137 bytes, not rewritten
+<rect x="911.19" y="400.40" width="4.35" height="7.06" class="m"><title>sub_5BB1F0
+137 bytes, matching
 src/unsorted/5B/tu_5BAF64.cpp</title></rect>
-<rect x="905.85" y="408.06" width="5.23" height="4.24" class="s"><title>sub_5BB279
-102 bytes, not rewritten
+<rect x="905.85" y="408.06" width="5.23" height="4.24" class="m"><title>sub_5BB279
+102 bytes, matching
 src/unsorted/5B/tu_5BAF64.cpp</title></rect>
-<rect x="905.85" y="412.90" width="5.23" height="4.10" class="s"><title>sub_5BB2DF
-99 bytes, not rewritten
+<rect x="905.85" y="412.90" width="5.23" height="4.10" class="m"><title>sub_5BB2DF
+99 bytes, matching
 src/unsorted/5B/tu_5BAF64.cpp</title></rect>
-<rect x="911.68" y="408.06" width="3.86" height="5.41" class="s"><title>sub_5BB000
-97 bytes, not rewritten
+<rect x="911.68" y="408.06" width="3.86" height="5.41" class="m"><title>sub_5BB000
+97 bytes, matching
 src/unsorted/5B/tu_5BAF64.cpp</title></rect>
-<rect x="911.68" y="414.07" width="3.86" height="2.93" class="s"><title>sub_5BB061
-57 bytes, not rewritten
+<rect x="911.68" y="414.07" width="3.86" height="2.93" class="m"><title>sub_5BB061
+57 bytes, matching
 src/unsorted/5B/tu_5BAF64.cpp</title></rect>
 <rect x="898.05" y="419.60" width="10.54" height="11.24" class="s"><title>sub_41AC10
 477 bytes, not rewritten
@@ -18169,29 +18169,29 @@ src/unsorted/54/tu_54C250.cpp</title></rect>
 <rect x="898.05" y="477.02" width="17.49" height="16.44" class="s"><title>sub_4B1A30
 1116 bytes, not rewritten
 src/unsorted/4B/tu_4B1A30.cpp</title></rect>
-<rect x="898.05" y="496.06" width="7.20" height="11.55" class="s"><title>sub_5BB460
-343 bytes, not rewritten
+<rect x="898.05" y="496.06" width="7.20" height="11.55" class="m"><title>sub_5BB460
+343 bytes, matching
 src/unsorted/5B/tu_5BB3D6.cpp</title></rect>
-<rect x="898.05" y="508.21" width="7.20" height="4.14" class="s"><title>sub_5BB3D6
-134 bytes, not rewritten
+<rect x="898.05" y="508.21" width="7.20" height="4.14" class="m"><title>sub_5BB3D6
+134 bytes, matching
 src/unsorted/5B/tu_5BB3D6.cpp</title></rect>
-<rect x="905.84" y="496.06" width="4.59" height="6.37" class="s"><title>sub_5BB708
-131 bytes, not rewritten
+<rect x="905.84" y="496.06" width="4.59" height="6.37" class="m"><title>sub_5BB708
+131 bytes, matching
 src/unsorted/5B/tu_5BB3D6.cpp</title></rect>
-<rect x="911.03" y="496.06" width="4.51" height="6.37" class="s"><title>sub_5BB687
-129 bytes, not rewritten
+<rect x="911.03" y="496.06" width="4.51" height="6.37" class="m"><title>sub_5BB687
+129 bytes, matching
 src/unsorted/5B/tu_5BB3D6.cpp</title></rect>
-<rect x="905.84" y="503.03" width="5.05" height="4.73" class="s"><title>sub_5BB61A
-109 bytes, not rewritten
+<rect x="905.84" y="503.03" width="5.05" height="4.73" class="m"><title>sub_5BB61A
+109 bytes, matching
 src/unsorted/5B/tu_5BB3D6.cpp</title></rect>
-<rect x="905.84" y="508.36" width="5.05" height="3.99" class="s"><title>sub_5BB7D8
-94 bytes, not rewritten
+<rect x="905.84" y="508.36" width="5.05" height="3.99" class="m"><title>sub_5BB7D8
+94 bytes, matching
 src/unsorted/5B/tu_5BB3D6.cpp</title></rect>
-<rect x="911.49" y="503.03" width="4.05" height="4.75" class="s"><title>sub_5BB5C0
-90 bytes, not rewritten
+<rect x="911.49" y="503.03" width="4.05" height="4.75" class="m"><title>sub_5BB5C0
+90 bytes, matching
 src/unsorted/5B/tu_5BB3D6.cpp</title></rect>
-<rect x="911.49" y="508.38" width="4.05" height="3.97" class="s"><title>sub_5BB78B
-77 bytes, not rewritten
+<rect x="911.49" y="508.38" width="4.05" height="3.97" class="m"><title>sub_5BB78B
+77 bytes, matching
 src/unsorted/5B/tu_5BB3D6.cpp</title></rect>
 <rect x="898.05" y="514.95" width="8.35" height="10.06" class="s"><title>sub_413220
 346 bytes, not rewritten
@@ -18415,8 +18415,8 @@ src/unsorted/4B/tu_4B1F60.cpp</title></rect>
 <rect x="1008.28" y="313.48" width="4.85" height="5.33" class="s"><title>sub_4B22C0
 118 bytes, not rewritten
 src/unsorted/4B/tu_4B1F60.cpp</title></rect>
-<rect x="1013.43" y="313.18" width="1.25" height="5.93" class="s"><title>sub_4B22A0
-27 bytes, not rewritten
+<rect x="1013.43" y="313.18" width="1.25" height="5.93" class="m"><title>sub_4B22A0
+27 bytes, matching
 src/unsorted/4B/tu_4B1F60.cpp</title></rect>
 <rect x="1016.98" y="303.08" width="9.37" height="15.73" class="s"><title>sub_4C1D30
 594 bytes, not rewritten
@@ -18436,29 +18436,29 @@ src/game/util/utf8_advance.cpp</title></rect>
 <rect x="1031.17" y="316.92" width="2.70" height="1.89" class="p"><title>sub_4C1F90
 30 bytes, non matching
 src/game/util/utf8_advance.cpp</title></rect>
-<rect x="1036.47" y="303.08" width="6.68" height="8.20" class="s"><title>vp8_intra_pred_y_dc_sse2
-234 bytes, not rewritten
+<rect x="1036.47" y="303.08" width="6.68" height="8.20" class="m"><title>vp8_intra_pred_y_dc_sse2
+234 bytes, matching
 src/unsorted/5C/tu_5C374B.cpp</title></rect>
-<rect x="1036.47" y="311.88" width="6.68" height="6.92" class="s"><title>vp8_intra_pred_y_dcleft_sse2
-200 bytes, not rewritten
+<rect x="1036.47" y="311.88" width="6.68" height="6.92" class="m"><title>vp8_intra_pred_y_dcleft_sse2
+200 bytes, matching
 src/unsorted/5C/tu_5C374B.cpp</title></rect>
-<rect x="1043.76" y="303.08" width="5.34" height="7.24" class="s"><title>vp8_intra_pred_uv_ho_mmx2
-170 bytes, not rewritten
+<rect x="1043.76" y="303.08" width="5.34" height="7.24" class="m"><title>vp8_intra_pred_uv_ho_mmx2
+170 bytes, matching
 src/unsorted/5C/tu_5C374B.cpp</title></rect>
-<rect x="1049.70" y="303.08" width="3.63" height="7.24" class="s"><title>vp8_intra_pred_y_dctop_sse2
-121 bytes, not rewritten
+<rect x="1049.70" y="303.08" width="3.63" height="7.24" class="m"><title>vp8_intra_pred_y_dctop_sse2
+121 bytes, matching
 src/unsorted/5C/tu_5C374B.cpp</title></rect>
-<rect x="1043.76" y="310.92" width="5.63" height="4.55" class="s"><title>vp8_intra_pred_uv_tm_sse2
-117 bytes, not rewritten
+<rect x="1043.76" y="310.92" width="5.63" height="4.55" class="m"><title>vp8_intra_pred_uv_tm_sse2
+117 bytes, matching
 src/unsorted/5C/tu_5C374B.cpp</title></rect>
-<rect x="1043.76" y="316.07" width="5.63" height="2.74" class="s"><title>vp8_intra_pred_y_dc128_sse2
-76 bytes, not rewritten
+<rect x="1043.76" y="316.07" width="5.63" height="2.74" class="m"><title>vp8_intra_pred_y_dc128_sse2
+76 bytes, matching
 src/unsorted/5C/tu_5C374B.cpp</title></rect>
-<rect x="1049.99" y="310.92" width="3.34" height="4.20" class="s"><title>vp8_intra_pred_uv_ho_ssse3
-69 bytes, not rewritten
+<rect x="1049.99" y="310.92" width="3.34" height="4.20" class="m"><title>vp8_intra_pred_uv_ho_ssse3
+69 bytes, matching
 src/unsorted/5C/tu_5C374B.cpp</title></rect>
-<rect x="1049.99" y="315.72" width="3.34" height="3.09" class="s"><title>vp8_intra_pred_uv_ve_mmx
-53 bytes, not rewritten
+<rect x="1049.99" y="315.72" width="3.34" height="3.09" class="m"><title>vp8_intra_pred_uv_ve_mmx
+53 bytes, matching
 src/unsorted/5C/tu_5C374B.cpp</title></rect>
 <rect x="1055.93" y="303.08" width="8.28" height="9.62" class="s"><title>AgResourceIndexBufferOpenGL::vfn_2
 331 bytes, not rewritten
@@ -18793,8 +18793,8 @@ src/unsorted/51/tu_51F4E0.cpp</title></rect>
 <rect x="1036.16" y="334.37" width="1.63" height="1.68" class="s"><title>sub_51F500
 19 bytes, not rewritten
 src/unsorted/51/tu_51F4E0.cpp</title></rect>
-<rect x="1035.86" y="336.34" width="2.23" height="0.36" class="s"><title>sub_51F7B0
-3 bytes, not rewritten
+<rect x="1035.86" y="336.34" width="2.23" height="0.36" class="m"><title>sub_51F7B0
+3 bytes, matching
 src/unsorted/51/tu_51F4E0.cpp</title></rect>
 <rect x="1040.39" y="321.41" width="7.16" height="8.26" class="s"><title>sub_51D720
 257 bytes, not rewritten
@@ -18808,8 +18808,8 @@ src/unsorted/51/tu_51D690.cpp</title></rect>
 <rect x="1049.53" y="330.27" width="5.00" height="5.80" class="s"><title>sub_51D690
 134 bytes, not rewritten
 src/unsorted/51/tu_51D690.cpp</title></rect>
-<rect x="1049.23" y="336.37" width="5.60" height="0.33" class="s"><title>sub_51D830
-7 bytes, not rewritten
+<rect x="1049.23" y="336.37" width="5.60" height="0.33" class="m"><title>sub_51D830
+7 bytes, matching
 src/unsorted/51/tu_51D690.cpp</title></rect>
 <rect x="1057.13" y="321.41" width="7.12" height="7.88" class="s"><title>??1AgDialogManager@@UAE@XZ
 245 bytes, not rewritten
@@ -19210,8 +19210,8 @@ src/unsorted/53/tu_53EE00.cpp</title></rect>
 <rect x="947.65" y="548.06" width="2.73" height="6.07" class="s"><title>sub_53EFA0
 84 bytes, not rewritten
 src/unsorted/53/tu_53EE00.cpp</title></rect>
-<rect x="947.35" y="554.43" width="3.33" height="0.32" class="s"><title>sub_53EF30
-4 bytes, not rewritten
+<rect x="947.35" y="554.43" width="3.33" height="0.32" class="m"><title>sub_53EF30
+4 bytes, matching
 src/unsorted/53/tu_53EE00.cpp</title></rect>
 <rect x="936.58" y="557.05" width="8.54" height="6.67" class="s"><title>ControlBlockPool::release
 252 bytes, not rewritten
@@ -19375,11 +19375,11 @@ src/unsorted/54/tu_5408E0.cpp</title></rect>
 <rect x="1075.37" y="348.92" width="1.62" height="3.28" class="s"><title>sub_540B40
 33 bytes, not rewritten
 src/unsorted/54/tu_5408E0.cpp</title></rect>
-<rect x="1077.29" y="348.62" width="1.95" height="2.94" class="s"><title>sub_540B20
-22 bytes, not rewritten
+<rect x="1077.29" y="348.62" width="1.95" height="2.94" class="m"><title>sub_540B20
+22 bytes, matching
 src/unsorted/54/tu_5408E0.cpp</title></rect>
-<rect x="1077.29" y="351.56" width="1.95" height="0.94" class="s"><title>sub_540BB0
-7 bytes, not rewritten
+<rect x="1077.29" y="351.56" width="1.95" height="0.94" class="m"><title>sub_540BB0
+7 bytes, matching
 src/unsorted/54/tu_5408E0.cpp</title></rect>
 <rect x="1081.55" y="339.00" width="13.05" height="8.53" class="s"><title>sub_463AA0
 477 bytes, not rewritten
@@ -19522,8 +19522,8 @@ src/unsorted/4F/tu_4FDD50.cpp</title></rect>
 <rect x="961.33" y="404.57" width="4.46" height="3.89" class="s"><title>sub_4FDFC0
 88 bytes, not rewritten
 src/unsorted/4F/tu_4FDD50.cpp</title></rect>
-<rect x="961.33" y="409.07" width="4.46" height="3.13" class="s"><title>sub_4FE020
-73 bytes, not rewritten
+<rect x="961.33" y="409.07" width="4.46" height="3.13" class="m"><title>sub_4FE020
+73 bytes, matching
 src/unsorted/4F/tu_4FDD50.cpp</title></rect>
 <rect x="952.97" y="414.80" width="12.82" height="12.26" class="m"><title>_wopenfile
 668 bytes, matching
@@ -19918,11 +19918,11 @@ src/unsorted/51/tu_51B4F0.cpp</title></rect>
 <rect x="974.56" y="404.80" width="4.19" height="3.90" class="s"><title>sub_51B4F0
 85 bytes, not rewritten
 src/unsorted/51/tu_51B4F0.cpp</title></rect>
-<rect x="979.04" y="404.50" width="1.46" height="3.29" class="s"><title>sub_51B560
-19 bytes, not rewritten
+<rect x="979.04" y="404.50" width="1.46" height="3.29" class="m"><title>sub_51B560
+19 bytes, matching
 src/unsorted/51/tu_51B4F0.cpp</title></rect>
-<rect x="979.04" y="407.78" width="1.46" height="1.21" class="s"><title>sub_51B550
-7 bytes, not rewritten
+<rect x="979.04" y="407.78" width="1.46" height="1.21" class="m"><title>sub_51B550
+7 bytes, matching
 src/unsorted/51/tu_51B4F0.cpp</title></rect>
 <rect x="968.39" y="411.29" width="9.03" height="6.27" class="s"><title>sub_54BF80
 261 bytes, not rewritten
@@ -21055,17 +21055,17 @@ src/unsorted/shared_stubs.cpp</title></rect>
 <rect x="1027.00" y="411.77" width="1.97" height="3.12" class="s"><title>shared_533590
 26 bytes, not rewritten
 src/unsorted/shared_stubs.cpp</title></rect>
-<rect x="1027.00" y="414.89" width="1.97" height="0.96" class="s"><title>shared_54FA40
-8 bytes, not rewritten
+<rect x="1027.00" y="414.89" width="1.97" height="0.96" class="m"><title>shared_54FA40
+8 bytes, matching
 src/unsorted/shared_stubs.cpp</title></rect>
-<rect x="1027.00" y="415.85" width="0.89" height="1.32" class="s"><title>shared_5361A0
-5 bytes, not rewritten
+<rect x="1027.00" y="415.85" width="0.89" height="1.32" class="m"><title>shared_5361A0
+5 bytes, matching
 src/unsorted/shared_stubs.cpp</title></rect>
-<rect x="1027.89" y="415.85" width="1.07" height="0.66" class="s"><title>shared_55C270
-3 bytes, not rewritten
+<rect x="1027.89" y="415.85" width="1.07" height="0.66" class="m"><title>shared_55C270
+3 bytes, matching
 src/unsorted/shared_stubs.cpp</title></rect>
-<rect x="1027.89" y="416.51" width="1.07" height="0.66" class="s"><title>shared_55C280
-3 bytes, not rewritten
+<rect x="1027.89" y="416.51" width="1.07" height="0.66" class="m"><title>shared_55C280
+3 bytes, matching
 src/unsorted/shared_stubs.cpp</title></rect>
 <rect x="1031.26" y="407.75" width="4.40" height="3.41" class="m"><title>?GetBucketIndex@SubAllocator@details@Concurrency@@SAHI@Z
 85 bytes, matching
@@ -21169,11 +21169,11 @@ src/unsorted/51/tu_5121D0.cpp</title></rect>
 <rect x="1138.91" y="414.50" width="3.10" height="2.36" class="s"><title>sub_512230
 47 bytes, not rewritten
 src/unsorted/51/tu_5121D0.cpp</title></rect>
-<rect x="1142.31" y="414.20" width="0.63" height="1.48" class="s"><title>sub_5121D0
-4 bytes, not rewritten
+<rect x="1142.31" y="414.20" width="0.63" height="1.48" class="m"><title>sub_5121D0
+4 bytes, matching
 src/unsorted/51/tu_5121D0.cpp</title></rect>
-<rect x="1142.31" y="415.68" width="0.63" height="1.48" class="s"><title>sub_5121E0
-4 bytes, not rewritten
+<rect x="1142.31" y="415.68" width="0.63" height="1.48" class="m"><title>sub_5121E0
+4 bytes, matching
 src/unsorted/51/tu_5121D0.cpp</title></rect>
 <rect x="1145.24" y="407.75" width="8.49" height="3.89" class="m"><title>sub_4C8E50
 175 bytes, matching
@@ -22258,8 +22258,8 @@ src/unsorted/53/tu_5326E0.cpp</title></rect>
 <rect x="1039.69" y="509.79" width="6.21" height="2.97" class="s"><title>sub_5326F0
 115 bytes, not rewritten
 src/unsorted/53/tu_5326E0.cpp</title></rect>
-<rect x="1046.20" y="509.49" width="0.41" height="3.57" class="s"><title>sub_5326E0
-7 bytes, not rewritten
+<rect x="1046.20" y="509.49" width="0.41" height="3.57" class="m"><title>sub_5326E0
+7 bytes, matching
 src/unsorted/53/tu_5326E0.cpp</title></rect>
 <rect x="1039.69" y="515.35" width="6.63" height="6.73" class="s"><title>sub_4A87D0
 251 bytes, not rewritten
@@ -22576,8 +22576,8 @@ src/game/ui/draw_rect.cpp</title></rect>
 <rect x="1180.28" y="439.81" width="6.21" height="6.18" class="s"><title>sub_4C53E0
 224 bytes, not rewritten
 src/unsorted/4C/tu_4C53E0.cpp</title></rect>
-<rect x="1186.79" y="439.51" width="0.21" height="6.78" class="s"><title>sub_4C54C0
-7 bytes, not rewritten
+<rect x="1186.79" y="439.51" width="0.21" height="6.78" class="m"><title>sub_4C54C0
+7 bytes, matching
 src/unsorted/4C/tu_4C53E0.cpp</title></rect>
 <rect x="1048.91" y="448.59" width="2.99" height="6.17" class="m"><title>sub_4E7E00
 118 bytes, matching
@@ -22882,8 +22882,8 @@ src/unsorted/56/tu_5633A0.cpp</title></rect>
 <rect x="1061.31" y="515.90" width="1.71" height="5.06" class="s"><title>sub_563440
 66 bytes, not rewritten
 src/unsorted/56/tu_5633A0.cpp</title></rect>
-<rect x="1061.01" y="521.26" width="2.31" height="0.60" class="s"><title>sub_563430
-7 bytes, not rewritten
+<rect x="1061.01" y="521.26" width="2.31" height="0.60" class="m"><title>sub_563430
+7 bytes, matching
 src/unsorted/56/tu_5633A0.cpp</title></rect>
 <rect x="1057.24" y="524.16" width="4.36" height="5.62" class="m"><title>_mbstrnlen_l
 156 bytes, matching
@@ -23518,8 +23518,8 @@ src/unsorted/52/tu_5229A0.cpp</title></rect>
 <rect x="1080.95" y="492.27" width="4.28" height="1.34" class="s"><title>sub_522A20
 32 bytes, not rewritten
 src/unsorted/52/tu_5229A0.cpp</title></rect>
-<rect x="1085.23" y="492.27" width="0.94" height="1.34" class="s"><title>sub_522A40
-7 bytes, not rewritten
+<rect x="1085.23" y="492.27" width="0.94" height="1.34" class="m"><title>sub_522A40
+7 bytes, matching
 src/unsorted/52/tu_5229A0.cpp</title></rect>
 <rect x="1081.25" y="495.91" width="2.87" height="4.62" class="s"><title>sub_4414B0
 101 bytes, not rewritten
@@ -23626,8 +23626,8 @@ src/unsorted/5A/tu_5A2F60.cpp</title></rect>
 <rect x="1084.59" y="581.93" width="1.58" height="4.29" class="s"><title>sub_5A2F90
 38 bytes, not rewritten
 src/unsorted/5A/tu_5A2F60.cpp</title></rect>
-<rect x="1084.59" y="586.21" width="1.58" height="0.79" class="s"><title>sub_5A2FC0
-7 bytes, not rewritten
+<rect x="1084.59" y="586.21" width="1.58" height="0.79" class="m"><title>sub_5A2FC0
+7 bytes, matching
 src/unsorted/5A/tu_5A2F60.cpp</title></rect>
 <rect x="1088.47" y="488.64" width="2.58" height="4.33" class="m"><title>AgStream::clone
 89 bytes, matching
@@ -23908,11 +23908,11 @@ src/lib/crt/memcpy_s.cpp</title></rect>
 <rect x="1136.90" y="502.16" width="4.07" height="3.72" class="m"><title>sub_4EA220
 123 bytes, matching
 src/game/util/pool_free.cpp</title></rect>
-<rect x="1143.57" y="502.16" width="2.09" height="3.72" class="s"><title>sub_441C00
-71 bytes, not rewritten
+<rect x="1143.57" y="502.16" width="2.09" height="3.72" class="m"><title>sub_441C00
+71 bytes, matching
 src/unsorted/44/tu_441C00.cpp</title></rect>
-<rect x="1145.96" y="501.86" width="1.93" height="4.32" class="s"><title>sub_441C50
-51 bytes, not rewritten
+<rect x="1145.96" y="501.86" width="1.93" height="4.32" class="m"><title>sub_441C50
+51 bytes, matching
 src/unsorted/44/tu_441C00.cpp</title></rect>
 <rect x="1150.19" y="502.16" width="1.97" height="3.72" class="m"><title>sub_475A00
 68 bytes, matching
@@ -24106,11 +24106,11 @@ src/unsorted/52/tu_52FFF0.cpp</title></rect>
 <rect x="1107.58" y="557.52" width="5.29" height="5.63" class="s"><title>std::_Node_str::vfn_0
 107 bytes, not rewritten
 src/lib/std/std__Node_str.cpp</title></rect>
-<rect x="1107.58" y="563.74" width="5.29" height="3.24" class="s"><title>sub_463530
-66 bytes, not rewritten
+<rect x="1107.58" y="563.74" width="5.29" height="3.24" class="m"><title>sub_463530
+66 bytes, matching
 src/unsorted/46/tu_463500.cpp</title></rect>
-<rect x="1107.58" y="567.58" width="5.29" height="1.73" class="s"><title>sub_463500
-40 bytes, not rewritten
+<rect x="1107.58" y="567.58" width="5.29" height="1.73" class="m"><title>sub_463500
+40 bytes, matching
 src/unsorted/46/tu_463500.cpp</title></rect>
 <rect x="1107.58" y="569.91" width="5.29" height="2.48" class="s"><title>sub_4A3D40
 53 bytes, not rewritten
@@ -24154,8 +24154,8 @@ src/engine/online/AgUser.cpp</title></rect>
 <rect x="1113.47" y="560.30" width="5.50" height="5.08" class="s"><title>sub_54DFF0
 101 bytes, not rewritten
 src/unsorted/54/tu_54DF80.cpp</title></rect>
-<rect x="1113.47" y="565.98" width="5.50" height="5.02" class="s"><title>sub_463290
-100 bytes, not rewritten
+<rect x="1113.47" y="565.98" width="5.50" height="5.02" class="m"><title>sub_463290
+100 bytes, matching
 src/unsorted/46/tu_463290.cpp</title></rect>
 <rect x="1113.47" y="571.60" width="2.94" height="5.02" class="p"><title>sub_4C8B50
 58 bytes, non matching
@@ -24163,8 +24163,8 @@ src/game/sprites/entry_table_ranges.cpp</title></rect>
 <rect x="1117.00" y="571.60" width="1.96" height="5.02" class="m"><title>sub_4C8B20
 42 bytes, matching
 src/game/sprites/entry_table_ranges.cpp</title></rect>
-<rect x="1113.47" y="577.22" width="5.50" height="4.97" class="s"><title>sub_464760
-99 bytes, not rewritten
+<rect x="1113.47" y="577.22" width="5.50" height="4.97" class="m"><title>sub_464760
+99 bytes, matching
 src/unsorted/46/tu_464760.cpp</title></rect>
 <rect x="1113.47" y="582.79" width="3.57" height="4.91" class="m"><title>abort
 67 bytes, matching
@@ -24430,8 +24430,8 @@ src/lib/std/std__Iostream_error_category.cpp</title></rect>
 <rect x="1172.88" y="530.86" width="4.54" height="4.80" class="s"><title>sub_4B9440
 81 bytes, not rewritten
 src/unsorted/4B/tu_4B9440.cpp</title></rect>
-<rect x="1172.58" y="535.96" width="5.14" height="0.27" class="s"><title>sub_4B94A0
-4 bytes, not rewritten
+<rect x="1172.58" y="535.96" width="5.14" height="0.27" class="m"><title>sub_4B94A0
+4 bytes, matching
 src/unsorted/4B/tu_4B9440.cpp</title></rect>
 <rect x="1178.02" y="530.86" width="4.54" height="5.07" class="m"><title>fgetpos
 85 bytes, matching
@@ -24511,8 +24511,8 @@ src/lib/crt/errmode.cpp</title></rect>
 <rect x="1182.98" y="540.60" width="5.02" height="0.89" class="m"><title>__set_app_type
 13 bytes, matching
 src/lib/crt/errmode.cpp</title></rect>
-<rect x="1141.46" y="541.79" width="4.12" height="4.70" class="s"><title>sub_462EF0
-73 bytes, not rewritten
+<rect x="1141.46" y="541.79" width="4.12" height="4.70" class="m"><title>sub_462EF0
+73 bytes, matching
 src/unsorted/46/tu_462EF0.cpp</title></rect>
 <rect x="1141.46" y="547.10" width="4.12" height="2.02" class="m"><title>sub_508760
 36 bytes, matching
@@ -24766,8 +24766,8 @@ src/game/ui/ui_misc_4A8EA0.cpp</title></rect>
 <rect x="1167.87" y="555.53" width="3.62" height="3.06" class="m"><title>sub_4845F0
 45 bytes, matching
 src/game/util/misc_73dcd4.cpp</title></rect>
-<rect x="1172.09" y="555.53" width="3.52" height="3.06" class="s"><title>sub_462F60
-44 bytes, not rewritten
+<rect x="1172.09" y="555.53" width="3.52" height="3.06" class="m"><title>sub_462F60
+44 bytes, matching
 src/unsorted/46/tu_462F60.cpp</title></rect>
 <rect x="1176.21" y="555.53" width="3.52" height="3.06" class="m"><title>?_Decref@_Ref_count_base@std@@QAEXXZ
 44 bytes, matching
