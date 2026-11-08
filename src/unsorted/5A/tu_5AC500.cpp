@@ -3,9 +3,11 @@ void sub_5AC500()
 {
 }
 
-// STUB: 0x5AC5B0 sub_5AC5B0 (20 bytes)
-void sub_5AC5B0()
+// FUNCTION: 0x5AC5B0 sub_5AC5B0
+void __cdecl sub_5AC5D0(int a, int b, int c);
+void __cdecl sub_5AC5B0(int a)
 {
+    sub_5AC5D0(a, 0, 0);
 }
 
 // STUB: 0x5AC5D0 sub_5AC5D0 (184 bytes)

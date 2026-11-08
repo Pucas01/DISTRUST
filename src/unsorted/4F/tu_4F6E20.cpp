@@ -38,7 +38,17 @@ void sub_4F7300()
 {
 }
 
-// STUB: 0x4F7325 sub_4F7325 (5 bytes)
-void sub_4F7325()
+// FUNCTION: 0x4F7325 sub_4F7325
+struct V4F7325 {
+    virtual void v0();
+    virtual void v1();
+    virtual void v2();
+    virtual void v3();
+    virtual void v4();
+    virtual void v5();
+    virtual void v6();
+};
+void __fastcall sub_4F7325(V4F7325* self)
 {
+    self->v6();
 }

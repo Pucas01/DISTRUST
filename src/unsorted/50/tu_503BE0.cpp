@@ -28,7 +28,9 @@ void sub_504300()
 {
 }
 
-// STUB: 0x504360 sub_504360 (5 bytes)
-void sub_504360()
+// FUNCTION: 0x504360 sub_504360
+void __cdecl sub_504C60();
+void __cdecl sub_504360()
 {
+    sub_504C60();
 }

@@ -13,9 +13,12 @@ void sub_529890()
 {
 }
 
-// STUB: 0x529990 sub_529990 (21 bytes)
-void sub_529990()
+// FUNCTION: 0x529990 sub_529990
+void __stdcall sub_5299B0(int a, int b);
+int __stdcall sub_529990(int a, int b)
 {
+    sub_5299B0(a, b);
+    return a;
 }
 
 // STUB: 0x5299B0 sub_5299B0 (98 bytes)

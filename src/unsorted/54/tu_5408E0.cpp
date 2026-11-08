@@ -13,9 +13,10 @@ void sub_540AF0()
 {
 }
 
-// STUB: 0x540B20 sub_540B20 (22 bytes)
-void sub_540B20()
+// FUNCTION: 0x540B20 sub_540B20
+void __fastcall sub_540B20(char* self, int, char* out)
 {
+    *(int*)(out + 0x84) = *(int*)(*(char**)(self + 8) + 0x10);
 }
 
 // STUB: 0x540B40 sub_540B40 (33 bytes)
@@ -28,9 +29,10 @@ void sub_540B70()
 {
 }
 
-// STUB: 0x540BB0 sub_540BB0 (7 bytes)
-void sub_540BB0()
+// FUNCTION: 0x540BB0 sub_540BB0
+int __fastcall sub_540BB0(char* self)
 {
+    return *(int*)(*(char**)(self + 8) + 0x14);
 }
 
 // STUB: 0x540BC0 sub_540BC0 (42 bytes)

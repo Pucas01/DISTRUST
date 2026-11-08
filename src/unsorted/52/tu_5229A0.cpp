@@ -8,7 +8,8 @@ void sub_522A20()
 {
 }
 
-// STUB: 0x522A40 sub_522A40 (7 bytes)
-void sub_522A40()
+// FUNCTION: 0x522A40 sub_522A40
+void __fastcall sub_522A40(char* self)
 {
+    *(int*)self = 0x63270c;
 }

@@ -18,9 +18,10 @@ void sub_525F70()
 {
 }
 
-// STUB: 0x525F90 sub_525F90 (4 bytes)
-void sub_525F90()
+// FUNCTION: 0x525F90 sub_525F90
+int __fastcall sub_525F90(char* self)
 {
+    return *(int*)(self + 0x10);
 }
 
 // STUB: 0x525FA0 sub_525FA0 (488 bytes)

@@ -38,7 +38,8 @@ void sub_506CC0()
 {
 }
 
-// STUB: 0x506DD0 sub_506DD0 (7 bytes)
-void sub_506DD0()
+// FUNCTION: 0x506DD0 sub_506DD0
+void __fastcall sub_506DD0(char* self)
 {
+    *(int*)self = 0x631fc8;
 }

@@ -3,9 +3,10 @@ void sub_53EE00()
 {
 }
 
-// STUB: 0x53EF30 sub_53EF30 (4 bytes)
-void sub_53EF30()
+// FUNCTION: 0x53EF30 sub_53EF30
+int __fastcall sub_53EF30(char* self)
 {
+    return *(int*)(self + 0x34);
 }
 
 // STUB: 0x53EF40 sub_53EF40 (92 bytes)

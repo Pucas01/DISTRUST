@@ -1,6 +1,7 @@
-// STUB: 0x5326E0 sub_5326E0 (7 bytes)
-void sub_5326E0()
+// FUNCTION: 0x5326E0 sub_5326E0
+void __fastcall sub_5326E0(char* self)
 {
+    *(int*)self = 0x632bb8;
 }
 
 // STUB: 0x5326F0 sub_5326F0 (115 bytes)

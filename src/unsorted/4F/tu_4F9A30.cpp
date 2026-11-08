@@ -28,9 +28,10 @@ void sub_4FA0A0()
 {
 }
 
-// STUB: 0x4FA110 sub_4FA110 (7 bytes)
-void sub_4FA110()
+// FUNCTION: 0x4FA110 sub_4FA110
+int __fastcall sub_4FA110(char* self)
 {
+    return *(int*)(self + 0x678);
 }
 
 // STUB: 0x4FA120 sub_4FA120 (271 bytes)

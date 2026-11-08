@@ -43,9 +43,10 @@ void sub_5A5E00()
 {
 }
 
-// STUB: 0x5A5E80 sub_5A5E80 (7 bytes)
-void sub_5A5E80()
+// FUNCTION: 0x5A5E80 sub_5A5E80
+void __fastcall sub_5A5E80(char* self)
 {
+    *(int*)self = 0x648b1c;
 }
 
 // STUB: 0x5A5E90 sub_5A5E90 (149 bytes)

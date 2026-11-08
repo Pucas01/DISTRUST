@@ -13,9 +13,13 @@ void sub_471B70()
 {
 }
 
-// STUB: 0x471CA0 sub_471CA0 (48 bytes)
-void sub_471CA0()
+// FUNCTION: 0x471CA0 sub_471CA0
+int __cdecl sub_471CA0(int* a, int x, int idx)
 {
+    int n = a[0];
+    if (idx == n - 1)
+        return ((-1 - n) << 2) - a[idx + 1] + x;
+    return a[idx + 2] - a[idx + 1];
 }
 
 // STUB: 0x471CD0 sub_471CD0 (508 bytes)

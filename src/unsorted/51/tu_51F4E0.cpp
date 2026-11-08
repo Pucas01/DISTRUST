@@ -23,9 +23,10 @@ void sub_51F700()
 {
 }
 
-// STUB: 0x51F7B0 sub_51F7B0 (3 bytes)
-void sub_51F7B0()
+// FUNCTION: 0x51F7B0 sub_51F7B0
+void* __fastcall sub_51F7B0(void* self)
 {
+    return self;
 }
 
 // STUB: 0x51F7C0 sub_51F7C0 (186 bytes)

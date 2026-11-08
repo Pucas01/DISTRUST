@@ -1,6 +1,9 @@
-// STUB: 0x4FF6C0 sub_4FF6C0 (20 bytes)
-void sub_4FF6C0()
+// FUNCTION: 0x4FF6C0 sub_4FF6C0
+void __fastcall sub_4FF6C0(char* self, int, int v)
 {
+    if (v < 0)
+        v = *(int*)(self + 8);
+    *(int*)(self + 4) = v;
 }
 
 // STUB: 0x4FF6E0 sub_4FF6E0 (129 bytes)

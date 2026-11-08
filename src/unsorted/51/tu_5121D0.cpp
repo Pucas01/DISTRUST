@@ -1,11 +1,13 @@
-// STUB: 0x5121D0 sub_5121D0 (4 bytes)
-void sub_5121D0()
+// FUNCTION: 0x5121D0 sub_5121D0
+char* __fastcall sub_5121D0(char* self)
 {
+    return self + 0x10;
 }
 
-// STUB: 0x5121E0 sub_5121E0 (4 bytes)
-void sub_5121E0()
+// FUNCTION: 0x5121E0 sub_5121E0
+int __fastcall sub_5121E0(char* self)
 {
+    return *(int*)(self + 0x20);
 }
 
 // STUB: 0x5121F0 sub_5121F0 (60 bytes)
