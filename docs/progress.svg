@@ -4564,8 +4564,8 @@ src/engine/input/AgInputManager.cpp</title></rect>
 <rect x="369.49" y="583.09" width="3.22" height="2.18" class="m"><title>AgInputManager::vfn_0
 33 bytes, matching
 src/engine/input/AgInputManager.cpp</title></rect>
-<rect x="369.19" y="585.57" width="2.25" height="1.43" class="s"><title>AgInputManager::vfn_5
-10 bytes, not rewritten
+<rect x="369.19" y="585.57" width="2.25" height="1.43" class="m"><title>AgInputManager::vfn_5
+10 bytes, matching
 src/engine/input/AgInputManager.cpp</title></rect>
 <rect x="371.44" y="585.57" width="1.57" height="1.43" class="m"><title>sub_4F6480
 7 bytes, matching
@@ -4741,8 +4741,8 @@ src/game/util/record_sums.cpp</title></rect>
 <rect x="423.80" y="145.57" width="3.08" height="3.16" class="s"><title>sub_41D3F0
 43 bytes, not rewritten
 src/game/util/record_sums.cpp</title></rect>
-<rect x="427.48" y="141.82" width="3.64" height="2.59" class="s"><title>sub_41B230
-42 bytes, not rewritten
+<rect x="427.48" y="141.82" width="3.64" height="2.59" class="m"><title>sub_41B230
+42 bytes, matching
 src/game/util/record_sums.cpp</title></rect>
 <rect x="427.48" y="145.00" width="3.64" height="2.21" class="s"><title>sub_41D370
 37 bytes, not rewritten
@@ -4858,8 +4858,8 @@ src/game/util/pending_73e8f8.cpp</title></rect>
 <rect x="420.57" y="272.76" width="4.59" height="4.47" class="s"><title>sub_49F030
 82 bytes, not rewritten
 src/game/util/pending_73e8f8.cpp</title></rect>
-<rect x="425.77" y="272.76" width="2.50" height="4.47" class="s"><title>sub_49DDD0
-49 bytes, not rewritten
+<rect x="425.77" y="272.76" width="2.50" height="4.47" class="m"><title>sub_49DDD0
+49 bytes, matching
 src/game/util/pending_73e8f8.cpp</title></rect>
 <rect x="428.87" y="272.76" width="2.25" height="4.47" class="m"><title>sub_49E750
 45 bytes, matching
@@ -5797,8 +5797,8 @@ src/game/screen/screen_timer.cpp</title></rect>
 <rect x="482.69" y="186.94" width="3.60" height="3.13" class="p"><title>sub_43E0E0
 49 bytes, non matching
 src/game/screen/screen_timer.cpp</title></rect>
-<rect x="482.69" y="190.67" width="1.62" height="3.44" class="s"><title>sub_43BC30
-28 bytes, not rewritten
+<rect x="482.69" y="190.67" width="1.62" height="3.44" class="m"><title>sub_43BC30
+28 bytes, matching
 src/game/screen/screen_timer.cpp</title></rect>
 <rect x="484.60" y="190.37" width="1.98" height="4.04" class="s"><title>sub_43BC50
 25 bytes, not rewritten
@@ -5872,8 +5872,8 @@ src/game/entries/slot_check_6a8ba0.cpp</title></rect>
 <rect x="484.15" y="305.88" width="2.13" height="3.96" class="m"><title>sub_42EB00
 39 bytes, matching
 src/game/entries/slot_check_6a8ba0.cpp</title></rect>
-<rect x="484.15" y="310.44" width="2.13" height="2.20" class="s"><title>sub_42F240
-24 bytes, not rewritten
+<rect x="484.15" y="310.44" width="2.13" height="2.20" class="m"><title>sub_42F240
+24 bytes, matching
 src/game/entries/slot_check_6a8ba0.cpp</title></rect>
 <rect x="433.72" y="315.24" width="37.54" height="26.49" class="s"><title>sub_4F0090
 3241 bytes, not rewritten
@@ -6010,8 +6010,8 @@ src/game/handles/record_free.cpp</title></rect>
 <rect x="474.95" y="416.14" width="4.62" height="4.34" class="m"><title>freeRec
 81 bytes, matching
 src/game/handles/record_free.cpp</title></rect>
-<rect x="474.95" y="421.08" width="4.62" height="3.85" class="s"><title>sub_4D3990
-73 bytes, not rewritten
+<rect x="474.95" y="421.08" width="4.62" height="3.85" class="m"><title>sub_4D3990
+73 bytes, matching
 src/game/handles/record_free.cpp</title></rect>
 <rect x="480.17" y="416.14" width="3.13" height="4.95" class="m"><title>sub_4D1E20
 65 bytes, matching
@@ -7009,8 +7009,8 @@ src/game/sprites/entry_table_ops.cpp</title></rect>
 <rect x="525.46" y="574.92" width="4.44" height="6.19" class="s"><title>sub_4C6790
 108 bytes, not rewritten
 src/game/sprites/entry_table_ops.cpp</title></rect>
-<rect x="525.46" y="581.71" width="4.44" height="4.99" class="p"><title>sub_4C6800
-89 bytes, non matching
+<rect x="525.46" y="581.71" width="4.44" height="4.99" class="m"><title>sub_4C6800
+89 bytes, matching
 src/game/sprites/entry_table_ops.cpp</title></rect>
 <rect x="530.50" y="574.92" width="5.08" height="4.25" class="s"><title>sub_4C78E0
 87 bytes, not rewritten
@@ -7435,8 +7435,8 @@ src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="581.33" y="217.19" width="6.42" height="3.46" class="s"><title>sub_4F93A0
 90 bytes, not rewritten
 src/engine/core/misc_wrappers.cpp</title></rect>
-<rect x="581.33" y="221.24" width="3.65" height="2.60" class="p"><title>fillInts
-43 bytes, non matching
+<rect x="581.33" y="221.24" width="3.65" height="2.60" class="m"><title>fillInts
+43 bytes, matching
 src/engine/core/misc_wrappers.cpp</title></rect>
 <rect x="581.33" y="224.44" width="3.65" height="1.56" class="m"><title>destroyBoxed
 29 bytes, matching
@@ -8620,8 +8620,8 @@ src/engine/render/AgResourceShaderProgramOpenGL.cpp</title></rect>
 <rect x="629.99" y="494.58" width="2.10" height="1.94" class="s"><title>AgResourceShaderProgramOpenGL::vfn_8
 13 bytes, not rewritten
 src/engine/render/AgResourceShaderProgramOpenGL.cpp</title></rect>
-<rect x="632.09" y="494.58" width="1.61" height="1.94" class="s"><title>AgResourceShaderProgramOpenGL::vfn_7
-10 bytes, not rewritten
+<rect x="632.09" y="494.58" width="1.61" height="1.94" class="m"><title>AgResourceShaderProgramOpenGL::vfn_7
+10 bytes, matching
 src/engine/render/AgResourceShaderProgramOpenGL.cpp</title></rect>
 <rect x="590.35" y="498.82" width="32.61" height="21.35" class="s"><title>sub_4215C0
 2326 bytes, not rewritten
@@ -9592,8 +9592,8 @@ src/game/util/block_reset.cpp</title></rect>
 <rect x="1182.97" y="51.49" width="2.52" height="1.59" class="m"><title>sub_48CDD0
 22 bytes, matching
 src/game/util/block_reset.cpp</title></rect>
-<rect x="1182.67" y="53.38" width="3.12" height="1.69" class="p"><title>resetState73E480
-17 bytes, non matching
+<rect x="1182.67" y="53.38" width="3.12" height="1.69" class="m"><title>resetState73E480
+17 bytes, matching
 src/game/util/block_reset.cpp</title></rect>
 <rect x="1185.80" y="51.19" width="1.20" height="3.88" class="m"><title>setWord73E412
 15 bytes, matching
@@ -10210,8 +10210,8 @@ src/game/mode/mode_state_73cc40.cpp</title></rect>
 <rect x="670.53" y="581.35" width="3.19" height="3.23" class="m"><title>sub_46BF10
 47 bytes, matching
 src/game/mode/mode_state_73cc40.cpp</title></rect>
-<rect x="670.53" y="585.18" width="3.19" height="1.52" class="s"><title>sub_46BF40
-26 bytes, not rewritten
+<rect x="670.53" y="585.18" width="3.19" height="1.52" class="m"><title>sub_46BF40
+26 bytes, matching
 src/game/mode/mode_state_73cc40.cpp</title></rect>
 <rect x="676.32" y="57.37" width="38.21" height="35.02" class="s"><title>sub_7E9390
 4473 bytes, not rewritten
@@ -10480,14 +10480,14 @@ src/game/util/state_73e5c8.cpp</title></rect>
 <rect x="869.57" y="74.24" width="5.51" height="4.91" class="s"><title>sub_49AA70
 109 bytes, not rewritten
 src/game/util/state_73e5c8.cpp</title></rect>
-<rect x="875.67" y="74.24" width="4.11" height="4.91" class="s"><title>sub_49A840
-84 bytes, not rewritten
+<rect x="875.67" y="74.24" width="4.11" height="4.91" class="m"><title>sub_49A840
+84 bytes, matching
 src/game/util/state_73e5c8.cpp</title></rect>
 <rect x="869.57" y="79.75" width="6.05" height="3.25" class="s"><title>sub_49B230
 83 bytes, not rewritten
 src/game/util/state_73e5c8.cpp</title></rect>
-<rect x="876.21" y="79.75" width="3.56" height="3.25" class="s"><title>sub_49A720
-52 bytes, not rewritten
+<rect x="876.21" y="79.75" width="3.56" height="3.25" class="m"><title>sub_49A720
+52 bytes, matching
 src/game/util/state_73e5c8.cpp</title></rect>
 <rect x="869.57" y="83.60" width="2.59" height="4.14" class="s"><title>sub_49A620
 49 bytes, not rewritten
@@ -10501,8 +10501,8 @@ src/game/util/state_73e5c8.cpp</title></rect>
 <rect x="876.57" y="83.60" width="3.21" height="2.48" class="m"><title>sub_49A970
 38 bytes, matching
 src/game/util/state_73e5c8.cpp</title></rect>
-<rect x="872.75" y="86.68" width="2.53" height="2.56" class="s"><title>sub_49A8A0
-32 bytes, not rewritten
+<rect x="872.75" y="86.68" width="2.53" height="2.56" class="m"><title>sub_49A8A0
+32 bytes, matching
 src/game/util/state_73e5c8.cpp</title></rect>
 <rect x="872.75" y="89.84" width="2.53" height="2.56" class="m"><title>sub_49A8E0
 32 bytes, matching
@@ -10534,8 +10534,8 @@ src/unsorted/48/tu_486BA0.cpp</title></rect>
 <rect x="912.90" y="83.21" width="7.44" height="5.58" class="s"><title>sub_487D30
 161 bytes, not rewritten
 src/unsorted/48/tu_486BA0.cpp</title></rect>
-<rect x="912.90" y="89.39" width="5.05" height="3.01" class="s"><title>sub_487BB0
-66 bytes, not rewritten
+<rect x="912.90" y="89.39" width="5.05" height="3.01" class="m"><title>sub_487BB0
+66 bytes, matching
 src/unsorted/48/tu_486BA0.cpp</title></rect>
 <rect x="918.54" y="89.39" width="1.80" height="3.01" class="s"><title>sub_486BA0
 28 bytes, not rewritten
@@ -10615,8 +10615,8 @@ src/engine/io/AgVirtualMount.cpp</title></rect>
 <rect x="994.08" y="90.67" width="3.77" height="1.73" class="m"><title>AgVirtualMount::vfn_0
 33 bytes, matching
 src/engine/io/AgVirtualMount.cpp</title></rect>
-<rect x="998.15" y="90.37" width="1.06" height="2.33" class="s"><title>AgVirtualMount::vfn_11
-8 bytes, not rewritten
+<rect x="998.15" y="90.37" width="1.06" height="2.33" class="m"><title>AgVirtualMount::vfn_11
+8 bytes, matching
 src/engine/io/AgVirtualMount.cpp</title></rect>
 <rect x="1001.51" y="57.37" width="21.20" height="25.30" class="s"><title>sub_47F4A0
 1835 bytes, not rewritten
@@ -10792,11 +10792,11 @@ src/engine/io/DRFileIOHost.cpp</title></rect>
 <rect x="1140.48" y="90.94" width="4.79" height="1.45" class="s"><title>DRFileIOHost::fn_4C6160
 36 bytes, not rewritten
 src/engine/io/DRFileIOHost.cpp</title></rect>
-<rect x="1145.57" y="90.64" width="1.65" height="2.05" class="s"><title>DRFileIOHost::vfn_4
-11 bytes, not rewritten
+<rect x="1145.57" y="90.64" width="1.65" height="2.05" class="p"><title>DRFileIOHost::vfn_4
+11 bytes, non matching
 src/engine/io/DRFileIOHost.cpp</title></rect>
-<rect x="1147.21" y="90.64" width="1.20" height="2.05" class="s"><title>DRFileIOHost::vfn_2
-8 bytes, not rewritten
+<rect x="1147.21" y="90.64" width="1.20" height="2.05" class="m"><title>DRFileIOHost::vfn_2
+8 bytes, matching
 src/engine/io/DRFileIOHost.cpp</title></rect>
 <rect x="1148.41" y="90.64" width="1.80" height="1.03" class="s"><title>DRFileIOHost::fn_4C5720
 6 bytes, not rewritten
@@ -10990,8 +10990,8 @@ src/game/mode/state_block_73e2a4.cpp</title></rect>
 <rect x="706.77" y="190.36" width="3.82" height="5.15" class="s"><title>sub_48B690
 83 bytes, not rewritten
 src/game/mode/state_block_73e2a4.cpp</title></rect>
-<rect x="697.65" y="196.11" width="4.84" height="4.02" class="s"><title>sub_48BD50
-82 bytes, not rewritten
+<rect x="697.65" y="196.11" width="4.84" height="4.02" class="m"><title>sub_48BD50
+82 bytes, matching
 src/game/mode/state_block_73e2a4.cpp</title></rect>
 <rect x="697.65" y="200.74" width="4.84" height="2.73" class="s"><title>sub_48B710
 59 bytes, not rewritten
@@ -11497,8 +11497,8 @@ src/engine/render/AgResourceMasks.cpp</title></rect>
 <rect x="840.01" y="124.75" width="3.09" height="2.12" class="s"><title>sub_4EF4B0
 33 bytes, not rewritten
 src/engine/render/AgResourceMasks.cpp</title></rect>
-<rect x="843.70" y="118.57" width="2.47" height="2.58" class="s"><title>sub_4EF470
-32 bytes, not rewritten
+<rect x="843.70" y="118.57" width="2.47" height="2.58" class="m"><title>sub_4EF470
+32 bytes, matching
 src/engine/render/AgResourceMasks.cpp</title></rect>
 <rect x="846.77" y="118.57" width="2.28" height="2.58" class="m"><title>setMasked_f48
 30 bytes, matching
@@ -11512,17 +11512,17 @@ src/engine/render/AgResourceMasks.cpp</title></rect>
 <rect x="843.70" y="124.61" width="2.59" height="2.27" class="m"><title>setMasked_f50
 30 bytes, matching
 src/engine/render/AgResourceMasks.cpp</title></rect>
-<rect x="846.89" y="121.74" width="2.56" height="2.10" class="s"><title>sub_4EEB90
-28 bytes, not rewritten
+<rect x="846.89" y="121.74" width="2.56" height="2.10" class="m"><title>sub_4EEB90
+28 bytes, matching
 src/engine/render/AgResourceMasks.cpp</title></rect>
-<rect x="850.05" y="121.74" width="1.88" height="2.10" class="s"><title>sub_4EF450
-22 bytes, not rewritten
+<rect x="850.05" y="121.74" width="1.88" height="2.10" class="m"><title>sub_4EF450
+22 bytes, matching
 src/engine/render/AgResourceMasks.cpp</title></rect>
 <rect x="846.89" y="124.45" width="1.51" height="2.43" class="s"><title>sub_4EEDA0
 21 bytes, not rewritten
 src/engine/render/AgResourceMasks.cpp</title></rect>
-<rect x="848.71" y="124.15" width="1.81" height="3.03" class="s"><title>sub_4EF490
-18 bytes, not rewritten
+<rect x="848.71" y="124.15" width="1.81" height="3.03" class="m"><title>sub_4EF490
+18 bytes, matching
 src/engine/render/AgResourceMasks.cpp</title></rect>
 <rect x="850.52" y="124.15" width="1.71" height="3.03" class="m"><title>getField2CAddr
 17 bytes, matching
@@ -11917,8 +11917,8 @@ src/game/handles/texture_release.cpp</title></rect>
 <rect x="737.82" y="179.89" width="5.75" height="4.03" class="s"><title>sub_4D0360
 97 bytes, not rewritten
 src/game/handles/texture_release.cpp</title></rect>
-<rect x="737.82" y="184.52" width="5.75" height="3.22" class="s"><title>sub_4CF9C0
-80 bytes, not rewritten
+<rect x="737.82" y="184.52" width="5.75" height="3.22" class="m"><title>sub_4CF9C0
+80 bytes, matching
 src/game/handles/texture_release.cpp</title></rect>
 <rect x="737.82" y="188.34" width="3.10" height="4.56" class="m"><title>releaseTextures744C
 63 bytes, matching
@@ -11956,8 +11956,8 @@ src/engine/render/AgResourceAccessors.cpp</title></rect>
 <rect x="730.72" y="216.72" width="3.21" height="4.32" class="s"><title>sub_4EDFE0
 62 bytes, not rewritten
 src/engine/render/AgResourceAccessors.cpp</title></rect>
-<rect x="730.72" y="221.64" width="3.21" height="3.13" class="s"><title>sub_4ED880
-47 bytes, not rewritten
+<rect x="730.72" y="221.64" width="3.21" height="3.13" class="m"><title>sub_4ED880
+47 bytes, matching
 src/engine/render/AgResourceAccessors.cpp</title></rect>
 <rect x="730.72" y="225.38" width="3.21" height="2.58" class="s"><title>sub_4EDFB0
 40 bytes, not rewritten
@@ -11986,8 +11986,8 @@ src/engine/render/AgResourceAccessors.cpp</title></rect>
 <rect x="741.26" y="220.15" width="2.31" height="2.42" class="s"><title>sub_4EDCD0
 29 bytes, not rewritten
 src/engine/render/AgResourceAccessors.cpp</title></rect>
-<rect x="738.25" y="223.17" width="2.44" height="2.09" class="s"><title>sub_4ED8B0
-27 bytes, not rewritten
+<rect x="738.25" y="223.17" width="2.44" height="2.09" class="m"><title>sub_4ED8B0
+27 bytes, matching
 src/engine/render/AgResourceAccessors.cpp</title></rect>
 <rect x="738.25" y="225.86" width="2.44" height="2.09" class="s"><title>sub_4EE4C0
 27 bytes, not rewritten
@@ -13267,8 +13267,8 @@ src/engine/render/AgResourceTexture2dD3D.cpp</title></rect>
 <rect x="769.89" y="216.28" width="3.33" height="3.20" class="s"><title>AgResourceTexture2dD3D::fn_539F50
 50 bytes, not rewritten
 src/engine/render/AgResourceTexture2dD3D.cpp</title></rect>
-<rect x="769.59" y="219.78" width="3.93" height="0.76" class="s"><title>AgResourceTexture2dD3D::vfn_9
-10 bytes, not rewritten
+<rect x="769.59" y="219.78" width="3.93" height="0.76" class="m"><title>AgResourceTexture2dD3D::vfn_9
+10 bytes, matching
 src/engine/render/AgResourceTexture2dD3D.cpp</title></rect>
 <rect x="746.16" y="222.85" width="8.62" height="7.12" class="m"><title>vp8_sad16x16x8_c
 238 bytes, matching
@@ -13912,17 +13912,17 @@ src/game/screen/ratio_table_7007d4.cpp</title></rect>
 <rect x="905.70" y="182.43" width="5.62" height="4.09" class="s"><title>sub_4355E0
 98 bytes, not rewritten
 src/game/screen/ratio_table_7007d4.cpp</title></rect>
-<rect x="911.92" y="172.43" width="3.98" height="5.25" class="s"><title>sub_435380
-90 bytes, not rewritten
+<rect x="911.92" y="172.43" width="3.98" height="5.25" class="m"><title>sub_435380
+90 bytes, matching
 src/game/screen/ratio_table_7007d4.cpp</title></rect>
 <rect x="916.49" y="172.43" width="3.72" height="5.25" class="s"><title>sub_435580
 85 bytes, not rewritten
 src/game/screen/ratio_table_7007d4.cpp</title></rect>
-<rect x="920.82" y="172.43" width="3.47" height="5.25" class="s"><title>sub_435870
-80 bytes, not rewritten
+<rect x="920.82" y="172.43" width="3.47" height="5.25" class="m"><title>sub_435870
+80 bytes, matching
 src/game/screen/ratio_table_7007d4.cpp</title></rect>
-<rect x="911.92" y="178.28" width="4.32" height="4.06" class="s"><title>sub_435A40
-77 bytes, not rewritten
+<rect x="911.92" y="178.28" width="4.32" height="4.06" class="m"><title>sub_435A40
+77 bytes, matching
 src/game/screen/ratio_table_7007d4.cpp</title></rect>
 <rect x="911.92" y="182.94" width="4.32" height="3.57" class="s"><title>sub_435330
 69 bytes, not rewritten
@@ -13981,8 +13981,8 @@ src/game/sprites/bound_texture.cpp</title></rect>
 <rect x="971.27" y="178.97" width="8.60" height="7.54" class="s"><title>allocTextureSlot
 252 bytes, not rewritten
 src/game/sprites/bound_texture.cpp</title></rect>
-<rect x="980.47" y="178.97" width="2.91" height="4.83" class="s"><title>sub_4DC400
-64 bytes, not rewritten
+<rect x="980.47" y="178.97" width="2.91" height="4.83" class="m"><title>sub_4DC400
+64 bytes, matching
 src/game/sprites/bound_texture.cpp</title></rect>
 <rect x="980.47" y="184.40" width="1.70" height="2.11" class="s"><title>sub_4DBA60
 21 bytes, not rewritten
@@ -14125,8 +14125,8 @@ src/engine/render/AgResourceTexture2dOpenGL.cpp</title></rect>
 <rect x="1067.78" y="183.63" width="2.90" height="2.88" class="s"><title>AgResourceTexture2dOpenGL::vfn_11
 41 bytes, not rewritten
 src/engine/render/AgResourceTexture2dOpenGL.cpp</title></rect>
-<rect x="1070.98" y="183.33" width="0.77" height="3.48" class="s"><title>AgResourceTexture2dOpenGL::vfn_9
-9 bytes, not rewritten
+<rect x="1070.98" y="183.33" width="0.77" height="3.48" class="m"><title>AgResourceTexture2dOpenGL::vfn_9
+9 bytes, matching
 src/engine/render/AgResourceTexture2dOpenGL.cpp</title></rect>
 <rect x="1074.05" y="160.34" width="17.36" height="13.18" class="s"><title>sub_524230
 833 bytes, not rewritten
@@ -14728,8 +14728,8 @@ src/engine/system/AgSystemManager.cpp</title></rect>
 <rect x="825.64" y="209.90" width="2.00" height="1.44" class="s"><title>AgSystemManager::vfn_1
 18 bytes, not rewritten
 src/engine/system/AgSystemManager.cpp</title></rect>
-<rect x="825.34" y="211.64" width="2.60" height="1.47" class="s"><title>AgSystemManager::vfn_2
-13 bytes, not rewritten
+<rect x="825.34" y="211.64" width="2.60" height="1.47" class="m"><title>AgSystemManager::vfn_2
+13 bytes, matching
 src/engine/system/AgSystemManager.cpp</title></rect>
 <rect x="827.95" y="209.60" width="1.85" height="1.12" class="m"><title>sub_516BC0
 7 bytes, matching
@@ -14803,8 +14803,8 @@ src/engine/render/AgResourceShaderOpenGL.cpp</title></rect>
 <rect x="880.67" y="211.13" width="4.31" height="1.98" class="s"><title>AgResourceShaderOpenGL::vfn_5
 29 bytes, not rewritten
 src/engine/render/AgResourceShaderOpenGL.cpp</title></rect>
-<rect x="884.98" y="211.13" width="1.34" height="1.98" class="s"><title>AgResourceShaderOpenGL::vfn_6
-9 bytes, not rewritten
+<rect x="884.98" y="211.13" width="1.34" height="1.98" class="m"><title>AgResourceShaderOpenGL::vfn_6
+9 bytes, matching
 src/engine/render/AgResourceShaderOpenGL.cpp</title></rect>
 <rect x="888.62" y="189.11" width="7.80" height="16.76" class="s"><title>AgPCInputManager::fn_524DC0
 496 bytes, not rewritten
@@ -16180,8 +16180,8 @@ src/game/util/slot_tracking.cpp</title></rect>
 <rect x="838.72" y="560.10" width="4.42" height="4.10" class="s"><title>sub_4419F0
 82 bytes, not rewritten
 src/game/util/slot_tracking.cpp</title></rect>
-<rect x="843.74" y="553.80" width="3.44" height="3.95" class="s"><title>sub_441550
-64 bytes, not rewritten
+<rect x="843.74" y="553.80" width="3.44" height="3.95" class="m"><title>sub_441550
+64 bytes, matching
 src/game/util/slot_tracking.cpp</title></rect>
 <rect x="847.78" y="553.80" width="3.38" height="3.95" class="m"><title>sub_441990
 63 bytes, matching
@@ -17143,8 +17143,8 @@ src/game/mode/map_draw_call.cpp</title></rect>
 <rect x="936.30" y="273.52" width="3.39" height="6.14" class="s"><title>sub_475FE0
 95 bytes, not rewritten
 src/game/mode/map_draw_call.cpp</title></rect>
-<rect x="940.29" y="273.52" width="3.05" height="6.14" class="s"><title>sub_475F80
-87 bytes, not rewritten
+<rect x="940.29" y="273.52" width="3.05" height="6.14" class="m"><title>sub_475F80
+87 bytes, matching
 src/game/mode/map_draw_call.cpp</title></rect>
 <rect x="936.00" y="279.97" width="7.64" height="1.07" class="m"><title>sub_4760F0
 29 bytes, matching
@@ -17203,8 +17203,8 @@ src/game/sprites/reset_calls.cpp</title></rect>
 <rect x="982.52" y="262.35" width="6.01" height="12.10" class="s"><title>sub_4C4510
 297 bytes, not rewritten
 src/game/sprites/reset_calls.cpp</title></rect>
-<rect x="982.52" y="275.05" width="3.00" height="5.69" class="s"><title>sub_4C4A40
-80 bytes, not rewritten
+<rect x="982.52" y="275.05" width="3.00" height="5.69" class="m"><title>sub_4C4A40
+80 bytes, matching
 src/game/sprites/reset_calls.cpp</title></rect>
 <rect x="986.11" y="275.05" width="2.41" height="5.69" class="m"><title>sub_4C4640
 67 bytes, matching
@@ -17890,8 +17890,8 @@ src/unsorted/5A/tu_5A54B0.cpp</title></rect>
 <rect x="1087.11" y="283.34" width="13.35" height="17.14" class="s"><title>sub_4F28B0
 890 bytes, not rewritten
 src/game/util/rec755_table.cpp</title></rect>
-<rect x="1101.06" y="283.34" width="4.03" height="4.03" class="s"><title>sub_4F2860
-77 bytes, not rewritten
+<rect x="1101.06" y="283.34" width="4.03" height="4.03" class="m"><title>sub_4F2860
+77 bytes, matching
 src/game/util/rec755_table.cpp</title></rect>
 <rect x="1101.06" y="287.97" width="4.03" height="3.07" class="m"><title>resetTable755AE8
 61 bytes, matching
@@ -17899,8 +17899,8 @@ src/game/util/rec755_table.cpp</title></rect>
 <rect x="1101.06" y="291.64" width="4.03" height="2.59" class="m"><title>sub_4F2800
 53 bytes, matching
 src/game/util/rec755_table.cpp</title></rect>
-<rect x="1101.06" y="294.83" width="4.03" height="2.17" class="s"><title>sub_4F27D0
-46 bytes, not rewritten
+<rect x="1101.06" y="294.83" width="4.03" height="2.17" class="m"><title>sub_4F27D0
+46 bytes, matching
 src/game/util/rec755_table.cpp</title></rect>
 <rect x="1100.76" y="297.29" width="1.91" height="3.49" class="m"><title>sub_4F27B0
 24 bytes, matching
@@ -18310,11 +18310,11 @@ src/game/screen/ratio_table_calls.cpp</title></rect>
 <rect x="926.61" y="303.08" width="5.12" height="4.69" class="s"><title>sub_435FE0
 110 bytes, not rewritten
 src/game/screen/ratio_table_calls.cpp</title></rect>
-<rect x="932.33" y="303.08" width="3.25" height="4.69" class="s"><title>sub_435F30
-74 bytes, not rewritten
+<rect x="932.33" y="303.08" width="3.25" height="4.69" class="m"><title>sub_435F30
+74 bytes, matching
 src/game/screen/ratio_table_calls.cpp</title></rect>
-<rect x="926.61" y="308.37" width="4.66" height="3.11" class="s"><title>sub_436160
-71 bytes, not rewritten
+<rect x="926.61" y="308.37" width="4.66" height="3.11" class="m"><title>sub_436160
+71 bytes, matching
 src/game/screen/ratio_table_calls.cpp</title></rect>
 <rect x="931.87" y="308.37" width="3.70" height="3.11" class="m"><title>sub_436050
 58 bytes, matching
@@ -18322,8 +18322,8 @@ src/game/screen/ratio_table_calls.cpp</title></rect>
 <rect x="926.61" y="312.08" width="3.19" height="3.32" class="m"><title>sub_435D40
 54 bytes, matching
 src/game/screen/ratio_table_calls.cpp</title></rect>
-<rect x="926.61" y="316.00" width="3.19" height="2.81" class="s"><title>sub_436130
-47 bytes, not rewritten
+<rect x="926.61" y="316.00" width="3.19" height="2.81" class="m"><title>sub_436130
+47 bytes, matching
 src/game/screen/ratio_table_calls.cpp</title></rect>
 <rect x="930.40" y="312.08" width="2.39" height="3.26" class="m"><title>sub_435F90
 42 bytes, matching
@@ -18550,8 +18550,8 @@ src/game/screen/handle_release.cpp</title></rect>
 <rect x="1162.62" y="317.13" width="3.23" height="1.68" class="p"><title>sub_4A61C0
 32 bytes, non matching
 src/game/screen/handle_release.cpp</title></rect>
-<rect x="1166.45" y="314.64" width="1.69" height="2.74" class="s"><title>sub_4A6280
-28 bytes, not rewritten
+<rect x="1166.45" y="314.64" width="1.69" height="2.74" class="m"><title>sub_4A6280
+28 bytes, matching
 src/game/screen/handle_release.cpp</title></rect>
 <rect x="1166.15" y="317.68" width="2.29" height="1.43" class="m"><title>setWord73EA86
 12 bytes, matching
@@ -18877,8 +18877,8 @@ src/game/handles/slot_cleanup.cpp</title></rect>
 <rect x="1090.38" y="332.75" width="4.92" height="3.66" class="s"><title>sub_46CE50
 88 bytes, not rewritten
 src/game/handles/slot_cleanup.cpp</title></rect>
-<rect x="1095.90" y="327.91" width="4.00" height="4.11" class="s"><title>sub_46CFA0
-81 bytes, not rewritten
+<rect x="1095.90" y="327.91" width="4.00" height="4.11" class="m"><title>sub_46CFA0
+81 bytes, matching
 src/game/handles/slot_cleanup.cpp</title></rect>
 <rect x="1100.50" y="327.91" width="3.88" height="4.11" class="s"><title>sub_46D000
 79 bytes, not rewritten
@@ -19129,23 +19129,23 @@ src/game/util/word_e9c0.cpp</title></rect>
 <rect x="936.58" y="482.23" width="7.81" height="6.78" class="s"><title>sub_49F390
 235 bytes, not rewritten
 src/game/util/word_e9c0.cpp</title></rect>
-<rect x="944.99" y="482.23" width="2.89" height="3.33" class="s"><title>sub_49F480
-52 bytes, not rewritten
+<rect x="944.99" y="482.23" width="2.89" height="3.33" class="m"><title>sub_49F480
+52 bytes, matching
 src/game/util/word_e9c0.cpp</title></rect>
-<rect x="948.49" y="482.23" width="1.89" height="3.33" class="p"><title>sub_49F640
-37 bytes, non matching
+<rect x="948.49" y="482.23" width="1.89" height="3.33" class="m"><title>sub_49F640
+37 bytes, matching
 src/game/util/word_e9c0.cpp</title></rect>
-<rect x="944.69" y="485.87" width="1.76" height="3.45" class="p"><title>sub_49F350
-23 bytes, non matching
+<rect x="944.69" y="485.87" width="1.76" height="3.45" class="m"><title>sub_49F350
+23 bytes, matching
 src/game/util/word_e9c0.cpp</title></rect>
-<rect x="946.46" y="485.87" width="1.76" height="3.45" class="p"><title>sub_49F370
-23 bytes, non matching
+<rect x="946.46" y="485.87" width="1.76" height="3.45" class="m"><title>sub_49F370
+23 bytes, matching
 src/game/util/word_e9c0.cpp</title></rect>
 <rect x="948.52" y="486.17" width="1.85" height="1.77" class="m"><title>sub_49F680
 22 bytes, matching
 src/game/util/word_e9c0.cpp</title></rect>
-<rect x="948.22" y="488.24" width="2.45" height="1.08" class="p"><title>setWord73E9C0
-10 bytes, non matching
+<rect x="948.22" y="488.24" width="2.45" height="1.08" class="m"><title>setWord73E9C0
+10 bytes, matching
 src/game/util/word_e9c0.cpp</title></rect>
 <rect x="936.58" y="491.62" width="7.25" height="7.24" class="s"><title>sub_501340
 233 bytes, not rewritten
@@ -19309,8 +19309,8 @@ src/game/handles/handles.cpp</title></rect>
 <rect x="997.62" y="347.08" width="1.90" height="4.22" class="m"><title>allocHandleC
 46 bytes, matching
 src/game/handles/handles.cpp</title></rect>
-<rect x="994.82" y="351.61" width="5.00" height="0.89" class="p"><title>clearFlags7016A5
-17 bytes, non matching
+<rect x="994.82" y="351.61" width="5.00" height="0.89" class="m"><title>clearFlags7016A5
+17 bytes, matching
 src/game/handles/handles.cpp</title></rect>
 <rect x="1002.12" y="339.00" width="5.00" height="6.98" class="m"><title>screenStateCase9
 162 bytes, matching
@@ -21001,14 +21001,14 @@ src/game/util/state_e8c4.cpp</title></rect>
 <rect x="1177.46" y="403.57" width="3.86" height="1.57" class="s"><title>sub_49F1D0
 41 bytes, not rewritten
 src/game/util/state_e8c4.cpp</title></rect>
-<rect x="1181.92" y="396.05" width="2.13" height="2.87" class="p"><title>sub_49F220
-40 bytes, non matching
+<rect x="1181.92" y="396.05" width="2.13" height="2.87" class="m"><title>sub_49F220
+40 bytes, matching
 src/game/util/state_e8c4.cpp</title></rect>
-<rect x="1184.64" y="396.05" width="2.06" height="2.87" class="p"><title>sub_49F1A0
-39 bytes, non matching
+<rect x="1184.64" y="396.05" width="2.06" height="2.87" class="m"><title>sub_49F1A0
+39 bytes, matching
 src/game/util/state_e8c4.cpp</title></rect>
-<rect x="1181.92" y="399.51" width="2.56" height="2.16" class="p"><title>sub_49F300
-37 bytes, non matching
+<rect x="1181.92" y="399.51" width="2.56" height="2.16" class="m"><title>sub_49F300
+37 bytes, matching
 src/game/util/state_e8c4.cpp</title></rect>
 <rect x="1185.08" y="399.51" width="1.62" height="2.16" class="m"><title>sub_49F170
 26 bytes, matching
@@ -21025,8 +21025,8 @@ src/game/util/state_e8c4.cpp</title></rect>
 <rect x="1185.57" y="401.98" width="1.43" height="1.82" class="m"><title>setFloat73E854
 11 bytes, matching
 src/game/util/state_e8c4.cpp</title></rect>
-<rect x="1185.57" y="403.80" width="1.43" height="1.65" class="p"><title>setWord73E8C4
-10 bytes, non matching
+<rect x="1185.57" y="403.80" width="1.43" height="1.65" class="m"><title>setWord73E8C4
+10 bytes, matching
 src/game/util/state_e8c4.cpp</title></rect>
 <rect x="1007.86" y="407.75" width="9.10" height="5.13" class="s"><title>sub_483D30
 236 bytes, not rewritten
@@ -22075,8 +22075,8 @@ src/game/mode/entry_toggle_73e142.cpp</title></rect>
 <rect x="1068.24" y="435.25" width="4.35" height="1.96" class="s"><title>sub_486A50
 59 bytes, not rewritten
 src/game/mode/entry_toggle_73e142.cpp</title></rect>
-<rect x="1073.19" y="435.25" width="1.92" height="1.96" class="s"><title>sub_486B60
-30 bytes, not rewritten
+<rect x="1073.19" y="435.25" width="1.92" height="1.96" class="m"><title>sub_486B60
+30 bytes, matching
 src/game/mode/entry_toggle_73e142.cpp</title></rect>
 <rect x="1077.71" y="430.07" width="3.40" height="3.96" class="m"><title>sub_4DA3F0
 85 bytes, matching
@@ -22096,8 +22096,8 @@ src/engine/system/AgProgram.cpp</title></rect>
 <rect x="1086.84" y="436.15" width="5.22" height="1.36" class="m"><title>AgProgram::vfn_0
 33 bytes, matching
 src/engine/system/AgProgram.cpp</title></rect>
-<rect x="1092.06" y="436.15" width="1.42" height="1.36" class="s"><title>AgProgram::vfn_4
-9 bytes, not rewritten
+<rect x="1092.06" y="436.15" width="1.42" height="1.36" class="m"><title>AgProgram::vfn_4
+9 bytes, matching
 src/engine/system/AgProgram.cpp</title></rect>
 <rect x="1093.48" y="436.15" width="0.79" height="1.36" class="s"><title>AgProgram::vfn_1
 5 bytes, not rewritten
@@ -22786,8 +22786,8 @@ src/engine/render/AgResource.cpp</title></rect>
 <rect x="1048.61" y="490.15" width="5.09" height="1.31" class="m"><title>AgResource::vfn_0
 33 bytes, matching
 src/engine/render/AgResource.cpp</title></rect>
-<rect x="1053.70" y="490.15" width="1.23" height="1.31" class="s"><title>AgResource::vfn_2
-8 bytes, not rewritten
+<rect x="1053.70" y="490.15" width="1.23" height="1.31" class="m"><title>AgResource::vfn_2
+8 bytes, matching
 src/engine/render/AgResource.cpp</title></rect>
 <rect x="1048.91" y="493.77" width="5.72" height="5.67" class="m"><title>_fsopen
 196 bytes, matching
@@ -23047,8 +23047,8 @@ src/lib/crt/printf.cpp</title></rect>
 <rect x="1140.51" y="457.35" width="4.10" height="2.71" class="s"><title>sub_441CA0
 80 bytes, not rewritten
 src/game/util/state_73c3c0.cpp</title></rect>
-<rect x="1140.51" y="460.66" width="4.10" height="2.09" class="s"><title>sub_441CF0
-65 bytes, not rewritten
+<rect x="1140.51" y="460.66" width="4.10" height="2.09" class="m"><title>sub_441CF0
+65 bytes, matching
 src/game/util/state_73c3c0.cpp</title></rect>
 <rect x="1144.91" y="457.05" width="1.52" height="3.19" class="m"><title>sub_441D60
 25 bytes, matching
@@ -23899,8 +23899,8 @@ src/engine/core/Uninit_5A4940.cpp</title></rect>
 <rect x="1123.12" y="502.16" width="2.86" height="3.72" class="s"><title>sub_40C130
 90 bytes, not rewritten
 src/engine/vp8/vp8_energy_sum.cpp</title></rect>
-<rect x="1126.29" y="501.86" width="1.42" height="4.32" class="p"><title>sub_40C190
-37 bytes, non matching
+<rect x="1126.29" y="501.86" width="1.42" height="4.32" class="m"><title>sub_40C190
+37 bytes, matching
 src/engine/vp8/vp8_energy_sum.cpp</title></rect>
 <rect x="1130.01" y="502.16" width="4.29" height="3.72" class="m"><title>memcpy_s
 127 bytes, matching
@@ -24778,8 +24778,8 @@ src/lib/std/std_ios_base.cpp</title></rect>
 <rect x="1184.36" y="555.53" width="2.59" height="3.06" class="m"><title>??_GJob@AgThreadPool@@UAEPAXI@Z
 34 bytes, matching
 src/engine/thread/AgThreadPool_Job.cpp</title></rect>
-<rect x="1187.25" y="555.23" width="0.75" height="3.66" class="s"><title>AgThreadPool::Job::vfn_3
-8 bytes, not rewritten
+<rect x="1187.25" y="555.23" width="0.75" height="3.66" class="m"><title>AgThreadPool::Job::vfn_3
+8 bytes, matching
 src/engine/thread/AgThreadPool_Job.cpp</title></rect>
 <rect x="1159.25" y="559.19" width="3.15" height="3.24" class="m"><title>shared_5C66ED
 42 bytes, matching
